@@ -1,0 +1,114 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alphadia"
+requires-python = ">=3.10.0"
+dynamic = ["version", "dependencies", "optional-dependencies"]
+
+authors = [
+    {name = "Mann Labs", email = "wallmann@biochem.mpg.de"}
+]
+description = "A novel proteomics search engine for DIA data based on end-to-end transfer learning."
+readme = "README.md"
+keywords = [
+    "mass spectrometry",
+    "proteomics",
+    "search engine",
+    "DIA",
+    "data-independent acquisition",
+    "bioinformatics",
+    "AlphaPept",
+    "AlphaPept ecosystem",
+]
+license = {file = "LICENSE.txt"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    # "Development Status :: 5 - Production/Stable",
+    # "Development Status :: 6 - Mature",
+    # "Development Status :: 7 - Inactive"
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.urls]
+
+"Paper preprint" = "https://www.biochem.mpg.de/mann"
+Repository = "https://github.com/MannLabs/alphadia"
+#Documentation = "https://readthedocs.org"
+#Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+Issues = "https://github.com/MannLabs/alphadia/issues"
+"Mann Labs Homepage" = "https://www.biochem.mpg.de/mann"
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.setuptools.dynamic]
+# https://stackoverflow.com/a/73600610
+dependencies = {file = ["requirements/requirements_loose.txt"]}
+optional-dependencies = { stable = { file = ["requirements/requirements.txt",
+] }, test = { file = [ "requirements/requirements_test.txt",
+] }, development = { file = ["requirements/requirements_development.txt", "requirements/requirements_test.txt", "requirements/requirements_docs.txt"
+] }}
+version = {attr = "alphadia.__version__"}
+
+[project.scripts]
+alphadia = "alphadia.cli:run"
+
+[tool.ruff]
+extend-exclude = ["misc/.bumpversion.cfg", "tests"]
+
+[tool.ruff.lint]
+select =  [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+    #"ALL"
+]
+
+ignore = [
+    "D",
+    "ANN",
+    "SLF001", # Private member accessed TODO this needs to be fixed in alphabase
+
+    "E501",  # Line too long  (ruff wraps code, but not docstrings)
+    "B028",  #  No explicit `stacklevel` keyword argument found (for warnings)
+    "B905",  # This causes problems in numba code: `zip()` without an explicit `strict=` parameter
+    "COM812", #may cause conflicts when used with the formatter
+    "ISC001", #may cause conflicts when used with the formatter
+    "D211", # no-blank-line-before-class
+    "D213", # multi-line-summary-second-line
+    "S101", # Use of `assert` detected
+    "INP001", # implicit namespace package.
+    "ERA001", # Found commented-out code
+    "D203", # 1 blank line required before class docstring
+    "TD002", "TD003", "FIX002",  # things around TO-DO
+    "PT011", #pytest.raises(ValueError) is too broad
+    "G004", "EM102", # Logging statement uses f-string
+    "TRY003", # Avoid specifying long messages outside the exception class
+    "ANN101", # Missing type annotation for `self` in method
+    "ANN102", # Missing type annotation for `cls` in classmethod
+    "ANN002", # Missing type annotation for `*args`
+    "ANN003", # Missing type annotation for `**kwargs
+    "FA102", # Missing `from __future__ import annotations
+    "EM101", # Exception must not use a string literal, assign to variable first
+    "D104", # Missing docstring in public package
+    "ANN204", # Missing return type annotation for special method `__init__`
+    "D401", # First line of docstring should be in imperative mood
+    "B023", # Function definition does not bind loop variable
+    "PD901", # Avoid using the generic variable name `df` for DataFrames"
+    "TCH003", # Move standard library import into a type-checking block
+]
