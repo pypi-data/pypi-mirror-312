@@ -1,0 +1,191 @@
+{
+    "type": "object",
+    "title": "CadOrchestrator Config Options Schema",
+    "description": "This schema defines all the possible configurations of a hardware project. This is used to generate the UI of the CadOrchestrator server and to format the JSON response that goes to the project's configuration function.",
+    "properties": {
+      "options": {
+        "description": "This is a list of the configuration options",
+        "type": "array",
+        "items": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/list-option"
+            },
+            {
+              "$ref": "#/definitions/numeric-option"
+            },
+            {
+              "$ref": "#/definitions/text-option"
+            },
+            {
+              "$ref": "#/definitions/boolean-option"
+            }
+          ]
+        }
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "options"
+    ],
+    "definitions": {
+      "list-option": {
+        "description": "Allows the user to add a list of items. You can have multiple types of items to add. These are set with add-options",
+        "type": "object",
+        "properties": {
+          "option-type": {
+            "description": "Set this to \"list\", to specify this is a list-option",
+            "const": "list"
+          },
+          "label": {
+            "description": "Optional. Add a label at the top of the whole list.",
+            "type": "string"
+          },
+          "item-name": {
+            "description": "Optional. Each item will be labelled in the list as \"Item 1\", \"Item 2\". Use this to override the word \"Item\".",
+            "type": "string"
+          },
+          "response-key": {
+            "description": "Required. This is the key in the generated configuration JSON returned to your configuration function",
+            "type": "string"
+          },
+          "add-options": {
+            "description": "Required. This is a list of the add buttons for the list and the options they set.",
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/add-option"
+            }
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "option-type",
+          "response-key",
+          "add-options"
+        ]
+      },
+      "numeric-option": {
+        "type": "object",
+        "properties": {
+          "option-type": {
+            "description": "Set this to \"numeric\", to specify this is a numeric-option",
+            "const": "numeric"
+          },
+          "label": {
+            "description": "Required. Add a label for this option in the WebApp.",
+            "type": "string"
+          },
+          "default": {
+            "description": "Optional. The default value.",
+            "type": "number"
+          },
+          "response-key": {
+            "description": "Required. This is the key in the generated configuration JSON returned to your configuration function",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "option-type",
+          "label",
+          "response-key"
+        ]
+      },
+      "text-option": {
+        "type": "object",
+        "properties": {
+          "option-type": {
+            "description": "Set this to \"text\", to specify this is a text-option",
+            "const": "text"
+          },
+          "label": {
+            "description": "Required. Add a label for this option in the WebApp.",
+            "type": "string"
+          },
+          "default": {
+            "description": "Optional. The default value.",
+            "type": "string"
+          },
+          "response-key": {
+            "description": "Required. This is the key in the generated configuration JSON returned to your configuration function",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "option-type",
+          "label",
+          "response-key"
+        ]
+      },
+      "boolean-option": {
+        "type": "object",
+        "properties": {
+          "option-type": {
+            "description": "Set this to \"boolean\", to specify this is a boolean-option",
+            "const": "boolean"
+          },
+          "label": {
+            "description": "Required. Add a label for this option in the WebApp.",
+            "type": "string"
+          },
+          "default": {
+            "description": "Optional. The default value.",
+            "type": "boolean"
+          },
+          "response-key": {
+            "description": "Required. This is the key in the generated configuration JSON returned to your configuration function",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "option-type",
+          "label",
+          "response-key"
+        ]
+      },
+      "add-option": {
+        "type": "object",
+        "description": "This sets a dropdown to add items to a list. Lists can have multiple add-options.",
+        "properties": {
+          "display-name": {
+            "description": "The name of the of this category to be used in the WebApp.",
+            "type": "string"
+          },
+          "id": {
+            "description": "A javascript friendly version of the above display name",
+            "type": "string"
+          },
+          "items": {
+            "description": "All possible values. This creates list of options in the dropdown menu.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "description": "The value in the returned JSON if this is chosen",
+                  "type": "string"
+                },
+                "name": {
+                  "description": "The name that shows up in the WebApp.",
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "name"
+              ]
+            }
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "display-name",
+          "id",
+          "items"
+        ]
+      }
+    }
+  }
