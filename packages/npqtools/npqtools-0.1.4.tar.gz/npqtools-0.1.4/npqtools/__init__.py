@@ -1,0 +1,1 @@
+all = ['Clique', 'QuboHam', 'QuboKnapsack', 'MaxWeightClique', 'QuboSalesman']
