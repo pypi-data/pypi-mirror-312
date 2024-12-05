@@ -1,0 +1,17 @@
+odoo/addons/account_dms_field/README.rst,sha256=vMjLh1WEqLtp8hr9Ogwgfd0XNOPUftEEwVXgIHWzwLw,3749
+odoo/addons/account_dms_field/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/account_dms_field/__manifest__.py,sha256=r26spgCj3v3x32OhP5A3PjF6E6yQg3SSGhJxDE_wfZY,405
+odoo/addons/account_dms_field/demo/account_dms_data.xml,sha256=bc6kHBqQ-hCOhJFGDnipVZcTIjejYa4scY5xOVWN3Cc,855
+odoo/addons/account_dms_field/i18n/account_dms_field.pot,sha256=VmPR-thBDAPR0caZ-WwbZiaVTyExZmwDmSK4KnbtHac,1086
+odoo/addons/account_dms_field/i18n/it.po,sha256=qifaLqbBbvcZ4J759AFy5tS45VT8Wq5T8wHvSL0KNvY,1324
+odoo/addons/account_dms_field/models/__init__.py,sha256=r45RxHmQhPA9opawiXPJ31Lwbb7gu6GbDDlQiqmF_ak,60
+odoo/addons/account_dms_field/models/account_move.py,sha256=nNREGR8SU2O26U0pKc_IIkU3NnPsTga3Vhi2rN4fWt8,137
+odoo/addons/account_dms_field/models/dms_field_template.py,sha256=I5JJAUHs1xSsR4dxDpvgZugkahLw6Qvpoku7S9Azb_s,359
+odoo/addons/account_dms_field/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/account_dms_field/tests/__init__.py,sha256=8VEzicy8RChh3j22lowWA2vlxYhKbp75P12fe8O_HOo,37
+odoo/addons/account_dms_field/tests/test_account_dms_field.py,sha256=KDIOWgmis2qMO3XD6BFP6mZ0ezTp3iChnB7k_cqP_pM,2236
+odoo/addons/account_dms_field/views/account_move_view.xml,sha256=MIGAz12TTKSa-YairFM3VVMk_YpZ5sCm_17mKRYFRVw,745
+odoo_addon_account_dms_field-16.0.1.0.1.dist-info/METADATA,sha256=u4NrXx9CwEb-mxjnQ9ltkuMNwrk-RO0ZZTkM6s5ird4,4324
+odoo_addon_account_dms_field-16.0.1.0.1.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+odoo_addon_account_dms_field-16.0.1.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_account_dms_field-16.0.1.0.1.dist-info/RECORD,,
