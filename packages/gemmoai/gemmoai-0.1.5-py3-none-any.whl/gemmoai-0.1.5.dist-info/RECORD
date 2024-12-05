@@ -1,0 +1,9 @@
+gemmoai/__init__.py,sha256=4F6gMPjJXcCAV_QowYn6nIW9bLJLMqXe0WHa2xaKe7Y,24
+gemmoai/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gemmoai/image/__init__.py,sha256=dytvA3V26liV9qBQdcaef0NJYxDLEaSq9crgob5ZScA,66
+gemmoai/image/image_to_base64.py,sha256=B5VYsjhRCuPlC3DiCrMWUl2EFrSjYPD5M1StDtSfBcI,1310
+gemmoai/pdf/__init__.py,sha256=nTmelZS1wuvfeWK8VfAGNltGyHIhShnqt6dyWin9jvY,59
+gemmoai/pdf/pdf_to_image.py,sha256=vYunchczJlMUoRBYEshgrelXUeNId4PNEDJ3nwUieyw,1102
+gemmoai-0.1.5.dist-info/METADATA,sha256=x2VdMo98oYUx9qxFcV3lL08h3cxmspI1YbTQ876j97Q,421
+gemmoai-0.1.5.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+gemmoai-0.1.5.dist-info/RECORD,,
