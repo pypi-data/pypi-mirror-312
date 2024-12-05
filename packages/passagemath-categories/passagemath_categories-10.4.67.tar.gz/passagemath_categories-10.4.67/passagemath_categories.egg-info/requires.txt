@@ -1,0 +1,5 @@
+passagemath-objects~=10.4.67.0
+memory_allocator
+
+[test]
+passagemath-repl
