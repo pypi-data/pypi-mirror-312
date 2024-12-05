@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "vovo"
+version = "0.4.5"
+description = "vovo base package"
+authors = ["Ark <ark.wu@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "~0.115.5"
+uvicorn = "~0.32.1"
+sqlmodel = "~0.0.22"
+motor = "~3.6.0"
+requests="~2.32.3"
+tqdm = "~4.67.1"
+sentry-sdk = {extras = ["fastapi"], version = "^2.19.0"}
+httpx = { version = "~0.28.0", extras = ["http2"] }
+redis = "~5.2.0"
+pydantic = "~2.10.2"
+pydantic-settings = "~2.6.1"
+python-ulid = {extras = ['pydantic'], version = "~3.0.0"}
+pandas= "~2.2.2"
+openpyxl = "~3.1.5"
+pyjwt = "^2.10.1"
+structlog = "^24.4.0"
+colorama = "^0.4.6"
+bcrypt = "4.0.1"
+
+[tool.poetry.extras]
+deploy = ["redis"]
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+pytest-asyncio = "^0.24.0"
+flake8 = "~7.1.1"
+
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers"
+asyncio_default_fixture_loop_scope = "function"  # 或者 'session', 'module', 'class'
+markers = [
+    "asyncio: mark test as asyncio-based"
+]
+testpaths = [
+    "tests"
+]
