@@ -1,0 +1,87 @@
+Metadata-Version: 2.3
+Name: happy-migrations
+Version: 0.0.3
+Summary: Hopefully no tears.
+Project-URL: Homepage, https://github.com/Zimzozaur/happy-migrations
+Project-URL: Issues, https://github.com/Zimzozaur/happy-migrations/issues
+Author-email: Simon Piechutowski <szymonpiechutowski@gmail.com>
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Typing :: Typed
+Requires-Python: >=3.12
+Requires-Dist: click~=8.1.7
+Requires-Dist: textual
+Provides-Extra: dev
+Requires-Dist: coverage~=7.6.8; extra == 'dev'
+Requires-Dist: pre-commit~=4.0.1; extra == 'dev'
+Requires-Dist: pytest~=8.3.2; extra == 'dev'
+Requires-Dist: ruff>=0.6.1; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Happy Migrations: Hopefully no tears. (WIP)
+Architecture:
+
+- up
+- up-all
+- up-to
+
+Require Access to DB
+- down
+- down-to
+- down-all
+
+TODO:
+1. Display nice error messages for lacking happy.ini or its data
+
+
+Flow:
+1. create - Create mig file.
+2. up:
+   1. check which should be applied
+   2. parse mig
+   3. apply mig
+   4. add to the status
+3. down:
+   1. check which should be rolled back
+   2. parse mig
+   3. rollback mig
+   4. remove from the status
+
+
+
+Test:
+- Coverage
+- Commands
+- Data classes
+
+
+CLI:
+- Print notifications like:
+  - Warning: No migration to apply
+  - Success: Migration has being applied
+
+Docs:
+- Create docs with MkDocs
+
+
+Commands:
+- up
+- up-all
+- up-to
+- down
+- down-to
+- down-all
+- status
+- create
+- fixture
