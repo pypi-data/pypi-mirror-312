@@ -1,0 +1,205 @@
+"""Flywheel HTTP API sync client."""
+
+import os
+import time
+import typing as t
+from functools import cached_property
+from random import random
+
+import httpx
+from fw_utils import AttrDict
+from packaging import version
+
+from . import common
+from .base import FWClientBase
+from .common import Response, httpx_anon
+
+
+class FWClient(FWClientBase):
+    """Flywheel sync HTTP API Client."""
+
+    base_class = httpx.Client
+    transport_class = httpx.HTTPTransport
+
+    @cached_property
+    def retry(self):
+        """Return retry function."""
+        retry_http_error, retry_transport_error = self.retry_decorators
+
+        @retry_http_error
+        @retry_transport_error
+        def retry_errors(func, *args, **kwargs):
+            return func(*args, **kwargs)
+
+        return retry_errors
+
+    def _get_device_key(self) -> str:
+        """Return device API key for the given drone_secret (cached)."""
+        drone = (self.base_url, self.device_type, self.device_label)
+        if drone not in common.DRONE_DEVICE_KEYS:
+            # limit the use of the secret only for acquiring a device api key
+            assert self.drone_secret and self.device_type and self.device_label
+            headers = {
+                "X-Scitran-Auth": self.drone_secret,
+                "X-Scitran-Method": self.device_type,
+                "X-Scitran-Name": self.device_label,
+            }
+            kwargs: t.Any = {"headers": headers, "auth": None}
+            # core-api auto-creates new device entries based on type and label
+            # however, it may create conflicting ones for parallel requests...
+            # FLYW-17258 intended to fix and guard against that, to no avail
+            # to mitigate, add some(0-1) jitter before the 1st connection
+            if "PYTEST_CURRENT_TEST" not in os.environ:
+                time.sleep(random())  # pragma: no cover
+            # furthermore, delete redundant device entries, leaving only the 1st
+            # ie. try to enforce type/label uniqueness from the client side
+            type_filter = f"type={self.device_type}"
+            label_filter = f"label={self.device_label}"
+            query = f"filter={type_filter}&filter={label_filter}"
+            url = "/api/devices"
+            devices = self.get(f"{url}?{query}", **kwargs)
+            for device in devices[1:]:  # type: ignore
+                self.delete(f"{url}/{device._id}", **kwargs)
+            # legacy api keys are auto-generated and returned on the response
+            # TODO generate key if not exposed after devices get enhanced keys
+            # NOTE caching will need rework and move to self due to expiration
+            device = self.get(f"{url}/self", **kwargs)
+            common.DRONE_DEVICE_KEYS[drone] = device.key
+        return common.DRONE_DEVICE_KEYS[drone]
+
+    def _cached_get(self, path: str) -> AttrDict:
+        """Return GET response cached with a one hour TTL."""
+        now = time.time()
+        val, exp = self._cache.get(path, (None, 0))
+        if not val or now > exp:
+            val = self.get(path)
+            self._cache[path] = val, now + common.CACHE_TTL
+        return val
+
+    def get_core_config(self) -> AttrDict:
+        """Return Core's configuration."""
+        return self._cached_get("/api/config")
+
+    def get_core_version(self) -> t.Optional[str]:
+        """Return Core's release version."""
+        return self._cached_get("/api/version").get("release")
+
+    def get_auth_status(self) -> AttrDict:
+        """Return the client's auth status."""
+        status = self._cached_get("/api/auth/status")
+        resource = "devices" if status.is_device else "users"
+        status["info"] = self._cached_get(f"/api/{resource}/self")
+        return status
+
+    def check_feature(self, feature: str) -> bool:
+        """Return True if Core has the given feature and it's enabled."""
+        features = self.get_core_config().features
+        return bool(features.get(feature))  # type: ignore
+
+    def check_version(self, min_ver: str) -> bool:
+        """Return True if Core's version is greater or equal to 'min_ver'."""
+        if not (core_version := self.get_core_version()):
+            # assume latest on dev deployments without a version
+            return True
+        return version.parse(core_version) >= version.parse(min_ver)
+
+    def request(self, method: str, url: str, raw: bool = False, **kwargs):  # type: ignore
+        """Send request and return loaded JSON response."""
+        need_auth = kwargs.get("auth", True) and "Authorization" not in self.headers
+        if not self.defer_auth and need_auth:
+            api_key = self._get_device_key()
+            key_type = "Bearer" if len(api_key) == 57 else "scitran-user"
+            self.headers["Authorization"] = f"{key_type} {api_key}"
+        url, kwargs = self.prepare_request(url, kwargs)
+        response = self.retry(super().request, method, url, **kwargs)
+        response.__class__ = Response
+        # return response when raw=True
+        if raw:
+            return response
+        # raise if there was an http error (eg. 404)
+        response.raise_for_status()
+        # don't load empty response as json
+        if not response.content:
+            return None
+        return response.json()
+
+    def get(self, url: str, **kwargs):  # type: ignore
+        """Send a `GET` request."""
+        return self.request("GET", url, **kwargs)
+
+    def options(self, url: str, **kwargs):  # type: ignore
+        """Send a `OPTIONS` request."""
+        return self.request("OPTIONS", url, **kwargs)  # pragma: no cover
+
+    def head(self, url: str, **kwargs):  # type: ignore
+        """Send a `HEAD` request."""
+        return self.request("HEAD", url, **kwargs)  # pragma: no cover
+
+    def post(self, url: str, **kwargs):  # type: ignore
+        """Send a `POST` request."""
+        return self.request("POST", url, **kwargs)
+
+    def put(self, url: str, **kwargs):  # type: ignore
+        """Send a `PUT` request."""
+        return self.request("PUT", url, **kwargs)  # pragma: no cover
+
+    def patch(self, url: str, **kwargs):  # type: ignore
+        """Send a `PATCH` request."""
+        return self.request("PATCH", url, **kwargs)  # pragma: no cover
+
+    def delete(self, url: str, **kwargs):  # type: ignore
+        """Send a `DELETE` request."""
+        return self.request("DELETE", url, **kwargs)
+
+    def upload_device_file(
+        self,
+        project_id: str,
+        file: t.BinaryIO,
+        origin: t.Optional[dict] = None,
+        content_encoding: t.Optional[str] = None,
+    ) -> str:
+        """Upload a single file using the /api/storage/files endpoint (device only)."""
+        auth_status = self.get_auth_status()
+        assert auth_status.is_device, "Device authentication required"
+        url = "/api/storage/files"
+        origin = origin or auth_status.origin
+        params = {
+            "project_id": project_id,
+            "origin_type": origin["type"],
+            "origin_id": origin["id"],
+            "signed_url": True,
+        }
+        headers = {"Content-Encoding": content_encoding} if content_encoding else {}
+        response = self.post(url, params=params, headers=headers, raw=True)
+        if response.is_success:
+            upload = response.json()
+            headers = upload.get("upload_headers") or {}
+            if hasattr(file, "getbuffer"):
+                headers["Content-Length"] = str(file.getbuffer().nbytes)
+            else:
+                headers["Content-Length"] = str(os.fstat(file.fileno()).st_size)
+            try:
+
+                def stream():
+                    while chunk := file.read(common.MEGABYTE):
+                        yield chunk
+
+                self.put(
+                    url=upload["upload_url"],
+                    auth=httpx_anon,
+                    headers=headers,
+                    content=stream(),
+                )
+            # make sure we clean up any residue on failure
+            except httpx.HTTPError:
+                del_url = f"{url}/{upload['storage_file_id']}"
+                self.delete(del_url, params={"ignore_storage_errors": True})
+                raise
+        # core's 409 means no signed url support - upload directly instead
+        elif response.status_code == 409:
+            del params["signed_url"]
+            files = {"file": file}
+            upload = self.post(url, params=params, headers=headers, files=files)
+        else:
+            response.raise_for_status()
+        return upload["storage_file_id"]
