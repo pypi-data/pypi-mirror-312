@@ -1,0 +1,13 @@
+tno/mpc/encryption_schemes/dgk/__init__.py,sha256=IPdRTVhCOOiPnSsn4ZFaU_zxW3ZP-f7rIh9V_3_sjBU,769
+tno/mpc/encryption_schemes/dgk/dgk.py,sha256=nQDUveai-0WGgOFbmrTceARp-wKeZcPlrk1k-udsm4M,35080
+tno/mpc/encryption_schemes/dgk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tno/mpc/encryption_schemes/dgk/test/__init__.py,sha256=HTJVdVYwI4KIPdZb0tvsK6oXXLrngwnYjWG0GLSirkE,2567
+tno/mpc/encryption_schemes/dgk/test/test_encryption.py,sha256=JGvJSmhTsr4KeT1HxHXeh4YJsmOt6FmfWv7gokRuZGo,18288
+tno/mpc/encryption_schemes/dgk/test/test_equality.py,sha256=LdB0vrxLkLGoSBI0VHnlmIXlhAlJYpKNL7be1KPJpPY,1030
+tno/mpc/encryption_schemes/dgk/test/test_keygen.py,sha256=fhPdclh4yXgD8_q-GxmckkuRvlGHZuMSKP4e22NkOjc,5834
+tno/mpc/encryption_schemes/dgk/test/test_serialization.py,sha256=DtNSOBiAQl9-ic-yoJgMN9DzYMi_et8br0qEYIGkf-4,11740
+tno.mpc.encryption_schemes.dgk-3.0.5.dist-info/LICENSE,sha256=lB7ho16PcqLAjZJKDQt7-2cu_GFjDVQsI5s6-4U1ZBY,10991
+tno.mpc.encryption_schemes.dgk-3.0.5.dist-info/METADATA,sha256=oCZw_gwE9qVrcKFHPhPfZX6y3GG5nVAcbWlHcx_w8LQ,17405
+tno.mpc.encryption_schemes.dgk-3.0.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+tno.mpc.encryption_schemes.dgk-3.0.5.dist-info/top_level.txt,sha256=7cHKx5j6ibiq14EYKPAhHk_NqB8u-nPUjh5R4TDqpHo,4
+tno.mpc.encryption_schemes.dgk-3.0.5.dist-info/RECORD,,
