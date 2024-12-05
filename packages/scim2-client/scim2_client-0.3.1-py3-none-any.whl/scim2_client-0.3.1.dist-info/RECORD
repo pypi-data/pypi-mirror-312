@@ -1,0 +1,11 @@
+scim2_client/__init__.py,sha256=KpNDJW9e2WseqSsQ6FltkQzemHM52NACfpJTd3eSIuY,853
+scim2_client/client.py,sha256=CYZbkakM1dvcKO5wWMSRAMg2VfiYSI3_Ma7_fod169k,40159
+scim2_client/errors.py,sha256=mxjUvarjvX3797w2NzdLqc6zxCQZlOga8cYABWpUAXM,4401
+scim2_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scim2_client/engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scim2_client/engines/httpx.py,sha256=uqONJhFUdFf8W-GndL-mB_Z33FRuwgXAb2PczTB7wLg,16268
+scim2_client/engines/werkzeug.py,sha256=9KcViIJVzSda6cpeiM-_dFjp5HFDBFkfiGRaUx4utrk,9107
+scim2_client-0.3.1.dist-info/METADATA,sha256=uOKAfR90R1mbskVFqsLXvvyO-k0GclVt49ETK9WAiy4,16997
+scim2_client-0.3.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+scim2_client-0.3.1.dist-info/licenses/LICENSE.md,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scim2_client-0.3.1.dist-info/RECORD,,
