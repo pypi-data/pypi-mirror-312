@@ -1,0 +1,91 @@
+Metadata-Version: 2.3
+Name: PySimultan
+Version: 0.5.2.5
+Project-URL: Documentation, https://github.com/BÃ¼hler Maximilian/PySimultan2#readme
+Project-URL: Issues, https://github.com/BÃ¼hler Maximilian/PySimultan2/issues
+Project-URL: Source, https://github.com/BÃ¼hler Maximilian/PySimultan2
+Author-email: BÃ¼hler Maximilian <maximilian.buehler@tuwien.ac.at>
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: colorlog
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: pythonnet
+Requires-Dist: ruamel-yaml
+Requires-Dist: six
+Requires-Dist: tqdm
+Description-Content-Type: text/markdown
+
+# pysimultan_api
+
+[![PyPI - Version](https://img.shields.io/pypi/v/pysimultan-api.svg)](https://pypi.org/project/pysimultan-api)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pysimultan-api.svg)](https://pypi.org/project/pysimultan-api)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+- [Usage](#usage)
+- [FreeCAD support](#freecad-support)
+- [Change Log](#change-log)
+
+## Installation
+
+```console
+pip install PySimultan
+```
+
+## License
+
+`pysimultan-api` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
+
+### Usage
+
+```python
+from PySimultan2 import DataModel, Content, TaxonomyMap, PythonMapper
+```
+
+
+## FreeCAD support
+
+PySimultanUI looks for a FreeCAD version in C:\Program Files\FreeCAD. If you don't have FreeCAD installed, you can 
+download it from the FreeCAD website or use the FreeCAD version provided in the FreeCAD-Bundle repository.
+Go to https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds and download the latest version 
+of FreeCAD for your OS. The version must be compiled with the same python version you are using (e.g. py311). 
+
+Extract the zip file to C:\Program Files\FreeCAD
+
+The directory structure should look like this:
+
+```
+C:\Program Files\FreeCAD
+│   ...
+│   FreeCAD_weekly-builds-37730-conda-Windows-x86_64-py311
+│       │   bin
+│       │   lib
+│       │   ...
+│
+
+```
+
+
+# Change Log
+
+## [0.4.20] - 2024-07-01
+- Fixed Bug in nested dictionary creation
+
+## [0.4.19] - 2024-07-01
+- Refactored dictionaries 
