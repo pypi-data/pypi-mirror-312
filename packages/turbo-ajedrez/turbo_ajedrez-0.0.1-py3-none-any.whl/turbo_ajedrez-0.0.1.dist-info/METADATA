@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: turbo_ajedrez
+Version: 0.0.1
+Summary: Chess board - enumerate possible moves fast - immutable boards. Each move comes with the resulting board.
+Home-page: https://github.com/zbenmo/ajedrez
+Author: Oren Zeev-Ben-Mordehai
+Author-email: zbenmo@gmail.com
+Keywords: Chess
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+Provides-Extra: examples
+Requires-Dist: jupyterlab; extra == "examples"
+Requires-Dist: pandas; extra == "examples"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# ajedrez
+chess board - hopefully more efficient
