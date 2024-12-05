@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: JVLMotor
+Version: 0.0.3
+Summary: A library for JVL motors communication with different protocols
+Home-page: UNKNOWN
+Author: JVL A/S
+Author-email: atv@jvl.dk
+Maintainer: JVL A/S
+Maintainer-email: Support@jvl.dk
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.9.4
+License-File: LICENSE
+Requires-Dist: ea-psu-controller==1.1.0
+Requires-Dist: libscrc==1.8.1
+Requires-Dist: pymodbus==3.5.2
+Requires-Dist: pyserial==3.5
+Requires-Dist: pyuac==0.0.3
+Requires-Dist: pywinauto==0.6.8
+
+Documentation is available upon request. Please contact JVL A/S maintainer for more information.
+
