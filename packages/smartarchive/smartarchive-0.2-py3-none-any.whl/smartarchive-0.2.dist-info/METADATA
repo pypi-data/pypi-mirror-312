@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: smartarchive
+Version: 0.2
+Summary: A simple Python library of ai doc manage
+Author: bjzy
+Author-email: your_email@example.com
+Requires-Python: >=3.11
+
