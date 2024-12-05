@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gcol
+Version: 0.0.3
+Summary: A Python Library for Graph Coloring
+Home-page: https://github.com/Rhyd-Lewis/GCol
+Author: Rhyd Lewis
+Author-email: lewisr9@cardiff.ac.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: networkx>=3.0
