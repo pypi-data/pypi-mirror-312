@@ -1,0 +1,27 @@
+[project]
+name = "local_broadcast"
+version = "0.0.7"
+authors = [
+  { name="Roberto Gambuzzi", email="gambuzzi@gmail.com" },
+]
+description = "A python library to send message to all instances of the current running program on local LAN"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "zmq",
+  "zeroconf",
+]
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/gambuzzi/local-broadcast"
+Issues = "https://github.com/gambuzzi/local-broadcast/issues"
