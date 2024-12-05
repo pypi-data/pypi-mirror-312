@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: AgilisysDailyTenders
+Version: 1.0.2
+Summary: Agilisys Tender Alert is a data processing, web scraping, and classification tool focused on tender data. The project uses Playwright to automate web filtering and scraping, then processes and classifies the scraped data using various NLP techniques to retain only relevant tenders.
+Author: Sowmya
+Author-email: sowmya.reachout@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: blis==0.7.11
+Requires-Dist: catalogue==2.0.10
+Requires-Dist: certifi==2024.8.30
+Requires-Dist: charset-normalizer==3.4.0
+Requires-Dist: click==8.1.7
+Requires-Dist: colorama==0.4.6
+Requires-Dist: confection==0.1.5
+Requires-Dist: cymem==2.0.8
+Requires-Dist: et-xmlfile==2.0.0
+Requires-Dist: filelock==3.16.1
+Requires-Dist: fsspec==2024.10.0
+Requires-Dist: greenlet==3.0.3
+Requires-Dist: huggingface-hub==0.26.2
+Requires-Dist: idna==3.10
+Requires-Dist: Jinja2==3.1.4
+Requires-Dist: joblib==1.4.2
+Requires-Dist: langcodes==3.5.0
+Requires-Dist: language-data==1.3.0
+Requires-Dist: marisa-trie==1.2.1
+Requires-Dist: MarkupSafe==3.0.2
+Requires-Dist: mpmath==1.3.0
+Requires-Dist: murmurhash==1.0.10
+Requires-Dist: networkx==3.4.2
+Requires-Dist: numpy==1.24.4
+Requires-Dist: openpyxl==3.1.5
+Requires-Dist: packaging==24.2
+Requires-Dist: pandas==2.2.2
+Requires-Dist: pathlib-abc==0.1.1
+Requires-Dist: pathy==0.11.0
+Requires-Dist: pillow==11.0.0
+Requires-Dist: playwright==1.46.0
+Requires-Dist: preshed==3.0.9
+Requires-Dist: pydantic==1.10.19
+Requires-Dist: pyee==11.1.0
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pytz==2024.2
+Requires-Dist: PyYAML==6.0.2
+Requires-Dist: regex==2023.12.25
+Requires-Dist: requests==2.32.3
+Requires-Dist: safetensors==0.4.5
+Requires-Dist: scikit-learn==1.5.1
+Requires-Dist: scipy==1.14.1
+Requires-Dist: sentence-transformers==3.0.1
+Requires-Dist: six==1.16.0
+Requires-Dist: smart-open==6.4.0
+Requires-Dist: soupsieve==2.6
+Requires-Dist: spacy==3.5.0
+Requires-Dist: spacy-legacy==3.0.12
+Requires-Dist: spacy-loggers==1.0.5
+Requires-Dist: srsly==2.4.8
+Requires-Dist: sympy==1.13.1
+Requires-Dist: thinc==8.1.12
+Requires-Dist: threadpoolctl==3.5.0
+Requires-Dist: tokenizers==0.20.3
+Requires-Dist: torch==2.5.1
+Requires-Dist: tqdm==4.67.0
+Requires-Dist: transformers==4.46.3
+Requires-Dist: typer==0.7.0
+Requires-Dist: typing-extensions==4.12.2
+Requires-Dist: tzdata==2024.2
+Requires-Dist: urllib3==2.2.3
+Requires-Dist: wasabi==1.1.3
+
+# Agilisys Tender ALert
+
+Agilisys Tender Alert is a data processing, web scraping, and classification tool focused on tender data. The project uses Playwright to automate web filtering and scraping, then processes and classifies the scraped data using various NLP techniques to retain only relevant tenders.
+
+## Project Overview
+This project aims to streamline the tender selection process by:
+
+1. Scraping data from tender websites after applying specific filters via Playwright.
+2. Cleaning and preprocessing the scraped data.
+3. Classifying relevant tenders using various NLP methods.
+4. Exporting the relevant tenders to a new Excel file for review.
+
+## Installation
+1. Using pip (PyPI Release)
+   To install the package from PyPI, run:
+   >> pip install Agilisys_Daily_Tender
+
+2. Run a python file with the below code in it
+   >> from AgilisysDailyTender import main
+
+## Output
+The final Excel file (Shortlisted_Tenders_<timestamp>.xlsx) will contain only the tenders that passed the classification criteria, along with any relevant metadata and URLs.
+All the tenders are saved in case if there is a need of reference under the corresponding Excel files (<WebsiteName>_extracted_data_<timestamp>)
