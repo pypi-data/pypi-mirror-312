@@ -1,0 +1,14 @@
+click
+PyYAML
+circlify
+f90nml
+loguru
+matplotlib
+
+[docs]
+myst-parser
+sphinx_rtd_theme
+
+[tests]
+pytest
+click
