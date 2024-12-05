@@ -1,0 +1,22 @@
+[project]
+name = "snuffkin-playground"
+version = "0.1.1"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "quri-parts>=0.20.3",
+]
+
+[project.urls]
+homepage = "https://github.com/snuffkin/snuffkin-playground/blob/main/README.md"
+documentation = "https://github.com/snuffkin/snuffkin-playground"
+repository = "https://github.com/snuffkin/snuffkin-playground"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.3",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
