@@ -1,0 +1,6 @@
+aridity>=50
+diapyr>=22
+Flask>=2.0.3
+lagoon>=22
+mod-wsgi>=4.7.1
+Werkzeug>=2.0.1

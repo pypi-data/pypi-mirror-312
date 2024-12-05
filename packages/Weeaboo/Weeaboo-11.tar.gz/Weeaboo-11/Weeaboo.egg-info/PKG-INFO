@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Weeaboo
+Version: 11
+Summary: Shared code for websites
+Home-page: https://pypi.org/project/Weeaboo/
+Author: Homsar
+Author-email: homsar@foyono.com
+Description-Content-Type: text/markdown
+
+# Weeaboo
+Shared code for websites
+
+## Commands
+
+### rmexcept
+Delete paths except those provided as args.
+
+### runsite
+Website entrypoint.
