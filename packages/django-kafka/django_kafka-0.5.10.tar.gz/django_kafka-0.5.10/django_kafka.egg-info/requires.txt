@@ -1,0 +1,2 @@
+django<6.0,>=4.2
+confluent-kafka[avro,schema-registry]==2.6.0
