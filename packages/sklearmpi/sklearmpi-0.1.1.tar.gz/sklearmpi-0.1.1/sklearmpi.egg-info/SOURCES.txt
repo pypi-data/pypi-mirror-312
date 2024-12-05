@@ -1,0 +1,10 @@
+setup.py
+nunpy/__init__.py
+nunpy/rlinFunction.py
+nunpy/rlogFunction.py
+nunpy/rnFunction.py
+nunpy/utilFunction.py
+sklearmpi.egg-info/PKG-INFO
+sklearmpi.egg-info/SOURCES.txt
+sklearmpi.egg-info/dependency_links.txt
+sklearmpi.egg-info/top_level.txt
