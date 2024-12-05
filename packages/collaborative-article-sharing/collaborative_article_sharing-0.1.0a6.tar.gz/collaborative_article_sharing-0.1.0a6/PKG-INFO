@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: collaborative-article-sharing
+Version: 0.1.0a6
+Summary: Command-line interface for interacting with the CAS API
+Author-email: upayan <upayanm3@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: argparse
+
+# Collaborative-Article-Sharing
+
+The CLI for https://github.com/upayanmazumder/Collaborative-Article-Sharing
