@@ -1,0 +1,6 @@
+aerich
+aiofiles
+anyio
+asgiref
+tortoise-orm
+uvicorn
