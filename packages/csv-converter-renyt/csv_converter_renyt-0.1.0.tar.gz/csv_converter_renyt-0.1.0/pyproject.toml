@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csv_converter_renyt"
+version = "0.1.0"
+description = "A tool is used to convert a .csv file separatec with delimiter to a .csv file separated with Tab: \"\\t\""
+authors = [
+  {name = "REN YuanTong", email = "renyt1621@mails.jlu.edu.cn"}
+]
+license = {text = "MIT"}
+dependencies = [
+  "pandas>=1.3.0"
+]
