@@ -1,0 +1,4 @@
+systemLogEnable=TRUE
+logInfoMask=0x8000000
+logVerboseMask=0x8000000
+afFullsweep=1

@@ -1,0 +1,86 @@
+<LS_LOG> cfg_file:D:\code\gfpt_android\tools\cfg\iot_sam_app_config.json
+<LS_LOG> log_file:D:\code\gfpt_android\tools\cfg\auth_pc.log
+<LS_LOG> device_secret_bin_file:D:\code\gfpt_android\tools\cfg\device_secret.bin
+<LS_LOG> auth_version:2.0.4
+<LS_LOG> [1710147619.099][LK-0313] MQTT user calls aiot_mqtt_connect api, connect
+<LS_LOG> [1710147619.099][LK-032A] mqtt host: iad6FIYalz1.iot-as-mqtt.cn-shanghai.aliyuncs.com
+<LS_LOG> [1710147619.099][LK-0317] user name: VideoBar&iad6FIYalz1
+<LS_LOG> [1710147619.099][LK-0318] password: 7590E180BB5698B6C9D3AE0975AD5CA5F2668A44A6F6C8D71C7A7E81B3F535A8
+<LS_LOG> [1710147619.133][LK-1000] establish mbedtls connection with server(host='iad6FIYalz1.iot-as-mqtt.cn-shanghai.aliyuncs.com', port=[443])
+<LS_LOG> [1710147619.311][LK-1000] success to establish mbedtls connection, (cost 45315 bytes in total, max used 48051 bytes)
+<LS_LOG> [1710147619.377][LK-0313] MQTT connect success in 286 ms
+<LS_LOG> [1710147619.377][LK-0309] sub: /sys/iad6FIYalz1/VideoBar/security/sam/response
+<LS_LOG> iot_sam_process 373: [iot_sam_process]
+<LS_LOG> ls_oem_dev_init 204: ls_oem_dev_init enter!
+<LS_LOG> ls_oem_comm_open_usb
+<LS_LOG> ls_oem_comm_send_usb
+<LS_LOG> 
+[ls_oem_comm_send_usb]==========>"adb -s IABZA23077CMCJ push D:\code\gfpt_android\tools\tmp\IOT_SAM_CMD_OPEN.bin /data/local/tmp/"----start
+<LS_LOG> [ls_oem_comm_send_usb]"adb -s IABZA23077CMCJ push D:\code\gfpt_android\tools\tmp\IOT_SAM_CMD_OPEN.bin /data/local/tmp/"----stop
+<LS_LOG> ls_oem_license_authorization 359: [ls_oem_license_authorization]send to oem IOT_SAM_CMD_OPEN
+<LS_LOG> [ls_oem_comm_recv_usb][36836]----IOT_SAM_CMD_PUB_MSG.bin opened!
+<LS_LOG> [36836]----IOT_SAM_CMD_PUB_MSG.bin unlink!
+<LS_LOG> ls_oem_process_message 101: <===============================in_msg - cmd_id: 11(IOT_SAM_CMD_PUB_MSG)
+<LS_LOG> [1710147622.699][LK-0309] pub: /sys/iad6FIYalz1/VideoBar/security/sam/request
+<LS_LOG> 
+<LS_LOG> [LK-030A] > 08 01 10 C1 96 E1 BF D7  31 1A 40 39 35 62 38 30 | ........1.@95b80
+<LS_LOG> [LK-030A] > 31 31 61 66 32 32 65 64  30 32 34 34 36 66 32 38 | 11af22ed02446f28
+<LS_LOG> [LK-030A] > 65 62 66 32 30 39 31 39  64 33 31 31 32 35 32 32 | ebf20919d3112522
+<LS_LOG> [LK-030A] > 35 66 39 30 38 65 36 35  62 39 33 31 65 37 37 34 | 5f908e65b931e774
+<LS_LOG> [LK-030A] > 35 66 61 35 39 36 61 65  32 37 37 22 7F 30 31 3A | 5fa596ae277".01:
+<LS_LOG> [LK-030A] > 30 30 33 43 32 31 46 41  37 44 41 45 41 45 30 30 | 003C21FA7DAEAE00
+<LS_LOG> [LK-030A] > 31 45 35 45 35 41 30 30  3A 33 7E 32 7E 30 32 37 | 1E5E5A00:3~2~027
+<LS_LOG> [LK-030A] > 44 33 33 31 42 33 43 43  41 34 44 42 45 7E 31 37 | D331B3CCA4DBE~17
+<LS_LOG> [LK-030A] > 30 37 31 31 34 37 37 37  34 30 39 7E 58 52 79 65 | 07114777409~XRye
+<LS_LOG> [LK-030A] > 5A 6E 61 47 79 59 61 51  57 63 39 44 73 2F 58 70 | ZnaGyYaQWc9Ds/Xp
+<LS_LOG> [LK-030A] > 2B 55 73 7A 73 4D 68 68  38 69 43 5A 54 37 47 63 | +UszsMhh8iCZT7Gc
+<LS_LOG> [LK-030A] > 35 6B 53 41 45 45 74 48  53 4B 42 50 4D 4C 4D 62 | 5kSAEEtHSKBPMLMb
+<LS_LOG> [LK-030A] > 66 61 69 50 6E 2B 44 55  74 53 69 46 28 01 5A 4A | faiPn+DUtSiF(.ZJ
+<LS_LOG> [LK-030A] > 0A 05 31 2E 30 2E 30 12  24 4C 44 2D 30 31 30 30 | ..1.0.0.$LD-0100
+<LS_LOG> [LK-030A] > 2D 69 6E 73 74 61 33 36  30 2D 38 37 39 37 2D 32 | -insta360-8797-2
+<LS_LOG> [LK-030A] > 30 32 33 30 33 31 33 31  39 33 35 33 38 1A 0B 69 | 0230313193538..i
+<LS_LOG> [LK-030A] > 61 64 36 46 49 59 61 6C  7A 31 22 0E 49 41 42 5A | ad6FIYalz1".IABZ
+<LS_LOG> [LK-030A] > 41 32 33 30 37 37 43 4D  43 4A                   | A23077CMCJ      
+<LS_LOG> 
+<LS_LOG> [1710147622.900][LK-0309] pub: /sys/iad6FIYalz1/VideoBar/security/sam/response
+<LS_LOG> 
+<LS_LOG> [LK-030A] < BF 01 01 00 E0 00 00 00  27 83 14 6B 82 FF 02 99 | ........'..k....
+<LS_LOG> [LK-030A] < 35 79 28 75 6D 82 B3 F6  88 4B 5C 5A A7 08 78 3A | 5y(um....K\Z..x:
+<LS_LOG> [LK-030A] < 7A C0 A7 46 27 E9 70 21  4A 5C EA F5 8A E8 C9 9C | z..F'.p!J\......
+<LS_LOG> [LK-030A] < 57 FB 94 96 3B F9 41 D6  6B 77 49 8F C2 59 E2 99 | W...;.A.kwI..Y..
+<LS_LOG> [LK-030A] < 3F F7 21 5F C4 70 13 DA  B6 F3 94 6B 4D 98 1B C7 | ?.!_.p.....kM...
+<LS_LOG> [LK-030A] < CC AF 19 EF BD 55 76 F8  A2 7D 4F 81 A4 C8 86 0B | .....Uv..}O.....
+<LS_LOG> [LK-030A] < 61 EB B2 D9 18 7C 9D CA  5A 0F 4F 31 24 C7 2D D3 | a....|..Z.O1$.-.
+<LS_LOG> [LK-030A] < 26 05 3E F1 8B CF CE 92  19 DE 42 20 22 AC 93 A9 | &.>.......B "...
+<LS_LOG> [LK-030A] < D8 30 98 D5 E6 A1 DD A0  E9 BA 76 83 C0 44 1F BE | .0........v..D..
+<LS_LOG> [LK-030A] < DE 56 5B D3 25 7D 3C 32  04 B6 13 9E D3 8C 58 24 | .V[.%}<2......X$
+<LS_LOG> [LK-030A] < 34 BE BA 41 E0 2C 6D 85  C6 1C 16 3B B6 E6 D2 97 | 4..A.,m....;....
+<LS_LOG> [LK-030A] < 67 62 D7 A4 34 C7 28 1C  9E DB A1 72 D5 E4 80 55 | gb..4.(....r...U
+<LS_LOG> [LK-030A] < A1 57 F8 84 BF AA 97 DC  5D 1A 6D 3B 89 8B 65 6E | .W......].m;..en
+<LS_LOG> [LK-030A] < AC A1 61 59 D0 DE CA 91  47 48 A0 4F 30 B3 1B 7D | ..aY....GH.O0..}
+<LS_LOG> [LK-030A] < A8 8F 9F E0 D4 B5 28 85                          | ......(.        
+<LS_LOG> 
+<LS_LOG> ls_oem_comm_send_usb
+<LS_LOG> 
+[ls_oem_comm_send_usb]==========>"adb -s IABZA23077CMCJ push D:\code\gfpt_android\tools\tmp\IOT_SAM_CMD_SET_MSG.bin /data/local/tmp/"----start
+<LS_LOG> [ls_oem_comm_send_usb]"adb -s IABZA23077CMCJ push D:\code\gfpt_android\tools\tmp\IOT_SAM_CMD_SET_MSG.bin /data/local/tmp/"----stop
+<LS_LOG> [ls_oem_comm_recv_usb][36836]----IOT_SAM_CMD_CLOSE_NOTIFY.bin opened!
+<LS_LOG> [36836]----IOT_SAM_CMD_CLOSE_NOTIFY.bin unlink!
+<LS_LOG> ls_oem_process_message 101: <===============================in_msg - cmd_id: 12(IOT_SAM_CMD_CLOSE_NOTIFY)
+<LS_LOG> ls_oem_process_message 124: license authorization result: 0x0
+<LS_LOG> ls_oem_process_message 125: license authorization code: 0
+<LS_LOG> ls_oem_comm_send_usb
+<LS_LOG> 
+[ls_oem_comm_send_usb]==========>"adb -s IABZA23077CMCJ push D:\code\gfpt_android\tools\tmp\IOT_SAM_CMD_CLOSE.bin /data/local/tmp/"----start
+<LS_LOG> [ls_oem_comm_send_usb]"adb -s IABZA23077CMCJ push D:\code\gfpt_android\tools\tmp\IOT_SAM_CMD_CLOSE.bin /data/local/tmp/"----stop
+<LS_LOG> ls_oem_process_message 132: [ls_oem_process_message:IOT_SAM_CMD_CLOSE_NOTIFY]send to oem IOT_SAM_CMD_CLOSE
+<LS_LOG> _ls_oem_license_proc_entry 185: license process has done!
+<LS_LOG> iot_sam_process 396: ----------------> License LD-0100-insta360-8797-20230313193538 Authorization Success
+<LS_LOG> ls_oem_dev_stop 414: [ls_oem_dev_stop]
+<LS_LOG> ls_oem_dev_cleanup
+<LS_LOG> pthread join fail, 22
+<LS_LOG> iot_sam_stop
+<LS_LOG> demo_mqtt_process_thread----exited!
+<LS_LOG> demo_mqtt_recv_thread----exited!
+<LS_LOG> [1710147628.055][LK-1000] adapter_network_deinit
+<LS_LOG> [1710147628.055][LK-0316] MQTT user calls aiot_mqtt_disconnect api, disconnect

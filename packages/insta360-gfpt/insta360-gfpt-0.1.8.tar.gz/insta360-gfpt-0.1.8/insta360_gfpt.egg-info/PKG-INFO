@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: insta360-gfpt
+Version: 0.1.8
+Summary: insta360 gfpt
+Home-page: https://gitlab.insta360.com/test2/production-testing-tools/insta360_gfpt.git
+Author: rain
+Author-email: chenrunming@insta360.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# insta360-gfpt
+
+浜ф祴SDK璋冪敤
+鍒涘缓浜ф祴椤圭洰妗嗘灦
+
+## Installation
+
+```sh
+pip install insta360-gfpt
