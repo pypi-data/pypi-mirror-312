@@ -1,0 +1,14 @@
+wx_payautogui/__init__.py,sha256=-ZUD7tKCYx-LnYyzBpfgIucYnhcVy7t-_wX4YFxDBiw,148
+wx_payautogui/core/__init__.py,sha256=OnrghF0jZVEznbOOLga3BAqGOjCwQREqUgDnZ9ODi38,33
+wx_payautogui/core/bot.py,sha256=5J6xz5jsUuC0KdSNGk0HCtMee5CsuXsUFyCWJ4NbC6k,16981
+wx_payautogui/exceptions/__init__.py,sha256=OnrghF0jZVEznbOOLga3BAqGOjCwQREqUgDnZ9ODi38,33
+wx_payautogui/exceptions/exceptions.py,sha256=GeNpZuV8RopwDAcl0S-_HcKGsA6b76i365i-8umSeWI,248
+wx_payautogui/utils/__init__.py,sha256=OnrghF0jZVEznbOOLga3BAqGOjCwQREqUgDnZ9ODi38,33
+wx_payautogui/utils/image_utils.py,sha256=UrKYzdjgD4ioApsNheeLoNuMJkLlmvmnZlUZwKsyJRs,1978
+wx_payautogui/utils/logger.py,sha256=eAf13PrVeRFcRf9-XvEPkS54h8ZO-O4ycMBQpd5DKjU,1909
+wx_payautogui/wx_payautogui/__init__.py,sha256=iCP5an_z56bNlyCkJAgszTbfDdWgQ_Vfk4uDxXY7unQ,367
+wx_payautogui-0.1.0.dist-info/LICENSE,sha256=9Diuf12sMSdyO7DLY3BByJs9BfCFo1ub3LqhghhT2Fc,1068
+wx_payautogui-0.1.0.dist-info/METADATA,sha256=2jKQMb5RXCeCSP8gK64i-nvo9tjXfFCwYPbXg64QWcI,11267
+wx_payautogui-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+wx_payautogui-0.1.0.dist-info/top_level.txt,sha256=ZneclmvWDDMaMFp8TtVd8a-2Sn8T1eHkz26oT-qEOkw,14
+wx_payautogui-0.1.0.dist-info/RECORD,,
