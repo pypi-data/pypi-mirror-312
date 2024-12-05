@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pandora-bio
+Version: 0.2.2
+Summary: pandora, a collection of handy functions.
+Home-page: https://github.com/lijier6/pandora-bio
+Author: Jie Li
+Author-email: lijier6@outlook.com
+Keywords: biology bioinformatics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6
+Requires-Dist: ubox>=0.1.0
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: argparse

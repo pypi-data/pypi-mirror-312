@@ -1,0 +1,6 @@
+__version__ = '0.2.2'
+__author__ = 'Jie Li'
+__copyright__ = '2024'
+__email__ = 'lijier6@outlook.com'
+__package__ = 'pbox'
+__scripts__ = 'bin/pandora'

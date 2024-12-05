@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+
+'''
+This contains a number of methods and functions to calculate the iRep metric
+
+https://github.com/christophertbrown/iRep
+
+https://www.nature.com/articles/nbt.3704
+'''
+
+
+import sys
+import os
+
+try:
+	from loguru import logger
+except ModuleNotFoundError:
+	sys.exit(f'<loguru> required, try <pip install loguru>.')
+
+sys.path = [os.path.join(os.path.dirname(os.path.realpath(__file__)),'..')] + sys.path
+
+from pandora import version, parser
+
+__author__ = 'Jie Li'
+__email__  = 'lijier6@outlook.com'
+__version__ = version.__version__
+
+
+if __name__ == '__main__':
+
+	arg = parser.parse_args(sys.argv)
+	# print(arg)
+	if arg.subparser_name == 'fq2fa':
+		from pandora.fq2fa import fq2fa
+		fq2fa(arg.fastq)
+	elif arg.subparser_name == 'fxlength':
+		from pandora.fxlength import fxlength
+		fxlength(
+					arg.sequence,
+					arg.plot
+		)
+	elif arg.subparser_name == 'avglength':
+		from pandora.fxlength import fxlength
+		fxlength(
+					arg.sequence,
+					arg.plot,
+					True
+		)
+	elif arg.subparser_name == 'check_phred':
+		from pandora.check_phred import check_phred
+		check_phred(
+					arg.fastq,
+					arg.num
+		)
+	elif arg.subparser_name == 'extract_seq':
+		from pandora.extract_seq import extract_seq
+		extract_seq(
+					arg.seqid,
+					arg.seqidlist,
+					arg.sequence,
+					arg.fastq,
+					arg.unmatch
+		)
+	elif arg.subparser_name == 'summary_mag':
+		from pandora.summary_mag import summary_mag
+		summary_mag(
+					arg.table,
+					arg.completeness,
+					arg.contamination
+		)
+	elif arg.subparser_name == 'abs2rel':
+		from pandora.abs2rel import abs2rel
+		abs2rel(
+				arg.table,
+				arg.out_table
+		)
+	else:
+		raise Exception('Unrecognized command.')

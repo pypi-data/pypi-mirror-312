@@ -1,0 +1,17 @@
+README.md
+setup.py
+bin/pandora
+pandora_bio.egg-info/PKG-INFO
+pandora_bio.egg-info/SOURCES.txt
+pandora_bio.egg-info/dependency_links.txt
+pandora_bio.egg-info/requires.txt
+pandora_bio.egg-info/top_level.txt
+pbox/__init__.py
+pbox/abs2rel.py
+pbox/check_phred.py
+pbox/extract_seq.py
+pbox/fq2fa.py
+pbox/fxlength.py
+pbox/parser.py
+pbox/summary_mag.py
+pbox/version.py
