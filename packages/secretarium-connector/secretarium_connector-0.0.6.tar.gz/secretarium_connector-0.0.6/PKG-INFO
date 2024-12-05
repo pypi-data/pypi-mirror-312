@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: secretarium-connector
+Version: 0.0.6
+Summary: This package provides a Python connector to the Secretarium platform.
+Author-email: python@secretarium.org
+Maintainer-email: Florian Guitton <florian@secretarium.org>
+License: MIT
+Project-URL: Homepage, https://secretarium.com
+Keywords: Secretarium,Connector,Honest Computing
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography
+Requires-Dist: websockets
+Requires-Dist: asn1crypto
+
+# About Secretarium Connector
+
+Connector for API communication with Secretarium enclave clusters
