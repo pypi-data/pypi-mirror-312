@@ -1,0 +1,10 @@
+remics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remics/cumulants.jl,sha256=HiJT9_575rdAFJF4JJ0-4STgtWLzX3YpjjIgy4LOk_U,3605
+remics/cumulants.py,sha256=hJtqqa4_u5dTttR667xT7tOKRPvMRVZkV5Es0cQ55fI,15026
+remics/cuna.py,sha256=C0Dhtn1hfz4DdPOjC8Gla-9zTixWKATh1tJ-wpRsp7g,13976
+remics/cures.py,sha256=y4PZNbX0dqPAgkF6-W1oabRDClhDmZgnWZsYvl_Ilj4,11570
+remics-0.1.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+remics-0.1.6.dist-info/METADATA,sha256=8y9p-aM4bRc_RN9PqPKT2g8Fp7yX4fw1NwuifpgKv-E,1672
+remics-0.1.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+remics-0.1.6.dist-info/top_level.txt,sha256=fQCJEDnK3lLgFbYvdYvHacw0vuj1_j846RAywDMsV-s,7
+remics-0.1.6.dist-info/RECORD,,
