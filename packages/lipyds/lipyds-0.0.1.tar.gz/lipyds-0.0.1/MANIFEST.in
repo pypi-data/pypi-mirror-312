@@ -1,0 +1,12 @@
+global-include *.pyx
+global-include *.pxd
+global-include *.cpp
+global-include *.h
+global-include *.cpp
+recursive-include doc * 
+include LICENSE README.md CODE_OF_CONDUCT.md
+include setup.py
+
+graft lipyds
+global-exclude *.py[cod] __pycache__
+global-exclude .git
