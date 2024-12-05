@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "visio-json-export"
+version = "0.1.0"
+description = "Helps to process Visio JSON Exports in your Python projects."
+authors = ["Thomas Winkel <mail@thomas-winkel.de>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[project.urls]
+Homepage = "https://geradeaus.engineering/"
+Repository = "https://github.com/ThomasWinkel"
+NuGet = "https://www.nuget.org/packages/Geradeaus.VisioJsonExport"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
