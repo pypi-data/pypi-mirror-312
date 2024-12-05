@@ -1,0 +1,10 @@
+zhplot/__init__.py,sha256=cS1XRQha5Tdh9L6duuF6BtOeQYJbyBfa6dGIO9NOnGI,90
+zhplot/matplotlib.py,sha256=5uIa7j7xd7fxReQPJhDJIXa4nTIYrifvJ_HGPvg7GQ8,772
+zhplot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zhplot/fonts/simhei.ttf,sha256=qkVg3Y_lZFdF_tP_owHDyk1sA8vXOBRbYTMDlhunM7g,9753388
+zhplot-0.0.1.dist-info/LICENSE,sha256=ue0gAkSEjNg8O88FIc4ZaCa0wXPhTYTY2oS3jA5NqmY,1068
+zhplot-0.0.1.dist-info/METADATA,sha256=c_5qpKZabgewk2SnDSb0D7D7WY6ogjJNeUOf3ZyZPUs,4298
+zhplot-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+zhplot-0.0.1.dist-info/top_level.txt,sha256=IePjtqSGp-YmRd5zgVDADltqd7ksCYjCfP6JRq0kKLs,7
+zhplot-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+zhplot-0.0.1.dist-info/RECORD,,
