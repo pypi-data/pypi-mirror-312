@@ -1,0 +1,8 @@
+django>4.2
+django-countries>7.6.0
+hdx-python-country>=3.8.5
+
+[test]
+pytest
+django_countries
+pandas
