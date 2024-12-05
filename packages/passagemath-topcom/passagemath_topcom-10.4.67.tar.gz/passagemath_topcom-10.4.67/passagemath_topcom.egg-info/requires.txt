@@ -1,0 +1,6 @@
+passagemath-environment~=10.4.67.0
+
+[test]
+passagemath-polyhedra
+passagemath-linbox
+passagemath-repl
