@@ -1,0 +1,10 @@
+README.md
+setup.py
+webrover/__init__.py
+webrover/core.py
+webrover/utils.py
+webrover.egg-info/PKG-INFO
+webrover.egg-info/SOURCES.txt
+webrover.egg-info/dependency_links.txt
+webrover.egg-info/requires.txt
+webrover.egg-info/top_level.txt
