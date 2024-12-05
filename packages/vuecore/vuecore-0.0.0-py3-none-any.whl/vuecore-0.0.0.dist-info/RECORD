@@ -1,0 +1,11 @@
+vuecore/Dendrogram.py,sha256=qf6-GkYh0BgGSnJoUH7f5219EUCML4o-JBGeuXzYm9E,10930
+vuecore/__init__.py,sha256=579TceyrZtt4i-pnRIHM0sYJ-N8gNsft4z5SSDpw578,74
+vuecore/color_list.py,sha256=_GiilDlyKjdof1j3xXZhrf6NRjxl-kgnnRMJ89ADUZU,2760
+vuecore/utils.py,sha256=BZscFSZlMwZBfOj9DU6oFtS0klnRngNc2VlkkKrYFpk,9037
+vuecore/viz.py,sha256=jPzyw9wWF5ydYTiq4YR2I7Tl1afEshDGCB_wEDeooBU,115607
+vuecore/wgcnaFigures.py,sha256=3Vasm6a6BtsCjY6J3iMdsfjhH71OfjvW5pEcQmNSEbQ,22660
+vuecore-0.0.0.dist-info/LICENSE,sha256=uGZxoWBOHTIdNoAmBjp_UK9BWx5GBbWncxofBMLZrTo,1092
+vuecore-0.0.0.dist-info/METADATA,sha256=Ma7MVIea4rRttJEfEqQd5919NWv4MzV59TizCCZOdfk,1866
+vuecore-0.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+vuecore-0.0.0.dist-info/top_level.txt,sha256=oPAnPXnwW3SgNdRK-mIwYgoe7Runmy7OA6uUzNQRaa8,8
+vuecore-0.0.0.dist-info/RECORD,,
