@@ -1,0 +1,13 @@
+autonomize_sdk/__init__.py,sha256=tK7ShjmjnQSnz6wLiWXkElcc9Bvnv1z79hPqKf2dsYI,211
+autonomize_sdk/telemetry/README.md,sha256=xTbSUiImvjQeFCUxXI3ZPHQQQC6ti3Pf2uUgX-rK4-o,7627
+autonomize_sdk/telemetry/__init__.py,sha256=icpRs4o0bY0dpk6tqRG5skCnF8KRM1ZDQDWilIWrV4c,171
+autonomize_sdk/telemetry/constants.py,sha256=xEFuRqVM7J4bbAJGl4DiasDQ6iIxsZbgxgG4fAjXUCw,488
+autonomize_sdk/telemetry/core/__init__.py,sha256=leZrJ2M_NKtyGETYLg6qzRaNdGFQuEWAb0y9-PnDnMM,8309
+autonomize_sdk/telemetry/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autonomize_sdk/telemetry/services/logging_service.py,sha256=JbrFkvtcYgIG97xLqcU_pkApexMqQp32dUVHrDAVGT8,5905
+autonomize_sdk/telemetry/services/metrics_service.py,sha256=xKhbBv-qbBf2jFUgMuIKtxS3rlZnXij1t8zQIp5bbbA,5162
+autonomize_sdk/telemetry/services/tracing_service.py,sha256=rnGKcfdMyKLimCa1ZnB0WnoZXvyrXTcHA8YKLNemVrs,5589
+autonomize_sdk/telemetry/types.py,sha256=3KuDXzqcEJ2Fv2Avb9dg2tL34yP0NhbB224elu9DOTc,488
+autonomize_sdk_python-0.0.4.dist-info/METADATA,sha256=WZJ_m44LU9Rk2ZmwEpNInGzH1H-4x1Cltpltthc5Ups,815
+autonomize_sdk_python-0.0.4.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+autonomize_sdk_python-0.0.4.dist-info/RECORD,,
