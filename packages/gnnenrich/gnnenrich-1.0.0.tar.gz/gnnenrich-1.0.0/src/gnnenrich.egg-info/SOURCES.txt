@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/gnnenrich/__init__.py
+src/gnnenrich/py.typed
+src/gnnenrich/random_lists.py
+src/gnnenrich/scoring.py
+src/gnnenrich.egg-info/PKG-INFO
+src/gnnenrich.egg-info/SOURCES.txt
+src/gnnenrich.egg-info/dependency_links.txt
+src/gnnenrich.egg-info/requires.txt
+src/gnnenrich.egg-info/top_level.txt
+tests/test_100_generate_protein_lists.py
+tests/test_200_correlation.py
+tests/test_300_embeddings.py

@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gnnenrich"
+version = "1.0.0"
+authors = [
+    {name="Mallek MZIOU", email="mallek.mziou@cea.fr"},
+    {name="Pierrick ROGER", email="pierrick.roger@cea.fr"}
+]
+description = "Enrichment Analysis based on GNN"
+license = {file="LICENSE"}
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: CeCILL-C Free Software License Agreement (CECILL-C)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'numpy',
+    'scipy',
+    'tqdm'
+]
+keywords = ['GNN', 'enrichment']
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+
+[project.urls]
+"Homepage" = "https://gitlab.com/cnrgh/gnn-enrich/gnn-enrich"
+"Repository" = "https://gitlab.com/cnrgh/gnn-enrich/gnn-enrich"
+"Bug Tracker" = "https://gitlab.com/cnrgh/gnn-enrich/gnn-enrich/issues"
+
+[project.optional-dependencies]
+dev = [
+    'build',
+    'twine',
+    'pytest',
+    'pylint',
+    'mypy',
+    'coverage'
+]
+doc = [
+    'sphinx',
+    'sphinx_rtd_theme'
+]
