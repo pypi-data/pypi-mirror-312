@@ -1,0 +1,2 @@
+[console_scripts]
+kotlin-stdlib-jdk8 = kotlin_stdlib_jdk8:kotlin_stdlib_jdk8
