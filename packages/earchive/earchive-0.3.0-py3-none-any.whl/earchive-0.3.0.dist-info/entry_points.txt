@@ -1,0 +1,3 @@
+[console_scripts]
+earchive=earchive.main:main
+
