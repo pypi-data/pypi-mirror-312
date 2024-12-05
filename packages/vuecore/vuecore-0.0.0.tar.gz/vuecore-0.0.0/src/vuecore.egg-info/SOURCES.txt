@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/vuecore/Dendrogram.py
+src/vuecore/__init__.py
+src/vuecore/color_list.py
+src/vuecore/utils.py
+src/vuecore/viz.py
+src/vuecore/wgcnaFigures.py
+src/vuecore.egg-info/PKG-INFO
+src/vuecore.egg-info/SOURCES.txt
+src/vuecore.egg-info/dependency_links.txt
+src/vuecore.egg-info/not-zip-safe
+src/vuecore.egg-info/requires.txt
+src/vuecore.egg-info/top_level.txt
