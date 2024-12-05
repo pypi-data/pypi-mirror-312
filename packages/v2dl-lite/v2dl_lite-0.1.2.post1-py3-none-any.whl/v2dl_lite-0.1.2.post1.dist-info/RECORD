@@ -1,0 +1,14 @@
+v2dl_lite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+v2dl_lite/__main__.py,sha256=FwH8yrf-QGQfYe254e8EHulnSzVKu7UvXIyVPbF5Opk,1264
+v2dl_lite/_types.py,sha256=mwFyckLazKPJavWyd-3pn_CiWUDU_L7bSVjzgl4H3Zo,564
+v2dl_lite/constant.py,sha256=cReE4pVAVMdXr8PubIj_5pwxWvcboBaC_AMw4d6IjEU,432
+v2dl_lite/logger.py,sha256=JCPG-3Eyvx4SeNNDM28MY2zUIWzPDXsfmBQFrRNLuZM,2823
+v2dl_lite/options.py,sha256=3ISTNTg5c8vKbDF_PYUG5EuwMGrTXJ3DDk_x3_oShs0,3211
+v2dl_lite/scrapper.py,sha256=OM-HvPy0iz0PfsN8LfGgZTErib-S6erBxu1KYfHCzmM,9246
+v2dl_lite/utils.py,sha256=Ex3ESOvxuaQRcmGNA5zUQ25RW9JJZsF6kk5o0u6p1Pc,8747
+v2dl_lite/version.py,sha256=H7HDj_kPsPwOaZtKYztnqwghrjBVjnNxAJy67gWZLyc,28
+v2dl_lite-0.1.2.post1.dist-info/METADATA,sha256=U-L7wXax_3ET5zGpbp-eSztNIX3z42gyo2y7UTXkrYY,1523
+v2dl_lite-0.1.2.post1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+v2dl_lite-0.1.2.post1.dist-info/entry_points.txt,sha256=IoaKOUuM487Jus_BPH8-67Qx6r3jjbtXqXiBvlQ2DrE,54
+v2dl_lite-0.1.2.post1.dist-info/licenses/LICENSE,sha256=VaNdcTqVhnflANKKDJbgrkI7cWuZvl2cPPnATz-Pays,1069
+v2dl_lite-0.1.2.post1.dist-info/RECORD,,

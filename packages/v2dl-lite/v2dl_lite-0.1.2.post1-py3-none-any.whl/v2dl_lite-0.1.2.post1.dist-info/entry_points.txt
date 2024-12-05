@@ -1,0 +1,2 @@
+[console_scripts]
+v2dl-lite = v2dl_lite.__main__:main
