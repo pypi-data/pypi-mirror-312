@@ -1,0 +1,2 @@
+[console_scripts]
+mxr = mx_remote.main:mxr_main
