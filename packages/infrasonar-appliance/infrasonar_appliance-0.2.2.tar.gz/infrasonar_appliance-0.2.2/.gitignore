@@ -1,0 +1,4 @@
+dist/
+infrasonar_appliance.egg-info/
+test.py
+__pycache__

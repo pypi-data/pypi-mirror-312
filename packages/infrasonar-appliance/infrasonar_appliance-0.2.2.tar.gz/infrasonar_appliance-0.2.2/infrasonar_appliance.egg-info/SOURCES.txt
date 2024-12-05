@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+.github/ISSUE_TEMPLATE/bug_report.md
+.github/ISSUE_TEMPLATE/feature_request.md
+.github/workflows/ci.yml
+appliance/__init__.py
+appliance/__main__.py
+appliance/appliance.py
+infrasonar_appliance.egg-info/PKG-INFO
+infrasonar_appliance.egg-info/SOURCES.txt
+infrasonar_appliance.egg-info/dependency_links.txt
+infrasonar_appliance.egg-info/entry_points.txt
+infrasonar_appliance.egg-info/requires.txt
+infrasonar_appliance.egg-info/top_level.txt
