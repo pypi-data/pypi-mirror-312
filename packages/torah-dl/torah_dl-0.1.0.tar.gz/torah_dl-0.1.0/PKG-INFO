@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: torah-dl
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Matanya Loewenthal <matanya@loewenthal.net>
+Requires-Python: >=3.12
+Requires-Dist: typer>=0.14.0
+Description-Content-Type: text/markdown
+
+# torah-dl (WIP)
+Library and tools for downloading media and content from Torah websites.
+
