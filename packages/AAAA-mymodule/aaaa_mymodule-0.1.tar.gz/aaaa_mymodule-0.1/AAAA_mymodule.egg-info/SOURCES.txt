@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+AAAA_mymodule.egg-info/PKG-INFO
+AAAA_mymodule.egg-info/SOURCES.txt
+AAAA_mymodule.egg-info/dependency_links.txt
+AAAA_mymodule.egg-info/requires.txt
+AAAA_mymodule.egg-info/top_level.txt
+Hello_world/__init__.py
+decoration/__init__.py
+my_module/__init__.py
+my_module/backtest/__init__.py
+my_module/backtest/test.py
+my_module/test_module/__init__.py
