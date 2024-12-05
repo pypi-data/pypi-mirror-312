@@ -1,0 +1,2 @@
+[console_scripts]
+openapi_qase_suite_generator = openapi_qase_suite_generator.main:main

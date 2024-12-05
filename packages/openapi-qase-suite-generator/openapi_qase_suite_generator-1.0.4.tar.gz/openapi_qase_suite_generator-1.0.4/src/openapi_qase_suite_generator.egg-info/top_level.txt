@@ -1,0 +1,1 @@
+openapi_qase_suite_generator

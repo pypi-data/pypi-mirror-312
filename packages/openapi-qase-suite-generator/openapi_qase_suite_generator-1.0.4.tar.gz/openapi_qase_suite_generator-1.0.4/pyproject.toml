@@ -1,0 +1,39 @@
+[project]
+name = "openapi_qase_suite_generator"
+authors = [
+  { name="Example Author", email="author@example.com" },
+]
+dynamic = ["version"]
+dependencies = [
+    "requests>=2.32.3",
+    "PyYAML>=6.0.1"
+]
+keywords = ["qase", "openapi", "testsuite"]
+description = "Generate Qase test suites from OpenAPI specs"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/petrabarus/openapi_qase_suite_generator"
+Issues = "https://github.com/petrabarus/openapi_qase_suite_generator/issues"
+
+[project.scripts]
+openapi_qase_suite_generator = "openapi_qase_suite_generator.main:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
