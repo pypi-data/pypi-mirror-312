@@ -1,0 +1,8 @@
+check_cf_association.py
+setup.py
+revealcontrol.egg-info/PKG-INFO
+revealcontrol.egg-info/SOURCES.txt
+revealcontrol.egg-info/dependency_links.txt
+revealcontrol.egg-info/entry_points.txt
+revealcontrol.egg-info/requires.txt
+revealcontrol.egg-info/top_level.txt

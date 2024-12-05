@@ -1,0 +1,2 @@
+[console_scripts]
+revealcontrol = check_cf_association:main
