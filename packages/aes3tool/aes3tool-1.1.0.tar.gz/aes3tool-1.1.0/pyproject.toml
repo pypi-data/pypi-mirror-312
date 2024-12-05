@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aes3tool"
+version = "1.1.0"
+dependencies = [
+  "numpy",
+  "pyaudio",
+  "pydub>=0.25.1",
+  "resampy>=0.4.3",
+]
+requires-python = ">=3.11"
+authors = [
+  {name = "Lars Op den Kamp", email = "lars@opdenkamp.eu"},
+]
+maintainers = [
+  {name = "Lars Op den Kamp", email = "lars@opdenkamp.eu"},
+]
+description = "SMPTE 2110-3x AES3 PCM testing toolkit"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["smpte", "2110-30", "2110-31", "aes3"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python",
+  "Topic :: System :: Networking :: Monitoring",
+]
+
+[project.urls]
+Homepage = "https://github.com/opdenkamp/"
+Documentation = "https://github.com/opdenkamp/aes3tool"
+Repository = "https://github.com/opdenkamp/aes3tool.git"
+"Bug Tracker" = "https://github.com/opdenkamp/aes3tool/issues"
+
+[project.scripts]
+aes3tool = "aes3tool.__main__:main"
