@@ -1,0 +1,6 @@
+2023-02-27 16:25:41.776 | ERROR    | src.utils.logger:error:28 - 检查下是否有libusbk的驱动
+2023-02-27 16:25:41.776 | ERROR    | src.utils.logger:error:28 - cannot unpack non-iterable NoneType object
+2023-02-27 16:25:41.810 | ERROR    | src.utils.logger:error:28 - 检查下是否有libusbk的驱动
+2023-02-27 16:25:41.810 | ERROR    | src.utils.logger:error:28 - cannot unpack non-iterable NoneType object
+2023-02-27 16:25:41.811 | INFO     | src.utils.logger:info:19 - pkt send：1，JSON_Message_Packet: packet_id_1, jsobj_{"cmd": "DEVICEINFO", "action": "get_device_info"}
+2023-02-27 16:25:41.811 | INFO     | src.utils.logger:info:19 - send_json_message json_pkt：JSON_Message_Packet: packet_id_1, jsobj_{"cmd": "DEVICEINFO", "action": "get_device_info"}

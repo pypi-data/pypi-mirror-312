@@ -1,0 +1,11 @@
+{
+  "iot_sam_app_config":[
+    {
+      "license_name":"LD-0100-insta360-8797-20230313193538",
+      "product_key":"iad6FIYalz1",
+      "device_name":"VideoBar",
+      "device_persist_folder":"/mnt/vendor/persist",
+      "device_tmp_folder":"/data/local/tmp"
+    }
+  ]
+}
