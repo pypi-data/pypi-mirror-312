@@ -1,0 +1,6 @@
+ml_optfit/__init__py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ml_optfit/ml_optfit.py,sha256=XTYNKgHqdTSvC2okl1EcyB48gL2PxM7TK6BxGkJdBTE,15151
+ml_optfit/nn_model_creation.py,sha256=bYtXcD9WKEZVG44Rh_5BT8IOnY9DkE_rbsRdeDBopYU,3768
+ml_optfit-0.1.1.dist-info/METADATA,sha256=csnvKSiRUY2p2Ll5Q6oxj23Zjqzms_9VH0tdlfOph-c,4981
+ml_optfit-0.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+ml_optfit-0.1.1.dist-info/RECORD,,
