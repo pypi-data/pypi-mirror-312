@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+HiveMind_voice_sat.egg-info/PKG-INFO
+HiveMind_voice_sat.egg-info/SOURCES.txt
+HiveMind_voice_sat.egg-info/dependency_links.txt
+HiveMind_voice_sat.egg-info/entry_points.txt
+HiveMind_voice_sat.egg-info/requires.txt
+HiveMind_voice_sat.egg-info/top_level.txt
+hivemind_voice_satellite/__init__.py
+hivemind_voice_satellite/__main__.py
+hivemind_voice_satellite/service.py
+hivemind_voice_satellite/version.py
