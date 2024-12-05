@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+cas/cli.py
+collaborative_article_sharing.egg-info/PKG-INFO
+collaborative_article_sharing.egg-info/SOURCES.txt
+collaborative_article_sharing.egg-info/dependency_links.txt
+collaborative_article_sharing.egg-info/entry_points.txt
+collaborative_article_sharing.egg-info/requires.txt
+collaborative_article_sharing.egg-info/top_level.txt
+tests/test_cli.py
