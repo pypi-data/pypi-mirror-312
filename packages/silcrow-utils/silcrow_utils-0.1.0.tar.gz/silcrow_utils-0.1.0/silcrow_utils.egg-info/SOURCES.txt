@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+silcrow_utils/__init__.py
+silcrow_utils/module1.py
+silcrow_utils.egg-info/PKG-INFO
+silcrow_utils.egg-info/SOURCES.txt
+silcrow_utils.egg-info/dependency_links.txt
+silcrow_utils.egg-info/requires.txt
+silcrow_utils.egg-info/top_level.txt
+tests/test_module1.py
