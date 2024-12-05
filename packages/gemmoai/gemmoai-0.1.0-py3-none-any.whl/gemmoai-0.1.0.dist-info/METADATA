@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: gemmoai
+Version: 0.1.0
+Summary: Add your description here
+Author-email: giacomopiccinini <piccinini.giacomo@gmail.com>
+Requires-Python: >=3.11
+Requires-Dist: pymupdf>=1.24.14
+Description-Content-Type: text/markdown
+
+# gemmoai
+A set of utility functions for ML purposes
