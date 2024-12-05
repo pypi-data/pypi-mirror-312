@@ -1,0 +1,11 @@
+Hello_world/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+decoration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_module/__init__.py,sha256=83uU0MrRjDvqalJuVg9Avn5YWDm8Eqqi7CwWnD8VjJc,114
+my_module/backtest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_module/backtest/test.py,sha256=ml0G5sqjuQdLAGaou725rcis51aX9e2pkc_AZP1rbQc,126
+my_module/test_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AAAA_mymodule-0.1.dist-info/LICENSE.txt,sha256=oaprBZWSt82-QjAMksEIsTAIJ8WuhD6_0t1mGjuiFAc,1087
+AAAA_mymodule-0.1.dist-info/METADATA,sha256=eKHOhwrQ_IZyR4jDKkaPUOagZAdrwI7Bftoxesufkaw,466
+AAAA_mymodule-0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+AAAA_mymodule-0.1.dist-info/top_level.txt,sha256=onoz2vL1WxRMrVvPsf0rNzbG_vOWjf5gOX6R6jkeP5I,33
+AAAA_mymodule-0.1.dist-info/RECORD,,
