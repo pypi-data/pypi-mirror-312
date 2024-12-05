@@ -1,0 +1,15 @@
+chroma_ops/__init__.py,sha256=2WO8UcEtJ-w-aGeQVEevmoyR4ubsk6Z7_h3sAjRtI2A,253
+chroma_ops/clean.py,sha256=14JKFXBTxXmVHWP4D096PVeYu7PtM0ORjQaH9pd4me8,1402
+chroma_ops/info.py,sha256=jmyHB_BN-Egwm_o-bQUiib1ITXH0qHDTrk79mIBbd1I,13861
+chroma_ops/main.py,sha256=iB5wjnANU3VkgOoeWffkt7zcGNhkoLBFhDFMhkIzSaM,1300
+chroma_ops/rebuild_fts.py,sha256=NufpfP83n3SchUMYHGCXf1ZQ6UjnKC-M5odh4usd_4Y,1405
+chroma_ops/scripts/drop_fts.sql,sha256=W65gQsVXcOhwznlmyuFpxWoK4TLU6lpJ5KALgX2mLsI,564
+chroma_ops/utils.py,sha256=cKOLr_9YUv_HvNhKm2GwA-kENwGy7Cu2qbrgdi_Jg_I,3277
+chroma_ops/wal_clean.py,sha256=QWSs1gT_eMWMYRjNQq7ECoW_6pJg-VCREZd_gJ2tDlQ,4504
+chroma_ops/wal_commit.py,sha256=c-sJ8bYJP5A4ehjrQSNkEFwqbweM1HF-Gq5EFLeETiY,3036
+chroma_ops/wal_export.py,sha256=NfAJilQiS0W6WRmWESCHYuFBvelYm2drObB31395NP4,1985
+chromadb_ops-0.0.10.dist-info/LICENSE.md,sha256=Pwsvv2QWtjmTgWWmM5MQLwKFif0S2vIxEIcIFIi1SoQ,1077
+chromadb_ops-0.0.10.dist-info/METADATA,sha256=ew33O331svR7eRW2xFKDskjTlVZ1_4AAhqmgVCiwPk8,14144
+chromadb_ops-0.0.10.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+chromadb_ops-0.0.10.dist-info/entry_points.txt,sha256=ntk_DvSZkIL9KrAUbF-yx7AEcWaz1aJU5BY0sEnJ3CA,45
+chromadb_ops-0.0.10.dist-info/RECORD,,
