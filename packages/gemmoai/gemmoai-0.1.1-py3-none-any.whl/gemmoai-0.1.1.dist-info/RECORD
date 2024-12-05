@@ -1,0 +1,6 @@
+gemmoai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gemmoai/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gemmoai/pdf/pdf_to_image.py,sha256=KoWS6YB-8mv2-XR--cwtu7E0tF7z9qm3RSHHfSi4VtU,1152
+gemmoai-0.1.1.dist-info/METADATA,sha256=d3TBiwuc8s45Wnrc2cYP25v5oY0VlKIyJqmafbIZYz0,297
+gemmoai-0.1.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+gemmoai-0.1.1.dist-info/RECORD,,
