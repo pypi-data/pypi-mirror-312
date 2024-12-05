@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1011
+type: question
+approaches: []
+name: Were any files sent via CLI utilities?
+id: Q1038
+uuid: 7b757e75-f86d-48c0-9b4b-f04516586f61
+description:
+tags:

@@ -1,0 +1,13 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1009
+type: question
+approaches: []
+name: Is the recipient account controlled by the sender?
+id: Q1075
+uuid: 1f9c3787-3467-4899-b8f2-c61788f9b0fc
+description: >
+  To remove data from company control, an actor could send files to an alternate "personal"
+  account.
+tags:

@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1015
+type: question
+approaches: []
+name: >
+  Are there any suspicious modifications to the cloud project firewall rules/policies?
+id: Q1047
+uuid: 26987d7b-8167-4d47-9344-901c5de43db2
+description:
+tags:

@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1007
+type: question
+approaches: []
+name: >
+  Was there specialized "anti-forensic" (or "privacy") software on a computer?
+id: Q1028
+uuid: fa974c94-04ec-4478-8d24-6b5d74971c45
+description:
+tags:

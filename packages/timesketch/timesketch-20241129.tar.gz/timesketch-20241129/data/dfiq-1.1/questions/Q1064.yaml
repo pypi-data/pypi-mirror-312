@@ -1,0 +1,13 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1022
+type: question
+approaches: []
+name: What systemd timers are configured?
+id: Q1064
+uuid: 38b73d12-f617-4115-a820-d833884983e9
+description:
+tags:
+- T1053.006
+- Linux

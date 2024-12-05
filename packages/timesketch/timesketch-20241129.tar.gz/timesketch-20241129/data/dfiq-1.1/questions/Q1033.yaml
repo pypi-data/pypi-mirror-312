@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1007
+type: question
+approaches: []
+name: Was shell history cleared?
+id: Q1033
+uuid: d01e9643-f68c-4eb8-b021-f4b1a116171f
+description:
+tags:

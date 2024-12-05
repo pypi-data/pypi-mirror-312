@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- S1002
+type: facet
+name: >
+  Has the actor introduced any ExternalCompany files to Company assets via removable
+  storage devices?
+id: F1003
+uuid: a32311a0-0673-4921-855f-65a305756495
+description:
+tags:

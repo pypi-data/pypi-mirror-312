@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1001
+type: question
+approaches: []
+name: What files did the actor open on their computer?
+id: Q1014
+uuid: 99805c93-8eec-48d2-a15c-5280e218ee45
+description:
+tags:
+- File Knowledge

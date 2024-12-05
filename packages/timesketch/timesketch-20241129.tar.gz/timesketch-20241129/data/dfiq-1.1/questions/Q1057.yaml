@@ -1,0 +1,13 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1020
+type: question
+approaches: []
+name: What network logon scripts are configured?
+id: Q1057
+uuid: 511f8172-63ae-4f33-8c4d-88158895331e
+description:
+tags:
+- Windows
+- T1037.003

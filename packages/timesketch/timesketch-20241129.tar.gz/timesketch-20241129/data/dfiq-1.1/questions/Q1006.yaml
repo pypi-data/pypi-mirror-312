@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1001
+- F1008
+type: question
+approaches: []
+name: What files are present on a computer?
+id: Q1006
+uuid: c3971f0b-9f21-4564-8ae6-cf717bee5f2b
+description:
+tags:

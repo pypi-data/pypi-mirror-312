@@ -1,0 +1,26 @@
+---
+dfiq_version: 1.1.0
+parent_ids: []
+type: question
+name: 1234 - This is an DFIQ Analyzer test question?
+id: Q9992
+uuid: 4ad67c99-68c4-55be-95fb-0e06fccda02b
+description: This is a DFIQ Analyzer test question that has an analyzer approach!
+tags: []
+approaches:
+- name: Automated Analysis Step
+  description: Executing related DFIQ analyzer.
+  tags:
+    - analyzer
+  references: []
+  notes:
+    covered:
+    - Specification on what is covered by this automation!
+    not_covered:
+    - Specifications on what is not covered by this automation!
+  steps:
+  - name: Analyzer Display Name
+    description: Analyzer Description
+    stage: analysis
+    type: timesketch-analyzer
+    value: dfiq_test_analyzer

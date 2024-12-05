@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- S1005
+type: facet
+name: >
+  Has an attacker gained access to the cloud project? (Initial Access)
+id: F1013
+uuid: ea928b04-bc7e-4650-8e5e-b99cd2e2c0e9
+description:
+tags:
+- TA0001

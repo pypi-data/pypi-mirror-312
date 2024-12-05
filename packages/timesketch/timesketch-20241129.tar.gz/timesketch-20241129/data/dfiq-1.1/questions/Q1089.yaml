@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1030
+type: question
+approaches: []
+name: Did the user download any Citrix configuration (.ica) files?
+id: Q1089
+uuid: 976ce1cf-1adb-4499-ab7a-13ef3d078dcb
+description:
+tags:

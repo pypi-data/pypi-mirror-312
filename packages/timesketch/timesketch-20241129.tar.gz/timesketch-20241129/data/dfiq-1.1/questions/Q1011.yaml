@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1011
+type: question
+approaches: []
+name: What files were sent or received by a chat application?
+id: Q1011
+uuid: 25e50741-494d-4bcb-b673-7696c06dc366
+description:
+tags:

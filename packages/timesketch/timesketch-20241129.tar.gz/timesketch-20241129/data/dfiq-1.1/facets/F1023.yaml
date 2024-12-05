@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- S1007
+type: facet
+name: >
+  Are there any suspicious files running at system boot or login autoruns?
+id: F1023
+uuid: f8f76c75-71f4-44cc-b5dc-8b7b5f35fb73
+description:
+tags:
+- T1547

@@ -1,0 +1,13 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- S1002
+type: facet
+name: Are there any indications of communication with ExternalCompany?
+id: F1029
+uuid: 9ca0203e-7fb1-46f0-a17c-b6de9be7df5e
+description: >
+  An actor may be exchanging information with an external company, commonly via websites
+  or email messages. The following Questions are broad, and the results will need
+  to be filtered for terms related to the external company.
+tags:

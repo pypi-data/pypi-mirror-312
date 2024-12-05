@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1014
+type: question
+approaches: []
+name: Are there any unknown accounts created?
+id: Q1045
+uuid: 3bc36189-2025-41f7-bf0e-362450a2bb5e
+description:
+tags:

@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1009
+type: question
+approaches: []
+name: How many external recipients does the email have?
+id: Q1080
+uuid: 3f44c359-87b7-4d07-9b4b-0ded68f17334
+description:
+tags:

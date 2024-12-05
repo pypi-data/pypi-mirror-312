@@ -1,0 +1,13 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1002
+type: question
+approaches: []
+name: How much network traffic was there to/from a machine?
+id: Q1031
+uuid: ddf374f6-a908-46da-a559-c4607fc48c65
+description: >
+  Information about the volume, type, and sources/destinations of network data transferred
+  to/from a host can give insights into activity on that host.
+tags:

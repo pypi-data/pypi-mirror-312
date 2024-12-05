@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1030
+type: question
+approaches: []
+name: Did the user interact with any git repositories?
+id: Q1090
+uuid: 1b172abc-cba9-49a6-8bf0-fab8a1d86082
+description:
+tags:

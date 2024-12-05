@@ -1,0 +1,13 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1020
+type: question
+approaches: []
+name: What login hooks are configured?
+id: Q1056
+uuid: 3586dd10-2b20-44ea-ba27-b20500a3d4f6
+description:
+tags:
+- T1037.002
+- macOS

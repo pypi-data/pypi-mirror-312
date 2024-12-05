@@ -1,0 +1,14 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1006
+type: question
+approaches: []
+name: What actions did a Chrome extension perform?
+id: Q1022
+uuid: ad3c9dcb-b062-4118-bcac-ed0140bea127
+description:
+tags:
+- Web Browser
+- Chrome
+- Browser Extension

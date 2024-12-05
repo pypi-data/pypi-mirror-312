@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1001
+- F1008
+type: question
+approaches: []
+name: What files have ever been on a computer?
+id: Q1005
+uuid: 188fcc98-51ec-4b16-8ffc-1009b8e24a4c
+description:
+tags:

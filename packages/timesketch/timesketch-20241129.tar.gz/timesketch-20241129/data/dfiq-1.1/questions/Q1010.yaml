@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1010
+type: question
+approaches: []
+name: What was printed from a computer?
+id: Q1010
+uuid: 11fa196a-a194-4f74-b003-30b826e9d203
+description:
+tags:

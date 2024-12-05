@@ -1,0 +1,14 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- S1002
+type: facet
+name: >
+  Are any ExternalCompany-related files on the actor's assigned Company assets?
+id: F1001
+uuid: 5896cdb6-69bc-4994-8a65-97d76fca66b7
+description: >
+  An actor may bring unauthorized external intellectual property onto Company "end
+  user" devices (like laptops or desktops). Depending on the time frame under consideration,
+  past devices that the actor no longer actively uses may need to be examined as well.
+tags:

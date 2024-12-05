@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1002
+- F1011
+type: question
+approaches: []
+name: What external accounts has the actor used in their web browser?
+id: Q1025
+uuid: 7aefe17a-0787-4684-bdf8-01411d86cfe9
+description:
+tags:

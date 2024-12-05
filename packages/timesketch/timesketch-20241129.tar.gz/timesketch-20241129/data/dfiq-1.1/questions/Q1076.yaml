@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1009
+type: question
+approaches: []
+name: Were the files screenshots?
+id: Q1076
+uuid: 962efb5b-b987-4096-a90c-76fa4d36c88b
+description:
+tags:

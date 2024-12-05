@@ -1,0 +1,9 @@
+---
+dfiq_version: 1.1.0
+type: scenario
+name: DFIQ Analyzer Testing
+id: S9999
+uuid: aba6b02b-2ee7-49ab-9cbe-20b7259d4771
+description: >
+  A DFIQ analyzer test scenario!
+tags:

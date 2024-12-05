@@ -1,0 +1,15 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1021
+type: question
+approaches: []
+name: What local accounts have been created?
+id: Q1059
+uuid: 15f74c50-2453-4066-b45b-168be1097668
+description:
+tags:
+- T1136.001
+- Windows
+- macOS
+- Linux

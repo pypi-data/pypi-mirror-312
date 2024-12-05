@@ -1,0 +1,13 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- S1005
+type: facet
+name: >
+  Are there any signs of an attacker trying to maintain access to the cloud project?
+  (Persistence)
+id: F1014
+uuid: da1d6410-918f-40da-bb25-b80459322d39
+description:
+tags:
+- TA0003

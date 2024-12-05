@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- S1002
+type: facet
+name: >
+  Has the actor introduced any ExternalCompany files to Company assets via downloading?
+id: F1002
+uuid: a45391e8-b6bf-4b46-90e3-aad245b6ef66
+description:
+tags:

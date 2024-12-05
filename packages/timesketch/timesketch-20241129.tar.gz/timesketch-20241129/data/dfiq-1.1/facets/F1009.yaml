@@ -1,0 +1,10 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- S1001
+type: facet
+name: Was any sensitive data sent externally via email?
+id: F1009
+uuid: 789588f7-2c6d-4a2c-93b0-ef447f03e8db
+description:
+tags:

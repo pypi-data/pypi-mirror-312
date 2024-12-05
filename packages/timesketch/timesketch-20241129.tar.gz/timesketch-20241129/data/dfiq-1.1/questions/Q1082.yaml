@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1026
+type: question
+approaches: []
+name: Were any files sent via AirDrop?
+id: Q1082
+uuid: 73b2c385-e0e5-4779-844b-28e0aef1d56d
+description:
+tags:

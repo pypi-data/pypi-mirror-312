@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1002
+- F1012
+type: question
+approaches: []
+name: What programs are installed on a computer?
+id: Q1008
+uuid: f548f991-9180-4ed5-b14f-a7cdbca3a548
+description:
+tags:

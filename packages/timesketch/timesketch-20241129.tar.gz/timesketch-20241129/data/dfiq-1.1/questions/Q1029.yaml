@@ -1,0 +1,13 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1007
+type: question
+approaches: []
+name: Were any encryption programs used on a computer?
+id: Q1029
+uuid: 72d9f83b-6a45-4688-bb61-593e1cb13573
+description: >
+  Unexpected use of encryption programs (built-in or 3rd-party) on a computer could
+  be an effort to hide data prior to removing it from company control.
+tags:

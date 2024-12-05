@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- S9999
+type: facet
+name: >
+  I have no idea what a facet is...
+id: F9999
+uuid: 5896cdb6-69bc-4994-8a65-97d76fca77b7
+description: >
+  DFIQ Analyzer testing facet!
+tags:

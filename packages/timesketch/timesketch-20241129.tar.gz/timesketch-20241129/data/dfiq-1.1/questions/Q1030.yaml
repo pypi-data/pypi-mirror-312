@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1007
+type: question
+approaches: []
+name: Were any security or monitoring agents tampered with or disabled?
+id: Q1030
+uuid: f84b865f-de6e-4a82-a1c6-39b759a41994
+description:
+tags:

@@ -1,0 +1,13 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1009
+type: question
+approaches: []
+name: Were the files copies?
+id: Q1078
+uuid: fe33df58-46c6-476d-a6c6-3aa5e6c857b4
+description: >
+  As a method of obfuscation, an actor might make a copy of a sensitive resource,
+  then exfiltrate the copy, rather than performing the action on the source file itself.
+tags:

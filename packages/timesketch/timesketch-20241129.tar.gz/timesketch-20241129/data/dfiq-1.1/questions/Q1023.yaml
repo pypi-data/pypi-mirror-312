@@ -1,0 +1,13 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1006
+type: question
+approaches: []
+name: Is a given Chrome extension associated with a given domain?
+id: Q1023
+uuid: 34ed8060-cd99-482a-8223-836fcd860cd4
+description:
+tags:
+- T1176
+- Chrome

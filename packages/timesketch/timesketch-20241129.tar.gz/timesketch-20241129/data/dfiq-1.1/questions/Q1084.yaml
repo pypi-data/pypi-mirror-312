@@ -1,0 +1,15 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1011
+- F1029
+type: question
+approaches: []
+name: What data was uploaded to a website via a web browser?
+id: Q1084
+uuid: bdedced1-c88b-498f-bab5-7a93041fd08a
+description: >
+  Web browsers are most often used to browse (or receive) data, but are perfectly
+  capable of uploading data as well. This may take the form of file attachments on
+  a website or pasting blocks of content (text, images, etc) into a web application.
+tags:

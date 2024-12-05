@@ -1,0 +1,13 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1008
+type: question
+approaches: []
+name: Was content copied from a file?
+id: Q1034
+uuid: 83be997e-b36a-4d5e-92e8-12da6b2392c0
+description: >
+  Copying content (full or partial) from a file may be stealthier than directly copying
+  the file itself.
+tags:

@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1029
+type: question
+approaches: []
+name: What web-based email messages were viewed in a web browser?
+id: Q1086
+uuid: 2a6e3a2b-919e-4133-9c8e-ba9074d9675f
+description:
+tags:

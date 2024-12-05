@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1030
+type: question
+approaches: []
+name: Did the user access any common PaaS/SaaS services?
+id: Q1087
+uuid: c27264ee-5c65-4793-8941-d88ab651b971
+description:
+tags:

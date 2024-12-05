@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1004
+type: question
+approaches: []
+name: Have there been any modifications to the "hosts" file?
+id: Q1073
+uuid: 50196b9f-72d6-4e8a-b081-fc5d85e0967a
+description: Check whether there is suspicious routing in the /etc/hosts file.
+tags:

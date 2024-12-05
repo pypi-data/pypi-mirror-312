@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1016
+type: question
+approaches: []
+name: >
+  Is there an unusual increase of traffic between resource in the cloud project?
+id: Q1049
+uuid: 940b9370-f331-4a4d-9429-0630890038e7
+description:
+tags:

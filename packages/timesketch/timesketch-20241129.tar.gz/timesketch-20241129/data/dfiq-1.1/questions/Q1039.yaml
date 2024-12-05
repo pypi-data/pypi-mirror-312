@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1013
+- F1018
+type: question
+approaches: []
+name: Are there any detections of exposed service account credentials?
+id: Q1039
+uuid: 455564a5-c444-40c1-be55-a3dbe72c5f30
+description:
+tags:

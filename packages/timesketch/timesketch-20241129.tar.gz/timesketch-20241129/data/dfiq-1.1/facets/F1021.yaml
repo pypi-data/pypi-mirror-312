@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- S1008
+- S1007
+type: facet
+name: Are there any new accounts that have been created?
+id: F1021
+uuid: cc0cbc64-c376-49b8-981a-0c059490ebe4
+description:
+tags:
+- T1136

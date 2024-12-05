@@ -1,0 +1,14 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1024
+type: question
+approaches: []
+name: When were system services last modified?
+id: Q1068
+uuid: cb3154cc-94ae-4425-87c5-71c9ec7b17ec
+description:
+tags:
+- Windows
+- Linux
+- macOS

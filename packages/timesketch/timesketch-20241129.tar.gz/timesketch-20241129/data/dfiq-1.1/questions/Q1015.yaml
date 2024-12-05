@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1002
+type: question
+approaches: []
+name: >
+  What syncing activities did external "cloud storage" applications do on a computer?
+id: Q1015
+uuid: 98c7cd45-55d6-4b59-b99c-0909de5bdf5a
+description:
+tags:

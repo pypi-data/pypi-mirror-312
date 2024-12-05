@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1030
+type: question
+approaches: []
+name: >
+  Did the user connect to any non-Company systems using the command line?
+id: Q1088
+uuid: f424d999-e230-41f7-875a-a69033bcb33d
+description:
+tags:

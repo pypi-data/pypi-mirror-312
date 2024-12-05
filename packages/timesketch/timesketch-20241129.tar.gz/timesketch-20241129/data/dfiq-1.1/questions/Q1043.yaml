@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1014
+type: question
+approaches: []
+name: Are there any role bindings to cluster admin for anonymous users?
+id: Q1043
+uuid: ed59613c-4c87-4700-a51c-34d331c7bcdc
+description:
+tags:

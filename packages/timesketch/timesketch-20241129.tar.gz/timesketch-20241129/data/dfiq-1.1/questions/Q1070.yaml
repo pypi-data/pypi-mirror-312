@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1025
+type: question
+approaches: []
+name: Are there any indications of dylib proxying?
+id: Q1070
+uuid: bd7931d3-9e36-45b9-b010-dd44b09268b7
+description:
+tags:
+- macOS

@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1012
+type: question
+approaches: []
+name: Does the user have a recently provisioned host?
+id: Q1081
+uuid: adfcfd5a-ab36-4da2-885f-8157b2865be4
+description:
+tags:

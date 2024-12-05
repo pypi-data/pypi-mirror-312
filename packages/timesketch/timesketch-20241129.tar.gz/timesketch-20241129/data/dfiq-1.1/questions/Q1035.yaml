@@ -1,0 +1,14 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1008
+type: question
+approaches: []
+name: Were any copies made of sensitive files?
+id: Q1035
+uuid: 9d6a03a6-b8a7-4d68-94a9-dc4e21bd9534
+description: >
+  Copying a file may appear differently than downloading a file from a server; the
+  copy may be from a mounted drive or share, or a copy within an application (such
+  as Google Drive).
+tags:

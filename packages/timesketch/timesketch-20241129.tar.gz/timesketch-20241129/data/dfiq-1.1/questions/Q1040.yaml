@@ -1,0 +1,13 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1013
+type: question
+approaches: []
+name: >
+  Are there any interaction with the cloud project resources from an unknown external
+  IP address (including Tor Exit nodes, C2 tagged addresses)?
+id: Q1040
+uuid: 7328193e-321e-488d-836b-0401796a1640
+description:
+tags:

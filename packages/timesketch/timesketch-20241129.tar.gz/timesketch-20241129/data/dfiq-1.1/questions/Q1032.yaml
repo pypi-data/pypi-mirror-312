@@ -1,0 +1,12 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1007
+type: question
+approaches: []
+name: >
+  What actions were taken in an Incognito (or "private") browser session?
+id: Q1032
+uuid: 25cda829-92d5-47b8-9948-39684801d6c9
+description:
+tags:

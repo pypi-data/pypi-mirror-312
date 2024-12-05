@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1009
+type: question
+approaches: []
+name: Is there a history of communication with the recipients?
+id: Q1079
+uuid: c70ba182-f3f1-4d10-9b27-33c6fdab1a15
+description:
+tags:

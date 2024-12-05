@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1029
+type: question
+approaches: []
+name: What DNS requests have been made from a system?
+id: Q1085
+uuid: 7244ca6f-3ff4-4c2d-b033-602b2cc81a21
+description:
+tags:

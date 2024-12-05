@@ -1,0 +1,11 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1008
+type: question
+approaches: []
+name: What screenshots were taken on a computer?
+id: Q1004
+uuid: dad90b08-565d-47e6-9bcb-01300e7e22d5
+description:
+tags:

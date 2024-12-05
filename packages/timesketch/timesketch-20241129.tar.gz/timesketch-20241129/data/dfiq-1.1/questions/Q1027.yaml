@@ -1,0 +1,13 @@
+---
+dfiq_version: 1.1.0
+parent_ids:
+- F1001
+type: question
+approaches: []
+name: Are there any sudden changes in the number of files on a device?
+id: Q1027
+uuid: 733873c2-164e-404e-be8c-6d8e038542ac
+description: >
+  Sudden changes (increases or decreases) in the number of files may be indicitive
+  of mass file transfers (either to or from the device).
+tags:
