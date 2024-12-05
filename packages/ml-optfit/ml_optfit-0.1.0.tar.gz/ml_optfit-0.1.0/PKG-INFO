@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ml_optfit
+Version: 0.1.0
+Summary: Automate ML Hyperopt and NN Creation and optimization
+License: MIT
+Author: Fabio Ceruti
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: numpy (>=1.25.0,<2.0.0)
+Requires-Dist: optuna (>=4.0.0,<5.0.0)
+Requires-Dist: tensorflow (>=2.16.0,<3.0.0)
