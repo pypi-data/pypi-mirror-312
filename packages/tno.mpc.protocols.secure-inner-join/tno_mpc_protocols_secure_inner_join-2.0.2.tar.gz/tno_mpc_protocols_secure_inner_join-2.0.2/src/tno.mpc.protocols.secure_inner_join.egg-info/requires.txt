@@ -1,0 +1,16 @@
+bitarray
+mypy_extensions
+numpy<2,>=1.24.4
+randomgen
+tno.mpc.communication[bitarray]~=4.8
+tno.mpc.encryption_schemes.paillier~=3.0
+
+[gmpy]
+tno.mpc.encryption_schemes.paillier[gmpy]
+
+[scripts]
+pandas
+
+[tests]
+pytest>=8.1
+pytest-asyncio
