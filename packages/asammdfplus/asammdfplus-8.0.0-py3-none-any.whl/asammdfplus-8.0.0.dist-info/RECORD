@@ -1,0 +1,10 @@
+asammdfplus/__init__.py,sha256=xlxEa01ixdXm_pTqs9z5z1qIGpNSdyacNcwwO74jU8k,128
+asammdfplus/_original.py,sha256=kT_44_OjwaIZc_XxfXiButdtR0FcrkbJ7feenUWwyOo,356
+asammdfplus/_typing.py,sha256=q8VyuCu0obh1ERvdt9HVas8gVnLzvfIKVpSXPg5S4Lk,1594
+asammdfplus/_utils.py,sha256=0sMWPx_yjotB2cOc0oNj519c5Ajn-7O-X4mH2LY7DfA,12541
+asammdfplus/io.py,sha256=F0RO9sam0ISlqG1XX-wszA6NJt-J20aC2Ohfk_PEf7Q,7179
+asammdfplus/mda.py,sha256=xZIYx1fRLt-1-nk5tFCyyN2s48M3IhPb44nDQJ9G_EA,16355
+asammdfplus/mdf.py,sha256=g8Si26ltNvm-VS_Ev9VcclYEyGZKSHoR9jKZSHmnfQ8,26909
+asammdfplus-8.0.0.dist-info/METADATA,sha256=oEwyHXI5o65shZvO668HO8U1DbrIoyYJXurrjdAtq-0,5054
+asammdfplus-8.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+asammdfplus-8.0.0.dist-info/RECORD,,
