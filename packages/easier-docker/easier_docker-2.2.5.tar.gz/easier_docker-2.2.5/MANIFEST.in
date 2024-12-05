@@ -1,0 +1,10 @@
+exclude *.log
+exclude __pycache__
+exclude .idea
+exclude .git
+exclude venv
+exclude dist
+exclude build
+exclude *.egg-info
+exclude tests
+exclude .coverage
