@@ -1,0 +1,15 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/example_usage.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+insta360_gfpt/__init__.py,sha256=MigXIT7A1M9YZuH2MyjKReSziFwzbZX2boVYsLosR6s,22
+insta360_gfpt/cli.py,sha256=OvIkUOOnDNepjv-P5rDIEgGz8gwGqKvyJ9V741rY494,75
+insta360_gfpt/main.py,sha256=8kuCaIsjOcRAqbVzVbNPKa8huTYz__ZL90IaCpS9V94,2616
+insta360_gfpt/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+insta360_gfpt/templates/main.py,sha256=bqKsk5XiKt7mu-9n51YRiGvQ5JXsKxiCqUosoTTs2Dc,983
+insta360_gfpt/templates/setting.json,sha256=rYluRPywfg4ZvI6ZouRBGYPRYVkyrj9ijvbxdCIrTho,1276
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=ya6YIdqF4gSzRxhVvvZsz9m2MgbsdP1bgpLfXZRre70,777
+insta360_gfpt-0.1.6.dist-info/METADATA,sha256=VJkfuutbFxQ7VoZ0Bpx1Ojsf6M6lI_EOmr_2z0m3ghU,2884
+insta360_gfpt-0.1.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+insta360_gfpt-0.1.6.dist-info/entry_points.txt,sha256=2HI2gDRHUqa9z817lS1ILed-tsnQvG4SsJRcPh3-cK4,64
+insta360_gfpt-0.1.6.dist-info/top_level.txt,sha256=knTFvMdKYUv6J8rUKE2fead541sWefOWd1OvIGZrc6Y,29
+insta360_gfpt-0.1.6.dist-info/RECORD,,
