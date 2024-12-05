@@ -1,0 +1,7 @@
+slack_logger/__init__.py,sha256=HgpObRzeDfnHxkyAxsVs5a7uho_iFqz42jvkvcgR8u0,67
+slack_logger/message_logger.py,sha256=T3AvzX4YbQN2MUSPWrcwIkmqbA9m0uz970G3RJu54LY,5220
+slack_logger/utils.py,sha256=hxMUFH6PCeaPW8o4cM24AtA5ZXMUcuWe61TeEBQ3ieQ,720
+py_slack_logger-1.0.0.dist-info/METADATA,sha256=QGd4Qv2TVoEt64UduNxCjQHDkwGsU1FI9wxqKYXI-sQ,7900
+py_slack_logger-1.0.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+py_slack_logger-1.0.0.dist-info/licenses/LICENSE,sha256=RmvDgSarMJ4Sv1EEPyhgZtRJZ1c_uCmzNOrJENytBlM,1064
+py_slack_logger-1.0.0.dist-info/RECORD,,
