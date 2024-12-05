@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ml_optfit"
+version = "0.1.1"
+description = "Automate ML Hyperopt and NN Creation and optimization"
+readme = 'README.md'
+authors = ["Fabio Ceruti"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tensorflow = "^2.16.0"
+optuna = "^4.0.0"
+numpy = "^1.25.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
