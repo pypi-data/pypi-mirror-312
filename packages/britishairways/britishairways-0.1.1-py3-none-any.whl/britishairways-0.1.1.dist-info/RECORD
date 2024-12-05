@@ -1,0 +1,17 @@
+britishairways/__init__.py,sha256=dYMjChQ7Iio9IXLFl93gHLempz8Pj1gZACrlSiH5zns,242
+britishairways/api.py,sha256=7cAZE9cqeGG2qmSpkV9BYqsuz2L2HkLvJacQuAYWRZU,4615
+britishairways/ba_calendar.py,sha256=moIS6_gVW_8Vn0covXO9VoKv-Sr84mMvGmGDmjkNgrM,2594
+britishairways/ba_cheapest.py,sha256=oIJ1VsP7WabXwvoleuQEZhSdrFSM_FA2CbDK8kEeYvI,2337
+britishairways/ba_graphs.py,sha256=1KazN0tURV4ykRU_w6wjsaS38B_1ZLW58Rz_iAfA4xo,2532
+britishairways/config.py,sha256=wuux2IyrB0lg4MtW4LD9vxE_qXdyrMlo-tXu5Q4txPk,826
+britishairways/data.py,sha256=ljkVnkiV6HQ77QSLSXecxjDE9XkSeQVvfOINkQvilSI,534
+britishairways/exceptions.py,sha256=VAqo-dXGPRVoGRxaKWzkp3oSefHxnJM0ikA-GZbj60c,381
+britishairways/utils.py,sha256=JMY9VQUAZInNlcEo9MGsG46IxiylaBgR_9qhppdNbZE,2620
+tests/__init__.py,sha256=2k_ZeqU7FvqZMFqGm-EYRiV98uxUxmiy5wXygvIobPU,13
+tests/test_api.py,sha256=wDcoy9Dlrdtr4G4iYCOQtiM1PsB2qW70_hRTEjvZ-QE,1971
+tests/test_utils.py,sha256=_TLTn1xMLDc9_13jLLBV9z5rhMx8jifaO6meKM0jsPs,1487
+britishairways-0.1.1.dist-info/LICENSE,sha256=1B61SOHcrVWVhcn0D32FWlFrEkixpbsxXCSpaYP2_F0,1065
+britishairways-0.1.1.dist-info/METADATA,sha256=EiJJoY0XGMSxL0iJsfPnHAg71NMd2pzaOKfExoksjw8,5130
+britishairways-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+britishairways-0.1.1.dist-info/top_level.txt,sha256=fFdpRkdq7mLC4Z_TxNuPBSuBjuwMdSmhShs3aU1XULk,21
+britishairways-0.1.1.dist-info/RECORD,,
