@@ -1,0 +1,10 @@
+passagemath_mcqd-10.4.67.dist-info/RECORD,,
+passagemath_mcqd-10.4.67.dist-info/WHEEL,sha256=IckoTiEyZ7jOzifXmxHZ8WzPuH9GI7kmmJS0Q083CA4,109
+passagemath_mcqd-10.4.67.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+passagemath_mcqd-10.4.67.dist-info/METADATA,sha256=70pVxDyyGh3pD9ao-IJ-BKxPhObZu54ZxieZyAT4kLA,2688
+passagemath_mcqd.dylibs/libpari-gmp-tls.dylib,sha256=OaJmIJYXz1aaHc_vxKBnWnbVKQeZXVlAI-r9loNd97g,9837072
+passagemath_mcqd.dylibs/libgmp.10.dylib,sha256=RLcj71yB7V4Gwx9-nnXeSKTC-KA9hJDDr2lhOQYfXLE,606176
+sage/all__sagemath_mcqd.py,sha256=JfNdiXZ8w_OvTD5zRNmHqB7TlKoFuYo0NA9VBP30zdA,43
+sage/graphs/mcqd.pxd,sha256=Nt-y-spw3laVaRSR0syBgMRg1tAxbgVEcLnoD02inFg,228
+sage/graphs/all__sagemath_mcqd.py,sha256=JfNdiXZ8w_OvTD5zRNmHqB7TlKoFuYo0NA9VBP30zdA,43
+sage/graphs/mcqd.cpython-310-darwin.so,sha256=AvYjpFzGmL-Kb-9xCShuAAEkyd9J1P_e-lgv1HwAy5Q,118720
