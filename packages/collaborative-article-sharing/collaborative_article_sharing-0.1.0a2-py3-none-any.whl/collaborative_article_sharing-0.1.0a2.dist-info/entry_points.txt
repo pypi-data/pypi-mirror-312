@@ -1,0 +1,2 @@
+[console_scripts]
+cas = cas.cli:main
