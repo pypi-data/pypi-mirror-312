@@ -1,0 +1,7 @@
+torch
+bert-score
+scikit-learn
+rouge_score
+statsmodels
+datasets
+sentence_transformers
