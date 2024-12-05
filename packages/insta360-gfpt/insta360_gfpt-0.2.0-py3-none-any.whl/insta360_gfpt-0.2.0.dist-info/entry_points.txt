@@ -1,0 +1,2 @@
+[console_scripts]
+create_insta360_gfpt = insta360_gfpt.cli:main

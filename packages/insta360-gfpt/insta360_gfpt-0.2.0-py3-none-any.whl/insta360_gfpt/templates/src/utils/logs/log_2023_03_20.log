@@ -1,0 +1,7 @@
+2023-03-20 19:16:08.287 | INFO     | src.utils.logger:info:19 - D:\code\gfpt_android\src\utils\tools\iperf\iperf.exe
+2023-03-20 19:17:28.449 | INFO     | src.utils.logger:info:19 - D:\code\gfpt_android\tools\iperf\iperf.exe
+2023-03-20 19:17:30.909 | INFO     | src.utils.logger:info:19 - iperf输出：[]
+2023-03-20 19:17:30.909 | INFO     | src.utils.logger:info:19 - iperf data: 
+2023-03-20 19:17:30.909 | ERROR    | src.utils.logger:error:28 - max() arg is an empty sequence
+2023-03-20 19:17:43.692 | INFO     | src.utils.logger:info:19 - D:\code\gfpt_android\tools\iperf\iperf.exe
+2023-03-20 19:44:24.937 | INFO     | src.utils.logger:info:19 - D:\code\gfpt_android\tools\iperf\iperf.exe
