@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+UIAnalyzer/Driver.py
+UIAnalyzer/PageCognition.py
+UIAnalyzer/Rect.py
+UIAnalyzer/Utils.py
+UIAnalyzer/XML.py
+UIAnalyzer/__init__.py
+UIAnalyzer.egg-info/PKG-INFO
+UIAnalyzer.egg-info/SOURCES.txt
+UIAnalyzer.egg-info/dependency_links.txt
+UIAnalyzer.egg-info/requires.txt
+UIAnalyzer.egg-info/top_level.txt
+UIAnalyzer/Assets/Arial.ttf
