@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include lanstudio/migrations
+recursive-include lanstudio/migrations/versions *
+include lanstudio/migrations/alembic.ini
+include lanstudio/migrations/script.py.mako
