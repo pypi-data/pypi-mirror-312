@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygmentation"
+version = "0.1.4"
+authors = [
+    {name = "Peter Brookes Chambers"}
+]
+description = "A quality-of-life package for colour schemes/palettes and matplotlib plots."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy",
+    "rich",
+]
+
+[project.urls]
+Homepage = "https://github.com/ech0-chambers/pygmentation"
+
+[project.scripts]
+pygmentation = "pygmentation.__main__:main"
+
+[tool.setuptools]
+packages = ["pygmentation"]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+pygmentation = ["color_schemes.json"]

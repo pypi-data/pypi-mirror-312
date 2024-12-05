@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pygmentation/__init__.py
+src/pygmentation/__main__.py
+src/pygmentation/color_scheme.py
+src/pygmentation/color_schemes.json
+src/pygmentation/pygmentation.py
+src/pygmentation/scheme.py
+src/pygmentation/show.py
+src/pygmentation.egg-info/PKG-INFO
+src/pygmentation.egg-info/SOURCES.txt
+src/pygmentation.egg-info/dependency_links.txt
+src/pygmentation.egg-info/entry_points.txt
+src/pygmentation.egg-info/requires.txt
+src/pygmentation.egg-info/top_level.txt
