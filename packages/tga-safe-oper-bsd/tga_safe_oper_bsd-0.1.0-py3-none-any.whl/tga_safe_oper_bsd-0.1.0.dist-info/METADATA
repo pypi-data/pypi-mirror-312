@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: tga-safe-oper-bsd
+Version: 0.1.0
+Summary: A small example package
+Home-page: UNKNOWN
+Author: yuanxiao
+Author-email: yuan6785@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: ezconfig-client==0.7
+
+# EZConfig 客户端程序
+
+## 使用方法
+
+```text
+pip install tga-safe-oper-bsd
+```
+
+传入自定义参数，获取数据
+
+```python
+```
+
+传入自定义参数，获取数据
+
+```python
+```
+
+使用前需要设置环境变量
+
+| 环境变量 | 说明 |
+| --- | --- |
+| EZCONFIG_ENV | 环境变量 |
+| EZCONFIG_APPID | 应用ID |
+| EZCONFIG_SECRET | 应用密钥 |
+| EZCONFIG_HOST | EZConfig服务地址 |
+
+
+环境依赖：
+
+```text
+ezconfig-client==0.7
+```
+
+**测试参考代码**
+
+python test.py
+
+## 版本说明
+
+| 版本  | 变更                                                        |
+|-----|-----------------------------------------------------------|
+| 0.1.0 | 测试                                        |
+| 0.1.1 | 无                                 |
+
+
+
