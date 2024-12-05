@@ -1,0 +1,12 @@
+rdfproxy/__init__.py,sha256=7KC5rdUWfnmeRagJAQ40GyUxTEOxWz1AyyQNOk4yjoM,239
+rdfproxy/adapter.py,sha256=Me91wDJSDpt3UU-E0enLD8z3qEppmorcklCCs0VP4K0,2865
+rdfproxy/mapper.py,sha256=kXGLUJoJjwAdVp9_iuRtLNUXZCw3fsDUsPOpXmQqnpE,3416
+rdfproxy/utils/_exceptions.py,sha256=8gDuQSinnJKz2PyPlOJKT-z0qkwMnG17ooNr9A-yWas,459
+rdfproxy/utils/_types.py,sha256=92RDKhioh5RzBAjS7J1OfVngQowZ2tn3XHgANnjbNsg,1155
+rdfproxy/utils/models.py,sha256=tmbQ6sccOKorrzkioL2EXG3cQoymnrD6MwotaaslVGs,640
+rdfproxy/utils/sparql_utils.py,sha256=ovgIRwQVu8slB_CnoiWNa56tKmi54j6B9rX2jNa735I,5242
+rdfproxy/utils/utils.py,sha256=YftINOFRSrxqHAVmu0Iylgigp-x3QBBmbfiPm1Xhr5g,4052
+rdfproxy-0.1.0.dist-info/LICENSE,sha256=_OAuu2kcdozeGUr76RuAJf17H0kDHzOZbeskalkm8OI,35150
+rdfproxy-0.1.0.dist-info/METADATA,sha256=RndISXZYGczTnMRwNPE-KtTMaJerMnwRy5Cw0wFAJGs,5946
+rdfproxy-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+rdfproxy-0.1.0.dist-info/RECORD,,
