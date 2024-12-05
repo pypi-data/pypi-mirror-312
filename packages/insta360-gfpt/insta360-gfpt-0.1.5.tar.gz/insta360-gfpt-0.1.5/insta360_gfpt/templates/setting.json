@@ -1,0 +1,69 @@
+{
+  "project_name": "vb",
+  "项目名称": "vb",
+  "mes": "lx",
+  "mes选择": "lx, nv, zs",
+  "group": [
+    {
+      "id": "waike",
+      "name": "外壳",
+      "modules": [
+        {
+          "id": "audio",
+          "name": "半成品音频"
+        },
+        {
+          "id": "get_uuid",
+          "name": "获取uuid"
+        }
+      ]
+    },
+    {
+       "id": "sensor",
+      "name": "镜头壳",
+      "modules": [
+        {
+          "id": "yt_calibrate",
+          "name": "云台标定"
+        },
+        {
+          "id": "white_balance_confirm_dirty",
+          "name": "白平衡确认及脏污检测"
+        }
+      ]
+    },
+    {
+       "id": "half_product",
+      "name": "半成品测试",
+      "modules": [
+        {
+          "id": "base_hardware_check",
+          "name": "硬件功能检"
+        },
+        {
+          "id": "write_serial",
+          "name": "写入序列号"
+        }
+      ]
+    },
+    {
+       "id": "product",
+      "name": "成品测试",
+      "modules": [
+        {
+          "id": "age_model",
+          "name": "老化测试"
+        },
+        {
+          "id": "age_result",
+          "name": "获取老化结果"
+        }
+      ]
+    }
+
+  ]
+
+
+
+
+}
