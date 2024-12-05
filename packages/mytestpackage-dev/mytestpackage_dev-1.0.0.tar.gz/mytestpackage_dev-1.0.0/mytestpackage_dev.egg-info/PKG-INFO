@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mytestpackage-dev
+Version: 1.0.0
+Summary: Description
+Home-page: https://github.com/pleonisci/scimodules
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
