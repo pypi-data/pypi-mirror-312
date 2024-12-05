@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+src/inductive/__init__.py
+src/inductive/config.py
+src/inductive/nat.py
+src/inductive.egg-info/PKG-INFO
+src/inductive.egg-info/SOURCES.txt
+src/inductive.egg-info/dependency_links.txt
+src/inductive.egg-info/requires.txt
+src/inductive.egg-info/top_level.txt
+tests/__init__.py
+tests/nat_test.py
+tests/strategies.py
