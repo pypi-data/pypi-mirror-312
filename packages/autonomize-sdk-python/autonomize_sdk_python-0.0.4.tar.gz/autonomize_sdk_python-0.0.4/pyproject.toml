@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "autonomize-sdk-python"
+version = "0.0.4"
+description = "Autonomize Python SDK"
+authors = ["Muhamed Shahabas C <muhamed@autonomize.ai>"]
+packages = [
+    { include = "autonomize_sdk" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8,<3.12"
+opentelemetry-api = "^1.20.0"
+opentelemetry-sdk = "^1.20.0"
+opentelemetry-instrumentation = "^0.41b0"
+opentelemetry-exporter-otlp-proto-grpc = "^1.20.0"
+opentelemetry-instrumentation-fastapi = "^0.41b0"
+opentelemetry-instrumentation-requests = "^0.41b0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.0"
+isort = "^5.12.0"
+mypy = "^1.6.1"
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
+pre-commit = "^3.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: autonomize-sdk-python
+Version: 0.0.4
+Summary: Autonomize Python SDK
+Author: Muhamed Shahabas C
+Author-email: muhamed@autonomize.ai
+Requires-Python: >=3.8,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: opentelemetry-api (>=1.20.0,<2.0.0)
+Requires-Dist: opentelemetry-exporter-otlp-proto-grpc (>=1.20.0,<2.0.0)
+Requires-Dist: opentelemetry-instrumentation (>=0.41b0,<0.42)
+Requires-Dist: opentelemetry-instrumentation-fastapi (>=0.41b0,<0.42)
+Requires-Dist: opentelemetry-instrumentation-requests (>=0.41b0,<0.42)
+Requires-Dist: opentelemetry-sdk (>=1.20.0,<2.0.0)
