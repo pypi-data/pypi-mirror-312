@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: earchive
+Version: 0.3.1
+Summary: Set of tools for electronic archivists
+Author: Matteo Bouvier
+Author-email: matteo.bouvier@hotmail.fr
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: ci
+Provides-Extra: dev
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: mypy (>=1.8.0,<2.0.0) ; extra == "ci"
+Requires-Dist: natsort (>=8.4.0,<9.0.0)
+Requires-Dist: pre-commit (>=3.6.0,<4.0.0) ; extra == "dev"
+Requires-Dist: psutil (>=6.1.0,<7.0.0)
+Requires-Dist: pytest (>=7.4.4,<8.0.0) ; extra == "ci"
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Requires-Dist: ruff (>=0.6.9,<0.7.0) ; extra == "ci"
+Requires-Dist: scalene (>=1.5.45,<2.0.0) ; extra == "dev"
+Requires-Dist: types-psutil (>=6.1.0.20241102,<7.0.0.0) ; extra == "ci"
+Requires-Dist: typing-extensions (>=4.12.2,<5.0.0)
+Requires-Dist: vulture (>=2.11,<3.0) ; extra == "ci"
+Requires-Dist: yelp-gprof2dot (>=1.2.0,<2.0.0) ; extra == "dev"
+Description-Content-Type: text/markdown
+
+# EArchive
+Set of tools for managing electronic archive files, written in Python.
+
+Tools can be executed as : `earchive <tool>`.
+
+
+# Tools
+Available tools are :
+- check, to check for invalid paths in a file system
+- copy, to copy the structure of a directory as only empty files
+- analyze, to get attributes of a directory
+
+More information about each tool can be obtained by running `earchive <tool> --help`
+
+
+# Installation
+
+## Recommended
+The recommended installation uses pipx (https://pipx.pypa.io/stable/) to install the earchive package in an 
+isolated environment and create a shortcut to it in the console.
+
+```shell
+pipx install earchive
+earchive --help
+```
+
+## Pip
+From a Python environment :
+
+```shell
+pip install earchive
+earchive --help
+```
+
+## From source
+Clone the source code :
+
+```
+git clone git@github.com:MatteoBouvier/earchive.git
+python -m earchive --help
+```
+
+
+# TODO:
+- fs case sensitivity
+- unicode PUA
+
