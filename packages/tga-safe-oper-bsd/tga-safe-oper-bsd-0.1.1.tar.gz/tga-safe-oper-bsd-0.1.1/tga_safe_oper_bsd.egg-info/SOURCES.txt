@@ -1,0 +1,9 @@
+README.md
+setup.py
+tga_safe/__init__.py
+tga_safe/query.py
+tga_safe_oper_bsd.egg-info/PKG-INFO
+tga_safe_oper_bsd.egg-info/SOURCES.txt
+tga_safe_oper_bsd.egg-info/dependency_links.txt
+tga_safe_oper_bsd.egg-info/requires.txt
+tga_safe_oper_bsd.egg-info/top_level.txt
