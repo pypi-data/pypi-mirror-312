@@ -1,0 +1,15 @@
+readerwriterlock
+ZODB
+
+numpy
+scipy
+
+dash
+dash-bootstrap-components
+dash-svg
+matplotlib
+plotly
+
+chardet
+gdown
+watchdog
