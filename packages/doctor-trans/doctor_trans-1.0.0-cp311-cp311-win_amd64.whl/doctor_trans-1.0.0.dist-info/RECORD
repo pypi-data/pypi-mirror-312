@@ -1,0 +1,7 @@
+doctor_trans/__init__.py,sha256=WnCm5WLP7pHwC-CupztkRnZbKEQxUTr7PvoK75OZH1U,20
+doctor_trans/trans.c,sha256=Br2GmUy_MpwYgDefF31iMf7bMa4Ou4VX4fnNaoUU_jg,495439
+doctor_trans/trans.cp311-win_amd64.pyd,sha256=_fg_6ZXlbYe5GCqa9psNYODTHr4VuG1MUUkI6js16qY,86528
+doctor_trans-1.0.0.dist-info/METADATA,sha256=BhGrwbQ6puobiuTDOMbr55T5ZjDtQfj1iEBf2kvFCE0,2431
+doctor_trans-1.0.0.dist-info/WHEEL,sha256=yEpuRje-u1Z_HrXQj-UTAfIAegW_HcP2GJ7Ek8BJkUM,102
+doctor_trans-1.0.0.dist-info/top_level.txt,sha256=KmCcAG3elgYFeUWAKVu3svkp2gL-ujn8icyWM5dyLZQ,13
+doctor_trans-1.0.0.dist-info/RECORD,,
