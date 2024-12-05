@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/example_pub.egg-info/PKG-INFO
+src/example_pub.egg-info/SOURCES.txt
+src/example_pub.egg-info/dependency_links.txt
+src/example_pub.egg-info/entry_points.txt
+src/example_pub.egg-info/requires.txt
+src/example_pub.egg-info/top_level.txt
+src/sample/sample.py
