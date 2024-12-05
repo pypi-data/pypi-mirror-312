@@ -1,0 +1,10 @@
+mh_structlog/__init__.py,sha256=H_2nK3ytST08_qUX1b8TK2VMb62XSqh4lcxI_GuQ2EU,842
+mh_structlog/_version.py,sha256=yvxk5LCzjenOM5LnczOdRVSIesXbz2aQHnZR6HmdVME,413
+mh_structlog/config.py,sha256=FleZ-OkAFfLhMtGtS8ZO0cKMNz2-BZ6TfO-Pc6wzS_4,11479
+mh_structlog/django.py,sha256=CqC9hZ9qxdK403nfHxODZ7MnRk6KBviJ7n4p10s9R_U,1088
+mh_structlog/processors.py,sha256=-ogea0eR7KAqOMaBoh6Zd5oJxBXIm_mZDVZ9yR1uX2I,2401
+mh_structlog/utils.py,sha256=UJ1p82ntgBeWGKd-b-v3j_eNT6LnnvBsD__spNVxAnU,557
+mh_structlog-0.0.27.dist-info/METADATA,sha256=LtoOO4_zL_2Nv03l2qeLRU5dykzwKTQ3_6-jcxAD6oY,4807
+mh_structlog-0.0.27.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+mh_structlog-0.0.27.dist-info/top_level.txt,sha256=NzgB3jNQgZuHX36-Nbu5hAWDN8cejlhPLTslxNCXTRY,13
+mh_structlog-0.0.27.dist-info/RECORD,,
