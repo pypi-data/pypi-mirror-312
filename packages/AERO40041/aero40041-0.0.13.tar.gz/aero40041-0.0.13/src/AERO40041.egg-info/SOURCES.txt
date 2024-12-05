@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/AERO40041/__init__.py
+src/AERO40041/competition.py
+src/AERO40041/tests.py
+src/AERO40041.egg-info/PKG-INFO
+src/AERO40041.egg-info/SOURCES.txt
+src/AERO40041.egg-info/dependency_links.txt
+src/AERO40041.egg-info/top_level.txt
