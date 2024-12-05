@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: astro-tigger-lsm
+Version: 1.7.4
+Summary: Python libraries and command-line tools for manipulating Tigger LSMs
+Author: Oleg Smirnov
+Author-email: osmirnov@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: astlib (<=0.11.10) ; python_version >= "3.8" and python_version < "3.12"
+Requires-Dist: astlib (<=0.11.8) ; python_version < "3.8"
+Requires-Dist: astlib (>=0.12.0) ; python_version >= "3.12"
+Requires-Dist: astro-kittens (>=1.4.6,<2.0.0)
+Requires-Dist: astropy (<6.1.0) ; python_version >= "3.8" and python_version < "3.12"
+Requires-Dist: astropy (>=6.1.0) ; python_version >= "3.12"
+Requires-Dist: future
+Requires-Dist: meqtrees-cattery (>=1.7.9,<2.0.0)
+Requires-Dist: numpy (<2.0.0) ; python_version >= "3.8" and python_version < "3.12"
+Requires-Dist: numpy (>=2.0.0) ; python_version >= "3.12"
+Requires-Dist: python-casacore
+Requires-Dist: scipy (<1.13.0) ; python_version >= "3.8" and python_version < "3.12"
+Requires-Dist: scipy (>=1.13.0) ; python_version >= "3.12"
+Description-Content-Type: text/x-rst
+
+==========================
+Tigger-LSM: LSM Libs/utils
+==========================
+
+Installing Tigger-LSM
+=====================
+
+Ubuntu package
+--------------
+
+Enable the KERN suite and install the tigger-lsm package.
+
+
+from pypi or from source
+------------------------
+
+requirements:
+    * Assorted python packages: astropy, numpy, scipy, astLib, python-casacore, future. With the exception of astLib, these are already present in most Linux distros.  astLib may be downloaded here: http://astlib.sourceforge.net/
+    * Purr/Kittens. Available from pip as astro-kittens. Else, install the purr package from a MeqTrees binary distribution (see http://www.astron.nl/meqwiki/Downloading). Alternatively, check it out from svn (see below), and make sure the parent of the Kittens directory is in your PYTHONPATH.
+
+To obtain on ubuntu you can run::
+
+  $ sudo apt-get install python-kittens python-pyfits python-astlib python-scipy python-numpy
+
+now from pip::
+
+    $ pip install astro-tigger-lsm
+
+or from source::
+
+    $ git clone https://github.com/ska-sa/tigger-lsm
+    $ cd tigger-lsm
+    $ python setup.py install
+
+
+Using Tigger-LSM
+================
+
+In python:
+
+    $ import Tigger
+    $ model = Tigger.load("foo.lsm.html")
+
+In the shell
+
+    $ tigger-convert foo.txt foo.lsm.html
+
+
+Questions or problems
+=====================
+
+Open an issue on github
+
+https://github.com/ska-sa/tigger-lsm
+
+
+Travis
+======
+
+.. image:: https://travis-ci.org/ska-sa/tigger-lsm.svg?branch=master
+    :target: https://travis-ci.org/ska-sa/tigger-lsm
+

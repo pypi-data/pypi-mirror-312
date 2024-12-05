@@ -1,0 +1,6 @@
+[console_scripts]
+tigger-convert=Tigger.bin.tigger_convert:main
+tigger-make-brick=Tigger.bin.tigger_make_brick:main
+tigger-restore=Tigger.bin.tigger_restore:main
+tigger-tag=Tigger.bin.tigger_tag:main
+
