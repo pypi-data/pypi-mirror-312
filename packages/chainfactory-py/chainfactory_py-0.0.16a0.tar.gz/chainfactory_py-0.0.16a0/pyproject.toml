@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "chainfactory-py"
+version = "0.0.16a"
+description = "Structured LLM Inference with Easy Parallelism"
+authors = ["Pankaj Garkoti <garkotipankaj@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "chainfactory"}]
+include = ["chainfactory/chains/generate_prompt_template.fctr", "chainfactory/chains/generate_mask_template.py"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyyaml = "^6.0.1"
+tiktoken = "^0.7.0"
+cityhash = "^0.4.7"
+langchain = "^0.3.7"
+langchain-openai = "^0.2.8"
+langchain-anthropic = "^0.3.0"
+langchain-ollama = "^0.2.0"
+langchain-experimental = "^0.3.3"
+ipykernel = "^6.29.5"
+colorama = "^0.4.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
