@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+fakeinvoicegen/__init__.py
+fakeinvoicegen/config.py
+fakeinvoicegen/generator.py
+fakeinvoicegen.egg-info/PKG-INFO
+fakeinvoicegen.egg-info/SOURCES.txt
+fakeinvoicegen.egg-info/dependency_links.txt
+fakeinvoicegen.egg-info/requires.txt
+fakeinvoicegen.egg-info/top_level.txt
