@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: airflow-provider-clickhouse-connect
+Version: 0.0.10
+Summary: Airflow Clickhouse Provider based on http connection
+Author-email: Sergey Irin <serjdukareff@gmail.com>
+License: Apache License 2.0
+Project-URL: Source, https://github.com/RinSer/airflow-provider-clickhouse-connect/
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Apache Airflow
+Classifier: Framework :: Apache Airflow :: Provider
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: ~=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: apache-airflow>=2.10
+Requires-Dist: clickhouse-connect>=0.8.3
+
+<p align="center">
+  <a href="https://www.airflow.apache.org">
+    <img alt="Airflow" src="https://cwiki.apache.org/confluence/download/attachments/145723561/airflow_transparent.png?api=v2" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Airflow Clickhouse Connect Provider
+</h1>
+  <h3 align="center">
+  Clickhouse provider based on <a href="https://github.com/ClickHouse/clickhouse-connect">clickhouse-connect</a> package
+</h3>
+
+<br/>
