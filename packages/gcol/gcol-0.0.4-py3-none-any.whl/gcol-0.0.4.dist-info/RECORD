@@ -1,0 +1,11 @@
+gcol/__init__.py,sha256=nXDiZINBCaBhrpbpvSd53Sw_n60PIPodOER_tvvcgkU,23
+gcol/coloring.py,sha256=-N408M9j4z9gpJgw3xixzDdUnkPfsK2ajBrk5dufV-I,96790
+gcol/equitable_node_coloring.py,sha256=vKHWQ6VUSryYBQJYGLzofyX_VrjJpyBjXBOCft0XIh0,7022
+gcol/node_coloring.py,sha256=N5M8S-qZtJ8eM5s6hT9WBnPYMYBViAv6qXU1K68sVh0,14879
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_gcol.py,sha256=gagamDj5eF9E2TdVpjWsClF9axncvLwxiERG18IJTX8,17304
+gcol-0.0.4.dist-info/LICENSE,sha256=7D7oPVZejrP27ra7rhIzSzy-VZ0IvuKwVA7OFMQS1RA,1086
+gcol-0.0.4.dist-info/METADATA,sha256=bYdZwDDWkK7Xg0UqiS2HI8j4YUpA3GwdStFBl7MG1Y4,2488
+gcol-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gcol-0.0.4.dist-info/top_level.txt,sha256=OUgs9PFmAZ9t_pW3WRW1F38Xynyoj3C5JJuZn4sgYkU,11
+gcol-0.0.4.dist-info/RECORD,,
