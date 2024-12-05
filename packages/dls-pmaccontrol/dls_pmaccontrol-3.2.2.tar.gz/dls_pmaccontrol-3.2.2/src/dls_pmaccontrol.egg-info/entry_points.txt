@@ -1,0 +1,2 @@
+[console_scripts]
+dls-pmac-control = dls_pmac_control.__main__:main
