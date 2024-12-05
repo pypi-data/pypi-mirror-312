@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+kotlin_stdlib_jdk8/__init__.py
+kotlin_stdlib_jdk8.egg-info/PKG-INFO
+kotlin_stdlib_jdk8.egg-info/SOURCES.txt
+kotlin_stdlib_jdk8.egg-info/dependency_links.txt
+kotlin_stdlib_jdk8.egg-info/entry_points.txt
+kotlin_stdlib_jdk8.egg-info/top_level.txt
