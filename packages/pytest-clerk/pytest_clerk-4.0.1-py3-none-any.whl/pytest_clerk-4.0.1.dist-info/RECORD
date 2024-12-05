@@ -1,0 +1,7 @@
+pytest_clerk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_clerk/clerk.py,sha256=TOTk9lNy-AL6bi4r0DFIo4-dkH0GJtzkY_OSd0Ly2KQ,18599
+pytest_clerk-4.0.1.dist-info/LICENSE,sha256=QLSYHsNt-ZLbbVtDs7h8o8v-V0SlK2BuGe7LmoPOasU,1064
+pytest_clerk-4.0.1.dist-info/METADATA,sha256=_GNIcFLkwf4q8wpbv847lbBLOssxar_KqvUNOxJADHk,1682
+pytest_clerk-4.0.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pytest_clerk-4.0.1.dist-info/entry_points.txt,sha256=ps5MgIGlDiWP4lufTAzoQhfwL-GA7rJquc1bqnVR-oA,44
+pytest_clerk-4.0.1.dist-info/RECORD,,
