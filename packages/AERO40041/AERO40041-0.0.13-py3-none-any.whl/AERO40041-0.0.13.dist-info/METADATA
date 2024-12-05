@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: AERO40041
+Version: 0.0.13
+Summary: Code for the AERO40041 course at UoM
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+For the AERO40041 course at UoM.
