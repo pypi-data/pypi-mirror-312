@@ -1,0 +1,14 @@
+README.md
+setup.py
+smartarchive/SqlUtil.py
+smartarchive/ToolPlugin.py
+smartarchive/ZPOpenAILike.py
+smartarchive/ZPOpenAILikeNew.py
+smartarchive/__init__.py
+smartarchive/chatServer.py
+smartarchive/docServer.py
+smartarchive/docServerOpenAI.py
+smartarchive.egg-info/PKG-INFO
+smartarchive.egg-info/SOURCES.txt
+smartarchive.egg-info/dependency_links.txt
+smartarchive.egg-info/top_level.txt
