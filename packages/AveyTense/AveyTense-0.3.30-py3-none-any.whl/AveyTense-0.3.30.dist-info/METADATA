@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: AveyTense
+Version: 0.3.30
+Summary: Library written in Python, includes several extensions for inbuilt Python solutions
+Home-page: https://aveyzan.glitch.me/tense/
+Author: Aveyzan
+Author-email: aveyzan@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+Requires-Dist: typing_extensions
+
+
+    It is highly recommended to continuously switch to the latest versions once they are out. 
+    I documented most of declarations in the files included in this project, and whenever there
+    is need in seeing, what changed, there is text file ``./tense/information/changes.txt``, in an
+    archive you normally download on `this page <https://aveyzan.glitch.me/tense>`_, but later only text file
+    may be downloaded, since I learned, how to update this project on PyPI.
+    
+    To begin, do ``pip install AveyTense`` (assuming you have Python 3.9 or greater; if you *don't*
+    have recent version, visit this page and specify the version, like ``pip install AveyTense==0.3.29``).
+    Last thing is creating a new Python file and writing following ``import`` statement:
+    ::
+    
+        from tense import * # or "import tense as ts", no matter which way you prefer
+    
+    
+    .. note:: If there is no ``discord`` or ``typing_extensions`` module, code of Tense will install them
+        both automatically after compilation attempt.
+    
+    Enjoy!
+    
+    
+    Features:
+    
+    - the ``Color`` class for colorizing output text on the console
+    - the ``Abstract`` class (equivalent to ``abc.ABCMeta`` metaclass) for creating non-instantiable classes
+    - the ``Final`` class (equivalent to ``typing.final()`` decorator) for creating non-inheritable classes
+    - the ``Frozen`` class (equivalent to ``dataclasses.dataclass(frozen = True)``) for creating immutable objects
+    - the ``abroad()`` function being more developed version of inbuilt function ``range()``
+    - the ``reckon()`` function being more developed version of inbuilt function ``len()``
+    - the ``ChangeVar`` class for creating sentinels inside ``while`` loops
+    - the ``FinalVar`` class for creating final variables (referring to ``typing.Final``)
+    - the ``Tense`` class featuring methods extending possibilities of ``abroad()`` function, math methods, time methods,
+        and methods for tossing up (randomizing) results
+    
