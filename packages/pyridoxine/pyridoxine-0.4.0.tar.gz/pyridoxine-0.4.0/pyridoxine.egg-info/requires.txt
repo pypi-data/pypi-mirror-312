@@ -1,0 +1,13 @@
+numpy
+scipy
+matplotlib
+pandas
+astropy
+shapely
+numba
+
+[dev]
+check-manifest
+
+[test]
+coverage
