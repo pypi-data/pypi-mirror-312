@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: snuffkin-playground
+Version: 0.1.1
+Summary: Add your description here
+Project-URL: homepage, https://github.com/snuffkin/snuffkin-playground/blob/main/README.md
+Project-URL: documentation, https://github.com/snuffkin/snuffkin-playground
+Project-URL: repository, https://github.com/snuffkin/snuffkin-playground
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: quri-parts>=0.20.3
+
+# snuffkin-playground
