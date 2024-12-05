@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+turbo_ajedrez/__init__.py
+turbo_ajedrez/turbo_ajedrez.py
+turbo_ajedrez.egg-info/PKG-INFO
+turbo_ajedrez.egg-info/SOURCES.txt
+turbo_ajedrez.egg-info/dependency_links.txt
+turbo_ajedrez.egg-info/requires.txt
+turbo_ajedrez.egg-info/top_level.txt
+turbo_ajedrez.egg-info/zip-safe

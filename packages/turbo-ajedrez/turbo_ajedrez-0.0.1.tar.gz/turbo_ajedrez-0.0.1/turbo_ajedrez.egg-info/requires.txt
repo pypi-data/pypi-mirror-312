@@ -1,0 +1,8 @@
+tqdm
+
+[examples]
+jupyterlab
+pandas
+
+[test]
+pytest
