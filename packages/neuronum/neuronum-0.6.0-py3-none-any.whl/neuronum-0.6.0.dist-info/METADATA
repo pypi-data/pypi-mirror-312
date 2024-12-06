@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: neuronum
+Version: 0.6.0
+Summary: A high-level coding library to interact with the Neuronum network.
+Author: Neuronum Cybernetics
+Author-email: welcome@neuronum.net
+Requires-Python: >=3.6
+Requires-Dist: requests
+
