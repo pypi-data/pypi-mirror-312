@@ -1,0 +1,8 @@
+build
+cgat
+conda
+dist
+doc
+recipes
+scripts
+tests
