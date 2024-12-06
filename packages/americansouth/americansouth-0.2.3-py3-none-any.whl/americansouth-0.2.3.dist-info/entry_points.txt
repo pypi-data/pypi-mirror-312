@@ -1,0 +1,2 @@
+[console_scripts]
+americansouth = americansouth:main
