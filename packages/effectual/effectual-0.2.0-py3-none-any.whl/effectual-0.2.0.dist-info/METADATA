@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: effectual
+Version: 0.2.0
+Summary: A python package/script bundler
+Author-email: jake <jakewdr@proton.me>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Requires-Dist: click>=8.1.7
+Requires-Dist: python-minifier>=2.11.3
+Requires-Dist: rtoml>=0.11.0
+Requires-Dist: ruff>=0.8.0
+Requires-Dist: termcolor>=2.4.0
