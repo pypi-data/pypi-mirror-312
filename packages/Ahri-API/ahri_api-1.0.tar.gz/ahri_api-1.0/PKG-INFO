@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Ahri_API
+Version: 1.0
+Summary: Una libreria per interagire con le API di Riot Games
+Home-page:  
+Author: Ahristogatti
+Author-email: dbaitelli97@gmail.com.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Ahri_API Python
+
+Questa libreria ti permette di interagire con le API di Riot Games.
+
+## Installazione
+
+Per installare, usa il comando:
+
+```bash
+pip install Ahri_API
