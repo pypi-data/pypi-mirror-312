@@ -1,0 +1,7 @@
+license.txt
+setup.py
+exactBin/__init__.py
+exactBin.egg-info/PKG-INFO
+exactBin.egg-info/SOURCES.txt
+exactBin.egg-info/dependency_links.txt
+exactBin.egg-info/top_level.txt
