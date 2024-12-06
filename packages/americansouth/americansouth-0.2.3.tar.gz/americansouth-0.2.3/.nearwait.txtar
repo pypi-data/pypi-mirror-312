@@ -1,0 +1,539 @@
+-- src/americansouth/__init__.py --
+import sys
+
+from .cli import parse_args
+from .data_processor import DataProcessor
+from .display import DisplayManager
+from .repository import JsonRepository
+
+
+def main() -> int:
+    args = parse_args()
+
+    repository = JsonRepository(args.data_file)
+    processor = DataProcessor(repository)
+    display = DisplayManager()
+
+    records = processor.process_data()
+
+    display.print_headers()
+
+    prev_amount: float = 0.0
+    for record in records:
+        display.print_record(record, prev_amount)
+        prev_amount = record[1]
+
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+-- src/americansouth/billing_cycle.py --
+import datetime
+
+
+class BillingCycle:
+    START_HOUR: int = 0
+    START_MINUTE: int = 0
+    START_SECOND: int = 0
+
+    @classmethod
+    def get_next_cycle_start(cls, dt: datetime.datetime) -> datetime.datetime:
+        if dt.month == 12:
+            year: int = dt.year + 1
+            month: int = 1
+        else:
+            year: int = dt.year
+            month: int = dt.month + 1
+        return datetime.datetime(
+            year,
+            month,
+            1,
+            cls.START_HOUR,
+            cls.START_MINUTE,
+            cls.START_SECOND,
+            tzinfo=datetime.timezone.utc,
+        )
+-- src/americansouth/cli.py --
+import argparse
+import dataclasses
+import typing
+
+
+@dataclasses.dataclass
+class CliArgs:
+    data_file: str
+
+
+def parse_args() -> CliArgs:
+    parser: argparse.ArgumentParser = argparse.ArgumentParser()
+    parser.add_argument("data_file", help="Path to data.json file")
+    args: typing.Any = parser.parse_args()
+    return CliArgs(data_file=args.data_file)
+-- src/americansouth/constants.py --
+SECONDS_PER_DAY: int = 86400
+SECONDS_PER_HOUR: int = 3600
+-- src/americansouth/data_processor.py --
+import datetime
+import typing
+import zoneinfo
+
+from .billing_cycle import BillingCycle
+from .repository import Repository
+from .usage_calculator import UsageCalculator
+
+
+class DataProcessor:
+    def __init__(self, repository: Repository) -> None:
+        self.repository = repository
+        self.billing_cycle = BillingCycle()
+        self.usage_calculator = UsageCalculator()
+
+    def _parse_datetime(self, dt_str: str) -> datetime.datetime:
+        try:
+            dt = datetime.datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
+            return dt.replace(tzinfo=zoneinfo.ZoneInfo("UTC"))
+        except ValueError:
+            dt = datetime.datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%S.%fZ")
+            return dt.replace(tzinfo=zoneinfo.ZoneInfo("UTC"))
+
+    def process_data(
+        self,
+    ) -> typing.List[typing.Tuple[float, float, datetime.datetime, float, float]]:
+        amount_groups: typing.Dict[
+            float, typing.Tuple[datetime.datetime, float, float, float]
+        ] = {}
+
+        for record in self.repository.load():
+            amount: float = float(record["amount"])
+            total: float = float(record["total"])
+            scraped_at: datetime.datetime = self._parse_datetime(record["scrapedAt"])
+
+            if amount not in amount_groups or scraped_at > amount_groups[amount][0]:
+                next_billing: datetime.datetime = (
+                    self.billing_cycle.get_next_cycle_start(scraped_at)
+                )
+                hours_remaining: float = self.usage_calculator.calc_hours_remaining(
+                    scraped_at, next_billing
+                )
+                daily_limit: float = self.usage_calculator.calc_daily_limit(
+                    amount, total, hours_remaining
+                )
+                amount_groups[amount] = (
+                    scraped_at,
+                    hours_remaining,
+                    daily_limit,
+                    total,
+                )
+
+        records: typing.List[
+            typing.Tuple[float, float, datetime.datetime, float, float]
+        ] = [
+            (hours, amount, scraped_at, daily_limit, total)
+            for amount, (scraped_at, hours, daily_limit, total) in amount_groups.items()
+        ]
+        return sorted(records, key=lambda x: x[2])
+-- src/americansouth/display.py --
+import datetime
+import typing
+
+from .formatter import DataFormatter
+
+
+class DisplayManager:
+    def __init__(self) -> None:
+        self.formatter: DataFormatter = DataFormatter()
+        self.headers: typing.Dict[str, str] = {
+            "daily": "DAILY USED",
+            "budget": "DAILY BUDGET",
+            "total": "BANDWIDTH USED",
+            "monthly": "REMAINING BUDGET",
+            "total_avail": "MONTHLY BUDGET",
+            "fetch": "DATA FETCH TIME",
+        }
+        self.col_width: typing.Dict[str, int] = {
+            "daily": len(self.headers["daily"]),
+            "budget": len(self.headers["budget"]),
+            "total": len(self.headers["total"]),
+            "monthly": len(self.headers["monthly"]),
+            "total_avail": len(self.headers["total_avail"]),
+            "fetch": len(self.headers["fetch"]),
+        }
+
+    def update_widths(
+        self,
+        records: typing.List[
+            typing.Tuple[float, float, datetime.datetime, float, float]
+        ],
+    ) -> None:
+        prev_amount = 0
+        for record in records:
+            _, amount, scraped_at, daily_limit, total = record
+            daily_used = amount - prev_amount
+            remaining = total - amount
+
+            daily_str = f"{int(daily_used)}GB"
+            budget_str = self.formatter.format_gb(daily_limit)
+            total_str = f"{int(amount)}GB"
+            remaining_str = f"{int(remaining)}GB"
+            total_avail_str = f"{int(total)}GB"
+            fetch_time = self.formatter.format_time(scraped_at)
+
+            self.col_width["daily"] = max(self.col_width["daily"], len(daily_str))
+            self.col_width["budget"] = max(self.col_width["budget"], len(budget_str))
+            self.col_width["total"] = max(self.col_width["total"], len(total_str))
+            self.col_width["monthly"] = max(
+                self.col_width["monthly"], len(remaining_str)
+            )
+            self.col_width["total_avail"] = max(
+                self.col_width["total_avail"], len(total_avail_str)
+            )
+            self.col_width["fetch"] = max(self.col_width["fetch"], len(fetch_time))
+
+            prev_amount = amount
+
+    def print_headers(self) -> None:
+        print(
+            f"{self.headers['daily']:>{self.col_width['daily']}} "
+            f"{self.headers['budget']:>{self.col_width['budget']}} "
+            f"{self.headers['total']:>{self.col_width['total']}} "
+            f"{self.headers['monthly']:>{self.col_width['monthly']}} "
+            f"{self.headers['total_avail']:>{self.col_width['total_avail']}} "
+            f"{self.headers['fetch']:<{self.col_width['fetch']}}"
+        )
+        total_width = sum(self.col_width.values()) + len(self.col_width) - 1
+        print("-" * total_width)
+
+    def print_record(
+        self,
+        record: typing.Tuple[float, float, datetime.datetime, float, float],
+        prev_amount: float,
+    ) -> None:
+        _, amount, scraped_at, daily_limit, total = record
+        daily_used: float = amount - prev_amount
+        remaining: float = total - amount
+        daily_str: str = f"{int(daily_used)}GB"
+        total_str: str = f"{int(amount)}GB"
+        remaining_str: str = f"{int(remaining)}GB"
+        total_avail_str: str = f"{int(total)}GB"
+        fetch_time: str = self.formatter.format_time(scraped_at)
+        print(
+            f"{daily_str:>{self.col_width['daily']}} "
+            f"{self.formatter.format_gb(daily_limit):>{self.col_width['budget']}} "
+            f"{total_str:>{self.col_width['total']}} "
+            f"{remaining_str:>{self.col_width['monthly']}} "
+            f"{total_avail_str:>{self.col_width['total_avail']}} "
+            f"{fetch_time:<{self.col_width['fetch']}}"
+        )
+-- src/americansouth/formatter.py --
+import datetime
+import zoneinfo
+
+
+class DataFormatter:
+    @staticmethod
+    def format_gb(gb: float) -> str:
+        return f"{int(gb)}GB"
+
+    @staticmethod
+    def format_time(dt: datetime.datetime) -> str:
+        pst_time: datetime.datetime = dt.astimezone(
+            zoneinfo.ZoneInfo("America/Los_Angeles")
+        )
+        return (
+            pst_time.strftime("%a %b %d %I:%M %p %Y")
+            .replace(" PM", "pm")
+            .replace(" AM", "am")
+        )
+-- src/americansouth/repository.py --
+import abc
+import json
+import typing
+
+
+class Repository(abc.ABC):
+    @abc.abstractmethod
+    def load(self) -> typing.List[typing.Dict[str, typing.Any]]:
+        pass
+
+
+class JsonRepository(Repository):
+    def __init__(self, data_file: str) -> None:
+        self.data_file = data_file
+
+    def load(self) -> typing.List[typing.Dict[str, typing.Any]]:
+        with open(self.data_file) as f:
+            return json.load(f)
+-- src/americansouth/usage_calculator.py --
+import datetime
+
+from .constants import SECONDS_PER_DAY
+
+
+class UsageCalculator:
+    @staticmethod
+    def calc_daily_limit(
+        amount: float,
+        total: float,
+        seconds_remaining: float,
+    ) -> float:
+        remaining_gb: float = total - amount
+        days_remaining: float = seconds_remaining / SECONDS_PER_DAY
+
+        if days_remaining < 1:
+            return remaining_gb
+
+        return remaining_gb / days_remaining
+
+    @staticmethod
+    def calc_hours_remaining(
+        current_time: datetime.datetime, next_billing: datetime.datetime
+    ) -> float:
+        return (next_billing - current_time).total_seconds()
+-- tests/conftest.py --
+import json
+from pathlib import Path
+
+import pytest
+
+
+@pytest.fixture
+def sample_data_file(tmp_path) -> Path:
+    data = [
+        {
+            "date": "2024-11-13",
+            "amount": 79.13,
+            "amountUnits": "GB",
+            "total": 400,
+            "totalUnits": "GB",
+            "overage": 0,
+            "overageUnits": "GB",
+            "scrapedAt": "2024-11-13T06:17:28.611Z",
+        },
+        {
+            "date": "2024-11-14",
+            "amount": 85.33,
+            "amountUnits": "GB",
+            "total": 400,
+            "totalUnits": "GB",
+            "overage": 0,
+            "overageUnits": "GB",
+            "scrapedAt": "2024-11-14T04:07:23.819Z",
+        },
+    ]
+
+    data_file = tmp_path / "data.json"
+    data_file.write_text(json.dumps(data))
+    return data_file
+
+
+@pytest.fixture
+def complex_data_file(tmp_path) -> Path:
+    data = [
+        {
+            "date": "2024-11-13",
+            "amount": 50.0,
+            "amountUnits": "GB",
+            "total": 400,
+            "totalUnits": "GB",
+            "overage": 0,
+            "overageUnits": "GB",
+            "scrapedAt": "2024-11-13T00:00:00Z",
+        },
+        {
+            "date": "2024-11-14",
+            "amount": 75.0,
+            "amountUnits": "GB",
+            "total": 400,
+            "totalUnits": "GB",
+            "overage": 0,
+            "overageUnits": "GB",
+            "scrapedAt": "2024-11-14T00:00:00Z",
+        },
+        {
+            "date": "2024-11-15",
+            "amount": 100.0,
+            "amountUnits": "GB",
+            "total": 400,
+            "totalUnits": "GB",
+            "overage": 0,
+            "overageUnits": "GB",
+            "scrapedAt": "2024-11-15T00:00:00Z",
+        },
+    ]
+
+    data_file = tmp_path / "complex_data.json"
+    data_file.write_text(json.dumps(data))
+    return data_file
+-- tests/test_billing_cycle.py --
+import datetime
+
+from americansouth.billing_cycle import BillingCycle
+
+
+def test_get_next_cycle_start():
+    # Test mid-month date
+    current = datetime.datetime(2024, 6, 15, 12, 30, tzinfo=datetime.timezone.utc)
+    next_cycle = BillingCycle.get_next_cycle_start(current)
+    assert next_cycle == datetime.datetime(
+        2024, 7, 1, 0, 0, 0, tzinfo=datetime.timezone.utc
+    )
+
+    # Test end of year
+    current = datetime.datetime(2024, 12, 25, 12, 30, tzinfo=datetime.timezone.utc)
+    next_cycle = BillingCycle.get_next_cycle_start(current)
+    assert next_cycle == datetime.datetime(
+        2025, 1, 1, 0, 0, 0, tzinfo=datetime.timezone.utc
+    )
+-- tests/test_data_processor.py --
+from americansouth.data_processor import DataProcessor
+from americansouth.repository import JsonRepository
+
+
+def test_process_data_basic(sample_data_file):
+    repository = JsonRepository(str(sample_data_file))
+    processor = DataProcessor(repository)
+    records = processor.process_data()
+
+    assert len(records) == 2
+    assert records[0][1] == 79.13
+    assert records[1][1] == 85.33
+
+
+def test_process_data_daily_usage(complex_data_file):
+    repository = JsonRepository(str(complex_data_file))
+    processor = DataProcessor(repository)
+    records = processor.process_data()
+
+    amounts = [record[1] for record in records]
+    assert amounts == [50.0, 75.0, 100.0]
+
+    prev_amount = 0
+    daily_usages = []
+    for record in records:
+        amount = record[1]
+        daily_usages.append(amount - prev_amount)
+        prev_amount = amount
+
+    assert daily_usages == [50.0, 25.0, 25.0]
+-- tests/test_usage_calculator.py --
+import datetime
+
+from americansouth.constants import SECONDS_PER_DAY, SECONDS_PER_HOUR
+from americansouth.usage_calculator import UsageCalculator
+
+
+def test_calc_daily_limit_comprehensive():
+    calculator = UsageCalculator()
+
+    limit = calculator.calc_daily_limit(
+        amount=100.0,
+        total=400.0,
+        seconds_remaining=SECONDS_PER_DAY * 10,
+    )
+    assert round(limit, 2) == 30.0
+
+    limit = calculator.calc_daily_limit(
+        amount=234.0,
+        total=400.0,
+        seconds_remaining=SECONDS_PER_HOUR * 4,
+    )
+    remaining_gb = 400.0 - 234.0
+    assert limit == remaining_gb
+    assert limit <= remaining_gb
+
+    limit = calculator.calc_daily_limit(
+        amount=234.0,
+        total=400.0,
+        seconds_remaining=SECONDS_PER_HOUR,
+    )
+    assert limit == 400.0 - 234.0
+
+    limit = calculator.calc_daily_limit(
+        amount=234.0,
+        total=400.0,
+        seconds_remaining=1188,
+    )
+    assert limit == 400.0 - 234.0
+
+    limit = calculator.calc_daily_limit(
+        amount=200.0,
+        total=400.0,
+        seconds_remaining=SECONDS_PER_DAY,
+    )
+    assert limit == 400.0 - 200.0
+
+    limit = calculator.calc_daily_limit(
+        amount=200.0,
+        total=400.0,
+        seconds_remaining=90000,
+    )
+    assert limit < 400.0 - 200.0
+    assert round(limit, 2) == round((400.0 - 200.0) / (90000 / SECONDS_PER_DAY), 2)
+
+
+def test_calc_daily_limit_edge_cases():
+    calculator = UsageCalculator()
+
+    # Test normal case
+    limit = calculator.calc_daily_limit(
+        amount=100.0,
+        total=400.0,
+        seconds_remaining=0.0,
+    )
+    assert limit == 300.0
+
+    limit = calculator.calc_daily_limit(
+        amount=400.0,
+        total=400.0,
+        seconds_remaining=SECONDS_PER_DAY * 2,
+    )
+    assert limit == 0.0
+
+    limit = calculator.calc_daily_limit(
+        amount=0.0,
+        total=400.0,
+        seconds_remaining=SECONDS_PER_DAY * 30,
+    )
+    assert round(limit, 2) == round(400.0 / 30, 2)
+
+
+def test_calc_daily_limit_validation():
+    calculator = UsageCalculator()
+
+    test_cases = [
+        (234.0, 400.0, 1188),
+        (100.0, 400.0, SECONDS_PER_DAY * 10),
+        (0.0, 400.0, SECONDS_PER_DAY * 30),
+        (399.0, 400.0, SECONDS_PER_DAY * 2),
+        (200.0, 400.0, SECONDS_PER_DAY),
+    ]
+
+    for amount, total, seconds in test_cases:
+        limit = calculator.calc_daily_limit(amount, total, seconds)
+        remaining = total - amount
+        assert limit <= remaining
+        assert limit >= 0
+
+
+def test_calc_daily_limit_with_billing_cycle():
+    calculator = UsageCalculator()
+
+    current = datetime.datetime(2024, 11, 1, 0, 0, tzinfo=datetime.timezone.utc)
+    next_billing = datetime.datetime(2024, 12, 1, 0, 0, tzinfo=datetime.timezone.utc)
+    seconds = calculator.calc_hours_remaining(current, next_billing)
+    limit = calculator.calc_daily_limit(0.0, 400.0, seconds)
+    assert round(limit, 2) == round(400.0 / 30, 2)
+
+    current = datetime.datetime(2024, 11, 30, 20, 0, tzinfo=datetime.timezone.utc)
+    next_billing = datetime.datetime(2024, 12, 1, 0, 0, tzinfo=datetime.timezone.utc)
+    seconds = calculator.calc_hours_remaining(current, next_billing)
+    limit = calculator.calc_daily_limit(234.0, 400.0, seconds)
+    assert limit == 400.0 - 234.0
+
+    current = datetime.datetime(2024, 11, 15, 0, 0, tzinfo=datetime.timezone.utc)
+    next_billing = datetime.datetime(2024, 12, 1, 0, 0, tzinfo=datetime.timezone.utc)
+    seconds = calculator.calc_hours_remaining(current, next_billing)
+    limit = calculator.calc_daily_limit(200.0, 400.0, seconds)
+    expected_days = seconds / SECONDS_PER_DAY
+    assert round(limit, 2) == round((400.0 - 200.0) / expected_days, 2)

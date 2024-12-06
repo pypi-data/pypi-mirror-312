@@ -1,0 +1,29 @@
+filelist:
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/.bumpversion.toml
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/.github/workflows/ci.yml
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/.nearwait.txtar
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/.prettierignore
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/.prettierrc.json
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/.renovaterc.json
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/README.md
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/americansouth.code-workspace
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/diag.md
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/dist/.gitignore
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/dist/americansouth-0.2.2-py3-none-any.whl
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/dist/americansouth-0.2.2.tar.gz
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/justfile
+  # - /Users/mtm/pdev/taylormonacelli/americansouth/pyproject.toml
+  - /Users/mtm/pdev/taylormonacelli/americansouth/src/americansouth/__init__.py
+  - /Users/mtm/pdev/taylormonacelli/americansouth/src/americansouth/billing_cycle.py
+  - /Users/mtm/pdev/taylormonacelli/americansouth/src/americansouth/cli.py
+  - /Users/mtm/pdev/taylormonacelli/americansouth/src/americansouth/constants.py
+  - /Users/mtm/pdev/taylormonacelli/americansouth/src/americansouth/data_processor.py
+  - /Users/mtm/pdev/taylormonacelli/americansouth/src/americansouth/display.py
+  - /Users/mtm/pdev/taylormonacelli/americansouth/src/americansouth/formatter.py
+  - /Users/mtm/pdev/taylormonacelli/americansouth/src/americansouth/repository.py
+  - /Users/mtm/pdev/taylormonacelli/americansouth/src/americansouth/usage_calculator.py
+  - /Users/mtm/pdev/taylormonacelli/americansouth/tests/conftest.py
+  - /Users/mtm/pdev/taylormonacelli/americansouth/tests/test_billing_cycle.py
+  - /Users/mtm/pdev/taylormonacelli/americansouth/tests/test_data_processor.py
+  - /Users/mtm/pdev/taylormonacelli/americansouth/tests/test_usage_calculator.py
+# - /Users/mtm/pdev/taylormonacelli/americansouth/uv.lock

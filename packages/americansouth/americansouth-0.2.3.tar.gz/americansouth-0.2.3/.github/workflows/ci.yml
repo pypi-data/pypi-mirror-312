@@ -1,0 +1,54 @@
+name: Build & Test
+"on":
+  push:
+    branches:
+      - "*"
+  pull_request:
+    branches:
+      - "*"
+  schedule:
+    - cron: 01 13 * * SAT
+jobs:
+  test:
+    name: Build & Test
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-latest
+          - windows-latest
+          - macos-latest
+        python-version:
+          - "3.9"
+          - "3.10"
+          - "3.11"
+          - "3.12"
+    steps:
+      - uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
+      - uses: astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a
+        id: setup-uv
+        with:
+          enable-cache: true
+      - run: echo "Installed uv version is ${{ steps.setup-uv.outputs.uv-version }}"
+      - name: Create venv and sync deps
+        run: |
+          uv venv --python ${{ matrix.python-version }}
+          uv sync
+      - name: Run tests (Windows)
+        if: runner.os == 'Windows'
+        run: |
+          . .venv/Scripts/activate.ps1
+          pytest -v
+        shell: pwsh
+      - name: Run tests (Linux/macOS)
+        if: runner.os != 'Windows'
+        run: |
+          . .venv/bin/activate
+          pytest -v
+  required-check:
+    name: All Tests Passed
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "All tests passed!"

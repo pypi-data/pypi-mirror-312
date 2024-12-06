@@ -1,0 +1,47 @@
+[project]
+name = "americansouth"
+version = "0.2.3"
+description = "Monitor internet data usage to avoid overage charges"
+authors = [
+  { name = "Taylor Monacelli", email = "taylormonacelli@gmail.com" }
+]
+dependencies = [
+   "tzdata>=2024.1"
+]
+readme = "README.md" 
+requires-python = ">= 3.9"
+
+[project.urls]
+Homepage = "https://github.com/gkwa/americansouth"
+Repository = "https://github.com/gkwa/americansouth"
+
+[project.scripts]
+americansouth = "americansouth:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/americansouth"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff.lint]
+extend-select = ["I"]
+
+[dependency-groups]
+dev = [
+   "pytest>=8.3.3",
+]
+
+[tool.hatch.envs.test]
+dependencies = [
+  "pytest>=7.0.0",
+  "pytest-cov>=4.1.0",
+]
