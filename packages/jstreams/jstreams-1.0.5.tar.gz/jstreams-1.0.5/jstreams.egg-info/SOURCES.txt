@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jstreams/__init__.py
+jstreams/__init__.pyi
+jstreams/py.typed
+jstreams/stream.py
+jstreams/stream.pyi
+jstreams.egg-info/PKG-INFO
+jstreams.egg-info/SOURCES.txt
+jstreams.egg-info/dependency_links.txt
+jstreams.egg-info/top_level.txt
+test/test_opt.py
+test/test_stream.py
