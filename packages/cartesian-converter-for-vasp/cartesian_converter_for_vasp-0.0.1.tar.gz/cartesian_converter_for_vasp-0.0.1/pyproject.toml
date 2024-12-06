@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cartesian_converter_for_vasp"
+version = "0.0.1"
+description = "A tool to convert fractional coordinates to Cartesian coordinates for VASP data files."
+authors = [
+  {name = "REN YuanTong", email = "renyt1621@mails.jlu.edu.cn"}
+]
+license = {text = "MIT"}
+dependencies = [
+  "numpy>=1.26.4"
+]
+
+[project.scripts]
+csv_convert = "direct_to_cartesian.cli:main"

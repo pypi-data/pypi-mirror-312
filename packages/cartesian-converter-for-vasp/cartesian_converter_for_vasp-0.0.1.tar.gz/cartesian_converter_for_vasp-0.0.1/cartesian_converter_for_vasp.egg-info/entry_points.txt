@@ -1,0 +1,2 @@
+[console_scripts]
+csv_convert = direct_to_cartesian.cli:main
