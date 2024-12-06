@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sort-prices
+Version: 1.0.0
+Summary: A library to sort prices from low to high for Django or other Python applications.
+Home-page: https://github.com/SnehalKolhe10/sort_prices
+Author: Snehal Kolhe
+Author-email: x23339438@student.ncirl.ie
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Sort Prices
+
+A Python library to sort prices from low to high for Django or any Python application.
+
+## Installation
+
+```bash
+pip install sort_prices
+
+
