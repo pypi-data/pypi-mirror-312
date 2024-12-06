@@ -1,0 +1,22 @@
+=== GNS3 3.0.0rc2 traceback on 23 Nov 2024 11:45:42 ===
+Traceback (most recent call last):
+  File "/home/grossmj/PycharmProjects/gns3-gui/gns3/main.py", line 325, in <module>
+    main()
+  File "/home/grossmj/PycharmProjects/gns3-gui/gns3/main.py", line 242, in main
+    app = Application(sys.argv, hdpi=local_config.hdpi())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/grossmj/PycharmProjects/gns3-gui/gns3/application.py", line 44, in __init__
+    self.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Qt' has no attribute 'AA_EnableHighDpiScaling'
+=== GNS3 3.0.0rc2 traceback on 23 Nov 2024 11:50:05 ===
+Traceback (most recent call last):
+  File "/home/grossmj/PycharmProjects/gns3-gui/gns3/main.py", line 325, in <module>
+    main()
+  File "/home/grossmj/PycharmProjects/gns3-gui/gns3/main.py", line 242, in main
+    app = Application(sys.argv)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/grossmj/PycharmProjects/gns3-gui/gns3/application.py", line 44, in __init__
+    self.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Qt' has no attribute 'AA_EnableHighDpiScaling'
