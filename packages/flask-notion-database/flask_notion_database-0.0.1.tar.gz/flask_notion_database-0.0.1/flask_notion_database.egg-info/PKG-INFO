@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: flask-notion-database
+Version: 0.0.1
+Summary: notion-database flask extension
+Author-email: minwook-shin <minwook0106@gmail.com>
+Project-URL: Homepage, https://github.com/minwook-shin/flask-notion-database
+Project-URL: Bug Tracker, https://github.com/minwook-shin/flask-notion-database/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Flask
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: notion-database==2.0.dev0
+Requires-Dist: flask==3.1.0
+Provides-Extra: dev
+Requires-Dist: flasgger; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+
+# flask-notion-database
+
+notion-database flask extension
+
+The flask-notion-database is a Flask extension that allows you to manage routes within your Flask application. 
+
+## Installation
+
+To install the Flask notion-database extension, you can use pip:
+
+```bash
+pip install flask-notion-database
+```
+
+## Usage
+
+First, import the `NotiondatabaseExtension` from the `flask-notion-database` package:
+
+Then, create an instance of the `NotiondatabaseExtension` and initialize it with your Flask application:
+
+```python
+from flask import Flask
+from flask_notion_database import NotionDatabaseExtension
+
+NDE = NotionDatabaseExtension()
+app = Flask(__name__)
+NDE.init_app(app)
+```
+
+Now, you can use the notion-database features in your Flask routes.
+
+## Example
+
+run the example.py file to see how the extension works.
+
+http://127.0.0.1:8888/apidocs/#/ will show the swagger documentation of the api.
+
+## License
+
+This project is licensed under the terms of the LGPL license.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
