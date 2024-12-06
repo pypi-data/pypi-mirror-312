@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: dj_polyglot
+Version: 0.1
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python
+Requires-Dist: Django>=3.2
+Requires-Dist: polib>=1.2.0

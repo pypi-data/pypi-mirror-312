@@ -1,0 +1,7 @@
+README.md
+setup.py
+dj_polyglot.egg-info/PKG-INFO
+dj_polyglot.egg-info/SOURCES.txt
+dj_polyglot.egg-info/dependency_links.txt
+dj_polyglot.egg-info/requires.txt
+dj_polyglot.egg-info/top_level.txt
