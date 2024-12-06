@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "order-management-silverstalan"
+version = "0.1.2"
+authors = [
+    { name = "silverstalan", email = "your.email@example.com" }
+]
+description = "AWS Order Management System with DynamoDB, S3, and SNS integration. Provides robust order processing, document storage, and event notifications."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP",
+    "Intended Audience :: Developers",
+]
+dependencies = [
+    "boto3>=1.26.0",
+]
+keywords = ["aws", "order-management", "dynamodb", "s3", "sns"]
+
+[project.urls]
+Documentation = "https://github.com/yourusername/order-management"
+Repository = "https://github.com/yourusername/order-management"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/order_management_pkg"]
