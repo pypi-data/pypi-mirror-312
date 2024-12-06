@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phishing-detection-py"
+version = "0.1.3"
+description = "A Python library for phishing detection using machine learning models."
+authors = [
+    {name = "cmacha2", email = "cristiancmg127@gmail.com"}
+]
+readme = "README.md"
+license = {text = "Apache-2.0"}
+dependencies = [
+    "transformers",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "imblearn"
+]
