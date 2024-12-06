@@ -1,0 +1,47 @@
+Metadata-Version: 2.3
+Name: multiprocess-stubs
+Version: 0.1.0
+Summary: Type stubs for the multiprocess library.
+Project-URL: Homepage, https://github.com/zhou13/multiprocess-stub
+Project-URL: Issues, https://github.com/zhou13/multiprocess-stub/issues
+Author-email: Yichao Zhou <zyc@berkeley.edu>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: multiprocess
+Description-Content-Type: text/markdown
+
+# multiprocess-stubs
+
+[![image](https://img.shields.io/pypi/v/multiprocess-stubs)](https://pypi.python.org/pypi/multiprocess-stubs)
+[![image](https://img.shields.io/pypi/l/multiprocess-stubs)](https://github.com/zhou13/multiprocess-stubs/blob/master/LICENSE.txt)
+
+Type stubs for the `multiprocess` library.
+
+## Installation
+
+```bash
+pip install multiprocess-stubs
+```
+
+## Purpose
+
+This package provides type stubs (`.pyi`) for the `multiprocess` library, enabling better type checking and IDE support for Python's multiprocessing functionality.
+
+## Usage
+
+Simply install the stubs, and your type checker (mypy, pyright) will use these type definitions when analyzing code that uses `multiprocess`.
+
+## Compatibility
+
+- Compatible with Python 3.8+
+- Matches the type signature of the standard library `multiprocessing` module
+
+## Development
+
+Right now, most of this package is copied from https://github.com/python/typeshed/tree/main/stdlib/multiprocessing. Contributions to improve the type annotations are welcome.
+
+## License
+
+MIT License
