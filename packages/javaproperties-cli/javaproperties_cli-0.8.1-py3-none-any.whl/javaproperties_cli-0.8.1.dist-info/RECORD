@@ -1,0 +1,10 @@
+javaproperties_cli/__init__.py,sha256=0FyeCjP8WfQ8IsNfZIeYABvxITvCQgpJ34EU9sDZt0s,637
+javaproperties_cli/__main__.py,sha256=BxnkinRoB6G34KgVEsqS19px-9HRbWzczChD5-W0SBI,17636
+javaproperties_cli/fromjson.py,sha256=Lm0t38-UCCdCrj_8rO0IMnj3YCY_hGPQf7oiLaij2UM,4254
+javaproperties_cli/tojson.py,sha256=X3PCqfEEKO13rlG5qiMWo-L36Se1_tvWXcAQo13F8NQ,2511
+javaproperties_cli/util.py,sha256=yC7nr2WtYOpJPTsHW-2DYbAalB9ub8l-Upj_wz3gEjY,938
+javaproperties_cli-0.8.1.dist-info/METADATA,sha256=3dejI_Ywbm51IFByBaV9VAlKAWZ-z5iyTUFKL-dshQE,4392
+javaproperties_cli-0.8.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+javaproperties_cli-0.8.1.dist-info/entry_points.txt,sha256=0oiMpHzFfLvsN-g1Xrp_OAGBtWrkpdfMv-U5Tt4_pfM,200
+javaproperties_cli-0.8.1.dist-info/licenses/LICENSE,sha256=hWosDMISSYTFzXXdYH2pTZexOibZr3mRIjkp5EToq9s,1095
+javaproperties_cli-0.8.1.dist-info/RECORD,,
