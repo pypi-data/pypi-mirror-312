@@ -1,0 +1,3 @@
+[console_scripts]
+dcm-check-session = dcm_check.cli.check_session:main
+dcm-gen-session = dcm_check.cli.gen_session:main
