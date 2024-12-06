@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hf_down
+Version: 1.0.3
+Summary: A tool to download files from Hugging Face repositories.
+Home-page: 
+Author: LEL
+Author-email: 2324171649@qq.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Hugging Face Crawler
+
+A tool to download files from Hugging Face repositories while maintaining the directory structure.
+
+## Installation
+
+You can install the tool via pip:
+
+```bash
+pip install hf_download

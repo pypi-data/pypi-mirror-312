@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/hf_down/__init__.py
+src/hf_down/main.py
+src/hf_down.egg-info/PKG-INFO
+src/hf_down.egg-info/SOURCES.txt
+src/hf_down.egg-info/dependency_links.txt
+src/hf_down.egg-info/entry_points.txt
+src/hf_down.egg-info/top_level.txt
