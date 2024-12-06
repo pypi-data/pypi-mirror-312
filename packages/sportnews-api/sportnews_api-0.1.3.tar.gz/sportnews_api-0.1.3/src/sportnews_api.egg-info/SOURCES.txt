@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/sportnews/__init__.py
+src/sportnews/client.py
+src/sportnews/exceptions.py
+src/sportnews/models.py
+src/sportnews_api.egg-info/PKG-INFO
+src/sportnews_api.egg-info/SOURCES.txt
+src/sportnews_api.egg-info/dependency_links.txt
+src/sportnews_api.egg-info/requires.txt
+src/sportnews_api.egg-info/top_level.txt
+tests/test_client.py
