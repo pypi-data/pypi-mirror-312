@@ -1,0 +1,6 @@
+[console_scripts]
+cryptfile = inuxnetutil:main_cryptfile
+decrypt = inuxnetutil:main_decrypt
+decryptfile = inuxnetutil:main_decryptfile
+encrypt = inuxnetutil:main_encrypt
+encryptfile = inuxnetutil:main_encryptfile
