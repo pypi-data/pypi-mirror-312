@@ -1,0 +1,6 @@
+[console_scripts]
+swing_hello=swing_hello.__main__:main
+
+[django.apps]
+swing_hello=swing_hello.apps.HelloConfig
+
