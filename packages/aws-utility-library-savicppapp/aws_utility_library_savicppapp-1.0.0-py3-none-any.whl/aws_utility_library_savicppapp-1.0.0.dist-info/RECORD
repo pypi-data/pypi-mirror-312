@@ -1,0 +1,10 @@
+aws_utility_library_savicppapp/__init__.py,sha256=YWuEsY_DmsIdbvNAeqF43OY9GT0ZJSZ9U1Tz4Z1qCA4,352
+aws_utility_library_savicppapp/dynamodb.py,sha256=MyfuQEjc280eMQxiAcU_eIW3mCrSHQe_MfAEEanQbNo,1943
+aws_utility_library_savicppapp/lambda_utility.py,sha256=ex0o83rK1-Cxv44-ixZeGAHfGsj3rxYzspl9-u4HplU,1060
+aws_utility_library_savicppapp/s3.py,sha256=S-Gk8t9mLKNJ0RIhAUDmB_O9w3LGJ0Tt0ivOwAqfvOY,1194
+aws_utility_library_savicppapp/sqs_sns.py,sha256=dB7SbWl19f4ps64zL0yVn4CW7I3gOnQEwXbOPZVZLRs,2388
+aws_utility_library_savicppapp-1.0.0.dist-info/LICENSE,sha256=Q4elHuo4ux0Vtg2OqxSdLB4fVLB1t79eZRnoFIKKctE,1076
+aws_utility_library_savicppapp-1.0.0.dist-info/METADATA,sha256=jiQpk28MdCDCCURO2QRqNHHbzT6vSE_3Cy4OeY3V3E0,1245
+aws_utility_library_savicppapp-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+aws_utility_library_savicppapp-1.0.0.dist-info/top_level.txt,sha256=WGmB6B1fR6G6LoOsqfgR_GJpSzbcGD3FlnB0MAzcUgs,31
+aws_utility_library_savicppapp-1.0.0.dist-info/RECORD,,
