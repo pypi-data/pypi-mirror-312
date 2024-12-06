@@ -1,0 +1,10 @@
+osmcp/__init__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+osmcp/cli.py,sha256=XLKBtt8IcC8Q2aE1o5b14kJPQMtluYQ1kJ-1MzrYcAs,2602
+osmcp/providers/__template__.py,sha256=gq-sWdMXfGx6GvU7iiJTn2JwFH3t0Xx7AUaV62ZAv08,3404
+osmcp/providers/sbb.py,sha256=2_7RlXJjPPji4Wv6FW4-InlOYRRxXGF_TSdvVnGzyqQ,5862
+osmcp/providers/utils.py,sha256=27hoJUQkRB2j4gZ2m7Z_Gk4Tc0Llr4WZ1cmXMIAqcpA,1480
+osmcp-0.1.4.dist-info/METADATA,sha256=L18h-vorHMO1vzUHpE4QOyZybHjcExTDem8wOMLY3V4,2284
+osmcp-0.1.4.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+osmcp-0.1.4.dist-info/entry_points.txt,sha256=cq5r8SMwTzJHGlS5AJIXjIksLhQ-dIy5V1LDLwRF8so,41
+osmcp-0.1.4.dist-info/licenses/LICENSE,sha256=2RfUrXsHGrboBEhsYNevIVSX0jiJMrQv8R98cxt_UZA,1074
+osmcp-0.1.4.dist-info/RECORD,,
