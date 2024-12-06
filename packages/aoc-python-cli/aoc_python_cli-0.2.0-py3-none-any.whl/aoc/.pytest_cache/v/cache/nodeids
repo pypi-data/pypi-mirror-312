@@ -1,0 +1,8 @@
+[
+  "day_00/test_solution.py::TestChallenge::test_on_real_data_part_1",
+  "day_00/test_solution.py::TestChallenge::test_on_real_data_part_2",
+  "day_00/test_solution.py::TestChallenge::test_on_sample_data_part_1",
+  "day_00/test_solution.py::TestChallenge::test_on_sample_data_part_2",
+  "day_00/test_solution.py::TestChallenge::test_part_1",
+  "day_00/test_solution.py::TestChallenge::test_part_2"
+]
