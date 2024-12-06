@@ -1,0 +1,2 @@
+[console_scripts]
+moonai = moonai.cli.cli:moonai
