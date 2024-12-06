@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: WkDB
+Version: 1.1.0
+Summary: WkDB对pymysql和sqlite3进行了封装，提供常用的增删改查操作，简化操作。
+Home-page: https://gitee.com/purify_wang/wk-db.git
+Author: WANGKANG
+Author-email: 1686617586@qq.com
+License: GPL-2.0
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: WkLog
+Requires-Dist: pymysql
+
+# WkDB
+
+## 项目简介
+
+WkDB是一个轻量级的数据库操作封装类，旨在简化Python应用程序中对MySQL和SQLite3数据库的操作。通过WkDB，开发者可以轻松进行数据库连接、查询、插入、更新和删除等常见任务，而无需编写冗长的SQL语句和处理复杂的数据库连接逻辑。WkDB提供了一致、直观的API，使数据库操作变得更为高效和易于维护。
+
+## 主要特性
+
+- **多数据库支持**：支持MySQL和SQLite3，用户可以根据需求在两者之间进行选择。
+- **自动连接管理**：内置长连接机制，定期检查连接状态，以防止因长时间不活动导致的连接超时。
+- **简易操作接口**：提供简化的接口用于执行常见的数据库操作，包括创建表、插入、查询、更新和删除数据。
+- **丰富的日志记录**：集成日志功能，便于跟踪数据库操作的所有细节，包括成功和失败的信息。
+- **批量操作支持**：支持批量插入和删除操作，提升数据处理性能。
+- **异常处理机制**：提供明确的异常处理，确保在操作失败时能够立即捕获并反馈错误信息。
+- **灵活的参数配置**：通过关键字参数支持多种配置，增强灵活性和可扩展性。
+
+## 安装
+
+在使用WkDB之前，请确保安装了相应的数据库驱动程序。
+
+对于MySQL：
+```bash
+pip install pymysql
+```
+
+对于SQLite（Python自带SQLite模块，无需额外安装）：
+
+将WkDB.py文件下载到您的项目目录中，并在代码中导入：
+```python
+from WkDB import WkDB
+```
+
+## 使用示例
+
+以下是使用WkDB的基本示例代码，演示了如何与数据库进行交互：
+
+```python
+# 导入WkDB类
+from WkDB import WkDB
+
+# 初始化WkDB对象
+db = WkDB(
+    time_interval=60,  # 连接保持的时间间隔
+    db_type="mysql",   # 数据库类型（mysql或sqlite3）
+    host="localhost",  # 数据库主机
+    user="your_user",  # 数据库用户名
+    password="your_password",  # 数据库密码
+    database="your_database"    # 数据库名称
+)
+
+# 设置要操作的表
+db.set_table("your_table")
+
+# 创建新的表
+db.create_table({
+    "id": "INTEGER PRIMARY KEY",
+    "name": "TEXT"
+})
+
+# 插入一条数据
+db.insert_row({"id": 1, "name": "wangkang"})
+
+# 查询所有数据
+data = db.select_all()
+print(data)
+
+# 更新数据
+db.update({"id": 1}, {"name": "new_name"})
+
+# 删除指定行
+db.delete_row({"id": 1})
+
+# 关闭数据库连接
+db.close()
+```
+
+## API 文档
+
+WkDB 的API文档可以在项目中找到，其中详细描述了每个方法的使用方式和参数。
+
+### 方法概览
+
+- `__init__(time_interval, db_type, **kwargs)`: 初始化WkDB实例，设置连接参数。
+- `set_table(table)`: 设置当前操作的表。
+- `create_table(obj)`: 创建新表。
+- `insert_row(obj)`: 插入一行数据。
+- `select_all()`: 查询所有数据。
+- `update(target_obj, new_obj)`: 根据条件更新数据。
+- `delete_row(obj)`: 根据条件删除数据。
+- `close()`: 关闭数据库连接。
+
+## 贡献
+
+我们欢迎来自社区的贡献和改进！如果您有新的特性建议、bug报告或其他意见，请通过GitHub提交问题或拉取请求。
+
+## 许可证
+
+本项目采用MIT许可证，详细许可证信息请参见LICENSE文件。
+
+---
+
+如需获取更多信息或支持，请访问项目主页或联系作者。感谢您使用WkDB！
