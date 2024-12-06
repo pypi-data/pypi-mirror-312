@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: WeightMatrix_Analysis
+Version: 0.1.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+## 1. Create a specific matrix
+### create_RD_matrix(n_samples, n_features, rank)
+## 2. Analysis matrix
+### left_null_space

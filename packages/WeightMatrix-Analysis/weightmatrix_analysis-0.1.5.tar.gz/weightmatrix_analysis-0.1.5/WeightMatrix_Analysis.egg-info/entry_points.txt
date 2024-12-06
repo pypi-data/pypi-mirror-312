@@ -1,0 +1,4 @@
+[console_scripts]
+WeightMatrix = WeightMatrix.main:WeightMatrix
+left_null_space = WeightMatrix_Analysis.main:left_null_space
+right_null_space = WeightMatrix_Analysis.main:right_null_space

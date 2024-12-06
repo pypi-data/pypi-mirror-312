@@ -1,0 +1,11 @@
+LICENSE
+pyproject.toml
+setup.py
+WeightMatrix_Analysis/__init__.py
+WeightMatrix_Analysis/main.py
+WeightMatrix_Analysis.egg-info/PKG-INFO
+WeightMatrix_Analysis.egg-info/SOURCES.txt
+WeightMatrix_Analysis.egg-info/dependency_links.txt
+WeightMatrix_Analysis.egg-info/entry_points.txt
+WeightMatrix_Analysis.egg-info/requires.txt
+WeightMatrix_Analysis.egg-info/top_level.txt
