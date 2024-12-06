@@ -1,0 +1,16 @@
+.gitignore
+LICENSE.txt
+NEWS.rst
+README.rst
+pyproject.toml
+.github/workflows/unittests.yml
+src/uppd/__init__.py
+src/uppd/py.typed
+src/uppd/uppd.py
+src/uppd.egg-info/PKG-INFO
+src/uppd.egg-info/SOURCES.txt
+src/uppd.egg-info/dependency_links.txt
+src/uppd.egg-info/entry_points.txt
+src/uppd.egg-info/requires.txt
+src/uppd.egg-info/top_level.txt
+test/uppd/test_uppd.py
