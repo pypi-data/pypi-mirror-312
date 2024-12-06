@@ -1,0 +1,7 @@
+joblib
+pytest
+requests
+build
+setuptools
+twine
+wheel
