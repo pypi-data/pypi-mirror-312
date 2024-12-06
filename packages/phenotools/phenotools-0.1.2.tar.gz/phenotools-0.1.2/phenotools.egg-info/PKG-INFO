@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: phenotools
+Version: 0.1.2
+Summary: A user-friendly tool for breeders to extract organ-level phenotypic traits from UAV imagery.
+Home-page: https://phenonet.org/phenosr
+Author: Ruinan Zhang
+Author-email: ruinan@stu.njau.edu.cn
+License: GPL3.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: dj-rest-auth==6.0.0
+Requires-Dist: Django==4.2.7
+Requires-Dist: django-allauth==64.0.0
+Requires-Dist: django-comment-migrate==0.1.7
+Requires-Dist: django-cors-headers==4.3.0
+Requires-Dist: django-filter==23.3
+Requires-Dist: django-huey==1.2.0
+Requires-Dist: django-ranged-response==0.2.0
+Requires-Dist: django-redis==5.4.0
+Requires-Dist: django-rest-swagger==2.2.0
+Requires-Dist: django-restql==0.15.3
+Requires-Dist: django-simple-captcha==0.5.20
+Requires-Dist: django-timezone-field==6.0.1
+Requires-Dist: djangorestframework==3.14.0
+Requires-Dist: djangorestframework-jwt==1.11.0
+Requires-Dist: djangorestframework-simplejwt==5.3.0
+Requires-Dist: einops==0.8.0
+Requires-Dist: huey==2.5.1
+Requires-Dist: imageio==2.35.1
+Requires-Dist: kombu==5.3.7
+Requires-Dist: loguru==0.7.2
+Requires-Dist: matplotlib==3.9.2
+Requires-Dist: netifaces==0.11.0
+Requires-Dist: numpy==1.26.4
+Requires-Dist: opencv-python==4.10.0.84
+Requires-Dist: pillow==10.4.0
+Requires-Dist: PyJWT==1.7.1
+Requires-Dist: pynvml==11.5.0
+Requires-Dist: pytorch-msssim==1.0.0
+Requires-Dist: psutil==6.0.0
+Requires-Dist: PyYAML==6.0.1
+Requires-Dist: scikit-image==0.24.0
+Requires-Dist: scipy==1.13.1
+Requires-Dist: seaborn==0.13.2
+Requires-Dist: SQLAlchemy==2.0.30
+Requires-Dist: torch==1.11.0
+Requires-Dist: torchvision==0.12.0
+Requires-Dist: basicsr>=1.4.2
+Requires-Dist: drf_yasg==1.21.7
+Requires-Dist: tqdm==4.66.4
+
+
+PhenoTools: A user-friendly tool for breeders to extract organ-level phenotypic traits from UAV imagery.
+Author: Ruinan Zhang (ruinan@stu.njau.edu.cn)
+Team: PhenoNet.org
