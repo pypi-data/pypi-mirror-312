@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/audio_segmenter/__init__.py
+src/audio_segmenter/cli.py
+src/audio_segmenter/segmenter.py
+src/audio_segmenter.egg-info/PKG-INFO
+src/audio_segmenter.egg-info/SOURCES.txt
+src/audio_segmenter.egg-info/dependency_links.txt
+src/audio_segmenter.egg-info/entry_points.txt
+src/audio_segmenter.egg-info/requires.txt
+src/audio_segmenter.egg-info/top_level.txt
