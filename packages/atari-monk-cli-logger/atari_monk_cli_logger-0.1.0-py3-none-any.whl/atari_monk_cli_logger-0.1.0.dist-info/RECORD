@@ -1,0 +1,7 @@
+cli_logger/__init__.py,sha256=UO0s3HsQrNZgI5d00LS3hx5mgPO_IrW2UldA-wKoNV4,48
+cli_logger/logger.py,sha256=ktxlAJPhYtovu_f62X3Sf8Fkk8gmgvG6WmXwNxsmyec,4181
+cli_logger/usage_example.py,sha256=3OcepQM6wNt9aCMPsQ0d-_hH1AN1E-MXeRKsas2kuZk,1055
+atari_monk_cli_logger-0.1.0.dist-info/METADATA,sha256=40qfxryFMnGBRp6vNsAcaLRcznQARNoOIJLWnppb6Kg,393
+atari_monk_cli_logger-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+atari_monk_cli_logger-0.1.0.dist-info/top_level.txt,sha256=ySG-5RQECVh_uyj935AitBmyEdxfeY3sWvkJ8OjmIBs,11
+atari_monk_cli_logger-0.1.0.dist-info/RECORD,,
