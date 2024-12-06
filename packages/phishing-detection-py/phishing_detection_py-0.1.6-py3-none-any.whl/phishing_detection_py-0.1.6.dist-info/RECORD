@@ -1,0 +1,14 @@
+phishing_detection_py/__init__.py,sha256=s3OdYdSNWrEcMLUdE5rAWG4oO8XqYpAu6NlCvl7K0C8,365
+phishing_detection_py/batch_processor.py,sha256=q3sYgjmqQMxCRipQhp5T_urSKVv8ZL6Jnlr5sjxpGrU,365
+phishing_detection_py/cli.py,sha256=z7HODc-FGQqgt_DJHVk9V5lf6nBsO7laPk7uRhcCwRM,587
+phishing_detection_py/config.py,sha256=XNLJPIQt6oFpH69YL7n9jWWKeI664xSwUf70nSlz-kE,157
+phishing_detection_py/detector.py,sha256=zW1fXsP-HWFuOUZf943q6pJoDGABO83WwoRvei_zxwE,2459
+phishing_detection_py/logger.py,sha256=GMux3k0Bcua0nOC8sqje2vvVDriCCA6bNSwJmd4FdOQ,457
+phishing_detection_py/model_registry.py,sha256=sqiXnVLcJ2_S4HMvsZVwYikaHQ07yiZu40SIfT1Z0RU,841
+phishing_detection_py/preprocessor.py,sha256=6CkSx0m09CtMGR8GI22QxiDC7tnnwpDb8HuhhLeUUNs,350
+phishing_detection_py/utils.py,sha256=Ijiw2HE7EiQ13W_mdN3MmAthq8DxZuGvwyBXwJhHarE,166
+phishing_detection_py-0.1.6.dist-info/LICENSE,sha256=xXiU_D-pRYQxfYPKQUZGc9AFICGObLHjfPoVu6_p2rA,566
+phishing_detection_py-0.1.6.dist-info/METADATA,sha256=eVGhfykgvDW7uwi9ibR3bDBHQldn5-J7M2u7PDLygUY,2432
+phishing_detection_py-0.1.6.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+phishing_detection_py-0.1.6.dist-info/top_level.txt,sha256=eBd88MOaX2jliIdb69PeBJf_RkQYacx2IGDSTrslZPw,22
+phishing_detection_py-0.1.6.dist-info/RECORD,,
