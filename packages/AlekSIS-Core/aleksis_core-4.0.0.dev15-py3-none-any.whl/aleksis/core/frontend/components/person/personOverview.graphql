@@ -1,0 +1,53 @@
+query person($id: ID) {
+  object: personByIdOrMe(id: $id) {
+    id
+    username
+    firstName
+    additionalName
+    lastName
+    fullName
+    shortName
+
+    description
+
+    sex
+    street
+    housenumber
+    postalCode
+    place
+    phoneNumber
+    mobileNumber
+    email
+    dateOfBirth
+    placeOfBirth
+
+    secondaryImageUrl
+
+    guardians {
+      id
+      fullName
+    }
+    children {
+      id
+      fullName
+    }
+    memberOf {
+      id
+      name
+      avatarUrl
+      schoolTerm {
+        id
+        name
+      }
+    }
+    ownerOf {
+      id
+      name
+      avatarUrl
+      schoolTerm {
+        id
+        name
+      }
+    }
+  }
+}

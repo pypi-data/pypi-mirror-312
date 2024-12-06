@@ -1,0 +1,7 @@
+query persons {
+  items: persons {
+    id
+    shortName
+    fullName
+  }
+}
