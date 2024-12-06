@@ -1,0 +1,17 @@
+build
+build_out
+out
+*.log
+sim_log
+simlog
+*.pyc
+venv
+*.run
+.cache
+__pycache__
+*.json
+cpu
+sim
+op_args.py
+op_cpu.py
+op_npu.py
