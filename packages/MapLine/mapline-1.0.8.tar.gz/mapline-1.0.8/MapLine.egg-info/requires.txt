@@ -1,0 +1,8 @@
+astropy
+matplotlib
+numpy
+scipy
+cloup
+click
+emcee
+tqdm
