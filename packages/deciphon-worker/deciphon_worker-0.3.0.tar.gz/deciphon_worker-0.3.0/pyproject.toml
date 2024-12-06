@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "deciphon-worker"
+version = "0.3.0"
+description = "Deciphon worker."
+authors = ["Danilo Horta <danilo.horta@pm.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+h3daemon = "^0.14.7"
+deciphon-core = "^1.0.4"
+loguru = "^0.7.2"
+tenacity = "^9.0.0"
+deciphon-snap = "^1.0.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
