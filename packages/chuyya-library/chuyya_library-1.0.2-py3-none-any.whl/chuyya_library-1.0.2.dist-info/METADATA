@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: chuyya_library
+Version: 1.0.2
+Summary: A Python library for generating shipment invoices
+Home-page: https://github.com/your_username/my_library
+Author: Your Name
+Author-email: your_email@example.com
+Project-URL: Bug Tracker, https://github.com/your_username/my_library/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fpdf
+
+# My Library
+
+My Library is a Python library for generating shipment invoices in PDF format. It supports custom fonts, logos, and dynamic data insertion.
+
+## Installation
+
+```bash
+pip install my_library
