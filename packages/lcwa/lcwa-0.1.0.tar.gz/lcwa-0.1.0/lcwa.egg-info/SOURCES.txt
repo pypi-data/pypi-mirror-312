@@ -1,0 +1,12 @@
+README.md
+setup.py
+lcwa/__init__.py
+lcwa/lcwa.py
+lcwa.egg-info/PKG-INFO
+lcwa.egg-info/SOURCES.txt
+lcwa.egg-info/dependency_links.txt
+lcwa.egg-info/requires.txt
+lcwa.egg-info/top_level.txt
+lcwa/pyhessianv2/__init__.py
+lcwa/pyhessianv2/hessian.py
+lcwa/pyhessianv2/utils.py
