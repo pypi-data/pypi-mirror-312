@@ -1,0 +1,3 @@
+[console_scripts]
+speedy_annotate=speedy_annotate.main:main
+
