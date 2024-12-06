@@ -1,0 +1,2 @@
+[console_scripts]
+kcr_generate = kube_custom_resource.generate:main

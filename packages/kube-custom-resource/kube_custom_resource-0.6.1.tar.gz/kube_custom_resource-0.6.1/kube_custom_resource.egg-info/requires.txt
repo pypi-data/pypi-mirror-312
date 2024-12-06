@@ -1,0 +1,8 @@
+annotated-types
+click
+pydantic
+
+[test]
+pytest
+pytest-cov
+pytest-sugar

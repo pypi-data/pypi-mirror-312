@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: kube-custom-resource
+Version: 0.6.1
+Summary: Utilities for working with Kubernetes custom resources.
+Home-page: https://github.com/azimuth-cloud/kube-custom-resource
+Author: Matt Pryor
+Author-email: matt@stackhpc.com
+License-File: LICENSE
+Requires-Dist: annotated-types
+Requires-Dist: click
+Requires-Dist: pydantic
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-sugar; extra == "test"
+
+# kube-custom-resource
+
+This package provides utilities for working with Kubernetes custom resources,
+e.g. when building an operator.
