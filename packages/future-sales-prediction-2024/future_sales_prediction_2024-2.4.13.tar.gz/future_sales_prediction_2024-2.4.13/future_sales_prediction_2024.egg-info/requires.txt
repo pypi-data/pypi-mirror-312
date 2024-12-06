@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+lightgbm
+xgboost
+matplotlib
+seaborn
+hyperopt
+shap
+matplotlib
+seaborn
+dvc
+dvc-gs
+dvc[gs]
+google-auth
+google-cloud-storage
+gcsfs
