@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+EDS_Lib.egg-info/PKG-INFO
+EDS_Lib.egg-info/SOURCES.txt
+EDS_Lib.egg-info/dependency_links.txt
+EDS_Lib.egg-info/top_level.txt
+eds/__init__.py
+eds/core.py
+eds/exceptions.py
+tests/test.py
