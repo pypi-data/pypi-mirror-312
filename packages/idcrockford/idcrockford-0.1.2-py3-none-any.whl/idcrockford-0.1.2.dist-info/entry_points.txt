@@ -1,0 +1,3 @@
+[console_scripts]
+idcrockford=idcrockford.__main__:main
+
