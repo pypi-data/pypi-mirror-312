@@ -1,0 +1,14 @@
+aiohttp>=3.9.3
+ntgcalls<1.3.0,>=1.2.0
+psutil
+screeninfo
+deprecation
+
+[nodejs]
+nodejs>=18.0.0
+
+[pyrogram]
+pyrogram>=1.2.20
+
+[telethon]
+telethon>=1.24.0
