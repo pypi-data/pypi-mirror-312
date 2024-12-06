@@ -1,0 +1,7 @@
+mlflow>=2.0.0
+pandas>=1.0.0
+gastle
+torch
+numpy>=1.18.0
+networkx>=2.5
+matplotlib>=3.2.0
