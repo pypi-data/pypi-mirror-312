@@ -1,0 +1,168 @@
+Metadata-Version: 2.1
+Name: cv_net_library
+Version: 0.0.5
+Summary: A library of complex-valued neural networks
+Home-page: https://github.com/maple18661959396/ISAR_CV_NET
+Author: XiaoDong Zhou
+Author-email: zhou460749608@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# cv_net_library
+
+---
+
+The idea of this library is  to implement Complex class, 
+everything else stays the same as any PyTorch code.
+
+I am basically working with Complex-Valued Neural Networks.  In the need of making our coding more dynamic we build this
+library not to have to repeat the same code over and over and accelerate the speed of coding.
+
+## Installation
+
+### Using [PIP]
+
+Only use complex-valued neural networks library:
+
+`pip install cv-net-library`
+
+### Using GitHub
+
+Useful if you want to modify the source code and view the relevant tests:
+
+`https://github.com/maple18661959396/ISAR_CV_NET`
+
+---
+
+## To Use
+
+Import the cv_net_library base class. then Import related classes or functions from the corresponding module.
+
+The functions in cv_net_library has the same function as the corresponding function in Pytorch, 
+and the prefix Complex is added before the corresponding function. as the following modules.
+
+If you have any inquiries regarding the functionality or parameters of any function,
+please visit GitHub to examine the original source code.
+
+### layer
+
+- ComplexLayers
+
+  `ComplexConv2d` `ComplexConv1d` `ComplexConv3d` `ComplexFlatten`  `ComplexConvTransposed2d`  `ComplexLinear`
+
+- ComplexDropout
+
+  `ComplexDropout2D` `ComplexDropout` `ComplexDropoutRespectively`
+
+- ComplexPooling
+
+  `ComplexAvgPool1D` `ComplexAvgPool2D` `ComplexAvgPool3D` `ComplexPolarAvgPooling2D` `ComplexMaxPool2D`  `ComplexUnPooling2D`
+
+- ComplexUpSampooling
+
+  `ComplexUpSampling` `ComplexUpSamplingBilinear2d` `ComplexUpSamplingNearest2d`
+  
+
+### function
+
+- ComplexBatchNorm
+
+  `ComplexBatchNorm` `ComplexBatchNorm1d` `ComplexBatchNorm2d`
+
+### activation
+
+- ComplexActivations
+
+  `complex_relu` `complex_elu` `complex_exponential` `complex_sigmoid` `complex_tanh` `complex_hard_sigmoid`
+  `complex_leaky_relu` `complex_selu` `complex_softplus` `complex_softsign` `complex_softmax`
+  `modrelu` `zrelu` `complex_cardioid` `sigmoid_real` `softmax_real_with_abs` `softmax_real_with_avg`
+  `softmax_real_with_mult` `softmax_of_softmax_real_with_mult` `softmax_of_softmax_real_with_avg`
+  `softmax_real_by_parameter` `softmax_real_with_polar` `georgiou_cdbp` `complex_signum`
+  `mvn_activation` `apply_pol` `pol_tanh` `pol_sigmoid` `pol_selu`
+
+### loss
+
+- ComplexLoss
+
+  `ComplexAverageCrossEntropy`  `ComplexAverageCrossEntropyAbs` `ComplexMeanSquareError` 
+  `ComplexAverageCrossEntropyIgnoreUnlabeled`  `ComplexWeightedAverageCrossEntropy`
+  `ComplexWeightedAverageCrossEntropyIgnoreUnlabeled` `FrobeniusLoss` `ComplexL1Loss` `ComplexSmoothL1Loss`
+  `ComplexNLLLoss` `ComplexNLLLossAbs`
+
+## Example
+
+```
+# Make a A-ConvNets 
+import torch.nn as nn
+import cv_net_library
+from cv_net_library.activation.ComplexActivation import complex_relu, complex_softmax
+from cv_net_library.layer.ComplexLayers import ComplexLinear, ComplexConv2d
+from cv_net_library.layer.ComplexDropout import ComplexDropout2D
+from cv_net_library.layer.ComplexPooling import ComplexMaxPool2D
+from cv_net_library.layer.ComplexUpSampling import ComplexUpSamplingBilinear2d
+from cv_net_library.layer.ComplexLayers import ComplexLinear, ComplexConv2d
+from cv_net_library.function.ComplexBatchNorm import ComplexBatchNorm2d, ComplexBatchNorm1d
+from cv_net_library.loss.ComplexLoss import ComplexAverageCrossEntropy, ComplexAverageCrossEntropyAbs
+
+class ComplexNet(nn.Module):
+
+    def __init__(self):
+        super(ComplexNet, self).__init__()
+        self.conv1 = ComplexConv2d(1, 16, 13, 1)
+        self.bn2d1 = ComplexBatchNorm2d(16, track_running_stats=False)
+        self.maxpool1 = ComplexMaxPool2D(2, 2)
+        self.conv2 = ComplexConv2d(16, 32, 13, 1)
+        self.bn2d2 = ComplexBatchNorm2d(32, track_running_stats=False)
+        self.maxpool2 = ComplexMaxPool2D(2, 2)
+        self.conv3 = ComplexConv2d(32, 64, 12, 1)
+        self.bn2d3 = ComplexBatchNorm2d(64, track_running_stats=False)
+        self.maxpool3 = ComplexMaxPool2D(2, 2)
+        self.dropout1 = ComplexDropout2D(p=0.5)
+        self.conv4 = ComplexConv2d(64, 128, 10, 1)
+        self.bn2d4 = ComplexBatchNorm2d(128, track_running_stats=False)
+        self.conv5 = ComplexConv2d(128, 7, 6, 1)
+        self.bn2d5 = ComplexBatchNorm2d(7, track_running_stats=False)
+
+    def forward(self, x):
+        x = self.conv1(x)
+        x = self.bn2d1(x)
+        x = complex_relu(x)
+        x = self.maxpool1(x)
+        x = self.conv2(x)
+        x = self.bn2d2(x)
+        x = complex_relu(x)
+        x = self.maxpool2(x)
+        x = self.conv3(x)
+        x = self.bn2d3(x)
+        x = complex_relu(x)
+        x = self.maxpool3(x)
+        x = self.dropout1(x)
+        x = self.conv4(x)
+        x = self.bn2d4(x)
+        x = complex_relu(x)
+        x = self.conv5(x)
+        x = self.bn2d5(x)
+        x = x.view(x.shape[0], -1)
+        x = complex_softmax(x, 1)
+        return x
+```
+
+---
+## Update Log
+`0.0.5` Added some complex loss functions, fix bug
+
+`0.0.4` Added the github address of the source code, fix bug
+
+`0.0.3` The README file for version 0.0.2 was not updated successfully
+
+`0.0.2` Fix bug, Added pip installation mode, verified the example.
+
+`0.0.1` : The original upload includes a variety of complex-valued neural networks modules.
+
+---
+
+
