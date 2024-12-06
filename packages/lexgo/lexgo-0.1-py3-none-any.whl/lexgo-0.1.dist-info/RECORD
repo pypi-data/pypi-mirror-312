@@ -1,0 +1,11 @@
+lexgo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lexgo/__main__.py,sha256=ktOyzG2TyhQihvh9aIgzS_yvmJOT-YTTlM3HoroSnW8,68
+lexgo/cli.py,sha256=8ika0ixhhTeQ5FFPxulP3NMvhhCwqb1-bXSdVrGHF3E,1907
+lexgo/config.py,sha256=BqRnInw3OUyMmCHRlfLOrQDHr_3rFSSOR9jyuHsC4Ds,345
+lexgo/trie.py,sha256=m3zdWXuCq66KgJVZq799UiXWPstnAO2zAEEyrVP05m0,2109
+lexgo-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lexgo-0.1.dist-info/METADATA,sha256=n36xEzOG159Ulb_wzU-9D5Jbol5FaNIyMcowNuPmiW8,1774
+lexgo-0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+lexgo-0.1.dist-info/entry_points.txt,sha256=AZooWA_YP-MwittdyfTUaL18tACgqQXPUw2d0lQzRnI,42
+lexgo-0.1.dist-info/top_level.txt,sha256=88DuapTa41zNfYiflCL2zlI6boaE0SA-eBsd28UkjP4,6
+lexgo-0.1.dist-info/RECORD,,
