@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+input_validator.egg-info/PKG-INFO
+input_validator.egg-info/SOURCES.txt
+input_validator.egg-info/dependency_links.txt
+input_validator.egg-info/top_level.txt
+tests/test_validators.py
