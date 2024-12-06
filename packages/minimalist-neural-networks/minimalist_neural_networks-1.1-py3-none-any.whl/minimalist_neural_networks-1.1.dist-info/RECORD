@@ -1,0 +1,12 @@
+neural/evaluation.py,sha256=JjYxnfKkCwt_EJvjnEcSQ1mqjxu6m1Rs4ot2kJdVH2Y,1544
+neural/functions/activation.py,sha256=G9QncNwVR21h4cT_CmOWHSENNpMXfUA2J5yjcMvq8-c,1734
+neural/functions/loss.py,sha256=PAiOMw00ZFe2ctJccIc3wtgKAGo3QjnipltIILXyEMw,366
+neural/structures/__init__.py,sha256=BWIBZpXMcq9LwDzbewI1hbCK7CzslogYTZ81PfvxW5I,100
+neural/structures/deep_neural_network.py,sha256=CFeNzDAjNm77jofJQd30vWFPW5d96GCs216EsBhgYdQ,2943
+neural/structures/flat_neural_network.py,sha256=8qdlbAJ9bZ770hK45d-zTHSfWyPVVtThU_zq7Gr4VCI,2264
+neural/structures/neural_network.py,sha256=xW-filtuFNvKlvcCoP-ll5EVL08kX-lOKZimTxWviIA,1382
+minimalist_neural_networks-1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+minimalist_neural_networks-1.1.dist-info/METADATA,sha256=Sg6zbJO31MLeX2OVLIWZ6gJPYXls8t9aXUktvBNyU6w,616
+minimalist_neural_networks-1.1.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+minimalist_neural_networks-1.1.dist-info/top_level.txt,sha256=MnNCNVMu89cnjse8D2E3qcv6GW8KxnDHW99PjEDtopU,7
+minimalist_neural_networks-1.1.dist-info/RECORD,,
