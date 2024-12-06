@@ -1,0 +1,20 @@
+numpy
+pandas
+matplotlib
+cartopy
+xarray
+loguru
+reki>=2024.4.0
+cedarkit-comp>=2024.4.0
+cedarkit-maps>=2024.4.0
+cedar-graph>=2024.10.0
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[cov]
+pytest-cov
+codecov
+
+[test]
+pytest

@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cemc-plots-kit"
+authors = [
+    {name="Wang Dapeng", email="perillaroc@gmail.com"}
+]
+description = "Plots tool for CEMC's NWP Opearting systems."
+readme = "README.md"
+keywords = ["graphic", "cemc", "cedarkit"]
+license = { text = "Apache-2.0" }
+dynamic = ["version"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+
+    "Intended Audience :: Developers",
+
+    'License :: OSI Approved :: Apache Software License',
+
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "cartopy",
+    "xarray",
+    "loguru",
+    'importlib-metadata; python_version<"3.8"',
+    "reki>=2024.4.0",
+    "cedarkit-comp>=2024.4.0",
+    "cedarkit-maps>=2024.4.0",
+    "cedar-graph>=2024.10.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/cemc-oper/cemc-plots-kit"
+Repository = "https://github.com/cemc-oper/cemc-plots-kit.git"
+
+[project.optional-dependencies]
+test = ["pytest"]
+cov = ["pytest-cov", "codecov"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["tests*", "docs", "example"]
+namespaces = false
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools_scm]
+version_file = "cemc_plots_kit/_version.py"
