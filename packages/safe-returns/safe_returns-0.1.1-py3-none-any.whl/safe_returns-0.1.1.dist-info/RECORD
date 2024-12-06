@@ -1,0 +1,9 @@
+safe/__init__.py,sha256=gijIouwG_VeVGvGa3zBpO64QND901lUPH3yIBJrcKqg,1122
+safe/decorator.py,sha256=eTncDLH4XeQQ-SIZYb4Kj8znbIMMwFmKewLmvP2dXgk,6050
+safe/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safe/typing.py,sha256=lTC-p2fL3CMetsf2xPGw8Bm-_k5E0yaipcIwJjETgiI,1129
+safe/utils.py,sha256=XW9UPq42HEVMGeAfDXoWOGAAGvlohZd8i1prSFxiv4I,569
+safe_returns-0.1.1.dist-info/METADATA,sha256=IH2d0VV8XuchPvQi3K0kJzAidP5nASj3-h1CwIc1a44,3314
+safe_returns-0.1.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+safe_returns-0.1.1.dist-info/licenses/LICENSE,sha256=ga1oh3dQq7uasrzODru3hnl7lCU5mAEK6-eTc3xEyrI,1066
+safe_returns-0.1.1.dist-info/RECORD,,
