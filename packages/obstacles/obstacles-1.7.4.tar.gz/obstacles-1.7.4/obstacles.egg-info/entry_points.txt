@@ -1,0 +1,3 @@
+[console_scripts]
+obstacles-game = Obstacles:obstacles_game
+obstacles-pygame = Obstacles:obstacles_pygame
