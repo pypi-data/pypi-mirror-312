@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+LocalAssistant/__init__.py
+LocalAssistant/locas_config.json
+LocalAssistant/models.py
+LocalAssistant/parser.py
+LocalAssistant/utils.py
+LocalAssistant.egg-info/PKG-INFO
+LocalAssistant.egg-info/SOURCES.txt
+LocalAssistant.egg-info/dependency_links.txt
+LocalAssistant.egg-info/entry_points.txt
+LocalAssistant.egg-info/requires.txt
+LocalAssistant.egg-info/top_level.txt
