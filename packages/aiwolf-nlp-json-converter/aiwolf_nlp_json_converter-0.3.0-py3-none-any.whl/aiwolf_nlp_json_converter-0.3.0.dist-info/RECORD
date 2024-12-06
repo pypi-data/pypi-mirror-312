@@ -1,0 +1,10 @@
+aiwolf_nlp_json_converter/__init__.py,sha256=_tdudRoaQNiOx38iUd5C9JoXdjDB8JOoZkS32m-uBj4,45
+aiwolf_nlp_json_converter/converter.py,sha256=oTAWOuKrFuI_wsW7HXc4BPA3xhR13Fdfe1SGaYKq9bs,1077
+aiwolf_nlp_json_converter/gameInfo.py,sha256=zTHyJEBt3WoPxz0SZmP6d-6UDJwuObKpIwWgqKtuNz4,3261
+aiwolf_nlp_json_converter/gameSetting.py,sha256=7XkT7NHssSnHTyzOa3PtPVwE5K1PVaNNjBoLhp0vDaw,1834
+aiwolf_nlp_json_converter/talkHistory.py,sha256=v8cutWSlz3hAhiqWoQeT5Di6Um0hczlfR8hZfjr8CJM,1159
+aiwolf_nlp_json_converter/whisperHistory.py,sha256=UPNyg1zdpPZVG3ziRF7pDnZAceaP3pA5jaLh_jqg2L8,486
+aiwolf_nlp_json_converter-0.3.0.dist-info/METADATA,sha256=mskDsN0O065PTjMQIj-xRy_Net5ppD5zjRF5e_2DyvI,8213
+aiwolf_nlp_json_converter-0.3.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+aiwolf_nlp_json_converter-0.3.0.dist-info/licenses/LICENSE,sha256=VyqL-hIg97WLc1_FiaxGLO-O0eZQXi35_wSTgKdMRwQ,1071
+aiwolf_nlp_json_converter-0.3.0.dist-info/RECORD,,
