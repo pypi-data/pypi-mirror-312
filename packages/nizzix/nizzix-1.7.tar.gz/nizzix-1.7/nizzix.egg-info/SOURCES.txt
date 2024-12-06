@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+nizzix/__init__.py
+nizzix/aimlapi.py
+nizzix/anti_debug.py
+nizzix/disc.py
+nizzix/install_py.py
+nizzix/keyauth.py
+nizzix/others.py
+nizzix/temp_mail.py
+nizzix/temp_org.py
+nizzix.egg-info/PKG-INFO
+nizzix.egg-info/SOURCES.txt
+nizzix.egg-info/dependency_links.txt
+nizzix.egg-info/requires.txt
+nizzix.egg-info/top_level.txt
