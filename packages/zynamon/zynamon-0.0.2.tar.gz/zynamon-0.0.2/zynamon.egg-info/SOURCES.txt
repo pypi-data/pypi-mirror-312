@@ -1,0 +1,16 @@
+LICENSE
+README_pkg.md
+pyproject.toml
+src/__init__.py
+src/batchimport.py
+src/tscore.py
+src/tsutils.py
+src/tsvis.py
+src/xutils.py
+test/mytest.py
+zynamon.egg-info/PKG-INFO
+zynamon.egg-info/SOURCES.txt
+zynamon.egg-info/dependency_links.txt
+zynamon.egg-info/entry_points.txt
+zynamon.egg-info/requires.txt
+zynamon.egg-info/top_level.txt
