@@ -1,0 +1,8 @@
+README.md
+setup.py
+moviequote_generator/__init__.py
+moviequote_generator/core.py
+moviequote_generator.egg-info/PKG-INFO
+moviequote_generator.egg-info/SOURCES.txt
+moviequote_generator.egg-info/dependency_links.txt
+moviequote_generator.egg-info/top_level.txt
