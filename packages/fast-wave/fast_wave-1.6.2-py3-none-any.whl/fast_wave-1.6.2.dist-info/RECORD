@@ -1,0 +1,16 @@
+fast_wave/__init__.py,sha256=v8Di1KXnsl7hvdvbAEZNHll_kPIEyU9zUqvs1FatGy0,23055
+fast_wave/caching.py,sha256=gAs3Gvv6TwY0WoEqyefFnwGIMseAj1Gzfu4PZZKAncQ,10948
+fast_wave/wavefunction_cython.cp310-win_amd64.pyd,sha256=k1sWhpwla8uabqEtx99S1DZscpE2Ry0W7cPDpKLdP4Q,119808
+fast_wave/wavefunction_cython.cp311-win_amd64.pyd,sha256=hl4eVt7O0IRWcgZC74dMb0i0M9Eqpe6CMSNcyiylZP8,120832
+fast_wave/wavefunction_cython.cp312-win_amd64.pyd,sha256=WLSHRgLoiV3OLDlwaAmxWsfqYO_z4g4wmfY4AenUSuw,117248
+fast_wave/wavefunction_cython.cpython-310-x86_64-linux-gnu.so,sha256=aokREfdUdZhlhxP0FoitmJSQIFq9VmWxLPi0AGUVVYs,147008
+fast_wave/wavefunction_cython.cpython-311-x86_64-linux-gnu.so,sha256=VBDxkX5YymvDwD4MHlZRxeTzIZatbV_UoHeDrOKAnd4,147104
+fast_wave/wavefunction_cython.cpython-312-x86_64-linux-gnu.so,sha256=sycVkFe_eWYRSJJ33Leuilh_4w79OIT8o5i-EZ5OQWA,148168
+fast_wave/wavefunction_mpmath.py,sha256=QaCPmkDXwaEgeXZkAGpDgerSGLqGBjsMdERnDnDsMb0,11852
+fast_wave/wavefunction_numba.py,sha256=5AK98OO-cJY4brRxoKTgSGJm-KuGEOqyeeMwrHQLK-g,19985
+fast_wave-1.6.2.dist-info/LICENSE,sha256=O-pKdA7y45eMNOhSL1VPZj1RnJOTdKGjbDs66bmeplM,1819
+fast_wave-1.6.2.dist-info/METADATA,sha256=qPJ8Xh1oiBsJFyRjCXKw77p-6Sl8smKmqnfwvz795nY,24561
+fast_wave-1.6.2.dist-info/NOTICE.txt,sha256=7ZPfD91urz0JUMpNLs1-Q8WaN5QgobNbyroHaSAbhWQ,529
+fast_wave-1.6.2.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+fast_wave-1.6.2.dist-info/top_level.txt,sha256=nJeKEjk3yB3kuoTcoZ7BAKgHnQx2bLmUoAT9n987Qzc,10
+fast_wave-1.6.2.dist-info/RECORD,,
