@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: LunarAI
+Version: 0.0.1
+Summary: An Neural Network tool
+Home-page: https://github.com/Haozhe-py/LunarAI
+Author: Haozhe Xu
+Author-email: 2779630178@qq.com
+Maintainer: Haozhe Xu
+Maintainer-email: 2779630178@qq.com
+License: MIT License
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+
+An Neural Network tool
