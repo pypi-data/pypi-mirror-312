@@ -1,0 +1,15 @@
+modules = ["python-3.8"]
+run = """
+echo "Starting Siften..." && 
+pip install -r src/siften/requirements.txt && 
+export AWS_ACCESS_KEY_ID=$REPL_SECRETS["AWS_ACCESS_KEY_ID"] && 
+export AWS_SECRET_ACCESS_KEY=$REPL_SECRETS["AWS_SECRET_ACCESS_KEY"] &&
+export AWS_DEFAULT_REGION=eu-west-2 && 
+PYTHONPATH=. python src/siften/core.py
+"""
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "echo \"Starting Siften...\""]
