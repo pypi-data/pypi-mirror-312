@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+pyjan26/__init__.py
+pyjan26/core.py
+pyjan26/main.py
+pyjan26/registry.py
+pyjan26.egg-info/PKG-INFO
+pyjan26.egg-info/SOURCES.txt
+pyjan26.egg-info/dependency_links.txt
+pyjan26.egg-info/requires.txt
+pyjan26.egg-info/top_level.txt
+pyjan26/project_structure/__init__.py
+pyjan26/project_structure/settings.py
+pyjan26/project_structure/_content/index.md
+pyjan26/project_structure/_templates/base.html
