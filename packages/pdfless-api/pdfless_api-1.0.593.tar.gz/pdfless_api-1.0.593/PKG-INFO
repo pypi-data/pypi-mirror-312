@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pdfless-api
+Version: 1.0.593
+Summary: Pdfless API
+Home-page: https://github.com/Pdfless/pdfless-python
+Author: Pdfless support team
+Author-email: contact@pdfless.com
+Keywords: PDF Generator,Pdfless API,Pdfless
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3<3.0.0,>=1.25.3
+Requires-Dist: python-dateutil>=2.8.2
+Requires-Dist: pydantic>=2
+Requires-Dist: typing-extensions>=4.7.1
+
+    Pdfless allows you to quickly and easily generate PDF documents using templates designed with HTML/CSS and conditional formatting.
+    
