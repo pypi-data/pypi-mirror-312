@@ -1,0 +1,9 @@
+requests
+markdownify
+beautifulsoup4
+
+[build]
+build>=1.2
+
+[test]
+pytest~=8.1
