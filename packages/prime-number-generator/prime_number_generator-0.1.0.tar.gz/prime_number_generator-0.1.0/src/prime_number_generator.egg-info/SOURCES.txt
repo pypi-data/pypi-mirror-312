@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/prime_num_generator/__init__.py
+src/prime_num_generator/prime_utils.py
+src/prime_number_generator.egg-info/PKG-INFO
+src/prime_number_generator.egg-info/SOURCES.txt
+src/prime_number_generator.egg-info/dependency_links.txt
+src/prime_number_generator.egg-info/requires.txt
+src/prime_number_generator.egg-info/top_level.txt
+tests/test_prime_utils.py
