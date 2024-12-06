@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ccb-aoc-tools
+Version: 2024.12.1.1
+Summary: My custom-made tools for Advent of Code projects.
+Author-email: Elijah Underhill <elijahmcraft6@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Elijah's AOC Tools
+
+This is a package of some tools I use when programming for Advent of Code.
