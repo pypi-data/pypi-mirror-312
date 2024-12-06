@@ -1,0 +1,16 @@
+suspense/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suspense/apps.py,sha256=fi9cm-eXySxY5YrP4l7BVUNbC_gLBK4tlgAJmwfZJ7U,154
+suspense/futures.py,sha256=hQuYpZDLJRdxzdSO01xql-2asbgNjwAf5MeuOhPPqK0,157
+suspense/http.py,sha256=mg6XMs8wSsYdJUTh24fo4vX6NNlmq5Zim2HXHEBg5F0,488
+suspense/shortcuts.py,sha256=2Eh_7uaVT4KaF58bFVq1CN-jM90_1jeiubpDk6oIZI8,324
+suspense/streaming_render.py,sha256=odLVzTYQV9P9phwT4Z7PDZYxWTMPB8vRy9fIvbOjIoU,1322
+suspense/views.py,sha256=-sDucDI2ZD6j15fOJAZqpg7lakjj5QHcJLkWwEUtRVw,188
+suspense/templates/suspense/loader.html,sha256=k4ci3Ri7WhhCiguMkUZKsfvmQMIyOoX72NW4kAXsy0I,60
+suspense/templates/suspense/replacer.html,sha256=sOL1CsEGzixV4qynsfK4qa3cWfN-JnAZizbEHnVhDcs,195
+suspense/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suspense/templatetags/suspense.py,sha256=ZJIhGNbpixf7WxHuSMDYwzBJCxEh4M8CRMG4twmq9vc,1957
+django_suspense-1.1.0.dist-info/LICENCE,sha256=8j42eA-KycE_ckr8qbE72U25YF87yOaW0xS5aLSITYw,1071
+django_suspense-1.1.0.dist-info/METADATA,sha256=x6O9-M0xDbqVLf54_xzHrj9VhJG_LYHQgIbyLCnU8dU,5870
+django_suspense-1.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+django_suspense-1.1.0.dist-info/top_level.txt,sha256=JO2y86HpQa3WzlLRb21fy-IPqLkmJlzQ99KTwdHONcw,9
+django_suspense-1.1.0.dist-info/RECORD,,
