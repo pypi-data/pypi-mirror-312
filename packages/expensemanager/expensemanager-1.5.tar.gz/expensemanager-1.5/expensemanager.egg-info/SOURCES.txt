@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+expensemanager/__init__.py
+expensemanager/expensemanager.py
+expensemanager.egg-info/PKG-INFO
+expensemanager.egg-info/SOURCES.txt
+expensemanager.egg-info/dependency_links.txt
+expensemanager.egg-info/top_level.txt

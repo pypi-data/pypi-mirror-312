@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "expensemanager"
+authors = [
+    {name = "PavanKumarReddy.U", email = "pav1reddie@gmail.com"}
+]
+description = "generate balance summary and manage expenses "
+version = "1.5"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    ]
