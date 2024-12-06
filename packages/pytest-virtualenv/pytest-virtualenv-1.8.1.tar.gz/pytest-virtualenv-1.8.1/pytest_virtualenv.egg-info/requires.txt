@@ -1,0 +1,5 @@
+pytest-fixture-config
+pytest-shutil
+pytest
+virtualenv
+importlib-metadata
