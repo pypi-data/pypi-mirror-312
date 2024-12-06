@@ -1,0 +1,3 @@
+[console_scripts]
+gms=gms_cli.main:gms
+

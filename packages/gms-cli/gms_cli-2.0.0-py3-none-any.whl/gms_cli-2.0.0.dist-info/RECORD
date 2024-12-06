@@ -1,0 +1,8 @@
+gms_cli/__init__.py,sha256=WGoiAWOZ1iwEyRf4iqU1oHLa1GbDbzL-iJEr2qktfBM,513
+gms_cli/database.py,sha256=1u5XQ2sdjRUYEwL5Gs9rubDqcpd5Gu6RefU33M_U9t4,17052
+gms_cli/main.py,sha256=tm-5pDtfruFGvkY4iy0XvCOyKhWvdMnawC-OzFYYAtU,21784
+gms_cli/utils.py,sha256=zXK9uOplgFZgSN-ZcoqWuF2AJ6LKyHTW69lzjbsr1RY,7294
+gms_cli-2.0.0.dist-info/entry_points.txt,sha256=1oHfe2J8BtH86PvVU7t-JxKFzhYVyZdeE2ZRl6ijI_o,40
+gms_cli-2.0.0.dist-info/METADATA,sha256=FIXFufp_GjUCVOo_1M7pnWCpy2pBdgljYd6mOvvfLbE,3951
+gms_cli-2.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+gms_cli-2.0.0.dist-info/RECORD,,
