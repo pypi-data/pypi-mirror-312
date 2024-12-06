@@ -1,0 +1,2 @@
+[console_scripts]
+dtc_vasp = direct_to_cartesian.cli:main
