@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: orchestract
+Version: 0.0.0
+Summary: Orchestrate and Act
+Home-page: https://github.com/synacktraa/orchestract
+Author: Harsh Verma
+Author-email: synacktra.work@gmail.com
+Requires-Python: >=3.8,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Documentation, https://synacktraa.github.io/orchestract/
+Project-URL: Repository, https://github.com/synacktraa/orchestract
+Description-Content-Type: text/markdown
+
+# orchestract
+
+<p align="center">Orchestrate and Act</p>
+
+---
+
+> TAKEOVER :) Do not use this version!
