@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: STT_Module
+Version: 1.0
+Summary: A Python library by Abhay Mallik for automating speech-to-text transcription using Selenium. This library interacts with browser-based speech recognition apps, captures transcriptions, and saves them to a file for further use.Key Featuresare: i. Automates browser interaction for speech-to-text tasks. ii. Configured for headless Chrome with custom options. iii. Captures and writes transcribed output to a local file.
+Author: Abhay Mallik
+Author-email: abhaymallik5566@gmail.com
+
