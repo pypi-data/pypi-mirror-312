@@ -1,0 +1,2 @@
+[console_scripts]
+sclip = sync_clip.cli:main
