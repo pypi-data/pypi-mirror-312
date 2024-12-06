@@ -1,0 +1,14 @@
+tgbotbase/answer.py,sha256=oZYecwhdLqGs50ssndWyVDj7AqARzN7afPeNbvrrlCk,8559
+tgbotbase/default_factories.py,sha256=9kIWlV-5NAeT0eH0RAvlewibEUi8U5UcoKkfoDZMOLo,2179
+tgbotbase/filters.py,sha256=CqB3W26kbjeim25rREMRzn_d4T-JurCbo9edumnz3Ms,1285
+tgbotbase/global_pause.py,sha256=3WTaGUx2S6MUuKYVLyoCRDAhRYrLWmzov8lE63Izgl0,939
+tgbotbase/keyboards.py,sha256=e6wDCeAeUBL_AutqZ9TF3aDUYZs-PJIWIE7DPVffv-w,11552
+tgbotbase/middleware.py,sha256=wdtQlSovzREKpcdqNvz_BroNruXq79Es8Njhy4RayDI,10685
+tgbotbase/peewee_serializer.py,sha256=2aa14QvaqMurjdiVLcNEhFJC7y6ag7xivWaJKQzGI9I,7470
+tgbotbase/query_keyboard.py,sha256=S6SqAyc1BhDxbKTwAcYLT_OXIkNbEt34Cp6_iwOL6eo,3846
+tgbotbase/utils.py,sha256=kO3Hmsm5ZSbtb6xcYc2XhopOZcw_y6KxuIQu-lyoMeU,16024
+tgbotbase-1.0.6.dist-info/LICENSE,sha256=e11-FvYASAgz-8JoDhD3AiDN1559N3QUSX8cZ1JQUtQ,1087
+tgbotbase-1.0.6.dist-info/METADATA,sha256=wkOKo3B6d6_XUqglBjYdO46uZMYpjGZ4lcAsKNJIelM,1799
+tgbotbase-1.0.6.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+tgbotbase-1.0.6.dist-info/top_level.txt,sha256=rWLXn_G-7wXlnNW9r9BjbmeqTbt-xye_A5o5NmEAybw,10
+tgbotbase-1.0.6.dist-info/RECORD,,
