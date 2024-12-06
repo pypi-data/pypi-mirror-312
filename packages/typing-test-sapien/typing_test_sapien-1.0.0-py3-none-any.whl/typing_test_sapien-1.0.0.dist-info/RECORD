@@ -1,0 +1,12 @@
+typing_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typing_test/cli.py,sha256=J5I4SqxpOQNcmVOIfIqHf9_xkByaqpXLzcmT5_JlqsU,572
+typing_test/config.json,sha256=QE-xUZxK2LTXykvF_D5XtmAr_emkGfYR2SX7xS-_seI,72
+typing_test/input_sentences.txt,sha256=YR3xOHSby421DFOBkHeYaSRTRkCSRAIDWk7QJhGna-U,34835
+typing_test/typing_test.py,sha256=Mbw-oTKBFuB_75TfQoFVSnzWutHZaPCDVq9u9MfC0XI,5831
+typing_test/utils.py,sha256=zGbk172zds6c84oftZMJNaTHLEfGqzSeEVBphlOehL0,3445
+typing_test_sapien-1.0.0.dist-info/LICENSE,sha256=EQkcEcdTAwdsdZ0Eqg-rAyzx3MaXQu94BIEe-2H3NFI,1067
+typing_test_sapien-1.0.0.dist-info/METADATA,sha256=_8QvTfepEKTlGrJeo-OcTIX67kgkwjamVGG4PjTL02s,845
+typing_test_sapien-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+typing_test_sapien-1.0.0.dist-info/entry_points.txt,sha256=2mxwymeTvVCqRt67z1YbjDHhCza-JIKTi0dOZE7MlPs,60
+typing_test_sapien-1.0.0.dist-info/top_level.txt,sha256=qfRqp7v7gyhMMybcHqDv8Zqg6J-V6pDzAdRAWnSgKN8,12
+typing_test_sapien-1.0.0.dist-info/RECORD,,
