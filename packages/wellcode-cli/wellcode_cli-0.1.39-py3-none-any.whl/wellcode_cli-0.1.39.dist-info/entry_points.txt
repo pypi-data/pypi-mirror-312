@@ -1,0 +1,2 @@
+[console_scripts]
+wellcode-cli = wellcode_cli.main:main
