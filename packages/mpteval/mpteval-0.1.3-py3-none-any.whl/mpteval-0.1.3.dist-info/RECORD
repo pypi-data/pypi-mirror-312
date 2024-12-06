@@ -1,0 +1,13 @@
+mpteval/__init__.py,sha256=3_jljvVwNmTG4ax2fAZpRx2ruJnvMH9JuBndfjZ3x5w,440
+mpteval/articulation.py,sha256=_4vKC8ywVQHu0c4XuoZKIkXWR6hTIam_ggWLTOacUZ8,11098
+mpteval/dynamics.py,sha256=c1Gw-JJpwl-ywbo0s9cc5A6lm63o8TRIQKWkjWa7G6M,8228
+mpteval/harmony.py,sha256=gIT758l1cDOn5WOE899I0d72dkU07uBRiwgVAcVzjog,4022
+mpteval/timing.py,sha256=Yk5uuCbrgk26i9lGlpBIFeTg7AFNSrdh5mnsk4fjCFA,6278
+mpteval/util.py,sha256=0wcUmG8Smb6E1qadGZg6EhFjtDI5SHeTQLopOZlGOFY,9303
+mpteval/assets/pred.mid,sha256=H_v4z_GJznvOz7SttO0Ie29__eRB6Hlny8ldGf91tZY,729
+mpteval/assets/ref.mid,sha256=fKW54CL1PqyM8iPOtvUkQ6vdP3LzGZj8Q_skyTI1LQI,529
+mpteval-0.1.3.dist-info/LICENSE,sha256=Gg4MWlqb4C6ddqxWGFN5k6qrfDmCyRp3XpzzoscK0wM,1098
+mpteval-0.1.3.dist-info/METADATA,sha256=uVAgh0__KJOtFTD5iA3gOJbwXBPv0CpaksekqY9TCc4,2861
+mpteval-0.1.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+mpteval-0.1.3.dist-info/top_level.txt,sha256=5-h_ZMXcCA3Y_TMw1y5H2DNVXsXNgzQf2GvKkg1uAWg,8
+mpteval-0.1.3.dist-info/RECORD,,
