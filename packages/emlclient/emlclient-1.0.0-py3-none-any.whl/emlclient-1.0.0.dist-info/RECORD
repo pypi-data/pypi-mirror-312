@@ -1,0 +1,7 @@
+emlclient/__init__.py,sha256=zs7kW0XVkrGSJ_rP_spXTYlesWH-HppXAJidJwLlyC0,65
+emlclient/emailclient.py,sha256=C5oo9AyO1C_jos6b-k6unolSFFng2gdpronB2Zi2uw4,6495
+emlclient/imap_smtp_factory.py,sha256=hWbQPwHkaz0ALhimoW4B9ZjtTNAHh_M4fyHdxZbe9oI,2704
+emlclient-1.0.0.dist-info/METADATA,sha256=al2ncEQyC8_qMXb15AxyWuannoEwh1WI9wI5Y1olpCE,2897
+emlclient-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+emlclient-1.0.0.dist-info/top_level.txt,sha256=1hpUvVO9Q1ON0JrIC7uSv47MC25_kn3M5s3ZCKCl5Qc,10
+emlclient-1.0.0.dist-info/RECORD,,
