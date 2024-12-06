@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+model_comparator/__init__.py
+model_comparator/comparator.py
+model_comparator.egg-info/PKG-INFO
+model_comparator.egg-info/SOURCES.txt
+model_comparator.egg-info/dependency_links.txt
+model_comparator.egg-info/requires.txt
+model_comparator.egg-info/top_level.txt
+tests/__init__.py
+tests/test_comparator.py

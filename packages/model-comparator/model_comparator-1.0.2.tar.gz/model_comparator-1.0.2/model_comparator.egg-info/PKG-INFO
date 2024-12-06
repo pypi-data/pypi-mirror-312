@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: model-comparator
+Version: 1.0.2
+Summary: Une bibliothèque Python pour comparer différents modèles d'ajustement de données.
+Home-page: https://github.com/NassAbd/adjust_comparator
+Author: Abdallah Nassur
+Author-email: nassur1607@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+
+# Model Comparator
+
+Model Comparator est une bibliothÃ¨que Python permettant de comparer diffÃ©rents modÃ¨les d'ajustement (linÃ©aire, exponentiel, etc.) pour un ensemble de donnÃ©es.
+
+## Installation
+
+```bash
+pip install model-comparator
