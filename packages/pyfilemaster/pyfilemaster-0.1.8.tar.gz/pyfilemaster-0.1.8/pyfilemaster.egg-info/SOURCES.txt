@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyfilemaster/__init__.py
+pyfilemaster/main.py
+pyfilemaster.egg-info/PKG-INFO
+pyfilemaster.egg-info/SOURCES.txt
+pyfilemaster.egg-info/dependency_links.txt
+pyfilemaster.egg-info/top_level.txt
+tests/test_main.py
