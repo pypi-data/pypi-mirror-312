@@ -1,0 +1,8 @@
+stocksnap/__init__.py,sha256=CHAr5tppcK1h3jBXocs11WHMArph7q_Qda_bEcq5e-0,32
+stocksnap/stocksnap.py,sha256=9-CJ0whBGXv8l53KTQ-sF-sWM7rQhkUGIeyyzv6G-Jg,2250
+stocksnap/util/__init__.py,sha256=rHpuAgf32fwvS7EE3Z5IvtIh408Y2mzl4DRSkzop3ho,39
+stocksnap/util/google_finance_extraction.py,sha256=abUjm6_VJuPRAStBfboAt350RRyE4RVHVkVHRMqZ5yE,7416
+stocksnap-0.1.0.dist-info/METADATA,sha256=Ds5yfA99ey_O9GrLjNIwDPai4olcT4UpNA97DvDbzEk,2192
+stocksnap-0.1.0.dist-info/WHEEL,sha256=R06PA3UVYHThwHvxuRWMqaGcr-PuniXahwjmQRFMEkY,91
+stocksnap-0.1.0.dist-info/top_level.txt,sha256=N22zcRD7_Jsh17S7bxAtjQrs0-hLPbOf2XEAXMAa4_8,10
+stocksnap-0.1.0.dist-info/RECORD,,
