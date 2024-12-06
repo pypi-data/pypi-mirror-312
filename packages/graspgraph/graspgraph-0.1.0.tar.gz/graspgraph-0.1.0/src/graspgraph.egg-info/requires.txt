@@ -1,0 +1,3 @@
+plotly
+numpy
+kaleido==1.0.0rc0
