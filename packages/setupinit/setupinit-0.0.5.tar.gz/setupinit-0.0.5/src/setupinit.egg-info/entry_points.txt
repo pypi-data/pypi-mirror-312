@@ -1,0 +1,2 @@
+[console_scripts]
+setupinit = setupinit.__main__:main
