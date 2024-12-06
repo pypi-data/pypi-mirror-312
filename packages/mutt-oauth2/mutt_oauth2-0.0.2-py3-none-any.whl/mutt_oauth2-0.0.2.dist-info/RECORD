@@ -1,0 +1,10 @@
+mutt_oauth2/__init__.py,sha256=aE4xWehrYbDJ2MbT-hwtcS_hAhGtopLphc1axApnlRs,56
+mutt_oauth2/constants.py,sha256=ZYvlP9PjIHDs9fpK7JtifEQlS9go16qpqkZq7CLV1Bg,43
+mutt_oauth2/main.py,sha256=dmdUNyi3yKIPrcizBzrSP_vhbbBZpaTsiMw7U4Ql6_o,7021
+mutt_oauth2/registrations.py,sha256=Q3YYpk8FStx6p89gbaCxoCpX8VFuGBSTBqmWHH4oMHY,1874
+mutt_oauth2/utils.py,sha256=Ofmv7GDKAaFg-bDBk3ZGqtrdWx5ux6lDDUxYyY-bxj4,9297
+mutt_oauth2-0.0.2.dist-info/LICENSE.txt,sha256=EMqWAntW7igvRU2xEzsLWke_3YIWljZa22KjzlZAUZ8,1082
+mutt_oauth2-0.0.2.dist-info/METADATA,sha256=Vw5z2kYo0aa45fx5MTuduSd6dWC-Qy_LNDYx6vm_u8M,2711
+mutt_oauth2-0.0.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+mutt_oauth2-0.0.2.dist-info/entry_points.txt,sha256=U3A6U23wJqYTorA-Cxrq2TzcqbkUvDP8UsT4YJusohU,53
+mutt_oauth2-0.0.2.dist-info/RECORD,,
