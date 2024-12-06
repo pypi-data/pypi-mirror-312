@@ -1,0 +1,1 @@
+django_commons_best_practices
