@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+zira/__init__.py
+zira/logger.py
+zira/sync.py
+zira.egg-info/PKG-INFO
+zira.egg-info/SOURCES.txt
+zira.egg-info/dependency_links.txt
+zira.egg-info/requires.txt
+zira.egg-info/top_level.txt
