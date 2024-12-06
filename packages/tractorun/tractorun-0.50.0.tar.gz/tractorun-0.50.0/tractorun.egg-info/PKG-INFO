@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: tractorun
+Version: 0.50.0
+Summary: Run distributed training in TractoAI
+Author: TractoAI team
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: attrs>=23.1.0
+Requires-Dist: cattrs>=23.1.0
+Requires-Dist: ytsaurus-client>=0.13.16
+Requires-Dist: ytsaurus-yson>=0.4.5
+Requires-Dist: PyYAML>=5.4
+Provides-Extra: torch
+Requires-Dist: torch~=2.3.0; extra == "torch"
+Provides-Extra: jax
+Requires-Dist: jax~=0.4.24; extra == "jax"
+Provides-Extra: tests
+Requires-Dist: pytest<9; extra == "tests"
+Requires-Dist: pytest-xdist~=3.6.1; extra == "tests"
+Requires-Dist: testcontainers-yt-local==0.14.0; extra == "tests"
+Provides-Extra: dev
+Requires-Dist: attrs~=23.1.0; extra == "dev"
+Requires-Dist: cattrs~=23.1.0; extra == "dev"
+Requires-Dist: ytsaurus-client~=0.13.16; extra == "dev"
+Requires-Dist: ytsaurus-yson~=0.4.5; extra == "dev"
+Requires-Dist: wandb~=0.15.2; extra == "dev"
+Requires-Dist: isort~=5.13.2; extra == "dev"
+Requires-Dist: black~=24.4.2; extra == "dev"
+Requires-Dist: ruff~=0.4.4; extra == "dev"
+Requires-Dist: mypy~=1.10.0; extra == "dev"
+Requires-Dist: mypy-extensions~=1.0.0; extra == "dev"
+Requires-Dist: types-PyYAML~=6.0.12; extra == "dev"
+Requires-Dist: bump-my-version~=0.18.3; extra == "dev"
+Requires-Dist: generate-changelog~=0.10.0; extra == "dev"
+Requires-Dist: twine~=5.1.0; extra == "dev"
+Provides-Extra: examples
+Requires-Dist: wandb; extra == "examples"
+Requires-Dist: numpy~=1.26.4; extra == "examples"
+Requires-Dist: pytorch-lightning~=2.2.5; extra == "examples"
+Provides-Extra: tensorproxy
+Requires-Dist: orbax-checkpoint==0.5.2; extra == "tensorproxy"
+Requires-Dist: ytpath==0.0.3; extra == "tensorproxy"
+Requires-Dist: tensorstore==0.1.56.post6; extra == "tensorproxy"
+Requires-Dist: numpy~=1.26.4; extra == "tensorproxy"
+Provides-Extra: all
+Requires-Dist: torch~=2.3.0; extra == "all"
+Requires-Dist: jax~=0.4.24; extra == "all"
+Requires-Dist: pytest<9; extra == "all"
+Requires-Dist: pytest-xdist~=3.6.1; extra == "all"
+Requires-Dist: testcontainers-yt-local==0.14.0; extra == "all"
+Requires-Dist: attrs~=23.1.0; extra == "all"
+Requires-Dist: cattrs~=23.1.0; extra == "all"
+Requires-Dist: ytsaurus-client~=0.13.16; extra == "all"
+Requires-Dist: ytsaurus-yson~=0.4.5; extra == "all"
+Requires-Dist: wandb~=0.15.2; extra == "all"
+Requires-Dist: isort~=5.13.2; extra == "all"
+Requires-Dist: black~=24.4.2; extra == "all"
+Requires-Dist: ruff~=0.4.4; extra == "all"
+Requires-Dist: mypy~=1.10.0; extra == "all"
+Requires-Dist: mypy-extensions~=1.0.0; extra == "all"
+Requires-Dist: types-PyYAML~=6.0.12; extra == "all"
+Requires-Dist: bump-my-version~=0.18.3; extra == "all"
+Requires-Dist: generate-changelog~=0.10.0; extra == "all"
+Requires-Dist: twine~=5.1.0; extra == "all"
+Requires-Dist: wandb; extra == "all"
+Requires-Dist: numpy~=1.26.4; extra == "all"
+Requires-Dist: pytorch-lightning~=2.2.5; extra == "all"
+Requires-Dist: orbax-checkpoint==0.5.2; extra == "all"
+Requires-Dist: ytpath==0.0.3; extra == "all"
+Requires-Dist: tensorstore==0.1.56.post6; extra == "all"
+Requires-Dist: numpy~=1.26.4; extra == "all"
+
+Run distributed training in TractoAI
