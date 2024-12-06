@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: quickencr
+Version: 0.1.1
+Summary: A simple library for encrypting and decrypting text and files.
+Home-page: https://github.com/Avi-29/quickEncrypt.git
+Author: Avishek Agarwla
+Author-email: avigreat29@gmail.com.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: cryptography (>=41.0.3)
+
+UNKNOWN
+
