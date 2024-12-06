@@ -1,0 +1,6 @@
+setup.py
+Kroky.egg-info/PKG-INFO
+Kroky.egg-info/SOURCES.txt
+Kroky.egg-info/dependency_links.txt
+Kroky.egg-info/requires.txt
+Kroky.egg-info/top_level.txt
