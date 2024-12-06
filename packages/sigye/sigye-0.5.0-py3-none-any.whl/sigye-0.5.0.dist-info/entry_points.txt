@@ -1,0 +1,3 @@
+[console_scripts]
+sigye = sigye.cli:cli
+sigye2 = sigye.cli2:cli
