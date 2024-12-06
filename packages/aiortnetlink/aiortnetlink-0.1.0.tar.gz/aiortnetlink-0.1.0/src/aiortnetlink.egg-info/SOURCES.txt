@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/aiortnetlink/__init__.py
+src/aiortnetlink/netlink.py
+src/aiortnetlink.egg-info/PKG-INFO
+src/aiortnetlink.egg-info/SOURCES.txt
+src/aiortnetlink.egg-info/dependency_links.txt
+src/aiortnetlink.egg-info/top_level.txt
+tests/test_netlink.py
