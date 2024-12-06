@@ -1,0 +1,9 @@
+requests
+
+[dev]
+pytest
+black
+pre-commit
+pylint
+joblib
+BeautifulSoup4
