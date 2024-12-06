@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+poly2graph/__init__.py
+poly2graph.egg-info/PKG-INFO
+poly2graph.egg-info/SOURCES.txt
+poly2graph.egg-info/dependency_links.txt
+poly2graph.egg-info/requires.txt
+poly2graph.egg-info/top_level.txt
