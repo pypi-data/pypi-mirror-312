@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+lv1_requesta.egg-info/PKG-INFO
+lv1_requesta.egg-info/SOURCES.txt
+lv1_requesta.egg-info/dependency_links.txt
+lv1_requesta.egg-info/requires.txt
+lv1_requesta.egg-info/top_level.txt
