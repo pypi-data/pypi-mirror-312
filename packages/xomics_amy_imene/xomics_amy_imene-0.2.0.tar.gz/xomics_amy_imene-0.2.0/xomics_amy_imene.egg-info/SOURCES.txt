@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+xomics_amy_imene/__init__.py
+xomics_amy_imene/__main__.py
+xomics_amy_imene/annotation.py
+xomics_amy_imene/readers_gff.py
+xomics_amy_imene.egg-info/PKG-INFO
+xomics_amy_imene.egg-info/SOURCES.txt
+xomics_amy_imene.egg-info/dependency_links.txt
+xomics_amy_imene.egg-info/requires.txt
+xomics_amy_imene.egg-info/top_level.txt
