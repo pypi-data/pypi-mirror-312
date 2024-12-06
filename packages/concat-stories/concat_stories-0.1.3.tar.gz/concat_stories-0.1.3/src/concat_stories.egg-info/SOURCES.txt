@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/concat_stories.egg-info/PKG-INFO
+src/concat_stories.egg-info/SOURCES.txt
+src/concat_stories.egg-info/dependency_links.txt
+src/concat_stories.egg-info/entry_points.txt
+src/concat_stories.egg-info/requires.txt
+src/concat_stories.egg-info/top_level.txt
