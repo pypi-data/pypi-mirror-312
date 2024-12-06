@@ -1,0 +1,7 @@
+pybun-1.1.38.dist-info/METADATA,sha256=KhQl_NqYkWTh_848eJ0aMvdn1RAjqLvVRfuywHAPjp0,1448
+pybun-1.1.38.dist-info/WHEEL,sha256=6oD8XMX_vTBl2ZzC1gA_TXY4uyMUvcBshhjOkBClhpg,158
+pybun-1.1.38.dist-info/entry_points.txt,sha256=2yqDrzJKYDdB2mySMnlNYPyhgcucK1cnVOp3xOQxd2Q,46
+pybun/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pybun/__main__.py,sha256=VOyC3nPHt95MFI03N6GFjYx2R-HmpDutHkKoPKZOTXE,304
+pybun/bun,sha256=uQsUkPshG8TjQ5B-82DbEaKP93C4VDzGU2bk32ACmKI,90495168
+pybun-1.1.38.dist-info/RECORD,,
