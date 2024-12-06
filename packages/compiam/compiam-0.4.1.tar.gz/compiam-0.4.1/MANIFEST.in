@@ -1,0 +1,8 @@
+include ACKNOWLEDGEMENTS
+include COPYING
+include AUTHORS
+recursive-include compiam/models *
+recursive-include compiam/conf *
+recursive-include compiam/visualisation/waveform_player/waveform-playlist *
+recursive-include compiam/utils/augment *
+recursive-include compiam/utils/NMFtoolbox *
