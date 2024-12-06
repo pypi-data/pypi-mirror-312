@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: zap_toolkit
+Version: 0.0.1
+Summary: Coming soon
+Author: Tomasz Salacinski
+Author-email: tomasz.salacinski@sedivio.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: langchain (>=0.3.7,<0.4.0)
+Requires-Dist: pydantic (>=2.10.2,<3.0.0)
+Requires-Dist: zaproxy (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+# zap_utils
+
+A set of agentic tools for interacting with ZAP API.
+
+See the tutorial notebook: https://github.com/ishish222/zap_toolkit/blob/main/zap_toolkit/docs/tutorials/01_tutorial_crawl_passive.ipynb
