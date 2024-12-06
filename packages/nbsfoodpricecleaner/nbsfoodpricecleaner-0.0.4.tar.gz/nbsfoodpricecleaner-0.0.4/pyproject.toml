@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=42.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+]
+addopts = "-v --tb=short"
+
+[tool.mypy]
+mypy_path = "src"
+ignore_missing_imports = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+strict_optional = true
+
+[tool.black]
+line-length = 127
+target-version = ['py37', 'py38', 'py39']
+
+[tool.flake8]
+max-line-length = 127
+exclude = [
+    "__init__.py",
+    ".git",
+    "__pycache__",
+    "build",
+    "dist"
+]
