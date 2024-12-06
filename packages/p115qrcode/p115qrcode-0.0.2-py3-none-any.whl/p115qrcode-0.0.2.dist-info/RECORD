@@ -1,0 +1,13 @@
+LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+p115qrcode/__init__.py,sha256=Fzh-Hs0V8ORyaZtDYceXOnfu3HMY0d0ILSxv8wvDQKQ,18780
+p115qrcode/__main__.py,sha256=FHI7BFk7riIul83SZH14Irqsu-mNe2pF5qwROWvAW60,669
+p115qrcode/cmd/__init__.py,sha256=72GwpjhfMLkfspXWJkc8rZqA8BzTdH4tnKIiJb-n3vg,171
+p115qrcode/cmd/cmd.py,sha256=kKPC-z9AZrJ9PtPc0XPZgfjVvOT8mLB5AxzMgaCmZpQ,3754
+p115qrcode/cmd/init.py,sha256=-sZwvAZEUK17TSCWhNXjFjM0mhQTU5M4aIb3PsjDNy8,490
+p115qrcode/cmd/web.py,sha256=1s6powKNTOWoFTqO8df7qu7iYUaO5K3Ep5T8fBroioQ,11875
+p115qrcode/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+p115qrcode-0.0.2.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+p115qrcode-0.0.2.dist-info/METADATA,sha256=Yi3s7O-_uVRD8dgCqDtfLP7-MGystp08B9wPs2J4Sh8,3408
+p115qrcode-0.0.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+p115qrcode-0.0.2.dist-info/entry_points.txt,sha256=FEOaS2tgeNB17HeAgNbSlEevjj-M7x7QkrgpG-MV8IM,55
+p115qrcode-0.0.2.dist-info/RECORD,,
