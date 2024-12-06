@@ -1,0 +1,8 @@
+README.md
+setup.py
+symmatrix/__init__.py
+symmatrix/version.py
+symmatrix.egg-info/PKG-INFO
+symmatrix.egg-info/SOURCES.txt
+symmatrix.egg-info/dependency_links.txt
+symmatrix.egg-info/top_level.txt

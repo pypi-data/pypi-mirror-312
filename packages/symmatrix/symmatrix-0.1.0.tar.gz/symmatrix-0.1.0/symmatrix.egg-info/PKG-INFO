@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: symmatrix
+Version: 0.1.0
+Summary: symmatrix
+Home-page: http://github.com/symmatrix/symmatrix/
+Author: Zhiqing Xiao
+Author-email: xzq.xiaozhiqing@gmail.com
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
+
+symmatrix: Symbolic Matrix API
+=======================
+
+## Website
+
+https://symmat.github.io
+
+
+## API
+
+`simplify(expression: str)->str`: Simplify an matrix expression
