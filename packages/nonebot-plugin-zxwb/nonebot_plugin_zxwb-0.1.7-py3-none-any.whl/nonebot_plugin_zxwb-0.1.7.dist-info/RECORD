@@ -1,0 +1,15 @@
+nonebot_plugin_zxwb/__init__.py,sha256=juF5t1LfXRnLzg-Y_D0Z-lxuopkeicOvnWQ00BaN5FM,4390
+nonebot_plugin_zxwb/_command.py,sha256=Ag6yqLO-9Yvzp9pM3Pk8JICPgiqgVTEyUDvV3swMqPM,1131
+nonebot_plugin_zxwb/_config.py,sha256=z08Wa3iwR-dz2ed-hbrTidXEjBvdSeM9oHVHoxBHdlc,1179
+nonebot_plugin_zxwb/_data_source.py,sha256=vuBMJmLfn-sYJb_DjE8E7105e5hqIHYnfJwbPWxZJj8,10071
+nonebot_plugin_zxwb/_model.py,sha256=4TplHQ1Gn6cHZXD2dKA6kDs0QmyMrWiT2aGoxHfx-ic,22886
+nonebot_plugin_zxwb/_rule.py,sha256=_bfN4cprNuSeHYU0-YC7KjC6s6mez-QK-XTWvylIh1o,1856
+nonebot_plugin_zxwb/db_connect.py,sha256=XYdPPUxeubi2nmTNZQXH5I8KLtk8FIvdmoQ_9Bu_Bp4,1361
+nonebot_plugin_zxwb/exception.py,sha256=aRhguNbAEQVCfTfZiCmxxM4tJaqzBWXPcWf-Oo-63U8,92
+nonebot_plugin_zxwb/message_handle.py,sha256=zuZvfgCHwhMdNPxBF4tgaH5kgWHQ8GvlU06NJPhvUwo,556
+nonebot_plugin_zxwb/read_word_bank.py,sha256=Bj-KZzYOpLaLtbnlYFrAmdPIAdl8rXade4sxC71B9dI,1977
+nonebot_plugin_zxwb/word_handle.py,sha256=_8qlhL2W4kwRFb9kovY-BKSVNlGu-FCzVsbTpQeRZ5Q,8177
+nonebot_plugin_zxwb-0.1.7.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+nonebot_plugin_zxwb-0.1.7.dist-info/METADATA,sha256=HAReElXKWnDuM1IUk5SQQJlM3mnB_XWL7kFHFnNmz2k,6266
+nonebot_plugin_zxwb-0.1.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nonebot_plugin_zxwb-0.1.7.dist-info/RECORD,,
