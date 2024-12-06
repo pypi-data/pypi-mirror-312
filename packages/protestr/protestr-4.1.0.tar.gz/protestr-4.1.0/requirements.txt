@@ -1,0 +1,8 @@
+pytest
+pytest-sugar
+ruff
+build
+twine
+docker==7.1.0
+pymongo==4.10.1
+redis==5.2.0
