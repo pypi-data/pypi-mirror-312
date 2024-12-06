@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: usb-plug-notification-darwin
+Version: 0.2.0
+Summary: Python script to get plug/unplug events on Darwin (MacOS)
+License: GPL-3.0-or-later
+Author: Dick Marinus
+Author-email: dick@mrns.nl
+Requires-Python: >=3.13,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click
+Requires-Dist: pyobjc-framework-Cocoa
+Description-Content-Type: text/markdown
+
+# README
+
+## Description
+
+Python script to get plug/unplug events on Darwin (MacOS)
+
+```
+Usage: usb-plug-notification [OPTIONS]
+
+Options:
+  --idvendor TEXT   Hexadecimal idVendor  [required]
+  --idproduct TEXT  Hexadecimal idProduct  [required]
+  --help            Show this message and exit.
+```
+
