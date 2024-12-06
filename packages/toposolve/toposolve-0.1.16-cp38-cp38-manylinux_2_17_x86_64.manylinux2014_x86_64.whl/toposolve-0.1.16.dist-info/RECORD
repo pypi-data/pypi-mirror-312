@@ -1,0 +1,8 @@
+toposolve-0.1.16.dist-info/top_level.txt,sha256=8zU5NYyIf6ya6zEveXofn0zhYoiZpltoER_5vFD49Rk,10
+toposolve-0.1.16.dist-info/RECORD,,
+toposolve-0.1.16.dist-info/LICENSE,sha256=VEFMQuu8aJGPB7lqKzfcMOzMcsZWQ-B8-8lDSYPUfFU,1067
+toposolve-0.1.16.dist-info/METADATA,sha256=D2VK50vb_5SbJvyPjolSPJzWuTHV2BV0X4gR3Cp34Nc,1445
+toposolve-0.1.16.dist-info/WHEEL,sha256=Kn109NXuT8KgFUFBR7C2ZbCThqiQvDDPWZsf0xScqBs,147
+toposolve/__init__.py,sha256=0wqb80Pgs1czcLyjy11HRl-7t22ea3IzHJhG925sCy0,82
+toposolve/_toposolve.cpp,sha256=JF4GK-0udowOfUn-bK3TbqLhWTFHV2BOwUZhP3rS3Is,2796
+toposolve/_toposolve.cpython-38-x86_64-linux-gnu.so,sha256=sraAx2G8ybcIyk0-CZYRvSzmXewFCqr9hrzfHNY3pfI,221224
