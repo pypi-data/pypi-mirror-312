@@ -1,0 +1,2 @@
+django-crequest
+django-bitfield>=2.0.1
