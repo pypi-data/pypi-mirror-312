@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "InstructionCLI"
+version = "0.0.4"
+authors = [
+  { name="Stas Borovikov (aka Fleenko)", email="stas.borovikov01@yandex.ru" },
+]
+description = "Command line parser based on the concept of instructions"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Fleenko/InstructionCLI"
+Issues = "https://github.com/Fleenko/InstructionCLI/issues"
