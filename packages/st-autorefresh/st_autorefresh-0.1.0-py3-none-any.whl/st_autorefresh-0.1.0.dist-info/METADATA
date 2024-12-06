@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: st-autorefresh
+Version: 0.1.0
+Summary: A Streamlit component for automatically refreshing the page at a user-defined interval.
+Home-page: https://github.com/meet2147/st-autorefresh
+Author: Meet Jethwa
+Author-email: meetjethwa3@gmail.com
+License: MIT
+Keywords: streamlit,autorefresh,real-time,component
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=1.0.0
+
+# st-autorefresh
+
+A Streamlit component for automatic page refresh.
+
+## Installation
+
+```bash
+pip install st-autorefresh
+
