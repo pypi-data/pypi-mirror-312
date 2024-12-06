@@ -1,0 +1,11 @@
+pyvlasiator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyvlasiator/plot/__init__.py,sha256=VFZ3mB3iGHqqDVpsyMGLDUov8FiDydMdAhvtbnTvWtM,235
+pyvlasiator/plot/plot.py,sha256=RZqy5zFRds0FVpbLlbAugYBnHKIMdflcuWRluTXF1nQ,34012
+pyvlasiator/pyvlasiator.py,sha256=11dp6PsBPHacbGHtzI7mdS8NreiBNYuwbI5cx_5bfDw,62
+pyvlasiator/vlsv/__init__.py,sha256=T1_Znxt_H7XL-Al5IG0C_CKBw_u2VkeVQ3O1INH29po,81
+pyvlasiator/vlsv/reader.py,sha256=MdnmJCphhGJqLNYxxfv3ku1plyZ9p_jCeGLFejStTh8,35046
+pyvlasiator/vlsv/variables.py,sha256=JTVGUBTs8CX7aonW_vVNKNca3hNsVsr3DXL7NesqeTo,5987
+pyvlasiator-0.1.1.dist-info/LICENSE.md,sha256=UbZmGbnA73ReemkiNPRNfqgGtpPwiGFJiOZo0gxiP_o,1125
+pyvlasiator-0.1.1.dist-info/METADATA,sha256=i38oR-MaUx3JTcO_79xXisA6KWYnz3OE4Qhi39mZG1U,1702
+pyvlasiator-0.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pyvlasiator-0.1.1.dist-info/RECORD,,
