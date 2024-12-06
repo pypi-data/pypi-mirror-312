@@ -1,0 +1,117 @@
+[build-system]
+requires = ["setuptools>66", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deltaseis"
+version = "0.0.1"
+authors = [{name = "Roeland Nieboer", email = "roeland.nieboer@deltares.nl"}]
+description = "Doing cool stuff with seismic data"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = [
+    "deltaseis",
+    "seisnc",
+    "seg-y",
+    "seismic",
+    "das",
+    "tdms",
+    "pre-stack",
+    "post-stack",
+    "geophysics",
+    "synthetic specfem",
+    "netcdf",
+    "subsurface toolbox",
+    "deltares"
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+   	"Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.12"
+dependencies = [
+    "geost",
+    "segyio",
+    "segpy",
+    "segysak"
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "pytest",
+    "pytest-cov",
+    "ruff",
+    "sphinx",
+    "sphinx-rtd-theme",
+]
+
+[project.urls]
+Homepage = "https://github.com/Deltares-research/DeltaSEIS"
+Repository = "https://github.com/Deltares-research/DeltaSEIS.git"
+Issues = "https://github.com/Deltares-research/DeltaSEIS/issues"
+
+[tool.setuptools]
+packages = ["deltaseis"]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+markers = [
+	"unittest: test of single component",
+	"integrationtest: test of multiple components",
+]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+select = ["F", "E", "W", "N", "I001"]
+ignore = ["F401"]
+unfixable = ["F401"]
+
+[tool.ruff.pydocstyle]
+convention = "numpy"
+
+[tool.pixi.project]
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+
+[tool.pixi.dependencies]
+pip = "*"
+obspy = "*"
+scipy = "*"
+numpy = "*"
+pyproj = "*"
+pycrs = "*"
+shapely = "*"
+xarray = "*"
+dask = "*"
+matplotlib = "*"
+pyvista = "*"
+ipykernel = "*"
+jupyter = "*"
+h5netcdf = "*"
+netcdf4 = "*"
+geopandas = "*"
+pyogrio = "*"
+
+[tool.pixi.pypi-dependencies]
+deltaseis = { path = ".", editable = true }
+
+[tool.pixi.environments]
+default = { solve-group = "default" }
+dev = { features = ["dev"], solve-group = "default" }
+
+[tool.pixi.tasks]
+notebook = "jupyter notebook ./tutorials/segy_editing.ipynb"

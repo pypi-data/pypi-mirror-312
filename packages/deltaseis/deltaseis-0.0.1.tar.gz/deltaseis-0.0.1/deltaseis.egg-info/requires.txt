@@ -1,0 +1,12 @@
+geost
+segyio
+segpy
+segysak
+
+[dev]
+black
+pytest
+pytest-cov
+ruff
+sphinx
+sphinx-rtd-theme

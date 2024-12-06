@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+deltaseis/__init__.py
+deltaseis/base_seismic.py
+deltaseis.egg-info/PKG-INFO
+deltaseis.egg-info/SOURCES.txt
+deltaseis.egg-info/dependency_links.txt
+deltaseis.egg-info/requires.txt
+deltaseis.egg-info/top_level.txt
