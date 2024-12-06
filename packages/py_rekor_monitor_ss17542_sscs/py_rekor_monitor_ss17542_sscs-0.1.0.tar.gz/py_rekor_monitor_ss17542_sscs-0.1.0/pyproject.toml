@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "py_rekor_monitor_ss17542_sscs"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.32.3"
+cryptography = "^43.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.13.0"
+black = "^24.10.0"
+ruff = "^0.7.3"
+flake8 = "^7.1.1"
+pylint = "^3.3.1"
+autodocstrings = "^0.1.3"
+bandit = "^1.7.10"
+pytest = "^8.3.3"
+pytest-cov = "^6.0.0"
+jsonschema = "^4.23.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.flake8]
+max-line-length = 150
+ignore = ["E203", "E266", "E501", "W503"]
+ 
+[tool.poetry.scripts]
+py_rekor_monitor_ss17542_sscs = "py_rekor_monitor_ss17542_sscs.main:main"
