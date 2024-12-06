@@ -1,0 +1,88 @@
+[tool.poetry]
+name = "dfttoolkit"
+version = "0.2.1"
+description = "A collection of python modules and libraries for several DFT codes to handle input and output."
+authors = [
+    "Lukas Hoermann <lukas.hoermann@warwick.ac.uk>",
+    "Dylan Morgan <dylan.morgan@warwick.ac.uk",
+]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = ">=2,<2.1"
+scipy = "^1.13.0"
+ase = "^3.22.1"
+pyyaml = "^6.0.1"
+spglib = "^2.5.0"
+networkx = "^3.3"
+numba = "^0.60.0"
+click = "^8.1.7"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.5"
+pyright = "^1.1.373"
+ptpython = "^3.0.26"
+pytest = "^8.2.0"
+pytest-cov = "^5.0.0"
+coveralls = "^4.0.1"
+interrogate = "^1.7.0"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^7.4.7"
+furo = "^2024.7.18"
+# sphinx-rtd-theme = "^2.0.0"
+# piccolo-theme = "^0.23.0"
+sphinx-pyproject = "^0.3.0"
+myst-parser = "^3.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.sphinx-pyproject]
+project = "dfttoolkit"
+author = "Lukas Hoermann, Dylan Morgan"
+copyright = "2024, Lukas Hoermann, Dylan Morgan"
+html_theme = "furo"
+# html_theme = "sphinx_rtd_theme"
+# html_theme = "piccolo_theme"
+extensions = [
+  "sphinx.ext.autodoc",
+  "sphinx.ext.viewcode",
+  "sphinx.ext.napoleon",
+  "myst_parser",
+]
+templates_path = ["_templates",]
+html_static_path = ["_static",]
+exclude_patterns = [
+  "build", 
+  ".DS_Store",
+]
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+target-version = "py310"
+
+[tool.ruff.lint]
+# select = ['']
+ignore = ["E741", ]
+
+[tool.pyright]
+include = ["dfttoolkit"]
+exclude = ["**/__pycache__"]
+
+[tool.pytest.ini_options]
+pythonpath = "dfttoolkit"
+testpaths = ["tests"]
+addopts = [
+    "--import-mode=importlib",
+]
