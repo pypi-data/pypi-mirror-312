@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+my_aws_utils/__init__.py
+my_aws_utils/sns_utils.py
+my_aws_utils/sqs_utils.py
+my_aws_utils.egg-info/PKG-INFO
+my_aws_utils.egg-info/SOURCES.txt
+my_aws_utils.egg-info/dependency_links.txt
+my_aws_utils.egg-info/requires.txt
+my_aws_utils.egg-info/top_level.txt

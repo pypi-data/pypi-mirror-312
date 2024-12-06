@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: my_aws_utils
+Version: 0.1.0
+Summary: A utility library for AWS SNS and SQS
+Home-page: https://github.com/RishiNCI/my_aws_utiils
+Author: Rishi
+Author-email: sawantrushikesh83@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: boto3>=1.26.0
+
+# my_aws_utils
+
+A Python library for working with AWS SNS and SQS.
+
+## Installation
+
+```bash
+pip install my_aws_utils
