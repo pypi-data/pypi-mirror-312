@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: markdownrenderer
+Version: 1.0
+Summary: A simple markdown renderer in python
+Home-page: https://github.com/BOTTOMFRAGGER523/Markdown-RendererPy
+Author: BOTTOMFRAGGER523
+License: GPLv2
+Keywords: markdownrenderer,markdown renderer
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pywebview
+Requires-Dist: markdown
+Requires-Dist: flask
+
+# Markdown renderer
+## The name speaks for itself
+
+## To build from source copy this command
+```git clone https://github.com/BOTTOMFRAGGER523/Markdown-RendererPy.git && cd Markdown-RendererPy/ && python setup.py sdist bdist_wheel && cd dist/```
