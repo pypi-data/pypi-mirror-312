@@ -1,0 +1,7 @@
+README.md
+setup.py
+apache_airflowdasf.egg-info/PKG-INFO
+apache_airflowdasf.egg-info/SOURCES.txt
+apache_airflowdasf.egg-info/dependency_links.txt
+apache_airflowdasf.egg-info/requires.txt
+apache_airflowdasf.egg-info/top_level.txt
