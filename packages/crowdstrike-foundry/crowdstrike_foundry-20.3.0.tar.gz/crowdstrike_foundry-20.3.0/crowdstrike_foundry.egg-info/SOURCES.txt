@@ -1,0 +1,9 @@
+README.md
+setup.py
+crowdstrike_foundry/__init__.py
+crowdstrike_foundry/telemetry.py
+crowdstrike_foundry.egg-info/PKG-INFO
+crowdstrike_foundry.egg-info/SOURCES.txt
+crowdstrike_foundry.egg-info/dependency_links.txt
+crowdstrike_foundry.egg-info/requires.txt
+crowdstrike_foundry.egg-info/top_level.txt
