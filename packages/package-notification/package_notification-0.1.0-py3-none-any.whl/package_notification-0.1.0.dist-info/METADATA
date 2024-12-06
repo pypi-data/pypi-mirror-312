@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: package_notification
+Version: 0.1.0
+Summary: A package to send package delivery notifications via email.
+Home-page: https://github.com/Manjula-K-coder/Package_Tracking_System
+Author: Manjula Kore
+Author-email: koremanju00@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django>=3.0
+
