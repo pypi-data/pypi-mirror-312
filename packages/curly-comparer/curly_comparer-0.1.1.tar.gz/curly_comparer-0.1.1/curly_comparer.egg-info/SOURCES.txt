@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/test.yaml
+curly_comparer/__init__.py
+curly_comparer.egg-info/PKG-INFO
+curly_comparer.egg-info/SOURCES.txt
+curly_comparer.egg-info/dependency_links.txt
+curly_comparer.egg-info/requires.txt
+curly_comparer.egg-info/top_level.txt
+curly_comparer/algorithms/levenshtein.py
+tests/test_levenshtein.py

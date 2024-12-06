@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "curly_comparer"
+version = "0.1.1"
+authors = [
+    {name = "Pedro Lopez Guzman", email = "pdihax@gmail.com"}
+]
+description = "A little package with string comparison tools"
+readme = "README.md"
+license = {text = "Apache License 2.0"}
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.1"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Pedro-UwU/curly-comparer"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "numpy"
+]
+
+[tool.setuptools.packages.find]
+include = ["curly_comparer*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
