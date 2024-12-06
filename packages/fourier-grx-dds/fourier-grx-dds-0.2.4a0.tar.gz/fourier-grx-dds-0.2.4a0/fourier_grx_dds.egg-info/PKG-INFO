@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: fourier-grx-dds
+Version: 0.2.4a0
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
