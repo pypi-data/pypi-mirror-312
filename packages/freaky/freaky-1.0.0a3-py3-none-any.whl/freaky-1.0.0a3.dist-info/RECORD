@@ -1,0 +1,9 @@
+freaky/__init__.py,sha256=Emwx_jLSHYPyslhkFkLPcPi8Z4-0vTr1UlneHnjPyTU,146
+freaky/decode.py,sha256=64lS9SGlwyWd_FbGewnh156zRD6kwsXegqTJ5tLRBZI,2718
+freaky/encode.py,sha256=JEkL3hOIMu3leLPDtBrFHe1YiIk1IijxLLDZDt6u_lU,4392
+freaky/entropy.py,sha256=k5Fdm-BStFuGsm8e6-SGitm1Fs9RmneeRbXedB4Ty74,824
+freaky-1.0.0a3.dist-info/METADATA,sha256=tperjJnE1RoTQvVAxLv5QLwxttTibmpAQ_wGmIyTNtU,1342
+freaky-1.0.0a3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+freaky-1.0.0a3.dist-info/entry_points.txt,sha256=O_cODVbmv3zfVYqLoq-tVrRoqep1lBL8K0K_f64CsQ8,96
+freaky-1.0.0a3.dist-info/top_level.txt,sha256=lgGCpDKIRUiOECmDtcagGv0sDlt_7N_Qru52entlHGo,7
+freaky-1.0.0a3.dist-info/RECORD,,
