@@ -1,0 +1,11 @@
+templatepy/__init__.py,sha256=PCKjrSllMfJ1mYtvs2HqZVsSPdyiiXGJAsKmKSSfGB4,160
+templatepy/example.data.file.config,sha256=sRtbLc80ZUpGHm_qaovQ71dXmYf6IVkY8_4Y6YndGms,40
+templatepy/example.data.file.test-extension-yu48,sha256=M3siPvc7bFACsq7uBr3jbN_rd8okgr6051cJcsqPiVw,42
+tests/tests/test_integration/test_placeholder.py,sha256=NYftZ4Oxh0mQUfy3isWQpcbXkw9XCPPoQgll_7Qp_98,836
+tests/tests/test_unit/test_unit.py,sha256=qjQEflbXngqKKkDMpsXWTEAeo6VWeOH8GYBbQDda9cg,1564
+templatepy-0.2.6.dev0.dist-info/LICENSE,sha256=Ew8cEKZj5F51f1JVCmPZAESmeIe0HCdWdlo_NVKD-8s,1522
+templatepy-0.2.6.dev0.dist-info/METADATA,sha256=H8MsZePNpRPcdrPLzjEjmJaSPBOn7X_z98PtM_4w5b8,19882
+templatepy-0.2.6.dev0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+templatepy-0.2.6.dev0.dist-info/entry_points.txt,sha256=AGxmwCmuTD2V6WaG-gZOZq9fu7X-mKRch540WR3b0aY,66
+templatepy-0.2.6.dev0.dist-info/top_level.txt,sha256=LQF8fpEG2Xs3iyqm7StHG8F9Dj-TVPOfcVeky9DtGII,17
+templatepy-0.2.6.dev0.dist-info/RECORD,,
