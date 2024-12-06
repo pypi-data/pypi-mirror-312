@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: haot
+Version: 1.0.0b0
+Summary: Aero-optics post processing tools
+Home-page: https://github.com/mliza/HAOT
+Author: Martin E. Liza
+Author-email: mliza1191@gmail.com
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: scipy>=1.6.0
+Requires-Dist: molmass>=2024.10.25
+
+# HAOT
+Hypersonic Aerodynamic Optics Tools
