@@ -1,0 +1,11 @@
+PIP.md
+README.md
+pyproject.toml
+libpointing/__init__.py
+libpointing/libpointing.cp312-win_amd64.pyd
+libpointing/libpointing.cpython-312-darwin.so
+libpointing/libpointing.cpython-312-x86_64-linux-gnu.so
+libpointing.egg-info/PKG-INFO
+libpointing.egg-info/SOURCES.txt
+libpointing.egg-info/dependency_links.txt
+libpointing.egg-info/top_level.txt
