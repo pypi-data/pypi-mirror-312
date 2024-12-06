@@ -1,0 +1,4 @@
+pillow
+adafruit-circuitpython-neopixel-spi
+pandas
+roboflow

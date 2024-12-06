@@ -1,0 +1,3 @@
+[console_scripts]
+wiggle-camera = wiggle_camera.main:main
+wiggle-camera-install = wiggle_camera.install:install

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wiggle_camera"
+version = "0.0.4"
+authors = [
+  { name="Studio Rabota" },
+]
+description = "WiggleCamera - Control the camera on your WiggleBin"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'pillow',
+  'adafruit-circuitpython-neopixel-spi',
+  'pandas',
+  'roboflow'
+]
+
+[project.scripts]
+wiggle-camera = "wiggle_camera.main:main"
+wiggle-camera-install = "wiggle_camera.install:install"
+
+[project.urls]
+"Homepage" = "https://github.com/wiggle-bin/wiggle-camera.git"
