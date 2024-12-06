@@ -1,0 +1,30 @@
+Metadata-Version: 2.3
+Name: order-management-silverstalan
+Version: 0.1.4
+Summary: AWS Order Management System with DynamoDB, S3, and SNS integration
+Author-email: silverstalan <your.email@example.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: boto3>=1.26.0
+Description-Content-Type: text/markdown
+
+A comprehensive order management system using AWS services (DynamoDB, S3, and SNS).
+- Order CRUD operations with DynamoDB storage
+- Document storage in S3
+- Event notifications via SNS
+- Decimal and JSON encoding utilities
+- Type hints and proper error handling
+```bash
+pip install order-management-silverstalan
+Documentation
+Full source code and documentation available at GitHub.
+Requirements
+
+Python 3.8+
+boto3
+AWS credentials configured
+
+Author
+silverstalan
