@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ams-adf-reader
+Version: 0.2.2
+Summary: Antenna Measurement Software (AMS) File Format (ADF) Reader 
+Home-page: https://github.com/yigithsyn/ams-adf-reader
+Author: Hüseyin YİĞİT
+Author-email: yigit.hsyn@gmail.com
+License: MIT License
+Platform: Any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Other Audience
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >= 3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: h5py
+
+# ams-adf-reader
+
+Antenna Measurement Software (AMS) File Format (ADF) Reader
