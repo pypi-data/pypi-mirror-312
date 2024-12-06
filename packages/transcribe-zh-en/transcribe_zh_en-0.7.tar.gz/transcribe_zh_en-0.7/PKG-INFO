@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: transcribe_zh_en
+Version: 0.7
+Summary: A package to transcribe Chinese subtitles and remove audio from videos
+Home-page: https://github.com/Abdulhamid97Mousa/transcribe_zh_en
+Author: Mousa Abdulhamid
+Author-email: mousa.abdulhamid97@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ffmpeg-python==0.2.0
+Requires-Dist: faster-whisper==1.1.0
+Requires-Dist: tokenizers==0.21.0
+Requires-Dist: torch==2.5.1
+
+# transcribe_zh_en
+
+## This project is about transcribing local and youtube videos from chinese to english
