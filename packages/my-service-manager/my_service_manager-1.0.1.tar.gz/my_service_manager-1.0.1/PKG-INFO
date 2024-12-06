@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: my_service_manager
+Version: 1.0.1
+Summary: A Python package for managing hidden services.
+Home-page: https://github.com/yourusername/my_service_manager
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# My Service Manager
+
+A Python library to manage service files. It downloads a file, stores it in a hidden folder, verifies its integrity using a hash, and runs it.
+
+## Installation
+
+```bash
+pip install my_service_manager
