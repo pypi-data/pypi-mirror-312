@@ -1,0 +1,4 @@
+certbot_dns_njalla
+dist
+snap
+tmp
