@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "marius-s-mod1-atsiskaitymas"
+version = "0.4.2"
+description = "A crawler for news articles from specified websites"
+authors = ["Marelis272 <Mariusstosk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+lxml = "^5.3.0"
+requests = "^2.32.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
