@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ag2
+Version: 0.4.2b1
+Summary: Alias package for pyautogen
+Home-page: https://github.com/ag2ai/ag2
+Author: Chi Wang & Qingyun Wu
+Author-email: support@ag2.ai
+License: Apache Software License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8,<3.14
+License-File: LICENSE
+License-File: NOTICE.md
+
+UNKNOWN
+
