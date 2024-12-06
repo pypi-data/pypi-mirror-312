@@ -1,0 +1,15 @@
+py_excel_form_extractor/_extractor.cpython-311-x86_64-linux-gnu.so,sha256=UmCrOZmGrMxKrQl6M-vHXbAj1qH0RJcuXchOlBR_TEE,7856104
+py_excel_form_extractor/extractor.c,sha256=Y93I7BC-4_dSGKGi8LaV_AD9L2xke8oipc33yBd2BFY,281416
+py_excel_form_extractor/extractor.py,sha256=4Mv4IYyzh9SuNqPgA2lwWzoDPPsNpaup0W4ZTX0zMpU,84389
+py_excel_form_extractor/utils.py,sha256=X8hqV5ARVDM2iu6ihFXim-KFLrKrdZaduBfgPMVS5KU,1563
+py_excel_form_extractor/build.py,sha256=bfLcnWtDkLziKTa2IaWX54pI_8jwejKgTbsAXrGHMno,37399
+py_excel_form_extractor/extractor_go.h,sha256=dAKud-QJMwurv_swezGLpiXAohcjk-toz6qtG_qdkMc,30495
+py_excel_form_extractor/go.py,sha256=aR622kXgQo2S7HH-ApjSassEtu2sA-K9NIxZ7sx1ULs,48836
+py_excel_form_extractor/__init__.py,sha256=ovguP4wzQEDNguczwiZnhMm4dRRVcvnzmHrfQtlRCNQ,15
+py_excel_form_extractor/_extractor.cpython-311-x86_64-linux-gnu.h,sha256=dAKud-QJMwurv_swezGLpiXAohcjk-toz6qtG_qdkMc,30495
+py_excel_form_extractor/extractor.go,sha256=jGdq6eRgD1Fj4jDSUp3bS0Zw5zD8S66jV6AvC0ndCTA,107654
+py_excel_form_extractor-0.3.12.dist-info/top_level.txt,sha256=KDRpQPyWr-mSOT4uYysCxjTGgiGHFRlKG5TEUOggL5U,24
+py_excel_form_extractor-0.3.12.dist-info/RECORD,,
+py_excel_form_extractor-0.3.12.dist-info/LICENSE,sha256=PoVf-nBBFKUWKO-PC_OutBcorfnZBw4mO_WKpWQLDrU,1097
+py_excel_form_extractor-0.3.12.dist-info/METADATA,sha256=f5SA_AFi33OuPgL_dnQadPhBXQJHG-o2LaYUK-1LRso,2893
+py_excel_form_extractor-0.3.12.dist-info/WHEEL,sha256=6RF1cJR581K-LDy2H33ngDLkozxq20P7Yl6H8Dvpz08,225
