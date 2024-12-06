@@ -1,0 +1,126 @@
+# activedirectorytoolsforpython
+
+This library and set of tools was designed for accessing active directory 
+in an intuitive way compared to Microsoft Active Directory on Powershell. 
+It is intended for Linux Operating systems and will be complimented by 
+powershell modules for Linux to mimic the functionality of Active Directory 
+tools for powershell that is only available on Windows.
+
+## Installing
+
+This module requires ldap3, gssapi, and cryptography. Building the modules 
+may require the installation of various tools and libraries on the Linux OS.
+Having Kerberos installed and configyred on your system is highly recommended 
+and may be essential. Although kerberos is not needed to make the connection,
+it is highly advisable and easier to utilize these tools and libraries with 
+Kerberos installed and configured.
+
+### To Build the ldap3 and gssapi python modules
+Build Essentials, Development Tools, or Equivalent
+Must install krb5-config development libraries
+May require more libraries on the respective systems.
+
+### Setting up and activating the Python Virtual Environment
+
+It is recommended to install within a Python Virtual Environment, please review your 
+specific OS instructions to install VirtualEnv on your system.
+
+From the directory of the repository:
+
+```
+python3 -m venv venv
+```
+
+Activating the Virtual Environment:
+```
+. venv/bin/activate
+```
+
+To exit the Virtual Environment:
+
+```
+deactivate
+```
+
+### Installing using the setup.py
+
+All commands should be run from the root directory of the repository.
+```
+pip install -r requirements.txt
+python3 setup.py install
+```
+
+### Installing from [PyPi](https://pypi.org)
+
+```
+pip install activedirectorytoolsforpython
+```
+
+## Usage
+
+This module is designed to be used from the command line to display or 
+pipe output to other commands. It can also be used as a library to create
+other scripts upon in pure python. The intentions of this library was 
+to create Powershell modules to mimic Active Directory Tools.
+
+The examples below assume you have initialized your Kerberos tokens with
+kinit.
+```
+kinit bob123
+```
+
+If you choose you can use SIMPLE authentication with a username and password.
+If the username is added, Kerberso will not be used, if the password is 
+ommitted, the user will be prompted for the password using getpass.
+
+### Python Examples
+
+All Functions available have help, here are few examples of how to use the 
+primary functions:
+
+Get All ADUser Objects in your Default Domain using ldaps with Certificate 
+with mail and sAMAccountName properties
+```
+from activedirectorytoolsforpython import *
+aduser_objects = get_aduser(identity="*",cacert="./root_domain_ca.pem",properties=["mail","sAMAccountName"])
+for aduser in aduser_objects:
+    print(aduser)
+```
+
+Get a Specific User from a specific Searchbase using ldaps No Verify Certificate 
+with all properties
+```
+from activedirectorytoolsforpython import *
+aduser_objects = get_aduser(identity="bob123",verify=False,properties='*')[0]
+print(aduser)
+```
+
+Get all users with the last name of Smith using ldaps No Verify Certificate 
+with all properties 
+```
+from activedirectorytoolsforpython import *
+aduser_objects = get_aduser(filter="sn=Smith",verify=False,properties='ALL')
+for aduser in aduser_objects:
+    print(aduser)
+```
+
+Get all users with the last name of Smith using ldaps No Verify Certificate 
+with all properties using ADObject
+```
+from activedirectorytoolsforpython import *
+aduser_objects = get_adobject(filter="(&(objectClass=user)(sn=Smith))",verify=False,properties='ALL')
+for aduser in aduser_objects:
+    print(aduser)
+```
+
+### Shell Examples
+
+Example for Getting a Group in Bash
+```
+GetADGroup -identity DnsAdmins -noverify -properties sAMAccountName,whenCreated,cn
+```
+
+Example for piping results into another command using the json flag
+```
+$psObj = Invoke-Expression -Command "GetADGroup -identity DnsAdmins -noverify -properties sAMAccountName,whenCreated,cn -json" | ConvertFrom-Json
+```

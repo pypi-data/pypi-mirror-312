@@ -1,0 +1,6 @@
+[console_scripts]
+GetADComputer = activedirectorytoolsforpython:main_getadcomputer
+GetADGroup = activedirectorytoolsforpython:main_getadgroup
+GetADObject = activedirectorytoolsforpython:main
+GetADOrganizationalUnit = activedirectorytoolsforpython:main_getadorganizationalunit
+GetADUser = activedirectorytoolsforpython:main_getaduser
