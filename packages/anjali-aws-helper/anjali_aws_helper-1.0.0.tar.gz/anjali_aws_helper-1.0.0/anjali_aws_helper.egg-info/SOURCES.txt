@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+anjali_aws_helper.egg-info/PKG-INFO
+anjali_aws_helper.egg-info/SOURCES.txt
+anjali_aws_helper.egg-info/dependency_links.txt
+anjali_aws_helper.egg-info/requires.txt
+anjali_aws_helper.egg-info/top_level.txt
+aws_helper/__init__.py
+aws_helper/helper.py
