@@ -1,0 +1,8 @@
+fast_targetprice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_targetprice/client.cp310-win_amd64.pyd,sha256=CtGYKmpVzoVNcdmsFWgYoisFUtNyy6vjA0xKlbqqBnY,72704
+fast_targetprice/idToItemName.pkl,sha256=AQfMTPvo3J-qoxOJXBbsFCmFlrxuuC9dassLf6lNLTo,1051284
+fast_targetprice/itemNameToId.pkl,sha256=APZVILcXNvDTm1dlDL44rh1K4xbk6B7b9sM5Ggd-OmM,1051234
+fast_targetprice-0.0.1.dist-info/METADATA,sha256=VpsIVf2GpUSa55wNrAA0kN4HdYQojrQBcjCgjpY_Nzs,89
+fast_targetprice-0.0.1.dist-info/WHEEL,sha256=R06PA3UVYHThwHvxuRWMqaGcr-PuniXahwjmQRFMEkY,91
+fast_targetprice-0.0.1.dist-info/top_level.txt,sha256=cVEukaUAMbJI4QJYQ-f7pnhI4aYO4XsqJfJqgLgYK2A,17
+fast_targetprice-0.0.1.dist-info/RECORD,,
