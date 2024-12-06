@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "DBcm"
+version = "3.0.5"
+authors = [
+  { name="Paul Barry (Head First Python)" },
+]
+description = "Head First Python's Database Context Manager (updated for MariaDB)"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+]
+dependencies = [ "mariadb", ]
+
+[project.urls]
+"Homepage" = "https://www.oreilly.com/library/view/head-first-python/9781492051282/"
+"Github" = "https://github.com/headfirstpython/third"
