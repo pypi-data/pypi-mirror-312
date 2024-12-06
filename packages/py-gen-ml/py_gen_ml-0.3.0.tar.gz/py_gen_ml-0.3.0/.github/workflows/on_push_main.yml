@@ -1,0 +1,7 @@
+on:
+  push:
+    branches:
+    - main
+jobs:
+  pre-commit:
+    uses: ./.github/workflows/pre-commit-and-test.yml
