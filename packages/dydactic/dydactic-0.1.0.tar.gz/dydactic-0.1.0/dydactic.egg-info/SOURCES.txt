@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+dydactic/__init__.py
+dydactic/cast.py
+dydactic/options.py
+dydactic/record.py
+dydactic/result.py
+dydactic/validate.py
+dydactic.egg-info/PKG-INFO
+dydactic.egg-info/SOURCES.txt
+dydactic.egg-info/dependency_links.txt
+dydactic.egg-info/requires.txt
+dydactic.egg-info/top_level.txt
+tests/test_dicts.py
