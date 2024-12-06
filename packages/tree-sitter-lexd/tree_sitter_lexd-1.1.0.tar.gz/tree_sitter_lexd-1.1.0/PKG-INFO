@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tree-sitter-lexd
+Version: 1.1.0
+Summary: tree-sitter parser of Apertium lexd files.
+Author: Daniel Swanson
+License: GPL-3.0-or-later
+Project-URL: Homepage, https://github.com/apertium/tree-sitter-apertium
+Keywords: incremental,parsing,tree-sitter,lexd
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: core
+Requires-Dist: tree-sitter~=0.22; extra == "core"
+
+# tree-sitter-lexd
+
+A tree-sitter grammar of lexd.
+
+# Links
+
+[main repo](https://github.com/apertium/lexd)
+
+[syntax description](https://github.com/apertium/lexd/blob/master/Usage.md)
