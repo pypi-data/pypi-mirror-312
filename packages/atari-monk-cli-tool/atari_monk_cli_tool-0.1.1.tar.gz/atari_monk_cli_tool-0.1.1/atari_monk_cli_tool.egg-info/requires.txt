@@ -1,0 +1,2 @@
+atari-monk-cli-logger
+atari-monk-keyval-storage

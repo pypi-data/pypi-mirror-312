@@ -1,0 +1,5 @@
+[cli_tool.commands]
+basic_commands = cli_tool.basic_commands:load
+
+[console_scripts]
+am_cli_tool = cli_tool.main:main
