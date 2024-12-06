@@ -1,0 +1,2 @@
+[console_scripts]
+copyq-lib = copyq_lib.cli:run

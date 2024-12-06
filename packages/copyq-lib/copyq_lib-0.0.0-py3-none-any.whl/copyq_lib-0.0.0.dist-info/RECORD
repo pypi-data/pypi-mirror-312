@@ -1,0 +1,12 @@
+copyq_lib/__init__.py,sha256=XsYLseWluvP1n8WAaCCzDmWxjlqE1PVn0W8cFm2sEpc,65
+copyq_lib/__main__.py,sha256=6JBxuvtxdqoKNkL4Zu3-C6hpofQn3ckl3tRh7bg6ZyI,379
+copyq_lib/cli.py,sha256=3QTqNsoilczy-46TdCs7b0hUF6OngVt5ykjphJJffaU,798
+copyq_lib/core.py,sha256=ChUFKqiIpu4LWPZl08Y2BrmILUQRy8HJ8hPDUf326aI,51
+copyq_lib/utils.py,sha256=XtzouEzdkDSEKSyws5uj7SfHUEzKcPNtsGFlvTYEpx0,1500
+copyq_lib-0.0.0.dist-info/AUTHORS.rst,sha256=VDJ7ddUyCkws5L4nUorf744wAEvff12iQRVFH5vJLMs,66
+copyq_lib-0.0.0.dist-info/LICENSE,sha256=kf8YbMjt6Qs1vW6PZdBoE6iaSoQh0desFzdJI4uOWSk,1331
+copyq_lib-0.0.0.dist-info/METADATA,sha256=U8lRp3bslfxwdqEfwpIMwb3K9O3EVR1HOxia5uM1AeU,2253
+copyq_lib-0.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+copyq_lib-0.0.0.dist-info/entry_points.txt,sha256=V6rqLJNyQ8g74C_76wsZubIskJcSbqSYKJ3rmpLghL8,48
+copyq_lib-0.0.0.dist-info/top_level.txt,sha256=550yIssdqMddUvTLaYbihAYdLmksdqaFT_gGw2bIHLk,10
+copyq_lib-0.0.0.dist-info/RECORD,,
