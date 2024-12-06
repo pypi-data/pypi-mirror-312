@@ -1,0 +1,9 @@
+target
+__pycache__/
+*.so
+venv/
+env/
+*.lock
+custom.txt
+DDHC_custom_delims.txt
+PKG-INFO
