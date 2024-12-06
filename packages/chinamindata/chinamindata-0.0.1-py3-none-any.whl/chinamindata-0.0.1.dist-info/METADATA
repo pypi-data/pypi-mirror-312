@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: chinamindata
+Version: 0.0.1
+Author: li
+Author-email: 76@gmail.com
+Platform: any
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: time
+
