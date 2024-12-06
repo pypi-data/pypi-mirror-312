@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+array_subarray_utils/__init__.py
+array_subarray_utils/subarray_utils.py
+array_subarray_utils.egg-info/PKG-INFO
+array_subarray_utils.egg-info/SOURCES.txt
+array_subarray_utils.egg-info/dependency_links.txt
+array_subarray_utils.egg-info/top_level.txt
+tests/test_subarray_utils.py
