@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: foundry-map-tool
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.2.3
+
+This utility takes the json from either a DA map export or from a Foundry VTT map export JSON. It scales it down so that all walls, tokens, lights ,drawings, notes, and tiles stay in place but there are 4 grid squares for every original. 
