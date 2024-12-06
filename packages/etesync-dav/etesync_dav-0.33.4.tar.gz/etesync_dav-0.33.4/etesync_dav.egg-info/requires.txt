@@ -1,0 +1,11 @@
+appdirs>=1.4.3
+etesync>=0.12.1
+etebase>=0.30.0
+msgpack>=1.0.0
+Radicale<3.3.0,>=3.0.3
+Flask>=2.3.0
+Flask-WTF<2.0.0,>=1.2.0
+requests[socks]>=2.21
+
+[:sys_platform == "darwin"]
+pyobjc-framework-Cocoa>=7.0.0
