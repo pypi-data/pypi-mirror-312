@@ -1,0 +1,3 @@
+_version
+clone_auto
+term_args
