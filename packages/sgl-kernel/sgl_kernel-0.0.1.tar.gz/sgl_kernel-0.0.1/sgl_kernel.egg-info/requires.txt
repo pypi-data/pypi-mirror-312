@@ -1,0 +1,7 @@
+numpy
+
+[all]
+sgl-kernel[srt]
+
+[srt]
+torch
