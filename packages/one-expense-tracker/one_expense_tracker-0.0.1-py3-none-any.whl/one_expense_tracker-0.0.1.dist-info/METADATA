@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: one-expense-tracker
+Version: 0.0.1
+Summary: A cli app for expense tracking
+Home-page: https://github.com/NwizuEmmanuel/expense-tracker
+Author: Onyeka Emmanuel Nwizu
+Author-email: nwizuemmanuel200@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# expense-tracker
+A simple expense tracker application to manage your finances. This application should allow users to add, delete, and view their expenses. It also provides a summary of the expenses.
+<br>
+Inspired by [roadmap.sh](https://roadmap.sh/projects/expense-tracker)
