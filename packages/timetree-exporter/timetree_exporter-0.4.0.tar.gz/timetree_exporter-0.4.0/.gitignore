@@ -1,0 +1,18 @@
+# Mac OS
+.DS_Store
+
+# Python temporary files
+*.pyc
+
+# Python environment
+.venv
+
+# Python distribution
+dist
+*.egg-info
+
+# Visual Studio Code
+.vscode/
+
+# TimeTree
+timetree.ics
