@@ -1,0 +1,8 @@
+llmxml/__init__.py,sha256=HCEzTQA11vfn-Ae-AXtw9QFKbx7g7bzCoI1WbzvhSIw,131
+llmxml/parser.py,sha256=fhAf1ACHrr-spcbv2RQ351JUk13D3HsYjzremjlLi6E,19047
+llmxml/prompting.py,sha256=Ake6ttKKH3IzitPrFnsHZ_g2HVETKM7EUSSx6lXaI0M,7416
+llmxml-0.2.3.dist-info/LICENSE,sha256=WuqVOpiNWO9OD8MZBptyGrHkPDlFp-WJGS0cYnkLuyU,1062
+llmxml-0.2.3.dist-info/METADATA,sha256=rvG5q8GS1gas5aeUptGXfnqG-qYTkHbPUDojrfoVWow,2259
+llmxml-0.2.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+llmxml-0.2.3.dist-info/top_level.txt,sha256=aBBPqCybjoKjk4Ja-FMgq12lTu7Ag83EJGGYn6m3wnk,7
+llmxml-0.2.3.dist-info/RECORD,,
