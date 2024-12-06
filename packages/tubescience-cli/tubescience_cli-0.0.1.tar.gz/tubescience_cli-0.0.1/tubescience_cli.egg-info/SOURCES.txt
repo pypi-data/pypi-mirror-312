@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_foo.py
+tubescience_cli.egg-info/PKG-INFO
+tubescience_cli.egg-info/SOURCES.txt
+tubescience_cli.egg-info/dependency_links.txt
+tubescience_cli.egg-info/top_level.txt
