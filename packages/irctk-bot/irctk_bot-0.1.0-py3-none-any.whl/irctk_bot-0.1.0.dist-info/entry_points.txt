@@ -1,0 +1,3 @@
+[console_scripts]
+irctk-bot=irctk_bot.cli:main
+
