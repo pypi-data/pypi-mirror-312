@@ -1,0 +1,13 @@
+autogen-agentchat
+autogen-core
+autogen-gemini
+autogen-langchain
+autogen-magentic
+autogen-magentic-one
+autogen-mistral
+autogen-next
+autogen-openai
+autogen-samples
+autogen-studio
+autogen-team-one
+pyautogen-core
