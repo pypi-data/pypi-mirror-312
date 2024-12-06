@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+turso_python/__init__.py
+turso_python/advanced_queries.py
+turso_python/batch.py
+turso_python/connection.py
+turso_python/crud.py
+turso_python/logger.py
+turso_python/schema_validator.py
+turso_python/turso_vector.py
+turso_python.egg-info/PKG-INFO
+turso_python.egg-info/SOURCES.txt
+turso_python.egg-info/dependency_links.txt
+turso_python.egg-info/requires.txt
+turso_python.egg-info/top_level.txt

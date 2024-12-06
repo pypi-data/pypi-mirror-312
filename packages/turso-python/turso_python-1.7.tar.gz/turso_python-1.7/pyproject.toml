@@ -1,0 +1,25 @@
+[project]
+name = "turso_python"
+version = "1.7"
+authors = [
+  { name="Marcus Peterson", email="marcus.peterson.tech@gmail.com" },
+]
+description = "Turso ORM for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "requests>=2.28",
+    "python-dotenv>=1.0",
+    "jsonschema>=4.23.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/Marcus-Peterson/tursopy"
+Issues = "https://github.com/Marcus-Peterson/tursopy/issues"
+
