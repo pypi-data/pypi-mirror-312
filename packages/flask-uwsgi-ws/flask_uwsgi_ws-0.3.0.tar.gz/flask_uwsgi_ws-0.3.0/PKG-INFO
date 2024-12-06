@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: flask-uwsgi-ws
+Version: 0.3.0
+Summary: Flask WebSocket extension for uWSGI
+Keywords: flask,uwsgi,websocket,websockets,ws,async
+Author-email: Nidal Alhariri <leve09@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Dist: flask>=2.0.0
+Requires-Dist: uwsgi>=2.0.0
+Project-URL: Homepage, https://github.com/level09/flask-uwsgi-ws
+Project-URL: Repository, https://github.com/level09/flask-uwsgi-ws.git
+
+# Flask-uWSGI-WS
+
+A high-performance WebSocket extension for Flask applications powered by uWSGI.
+
+## Installation 
