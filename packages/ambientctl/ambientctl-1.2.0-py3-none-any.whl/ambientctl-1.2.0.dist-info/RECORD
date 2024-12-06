@@ -1,0 +1,16 @@
+ambientctl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ambientctl/config.py,sha256=clC4wOSRRxmSztXr7lBPbkiamNCJMI4uUcRZiVfO0zo,385
+ambientctl/main.py,sha256=iLzzEb_64y_36xKE84X2zSNPqRDJXFe11b8jwdIkJAk,3081
+ambientctl/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ambientctl/commands/auth.py,sha256=IznpLtnOPu0BTkIxpgUJcItEMX8DKH-IjRkY_Vk2pAI,673
+ambientctl/commands/daemon.py,sha256=Al0jvKlUQrXdE3KH_O2DU9HRaNcj-yxUefHcZek4E_k,8607
+ambientctl/commands/data.py,sha256=mikDgaOXzJ_yIqbhvDz8tzFBlo0GI6QwdvAlreOnDbY,618
+ambientctl/commands/health.py,sha256=GK50Npxl1IW7t_CybeuGPMZX-kQ6gKXoYQx3qOb1Qds,685
+ambientctl/commands/onboarding.py,sha256=r8ept0ZY33YLG_VcWvFrDXSqWrHztph_g8Y68iZNMhg,6552
+ambientctl/commands/ping.py,sha256=c-_8K4tjrgEo3zMGn-rfQ6NmfY5cHC3G5zBEWTsn3T4,657
+ambientctl/templates/ambient_edge_server.service.jinja2,sha256=n8OmC8e9aPvBr4kNwJNMwjqY3oHrmfZUrYWGoNblvqw,468
+ambientctl-1.2.0.dist-info/METADATA,sha256=fd2UYKnkb2xy80E0uGwcL6Hrb271GsbNYuoVNBxUs4k,452
+ambientctl-1.2.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+ambientctl-1.2.0.dist-info/entry_points.txt,sha256=99_KcbkXXfVZfPOV0NnLRddbIYHauBeWLCoEOOrfMAs,51
+ambientctl-1.2.0.dist-info/top_level.txt,sha256=6J1V2vsTIviw1PcLdwNNoOIfdAWEBzD3FZUUHY0FMBE,11
+ambientctl-1.2.0.dist-info/RECORD,,
