@@ -1,0 +1,69 @@
+[package]
+name = "gitignore-find"
+version = "1.1.0"
+edition = "2021"
+readme = "README.md"
+repository = "https://github.com/NavyD/gitignore-find"
+license-file = "LICENSE"
+authors = ["navyd"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "gitignore_find"
+# rlib for benchmark: https://github.com/bheisler/criterion.rs/issues/301#issuecomment-1195512771
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+anyhow = "1.0"
+globset = "0.4"
+ignore = "0.4"
+itertools = "0.13"
+jwalk = "0.8"
+log = "0.4"
+pyo3 = { version = "0.23", features = [
+    "extension-module",
+    "anyhow",
+    # 要求python3.9及以上
+    "abi3-py39",
+] }
+sha2 = "0.10"
+hashbrown = { version = "0.15", features = ["rayon"] }
+pyo3-log = "0.12"
+
+# 在gnu linux非x86平台可能会构建失败
+[target.'cfg(not(all(target_os = "linux", target_env = "gnu", not(any(target_arch = "x86_64", target_arch = "x86")))))'.dependencies]
+mimalloc = "0.1"
+
+[dev-dependencies]
+env_logger = "0.11"
+ctor = "0.2"
+pretty_assertions = "1.4"
+rstest = "0.23"
+tempfile = "3.14"
+criterion = { version = "0.5", features = ["html_reports"] }
+dhat = "0.3"
+clap = { version = "4.5", features = ["derive"] }
+
+[features]
+dhat-heap = []
+
+# 使用命令`cargo bench`统计性能
+# https://github.com/bheisler/criterion.rs
+[[bench]]
+name = "bench_find"
+harness = false
+
+# 使用`cargo flamegraph --bench bench_find`生成火焰图
+# https://github.com/flamegraph-rs/flamegraph#usage-with-benchmarks
+[profile.bench]
+debug = true
+
+[profile.profiling]
+inherits = "release"
+debug = true
+
+
+[lints.rust.unexpected_cfgs]
+level = "warn"
+# https://github.com/xd009642/tarpaulin#ignoring-code-in-files
+check-cfg = ['cfg(tarpaulin_include)']
