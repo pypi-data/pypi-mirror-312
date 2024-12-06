@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/Shabalolo/__init__.py
+src/Shabalolo/tothejapan.py
+src/Shabalolo.egg-info/PKG-INFO
+src/Shabalolo.egg-info/SOURCES.txt
+src/Shabalolo.egg-info/dependency_links.txt
+src/Shabalolo.egg-info/top_level.txt
