@@ -1,0 +1,64 @@
+[project]
+name = "pyrelukko"
+authors = [
+    {name = "Reto Zingg", email = "g.d0b3rm4n@gmail.com"},
+]
+readme = "README.md"
+
+# https://pypi.org/pypi?%3Aaction=list_classifiers
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+requires-python = ">=3.10"
+dynamic = ["version", "description"]
+dependencies = [
+    "requests >=2.32.3",
+    "websockets >= 14.1",
+]
+
+[tool.flit.sdist]
+exclude = [".gitignore", "demo.py"]
+
+[project.urls]
+Homepage = "https://gitlab.com/relukko/pyrelukko"
+Issues = "https://gitlab.com/relukko/pyrelukko/-/issues"
+
+[build-system]
+requires = ["flit_core >=3.2,<4", "semantic-version >= 2.10"]
+build-backend = "flit_core.buildapi"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+pythonpath = [
+    "src",
+]
+
+[tool.tox]
+requires = ["tox>=4.23"]
+env_list = ["3.11", "3.12", "3.13"]
+
+[tool.tox.env_run_base]
+description = "Run test under {base_python}"
+commands = [["pytest", "--junit-xml", "pytest-junit.xml"]]
+deps = ["httpx", "pytest", "testcontainers"]
+# set_env = { VIRTUALENV_DISCOVERY = "pyenv" }
+pass_env = [ "TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE", "DOCKER_HOST", "CI_HAS_RELUKKO", "CI_RELUKKO_*" ]
+
+[tool.pylint.main]
+# Files or directories to be skipped. They should be base names, not paths.
+ignore = ["LICENSE", "pyproject.toml", "version.py",
+          "README.md", "demo.py", "conftest.py", ".tox"]
+
+# Files or directories matching the regular expression patterns are skipped. The
+# regex matches against base names, not paths. The default value ignores Emacs
+# file locks
+ignore-patterns = ["^\\.#", "^test_"]

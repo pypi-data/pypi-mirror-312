@@ -1,0 +1,173 @@
+variables:
+  FF_TIMESTAMPS: true
+  BUILD_IMAGE:
+    description: Used in rules, if "true" and web triggered it builds the image!
+    value: "false"
+    options:
+    - "false"
+    - "true"
+  IMAGE_NAME: py-rf-image
+  IMAGE_TAG:
+    description: >-
+      The "tag" added to the image name for the test / lint image.
+      Remove this when you trigger by hand an image build and want it to use
+      the new built image with Git short sha tag (X icon on the right)!
+    value: "latest"
+  RUN_PYTEST:
+    description: Used in rules, if "true" and web triggered run the pytests.
+    value: "false"
+    options:
+    - "false"
+    - "true"
+  RELUKKO_HOSTNAME: relukko
+  RELUKKO_BIND_PORT: 3000
+  RELUKKO_API_KEY: "somerandomkey"
+  POSTGRES_USER: relukko
+  POSTGRES_PASSWORD: okkuler
+  POSTGRES_DB: relukko
+  POSTGRES_HOSTNAME: postgres
+#  RUN_DOCS_PUBLISH:
+#    description: >-
+#      Used in rules, if "true" and web triggered it generates the docs and
+#      publishes them!
+#    value: "false"
+#    options:
+#    - "false"
+#    - "true"
+
+
+build-py-rf-image:
+  stage: build
+  image: docker:25
+  services:
+    - name: docker:25-dind
+      alias: docker
+  before_script:
+    - docker info
+  before_script:
+    - echo "Login to Gitlab container registry"
+    - echo "$CI_REGISTRY_PASSWORD" | docker login --username $CI_REGISTRY_USER --password-stdin $CI_REGISTRY
+  script:
+    - echo "Build container image..."
+    - ./cicd/build-py-rf-image.sh
+    - echo "Export IMAGE_TAG var to next stage!"
+    - echo "IMAGE_TAG=${CI_COMMIT_SHORT_SHA}" > image_tag.env
+    - echo "Build complete."
+  artifacts:
+    reports:
+      dotenv: image_tag.env
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        - .gitlab-ci.yml
+        - cicd/build-py-rf-image.sh
+        - container/**/*
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+      changes:
+        - .gitlab-ci.yml
+        - cicd/build-py-rf-image.sh
+        - container/**/*
+    - if: $CI_PIPELINE_SOURCE == "web" && $BUILD_IMAGE == "true"
+      when: always
+
+
+run-pylint:
+  stage: test
+  image: "${CI_REGISTRY_IMAGE}/${IMAGE_NAME}:${IMAGE_TAG}"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+      changes:
+        - src/**/*.py
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        - src/**/*.py
+  before_script:
+    - echo "Running PyLint."
+  script:
+    - ./cicd/run_pylint.sh
+  artifacts:
+    when: always
+    expire_in: 2 week
+    paths:
+      - pylint.out.*
+
+
+run-pytest:
+  stage: test
+  services:
+    - name: postgres:16
+      alias: postgres
+    - name: registry.gitlab.com/relukko/relukko:latest
+      alias: relukko
+      variables:
+        DATABASE_URL: "postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}"
+        RELUKKO_USER: "relukko"
+        RELUKKO_PASSWORD: "relukko"
+        RELUKKO_BIND_ADDR: "0.0.0.0"
+        HEALTHCHECK_TCP_PORT: "${RELUKKO_BIND_PORT}"
+  variables:
+    FF_NETWORK_PER_BUILD: 1
+    CI_HAS_RELUKKO: true
+    CI_RELUKKO_BASE_URL: "http://${RELUKKO_HOSTNAME}:${RELUKKO_BIND_PORT}"
+    CI_RELUKKO_API_KEY: "${RELUKKO_API_KEY}"
+  parallel:
+    matrix:
+      - PIPELINE_PY_VERSION: ['3.11', '3.12', '3.13']
+  image: "registry.gitlab.com/relukko/py-tox-images/py-$PIPELINE_PY_VERSION-tox"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+      changes:
+        - src/**/*.py
+        - tests/test_*.py
+        - tests/conftest.py
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        - src/**/*.py
+        - tests/test_*.py
+        - tests/conftest.py
+    - if: $CI_PIPELINE_SOURCE == "web" && $RUN_PYTEST == "true"
+      when: always
+  before_script:
+    - echo "Running PyTest."
+  script:
+    - ./cicd/run_pytest.sh
+  artifacts:
+    when: always
+    expire_in: 2 week
+    paths:
+      - pytest-junit.xml
+    reports:
+      junit: pytest-junit.xml
+
+ 
+run-shellcheck:
+  stage: test
+  image: "${CI_REGISTRY_IMAGE}/${IMAGE_NAME}:${IMAGE_TAG}"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+      changes:
+        - cicd/*.sh
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        - cicd/*.sh
+  before_script:
+    - echo "Running ShellCheck."
+  script:
+    - ./cicd/run_shellcheck.sh
+ 
+# pages:
+#   stage: deploy
+#   image: "${CI_REGISTRY_IMAGE}/${IMAGE_NAME}:${IMAGE_TAG}"
+#   rules:
+#     - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+#       changes:
+#         - src/**/*.py
+#     - if: $CI_PIPELINE_SOURCE == "web" && $RUN_DOCS_PUBLISH == "true"
+#       when: always
+#   before_script:
+#     - echo "Running Docs generation and publishing..."
+#   script:
+#     - ./cicd/run_docs_pages.sh
+#   artifacts:
+#     paths:
+#       - public
