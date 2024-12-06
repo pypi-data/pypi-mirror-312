@@ -1,0 +1,12 @@
+cli_tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli_tool/basic_commands.py,sha256=djgikPpfr0p6KfpeTYdn-CZqGe6riCKmImul-FpboDg,312
+cli_tool/cli.py,sha256=XuKkJMgFDGbW677UaZlhG4pgpLgiGf_-lP-rKmY_HU4,1873
+cli_tool/config.py,sha256=Za6kl5ALBQsctyvIDJAL60PH77P6wwR6pPDu0lw7YsY,223
+cli_tool/loader.py,sha256=LDsFjpK8SHJ8rJWwEAqaiQQFRIAwooMRLxH8X5Hrq1Y,1062
+cli_tool/main.py,sha256=XuKkJMgFDGbW677UaZlhG4pgpLgiGf_-lP-rKmY_HU4,1873
+cli_tool/storage_provider.py,sha256=rWoOs5eD_APcR5FzU6hPQ_jYXSRY_MJbeOf14M2GrB4,2028
+atari_monk_cli_tool-0.1.0.dist-info/METADATA,sha256=e05SQLGmHi8PFeyoY-cJymA9OHpcFuw3ptrdP33V0IU,543
+atari_monk_cli_tool-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+atari_monk_cli_tool-0.1.0.dist-info/entry_points.txt,sha256=swOtW_XXE4hxmXiEtGuEMg9fIJu5M38a0My2xkVN6dM,115
+atari_monk_cli_tool-0.1.0.dist-info/top_level.txt,sha256=5hMf5IdKp-wi_uPl5raqLmeI69rSqm74-0rZ5f-Tjzo,9
+atari_monk_cli_tool-0.1.0.dist-info/RECORD,,
