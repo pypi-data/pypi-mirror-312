@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pozdnyakov/__init__.py
+pozdnyakov.egg-info/PKG-INFO
+pozdnyakov.egg-info/SOURCES.txt
+pozdnyakov.egg-info/dependency_links.txt
+pozdnyakov.egg-info/requires.txt
+pozdnyakov.egg-info/top_level.txt
+pozdnyakov/chatbot/__init__.py
+pozdnyakov/chatbot/config.py
+pozdnyakov/chatbot/utils.py
