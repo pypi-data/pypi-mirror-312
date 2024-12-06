@@ -1,0 +1,166 @@
+Metadata-Version: 2.1
+Name: platform-checks
+Version: 0.2.0
+Summary: Platform checks NRPE / Nagios
+Home-page: https://devcentral.nasqueron.org/source/platform-checks/
+Author: Sébastien Santoro
+Author-email: dereckson@espace-win.org
+License: BSD-2-Clause
+Project-URL: Bug Tracker, https://devcentral.nasqueron.org/tag/monitoring_and_reporting/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: System :: Monitoring
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyYAML<7.0,>=3.12
+Requires-Dist: requests<3.0,>=2.20
+Requires-Dist: semver~=3.0.2
+
+# Platform checks
+
+## Introduction
+
+Allow to perform checks on a PaaS.
+
+This is built for the Nasqueron servers infrastructure,
+and will be useful on modern platform installations
+like microservices, Docker and proxies/load balancers.
+
+Each check is compatible Nagios / NRPE.
+
+## Configuration
+
+Checks can be defined in `/etc/monitoring/checks.yml`.
+
+The format of this file is:
+
+```yaml
+checks:
+  <check_type>:
+    <key>: <value>
+```
+
+You can also use `/usr/local/etc/monitoring/checks.yml` as path,
+or `.checks.yml` in the current working directory.
+
+## Checks reference
+
+### check_http_200
+
+Perform a HTTP request to a specific URL. The check success if HTTP code is 200.
+
+#### Available check types
+
+* check_http_200: for sites you test at the back-end level
+* check_http_200_alive: for sites returning "ALIVE" as body content
+* check_http_200_proxy: flag site as verified at proxy level, not directly at the back-end
+* check_http_200_alive_proxy: combine proxy and alive flags
+
+####  Configuration example
+
+```yaml
+checks:
+  check_http_200:
+    acme: http://localhost:41080/health
+    cachet: http://localhost:39080/api/v1/ping
+    
+  check_http_200_proxy:
+    openfire: https://xmpp.nasqueron.org/login.jsp
+    
+  check_http_200_alive_proxy:
+    phabricator: https://devcentral.nasqueron.org/status
+```
+
+#### Run the check
+
+From there, you've two ways to run the check:
+
+* one check for all URLs: call `check_http_200` without argument
+* one check, one URL: call `check_http_200 <service name>`, for example `check_http_200 openfire`
+
+You can also create a check calling `check_http_200` without argument,
+and it will test every site.
+
+### check_container_present
+
+#### Run the check
+
+With argument, check if the specified Docker container is running:
+`check_container_present foo`
+
+Without argument, compare the list of containers present with
+the expected one.
+
+The configuration is only required if you use it without argument.
+
+#### Available check types
+
+* check_docker_containers: a list of expected containers
+
+####  Configuration example
+
+```yaml
+checks:
+  check_docker_containers:
+    - foo
+    - bar
+```
+
+#### Requirements
+
+A Docker engine with CLI restructured, ie Docker 1.13+, is needed:
+  * To list the containers it uses `docker container ls`.
+  * To get more info on a container down,
+    it uses `docker container inspect`.
+
+#### Not features
+
+This check isn't intended to detect containers
+run with other engines like `systemd-nspawn`.
+
+### check_software_version
+
+#### Run the check
+
+With argument, check if the specified software is up-to-date.
+
+Without argument, get a list of software from the configuration.
+
+If the software can't be found, an UNKNOWN exit code is returned.
+
+#### Available check types
+
+* check_software_version: a list of software to keep up-to-date
+
+#### Configuration example
+
+```yaml
+checks:
+  check_software_version:
+    - consul
+    - nomad
+    - terraform
+    - vagrant
+    - vault
+```
+
+#### Supported software
+
+* HashiCorp CLI products with a "version" subcommand, like Consul, Vault, Vagrant or TerraForm.
+
+## Return values of checks
+
+The checks use the standard Nagios/NRPE exit codes: 
+
+| Exit code | Description                               |
+|-----------|-------------------------------------------|
+| 0         | OK                                        |
+| 1         | Warning                                   |
+| 2         | Critical                                  |
+| 3         | Unknown, for example a check config issue |
+
+As such they're compatible with Nagios, Incinga, Sensu, Shinken, etc.

@@ -1,0 +1,71 @@
+#!python
+
+#   -------------------------------------------------------------
+#   Platform checks - HTTP services
+#   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#   Project:        Nasqueron
+#   Description:    Check if a service returns a HTTP 200 status code.
+#   License:        BSD-2-Clause
+#   -------------------------------------------------------------
+
+
+import sys
+
+from platformchecks import exitcode
+from platformchecks.checks import HttpCheck
+from platformchecks.config import get_all_checks, get_check_value
+
+
+#   -------------------------------------------------------------
+#   Application entry point
+#   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+def run_all():
+    success = True
+
+    messages = []
+    for service, (check_type, url) in get_all_checks(prefix="check_http_200").items():
+        check = HttpCheck(service, check_type, url)
+        check.perform()
+
+        if not check.success:
+            success = False
+
+        messages.append(check.build_message())
+
+    print("\n".join(messages))
+
+    if success:
+        return exitcode.OK
+
+    return exitcode.CRITICAL
+
+
+def run(service):
+    try:
+        check_type, url = get_check_value(prefix="check_http_200", key=service)
+    except ValueError:
+        print(f"Service {service} missing in configuration", file=sys.stderr)
+        return exitcode.UNKNOWN
+
+    check = HttpCheck(service, check_type, url)
+    check.perform()
+
+    if check.success:
+        print(check.build_message())
+        return exitcode.OK
+
+    print(check.build_message(), file=sys.stderr)
+    return exitcode.CRITICAL
+
+
+if __name__ == "__main__":
+    argc = len(sys.argv)
+
+    if argc < 2:
+        exitCode = run_all()
+    else:
+        exitCode = run(sys.argv[1])
+
+    sys.exit(exitCode)

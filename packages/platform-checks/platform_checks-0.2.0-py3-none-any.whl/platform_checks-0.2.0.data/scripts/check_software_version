@@ -1,0 +1,64 @@
+#!python
+
+#   -------------------------------------------------------------
+#   Platform checks - Software version
+#   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#   Project:        Nasqueron
+#   Description:    Check if softwareversions is up-to-date
+#   License:        BSD-2-Clause
+#   -------------------------------------------------------------
+
+
+import sys
+
+from platformchecks import exitcode
+from platformchecks.checks import SoftwareVersionCheck
+from platformchecks.config import parse_config
+
+
+#   -------------------------------------------------------------
+#   Configuration
+#   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+def get_software_list():
+    return parse_config().get("checks", {}).get("check_software_version", [])
+
+
+#   -------------------------------------------------------------
+#   Application entry point
+#   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+def run_all(software_list):
+    success = True
+    messages = []
+
+    for software in software_list:
+        check = SoftwareVersionCheck(software)
+        check_success, message = check.perform()
+
+        success &= check_success
+        messages.append(f"{software} {message}")
+
+    print("\n".join(messages))
+    return exitcode.ok_or_critical(success)
+
+
+def run(software):
+    check = SoftwareVersionCheck(software)
+    success, message = check.perform()
+
+    print(message)
+    return exitcode.ok_or_critical(success)
+
+
+if __name__ == "__main__":
+    argc = len(sys.argv)
+
+    if argc < 2:
+        exitCode = run_all(get_software_list())
+    else:
+        exitCode = run(sys.argv[1])
+
+    sys.exit(exitCode)

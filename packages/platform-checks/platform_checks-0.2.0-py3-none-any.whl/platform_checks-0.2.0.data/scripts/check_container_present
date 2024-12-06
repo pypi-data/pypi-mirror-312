@@ -1,0 +1,73 @@
+#!python
+
+#   -------------------------------------------------------------
+#   Platform checks - Containers
+#   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#   Project:        Nasqueron
+#   Description:    Check if a container is present
+#   License:        BSD-2-Clause
+#   -------------------------------------------------------------
+
+
+import sys
+
+from platformchecks import exitcode
+from platformchecks.checks import DockerContainerCheck
+from platformchecks.config import parse_config
+
+
+#   -------------------------------------------------------------
+#   Configuration
+#   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+def get_containers():
+    return parse_config().get("checks", {}).get("check_docker_containers", [])
+
+
+#   -------------------------------------------------------------
+#   Application entry point
+#   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+def initialize_check_or_die():
+    check = DockerContainerCheck()
+    if not check.initialize():
+        print("UNKNOWN", check.error, file=sys.stderr)
+        sys.exit(exitcode.UNKNOWN)
+
+    return check
+
+
+def run_all(check, containers):
+    success = True
+    messages = []
+
+    for container in containers:
+        container_success, message = check.perform(container)
+
+        success &= container_success
+        messages.append(message)
+
+    print("\n".join(messages))
+    return exitcode.ok_or_critical(success)
+
+
+def run(check, container):
+    success, message = check.perform(container)
+
+    print(message)
+    return exitcode.ok_or_critical(success)
+
+
+if __name__ == "__main__":
+    argc = len(sys.argv)
+
+    container_check = initialize_check_or_die()
+
+    if argc < 2:
+        exitCode = run_all(container_check, get_containers())
+    else:
+        exitCode = run(container_check, sys.argv[1])
+
+    sys.exit(exitCode)
