@@ -1,0 +1,4 @@
+PyYAML
+docker
+schema
+setuptools
