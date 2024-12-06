@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: csra
+Version: 0.1.0
+Description-Content-Type: text/markdown
+
+# sra-collector-cli
+
+Collect NIH NCBI SRA metadata of several GEO studies in one search
+
+## TODO
+* CLI entrypoint to be `srac` 
