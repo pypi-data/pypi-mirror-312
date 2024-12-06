@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: search_prompts
+Version: 1.0.0
+Summary: A package for searching prompts in Hugging Face datasets
+Author: MurlocLevel7
+Requires-Python: >=3.7
+Requires-Dist: datasets
+
