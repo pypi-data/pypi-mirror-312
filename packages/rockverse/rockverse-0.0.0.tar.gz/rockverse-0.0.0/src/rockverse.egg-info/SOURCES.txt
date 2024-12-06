@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/rockverse/__init__.py
+src/rockverse.egg-info/PKG-INFO
+src/rockverse.egg-info/SOURCES.txt
+src/rockverse.egg-info/dependency_links.txt
+src/rockverse.egg-info/requires.txt
+src/rockverse.egg-info/top_level.txt
+src/rockverse/_utils/__init__.py
+src/rockverse/_utils/logo.py
