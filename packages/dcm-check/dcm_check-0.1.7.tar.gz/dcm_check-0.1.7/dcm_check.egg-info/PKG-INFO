@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dcm-check
+Version: 0.1.7
+Summary: A tool for checking DICOM compliance against a reference model using Pydantic
+Home-page: https://github.com/astewartau/dcm-check
+Author: Ashley Stewart
+Keywords: DICOM compliance validation medical imaging
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydicom==3.0.1
+Requires-Dist: pydantic
+Requires-Dist: pandas
+Requires-Dist: tabulate
+Requires-Dist: scipy
+Provides-Extra: interactive
+Requires-Dist: curses; extra == "interactive"
+
+[**Interactive `dcm-check` WebAssembly interface**](https://astewartau.github.io/dcm-check/)
