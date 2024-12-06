@@ -1,0 +1,9 @@
+[ofxstatement]
+alfabank=ofxstatement_ru.alfabank:AlfabankPlugin
+avangard=ofxstatement_ru.avangard:AvangardPlugin
+raiffeisen=ofxstatement_ru.raiffeisen:RaiffeisenPlugin
+sberbank_csv=ofxstatement_ru.sberbank_csv:SberBankCSVPlugin
+sberbank_txt=ofxstatement_ru.sberbank_txt:SberBankTxtPlugin
+tinkoff=ofxstatement_ru.tinkoff:TinkoffPlugin
+vtb=ofxstatement_ru.vtb:VtbPlugin
+

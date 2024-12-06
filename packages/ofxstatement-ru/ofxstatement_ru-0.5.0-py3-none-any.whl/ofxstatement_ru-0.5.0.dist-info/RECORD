@@ -1,0 +1,13 @@
+ofxstatement_ru/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ofxstatement_ru/alfabank.py,sha256=b2MIWBNwOISyBLdKFtncj1wvWEqwR6qsWXc8g68SQMg,4368
+ofxstatement_ru/avangard.py,sha256=0bRbfzbBQ76sR_kvS0mUsxKSdi3XpqLN30R95kuq0KI,5030
+ofxstatement_ru/raiffeisen.py,sha256=5nzNZmerZuy2h3WSe9gH97rU57yShZ29XSYUFRheWkc,3444
+ofxstatement_ru/sberbank_csv.py,sha256=0O3vRmDsl-85_ShA7Pnond5V0K5p8WrNoq__Y5ITjmQ,3136
+ofxstatement_ru/sberbank_txt.py,sha256=9nfKbthX9jpR-Ag3PeQyd3xGyI8YqC46Un7oSCVeLaw,6842
+ofxstatement_ru/tinkoff.py,sha256=1ZY263pyWrqRyyXaqfpmLGHGENtDoeopP7sdH0BBJhs,4820
+ofxstatement_ru/vtb.py,sha256=BT77r-HAzamnX5BUKxP5LXiUJgIv-hNtr8c5CBNrvnY,6452
+ofxstatement_ru-0.5.0.dist-info/LICENSE,sha256=EIujRQSSGx6blQw62R-DQiLgeb_DOhFEHMrpsO23A-Q,35358
+ofxstatement_ru-0.5.0.dist-info/METADATA,sha256=rCeSlkqtNAu-Dr-zmxjMgOwFAH8oFFvwIjUbFwfE_6k,5207
+ofxstatement_ru-0.5.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+ofxstatement_ru-0.5.0.dist-info/entry_points.txt,sha256=9wMHcNNdaL9GW64PaI5RxQlnFhtFSAZWb0dKmuH7_Xk,369
+ofxstatement_ru-0.5.0.dist-info/RECORD,,
