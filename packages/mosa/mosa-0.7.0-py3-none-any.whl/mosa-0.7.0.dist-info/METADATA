@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: mosa
+Version: 0.7.0
+Summary: Multi-Objective Simulated Annealing (MOSA) implementation in pure Python.
+License: GPL 3.0
+Author: Roberto Gomes, PhD
+Author-email: roberto.veiga@ufabc.edu.br
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: black[jupyter] (>=24.10.0,<25.0.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.8,<4.0)
+Requires-Dist: numpy (>=1.25,<2.0)
+Requires-Dist: scipy (>=1.12,<2.0)
+Description-Content-Type: text/markdown
+
+# Multi-Objective Simulated Annealing (MOSA)
+
+Simulated Annealing (SA) has been initially proposed in [*Optimization by Simulated Annealing*](https://doi.org/10.1126/science.220.4598.671) as an optimization heuristic. Multi-objective Simulated Annealing (MOSA) extends the original, single-objective SA to approximate the Pareto front in multi-objective optimization problems. A comprehensive discussion on MOSA and its algorithm variants can be found in [*Multi-objective Simulated Annealing: Principles and Algorithm Variants*](https://doi.org/10.1155/2019/8134674).
+
+This library implements the MOSA algorithm in Python. Jupyter notebooks in the *examples* directory provide usage examples.
+
+The easiest way to install MOSA is using **pip**:
+
+```
+pip install mosa
+```
+
+The code is provided "as is," with no guarantees regarding the accuracy of its results. The author assumes no responsibility for any losses arising from the use of the code. If you have any questions, comments, or suggestions about the code, feel free to [send a message](mailto:roberto.veiga@ufabc.edu.br) or open an issue on the [project's GitHub repository](https://github.com/rgaveiga/mosa).
+
