@@ -1,0 +1,10 @@
+pplx_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pplx_cli/api.py,sha256=DsEq_u3P2WSxtEkbJTz5uddwgCqou9dphUcdXIHQsB8,1023
+pplx_cli/cli.py,sha256=49D73J1LYofllZG3Jh_VJUH4GZ1FNcWQkawQkU3hTfo,3721
+pplx_cli/config.py,sha256=qQ61TzcSa9kqdUHjFSrBnZYJFj8NnZNp0M9fbYb-FFE,2350
+pplx_cli/main.py,sha256=JP-y1PkXuoC93BQ0BtaDxXUMROvIcOgDMU2vd8HJqwg,60
+pplx_cli-0.1.2.dist-info/LICENSE,sha256=RoQXRRp4QQTmg4EryBsrXXTvT3LTmL_BL89Dx3d9d4c,1066
+pplx_cli-0.1.2.dist-info/METADATA,sha256=ht7t9UGJK9gpWxJIDHmfCAfyY-n6-UY1L6mw82K0iVU,2952
+pplx_cli-0.1.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pplx_cli-0.1.2.dist-info/entry_points.txt,sha256=CuU0g3BahAX5urKMcdHF82_QeMQZvHcYc24y2CzS0QM,47
+pplx_cli-0.1.2.dist-info/RECORD,,
