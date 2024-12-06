@@ -1,0 +1,6 @@
+README.md
+setup.py
+meta_qubit.egg-info/PKG-INFO
+meta_qubit.egg-info/SOURCES.txt
+meta_qubit.egg-info/dependency_links.txt
+meta_qubit.egg-info/top_level.txt
