@@ -1,0 +1,9 @@
+README.md
+setup.py
+ZlapiNormal/__init__.py
+ZlapiNormal/core.py
+ZlapiNormal.egg-info/PKG-INFO
+ZlapiNormal.egg-info/SOURCES.txt
+ZlapiNormal.egg-info/dependency_links.txt
+ZlapiNormal.egg-info/requires.txt
+ZlapiNormal.egg-info/top_level.txt
