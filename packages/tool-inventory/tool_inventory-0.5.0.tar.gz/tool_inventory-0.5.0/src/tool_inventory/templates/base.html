@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+<head>
+    <title>Tool Inventory</title>
+    <link href="{{ url_for('static', path='/bootstrap.min.css') }}" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-black text-white p-3">
+        <div class="container">
+            <h1>Tool Inventory Management</h1>
+            <nav>
+                <a href="{{ url_for('web_read_tools') }}" class="text-white me-3">Home</a>
+                <a href="{{ url_for('web_create_tool_form') }}" class="text-white">Add New Tool</a>
+            </nav>
+            <form action="{{ url_for('web_search_tools') }}" method="get" class="d-flex mt-3">
+                <input class="form-control me-2" type="search" name="query" placeholder="Search tools" aria-label="Search" value="{{ query if query else '' }}">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+    <main class="container mt-4">
+        {% block content %}{% endblock %}
+    </main>
+    <script src="{{ url_for('static', path='/bootstrap.bundle.min.js') }}"></script>
+</body>
+</html>
