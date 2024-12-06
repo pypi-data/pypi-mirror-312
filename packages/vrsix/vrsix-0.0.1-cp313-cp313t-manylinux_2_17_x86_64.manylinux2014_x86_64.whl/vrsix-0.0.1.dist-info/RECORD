@@ -1,0 +1,10 @@
+vrsix-0.0.1.dist-info/METADATA,sha256=PJcNZ4AbGSbe_PBK-zo9QXkUiiSetsYoDbP714gEZrw,3129
+vrsix-0.0.1.dist-info/WHEEL,sha256=o3vYcZ4Fnq7H6SSuuEHOZ2MEnSYK5yYfZJ9tDRtJDi4,130
+vrsix-0.0.1.dist-info/entry_points.txt,sha256=1xmUSnqAt6UkuxSEoeuitvNGtHvcADzpJGKDtsbMxns,38
+vrsix-0.0.1.dist-info/licenses/LICENSE,sha256=i8uJ14dehBnrxdoRmcXxHelksXpaL4SHgQ7PPykPffs,1128
+vrsix/__init__.py,sha256=9vnstZCjKbV5Mh5IAgOk4QtrDTujgJJyrjfoa_V39CM,95
+vrsix/cli.py,sha256=8lucYdIGoXvkqfbsEDvweOIsyJD9Pe9bML2gbd-yTfw,1428
+vrsix/sqlite.py,sha256=5KY-GOaMIEDLD-Z0-JNOEL91lEVxnUMh6n3YP4H6PKk,233
+vrsix/load.py,sha256=N2_gfhh0C3GwzVDZjmkMgchOiEPQR5REwzQNyy2Ekbs,928
+vrsix/_core.cpython-313t-x86_64-linux-gnu.so,sha256=5vYpix07xWa9vXV8xBgXabFNb9b8eJH6mt8YsI_dw48,5009160
+vrsix-0.0.1.dist-info/RECORD,,
