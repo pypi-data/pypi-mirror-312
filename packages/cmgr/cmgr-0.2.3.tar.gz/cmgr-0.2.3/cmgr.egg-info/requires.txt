@@ -1,0 +1,7 @@
+consoleiotools
+consolecmdtools>=6.6.1
+click
+
+[dev]
+build
+twine
