@@ -1,0 +1,205 @@
+Metadata-Version: 2.1
+Name: lpw
+Version: 0.2.4.2
+Summary: Using Local Packet Whisperer (LPW, Chat with PCAP/PCAPNG files locally, privately!
+Home-page: https://github.com/kspviswa/local-packet-whisperer
+Author: Viswa Kumar
+Author-email: kspviswaphd@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: altair ==5.2.0
+Requires-Dist: anyio ==4.3.0
+Requires-Dist: appdirs ==1.4.4
+Requires-Dist: attrs ==23.2.0
+Requires-Dist: beautifulsoup4 ==4.12.3
+Requires-Dist: blinker ==1.7.0
+Requires-Dist: cachetools ==5.3.3
+Requires-Dist: certifi ==2024.2.2
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: click ==8.1.7
+Requires-Dist: contourpy ==1.3.0
+Requires-Dist: cycler ==0.12.1
+Requires-Dist: docutils ==0.20.1
+Requires-Dist: entrypoints ==0.4
+Requires-Dist: Faker ==30.1.0
+Requires-Dist: favicon ==0.7.0
+Requires-Dist: fonttools ==4.54.1
+Requires-Dist: gitdb ==4.0.11
+Requires-Dist: GitPython ==3.1.42
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: htbuilder ==0.6.2
+Requires-Dist: httpcore ==1.0.4
+Requires-Dist: httpx ==0.25.2
+Requires-Dist: idna ==3.6
+Requires-Dist: importlib-metadata ==7.0.2
+Requires-Dist: jaraco.classes ==3.3.1
+Requires-Dist: Jinja2 ==3.1.3
+Requires-Dist: jsonschema ==4.21.1
+Requires-Dist: jsonschema-specifications ==2023.12.1
+Requires-Dist: keyring ==24.3.1
+Requires-Dist: kiwisolver ==1.4.7
+Requires-Dist: lxml ==5.1.0
+Requires-Dist: Markdown ==3.7
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: markdownlit ==0.0.7
+Requires-Dist: MarkupSafe ==2.1.5
+Requires-Dist: matplotlib ==3.9.2
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: more-itertools ==10.2.0
+Requires-Dist: nh3 ==0.2.15
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: ollama ==0.1.6
+Requires-Dist: packaging ==23.2
+Requires-Dist: pandas ==2.2.1
+Requires-Dist: pillow ==10.2.0
+Requires-Dist: pkginfo ==1.10.0
+Requires-Dist: plotly ==5.24.1
+Requires-Dist: prometheus-client ==0.21.0
+Requires-Dist: protobuf ==4.25.3
+Requires-Dist: pyarrow ==15.0.1
+Requires-Dist: pydeck ==0.8.1b0
+Requires-Dist: Pygments ==2.17.2
+Requires-Dist: pymdown-extensions ==10.11.1
+Requires-Dist: pyparsing ==3.1.4
+Requires-Dist: pyshark ==0.6
+Requires-Dist: python-dateutil ==2.9.0.post0
+Requires-Dist: pytz ==2024.1
+Requires-Dist: PyYAML ==6.0.2
+Requires-Dist: readme-renderer ==43.0
+Requires-Dist: referencing ==0.33.0
+Requires-Dist: requests ==2.31.0
+Requires-Dist: requests-toolbelt ==1.0.0
+Requires-Dist: rfc3986 ==2.0.0
+Requires-Dist: rich ==13.7.1
+Requires-Dist: rpds-py ==0.18.0
+Requires-Dist: setuptools ==69.1.1
+Requires-Dist: six ==1.16.0
+Requires-Dist: smmap ==5.0.1
+Requires-Dist: sniffio ==1.3.1
+Requires-Dist: soupsieve ==2.6
+Requires-Dist: st-annotated-text ==4.0.1
+Requires-Dist: st-theme ==1.2.3
+Requires-Dist: streamlit ==1.38.0
+Requires-Dist: streamlit-camera-input-live ==0.2.0
+Requires-Dist: streamlit-card ==1.0.2
+Requires-Dist: streamlit-embedcode ==0.1.2
+Requires-Dist: streamlit-extras ==0.4.7
+Requires-Dist: streamlit-faker ==0.0.3
+Requires-Dist: streamlit-image-coordinates ==0.1.9
+Requires-Dist: streamlit-keyup ==0.2.4
+Requires-Dist: streamlit-toggle-switch ==1.0.2
+Requires-Dist: streamlit-vertical-slider ==2.5.5
+Requires-Dist: tenacity ==8.2.3
+Requires-Dist: termcolor ==2.4.0
+Requires-Dist: toml ==0.10.2
+Requires-Dist: toolz ==0.12.1
+Requires-Dist: tornado ==6.4
+Requires-Dist: twine ==5.0.0
+Requires-Dist: typing-extensions ==4.9.0
+Requires-Dist: tzdata ==2024.1
+Requires-Dist: tzlocal ==5.2
+Requires-Dist: urllib3 ==2.2.1
+Requires-Dist: validators ==0.22.0
+Requires-Dist: wheel ==0.42.0
+Requires-Dist: zipp ==3.17.0
+
+![](gifs/lpw_logo_small.png)
+
+# Local Packet Whisperer (LPW)
+
+### A Fun project using [Ollama](https://github.com/ollama), [Streamlit](https://streamlit.io) & [PyShark](https://github.com/KimiNewt/pyshark) to chat with PCAP/PCAG NG files locally, privately!
+
+[![Downloads](https://static.pepy.tech/badge/lpw)](https://pepy.tech/project/lpw) [![Downloads](https://static.pepy.tech/badge/lpw/month)](https://pepy.tech/project/lpw)
+
+## Features & Background
+
+1) 100% local, private PCAP assistant powered by range of local LLMs at your control, powered by Ollama
+2) Purely based on promp engg without any fancy libraries & dependencies. 100% vanilla
+3) Uses streamlit for the FE and pyshark for the pcap parsing needs
+4) Available as a pip installable package. So just *pip it away!* 😎
+5) As of **v0.2.3**, you can also connect LPW to a Ollama server running over a network.
+
+![](gifs/lpw_latest_cover.png)
+
+Refer [Release History](https://github.com/kspviswa/local-packet-whisperer/releases) for more details info on what each release contains.
+
+## Requirements
+
+1) Download & Install [Ollama](https://ollama.ai) by referring to instructions according to your OS [here](https://ollama.com/download)
+
+2) Pull any Chat based LLM models to use with LPW.
+```
+ollama pull dolphin-mistral:latest
+```
+3) If not running the desktop application, Start Ollama Server (refer [here](https://github.com/ollama/ollama?tab=readme-ov-file#start-ollama))
+
+4) You also need to install `tshark` executable. You could either install the [Wireshark Application](https://www.wireshark.org/download.html) or simply use `brew install tshark`. 
+
+    <details>
+    <summary>⚠️Warning⚠️ If you don't perform this step, you may see below error</summary>
+
+    ```
+    TSharkNotFoundException: TShark not found. Try adding its location to the configuration file.
+    ```
+    </details> 
+
+
+
+## Usage
+
+1) Install *LPW* using pip
+```
+pip install lpw
+```
+
+2) This will install `lpw` CLI in your machine. Now simply Start or Stop LPW as follows:
+
+```
+lpw {start or stop}
+lpw -h #for help
+```
+
+3) LPW will automatically fetch the local models from Ollama local repo and populate the dropdown. Select a model to start your test. You can play with more than 1 model to compare the results 😎
+
+![](gifs/select_models.gif)
+
+4) Now upload a PCAP/PCAPNG file.
+
+![](gifs/upload_pcap.gif)
+
+5) You can now start to chat with LPW and ask questions about the packet. **Please Note: The performance of LPW depends on the underlying model. So feel free to download as many local LLMs from Ollama and try it.** It is fun to see different response 🤩🤩🤩.
+
+![](gifs/packet_chat.gif)
+*(This is a long gif. You will find LLM response at the end of the gif)*
+
+6) By default *PyShark* parse the pcap till transport layer. If you want, you can help the LLM to parse application layer by selecting protocol filter in the analysis *(just like how we would do in wireshark)* .
+
+![](gifs/chat_with_ntp.gif)
+
+## Local Development
+
+1) Clone this repo and install requirements
+```
+git clone https://github.com/kspviswa/local-packet-whisperer.git
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+2) Run streamlit app & point to `http://localhost:8501`
+```
+streamlit run bin/lpw_main.py
+```
+or simply
+```
+<lpw dir>/bin/lpw {start or stop}
+```
+
+## Contributions
+
+I just created this project based on inspiration from similar project called [Packet Buddy](https://github.com/automateyournetwork/packet_buddy) which used open AI. But if you find this useful and wanna contribute bug fixes, additional features feel free to do so by raising a PR or open issues for me to fix. I intend to work on this as a hobby unless there is some interest in the community.
