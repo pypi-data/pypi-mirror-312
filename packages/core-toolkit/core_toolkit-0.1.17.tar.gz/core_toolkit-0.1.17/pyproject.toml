@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "core-toolkit"
+version = "0.1.17"
+description = ""
+authors = ["kras"]
+readme = "README.md"
+packages = [{include = "core_kit", from = "."}]
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = {extras = ["asyncio", "mypy"], version = "^2.0.36"}
+asyncpg = {extras = ["typed"], version = "^0.30.0"}
+pydantic-settings = "^2.6.1"
+pydantic = "^2.10.1"
+python-json-logger = "^2.0.7"
+grpcio = "^1.68.0"
+grpcio-reflection = "^1.68.0"
+grpcio-tools = "^1.68.0"
+protobuf = "^5.28.3"
+grpc-interceptor = "^0.15.4"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-asyncio = "^0.24.0"
+mypy = "^1.13.0"
+ruff = "^0.7.4"
+twine = "^5.1.1"
+mypy-protobuf = "^3.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry-exec-plugin.commands]
+test = "pytest -s -vv --capture=tee-sys" #FIXME add tests
+lint = """
+    poetry run ruff check --fix \
+    && poetry run ruff format \
+    && poetry run mypy .
+"""
+# for local development
+check = "ruff check --fix && ruff format ; mypy . && pytest -s -vv"
