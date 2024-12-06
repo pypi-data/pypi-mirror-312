@@ -1,0 +1,3 @@
+[console_scripts]
+repren=repren:main
+
