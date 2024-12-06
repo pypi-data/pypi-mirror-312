@@ -1,0 +1,7 @@
+setuptools-scm
+mkdocs
+mkdocs-jupyter
+notebook
+pymdown-extensions
+nbconvert
+git+https://github.com/tomchristie/mkautodoc.git#egg=mkautodoc
