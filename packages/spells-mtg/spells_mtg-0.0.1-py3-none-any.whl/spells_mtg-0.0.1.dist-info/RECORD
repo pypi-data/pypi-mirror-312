@@ -1,0 +1,15 @@
+spells/__init__.py,sha256=EcI7ijXYvPA8jj7wUZqs6CSWr__MD8AOXhkex-Hj37E,131
+spells/cache.py,sha256=9ij8nIoYlyGY0W-WcYHmWA9AT1jCYmRcXw23RDS7xSE,3005
+spells/cards.py,sha256=jbFaE25rFpsWMMhvE1fLWm_pPp2v2YK4IP898gm4GIc,3145
+spells/columns.py,sha256=BEYKDpZYkRgV1kBqIq6XC6kXvVjOih7jGthIpy-YVSw,23339
+spells/draft_data.py,sha256=xoGn6QGaAKgIInEzi2pnvk4CH5xNrwYq4mAj3r07GfA,9272
+spells/enums.py,sha256=Idpv17rCAHDF5bENU8I8V0rpL9W5KB2GM6lhrN4GunU,4447
+spells/external.py,sha256=FPvX-vbp31zRirH3z6PaV6TJC7CmHnxRh37gDyetnyc,10214
+spells/filter.py,sha256=J-YTOOAzOQpvIX29tviYL04RVoOUlfsbjBXoQBDCEdQ,3380
+spells/manifest.py,sha256=XEJwwYJzOEWrQQwka39F9SgZo38hH_Kj4MPY7GOuLvY,6903
+spells/schema.py,sha256=z8Qn2SiHG4T6YfPsz8xHLGMjU_Ofm76-Vrquh3b9B64,6422
+spells_mtg-0.0.1.dist-info/METADATA,sha256=SGeCLKLiawBQHxgvZRE9axbG3cvPZedJfU24Zg8rw0c,40918
+spells_mtg-0.0.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+spells_mtg-0.0.1.dist-info/entry_points.txt,sha256=a9Y1omdl9MdnKuIj3aOodgrp-zZII6OCdvqwgP6BFvI,63
+spells_mtg-0.0.1.dist-info/licenses/LICENSE,sha256=tS54XYbJSgmq5zuHhbsQGbNQLJPVgXqhF5nu2CSRMig,1068
+spells_mtg-0.0.1.dist-info/RECORD,,
