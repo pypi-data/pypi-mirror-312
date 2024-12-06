@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "zap_toolkit"
+version = "0.0.2"
+description = "Using ZAP API as tools in LLM-agentic systems"
+authors = ["Tomasz Salacinski <tomasz.salacinski@sedivio.com>"]
+readme = "README.md"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.7"
+pydantic = "^2.10.2"
+zaproxy = "^0.3.2"
+
+[tool.poetry.group.dev.dependencies]
+langgraph = "^0.2.45"
+python-dotenv = "^1.0.1"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.5"
+openai = "^1.35.13"
+langchain-openai = "^0.2.10"
+
