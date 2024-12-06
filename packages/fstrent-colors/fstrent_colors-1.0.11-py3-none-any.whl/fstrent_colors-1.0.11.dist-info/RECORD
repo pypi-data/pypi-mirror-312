@@ -1,0 +1,9 @@
+fstrent_colors/__init__.py,sha256=IHHsHBA-R8ZcwfSj1c7CIXBHYyp8APfXux8Fejc3LR4,126
+fstrent_colors/fstrent_colors.py,sha256=EgEJr5pMjNnEKhg_zFK4PMxRIM84ytsp1q3ecYUN72c,102504
+tests/__init__.py,sha256=b40_JMhQ0If_RYWO34WovDaiDaU6spuK7QEUBBYlKi4,100
+tests/test_fstrent_colors.py,sha256=DWtR7mNI-bnOtXYE9giX--8OV0KQKAR83kfy7FilwK8,10203
+fstrent_colors-1.0.11.dist-info/LICENSE,sha256=ml4hCS8kMFFCFSETLt4hRUptMUvXEzs82Thbg_HgFCM,1096
+fstrent_colors-1.0.11.dist-info/METADATA,sha256=iLKfCWS0nhDYICFN1bMikoigBd8X3MOk37q0G9LAJvY,4330
+fstrent_colors-1.0.11.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+fstrent_colors-1.0.11.dist-info/top_level.txt,sha256=v_eJsc5OaTt34cOtwGeL_jjNbUh6n8aWH78bEf895nI,21
+fstrent_colors-1.0.11.dist-info/RECORD,,
