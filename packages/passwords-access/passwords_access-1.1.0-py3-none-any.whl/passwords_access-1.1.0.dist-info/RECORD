@@ -1,0 +1,13 @@
+passwords_access/__init__.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+passwords_access/__main__.py,sha256=yb9c8u1J8bTWd3hAKziwyWYOhrLVd7TXjirdLxaiaPw,1585
+passwords_access/auth.py,sha256=Cd7PrkeZtGPNvbRuZZKfAZypigDZUIWPv4N5X65uOXY,4432
+passwords_access/caller.py,sha256=7AH_U5ehameIfNIpL_ypoe0L2iCq1xu4DKx7mSROTN8,1666
+passwords_access/config.py,sha256=SgtYD3ucW5GBOMxiG42w_A16c_JItRYIQpCqOp7T4lU,369
+passwords_access/py.typed,sha256=_B1ZXy5hKJZ2Zo3jWSXjqy1SO3rnLdZsUULnKGTplfc,72
+passwords_access/dataclasses/__init__.py,sha256=fjyb1KxbjdBl1OtrCXn8IzLShrvDd2jstrIApue63Zo,48
+passwords_access/dataclasses/caller_props.py,sha256=InF7pRGRCfXWRyhiPs6b70QXVWbT-zWe0ltX5wiVVOE,1650
+passwords_access-1.1.0.dist-info/METADATA,sha256=yoUJ8hCvxSbUkOYlJSueVGmjwYozUtZF679ixLGqtSk,2373
+passwords_access-1.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+passwords_access-1.1.0.dist-info/entry_points.txt,sha256=kua96VloFxguvdd_L0RzMus4n01AlMaW8hECDnjN9Es,61
+passwords_access-1.1.0.dist-info/licenses/LICENSE,sha256=0rxU00T4fDg_rCA_j1hwX4McuaOniQPgzbWD97NT004,1079
+passwords_access-1.1.0.dist-info/RECORD,,
