@@ -1,0 +1,10 @@
+aiolang/__init__.py,sha256=E2gG9obZL1mVsQObjiaWJa093HaglHXtx_4d3sxhAmk,73
+aiolang/exceptions.py,sha256=eQ8xouM1OXoAij7OMDx0FTCSA0jQa7pSmNhaYf9qlOw,401
+aiolang/google.py,sha256=A4ABkI9T5-Q_CdaiXjLECE_BQ9XjQtmWg9x_Tr1_J6k,2685
+aiolang/langs.py,sha256=Nkp0GHq9_DBdOJd7NEuBqrd4O89g7aJlf2rVHk5MKEg,3521
+aiolang/translate.py,sha256=-zxp2JeO_L3_EJOuUDmrsz7teUKP4s64leJm5sRK2TY,2402
+aiolang-0.0.1.dist-info/LICENSE,sha256=bIOiVKYxukp812i9PIZ9_LVrxwTQ8Jdh09XnbDTx65Y,1066
+aiolang-0.0.1.dist-info/METADATA,sha256=Rs6gNKRQYseMipNHG0EmSHfFcZXjr-ZsNBv_002BSDM,1815
+aiolang-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+aiolang-0.0.1.dist-info/top_level.txt,sha256=Mjq4S9_9A4pPkDL_tCtqxBBGmxLN1RPwR-PkgSPGdd0,8
+aiolang-0.0.1.dist-info/RECORD,,
