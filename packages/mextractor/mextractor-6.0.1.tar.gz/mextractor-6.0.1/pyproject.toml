@@ -1,0 +1,64 @@
+[tool.poetry]
+name = "mextractor"
+version = "6.0.1"
+description = "mextractor can extract media metadata to YAML and read them"
+readme = "README.md"
+repository = "https://github.com/caniko/media-metadata-extractor"
+homepage = "https://pypi.org/project/mextractor/"
+authors = ["Can H. Tartanoglu <canhtart@gmail.com>"]
+license = "BSD-4"
+keywords = ["metadata", "video", "image", "bigdata"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.scripts]
+mextractor = "mextractor.cli:cli_app"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.14"
+typer = { version = "<1", extras = ["all"] }
+
+"ruamel.yaml" = "*"
+numpy = "*"
+
+pydantic = "^2.0"
+pydantic-numpy = ">=7.0.0"
+
+opencv-python = "^4.6.0"
+ffmpeg-python = {version = "*", optional = true}
+
+[tool.poetry.extras]
+video-extract = ["ffmpeg-python"]
+video = ["ffmpeg-python"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+
+[tool.poetry.group.format.dependencies]
+black = "*"
+isort = "*"
+ruff = "*"
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.black]
+line-length = 120
+target-version = ["py312"]
+
+[tool.ruff]
+line-length = 120
+
+
+[tool.poetry.group.type_checking.dependencies]
+pyright = "*"
+
+[tool.pyright]
+include = ["mextractor/**", "tests/**"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
