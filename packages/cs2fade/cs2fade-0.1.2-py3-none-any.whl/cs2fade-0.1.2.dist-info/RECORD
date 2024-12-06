@@ -1,0 +1,10 @@
+cs2fade/AcidFadeCalculator.py,sha256=iOcUNvGrVn4O6nn75KeN4LYC7nWZ_Q6t2jjqgZ2IsGE,855
+cs2fade/AmberFadeCalculator.py,sha256=RMB8bk7kA60G1WMj-tP0NsNZdzF2camGJHgxpHklZt8,1059
+cs2fade/BaseCalculator.py,sha256=11H5RlEsq9-4oR1ZMohqDba479enkk_LCRsiihFEpXs,4235
+cs2fade/FadeCalculator.py,sha256=Mvt0WhP9neNn7zS3lXa9XAxfLXV6NTZkZJ8GJfQUQcs,2360
+cs2fade/RandomNumberGenerator.py,sha256=xnxZ-BIjgAws7FNbaEF-tJANMtSg6mYgDILMu6rOwo0,2675
+cs2fade/__init__.py,sha256=TMYW8Uub1hroV8RV86XhTnNytkd8eApMWJyx3wOGmeI,428
+cs2fade-0.1.2.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+cs2fade-0.1.2.dist-info/METADATA,sha256=Ix9vuu7U6YWKQMnIDHbJ_mP1tLi-eeFLUVIXoAp8fUo,2686
+cs2fade-0.1.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+cs2fade-0.1.2.dist-info/RECORD,,
