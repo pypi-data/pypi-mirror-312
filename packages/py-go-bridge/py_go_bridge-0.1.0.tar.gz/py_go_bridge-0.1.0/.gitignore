@@ -1,0 +1,16 @@
+captcha/
+__pycache__/
+*.pyc
+nouse/
+token.json
+.venv/
+*.xlsx
+*.xls
+logs/
+deploy/docker-compose/data/mysql/*
+.VSCodeCounter/
+.DS_Store
+download_checkpoint.json
+*.pkl
+*.json
+*.so

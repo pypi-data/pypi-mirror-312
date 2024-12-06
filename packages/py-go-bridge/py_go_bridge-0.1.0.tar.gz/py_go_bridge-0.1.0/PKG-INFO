@@ -1,0 +1,9 @@
+Metadata-Version: 2.3
+Name: py_go_bridge
+Version: 0.1.0
+Summary: py_go_bridge
+Author-email: hhczy <hhczy1003@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8

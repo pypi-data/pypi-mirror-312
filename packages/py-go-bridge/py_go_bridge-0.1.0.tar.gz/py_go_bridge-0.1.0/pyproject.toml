@@ -1,0 +1,16 @@
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project]
+name = "py_go_bridge"
+version = "0.1.0"
+description = "py_go_bridge"
+requires-python = ">=3.8"
+classifiers = [ "Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent",]
+[[project.authors]]
+name = "hhczy"
+email = "hhczy1003@gmail.com"
+
+[tool.hatch.build.targets.wheel]
+include = [ "pygo/**/*.py", "pygo/**/*.pyi", "README.md", "LICENSE",]
