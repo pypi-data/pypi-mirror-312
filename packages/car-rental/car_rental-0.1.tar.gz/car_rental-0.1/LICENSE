@@ -1,0 +1,48 @@
+
+### Explanation:
+- **# Car Rental**: The title of your project.
+- **Installation**: This tells users how to install your project. When they type `pip install car_rental`, PyPI will find your package and install it.
+- **Usage**: Provides an example of how to use your project in Python code.
+- **License**: It’s good practice to include your license (we’ll add the LICENSE file next).
+
+---
+
+### Step 4: Create `MANIFEST.in` (Include files in the package)
+This file tells PyPI what additional files to include when distributing your package (like `README.md`, `LICENSE`, etc.).
+
+Create a file called `MANIFEST.in` in the `car_rental` folder with the following content:
+
+
+### Explanation:
+- `README.md` and `LICENSE` should be included in the distribution.
+- `recursive-include car_rental *.py` ensures all Python files inside the `car_rental/` folder get included.
+
+---
+
+### Step 5: Create `LICENSE` (Optional but recommended)
+This file is where you specify the license for your project. Open-source projects usually use licenses like MIT, Apache, or GPL.
+
+For example, you can use the MIT License. Create a file called `LICENSE` in the `car_rental` folder with the following content:
+
+```text
+MIT License
+
+Copyright (c) 2024 Your Name
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
