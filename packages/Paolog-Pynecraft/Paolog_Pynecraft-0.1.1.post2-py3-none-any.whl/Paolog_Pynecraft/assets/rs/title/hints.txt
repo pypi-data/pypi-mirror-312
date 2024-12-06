@@ -1,0 +1,54 @@
+Python 3.10 Compatible !!!
+Also try Minecraft !!!
+Powered by Ursina Engine
+Crafted with Python
+Building the Future
+python3 -m pip install ursina
+Now with SplashScreen
+Made by Me (And ChatGPT)
+My first project !!!
+Created with Notepad++
+Developped with VSCode
+python3.10 -m Paolog_Pynecraft
+hint_text = random.choice(hint_lines)
+Don't move this window around
+Didn't killed King Orange's son
+https://r.mtdv.me/pynecraft_splash
+First version the 28/01/2023
+Created with ursina 4.1.1
+First coded on ZorinOS 16.1
+Based on a tutorial
+Tutorial approved
+Created on Gnome text editor
+Make blocks not war
+Destroy blocks and Skibidi toilets
+class Block(Button)
+Wait it's all ursina Buttons?
+May the blocks be with you
+You're a player, Harry
+I use arch btw...
+Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+
+Hi !!!
+The plane to Italy didn't crash
+Just09 is no longer a traitor
+Didn't make any spelling mistakes
+"Caca, Pipi, Prout" once a not sage man has said
+9-slicing texture now works, the best day of my life
+I ... am Rick
+The rarest block in Pynecraft history is the MS Block
+Pynecraft Java ... uh no ... Python edition
+\(^-^)/
+Don't play Pynecraft while driving in car !!!
+You'll never gonna give Pynecraft up
+Pressing Shift+Q will boost your performances up
+Will normally be on Mobile
+I made the new era of ursina !!!
+Type "dQw4w9" and press "I'm feeling lucky" on Google
+Using Pixelon font
+Night Time !!!
+Don't break your screen while raging on Pynecraft
+old_basic_wood_block is the Pynecraft MonoGame Logo
+Need to remove __pycache__ every time :,(
+Not in git because at the time I didn't how it existed
+Normally Pynecraft wouldn't be free
