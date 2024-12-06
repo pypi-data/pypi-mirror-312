@@ -1,0 +1,102 @@
+Metadata-Version: 2.3
+Name: starbridge
+Version: 0.1.1
+Summary: A MCP server project
+Project-URL: Homepage, https://github.com/helmut-hoffer-von-ankershoffen/starbridge
+Project-URL: Issues, https://github.com/helmut-hoffer-von-ankershoffen/starbridge/issues
+Author-email: Helmut Hoffer von Ankershoffen <helmuthva@googlemail.com>
+Requires-Python: >=3.11
+Requires-Dist: mcp>=1.0.0
+Requires-Dist: typer>=0.13.0
+Provides-Extra: dev
+Requires-Dist: cyclonedx-py>=1.0.1; extra == 'dev'
+Requires-Dist: nox>=2024.10.9; extra == 'dev'
+Requires-Dist: pip-audit>=2.7.3; extra == 'dev'
+Requires-Dist: pip-licenses>=5.0.0; extra == 'dev'
+Requires-Dist: pre-commit>=4.0.1; extra == 'dev'
+Requires-Dist: pyright>=1.1.389; extra == 'dev'
+Requires-Dist: pytest-asyncio>=0.24.0; extra == 'dev'
+Requires-Dist: pytest-cov>=6.0.0; extra == 'dev'
+Requires-Dist: pytest>=8.3.3; extra == 'dev'
+Requires-Dist: ruff>=0.3.0; extra == 'dev'
+Requires-Dist: tomli>=2.1.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# starbridge MCP server
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE.md)
+
+
+A MCP server project
+
+## Components
+
+### Resources
+
+The server implements a simple note storage system with:
+- Custom note:// URI scheme for accessing individual notes
+- Each note resource has a name, description and text/plain mimetype
+
+### Prompts
+
+The server provides a single prompt:
+- summarize-notes: Creates summaries of all stored notes
+  - Optional "style" argument to control detail level (brief/detailed)
+  - Generates prompt combining all current notes with style preference
+
+### Tools
+
+The server implements one tool:
+- add-note: Adds a new note to the server
+  - Takes "name" and "content" as required string arguments
+  - Updates server state and notifies clients of resource changes
+
+## Configuration
+
+[TODO: Add configuration details specific to your implementation]
+
+## Quickstart
+
+### Install
+
+#### Claude Desktop
+
+On MacOS: `~/Library/Application\ Support/Claude/claude_desktop_config.json`
+On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
+
+<details>
+  <summary>Development/Unpublished Servers Configuration</summary>
+  ```
+  "mcpServers": {
+    "starbridge": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/helmut/Code/starbridge",
+        "run",
+        "starbridge",
+        "serve"
+      ]
+    }
+  }
+  ```
+</details>
+
+<details>
+  <summary>Published Servers Configuration</summary>
+  ```
+  "mcpServers": {
+    "starbridge": {
+      "command": "uvx",
+      "args": [
+        "starbridge",
+        "serve"
+      ]
+    }
+  }
+  ```
+</details>
+
+## Contributing
+
+Please read our [Contributing Guidelines](CONTRIBUTING.md) for how to setup for development, and before making a pull request.
