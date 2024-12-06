@@ -1,0 +1,2 @@
+varphi_parsing_tools==0.0.3
+pygls==2.0.0a2
