@@ -1,0 +1,10 @@
+jxl9754_package/__init__.py,sha256=X640es2zYKRrg8mD2VKoa5WmSgqtG0TeRqFag1aqlPk,99
+jxl9754_package/module1.py,sha256=QSxVI_vDmS26m3wGiF28xa4glWGlTlGFvjN92TCiEQQ,86
+jxl9754_package/module2.py,sha256=XxH57yiehWv511q_XIXsRjmuVtNtfAHjuTgpJn37vEc,86
+mypackage/__init__.py,sha256=X640es2zYKRrg8mD2VKoa5WmSgqtG0TeRqFag1aqlPk,99
+mypackage/module1.py,sha256=QSxVI_vDmS26m3wGiF28xa4glWGlTlGFvjN92TCiEQQ,86
+mypackage/module2.py,sha256=XxH57yiehWv511q_XIXsRjmuVtNtfAHjuTgpJn37vEc,86
+jxl9754_package-0.1.dist-info/METADATA,sha256=cuoRmNEmJO4gUUot2TulHLgyKy2jUV5MLxwdEl206LY,181
+jxl9754_package-0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+jxl9754_package-0.1.dist-info/top_level.txt,sha256=JnNjhl2ODEkeDsnPqWuM_Mjl_eMOqPPwKEnkUGuMyhk,16
+jxl9754_package-0.1.dist-info/RECORD,,
