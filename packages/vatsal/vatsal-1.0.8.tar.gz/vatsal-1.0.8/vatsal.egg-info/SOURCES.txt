@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+vatsal/__init__.py
+vatsal/s3_operations.py
+vatsal/utils.py
+vatsal.egg-info/PKG-INFO
+vatsal.egg-info/SOURCES.txt
+vatsal.egg-info/dependency_links.txt
+vatsal.egg-info/top_level.txt
