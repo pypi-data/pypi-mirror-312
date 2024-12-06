@@ -1,0 +1,13 @@
+setuptools
+plone.base
+plone.portlets
+plone.app.portlets
+plone.app.textfield
+plone.app.z3cform
+plone.autoform
+plone.i18n
+Products.GenericSetup
+Zope
+
+[test]
+plone.app.testing
