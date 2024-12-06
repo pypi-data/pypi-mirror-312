@@ -1,0 +1,11 @@
+numpy>=1.0
+
+[:python_version < "3.9"]
+importlib_resources
+
+[sdist]
+numpy
+cython>=3.0
+
+[test]
+nose
