@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Annotatability
+Version: 0.0.5
+Summary: Interpreting single cell data using annotation-trainability analysis
+Home-page: https://github.com/nitzanlab/Annotatability
+Author: jonathankarin
+Author-email: jonathan.karin@mail.huji.ac.il
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scanpy
+Requires-Dist: numba
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: pytest
+Requires-Dist: torch
+
+Annotatability, a method to identify meaningful patterns in single-cell genomics data through annotation-trainability analysis, which estimates annotation congruence using a rich but often overlooked signal, namely the training dynamics of a deep neural network.

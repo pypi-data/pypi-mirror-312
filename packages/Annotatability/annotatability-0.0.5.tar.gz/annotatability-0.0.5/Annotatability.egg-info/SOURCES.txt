@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Annotatability/__init__.py
+Annotatability/metrics.py
+Annotatability/models.py
+Annotatability.egg-info/PKG-INFO
+Annotatability.egg-info/SOURCES.txt
+Annotatability.egg-info/dependency_links.txt
+Annotatability.egg-info/requires.txt
+Annotatability.egg-info/top_level.txt

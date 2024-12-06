@@ -1,0 +1,10 @@
+numpy
+scanpy
+numba
+pandas
+scikit-learn
+scipy
+seaborn
+matplotlib
+pytest
+torch
