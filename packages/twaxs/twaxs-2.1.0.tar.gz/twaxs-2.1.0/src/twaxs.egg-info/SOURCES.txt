@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/twaxs/__init__.py
+src/twaxs/auxiliary.py
+src/twaxs/dataset.py
+src/twaxs/plot.py
+src/twaxs.egg-info/PKG-INFO
+src/twaxs.egg-info/SOURCES.txt
+src/twaxs.egg-info/dependency_links.txt
+src/twaxs.egg-info/requires.txt
+src/twaxs.egg-info/top_level.txt
