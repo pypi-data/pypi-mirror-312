@@ -1,0 +1,27 @@
+[project]
+name = "hh-jira-mcp-server"
+version = "0.1.0"
+description = "A MCP server project"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+ "fastmcp>=0.3.3",
+ "jira>=3.8.0",
+ "keyring>=25.5.0",
+ "mcp>=1.0.0",
+]
+[[project.authors]]
+name = "Alexey Dubinin"
+email = "a.dubinin@hh.ru"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.389",
+]
+
+[project.scripts]
+hh-jira-mcp-server = "hh_jira_mcp_server:main"
