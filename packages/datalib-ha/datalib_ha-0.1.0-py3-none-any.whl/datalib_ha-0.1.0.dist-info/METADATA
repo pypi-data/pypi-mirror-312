@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: datalib-ha
+Version: 0.1.0
+Summary: A comprehensive data analysis library for Python
+Home-page: https://github.com/ahmedhamila/Datalib
+Author: Ahmed Hamila
+Author-email: csahmed17@gmail.com
+Keywords: data-analysis statistics machine-learning
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: matplotlib>=3.4.0
+Requires-Dist: seaborn>=0.11.0
+Requires-Dist: scikit-learn>=0.24.0
+Requires-Dist: scipy>=1.7.0
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+
+# DataLib: Python Data Analysis Library
+
+## Overview
+
+DataLib is a comprehensive Python library designed to simplify data manipulation, statistical analysis, visualization, and machine learning tasks. It provides an intuitive and powerful set of tools for data scientists, researchers, and analysts.
+
+## Features
+
+### Data Manipulation
+- CSV file loading and saving
+- Data filtering
+- Missing value handling
+- Data normalization
+
+### Statistical Analysis
+- Descriptive statistics
+- Correlation analysis
+- T-tests
+- Chi-square tests
+
+### Data Visualization
+- Bar plots
+- Histograms
+- Scatter plots
+- Correlation heatmaps
+
+### Advanced Analysis
+- Linear and Polynomial Regression
+- Classification Algorithms (KNN, Decision Trees)
+- Clustering (K-means)
+- Dimensionality Reduction (PCA)
+
+## Installation
+
+```bash
+pip install datalib
+```
+
+## Quick Examples
+
+### Data Manipulation
+```python
+from datalib.data_manipulation import DataManipulation
+
+# Load CSV
+df = DataManipulation.load_csv('data.csv')
+
+# Filter data
+filtered_df = DataManipulation.filter_data(df, {'age': lambda x: x > 25})
+```
+
+### Statistical Analysis
+```python
+from datalib.statistics import StatisticalAnalysis
+
+# Calculate descriptive stats
+stats = StatisticalAnalysis.descriptive_stats(df['column'])
+
+# Correlation matrix
+corr_matrix = StatisticalAnalysis.correlation(df)
+```
+
+### Visualization
+```python
+from datalib.visualization import DataVisualization
+
+# Create bar plot
+DataVisualization.bar_plot(df, 'category', 'value')
+
+# Scatter plot
+DataVisualization.scatter_plot(df, 'x_column', 'y_column')
+```
+
+## Contributing
+
+Contributions are welcome! Please check our GitHub repository for guidelines.
+
+## License
+
+This project is licensed under the MIT License.
