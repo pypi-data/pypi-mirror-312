@@ -1,0 +1,17 @@
+dispy/__init__.py,sha256=h-PxKqGs39v7rvci3vpeyOPj0e7or_PFLKunOf9LedY,13684
+dispy/data/__init__.py,sha256=8yuZzo4IJnuIsm-3KPPZwdkrHL2wNnnBR46ffoxOAUM,248
+dispy/data/errors.py,sha256=-7yWQon8ScGBzbArkZuketbFMxdrKH74CFmd0T6dO5o,683
+dispy/data/intents.py,sha256=21kK9lkqtyJo8cE6mzsN12PdRMqx7gEjNBZuBmLc_Jw,3448
+dispy/modules/__init__.py,sha256=Baz_aMqpnhy2OU_MuG3uR2UJoN9gA2l4QBTQg92nG54,467
+dispy/modules/error.py,sha256=RfJdrZ7K9V3DZe3N10EG1_mOMe7H-ODODFp13p8bLu4,1498
+dispy/modules/intents.py,sha256=GaD7ZSlP1VkqCThxH9qQBApZI8e8I7ke1AotnxsaA2I,945
+dispy/modules/rest_api.py,sha256=v4-DHvaW8c-wfeXz7x-PlUY_lgINZqu7g5OQzYfNiBc,5385
+dispy/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dispy/types/message.py,sha256=PLPt4qtMJHsQFKKIzrdMgoKW8cifrbzuDZkePGIvq6E,3916
+dispy/types/user.py,sha256=9YQ8CvQrkXSk5BCiAKw8ZMWyVFG7QF3vgPOMMq6bEaE,1318
+dispy/types/variable.py,sha256=-G2gh2VCpXy0HibSTZQlkyyb7x44o6fAIJr82xqei8A,857
+dispy_bot-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dispy_bot-0.1.0.dist-info/METADATA,sha256=ZPPUo9yNkPFqYNb2RZla_2htmuwEyezZltr-jWQAU_4,47003
+dispy_bot-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+dispy_bot-0.1.0.dist-info/top_level.txt,sha256=qxNirTXEUH1WbDuiU6DcFMXFjxyjsamOw4gqv1lVd4g,6
+dispy_bot-0.1.0.dist-info/RECORD,,
