@@ -1,0 +1,15 @@
+typing-extensions
+numpy
+
+[dev]
+build
+ruff>=0.1.2
+mypy
+pytest
+pytest-cov
+pytest-sugar
+twine
+uv
+
+[extra]
+rich
