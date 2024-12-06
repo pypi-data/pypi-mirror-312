@@ -1,0 +1,6 @@
+requests
+asyncio
+
+[telegram]
+python-telegram-bot
+telebot
