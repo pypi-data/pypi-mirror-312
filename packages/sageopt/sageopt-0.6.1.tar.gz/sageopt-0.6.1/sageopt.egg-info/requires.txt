@@ -1,0 +1,15 @@
+ecos>=2
+numpy>=1.14
+scipy>=1.1
+pytest
+
+[CVXPY]
+cvxpy
+
+[MOSEK]
+mosek
+
+[doc]
+sphinx
+sphinx.ext.autodoc
+sphinx.ext.napoleon
