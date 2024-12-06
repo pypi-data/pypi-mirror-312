@@ -1,0 +1,10 @@
+tree_sitter_twolc-1.0.0.dist-info/RECORD,,
+tree_sitter_twolc-1.0.0.dist-info/top_level.txt,sha256=r6pYNq1vRxBhEzPsEsJb_wGC0ClzSQPdOuG-X-m0A2g,27
+tree_sitter_twolc-1.0.0.dist-info/METADATA,sha256=_6DoKwg6nc0VmQis4jYZ6b5lq_YQLm7gALHC9V_rKmY,588
+tree_sitter_twolc-1.0.0.dist-info/WHEEL,sha256=M32NYhdQOlxGr-K6svdyFbsxb9WIS_QAvFT_PZK65U8,217
+tree_sitter_twolc/__init__.pyi,sha256=oixFm8lXsZZWYa5cRwj6brbqh37_fzN2rLE-dmX9_rA,247
+tree_sitter_twolc/_binding.abi3.so,sha256=kNNcH0NWFhHAD2zwDIE1kKjazN51sQ_9LCMlBwVcKgo,112472
+tree_sitter_twolc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_twolc/binding.c,sha256=bc6gu8Cjp94AmMq9wSEVDFpGrrf4OBGmDK5K-p6bk-M,681
+tree_sitter_twolc/__init__.py,sha256=ivBDAgmFf__ocMOWwbbujeM9uEDBDbyM0SosS3t0ggQ,1158
+tree_sitter_twolc/queries/highlights.scm,sha256=eyy9LHW0IvNb0H6Yp7LI-1rGa_BugKHRLOGk65hbjXM,908
