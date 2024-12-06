@@ -1,0 +1,11 @@
+kube_custom_resource/__init__.py,sha256=eDvjB5VbUBTsMk3KhdsQRg3xRgmHpxke6terIkQlF3I,96
+kube_custom_resource/custom_resource.py,sha256=f73KjOGrmcAkOoa_5jtBaYkxWj9hZMLybY2m_6W1CSY,8808
+kube_custom_resource/generate.py,sha256=dNUSZVWeTQeQ7Mtyv5j6EZjY_2Np8X2mb3gmQGjXF1c,1228
+kube_custom_resource/registry.py,sha256=3lQC8GvfB1DhEx7hntZg-wlj7Vc1LiD5-1MCy3dxYWM,6783
+kube_custom_resource/schema.py,sha256=d2APJEmWAp3WAWVoLcS5RzJmqqS0AwBgdNjAR_ZMG6s,14184
+kube_custom_resource-0.6.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kube_custom_resource-0.6.0.dist-info/METADATA,sha256=lXOSsF-M_0-Kig3vbh8yS4xacUS5kpCAbJacZy0RPjY,626
+kube_custom_resource-0.6.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+kube_custom_resource-0.6.0.dist-info/entry_points.txt,sha256=Ge8AiZPXmeMhz6AwN6orQvPnKCWdXOfjpZmwDC17cYM,68
+kube_custom_resource-0.6.0.dist-info/top_level.txt,sha256=JmONAN0hM1A7x5csWo7zd4vzY99QL_--lv_TmhHA59w,21
+kube_custom_resource-0.6.0.dist-info/RECORD,,
