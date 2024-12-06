@@ -1,0 +1,6 @@
+eth-abi<6,>=5
+eth-hash[pysha3]
+eth-utils
+flask<4,>=3
+pydantic<3,>=2
+requests<3,>=2
