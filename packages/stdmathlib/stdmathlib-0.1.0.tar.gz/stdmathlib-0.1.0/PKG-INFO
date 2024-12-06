@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: stdmathlib
+Version: 0.1.0
+Summary: A library to simplify mathematical computations.
+Author-email: Nicholas Brislane <nicholasbrislane1@gmail.com>
+Project-URL: Homepage, https://github.com/astrokepler/stdmathlib
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: sympy>=1.0
+
+# stdmathlib
+
+A Python library to simplify mathematical computations.
+
+## Installation
+
+```bash
+pip install stdmathlib
