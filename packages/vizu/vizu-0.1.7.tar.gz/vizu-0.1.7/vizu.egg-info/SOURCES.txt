@@ -1,0 +1,15 @@
+README.md
+setup.py
+vizer/control.py
+vizer/graph.py
+vizer/gui.py
+vizer/ids.py
+vizer/main.py
+vizer/utils.py
+vizer/workspace.py
+vizu.egg-info/PKG-INFO
+vizu.egg-info/SOURCES.txt
+vizu.egg-info/dependency_links.txt
+vizu.egg-info/entry_points.txt
+vizu.egg-info/requires.txt
+vizu.egg-info/top_level.txt
