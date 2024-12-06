@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "bierner.github-markdown-preview",
+    "davidanson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "ms-python.black-formatter",
+    "ms-python.debugpy",
+    "ms-python.isort",
+    "ms-python.pylint",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "njpwerner.autodocstring",
+    "streetsidesoftware.code-spell-checker",
+    "tamasfe.even-better-toml"
+  ]
+}

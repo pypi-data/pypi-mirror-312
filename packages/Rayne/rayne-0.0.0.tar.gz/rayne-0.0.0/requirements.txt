@@ -1,0 +1,5 @@
+# Requirements for building the documentation. Rayne dependencies are in
+# pyproject.toml.
+furo==2024.04.27
+sphinx-inline-tabs
+sphinx-copybutton
