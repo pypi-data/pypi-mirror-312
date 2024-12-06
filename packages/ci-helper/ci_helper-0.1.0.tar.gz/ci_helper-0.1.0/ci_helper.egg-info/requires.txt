@@ -1,0 +1,4 @@
+setuptools_scm
+importlib_metadata
+toml
+requests
