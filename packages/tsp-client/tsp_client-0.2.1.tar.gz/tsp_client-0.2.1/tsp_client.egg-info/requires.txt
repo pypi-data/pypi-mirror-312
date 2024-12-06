@@ -1,0 +1,10 @@
+asn1crypto>=1.4.0
+requests>=2.25.1
+pyOpenSSL<24,>=21.0.0
+
+[tests]
+ruff
+coverage
+build
+wheel
+mypy
