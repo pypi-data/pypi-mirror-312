@@ -1,0 +1,2 @@
+[flake8.report]
+scout = flake8_scout_rule:Flake8ScoutRuleFormatter

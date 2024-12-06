@@ -1,0 +1,10 @@
+flake8_scout_rule/__init__.py,sha256=avOz-oz00-tSgQC-48zQ7O9h3R1dT-dLZxAiZiZ2Mss,132
+flake8_scout_rule/flake8_scout_rule.py,sha256=-dWGTLi9KA4j3taFtqU07ZR5Y8mtwZea0aorapCpzvo,6469
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/flake8_scout_rule_test.py,sha256=aLBgOVVddmSTdjpzHhuB76CUKQH9C68J3nTsyQoigW0,5893
+flake8_scout_rule-1.0.0.dist-info/LICENSE,sha256=x9Me66mqqP2mAEWOv-2hujTFBNhiqG0l53MwEBdmmwc,1119
+flake8_scout_rule-1.0.0.dist-info/METADATA,sha256=ktoGZVQwdCFdKJEJXvR22MfQnFho23oEtiYxq1GRHfU,3833
+flake8_scout_rule-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+flake8_scout_rule-1.0.0.dist-info/entry_points.txt,sha256=rQG6AvU8YJJI6_7g3SLUTdku7I3t_K24MCi287zv6Ec,67
+flake8_scout_rule-1.0.0.dist-info/top_level.txt,sha256=2hIHHBaNkjOOQaKPJBay6fnPeC4vlxry-T3S-zwwyL8,24
+flake8_scout_rule-1.0.0.dist-info/RECORD,,
