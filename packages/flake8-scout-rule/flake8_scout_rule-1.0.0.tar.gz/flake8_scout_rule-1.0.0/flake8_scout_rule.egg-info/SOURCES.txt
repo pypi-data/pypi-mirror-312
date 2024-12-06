@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+flake8_scout_rule/__init__.py
+flake8_scout_rule/flake8_scout_rule.py
+flake8_scout_rule.egg-info/PKG-INFO
+flake8_scout_rule.egg-info/SOURCES.txt
+flake8_scout_rule.egg-info/dependency_links.txt
+flake8_scout_rule.egg-info/entry_points.txt
+flake8_scout_rule.egg-info/requires.txt
+flake8_scout_rule.egg-info/top_level.txt
+tests/__init__.py
+tests/flake8_scout_rule_test.py
