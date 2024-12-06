@@ -1,0 +1,26 @@
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "visualize_heapq"
+version = "0.0.1"
+authors = [
+    { name="Liu Zuo Lin", email="zlliu246@gmail.com" },
+]
+description = "A package that visualizes heapq heaps"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "print_btree"
+]
+
+[project.urls]
+Homepage = "https://github.com/zlliu246/visualize_heapq"
+Issues = "https://github.com/zlliu246/visualize_heapq/issues"
