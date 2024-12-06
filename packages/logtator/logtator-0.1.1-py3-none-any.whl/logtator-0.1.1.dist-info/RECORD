@@ -1,0 +1,11 @@
+logtator-0.1.1.dist-info/METADATA,sha256=fuaLpKEaR9kjHDOCaWperUhpZnuzXmaqjbNZZcCttO8,623
+logtator-0.1.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+logtator-0.1.1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+logtator/__init__.py,sha256=OcoSGyMn17wHoDFMtEul32w-AM-YArJK362nP_CiNRU,241
+logtator/_base.py,sha256=5P6gt7UzWN6ApAICwbBaWg30XUt2mthjeVfaSV8wpUI,2386
+logtator/_loggers.py,sha256=wPYrMTDjaAWs12eef5XWYSMdqSDMJ-WI_M9RGZDlB2Q,3943
+logtator/_settings.py,sha256=fDXEaRJSZGNoBWHZMBiqz5ewv1nM11wtN558l4TVYbw,276
+logtator/annotations.py,sha256=9HDdJ6W3s8Bl2gi67X8qqIP53O0oKZGRmUSF0P4-3gM,823
+logtator/encoders.py,sha256=O04vz5QmGOY-QJzfDWzpKsVSG8O1FXND3ZL1wxEMS-o,933
+logtator/formatters.py,sha256=YwfzCkxR4Fn1P1m-USnIi5W0AaIkqAe2hUVkYaRSzW8,2538
+logtator-0.1.1.dist-info/RECORD,,
