@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Bidmanger-pkg
+Version: 0.0.2
+Summary: A small example package
+Home-page: https://github.com/pypa/sampleproject
+Author: Rahul Shirsat
+Author-email: rahulshirsat9156@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+
+The bidding_manager.py library is a key component of the application that manages all bidding-related functionalities for the property management system. It provides seamless integration with AWS DynamoDB to handle essential operations such as placing bids, retrieving all bids for a property, determining the highest bid, and accepting bids for properties.
+
+Key Features:
+
+	•	Placing Bids: Ensures buyers can place valid bids that are higher than the current highest bid for a property.
+	•	Fetching Bids: Retrieves all bids associated with a property and sorts them in descending order based on bid amount.
+	•	Determining the Highest Bid: Quickly identifies the highest bid placed on a property for validation and display purposes.
+	•	Accepting Bids: Allows sellers to accept a specific bid, marking the bid as “accepted” and updating the associated property’s status to “sold.”
+	•	Efficient Data Handling: Utilizes DynamoDB to store and query bid and property data efficiently, ensuring scalability and reliability.
+

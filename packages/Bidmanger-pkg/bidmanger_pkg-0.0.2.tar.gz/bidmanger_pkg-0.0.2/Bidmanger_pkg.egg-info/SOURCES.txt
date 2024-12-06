@@ -1,0 +1,9 @@
+README.md
+setup.py
+Bidmanger_pkg.egg-info/PKG-INFO
+Bidmanger_pkg.egg-info/SOURCES.txt
+Bidmanger_pkg.egg-info/dependency_links.txt
+Bidmanger_pkg.egg-info/requires.txt
+Bidmanger_pkg.egg-info/top_level.txt
+bidding_properties_pkg/__init__.py
+bidding_properties_pkg/bidding_properties.py
