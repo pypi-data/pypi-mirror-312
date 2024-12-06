@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: python-main
+Version: 1.0.3
+Summary: Decorator which runs the tagged function if the current module is being run as a script. No more `if __name__ == "__main__"` madness.
+Home-page: https://github.com/flipbit03/main
+License: BSD
+Author: Cadu
+Author-email: cadu.coelho@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# @main
+
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/python-main)](https://pypi.org/project/python-main/)
+[![PyPI - Version](https://img.shields.io/pypi/v/python-main)](https://pypi.org/project/python-main/)
+
+
+`@main` decorator which runs the tagged function if the current module is being executed as a script.
+
+No more `if __name__ == "__main__":` all over the place.
+
+That's it!
+
+### Installation
+
+```bash
+pip install python-main # or
+poetry add python-main # ...
+```
+
+### Usage
+
+```python
+from python_main import main
+
+A = 10
+B = 20
+
+
+@main
+def do_print():
+    """This will run if this module is executed."""
+    print(A + B)
+```
+
