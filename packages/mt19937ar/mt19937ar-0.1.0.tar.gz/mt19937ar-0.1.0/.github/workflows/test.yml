@@ -1,0 +1,42 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+          cache: 'pipenv'
+
+      - name: Install pipenv
+        run: |
+          pip install --upgrade pip
+          pip install pipenv
+
+      - name: Install dependencies
+        run: pipenv install --dev
+
+      - name: Run test
+        run: pipenv run test
+
+      - name: Run typecheck
+        run: pipenv run typecheck
+
+      - name: Run lint
+        run: pipenv run lint
+
+      - name: Run format
+        run: pipenv run format --diff
