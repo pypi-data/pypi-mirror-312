@@ -1,0 +1,14 @@
+click>=8.0.0
+torch>=2.0.0
+torchvision
+onnxruntime
+PyYAML
+opencv-python
+Pillow
+pycocotools
+tensorboard
+faster_coco_eval
+calflops
+transformers
+scipy
+wandb
