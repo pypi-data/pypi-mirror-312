@@ -1,0 +1,13 @@
+Mensajes_adriabarrabajas-5.0.data/scripts/test.py,sha256=kmMRJPFZAs9C8LGRPXjvNBdP0KZgJqwzNrTBBAje3Ws,519
+mensajes/__init__.py,sha256=-8H5W0Sre1mNWvNSdpdOYRdi5LSaVou3nOvKVscdAa8,37
+mensajes/adios/__init__.py,sha256=Vx5y-gnL_hUYdZJIb8pQLt6byGFyO6KjJms4xK9QLOQ,46
+mensajes/adios/despedidas.py,sha256=Zd_MTsAQZzmswGylJPgRMdxICKqxL3eUFBpiHImumkA,299
+mensajes/hola/__init__.py,sha256=3XQIgStjjAkG5Gcap8VHMbJADF5ElVCicEE73WIHsr8,45
+mensajes/hola/saludos.py,sha256=n0dBBfnHJDFhBr027q2Se2V7OjLlLJlt8-mYFoUb-kY,1115
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hola.py,sha256=TzsqwO6BsqC2Rc5BLE4ZqmUSCSkq4ZAsDgBzL47yjsk,752
+Mensajes_adriabarrabajas-5.0.dist-info/LICENSE,sha256=2pqxaNClqKnXHOiFjk-QUmEwO0YrZZJAKJvGqKMefEg,1097
+Mensajes_adriabarrabajas-5.0.dist-info/METADATA,sha256=9Mb_jG__k6dJJxlNaoGlWEIcWzPfU8JiwaVWThs4WrY,748
+Mensajes_adriabarrabajas-5.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+Mensajes_adriabarrabajas-5.0.dist-info/top_level.txt,sha256=gD40JdIxiaPRvMl4iCu3Edq1ctVrOdqjON-Ms9kPSQk,15
+Mensajes_adriabarrabajas-5.0.dist-info/RECORD,,
