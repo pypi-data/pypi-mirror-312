@@ -1,0 +1,119 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "SPDX SBOM Schema",
+    "type": "object",
+    "required": ["spdxVersion", "dataLicense", "name", "documentNamespace", "creationInfo", "packages"],
+    "properties": {
+        "spdxVersion": {
+            "type": "string",
+            "description": "The version of the SPDX specification used."
+        },
+        "dataLicense": {
+            "type": "string",
+            "description": "The license under which this SPDX file is made available."
+        },
+        "name": {
+            "type": "string",
+            "description": "Name of the SPDX document."
+        },
+        "documentNamespace": {
+            "type": "string",
+            "description": "A unique namespace for the SPDX document."
+        },
+        "creationInfo": {
+            "type": "object",
+            "required": ["created", "creators"],
+            "properties": {
+                "created": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "The time at which the SPDX file was created."
+                },
+                "creators": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "pattern": "^Tool:.*"
+                    },
+                    "description": "The creators of the SPDX document."
+                }
+            }
+        },
+        "packages": {
+            "type": "array",
+            "description": "List of packages described in the SPDX document.",
+            "items": {
+                "type": "object",
+                "required": ["name", "licenseDeclared"],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "Name of the package."
+                    },
+                    "purl": {
+                        "type": "string",
+                        "description": "Package URL (PURL) identifying the component."
+                    },
+                    "externalRefs": {
+                        "type": "array",
+                        "description": "List of external references for the package.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "referenceType": {
+                                    "type": "string",
+                                    "description": "Type of external reference."
+                                },
+                                "referenceLocator": {
+                                    "type": "string",
+                                    "description": "Locator for the external reference."
+                                }
+                            },
+                            "required": ["referenceType", "referenceLocator"]
+                        }
+                    },
+                    "licenseDeclared": {
+                        "type": "string",
+                        "description": "License declared for the package."
+                    },
+                    "licenseConcluded": {
+                        "type": "string",
+                        "description": "License concluded after analysis."
+                    },
+                    "versionInfo": {
+                        "type": "string",
+                        "description": "Version of the package."
+                    },
+                    "downloadLocation": {
+                        "type": "string",
+                        "description": "URL to download the package."
+                    },
+                    "filesAnalyzed": {
+                        "type": "boolean",
+                        "description": "Whether file-level analysis was performed."
+                    }
+                },
+                "oneOf": [
+                    { "required": ["purl"] },
+                    {
+                        "required": ["externalRefs"],
+                        "properties": {
+                            "externalRefs": {
+                                "items": {
+                                    "anyOf": [
+                                        {
+                                            "properties": {
+                                                "referenceType": { "const": "purl" }
+                                            },
+                                            "required": ["referenceType", "referenceLocator"]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
