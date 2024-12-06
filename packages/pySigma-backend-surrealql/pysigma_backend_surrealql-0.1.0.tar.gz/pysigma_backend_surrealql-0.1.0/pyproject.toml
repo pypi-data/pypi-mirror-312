@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "pySigma-backend-surrealql"
+version = "0.1.0"
+description = "pySigma surrealql backend"
+readme = "README.md"
+authors = ["obviouslynotraffa"]
+license = "LGPL-3.0-only"
+repository = "https://github.com/obviouslynotraffa/pySigma-backend-surrealql"
+packages = [
+    { include = "sigma" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pysigma = "^0.11"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1"
+pytest = "^8.0"
+pytest-cov = "^4.1"
+coverage = "^7.4"
+
+
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = []
+
+[tool.pdm.build]
+includes = ["sigma"]
+[build-system]
+requires = ["poetry-core>=1.8.1"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+authors = [
+    {name = "obviouslynotraffa", email = ""},
+]
+license = {text = "LGPL-3.0-only"}
+requires-python = ">=3.8,<4.0"
+dependencies = [
+    "pysigma>=0.11",
+]
+name = "pySigma-backend-surrealql"
+version = "0.1.0"
+description = "pySigma surrealql backend"
+
+[project.urls]
+repository = "https://github.com/obviouslynotraffa/pySigma-backend-surrealql"
+
+[project.group.dev.dependencies]
+pytest = "^8.0"
+pytest-cov = "^4.1"
+coverage = "^7.4"
