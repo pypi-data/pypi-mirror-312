@@ -1,0 +1,2 @@
+WkLog
+pymysql

@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: WkDB
+Version: 0.1.0
+Summary: WkDB对pymysql和sqlite3进行了封装，提供常用的增删改查操作，简化操作。
+Home-page: https://gitee.com/purify_wang/wk-db.git
+Author: WANGKANG
+Author-email: 1686617586@qq.com
+License: GPL-2.0
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: WkLog
+Requires-Dist: pymysql
+
+# WkDB 使用说明
+
+## 简介
+`WkDB` 是一个封装好的 SQLite 数据库操作类，旨在简化 SQLite 数据库的常见操作，如连接数据库、创建表、插入数据、查询数据、删除数据等。该类支持线程安全，易于使用，并提供了详细的日志记录。
+
+## 特性
+- **易于使用**: 通过简单的方法调用即可完成复杂的数据库操作。
+- **线程安全**: 使用锁机制，确保在多线程环境下的安全访问。
+- **连接管理**: 自动管理数据库连接，定期检查连接状态，以确保连接有效。
+- **日志记录**: 记录操作过程中的重要信息，以便于调试和错误追踪。
+
+## 安装
+```python
+pip install WkDB。
+```
+
+## 导入
+```python
+from WkDB import WkDB
+```
+
+## 使用示例
+
+```python
+# 创建数据库连接
+db = WkDB("example.db")
+
+# 设置表名
+db.set_table("test_table")
+
+# 创建表
+columns = {
+    "id": "INTEGER PRIMARY KEY AUTOINCREMENT",
+    "name": "VARCHAR(255)",
+    "age": "INTEGER"
+}
+db.create_table(columns)
+
+# 插入数据
+db.insert_row({"name": "Alice", "age": 30})
+
+# 查询列名
+column_names = db.get_column_names()
+print(f"Columns in the table: {column_names}")
+
+# 检查数据是否存在
+exists = db.exists({"name": "Alice"})
+print(f"Does Alice exist? {exists}")
+
+# 删除表
+db.delete_table()
+
+# 关闭数据库连接
+db.close()
+```
+
+## 方法说明
+
+### `__init__(database, time_interval=60, **kwargs)`
+- **database**: 数据库文件路径。
+- **time_interval**: 连接检查时间间隔（秒），默认为 60 秒。
+
+### `set_table(table)`
+- 设置当前操作的表名。
+
+### `create_table(obj: dict, delete_if_exists=False)`
+- 创建数据库表。如果 `delete_if_exists` 为 `True`，将删除现有表后重新创建。
+
+### `insert_row(*args, **kwargs)`
+- 向表中插入一行数据。
+
+### `get_column_names()`
+- 获取当前表的列名。
+
+### `exists(*args, **kwargs)`
+- 检查符合条件的数据是否存在。
+
+### `delete_table()`
+- 删除当前表。
+
+### `close()`
+- 手动关闭数据库连接。
+
+## 日志
+日志将通过 `WkLog` 类记录操作状态，可以根据需要进行扩展和配置。
+
+## 注意事项
+- 请确保在使用 `WkDB` 类时，提供的表名不包含危险字符或保留关键字。
+- 在多线程环境下，请谨慎设置线程锁，以避免出现竞争条件。
+
+## 许可证
+本项目遵循相关开源协议，使用时请遵守相应的许可条款。
+
+---
+
+如需更多帮助或反馈，请联系作者：[WANGKANG](mailto:1686617586@qq.com)。
