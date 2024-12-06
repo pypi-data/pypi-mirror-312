@@ -1,0 +1,42 @@
+Metadata-Version: 2.3
+Name: solair
+Version: 0.0.1a0.dev0
+Summary: Analysis of solar modules from aerial infrared images of large solar power plants
+Project-URL: Documentation, https://github.com/Sergiu Deitsch/solair#readme
+Project-URL: Issues, https://github.com/Sergiu Deitsch/solair/issues
+Project-URL: Source, https://github.com/Sergiu Deitsch/solair
+Author-email: Sergiu Deitsch <sergiu.deitsch@gmail.com>
+License: Apache-2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# solair
+
+[![PyPI - Version](https://img.shields.io/pypi/v/solair.svg)](https://pypi.org/project/solair)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/solair.svg)](https://pypi.org/project/solair)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install solair
+```
+
+## License
+
+`solair` is distributed under the terms of the [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) license.
