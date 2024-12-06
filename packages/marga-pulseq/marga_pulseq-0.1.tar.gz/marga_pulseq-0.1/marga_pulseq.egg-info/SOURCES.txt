@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+marga_pulseq/__init__.py
+marga_pulseq/interpreter.py
+marga_pulseq.egg-info/PKG-INFO
+marga_pulseq.egg-info/SOURCES.txt
+marga_pulseq.egg-info/dependency_links.txt
+marga_pulseq.egg-info/top_level.txt
