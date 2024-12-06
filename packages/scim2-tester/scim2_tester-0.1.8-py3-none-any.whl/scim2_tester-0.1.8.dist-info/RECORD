@@ -1,0 +1,11 @@
+scim2_tester/__init__.py,sha256=FUQae_gYWzeBeUKNNxRWOT1J3qvKEsSuJmU6QNiyXwE,244
+scim2_tester/checker.py,sha256=azA_QZPwLXTAcoC502NcdTdSnVrtYwk5ukrp6jCYqeE,3893
+scim2_tester/resource.py,sha256=GSmzjTGaVFth7Mi_Ffg7guXMxXls6RfqWavLmeqpbcM,5662
+scim2_tester/resource_types.py,sha256=nDP1hN0fCOlb0nsu4XoHN8HuZ4IOdv5MxSJRSVbO-Vc,1042
+scim2_tester/schemas.py,sha256=eotI3V_SBAw-rAF4X97_Ag9leauJZU_Um-Nf1bAifPs,1106
+scim2_tester/service_provider_config.py,sha256=gB7HgdAAiPWzQoRJjxmUVv6dgzY-EdyNycVerlNN6kE,667
+scim2_tester/utils.py,sha256=wX6yQfg7J_oe6MV6NQz-rSyQwmBJE6S38gnhFxNtSq0,2330
+scim2_tester-0.1.8.dist-info/METADATA,sha256=QqWGUIX7ZcImIehDG_ZqL3roi77kjNgLTm-mVvuq4Ow,15715
+scim2_tester-0.1.8.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+scim2_tester-0.1.8.dist-info/licenses/LICENSE.md,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scim2_tester-0.1.8.dist-info/RECORD,,
