@@ -1,0 +1,2 @@
+[console_scripts]
+rsstools = rsstools.cli:main
