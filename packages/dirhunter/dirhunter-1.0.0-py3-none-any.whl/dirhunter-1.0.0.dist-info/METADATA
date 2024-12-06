@@ -1,0 +1,166 @@
+Metadata-Version: 2.1
+Name: dirhunter
+Version: 1.0.0
+Summary: A powerful directory scanning and hunting tool
+Home-page: https://github.com/ByteBreach/dirhunter
+Author: MrFidal
+Author-email: mrfidal@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: colorama
+Requires-Dist: click
+
+# DirHunter 🕵️‍♀️
+
+DirHunter is a powerful, flexible directory scanning tool for web application security reconnaissance.
+
+## 🚀 Features
+
+- Fast concurrent directory scanning
+- Customizable live printing
+- Advanced filtering
+- CLI and programmatic usage
+- Detailed scanning results
+- Supports various output formats
+
+## 🛠 Installation
+
+```bash
+pip install dirhunter
+```
+
+## 💻 Usage
+
+### Command Line Interface
+
+```bash
+dirhunter --url https://example.com --file wordlist.txt
+```
+
+Advanced scanning options :
+
+```bash
+dirhunter --url https://example.com --file wordlist.txt --workers 20 --verbose
+```
+
+### Programmatic Usage
+
+#### 1. Basic Scanning
+
+```python
+from dirhunter import DirHunter
+
+# Simple directory scanning
+hunter = DirHunter('https://example.com')
+directories = ['admin', 'login', 'dashboard']
+results = hunter.scan_directories(directories)
+
+# Print found directories
+print("Found Directories:", hunter.found_directories)
+```
+
+#### 2. Live Printing
+
+```python
+from dirhunter import DirHunter
+from colorama import Fore, Style
+
+def custom_live_print(result):
+    status_color = (
+        Fore.GREEN if result['exists'] else 
+        Fore.YELLOW if result.get('status_code') == 'Timeout' else 
+        Fore.RED
+    )
+    
+    print(f"{status_color}Checking: {result['url']} "
+           f"[Status: {result['status_code']}]{Style.RESET_ALL}")
+
+hunter = DirHunter('https://example.com').set_live_print(custom_live_print)
+hunter.scan_directories(['admin', 'login', 'dashboard'])
+```
+
+#### 3. Advanced Scanning with Filtering
+
+```python
+from dirhunter import DirHunter
+from dirhunter.utils import load_wordlist, filter_directories
+
+# Load directories from a wordlist
+directories = load_wordlist('large_wordlist.txt')
+
+# Create hunter with custom configuration
+hunter = DirHunter(
+    'https://example.com', 
+    max_workers=20,  # Increase concurrency
+    timeout=3        # Adjust request timeout
+)
+
+# Scan and filter results
+results = hunter.scan_directories(directories)
+interesting_dirs = filter_directories(
+    results, 
+    status_codes=[200, 403, 301]  # Custom status code filtering
+)
+
+print("Interesting Directories:", interesting_dirs)
+```
+
+#### 4. Custom Result Processing
+
+```python
+from dirhunter import DirHunter
+
+class AdvancedScanner:
+    def __init__(self, base_url):
+        self.hunter = DirHunter(base_url)
+        self.results = []
+
+    def scan(self, directories):
+        def live_handler(result):
+            if result['exists'] or result['status_code'] == 403:
+                print(f"Potential Target: {result['url']}")
+            self.results.append(result)
+
+        self.hunter.set_live_print(live_handler)
+        return self.hunter.scan_directories(directories)
+
+    def get_summary(self):
+        return {
+            'total_scanned': len(self.results),
+            'found_directories': [r['url'] for r in self.results if r['exists']]
+        }
+
+scanner = AdvancedScanner('https://example.com')
+scanner.scan(['admin', 'login', 'dashboard'])
+print(scanner.get_summary())
+```
+
+## 🔧 Configuration Options
+
+- `base_url`: Target website URL
+- `max_workers`: Number of concurrent scanning threads
+- `timeout`: Request timeout in seconds
+
+
+## 🛡 Security Considerations
+
+- Always get permission before scanning websites
+- Respect `robots.txt` and website terms of service
+- Use responsibly and ethically
+
+
+## 📝 License
+
+MIT License
+
+## 🐛 Reporting Issues
+
+Report issues on the GitHub repository issues page.
+
+## 🌟 Star the Project
+
+If you find DirHunter useful, please give us a star on GitHub!

@@ -1,0 +1,2 @@
+[console_scripts]
+dirhunter = dirhunter.cli:main
