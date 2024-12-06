@@ -1,0 +1,7 @@
+architectures:
+  - name: 'RobertaForSequenceClassification'
+  - name: 'BertForSequenceClassification'
+  - name: 'DistilBertForSequenceClassification'
+  - name: 'AlbertForSequenceClassification'
+  - name: 'XLMRobertaForSequenceClassification'
+  - name: 'XLMForSequenceClassification'
