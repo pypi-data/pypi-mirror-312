@@ -1,0 +1,9 @@
+README.md
+setup.py
+apache_airflow_providers_edge/__init__.py
+apache_airflow_providers_edge/telemetry.py
+apache_airflow_providers_edge.egg-info/PKG-INFO
+apache_airflow_providers_edge.egg-info/SOURCES.txt
+apache_airflow_providers_edge.egg-info/dependency_links.txt
+apache_airflow_providers_edge.egg-info/requires.txt
+apache_airflow_providers_edge.egg-info/top_level.txt
