@@ -1,0 +1,9 @@
+latisse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+latisse/cli.py,sha256=rnyvvnoN5YnXmeHqo7jth-oAgbZwRPwuGQYi_NSbUyw,534
+latisse/config.py,sha256=39a4q7Zdr7utLwu6use6pI2FIa0k-5nMfKWQ7_4An1s,479
+latisse/hooks.py,sha256=auxcMTIKZQCJsFJujWsiwL2A41eLs6wiTTgUbpzhjFg,158
+latisse/main.py,sha256=4CS5km-8zO-H3QRDxxcOWuYaJM_ODH3iOng50CFkODw,5396
+latisse-0.1.0.dist-info/METADATA,sha256=1irUqijgYrXvVuImriG5d3oL48TxihWRF7V1_ZiO-wU,1379
+latisse-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+latisse-0.1.0.dist-info/entry_points.txt,sha256=ttDK-XZgqLboMWWvd6jvo_hPsxVZtnpbzsT1-S07hHU,45
+latisse-0.1.0.dist-info/RECORD,,
