@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: audio-segmenter
+Version: 0.1.2
+Summary: Advanced Audio Segmentation Tool
+Author: Emirhan Kuru
+Author-email: 1emirhankuru@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Requires-Dist: pydub
+Requires-Dist: numpy
+
