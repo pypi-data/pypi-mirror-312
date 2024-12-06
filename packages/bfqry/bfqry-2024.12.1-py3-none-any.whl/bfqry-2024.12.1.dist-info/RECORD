@@ -1,0 +1,12 @@
+bfqry/__about__.py,sha256=Y-8j8A1D5ZAy71tdCI9D5zizFtctNP4V6DOaWxNbsNA,127
+bfqry/__init__.py,sha256=5NCTG_STdy5BuVoLUfnRw9n0_YkzMSeDbaiAkKI3tNM,100
+bfqry/__main__.py,sha256=hpzP2OGsyrefWPbU0peHeoeCB2Zi4a70SvwKO8LAySc,194
+bfqry/cli/__init__.py,sha256=bCuyDfqEdDPLh3bfBUD0vgXbnckwGOkOxCAdPCzBA8M,45332
+bfqry/cli/common.py,sha256=VJLWY5SA8BxlTEvUQ2jwU7zf3A5a-yByGJnmoNk0Y4A,686
+bfqry/cli/parser.py,sha256=o-_QMUKb6EqjmuLM1uVwkn9DUVdteyEC9xrLrjL9kmA,6523
+bfqry/cli/util.py,sha256=2vCUvOgtiASk-f5VdU6EZUX9ZR80IAsl2dwC9ROxYkE,4350
+bfqry-2024.12.1.dist-info/METADATA,sha256=Acb6xKz0AzyK6w1nfONEUG41Ij82WWlyunMHCLKlmTk,1727
+bfqry-2024.12.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+bfqry-2024.12.1.dist-info/entry_points.txt,sha256=YIDZUUV0hMdY8ltqKnAMp9kmAlD9JSLs7zryMci4ZZE,41
+bfqry-2024.12.1.dist-info/licenses/LICENSE,sha256=yQWUkudMWlofap7a3rNrpTAG9D-L7XGDBQLJiCkbY6w,1064
+bfqry-2024.12.1.dist-info/RECORD,,

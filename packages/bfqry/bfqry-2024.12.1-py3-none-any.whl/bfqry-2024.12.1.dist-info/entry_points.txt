@@ -1,0 +1,2 @@
+[console_scripts]
+bfqry = bfqry.cli:main
