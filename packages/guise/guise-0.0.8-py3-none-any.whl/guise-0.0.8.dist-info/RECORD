@@ -1,0 +1,13 @@
+guise/__init__.py,sha256=y4Zjjrhya0yTdLGVrFqdZ3fa9tSU1IknlRqYKlAak_w,787
+guise/nlp.py,sha256=4fHFcULB_sjP-XQs9kAqfR5dUswhV_c0c7fw5g3dNY8,13217
+guise/tools.py,sha256=lQR4GdU0f75zgTLFJdt77Q6gxvUp_4dPB7zirOpeWf8,1628
+guise/util.py,sha256=7Bo7sZmvyU6uX7Yn_R5BrEoI-PNRS2kM-M-CZK-alBM,4875
+guise/word_clouds.py,sha256=YucsSF5pwbKAblK9x-uKaF9ufIvuY_qIbnkKRAGgiOI,7793
+guise/word_scoring.py,sha256=5G70635jdAzDIgksMlCV8P9TiHFfWTybILFblnN2W9U,1790
+guise/examples/__init__.py,sha256=sNVWgj740topDo9HgyCKhMqBhm_wsbsxq1cX9xr9N9M,14
+guise/examples/energy_startups/__init__.py,sha256=qLplqQIPqlTC8J93Tfc3X8zwp-PLrFVA5euiA4jOWiI,1984
+guise-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+guise-0.0.8.dist-info/METADATA,sha256=w7ne3SNh5VSFTIXoN57fmkBmQnsEcoP0xkbVF2mNFbg,14864
+guise-0.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+guise-0.0.8.dist-info/top_level.txt,sha256=eOUTRWqyfv8A5JFcS12IL4QIsd4xDSvwvvj8Oo7KlfI,6
+guise-0.0.8.dist-info/RECORD,,
