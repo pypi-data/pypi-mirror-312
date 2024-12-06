@@ -1,0 +1,14 @@
+#   -------------------------------------------------------------
+#   Platform checks
+#   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#   Project:        Nasqueron
+#   License:        BSD-2-Clause
+#   -------------------------------------------------------------
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+
+build-backend = "setuptools.build_meta"
