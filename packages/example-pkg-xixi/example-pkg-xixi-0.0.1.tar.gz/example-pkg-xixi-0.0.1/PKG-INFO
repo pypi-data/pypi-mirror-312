@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: example-pkg-xixi
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/pypa/sampleproject
+Author: xixi
+Author-email: xixi@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: requests
+
+# ZQY Package 1
+
+This is a simple example package.
+开源课练习上传python包用:第一个包含其他包依赖的安装包。

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+example_pkg_xixi.egg-info/PKG-INFO
+example_pkg_xixi.egg-info/SOURCES.txt
+example_pkg_xixi.egg-info/dependency_links.txt
+example_pkg_xixi.egg-info/requires.txt
+example_pkg_xixi.egg-info/top_level.txt
