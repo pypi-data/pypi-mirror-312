@@ -1,0 +1,7 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+fast_target_price.egg-info/PKG-INFO
+fast_target_price.egg-info/SOURCES.txt
+fast_target_price.egg-info/dependency_links.txt
+fast_target_price.egg-info/top_level.txt
