@@ -1,0 +1,2 @@
+include src/faz/bot/dev/test/dataset/*
+include src/faz/bot/dev/scripts/*
