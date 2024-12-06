@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/ailitelllm/__init__.py
+src/ailitelllm/main.py
+src/ailitellm.egg-info/PKG-INFO
+src/ailitellm.egg-info/SOURCES.txt
+src/ailitellm.egg-info/dependency_links.txt
+src/ailitellm.egg-info/requires.txt
+src/ailitellm.egg-info/top_level.txt
