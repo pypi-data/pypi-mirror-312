@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: easy-http-requests
+Version: 0.0.1
+Summary: 
+Author: UltraViolet33
+Author-email: 93035200+UltraViolet33@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+## Easy HTTP Requests
