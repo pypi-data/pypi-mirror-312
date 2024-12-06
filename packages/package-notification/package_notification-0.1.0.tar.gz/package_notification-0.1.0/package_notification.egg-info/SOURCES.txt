@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+package_notification/__init__.py
+package_notification/notifications.py
+package_notification.egg-info/PKG-INFO
+package_notification.egg-info/SOURCES.txt
+package_notification.egg-info/dependency_links.txt
+package_notification.egg-info/requires.txt
+package_notification.egg-info/top_level.txt
