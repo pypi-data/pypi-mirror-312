@@ -1,0 +1,8 @@
+alphabet_sorter/__init__.py,sha256=oqvS-ouRMdi-nSzKYtATm1fwc0ilyz6-3THIvCusFZ4,84
+alphabet_sorter/sorting.py,sha256=YpX8w_mK3AGj7La4rgwbRTLpRMB1Er_Ds9HiK_FcOSM,425
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_sorting.py,sha256=uPYuSzdVS7QBDH0up2QN-82d6bnwBRH65gSmSJENVmY,190
+ascending_sort-0.2.dist-info/METADATA,sha256=WdlCYNWkR9Lwb8l5-jnRQXmePIjmNf81zGRrx1Baqkk,692
+ascending_sort-0.2.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+ascending_sort-0.2.dist-info/top_level.txt,sha256=G7XfgPo9E449k55BlzIxdH2bTFDpV6Xt0KRrMi58TUU,22
+ascending_sort-0.2.dist-info/RECORD,,
