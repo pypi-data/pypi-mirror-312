@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ground-control-tui/__init__.py
+ground-control-tui/monitor.py
+ground_control_tui.egg-info/PKG-INFO
+ground_control_tui.egg-info/SOURCES.txt
+ground_control_tui.egg-info/dependency_links.txt
+ground_control_tui.egg-info/entry_points.txt
+ground_control_tui.egg-info/top_level.txt

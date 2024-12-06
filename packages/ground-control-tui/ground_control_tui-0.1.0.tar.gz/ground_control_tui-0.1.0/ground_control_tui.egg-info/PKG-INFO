@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ground-control-tui
+Version: 0.1.0
+Summary: A Python Textual app for monitoring VMs in the terminal
+Home-page: https://github.com/alberto-rota/ground-control
+Author: Alberto Rota
+Author-email: alberto1.rota@polimi.it
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Readme
