@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: byzh_rc
+Version: 0.4
+Summary: 更方便的深度学习
+Author: byzh_rc
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+demo package
