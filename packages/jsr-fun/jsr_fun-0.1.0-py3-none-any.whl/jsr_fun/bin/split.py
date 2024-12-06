@@ -1,0 +1,44 @@
+from pydantic import BaseModel
+import re
+from typing import List
+
+class StructuredSentence(BaseModel):
+    tags: List[str]
+    sentence: str
+
+def split_and_structure_text(text: str) -> List[StructuredSentence]:
+    tag_pattern = re.compile(r'<[^>]+>')
+    sentence_pattern = re.compile(r'<\|[^>]+\|>')
+
+    structured_sentences = []
+    while text:
+        tags = tag_pattern.findall(text)
+        if tags:
+            text = tag_pattern.sub('', text, count=len(tags))
+        else:
+            tags = []
+
+        sentence_match = sentence_pattern.search(text)
+        if sentence_match:
+            sentence = text[:sentence_match.end()]
+            text = text[sentence_match.end():]
+        else:
+            sentence = text
+            text = ''
+
+        clean_sentence = sentence_pattern.sub('', sentence).strip()
+        if clean_sentence:
+            structured_sentences.append(StructuredSentence(tags=tags, sentence=clean_sentence))
+
+    return structured_sentences
+
+def main() -> None:
+    # Example usage
+    text = "<|zh|><|ANGRY|><|Speech|><|withitn|>嗯，不争名不得利，不贪财，不好色，就好人嘛，真的啊，这个玩心大，喜欢玩好家伙，各种动物都不放过啊，说什么话？什么叫都不放过呀，就是养那些小动物啊啊，都养小猫、小狗是猪啊，野鸡啊什么的哼。 <|zh|><|NEUTRAL|><|Speech|><|withitn|>他也下得去手哼。 <|zh|><|HAPPY|><|Speech|><|withitn|>你就干嘛就到野鸡那儿这么谣言杂字的，替您开心呢。嗯邀请您上我那玩去嗯。 <|zh|><|HAPPY|><|Speech|><|withitn|> 朋友哈挺好的啊。嗯，但是于老师有一个小建议，不知当讲不当讲，您别客气，有什么建议您就说，真的，嗯我觉得您再怎么好玩，您也是范围小了一些。 <|zh|><|NEUTRAL|><|Speech|><|withitn|>怎么叫范围小呢？首先说从他的兴趣来讲啊啊。 <|zh|><|NEUTRAL|><|Speech|><|withitn|>养动物对，玩虫子嗯啊扇子嗯，扇子对不对？对对？文玩嘛，鸟笼子是就这些东西，你再怎么说，嗯，它也是北京的东西。 <|zh|><|NEUTRAL|><|Speech|><|withitn|>啊，就是这些北京的文化遗留下来，天津也玩，上海���玩，但是嗯北京是根儿，那是八七子弟过去留下来的皇上为了玩了玩什么东西要玩到极致嗯。 <|zh|><|NEUTRAL|><|Speech|><|withitn|>玩这葫芦嗯，这葫芦是想出一什么东西哦，做一模子，对，开出50亩地去啊，套上模子长。嗯，这一夏天这一季收下来可能就落仨葫芦，这是行家值吗？值值，这就是玩，对，稍微歪一点踹碎了，不要这就废了，50亩地烙仨葫芦。 <|zh|><|ANGRY|><|Speech|><|withitn|>花多少钱愿意，嗯，这叫玩儿。对，这叫玩儿出了北京没有这么玩的。 <|zh|><|NEUTRAL|><|Speech|><|withitn|>出了北京少，但是啊嗯我老建议您应该出去走一走。 <|zh|><|ANGRY|><|Speech|><|withitn|>我出去转悠，您不能就说老围着北京，当然是。"
+
+    structured_text = split_and_structure_text(text)
+    for item in structured_text:
+        print(item)
+
+if __name__ == '__main__':
+    main()
