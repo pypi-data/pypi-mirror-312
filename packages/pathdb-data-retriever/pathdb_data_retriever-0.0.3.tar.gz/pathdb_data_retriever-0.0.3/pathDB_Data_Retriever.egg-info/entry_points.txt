@@ -1,0 +1,2 @@
+[console_scripts]
+pathDB-Data-Retriever = pathology_downloader.downloader:main
