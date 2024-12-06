@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/otime/__init__.py
+src/otime/analyzer.py
+src/otime/utils.py
+src/otime.egg-info/PKG-INFO
+src/otime.egg-info/SOURCES.txt
+src/otime.egg-info/dependency_links.txt
+src/otime.egg-info/requires.txt
+src/otime.egg-info/top_level.txt
+tests/test_analyzer.py
