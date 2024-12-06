@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-server-restart = mcp_server_restart.server:run_server
