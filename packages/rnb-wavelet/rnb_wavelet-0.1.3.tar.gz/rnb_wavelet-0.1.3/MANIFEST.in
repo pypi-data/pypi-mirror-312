@@ -1,0 +1,2 @@
+include rnb/data/*.npy
+include rnb/data/*.npz
