@@ -1,0 +1,8 @@
+libpointing/__init__.py,sha256=3tWpi1GGnu-dcRz377AuUwtxVT52LPAF5UjwzWHXH8s,183
+libpointing/libpointing.cp312-win_amd64.pyd,sha256=G7sXlH6X864T0MuDua9R2z_3aNtSZ09VrCI_ts2cfMs,396800
+libpointing/libpointing.cpython-312-darwin.so,sha256=EIUb7U-xLHGFTsYzE4s8o0cnauHB-mP2FEQU-vY0qHw,1039032
+libpointing/libpointing.cpython-312-x86_64-linux-gnu.so,sha256=v9tc1rhaI1jO45lyHEyQod2SKycF3Uzpa59858-USZ0,1796584
+libpointing-1.1.0.dist-info/METADATA,sha256=QyEAMtR_kJ8ttSIo6cFVHbnOLIdVNqslkAKk4TV9HQk,1909
+libpointing-1.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+libpointing-1.1.0.dist-info/top_level.txt,sha256=A4A6VZ430O7aG7fFOT-jeCFd8Xp0RFfsK-AO_fmMDeU,12
+libpointing-1.1.0.dist-info/RECORD,,
