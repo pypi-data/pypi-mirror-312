@@ -1,0 +1,10 @@
+README.md
+setup.py
+meta2vec/__init__.py
+meta2vec/distance.py
+meta2vec/utils.py
+meta2vec/visualize.py
+meta2vec.egg-info/PKG-INFO
+meta2vec.egg-info/SOURCES.txt
+meta2vec.egg-info/dependency_links.txt
+meta2vec.egg-info/top_level.txt
