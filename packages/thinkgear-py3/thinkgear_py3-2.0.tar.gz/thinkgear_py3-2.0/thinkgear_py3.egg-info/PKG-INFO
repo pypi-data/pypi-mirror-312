@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: thinkgear-py3
+Version: 2.0
+Summary: ThinkGear Serial Stream Protocol implementation
+Home-page: https://github.com/gaurapanasenko/python3-thinkgear
+Author: Yehor Panasenko
+Author-email: gaura.panasenko@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python3-thinkgear
+ThinkGear Serial Stream Protocol implementation
