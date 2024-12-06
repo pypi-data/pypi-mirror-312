@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "inputx"
+version = "1.0.3"
+description = "`inputx` is a Python module that provides an advanced input function with various validation options."
+authors = ["KonstantinDigital <martyrhartman@yandex.ru>"]
+license = "MIT"
+readme = "README.md"
+keywords = [
+    "inputx",
+    "inputs",
+    "input",
+    "advanced input",
+    "custom input",
+    "enhanced input",
+    "filtered input",
+    "secure input",
+    "password input",
+    "terminal input",
+    "interactive input",
+    "Python input",
+    "character filtering",
+    "cursor navigation",
+    "string validation",
+    "keyboard input",
+    "real-time input",
+    "typing",
+    "text input",
+    "data validation",
+    "terminal applications"
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
