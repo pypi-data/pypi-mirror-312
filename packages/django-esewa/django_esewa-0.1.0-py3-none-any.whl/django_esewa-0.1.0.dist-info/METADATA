@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django-esewa
+Version: 0.1.0
+Summary: A Django utility for eSewa signature generation.
+Home-page: https://github.com/hehenischal/django-esewa
+Author: Nischal Lamichhane
+Author-email: nischallc56@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-esewa
+package for easy Esewa Integration 
+
+- This package was created by Nischal Lamichhane as a Last Ditch error to help Python/Django Developers to Integrate 
