@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name =  "bcmc"
+dynamic = ["version"]
+description = "a CLI-centric broadcast and multicast validation tool"
+readme = "README.md"
+authors = [
+  { name = "Josh Schmelzle", email = "josh@joshschmelzle.com" },
+]
+maintainers = [
+  { name = "Kevin L. Marshall" },
+]
+license = {file = "LICENSE"}
+keywords = ["bcmc", "broadcast", "multicast"]
+requires-python = ">=3.9"
+classifiers = [
+    "Natural Language :: English",
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Telecommunications Industry",
+    "Topic :: Utilities",
+    "Topic :: System :: Networking",
+    "Topic :: System :: Networking :: Monitoring",
+]
+
+[project.urls]
+Homepage = "https://github.com/joshschmelzle/bcmc"
+
+[project.scripts]
+bcmc = "bcmc.__main__:main"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["bcmc"]
+exclude = ["tests", "test"]
+
+[tool.setuptools.dynamic]
+version = {attr = "bcmc.__version__"}
