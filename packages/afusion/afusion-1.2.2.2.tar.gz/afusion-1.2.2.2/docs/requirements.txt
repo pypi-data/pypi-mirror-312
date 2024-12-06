@@ -1,0 +1,9 @@
+streamlit
+pandas
+loguru
+numpy
+py3Dmol
+biopython
+plotly
+myst-parser
+furo
