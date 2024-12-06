@@ -1,0 +1,3 @@
+[console_scripts]
+ioemu=ioemu:run
+
