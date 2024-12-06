@@ -1,0 +1,2 @@
+include Kivy_Calculator_package/main.py
+include Catch_the_Fly_package/calculator.kv
