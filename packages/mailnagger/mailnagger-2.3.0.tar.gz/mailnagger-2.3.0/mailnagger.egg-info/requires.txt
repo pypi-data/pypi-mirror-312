@@ -1,0 +1,10 @@
+pygobject
+pyxdg
+dbus-python
+
+[dev]
+pygobject-stubs
+types-pyxdg
+pytest
+nox
+types-setuptools
