@@ -1,0 +1,3 @@
+[cli_tool.commands]
+custom_commands = cli_commands.custom_commands:load
+storage_commands = cli_commands.storage_commands:load
