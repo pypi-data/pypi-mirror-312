@@ -1,0 +1,36 @@
+[project]
+name = "fuelfinder"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jakob Guldberg Aaes", email = "jakob1379@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "diskcache>=5.6.3",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+    "sane-rich-logging>=1.0.1",
+    "typer>=0.14.0",
+]
+
+[project.scripts]
+fuelfinder = "fuelfinder:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "commitizen>=3.9.1",
+    "ipython>=8.30.0",
+    "pre-commit>=4.0.1",
+    "pytest>=8.3.3",
+    "ruff>=0.8.1",
+]
+
+[tool.ruff.lint]
+extend-select = ["I"]
