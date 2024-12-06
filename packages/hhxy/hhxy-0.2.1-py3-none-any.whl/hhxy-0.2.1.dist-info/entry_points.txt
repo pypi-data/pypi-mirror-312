@@ -1,0 +1,2 @@
+[console_scripts]
+hhxy-rk-pfai = mymodule.main:install_and_run
