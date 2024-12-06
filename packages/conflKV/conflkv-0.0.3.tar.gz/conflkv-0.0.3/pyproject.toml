@@ -1,0 +1,21 @@
+[project]
+name = "conflKV"
+version = "0.0.3"
+description = "ConflKV is a Python library for managing key-value pairs stored in Confluence Pages through the REST API."
+readme = "README.md"
+authors = [{ name = "David Moruzzi", email = "confl.kv@dmoruzi.com" }]
+keywords = ["confluence", "key-value"]
+requires-python = ">=3.12"
+dependencies = []
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
