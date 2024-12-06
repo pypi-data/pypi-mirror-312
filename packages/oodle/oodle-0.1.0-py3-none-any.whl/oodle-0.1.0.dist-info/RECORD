@@ -1,0 +1,12 @@
+oodle/__init__.py,sha256=fGUUiS5mWFYEAeZSJRhjmcvdIIQHpDrVcxYC6ULhCsA,208
+oodle/channels.py,sha256=BxRse8easjqC5I7Isq9osKljzbl4rayJ9lSCnTV-Ah8,435
+oodle/patches/patch_time.py,sha256=7w6uUFwx_2A9cOsNMDJGj8oC_zoZt-5-vqGFjO8jr7o,269
+oodle/shields.py,sha256=OxaecRdPB8okg6SLo9damaVo8j9S7YpUYAZ_UpVUphU,684
+oodle/spawners.py,sha256=5EhIhvUkSlyy90OUbUHmtaYexB8gkYYusInrLmGaWo0,1025
+oodle/thread_groups.py,sha256=HXuCrNRBum3AJWXGw28jZ9BLGl_F2vryGeygkJ6MJn8,798
+oodle/threads.py,sha256=oa2YY-Lj-gYrH4_6ehNBEhdKApCuMYNvF8Vo1aq1JEs,3108
+oodle/utilities.py,sha256=g-fkzvhZyF_e2nuGGL9gp4nSIlXyZOiFtqLGihHUVCE,386
+oodle-0.1.0.dist-info/LICENSE,sha256=JnpmFHGtncdHGBgAQPR8vKICZwkfgANkWfJGfr55lcs,1076
+oodle-0.1.0.dist-info/METADATA,sha256=WqTtDCFu2-AETD5_CQ7WQLJiHViFPiKRNTrlgXLU0Vg,2290
+oodle-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+oodle-0.1.0.dist-info/RECORD,,
