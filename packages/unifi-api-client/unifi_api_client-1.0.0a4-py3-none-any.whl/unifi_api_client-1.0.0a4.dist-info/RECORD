@@ -1,0 +1,14 @@
+unifi_api_client/__init__.py,sha256=yklJ4IzKrC33o19GiXm3dpzHG93i8nlbixIqHOXU8lg,111
+unifi_api_client/api_client.py,sha256=gPeuX3XlR1LVaQ2EOmybHDFxJ70fyKpX899lwY-YTyg,971
+unifi_api_client/exceptions.py,sha256=XqrUB7S70qzP4cZ6S9pslTL5-SCMXMXkK920XgRXfPI,2550
+unifi_api_client/http_client.py,sha256=FL8sUbJ2juOi9pA2cFrC07Rod27HYeytWq0oeG6CAp4,5456
+unifi_api_client/resources/__init__.py,sha256=4FrXGoROYDIH8sUX5Lj7r0DtarfSOEU3fW9kQXl72GI,151
+unifi_api_client/resources/devices.py,sha256=4vlU8emppYdyFRcuMrsCk4CoSM-zWUyqu4kgkJ2hYZE,219
+unifi_api_client/resources/hosts.py,sha256=4ACBfPgfpGRrXs9U32Ndkp0_Sg-ZZMosuTGxUHyIcwE,215
+unifi_api_client/resources/isp_metrics.py,sha256=Z-Pf_2mcuOKgsjy2SFBhK4iJHOaCF1BFn_RTCejw81w,390
+unifi_api_client/resources/resources.py,sha256=E78KekiXz76444NICjouSg0PCTAl-HJQuqvzrb_4mQw,386
+unifi_api_client/resources/sites.py,sha256=_XtoQ0LkzXDDU6G1WqjjB1gTKnZRuuFWofd8xqJuWAw,215
+unifi_api_client-1.0.0a4.dist-info/LICENSE,sha256=oBIR-YOsu1ZzYO5T_zp11Sglnl80LkvJUP2wd7-462k,1087
+unifi_api_client-1.0.0a4.dist-info/METADATA,sha256=9WNVJZBwWNKCHhjT-JgrGLE9GOzyZET63FgW1Kr0r9Q,590
+unifi_api_client-1.0.0a4.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+unifi_api_client-1.0.0a4.dist-info/RECORD,,
