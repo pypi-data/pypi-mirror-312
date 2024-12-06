@@ -1,0 +1,40 @@
+# redis-cloudformation-prodatabase
+
+> AWS CDK [L1 construct](https://docs.aws.amazon.com/cdk/latest/guide/constructs.html) and data structures for the [AWS CloudFormation Registry](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/registry.html) type `Redis::CloudFormation::ProDatabase` v1.0.0.
+
+## Description
+
+CloudFormation template for Pro Database.
+
+## Usage
+
+In order to use this library, you will need to activate this AWS CloudFormation Registry type in your account. You can do this via the AWS Management Console or using the [AWS CLI](https://aws.amazon.com/cli/) using the following command:
+
+```sh
+aws cloudformation activate-type \
+  --type-name Redis::CloudFormation::ProDatabase \
+  --publisher-id 68686e85baeed40bdffe29c5e35183528a2e7174 \
+  --type RESOURCE \
+  --execution-role-arn ROLE-ARN
+```
+
+Alternatively:
+
+```sh
+aws cloudformation activate-type \
+  --public-type-arn arn:aws:cloudformation:us-east-1::type/resource/68686e85baeed40bdffe29c5e35183528a2e7174/Redis-CloudFormation-ProDatabase \
+  --execution-role-arn ROLE-ARN
+```
+
+You can find more information about activating this type in the [AWS CloudFormation documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/registry-public.html).
+
+## Feedback
+
+This library is auto-generated and published to all supported programming languages by the [cdklabs/cdk-cloudformation](https://github.com/cdklabs/cdk-cloudformation) project based on the API schema published for `Redis::CloudFormation::ProDatabase`.
+
+* Issues related to this generated library should be [reported here](https://github.com/cdklabs/cdk-cloudformation/issues/new?title=Issue+with+%40cdk-cloudformation%2Fredis-cloudformation-prodatabase+v1.0.0).
+* Issues related to `Redis::CloudFormation::ProDatabase` should be reported to the [publisher](undefined).
+
+## License
+
+Distributed under the Apache-2.0 License.
