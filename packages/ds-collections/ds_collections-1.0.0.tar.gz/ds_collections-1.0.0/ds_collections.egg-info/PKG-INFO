@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: ds-collections
+Version: 1.0.0
+Summary: Data Structures Collections: BST and Linked Lists.
+Home-page: https://github.com/anowarulkarim/ds_collections
+Author: Bhuyan Md Anowarul Kairm
+Author-email: anowarulkarim8@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
