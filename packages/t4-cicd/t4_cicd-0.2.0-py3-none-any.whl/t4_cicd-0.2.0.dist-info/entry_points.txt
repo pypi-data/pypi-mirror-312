@@ -1,0 +1,3 @@
+[console_scripts]
+cid=cli.__main__:cid
+
