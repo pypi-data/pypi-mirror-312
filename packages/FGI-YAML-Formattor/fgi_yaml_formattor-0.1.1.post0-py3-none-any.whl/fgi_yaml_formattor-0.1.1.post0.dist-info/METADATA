@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: FGI-YAML-Formattor
+Version: 0.1.1.post0
+Summary: Default template for PDM package
+Author-Email: kaesinol <keiplyer@gmail.com>
+License: MIT
+Requires-Python: >=3.11
+Requires-Dist: ruamel-yaml<1.0,>=0.18.6
+Requires-Dist: ruamel-yaml-string<1.0,>=0.1.1
+Requires-Dist: pyyaml>=6.0.1
+Description-Content-Type: text/markdown
+
+# FGI-YAML-Formattor
