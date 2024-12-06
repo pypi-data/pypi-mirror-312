@@ -1,0 +1,9 @@
+deceiver-0.0.1.dist-info/METADATA,sha256=uYL7LS-lJ_wjBxfzz9hTk5xkybLmPqIj7cEFi1s1P6Y,1100
+deceiver-0.0.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+deceiver-0.0.1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+deceiver-0.0.1.dist-info/licenses/LICENSE,sha256=uF3NPkU9BZglUsUrX8ngvdbSPG-OhEuYSoivMlcLDMA,1078
+deceiver/__init__.py,sha256=zYmHbgTLncjW_sfcL_dSLafO0lM75wOuIXoEV6lV664,58
+deceiver/illusions.py,sha256=xYWzZrYJV47uXoci83_iQXqoZm8OeGRonTBpCqTnjAg,1090
+deceiver/log.py,sha256=304fxiWSVXTQ6f0wNNlLlcTVqftV4mcYLpdVV8EwIE8,1824
+deceiver/records.py,sha256=JClJzkNqNtOuFMplkY6igsc4XbquWLpiw94hOHI1AhQ,1255
+deceiver-0.0.1.dist-info/RECORD,,
