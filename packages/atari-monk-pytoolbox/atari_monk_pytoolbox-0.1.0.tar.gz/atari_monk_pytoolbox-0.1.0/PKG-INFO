@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: atari_monk_pytoolbox
+Version: 0.1.0
+Summary: A tools package.
+Home-page: https://github.com/atari-monk/pytoolbox
+Author: atari monk
+Author-email: atari.monk1@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.12.0
+Description-Content-Type: text/markdown
