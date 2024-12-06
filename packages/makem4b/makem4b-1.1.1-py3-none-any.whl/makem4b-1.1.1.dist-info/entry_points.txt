@@ -1,0 +1,3 @@
+[console_scripts]
+makem4b=makem4b.cli.base:main
+
