@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+un-xtab/un-xtab.py
+un_xtab.egg-info/PKG-INFO
+un_xtab.egg-info/SOURCES.txt
+un_xtab.egg-info/dependency_links.txt
+un_xtab.egg-info/top_level.txt
