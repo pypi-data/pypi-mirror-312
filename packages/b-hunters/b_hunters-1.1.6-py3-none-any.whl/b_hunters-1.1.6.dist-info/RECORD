@@ -1,0 +1,11 @@
+b_hunters-1.1.6-nspkg.pth,sha256=zZ_m7hN7KIT3NpcwYgAO73_onJJTr8ipKLWTL0LXZ8M,554
+b_hunters/__version__.py,sha256=fe1i7ytQ67cmOi4fKSpfB74e36dkRgec1zdg71uuRFM,22
+b_hunters/bhunter.py,sha256=7f23rb5b8XDk-ghDth2QhMTwTl9CmszuDasYJzeA_xU,7864
+b_hunters/cli.py,sha256=YDzbGSRX2SAL6E1INdIKUEd_jAGyV7H9HU1Hk3Bxi00,15159
+b_hunters/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+b_hunters-1.1.6.dist-info/METADATA,sha256=06BtA2qqFHz2_Vw1U71T-WTxgFQEAJK9LKqpqvhRP1M,9469
+b_hunters-1.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+b_hunters-1.1.6.dist-info/entry_points.txt,sha256=tAy9UulLcq-eW7GccmsYUSmdZ2n67R6jCo9pHeay-0k,50
+b_hunters-1.1.6.dist-info/namespace_packages.txt,sha256=0kuKm6t7Bioi9Li-wcloACR2OlALwBED2VU_IHsnxk4,10
+b_hunters-1.1.6.dist-info/top_level.txt,sha256=0kuKm6t7Bioi9Li-wcloACR2OlALwBED2VU_IHsnxk4,10
+b_hunters-1.1.6.dist-info/RECORD,,
