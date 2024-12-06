@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: downcnpj
+Version: 0.0.2
+Summary: download cadastro nacional cnpj
+Home-page: UNKNOWN
+Author: Anthony Matheus
+Author-email: anthonymatheusds@gmail.com.br
+License: MIT License
+Keywords: download cadastro nacional pessoa juridica cnpj
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Objetivo
+Automatizar o download da base do cadastro nacional de CNPJ
+
