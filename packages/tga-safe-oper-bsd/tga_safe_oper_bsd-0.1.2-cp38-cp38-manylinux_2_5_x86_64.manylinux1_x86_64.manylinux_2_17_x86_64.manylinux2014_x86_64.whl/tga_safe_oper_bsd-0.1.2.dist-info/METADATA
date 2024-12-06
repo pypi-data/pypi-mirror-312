@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: tga-safe-oper-bsd
+Version: 0.1.2
+Summary: A small example package
+Author: yuanxiao
+Author-email: yuan6785@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: ezconfig-client==0.7
+
+# tga安全用ezconfig去查询tga的程序
+
+## 使用方法
+
+```text
+pip install tga-safe-oper-bsd
+```
+
+传入自定义参数，获取数据
+
+```python
+```
+
+传入自定义参数，获取数据
+
+```python
+```
+
+
+环境依赖：
+
+```text
+ezconfig-client==0.7
+```
+
+**测试参考代码**
+
+python test.py
+
+## 版本说明
+
+| 版本  | 变更                                                        |
+|-----|-----------------------------------------------------------|
+| 0.1.0 | 测试                                        |
+| 0.1.1 | 无                                 |
+
