@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/xrf/__init__.py
+src/xrf/base.py
+src/xrf.egg-info/PKG-INFO
+src/xrf.egg-info/SOURCES.txt
+src/xrf.egg-info/dependency_links.txt
+src/xrf.egg-info/requires.txt
+src/xrf.egg-info/top_level.txt
