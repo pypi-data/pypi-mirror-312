@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+CLGame/__init__.py
+CLGame/engine.py
+CLGame.egg-info/PKG-INFO
+CLGame.egg-info/SOURCES.txt
+CLGame.egg-info/dependency_links.txt
+CLGame.egg-info/requires.txt
+CLGame.egg-info/top_level.txt
