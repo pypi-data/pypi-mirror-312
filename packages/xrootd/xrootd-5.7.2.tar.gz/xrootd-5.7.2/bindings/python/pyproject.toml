@@ -1,0 +1,3 @@
+[build-system]
+requires = ["certifi", "setuptools>=42"]
+build-backend = "setuptools.build_meta"
