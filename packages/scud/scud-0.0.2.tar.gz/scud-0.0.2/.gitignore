@@ -1,0 +1,7 @@
+structpca/__pycache__/*
+build/*
+dist/*
+*.egg-info*
+doc/build/
+tests/__pycache__
+test.py
