@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pathDB-Data-Retriever/__init__.py
+pathDB-Data-Retriever/downloader.py
+pathDB_Data_Retriever.egg-info/PKG-INFO
+pathDB_Data_Retriever.egg-info/SOURCES.txt
+pathDB_Data_Retriever.egg-info/dependency_links.txt
+pathDB_Data_Retriever.egg-info/entry_points.txt
+pathDB_Data_Retriever.egg-info/requires.txt
+pathDB_Data_Retriever.egg-info/top_level.txt
