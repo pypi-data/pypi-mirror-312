@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pathDB-Data-Retriever
+Version: 0.0.2
+Summary: A tool for downloading TCIA pathology images using Excel manifests to specify download URLs.
+Home-page: https://github.com/kirbyju/pathDB-Data-Retriever
+Author: Justin Kirby
+Author-email: justin.kirby@nih.gov
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: PyQt5
+
+# pathDB-Data-Retriever
+
+`pathDB-Data-Retriever` is a tool for retrieving pathology images using XLSX manifests.
+
+---
+
+## Installation
+
+### Option 1: Install via PyPI
+Ensure you have Python 3.11 or later installed.
+
+1. Install the package:
+   ```bash
+   pip install pathDB-Data-Retriever
+
+2. Run:
+  ```bash
+  pathDB-Data-Retriever
+
+### Option 2: Pre-Built Executable
+If you don’t have Python installed or prefer a standalone binary:
+
+1. Visit the [Releases](https://github.com/kirbyju/pathDB-Data-Retriever/releases) page.
+
+2. Download, unzip run the executable for your operating system.
