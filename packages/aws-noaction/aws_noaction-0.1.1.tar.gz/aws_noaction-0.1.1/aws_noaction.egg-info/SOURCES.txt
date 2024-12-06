@@ -1,0 +1,9 @@
+setup.py
+app/__init__.py
+app/main.py
+aws_noaction.egg-info/PKG-INFO
+aws_noaction.egg-info/SOURCES.txt
+aws_noaction.egg-info/dependency_links.txt
+aws_noaction.egg-info/entry_points.txt
+aws_noaction.egg-info/requires.txt
+aws_noaction.egg-info/top_level.txt
