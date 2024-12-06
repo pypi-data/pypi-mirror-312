@@ -1,0 +1,125 @@
+- filler_material: cement
+  hanger_depth:
+    unit: m
+    value: 0.0
+  hole_diameter:
+    unit: in
+    value: 42.0
+  inner_diameter:
+    unit: in
+    value: 33.0
+  inner_roughness:
+    unit: mm
+    value: 0.05
+  material: B
+  material_above_filler: Brine_860
+  name: CONDUCTOR_DRILLING_1
+  outer_diameter:
+    unit: in
+    value: 36.0
+  settings_depth:
+    unit: m
+    value: 96.0
+  top_of_filler:
+    unit: m
+    value: 0.0
+- filler_material: cement
+  hanger_depth:
+    unit: m
+    value: 0.0
+  hole_diameter:
+    unit: in
+    value: 20.0
+  inner_diameter:
+    unit: in
+    value: 16.25
+  inner_roughness:
+    unit: mm
+    value: 0.05
+  material: X-80
+  material_above_filler: Brine_860
+  name: SURFACE_CASING_1
+  outer_diameter:
+    unit: in
+    value: 18.0
+  settings_depth:
+    unit: m
+    value: 1418.0
+  top_of_filler:
+    unit: m
+    value: 0.0
+- filler_material: cement
+  hanger_depth:
+    unit: m
+    value: 0.0
+  hole_diameter:
+    unit: in
+    value: 14.75
+  inner_diameter:
+    unit: in
+    value: 10.711
+  inner_roughness:
+    unit: mm
+    value: 0.05
+  material: N-80
+  material_above_filler: DFLT_FPBA_BARITE_8.60_35000
+  name: PRODUCTION_CASING_1
+  outer_diameter:
+    unit: in
+    value: 11.875
+  settings_depth:
+    unit: m
+    value: 1000.0
+  top_of_filler:
+    unit: m
+    value: 1000.0
+- filler_material: cement
+  hanger_depth:
+    unit: m
+    value: 1000.0
+  hole_diameter:
+    unit: in
+    value: 14.75
+  inner_diameter:
+    unit: in
+    value: 9.156
+  inner_roughness:
+    unit: mm
+    value: 0.05
+  material: C-110 HC
+  material_above_filler: DFLT_FPBA_BARITE_8.60_35000
+  name: PRODUCTION_CASING_2
+  outer_diameter:
+    unit: in
+    value: 10.75
+  settings_depth:
+    unit: m
+    value: 3369.0
+  top_of_filler:
+    unit: m
+    value: 2833.0
+- filler_material: cement
+  hanger_depth:
+    unit: m
+    value: 3369.0
+  hole_diameter:
+    unit: in
+    value: 14.75
+  inner_diameter:
+    unit: in
+    value: 8.684000000000001
+  inner_roughness:
+    unit: mm
+    value: 0.05
+  material: SDSS/125KSI
+  material_above_filler: DFLT_FPBA_BARITE_8.60_35000
+  name: PRODUCTION_CASING_3
+  outer_diameter:
+    unit: in
+    value: 10.75
+  settings_depth:
+    unit: m
+    value: 3535.0
+  top_of_filler:
+    unit: m
+    value: 3369.0
