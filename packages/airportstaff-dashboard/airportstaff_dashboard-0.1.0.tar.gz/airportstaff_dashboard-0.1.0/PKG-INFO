@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: airportstaff_dashboard
+Version: 0.1.0
+Summary: Simple library for listing/managing airport staff dashboards
+Home-page: https://github.com/Comrade-Glitch-cloud/airportstaff_daashboard-Library
+Author: Benny Geddam
+Author-email: geddambenny55@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#airportstaff_dashboard Library
+Simple library for listing/managing airport staff dashboards.
+
+###Features
+
+- Displays feedback entries as lists
+- Displays found items as lists
+
+##Installation
+
+```bash
+pip install airportstaff_dashboard
+
+

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+airportstaff_dashboard.egg-info/PKG-INFO
+airportstaff_dashboard.egg-info/SOURCES.txt
+airportstaff_dashboard.egg-info/dependency_links.txt
+airportstaff_dashboard.egg-info/top_level.txt
+dashboard_pkg/__init__.py
+dashboard_pkg/dashboard.py
+tests/__init__.py
