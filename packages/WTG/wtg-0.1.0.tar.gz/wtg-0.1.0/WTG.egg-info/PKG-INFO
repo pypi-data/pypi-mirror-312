@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: WTG
+Version: 0.1.0
+Summary: That package can you help to Move WEB to GUI
+Home-page: https://github.com/yourusername/mylibrary
+Author: Ваше имя
+Author-email: sponge-bob@krusty-krab.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt5
+Requires-Dist: PyQtWebEngine
