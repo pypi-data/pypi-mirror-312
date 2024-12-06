@@ -1,0 +1,36 @@
+[build-system]
+requires = ["flit_core >= 3.4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "py_ad_principal"
+version = "0.2.2"
+authors = [{"name"="Jason Hallford"}]
+description = "A Python package for authenticating users (more formally called principals) via a Microsoft Active Directory (AD) domain controller."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gssapi >= 1.9.0",
+    "ldap3 >= 2.9.1"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+]
+keywords = [
+    "active directory", 
+    "authentication", 
+    "principal", 
+    "user", 
+    "ldap", 
+    "kerberos", 
+    "sso", 
+    "microsoft", 
+    "active directory",
+    "gssapi"
+]
+
+[project.urls]
+Homepage = "https://github.com/miscellanea-io/py-ad-principal"
+Issues = "https://github.com/miscellanea-io/py-ad-principal/issues"
