@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "setuptools_scm[toml]>=3.4"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "prem/_dist_ver.py"
+write_to_template = "__version__ = '{version}'\n"
+
+[project]
+name = "prem"
+dynamic = ["version"]
+maintainers = [{name = "Casper da Costa-Luis", email = "casper.dcl@physics.org"}]
+description = "WiP"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MPL-2.0"}
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3 :: Only"]
+dependencies = ["argopt", "shtab"]
+
+[project.scripts]
+prem = "prem.__main__:cli"
