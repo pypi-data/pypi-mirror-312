@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+agentmq/__init__.py
+agentmq/main.py
+agentmq.egg-info/PKG-INFO
+agentmq.egg-info/SOURCES.txt
+agentmq.egg-info/dependency_links.txt
+agentmq.egg-info/top_level.txt
