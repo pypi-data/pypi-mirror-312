@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: rockverse
+Version: 0.0.2
+Summary: Python tools for Computational Petrophysics
+Author-email: "Rodolfo A. Victor" <rodolfo@rodolfovictor.com>
+Project-URL: Homepage, https://example.com
+Project-URL: Documentation, https://readthedocs.org
+Project-URL: Repository, https://github.com/rodolfovictor/rockverse
+Project-URL: Issues, https://github.com/rodolfovictor/rockverse/issues
+Project-URL: Changelog, https://github.com/rodolfovictor/rockverse/blob/main/Changelog.md
+Project-URL: Official Website, https://example.com
+Keywords: petrophysics,well,log,well log,digital rock
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: <3.13,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama
+Requires-Dist: cython
+Requires-Dist: ipython[all]
+Requires-Dist: ipywidgets
+Requires-Dist: jupyterlab
+Requires-Dist: matplotlib
+Requires-Dist: nbsphinx
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pip
+Requires-Dist: pydata-sphinx-theme
+Requires-Dist: pyvista[all,jupyter,trame]
+Requires-Dist: trame-vtk
+Requires-Dist: trame-vuetify
+Requires-Dist: scipy==1.13
+Requires-Dist: seaborn
+Requires-Dist: sphinx
+Requires-Dist: sphinx-design
+Requires-Dist: spyder
+Requires-Dist: sympy
+Requires-Dist: tqdm
+Requires-Dist: zarr[jupyter]>=2.18
+
+# RockVerse
+
+RockVerse provides Python tools for Computational Petrophysics.
