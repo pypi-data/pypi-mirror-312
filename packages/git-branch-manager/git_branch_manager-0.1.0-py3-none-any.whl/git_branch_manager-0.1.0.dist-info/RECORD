@@ -1,0 +1,11 @@
+git_branch_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_branch_manager/branch_operations.py,sha256=O5oumt8hAOiNfoP9eaxVtCB01cleSBGbChoNY8Xd8rI,1924
+git_branch_manager/main.py,sha256=Zr2OAIiuF7UQgkAFY0TmxK4oLC37EGIW2hBftotpLiU,938
+git_branch_manager/repository_operations.py,sha256=OnXd_EcDdAlAN7Vg65tvZTfKbBr2qEfHccf6VYOUU0I,2533
+git_branch_manager/summary_printer.py,sha256=zv_tRyPxfG8qSwd2dU0ipEvLbAw5aHup1HxbN2p9qs8,894
+git_branch_manager-0.1.0.dist-info/LICENSE,sha256=o4W7f_lL5MkKJYYsntw7F2Q14ePB72xE6EZq6bZLPwU,1092
+git_branch_manager-0.1.0.dist-info/METADATA,sha256=dvIJG4arHuoi8kGKD2u6R-tl1OxMuDaLsK6NXDU8iD0,1901
+git_branch_manager-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+git_branch_manager-0.1.0.dist-info/entry_points.txt,sha256=ctqpAblk9XyLcFIKKZItt4t7uZe34yI5K4cQh7Vr-sI,69
+git_branch_manager-0.1.0.dist-info/top_level.txt,sha256=Er0jdQEhEzWlLNAz440eXDZEbx11qFRd3tsolUNcVp8,19
+git_branch_manager-0.1.0.dist-info/RECORD,,
