@@ -1,0 +1,12 @@
+effectual/__init__.py,sha256=9hA5S-390BtY7m-NojGHioaBJJ8vEM3IXuMvmzWBv0E,407
+effectual/build.py,sha256=AfeQXckE2dhEpJAZg7T0dxYKudg7n7Ghy1BVc4f6L9A,5517
+effectual/colors.py,sha256=na7SEUSXM7aHvEKeIAn5shrZJtrBYq_ZUp121GRO_PQ,1411
+effectual/config.py,sha256=LzGT8e-zq7Rc-HOp3-r6g1XRiN9v0sCq5aeWL0bqFLY,754
+effectual/developer.py,sha256=Ia6LPvDbO5kkF9dRIw3H23sulmWT8pLis55-PRQIInI,2014
+effectual/fileHash.py,sha256=m2oPjhAcSH0Qc7J7aMkmjOlgDr5Lzilcfl1ppeoDxI8,810
+effectual/minifier.py,sha256=RlUD0mUNDi7YZ1P-dDL6Y4FlCkfiiJP8G4TpX2y45iI,1347
+effectual-0.3.4.dist-info/METADATA,sha256=E0sHvdgK8jKXY-B6pP5Cn8dWVDERD7h-kU3GfZ7eK8M,2527
+effectual-0.3.4.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+effectual-0.3.4.dist-info/entry_points.txt,sha256=1W7EjlLZkw_Wz8V1SgdzzDis-CRE5IINyg74upsB0zU,40
+effectual-0.3.4.dist-info/licenses/LICENSE,sha256=RrVXS_K_FctToNx9BLuZm9vbcpTi3PHNzWMaz7QyVeg,1082
+effectual-0.3.4.dist-info/RECORD,,
