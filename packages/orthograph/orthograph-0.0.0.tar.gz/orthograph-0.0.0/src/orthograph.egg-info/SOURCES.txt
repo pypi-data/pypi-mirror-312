@@ -1,0 +1,13 @@
+README.rst
+description.txt
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+setup.py
+src/orthograph/__init__.py
+src/orthograph.egg-info/PKG-INFO
+src/orthograph.egg-info/SOURCES.txt
+src/orthograph.egg-info/dependency_links.txt
+src/orthograph.egg-info/requires.txt
+src/orthograph.egg-info/top_level.txt
+tests/test_general.py
