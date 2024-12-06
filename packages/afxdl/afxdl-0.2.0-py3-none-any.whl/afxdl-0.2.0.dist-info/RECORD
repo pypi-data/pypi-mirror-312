@@ -1,0 +1,11 @@
+afxdl/__init__.py,sha256=-ObAJwAfWS3qx7VKT2WUhyjJ7mJoKAz0nsE4rblIZtA,44
+afxdl/download.py,sha256=Y_bxco3kFfac89LOCHPoSjI47Wsg-ndsArz9pkHDkNc,5038
+afxdl/main.py,sha256=UI70U1yWB-yD6ImJvDv5XlDifrzt6uxRoZUmuaH-Gfc,3676
+afxdl/models.py,sha256=aZIgeIc94xCtBVShIQsZdrBxHireHtHgIeRvbG5AlFA,1302
+afxdl/parse.py,sha256=B-9N2-yz48gRN5q8bZJ3M-Qhlqzyd8--ArjpaI1AJyg,4766
+afxdl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afxdl-0.2.0.dist-info/LICENSE,sha256=Pfp0kBneyyWLZUH4QW2m-Kmtv4iGA_oKsFQaTqVBL84,1057
+afxdl-0.2.0.dist-info/METADATA,sha256=dF1hpECZahfzH2lj7lcTURGttgaE4PtatOGBLdUAWmg,3435
+afxdl-0.2.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+afxdl-0.2.0.dist-info/entry_points.txt,sha256=vMkdqg7NKiDmQzQmv7KPu6NZ50Snj0GUNo32nq_LLPA,41
+afxdl-0.2.0.dist-info/RECORD,,
