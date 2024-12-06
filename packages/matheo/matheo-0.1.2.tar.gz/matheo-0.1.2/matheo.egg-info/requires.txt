@@ -1,0 +1,13 @@
+numpy
+pyspectral
+punpy
+comet_maths
+
+[dev]
+pre-commit
+tox
+sphinx
+sphinx_design
+sphinx_book_theme
+ipython
+sphinx_autosummary_accessors
