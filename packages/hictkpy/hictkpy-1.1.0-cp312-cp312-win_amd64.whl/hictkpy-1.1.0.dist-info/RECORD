@@ -1,0 +1,10 @@
+hictkpy/__init__.py,sha256=96NKwABlPC9-kZu082DQ3-FtNIQ6uBdpfqJ6P1hPDOM,732
+hictkpy/__init__.pyi,sha256=a00EudUeDvYRqiuQ0aql9p7Epv3YVWzWFcxPZmaX9W0,13805
+hictkpy/_hictkpy.cp312-win_amd64.pyd,sha256=7XSmrbv4uPEeR-uY3ojsr67xVKzhgTeAmCwpjIst8Pk,19948544
+hictkpy/cooler.pyi,sha256=ZgUR4m-virXlsYelUKB9wXgSZspsdtyDhIk06LGe9uI,2627
+hictkpy/hic.pyi,sha256=zddrV6MhkRcL9nQ5RsA4nEGaYFfkRo-4wu5O3V2Bx2c,2516
+hictkpy/py.typed,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+hictkpy-1.1.0.dist-info/METADATA,sha256=ViQ5vaMl8rO1nzIkWl7tPwQdXyHw2hZjoIcH-MTcTig,3884
+hictkpy-1.1.0.dist-info/WHEEL,sha256=GgB_RydHGtp7zP9kXrVRu7kuGtdM7WtO3JhH95Vv87o,106
+hictkpy-1.1.0.dist-info/licenses/LICENSE,sha256=k3wYuQL9G6HjLn2OEwrGzJE1Mz5WtgZsSPuWSHoX27I,1093
+hictkpy-1.1.0.dist-info/RECORD,,
