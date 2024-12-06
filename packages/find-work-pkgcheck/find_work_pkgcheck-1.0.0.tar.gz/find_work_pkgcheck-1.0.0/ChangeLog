@@ -1,0 +1,50 @@
+2024-11-30  Anna  <cyber@sysrq.in>
+
+	* 1.0.0 release
+
+	* cli.py (pkgcheck): move the man page mention to epilog.
+
+	* internal.py: use pkgcore directly instead of relying on gentoopm,
+	this allows to initialize repos by path.
+
+	* internal.py (do_pkgcheck_scan): if maintainer email is
+	maintainer-needed@gentoo.org, match packages without maintainer
+	(aka "orphaned").
+
+	* internal.py (do_pkgcheck_scan): support find-work's category filter.
+
+2024-11-20  Anna  <cyber@sysrq.in>
+
+	* 0.3.0 release
+
+	* update find-work-pkgcheck to the new find-work namespacing
+
+	* cli.py: support result reporters.
+
+	* cli.py: suppress pkgcheck progress messages by redirecting stderr to
+	nowhere.
+
+	* internal.py (do_pkgcheck_scan): return results as dataclasses
+	instead of raw pkgcheck objects.
+
+2024-11-06  Anna  <cyber@sysrq.in>
+
+	* cli.py (pkgcheck): add a little message mentioning there's a man
+	page.
+
+2024-08-22  Anna  <cyber@sysrq.in>
+
+	* 0.2.1 release
+
+	* cli.py: defer time-consuming imports (reduces startup time by
+	~0,5s).
+
+2024-08-09  Anna  <cyber@sysrq.in>
+
+	* 0.2.0 release
+
+	* pyproject.toml: fix incorrect entry point name.
+
+2024-08-09  Anna  <cyber@sysrq.in>
+
+	* 0.1.0 release
