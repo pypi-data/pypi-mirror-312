@@ -1,0 +1,7 @@
+[console_scripts]
+beautify_json = ykutil.executable:do_beautify_json
+bulk_rename = ykutil.executable:do_bulk_rename
+colorcode_ds = ykutil.executable:do_colorcode_dataset
+describe_dataset = ykutil.executable:do_describe_dataset
+tokenize = ykutil.executable:do_tokenize
+untokenize = ykutil.executable:do_untokenize
