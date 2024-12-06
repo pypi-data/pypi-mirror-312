@@ -1,0 +1,6 @@
+[console_scripts]
+emplode=emplode.terminal_interface.start_terminal_interface:main
+emplode-classic=emplode.terminal_interface.start_terminal_interface:main
+i=emplode.terminal_interface.start_terminal_interface:main
+wtf=scripts.wtf:main
+

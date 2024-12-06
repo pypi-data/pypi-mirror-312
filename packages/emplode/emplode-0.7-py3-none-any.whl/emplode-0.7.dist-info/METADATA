@@ -1,0 +1,167 @@
+Metadata-Version: 2.1
+Name: emplode
+Version: 0.7
+Summary: Agent that performs action on your system by executing code.
+Author: Shouryamaan Jain
+Author-email: smj@emplode.com
+Requires-Python: >=3.9,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: local
+Provides-Extra: os
+Provides-Extra: safe
+Provides-Extra: server
+Requires-Dist: anthropic (>=0.37.1,<0.38.0)
+Requires-Dist: astor (>=0.8.1,<0.9.0)
+Requires-Dist: easyocr (>=1.7.1,<2.0.0) ; extra == "local"
+Requires-Dist: einops (>=0.8.0,<0.9.0) ; extra == "local"
+Requires-Dist: fastapi (>=0.111.0,<0.112.0) ; extra == "server"
+Requires-Dist: git-python (>=1.0.3,<2.0.0)
+Requires-Dist: google-generativeai (>=0.7.1,<0.8.0)
+Requires-Dist: html2image (>=2.0.4.3,<3.0.0.0)
+Requires-Dist: html2text (>=2024.2.26,<2025.0.0)
+Requires-Dist: inquirer (>=3.1.3,<4.0.0)
+Requires-Dist: ipykernel (>=6.26.0,<7.0.0)
+Requires-Dist: ipywidgets (>=8.1.2,<9.0.0) ; extra == "os"
+Requires-Dist: janus (>=1.0.0,<2.0.0) ; extra == "server"
+Requires-Dist: jupyter-client (>=8.6.0,<9.0.0)
+Requires-Dist: litellm (>=1.41.26,<2.0.0)
+Requires-Dist: matplotlib (>=3.8.2,<4.0.0)
+Requires-Dist: nltk (>=3.8.1,<4.0.0)
+Requires-Dist: opencv-python (>=4.8.1.78,<5.0.0.0) ; extra == "os" or extra == "local"
+Requires-Dist: platformdirs (>=4.2.0,<5.0.0)
+Requires-Dist: plyer (>=2.1.0,<3.0.0) ; extra == "os"
+Requires-Dist: psutil (>=5.9.6,<6.0.0)
+Requires-Dist: pyautogui (>=0.9.54,<0.10.0) ; extra == "os"
+Requires-Dist: pydantic (>=2.6.4,<3.0.0)
+Requires-Dist: pyperclip (>=1.9.0,<2.0.0)
+Requires-Dist: pyreadline3 (>=3.4.1,<4.0.0) ; sys_platform == "win32"
+Requires-Dist: pytesseract (>=0.3.10,<0.4.0) ; extra == "os" or extra == "local"
+Requires-Dist: pywinctl (>=0.3,<0.4) ; extra == "os"
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: rich (>=13.4.2,<14.0.0)
+Requires-Dist: screeninfo (>=0.8.1,<0.9.0) ; extra == "os"
+Requires-Dist: selenium (>=4.24.0,<5.0.0)
+Requires-Dist: semgrep (>=1.52.0,<2.0.0) ; extra == "safe"
+Requires-Dist: send2trash (>=1.8.2,<2.0.0)
+Requires-Dist: sentence-transformers (>=2.5.1,<3.0.0) ; extra == "os"
+Requires-Dist: setuptools
+Requires-Dist: shortuuid (>=1.0.13,<2.0.0)
+Requires-Dist: six (>=1.16.0,<2.0.0)
+Requires-Dist: starlette (>=0.37.2,<0.38.0)
+Requires-Dist: tiktoken (>=0.7.0,<0.8.0)
+Requires-Dist: timm (>=0.9.16,<0.10.0) ; extra == "os"
+Requires-Dist: tokentrim (>=0.1.13,<0.2.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: torch (>=2.2.1,<3.0.0) ; extra == "local"
+Requires-Dist: torchvision (>=0.18.0,<0.19.0) ; extra == "local"
+Requires-Dist: transformers (==4.41.2) ; extra == "local"
+Requires-Dist: typer (>=0.12.5,<0.13.0)
+Requires-Dist: uvicorn (>=0.30.1,<0.31.0) ; extra == "server"
+Requires-Dist: webdriver-manager (>=4.0.2,<5.0.0)
+Requires-Dist: wget (>=3.2,<4.0)
+Requires-Dist: yaspin (>=3.0.2,<4.0.0)
+Description-Content-Type: text/markdown
+
+<h1 align="center">Emplode</h1>
+
+<p align="center">
+    <a href="https://discord.gg/uZmvdFpSyW">
+        <img alt="Discord" src="https://img.shields.io/discord/1172527582684651600?logo=discord&style=flat&logoColor=white"/>
+    </a>
+    <br><br>
+    <b>Agent that performs action on your system by executing code.</b>
+</p>
+
+<br>
+
+**Emplode** Agent performs actions on your system by executing code locally, It can also serve as an agentic framework for your disposable sandbox projects. You can chat with Emplode in your terminal by running `emplode` after installing.
+
+This provides a natural-language interface to your system's general-purpose capabilities:
+
+- Create, edit and arrange files.
+- Control a browser to perform research
+- Plot, clean, and analyze large datasets
+- ...etc.
+
+<br>
+
+## Quick Start
+
+```shell
+pip install emplode
+```
+
+### Terminal
+
+After installation, simply run `emplode`:
+
+```shell
+emplode
+```
+
+### Python
+
+```python
+import emplode
+
+emplode.chat("Organize all images in my downloads folder into subfolders by year, naming each folder after the year.") # Executes a single command
+emplode.chat() # Starts an interactive chat
+```
+
+## Commands
+
+### Change the Model
+
+For `gpt-4o-mini`, use fast mode:
+
+```shell
+emplode --fast
+```
+
+In Python, you will need to set the model manually:
+
+```python
+emplode.model = "gpt-4o-mini"
+```
+
+### Running Emplode locally
+
+You can run `emplode` in local mode from the command line to use `Code Llama`:
+
+```shell
+emplode --local
+```
+
+Or run any Hugging Face model **locally** by using its repo ID (e.g. "tiiuae/falcon-180B"):
+
+```shell
+emplode --model nvidia/Llama-3.1-Nemotron-70B-Instruct
+```
+
+
+### Configuration with .env
+
+Emplode allows you to set default behaviors using a .env file. This provides a flexible way to configure it without changing command-line arguments every time.
+
+Here's a sample .env configuration:
+
+```
+EMPLODE_CLI_AUTO_RUN=False
+EMPLODE_CLI_FAST_MODE=False
+EMPLODE_CLI_LOCAL_RUN=False
+EMPLODE_CLI_DEBUG=False
+```
+
+You can modify these values in the .env file to change the default behavior of the Emplode
+
+## How Does it Work?
+
+Emplode equips a [function-calling model](https://platform.openai.com/docs/guides/gpt/function-calling) with an `exec()` function, which accepts a `language` (like "Python" or "JavaScript") and `code` to run.
+
+<br>
+

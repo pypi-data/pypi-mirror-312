@@ -1,0 +1,6 @@
+llm:
+  model: "gpt-4o"
+  temperature: 0
+  
+computer:
+  import_computer_api: True
