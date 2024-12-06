@@ -1,0 +1,16 @@
+cognitoctl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cognitoctl/__main__.py,sha256=teZMxSdV-GM0B8DsMNhCYtYtd492C4v9JAeme0i12AY,96
+cognitoctl/commands/__init__.py,sha256=SLjB4UQOOtrOSsEl7aQlKBBfNN7LDIX3C02v4l8zUAU,2285
+cognitoctl/commands/config.py,sha256=sn0HQjIliPLedlF01eRt3ff9IYI2Ft68pzf0kvVOR-0,2725
+cognitoctl/commands/group.py,sha256=QRfDkvwOh3cFA2pXHT-8wX66TXtk-wj-C9ZqUg9oW5s,5060
+cognitoctl/commands/user.py,sha256=AlB7MFHDGKxz58CRVct4y1W2S9JQOhGSRe3dYwhk8uw,4724
+cognitoctl/config/__init__.py,sha256=93oW6kqrBQk8J2qBI65BtvWZe0byi9BQ6B6iPpCoBM0,59
+cognitoctl/config/config.py,sha256=h4ecZg4QlJdtxncBUxUw3iLHXchEhlYa-5ijAZGZjEc,6109
+cognitoctl/exceptions/__init__.py,sha256=nG_xGNR_-lsOAYI-FAXBXh0oV9alyw3LDPu3eQ7Iq20,62
+cognitoctl/exceptions/exceptions.py,sha256=dQ36qn7QPVS6x_879xuZxx1BRHII2J4qdJpFNE1F61Q,54
+cognitoctl/main.py,sha256=bVLBsixmYQqoDNo22wRzmOzoiq-_B7v55dUd4IZpUhU,1375
+cognitoctl-1.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+cognitoctl-1.0.0.dist-info/METADATA,sha256=4v6kOP_ZEC-gcGwFTdxKu_U7QGoOp_1WZxYIqusk0hw,4783
+cognitoctl-1.0.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+cognitoctl-1.0.0.dist-info/entry_points.txt,sha256=PaoqF2mijiImE4ciwKXUSZLUBhqKOJO33e5H1iLXj0Y,55
+cognitoctl-1.0.0.dist-info/RECORD,,
