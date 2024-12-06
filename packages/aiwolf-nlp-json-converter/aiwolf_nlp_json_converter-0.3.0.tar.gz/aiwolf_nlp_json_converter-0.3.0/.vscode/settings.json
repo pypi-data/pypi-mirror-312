@@ -1,0 +1,5 @@
+{
+  "python.analysis.extraPaths": [
+        "/home/nwatanabe/aiwolf/organize/package/AIWolfNLPConverter/.venv/lib64/python3.8/site-packages/",
+    ],
+}
