@@ -1,0 +1,2 @@
+[console_scripts]
+hf-down = hf_down.main:main
