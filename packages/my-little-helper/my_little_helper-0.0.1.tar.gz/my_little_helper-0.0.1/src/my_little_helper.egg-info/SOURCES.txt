@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/my_little_helper/__init__.py
+src/my_little_helper/data.py
+src/my_little_helper.egg-info/PKG-INFO
+src/my_little_helper.egg-info/SOURCES.txt
+src/my_little_helper.egg-info/dependency_links.txt
+src/my_little_helper.egg-info/top_level.txt

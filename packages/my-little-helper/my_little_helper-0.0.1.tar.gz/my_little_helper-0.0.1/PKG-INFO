@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: my-little-helper
+Version: 0.0.1
+Summary: Just my helper functions
+Home-page: https://github.com/averkij/my-little-helper
+Author: Sergei Averkiev
+Author-email: averoo@gmail.com
+Project-URL: Bug Tracker, https://github.com/averkij/my-little-helper/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# my-little-helper
+Helper functions
