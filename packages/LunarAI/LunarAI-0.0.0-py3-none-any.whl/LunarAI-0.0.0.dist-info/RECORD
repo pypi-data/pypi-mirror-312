@@ -1,0 +1,17 @@
+LunarAI/__init__.py,sha256=9zvbHnfifxjWnB1pu3pEPO6_o3IUyHLE7w4hZWnYzPE,361
+LunarAI/model.py,sha256=ZqXAsWzWi7G1XmNhZpYKF4Vl7QjDeThATQ8DO_o1fiE,293
+LunarAI/activations/__init__.py,sha256=z5EfHMs6ONQFuWiYdewmDLzUC8gGTtsYWYKG7JvLJio,49
+LunarAI/activations/activations.py,sha256=P-f9jgfVdEPSXA3Ip-_yJSsU_-JCTPHw8C4FQkB2Z1E,543
+LunarAI/activations/dadz.py,sha256=8pIKt2wE_BTicHq6SeXPbzVZVWnKXlY5G3UyfBwZlpA,175
+LunarAI/activations/functions.py,sha256=BR1OTReeVbqJx0M0TGmEOP6tbUY3NHB-K4Y-ZiERKTs,111
+LunarAI/ai_libs/__init__.py,sha256=UPVddFURFVUws2Wj3MFwCdPBM3JKGW0DNdBJcAg_axQ,35
+LunarAI/ai_libs/array_type.py,sha256=5ud2RxuCMd1hNWHa5G9AK3SNtalGSAgrCe-d7zN74Os,6498
+LunarAI/ai_libs/matrix.py,sha256=mAzwV7ONV9Lwx1bjhyfD1gKBYUM3WdaMxuN4bYgkogk,3494
+LunarAI/examples/__init__.py,sha256=Z50XJtcjGYD5UCjuQ37MjUk1wlHO7mRn41kFS7OJHoQ,24
+LunarAI/examples/example_1.py,sha256=zO4oThmqU3TvdNSLXZqrEKl-zIqwOndQy_P05wiD0T4,314
+LunarAI/layers/__init__.py,sha256=lSTXshACA-VOIaCroZm_b3kcccy3SLsnt-IWXdAJrnU,19
+LunarAI/layers/layer.py,sha256=2Af7GYD4LtQ15_z0yxZjQXJVAPlRFESEyTEuX4s6HMA,603
+LunarAI-0.0.0.dist-info/METADATA,sha256=vpBYhNjZwG_o8TcHRF94oNTIrcNwjawh6Ro7HXN4pyo,1334
+LunarAI-0.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+LunarAI-0.0.0.dist-info/top_level.txt,sha256=dTcIyBlPUkHxON20tbEf72WtZzyWILNO6oh1Tr230SQ,8
+LunarAI-0.0.0.dist-info/RECORD,,
