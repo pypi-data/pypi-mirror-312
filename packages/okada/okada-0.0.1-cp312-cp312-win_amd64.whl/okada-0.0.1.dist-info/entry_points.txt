@@ -1,0 +1,2 @@
+[console_scripts]
+okada = okada.cli:main
