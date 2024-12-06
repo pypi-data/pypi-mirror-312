@@ -1,0 +1,17 @@
+foapy/__init__.py,sha256=eTIldehGK2FH3_edUE8UrAW9ldzwUThGZVVu2t9BcUc,2122
+foapy/alphabet.py,sha256=aTtzpXOb8nMhOlerBA19sZDG-1tDGmRN5OGJ362Jwl4,1443
+foapy/constants_intervals.py,sha256=vtuBLunum6N_MIVfssCa0l7rtK3bBQxYgwNse-sn_0I,116
+foapy/intervals.py,sha256=CnIapYlAQ96ns1Ouil8UMqBprejrjWm7XiJs7SjuVlE,3729
+foapy/order.py,sha256=s8lZ6MsWBEPib53z2eZZvaWTIAgSWJlSug7mpnwiR0c,2162
+foapy/exceptions/__init__.py,sha256=lRATzfu7QXKyIHTyVkKFREzIBg1nffDVoJcd2KRbO8c,505
+foapy/exceptions/inconsistent_order.py,sha256=zjk_4rLKDmUFepfn003mEHzn_bSAXgIPpCUWzm0cx1M,54
+foapy/exceptions/not_1d_array.py,sha256=RQckfHIuQUCtvjymu8kwwwM1qMckIJdeQks9bpEicxs,47
+foapy/ma/__init__.py,sha256=duC5INkan6NJmhgatxJE9iIb2bJUTeiFQY2jRpmFAXw,488
+foapy/ma/alphabet.py,sha256=S2baR7GnCp25s9TGoQ2uJcDak2VvQU4TM7xZKt0fG9k,2761
+foapy/ma/intervals.py,sha256=QVZwtNTvTLs49ysCcSm74J9rrGsZjpRvAIOnLLP5l_o,7337
+foapy/ma/order.py,sha256=PNRjC3XweJMMpIUYIYsNbORbeRpNz9yzVTqTmTARcP8,3169
+foapy-0.0.10.dist-info/LICENSE.txt,sha256=PZbcCLGzvErItpcEcqIarIavvcB20DG_gebnxxwHdbc,1492
+foapy-0.0.10.dist-info/METADATA,sha256=X9cStxFlb77pp21F--Q63BOjIwhUkvSbg5KeepMjJUo,2035
+foapy-0.0.10.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+foapy-0.0.10.dist-info/top_level.txt,sha256=yg1C4-_oI89lzpyQC_Iifk_scA8l4NG0ZMyMrZb7O80,6
+foapy-0.0.10.dist-info/RECORD,,
