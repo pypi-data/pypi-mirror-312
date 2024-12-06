@@ -1,0 +1,17 @@
+cas/cli.py,sha256=FXIawG9am8lf8g1sJNyGjVWj4fpYMaarjeNrCsnR86M,1372
+cas/session_utils.py,sha256=AOzqklNDRqxiUZWR4MJLDY-GnZqd6pCX-VjzMWDcyoU,527
+cas/commands/auth.py,sha256=YSuslCjYbgk6Ut1aWxKcyrZ5ZpJZ1_eQA2Xx-m_OBzE,2237
+cas/commands/group_create.py,sha256=nwYLmTRUSCHuliDsoy0GS8ctIusN4RySlW9Ct4Avqfg,1716
+cas/commands/group_delete.py,sha256=L7SOoJqHCy2i5tE9XsqJ4elXF4DrfkF3MfTg3bEisYQ,1234
+cas/commands/group_list.py,sha256=9NQPNUPOgl8yiXpN96YKapZ2NqlUyGKogEE56rzPGG8,1509
+cas/commands/group_privacy.py,sha256=rF0_5LNXYv21UQGd_T8mGL8afwW2BVR3ncafh_I89JM,1475
+cas/commands/help.py,sha256=lgpwx-bIZuTP2YGbviGwZgWelx9eUzxE57t5c6Kkkig,783
+cas/commands/info.py,sha256=WzXU6Nu4MH5qWwqgG16A8NNqroapuDowcrYuUYz6RQM,539
+cas/commands/pull.py,sha256=gqj_sR4hIzuHVHnRL43bZZyjoX7qq5PKCFm2zacp_EM,1471
+cas/commands/push.py,sha256=XzRe0pDgUx8rWZTxDG6nYPOKFTtwBU5osPLn5bESbss,1457
+collaborative_article_sharing-0.1.0b4.dist-info/LICENSE,sha256=CFt4pUZqMAhdWFTW8Nx1fXXDv1XacoSWPA-ed56Fn-k,1072
+collaborative_article_sharing-0.1.0b4.dist-info/METADATA,sha256=UEVOYgXwKArei668fP0w0lJuLXi5bMXjpgW9CDPr-oM,1089
+collaborative_article_sharing-0.1.0b4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+collaborative_article_sharing-0.1.0b4.dist-info/entry_points.txt,sha256=OauDPdaz_CGuJ2M5MwOefNbXqzyG-QVZt2_FlFaARTI,37
+collaborative_article_sharing-0.1.0b4.dist-info/top_level.txt,sha256=3hPTpw1GEpXkjVd84_PGpJ9Z5R3B-KGHqmP7MMsSTZw,4
+collaborative_article_sharing-0.1.0b4.dist-info/RECORD,,
