@@ -1,0 +1,2 @@
+recursive-include filehub/templates *
+recursive-include filehub/static *
