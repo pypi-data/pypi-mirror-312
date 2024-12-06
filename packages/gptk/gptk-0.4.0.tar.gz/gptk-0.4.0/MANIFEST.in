@@ -1,0 +1,4 @@
+include src/data/*.txt
+include src/data/*.png
+include src/data/*.svg
+include src/data/*.yml

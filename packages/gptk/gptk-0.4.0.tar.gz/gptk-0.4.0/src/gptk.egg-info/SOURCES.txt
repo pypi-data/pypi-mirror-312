@@ -1,0 +1,15 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+src/gptk/__init__.py
+src/gptk/constants.py
+src/gptk/encoding.py
+src/gptk/enums.py
+src/gptk/pydocument.py
+src/gptk/singletons.py
+src/gptk.egg-info/PKG-INFO
+src/gptk.egg-info/SOURCES.txt
+src/gptk.egg-info/dependency_links.txt
+src/gptk.egg-info/requires.txt
+src/gptk.egg-info/top_level.txt

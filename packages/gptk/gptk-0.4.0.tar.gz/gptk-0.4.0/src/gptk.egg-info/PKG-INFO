@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: gptk
+Version: 0.4.0
+Summary: A General Python Tool Kit, suitable for most projects.
+Author-email: "J.T. Hartzfeld" <J.T.Hartzfeld@jthdevelops.com>
+Project-URL: Homepage, https://github.com/JTHDevelops/gptk
+Project-URL: Bug Tracker, https://github.com/JTHDevelops/gptk/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: auto_all>=1.4.1
+Requires-Dist: platformdirs>=4.2.0
+Requires-Dist: pint>=0.23
+Requires-Dist: PropertyPlus>=1.0.9
+
+# GPTK: the General Python Tool Kit
+This is a collection of code that I have found useful in my 
+tinkerings, perhaps you'll find it useful, too.
+
+
+
+
+## Installation
+```sh
+pip install gptk
+```
+
+## Usage
+Use pydoc to peruse the package.  Everything included should be well
+documented.
