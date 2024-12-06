@@ -1,0 +1,2 @@
+recursive-include fast_targetprice *.pyd
+recursive-include fast_targetprice *.pkl
