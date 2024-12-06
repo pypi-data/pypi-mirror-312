@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-commons-best-practices"
+version = "1.1.0"
+authors = [
+  { name="Tim Schilling", email="schillingt@better-simple.com" },
+]
+description = "A place to test things out"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "django",
+    "django commons",
+]
+
+[project.urls]
+Homepage = "https://github.com/django-commons/best-practices"
+Issues = "https://github.com/django-commons/best-practices/issues"

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/django_commons_best_practices/__init__.py
+src/django_commons_best_practices/playground.py
+src/django_commons_best_practices.egg-info/PKG-INFO
+src/django_commons_best_practices.egg-info/SOURCES.txt
+src/django_commons_best_practices.egg-info/dependency_links.txt
+src/django_commons_best_practices.egg-info/top_level.txt
+tests/test_playground.py

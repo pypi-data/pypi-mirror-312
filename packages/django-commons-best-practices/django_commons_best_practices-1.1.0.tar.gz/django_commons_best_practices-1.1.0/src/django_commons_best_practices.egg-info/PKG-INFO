@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django-commons-best-practices
+Version: 1.1.0
+Summary: A place to test things out
+Author-email: Tim Schilling <schillingt@better-simple.com>
+Project-URL: Homepage, https://github.com/django-commons/best-practices
+Project-URL: Issues, https://github.com/django-commons/best-practices/issues
+Keywords: django,django commons
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Django Commons example repository
+
+This is an example repository for Django Commons. Some relevant areas to review are:
+
+- GitHub action ([release.yml](https://github.com/django-commons/best-practices/blob/main/.github/workflows/release.yml)) for releasing to PyPI
+- [Documentation](docs/README.md)
