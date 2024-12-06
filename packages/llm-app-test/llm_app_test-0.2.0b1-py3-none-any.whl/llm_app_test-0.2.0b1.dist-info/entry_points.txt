@@ -1,0 +1,2 @@
+[pytest11]
+llmtest = llm_app_test.pytest_plugin.plugin
