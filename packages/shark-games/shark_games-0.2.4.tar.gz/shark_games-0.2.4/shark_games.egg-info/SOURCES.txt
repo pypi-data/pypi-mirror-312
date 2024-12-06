@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+shark_games/__init__.py
+shark_games/cli.py
+shark_games/main.py
+shark_games.egg-info/PKG-INFO
+shark_games.egg-info/SOURCES.txt
+shark_games.egg-info/dependency_links.txt
+shark_games.egg-info/entry_points.txt
+shark_games.egg-info/requires.txt
+shark_games.egg-info/top_level.txt
+shark_games/dices/__init__.py
+shark_games/dices/coin.py
+shark_games/dices/roll.py
+shark_games/praise/__init__.py
+shark_games/praise/praise.py

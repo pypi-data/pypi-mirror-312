@@ -1,0 +1,7 @@
+click
+aiohttp
+aiodns
+Brotli
+requests
+aiofiles
+dice
