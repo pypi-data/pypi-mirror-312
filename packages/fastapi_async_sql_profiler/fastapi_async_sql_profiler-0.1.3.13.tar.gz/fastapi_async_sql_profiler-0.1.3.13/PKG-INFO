@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: fastapi_async_sql_profiler
+Version: 0.1.3.13
+Summary: fastapi async sqlalchemy profiler
+License: MIT
+Author: itzero-ru
+Author-email: paw100d@gmail.com
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: pdf
+Requires-Dist: asyncpg (>=0.30.0)
+Requires-Dist: fastapi (>=0.115.0)
+Requires-Dist: jinja2 (>=3.1.4)
+Requires-Dist: psycopg2-binary (>=2.9.10)
+Requires-Dist: python-dotenv (>=1.0.1)
+Requires-Dist: sqlalchemy[asyncio] (>=2.0.16)
+Requires-Dist: sqlparse (>=0.5.1)
+Description-Content-Type: text/markdown
+
+# fastapi-async-sql-profiler
+
+1. Add it to your file main.py
+
+```
+from fastapi_async_sql_profiler import SQLProfilerMiddleware
+from fastapi_async_sql_profiler import router as profiler_router
+from fastapi_async_sql_profiler import init_db
+
+
+engine = create_async_engine("sqlite+aiosqlite:///db.sqlite")
+
+app.include_router(profiler_router, prefix='', tags=['SQL Profiler'])
+task = asyncio.create_task(init_db(engine_async=engine))
+
+SQL_PROFILER_PASS_ROUTE_STARTSWITH = [
+    '/docs',
+    '/openapi.json',
+    '/favicon.ico',
+]
+app.add_middleware(
+    SQLProfilerMiddleware, engine=engine,
+    skip_route_startswith=SQL_PROFILER_PASS_ROUTE_STARTSWITH,
+)
+```
