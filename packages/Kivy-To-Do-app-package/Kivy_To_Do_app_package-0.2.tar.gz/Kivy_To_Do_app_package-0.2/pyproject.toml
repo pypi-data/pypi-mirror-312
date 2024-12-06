@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "Kivy_To_Do_app_package" 
+version = "0.2"
+authors = [
+  { name="daniel908009", email="krizdaniel151@gmail.com" },
+]
+description = "A Kivy To Do app"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "Kivy",
+]
+
+[project.urls]
+Homepage = "https://github.com/Daniel908009/Kivy-To-Do-app"
