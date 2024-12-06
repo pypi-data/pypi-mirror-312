@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: PropertyPlus
+Version: 1.0.9
+Summary: A heavily improved subclass of the `property` descriptor, plus more.
+Author-email: "J.T. Hartzfeld" <J.T.Hartzfeld@jthdevelops.com>
+Project-URL: Homepage, https://github.com/JTHDevelops/propertyplus
+Project-URL: Bug Tracker, https://github.com/JTHDevelops/propertyplus/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: auto_all>=1.4.1
+
+# PropertyPlus
+Provides a heavily improved extension subclass of the property decorator
+called Property,  a number of use-case specific subclasses of Property, 
+and 7 module level decorator functions to manipulate Property objects.
+
+
+
+
+
+
+
+## The Property Class
+
+
+## Property Subclasses
+ *TODO: write this*
+
+
+## Helper Decorators
+PropertyPlus also embraces a new notation for Property descriptors.  
+This optional feature is purely stylistic, but we like it.
+
+### getter(prop)
+
+### setter(prop)
+
+### deleter(prop)
+
+### validator(prop)
+
+### normalizer(prop)
+
+### typefixer(prop)
