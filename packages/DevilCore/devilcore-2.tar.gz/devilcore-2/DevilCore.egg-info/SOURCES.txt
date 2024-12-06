@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+DevilCore.egg-info/PKG-INFO
+DevilCore.egg-info/SOURCES.txt
+DevilCore.egg-info/dependency_links.txt
+DevilCore.egg-info/top_level.txt
+DevilNinja/__init__.py
