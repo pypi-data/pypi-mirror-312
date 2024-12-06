@@ -1,0 +1,7 @@
+self_encryption-0.32.4.dist-info/METADATA,sha256=G2hVRoIWY1qKHzmdjAqkCZp4QL8P7bKy_YhWfAxqpUw,11673
+self_encryption-0.32.4.dist-info/WHEEL,sha256=uElsxh4JMYXcyRO8vaxnFSYXUVUltU9bM1nHMEhHO7U,95
+self_encryption-0.32.4.dist-info/licenses/LICENSE,sha256=HtomUtf_hnp5NJuGJ8F2A1wXsSsnUgmkChg-O__NUqs,37018
+self_encryption/cli.py,sha256=K2KWcGGG2ucwawvct6aJIfDB03UHJ29DfB2u_0PDHBU,5086
+self_encryption/__init__.py,sha256=-CqpSPTYzKJBbeYE319HTNkAJOVxuxWwmDfMOC2br30,776
+self_encryption/self_encryption.cp312-win_amd64.pyd,sha256=CkW3-XvTmvms3-seRHIj-R_6aYQgMoIdfoTwOIJvjDY,2105856
+self_encryption-0.32.4.dist-info/RECORD,,
