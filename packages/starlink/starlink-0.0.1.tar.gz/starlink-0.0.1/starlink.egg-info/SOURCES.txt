@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+starlink.egg-info/PKG-INFO
+starlink.egg-info/SOURCES.txt
+starlink.egg-info/dependency_links.txt
+starlink.egg-info/requires.txt
+starlink.egg-info/top_level.txt

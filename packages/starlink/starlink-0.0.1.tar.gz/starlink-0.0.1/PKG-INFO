@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: starlink
+Version: 0.0.1
+Summary: Unofficial Python wrapper for the STARLINK API by Tarmica Chiwara
+Home-page: https://github.com/lordskyzw/starlink
+Author: Tarmica Chiwara
+Author-email: Tarmica Chiwara <tarimicac@gmail.com>
+License: MIT
+Project-URL: Repository, https://github.com/lordskyzw/starlink
+Keywords: leo satellites,api,automation,starlink,opensource
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.0
+Requires-Dist: colorama>=0.4.3
+Requires-Dist: requests_toolbelt>=0.9.1
+
+just setting up
