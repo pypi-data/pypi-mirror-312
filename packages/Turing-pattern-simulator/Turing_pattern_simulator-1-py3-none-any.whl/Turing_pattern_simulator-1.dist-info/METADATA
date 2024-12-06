@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Turing_pattern_simulator
+Version: 1
+Summary: A Python-based tool for constructing, verifying, and visualizing Turing Pattern based on reaction-diffusion models.
+Home-page: https://github.com/songzi123songzi/Turing-Pattern-Simulator
+Author: Zihao Song
+Author-email: zhsong@uw.edu
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: matplotlib
