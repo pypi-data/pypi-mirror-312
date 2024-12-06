@@ -1,0 +1,9 @@
+pylibtypes/__init__.py,sha256=JlvssIOcR-LQ6QKhLfazd8uScuroaK8mIVteJ8CGWcU,226
+pylibtypes/_version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+pylibtypes/folder_based_class_attrs.py,sha256=u5hEYc8U0jLDRow98X7INFj8ZuLTTRmTXjp4R2dhUXU,2160
+pylibtypes/named_subclass_factory.py,sha256=K_CuOLp8dDbzlgJddQkKvjo0Z2kWz2hg891-IJ3tAaE,1207
+orgecc_pylib-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+orgecc_pylib-0.1.0.dist-info/METADATA,sha256=9B6m8prrKgYAZLPzKCN3I2hfMRjPsQsBMkuJ1P4Y3Mk,1086
+orgecc_pylib-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+orgecc_pylib-0.1.0.dist-info/top_level.txt,sha256=FLQqlb781ajCuJgpuANPOGLEtw6_MZ8h7wL6QlGGhmw,11
+orgecc_pylib-0.1.0.dist-info/RECORD,,
