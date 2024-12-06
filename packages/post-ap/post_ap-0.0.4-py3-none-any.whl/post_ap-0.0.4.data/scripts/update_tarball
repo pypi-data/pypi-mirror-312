@@ -1,0 +1,159 @@
+#!/usr/bin/env bash
+
+#--------------------------------
+display_help()
+{
+    echo "Usage: Used to update tarball with virtual environment and optionally upload it to the grid"
+    echo ""
+    echo "-h: Help"
+    echo "-v: Version of tarball, optional, if not passed, wont upload it"
+    echo "-s: Will skip uploading tarball, but it will (re)build it."
+}
+#--------------------------------
+get_args()
+{
+    SKIP_UPLOAD=0
+    while getopts :hf:v:s: option; do 
+        case "${option}" in
+            h)  
+                display_help
+                exit 0
+                ;;  
+            \?)  echo "Invalid option: -${OPTARG}"
+                display_help
+                exit 1
+                ;;  
+            :)  echo "$0: Arguments needed"
+                display_help
+                exit 1
+                ;;  
+            v)  VERS=${OPTARG};;
+            s)  SKIP_UPLOAD=${OPTARG};;
+        esac
+    done
+}
+#--------------------------------
+check()
+{
+    if [[ $? -ne 0 ]];then
+        echo "Failed: $1"
+        exit 1
+    fi
+}
+#--------------------------------
+upload()
+{
+    if [[ $SKIP_UPLOAD -eq 1 ]];then
+        echo "Skipping upload"
+        return
+    fi
+
+    if [[ -z $VERS ]];then
+        echo "Version of tarball not passed, won't upload it"
+        exit 0
+    fi
+
+    SOURCE=$VENVS/dcheck.tar 
+    TARGET="dirac-dms-add-file LFN:/lhcb/user/${LXNAME:0:1}/$LXNAME/run3/venv/$VERS/dcheck.tar"
+
+    echo "Uploading tarball for $TARGET"
+    lb-dirac $TARGET $SOURCE CERN-USER
+}
+#--------------------------------
+initialize()
+{
+    which lb-conda-dev > /dev/null
+    check "No lb-conda-dev found"
+
+    which lb-dirac     > /dev/null
+    check "No lb-dirac found"
+
+    lhcb-proxy-info    > /dev/null
+    check "Invalid grid proxy"
+
+    if [[ -z $VENVS ]];then
+        echo "VENVS environment variable not set"
+        exit 1
+    fi
+
+    set_pkg_path data_manipulation_utilities 
+    DMANUT=$TMP
+    TMPLOG=/tmp/dchecks_data.log
+    echo "data_manipulation_utilities --->  $DMANUT" > $TMPLOG
+
+    set_pkg_path rx_scripts  
+    SCRIPTS=$TMP
+    echo  "rx_scripts --->  $SCRIPTS"               >> $TMPLOG
+
+    set_pkg_path post_ap 
+    DCHECKS=$TMP
+    echo "post_ap --->  $DCHECKS"               >> $TMPLOG
+
+    column -t $TMPLOG
+}
+#--------------------------------
+set_pkg_path()
+{
+    PKGNAME=$1
+
+    TMP=$(pip show $PKGNAME | grep "Editable project location" | awk -F ': ' '{print$2}' | sed 's|/src||g')
+
+    if [[ $? -ne 0 ]];then
+        echo "Could not find path to package $PKGNAME"
+        exit 1
+    fi
+
+    if [[ ! -d $TMP ]];then
+        echo "Path to package $PKGNAME not found: $TMP"
+        exit 1
+    fi
+}
+#--------------------------------
+make_tarball()
+{
+    if [[ ! -d $VENVS ]];then
+        mkdir -p $VENVS
+    fi
+
+    cd $VENVS
+
+    rm -rf dchecks.tar
+    check "Remove tarball, if found"
+
+    if [[ ! -f $VENVS/dcheck/run ]];then
+        echo "Environment not found, creating it"
+        lb-conda-dev virtual-env default dcheck
+    else
+        echo "Environment found, updating tarball"
+    fi
+
+    install_pkgs
+
+    tar -czf dcheck.tar dcheck
+    echo "Running: tar -czf dcheck.tar dcheck"
+    check "Tar post_ap"
+
+    cd -
+}
+#--------------------------------
+install_pkgs()
+{
+    source dcheck/bin/activate
+
+    pip install $DMANUT > /dev/null
+    echo "Running: pip install $DMANUT" 
+    check "Install data_manipulation_utilities"
+
+    pip install $SCRIPTS > /dev/null
+    echo "Running: pip install $SCRIPTS"
+    check "Install scripts"
+
+    pip install $DCHECKS > /dev/null
+    echo "Running: pip install $DCHECKS" 
+    check "Install post_ap"
+}
+#--------------------------------
+get_args "$@"
+initialize
+make_tarball
+upload

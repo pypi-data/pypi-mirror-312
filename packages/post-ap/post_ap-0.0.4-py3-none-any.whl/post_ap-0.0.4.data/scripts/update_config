@@ -1,0 +1,102 @@
+#!/usr/bin/env bash
+
+#---------------------------------
+display_help()
+{
+    echo "Script used to upload TOML config file to the grid"
+    echo ""
+    echo "-u: Will update (1) or not (0) the LFN, if it already exists"
+}
+#---------------------------------
+get_opts()
+{
+    if [[ $# -eq 0 ]]; then
+        display_help
+        exit 1
+    fi  
+
+    UPDT=0
+    while getopts :hf:f:u: option; do 
+        case "${option}" in
+            h)  
+                display_help
+                exit 0
+                ;;  
+            \?)  echo "Invalid option: -${OPTARG}"
+                display_help
+                exit 1
+                ;;  
+            :)  echo "$0: Arguments needed"
+                display_help
+                exit 1
+                ;;  
+            u)  UPDT=${OPTARG};;
+        esac
+    done
+}
+#---------------------------------
+check_env()
+{
+    which lb-dirac > /dev/null
+
+    if [[ $? -ne 0 ]];then
+        echo "Not in an environment with LHCb software"
+        exit 1
+    fi
+
+    lhcb-proxy-info -v > /dev/null
+
+    if [[ $? -ne 0 ]];then
+        echo "Grid proxy not found"
+        exit 1
+    fi
+
+    DCHECK=$(pip show post_ap | grep "Editable project location" | awk -F ': ' '{print$2}' | sed 's|/src||g')
+    if [[ ! -d $DCHECK ]];then
+        echo "Cannot find directory with post_ap project"
+        exit 1
+    fi
+}
+#---------------------------------
+check_existing()
+{
+    lb-dirac dirac-dms-lfn-replicas $LFN > /dev/null
+    if   [[ $? -eq 0 ]] && [[ $UPDT -eq 1 ]];then
+        echo "LFN found, removing: \"$LFN\""
+        lb-dirac dirac-dms-remove-files $LFN
+    elif [[ $? -eq 0 ]] && [[ $UPDT -eq 0 ]];then
+        echo "LFN found: \"$LFN\""
+        exit 1
+    elif [[ $? -ne 0 ]];then
+        echo "No replica found for \"$LFN\""
+    else
+        echo "Replica finding process exited with status $? and the updating flag was $UPDT"
+        exit 1
+    fi
+}
+#---------------------------------
+update()
+{
+    CONF=$1
+    if [[ ! -f $CONF ]];then
+        echo "Cannot find $CONF"
+        exit 1
+    fi
+
+    echo ""
+    echo ""
+    echo "Uploading $CONF"
+    FILENAME=$(basename $CONF)
+    LFN=/lhcb/user/${LXNAME:0:1}/$LXNAME/run3/ntupling/config/$FILENAME
+    check_existing
+
+    lb-dirac dirac-dms-add-file LFN:$LFN $CONF $SE 
+    echo "Uploaded config to: $LFN [$SE]"
+}
+#---------------------------------
+SE=CERN-USER
+get_opts "$@"
+check_env
+
+update $DCHECK/src/post_ap_data/dt_2024_turbo_comp.yaml
+update $DCHECK/src/post_ap_data/mc_2024_turbo_comp.yaml
