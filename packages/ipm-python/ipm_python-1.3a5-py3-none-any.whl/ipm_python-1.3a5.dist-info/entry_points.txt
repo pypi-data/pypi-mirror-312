@@ -1,0 +1,3 @@
+[console_scripts]
+ipm = ipm.cli:main
+

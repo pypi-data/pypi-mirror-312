@@ -1,0 +1,12 @@
+ipm/__init__.py,sha256=8cua7KsERSEYq848U-XEv1TvSYDQEUMt6Z-ovONvm_U,171
+ipm/downloader.py,sha256=i2b8mrew-FrPexY6NhPvBzpE46Wn8Cu1uy4UxmaM53I,973
+ipm/installer.py,sha256=YeNGX2iiqDfJx8jq8P6KR2PLtprZDcWPStLZ3pe9F-o,1212
+ipm/mirrors.py,sha256=QG0X-LP6lcOwdOGDPtCZMytEbIApb8qrj52vWSlTUxA,152
+ipm/resolver.py,sha256=OIS6zMUHc9kQoNlnE4aM9oG08QGiYEGRSkkuC-m9AaI,860
+ipm/utils.py,sha256=Ps26vbIPlO5DQHhVR_Kq7bVtBrJasTbiYhb7I7Mq3dI,339
+ipm_python-1.3a5.dist-info/LICENSE,sha256=wwXc_NgKmGqbpdJxysWGb4PLBNjqSeca25h5WJ5ObwU,1089
+ipm_python-1.3a5.dist-info/METADATA,sha256=MWaiqF6PmlR1Z3PTyPqeOfbk1VGef_bR4hcfqNWWSgI,1386
+ipm_python-1.3a5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ipm_python-1.3a5.dist-info/entry_points.txt,sha256=2WQV7sJEF2kNqTAPTM5m_7mzK0t3y3PsagjwEp357Do,38
+ipm_python-1.3a5.dist-info/top_level.txt,sha256=aoQxk7YofRAOan5enQxCAm1_An7OuuDJX31_0gPDSg0,4
+ipm_python-1.3a5.dist-info/RECORD,,
