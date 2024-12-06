@@ -1,0 +1,8 @@
+pysgn/__init__.py,sha256=9lH6bMo-XKO1qrfKeIJduEu8SAejqNATfBv3p0E9maU,493
+pysgn/geo_erdos_renyi_network.py,sha256=Dszko9tiekkRio3goJgzmETNSRNH1I3QOQ1N8y0ucIw,7591
+pysgn/geo_watts_strogatz_network.py,sha256=1Tk05_j_tPRUUKNlY8WrKpYVF5S9Rr7fyrwTUD3KZzk,18279
+pysgn/utils.py,sha256=OPnLG_feSU3CrcnuKG-r0wnwXXsRUeykrqTwacKJGXk,3782
+pysgn-0.1.0.dist-info/METADATA,sha256=j1TkxAxaA3rIGYffOt7U4xJhtY1tidYe1yhGncC1KqA,6399
+pysgn-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+pysgn-0.1.0.dist-info/licenses/LICENSE,sha256=q0GjvSdHf2uydScl5CP6pk1KhyMiBPDpCQ4JWmClK3E,1066
+pysgn-0.1.0.dist-info/RECORD,,
