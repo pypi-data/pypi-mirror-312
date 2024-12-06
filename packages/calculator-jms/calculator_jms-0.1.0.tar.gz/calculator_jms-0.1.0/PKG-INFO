@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: calculator-jms
+Version: 0.1.0
+Summary: 
+Author: James Twose
+Author-email: james.twose2711@gmail.com
+Requires-Python: >=3.13,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: typer (>=0.14.0,<0.15.0)
+Description-Content-Type: text/markdown
+
+
+# Calculator CLI
+A CLI that allows you to do simple computations from the terminal
+
+- `poetry install`
+- `poetry build`
+- `poetry config pypi-token.pypi TOKEN` or
+- `poetry config http-basic.pypi <username> <password>`
+- `poetry publish --build`
