@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/bancor_simulation/__init__.py
+src/bancor_simulation/core.py
+src/bancor_simulation.egg-info/PKG-INFO
+src/bancor_simulation.egg-info/SOURCES.txt
+src/bancor_simulation.egg-info/dependency_links.txt
+src/bancor_simulation.egg-info/requires.txt
+src/bancor_simulation.egg-info/top_level.txt
