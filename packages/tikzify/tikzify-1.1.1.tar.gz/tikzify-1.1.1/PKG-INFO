@@ -1,0 +1,93 @@
+Metadata-Version: 2.3
+Name: tikzify
+Version: 1.1.1
+Summary: Utilities for programmatically generating TikZ code.
+Project-URL: repository, https://github.com/NeilGirdhar/tikzify
+Author: Neil Girdhar
+Author-email: mistersheik@gmail.com
+Maintainer: Neil Girdhar
+Maintainer-email: mistersheik@gmail.com
+License: MIT License
+        
+        Copyright (c) 2017 Neil Girdhar
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: <3.13,>=3.10
+Requires-Dist: more-itertools>=8
+Requires-Dist: networkx>=2.5
+Requires-Dist: numpy>=1.21
+Requires-Dist: scipy>=1.9
+Description-Content-Type: text/x-rst
+
+=======
+Tikzify
+=======
+.. image:: https://badge.fury.io/py/tikzify.svg
+    :target: https://badge.fury.io/py/tikzify
+
+.. role:: bash(code)
+    :language: bash
+
+A set of utilities for programmatically generating TikZ code.
+
+Contribution guidelines
+=======================
+
+- Conventions
+
+  - Naming conventions are according to PEP8.
+
+- How to clean the source:
+
+  - :bash:`ruff .`
+  - :bash:`pyright`
+  - :bash:`mypy`
+  - :bash:`isort .`
+  - :bash:`pylint tikzify`
+
+Running
+=======
+
+- This macro is helpful for running examples:
+
+.. code-block:: bash
+
+    function dm {
+        python "$1.py" $2 && pdflatex -shell-escape $1 && open $1.pdf
+    }
+
+- The basal ganglia example can be run by doing :bash:`dm basal_ganglia` from the examples folder.  It should produce :bash:`examples/basal_ganglia.pdf`, which shows all of the output, as well as :bash:`examples/figures/basal_ganglia-*.pdf`, which are the individual diagrams to be included.
+
+- A copy of the `pdf <examples/basal_ganglia.pdf>` is provided.  It shows three programmatically-generated diagrams, with various sections highlighted.
+
+Whom do I talk to?
+==================
+
+- Neil Girdhar
