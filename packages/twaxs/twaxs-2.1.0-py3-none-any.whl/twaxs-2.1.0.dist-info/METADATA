@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: twaxs
+Version: 2.1.0
+Author: Nukorn Plainpan
+Author-email: nukorn.p27@gmail.com
+License-File: LICENSE
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: ipywidgets
+Requires-Dist: IPython
+Requires-Dist: plotly
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: python-dateutil
+Requires-Dist: openpyxl
+Requires-Dist: ipykernel
+Requires-Dist: pathlib
+
