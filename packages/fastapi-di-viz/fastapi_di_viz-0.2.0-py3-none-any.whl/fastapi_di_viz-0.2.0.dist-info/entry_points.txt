@@ -1,0 +1,3 @@
+[console_scripts]
+fastapi-di-viz=fastapi_di_viz.app:main
+
