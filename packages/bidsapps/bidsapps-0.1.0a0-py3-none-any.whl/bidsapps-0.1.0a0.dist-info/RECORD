@@ -1,0 +1,12 @@
+bidsapps/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bidsapps/app_import.py,sha256=zOpckJsuhMAMOKvX_XjdVhVM2DvaOMmjM_MAznGai8U,5734
+bidsapps/app_management.py,sha256=ipqF_ItQ401pxOHliVU8jvaxLeqLSseLxk-Dvc5_XnY,716
+bidsapps/cli.py,sha256=61d95lVyzd7o8eU9HrsygolWK9xyr2sEZCEKvw1PINg,4946
+bidsapps/interactive_edit.py,sha256=DoM7Ilnx0jT7Id7a2i5B1VkQIgvw6ykxUt7fjwd9GD0,4324
+bidsapps/manifest_management.py,sha256=A4qPfrf4qv1F2WbHpOw3t21sE6HNf7NTeNCBx9_l2Og,5038
+bidsapps/query_configs.py,sha256=s8on5Sck_xqzuDOT20HGREp9pxME8ylvOLtGii9bmtI,1164
+bidsapps/repo_management.py,sha256=9WlEN7Qjk9DTz2KSiDQGW0O1pYaYenZCIUGe0G6Spz0,1642
+bidsapps-0.1.0a0.dist-info/METADATA,sha256=0GyZAIIdhwx7ke5MF_QPmJ9_640dscQurelSacZiXkQ,2050
+bidsapps-0.1.0a0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+bidsapps-0.1.0a0.dist-info/entry_points.txt,sha256=2Zo4uK4rXu7DEH9ry59NGZxufyvfCEDGbdkCJHfVxBA,46
+bidsapps-0.1.0a0.dist-info/RECORD,,
