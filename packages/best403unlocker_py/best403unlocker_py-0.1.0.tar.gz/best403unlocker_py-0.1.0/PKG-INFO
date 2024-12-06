@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: best403unlocker_py
+Version: 0.1.0
+Summary: python lib of best403unlocker
+Home-page: https://github.com/msnemp/best403unlocker-py
+License: MIT
+Keywords: security,403,bypass,web,penetration-testing
+Author: Muhammad sadegh nemat pour
+Author-email: mohamadnematpoor@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: dnspython (>=2.7.0,<3.0.0)
+Requires-Dist: pytest (>=8.3.3,<9.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: tqdm (>=4.67.1,<5.0.0)
+Requires-Dist: typing-extensions (>=4.9.0,<5.0.0)
+Project-URL: Repository, https://github.com/msnemp/best403unlocker-py
+Description-Content-Type: text/markdown
+
+# Best 403 Unlocker (Python Version)
+
+A Python CLI tool that helps you find the fastest DNS SNI proxy server for your internet service provider. This tool automatically tests multiple DNS servers and configures your system to use the fastest ones.
+
+## Features
+
+- Automated DNS speed testing
+- Cross-platform support (Windows, macOS, Linux)
+- Easy-to-use command line interface 
+- Detailed performance metrics for each DNS server
+- Config file support for custom DNS servers
+- Progress bar visualization during testing
+- Supports both interactive and command-line modes
+
+## Prerequisites
+
+- Python 3.12 or higher
+- Poetry package manager
+- Administrative/root privileges (required for DNS configuration)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/403unlocker/best403unlocker-py.git
+cd best403unlocker-py
+```
+2. Install dependencies using Poetry:
+
+```bash
+poetry install
+```
+
+## Usage
+The tool provides several commands through its CLI interface:
+
+Default Mode
+Simply run without any arguments to automatically find and set the fastest DNS servers:
+
+Search DNS Servers
+To only test DNS servers without applying them:
+
+Set Specific DNS Servers
