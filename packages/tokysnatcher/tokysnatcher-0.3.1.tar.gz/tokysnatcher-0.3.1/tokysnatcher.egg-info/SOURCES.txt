@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+tokysnatcher/__main__.py
+tokysnatcher/chapters.py
+tokysnatcher/download.py
+tokysnatcher/search.py
+tokysnatcher.egg-info/PKG-INFO
+tokysnatcher.egg-info/SOURCES.txt
+tokysnatcher.egg-info/dependency_links.txt
+tokysnatcher.egg-info/entry_points.txt
+tokysnatcher.egg-info/requires.txt
+tokysnatcher.egg-info/top_level.txt
