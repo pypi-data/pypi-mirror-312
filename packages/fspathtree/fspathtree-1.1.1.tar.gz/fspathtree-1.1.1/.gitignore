@@ -1,0 +1,11 @@
+.cache/
+__pycache__/
+*.pyc
+.*swp
+dist/
+MANIFEST
+fspathtree.egg-info
+.vim/
+poetry.lock
+requirements-dev.lock
+requirements.lock
