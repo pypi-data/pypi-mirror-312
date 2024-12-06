@@ -1,0 +1,16 @@
+edamampy/__init__.py,sha256=GbljrJKP6dStUvi8CrtCxrfT-qQdDPcwUr58d6hsxqo,132
+edamampy/cli.py,sha256=OSW5ens1Xv-bBEMsy-2SHpY_3EkH1ew5svgQNyw93ic,3913
+edamampy/classes/ApiHandler.py,sha256=hq10jVKMYaodwslKnSTNtgxmz8Inkfck5HEuZ8j--t8,5240
+edamampy/classes/Exceptions.py,sha256=-zFK__pBI-h7ZQeGvopl71jEaa7PVvICNOncejVBXvI,915
+edamampy/classes/QueryBuilder.py,sha256=z_qpyPx2eB9h2_JrsoeDaxrVAkRq9x_8nI3dczot58A,6210
+edamampy/classes/Validator.py,sha256=fgqNSnJ_zchsz21-l4VRqtvwsduD5tQnrWxLN1xW28s,5811
+edamampy/classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edamampy/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edamampy/config/settings.py,sha256=JXbM7mMmzpr7umO4EqwgUDeyiU8epSpFpVmye-ADrLU,449
+edamampy/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edamampy/constants/const.py,sha256=LIl7FzdxdInnro4genUgE94nEYHfOmiAachgwp7dUdE,2668
+edamampy-0.0.1.dist-info/LICENSE,sha256=_oEhvDehnu6V97dPlxni6-q74ChcH7hVcfjmbV0k2zY,1070
+edamampy-0.0.1.dist-info/METADATA,sha256=p9deigXuV_WgzIjdE0iRL4AZFWPmLsei5X1TveIjNy8,3127
+edamampy-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+edamampy-0.0.1.dist-info/top_level.txt,sha256=YpOfij5wSuNA47mzK99B2ez-7rq5pN9-kgqKH-JZXRc,9
+edamampy-0.0.1.dist-info/RECORD,,
