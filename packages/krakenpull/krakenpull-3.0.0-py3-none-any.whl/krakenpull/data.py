@@ -1,0 +1,1 @@
+FIAT_CURRENCIES = ["AUD", "CAD", "CHF", "EUR", "GBP", "JPY", "MNT", "USD"]
