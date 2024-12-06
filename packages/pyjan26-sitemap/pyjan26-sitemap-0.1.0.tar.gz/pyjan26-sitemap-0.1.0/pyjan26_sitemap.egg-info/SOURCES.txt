@@ -1,0 +1,6 @@
+README.md
+setup.py
+pyjan26_sitemap.egg-info/PKG-INFO
+pyjan26_sitemap.egg-info/SOURCES.txt
+pyjan26_sitemap.egg-info/dependency_links.txt
+pyjan26_sitemap.egg-info/top_level.txt
