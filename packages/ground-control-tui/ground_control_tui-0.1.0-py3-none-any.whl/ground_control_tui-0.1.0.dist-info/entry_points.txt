@@ -1,0 +1,2 @@
+[console_scripts]
+ground-control-tui = ground_control_tui.monitor:main
