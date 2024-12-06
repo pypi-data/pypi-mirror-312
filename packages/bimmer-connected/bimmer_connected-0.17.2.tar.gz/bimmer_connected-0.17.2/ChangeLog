@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.17.2
+------
+
+* Reset session\_id after 14 days (#699)
