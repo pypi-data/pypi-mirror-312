@@ -1,0 +1,2 @@
+[console_scripts]
+defectdojo-utils = defectdojo_utils.main:main
