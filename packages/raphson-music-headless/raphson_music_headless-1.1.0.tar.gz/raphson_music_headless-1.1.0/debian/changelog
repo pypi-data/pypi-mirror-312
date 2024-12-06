@@ -1,0 +1,12 @@
+raphson-music-headless (1.0.1-2) any; urgency=medium
+
+  * Fix invalid import
+
+ -- Robin Slot <robin@rslot.nl>  Fri, 29 Nov 2024 14:29:04 +0100
+
+raphson-music-headless (1.0.1-1) any; urgency=medium
+
+  * Initial release
+  * Includes change to look for configuration file in /etc
+
+ -- Robin Slot <robin@rslot.nl>  Fri, 29 Nov 2024 14:23:04 +0100
