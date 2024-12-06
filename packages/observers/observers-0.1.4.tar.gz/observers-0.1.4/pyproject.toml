@@ -1,0 +1,61 @@
+[project]
+name = "observers"
+version = "0.1.4"
+description = "🤗 Observers: A Lightweight Library for AI Observability"
+authors = [
+    { name = "davidberenstein1957", email = "david.m.berenstein@gmail.com" },
+]
+tags = [
+    "observability",
+    "monitoring",
+    "logging",
+    "model-monitoring",
+    "model-observability",
+    "generative-ai",
+    "ai",
+    "traceability",
+    "instrumentation",
+    "instrumentation-library",
+    "instrumentation-sdk",
+]
+requires-python = "<3.13,>=3.10"
+readme = "README.md"
+dependencies = [
+    "duckdb>=1.0.0",
+    "datasets>=3.0.0",
+    "openai>=1.50.0",
+    "argilla>=2.3.0",
+]
+
+[project.license]
+text = "Apache 2"
+
+[project.optional-dependencies]
+aisuite = [
+    "aisuite[all]>=0.1.6",
+]
+dev = [
+    "pytest>=8.3.3",
+    "black>=24.10.0",
+    "jinja2>=3.1.4",
+]
+litellm = [
+    "litellm>=1.52",
+]
+docling = [
+    "docling>=2.8.0",
+]
+opentelemetry = [
+    "opentelemetry-api>=1.28.0",
+    "opentelemetry-sdk>=1.28.0",
+    "opentelemetry-exporter-otlp-proto-grpc>=1.28.0",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
