@@ -1,0 +1,11 @@
+tree_sitter_rtx-1.2.1.dist-info/RECORD,,
+tree_sitter_rtx-1.2.1.dist-info/top_level.txt,sha256=pPNjPZ_4KmE6zfiiiSPp6xFHk2uqpcY9Q5RjHT-LAHY,25
+tree_sitter_rtx-1.2.1.dist-info/METADATA,sha256=amjT6zMPqweZtWMjQYJg4VidcCaLX4CZRlomozEMG4o,603
+tree_sitter_rtx-1.2.1.dist-info/WHEEL,sha256=M32NYhdQOlxGr-K6svdyFbsxb9WIS_QAvFT_PZK65U8,217
+tree_sitter_rtx/__init__.pyi,sha256=oixFm8lXsZZWYa5cRwj6brbqh37_fzN2rLE-dmX9_rA,247
+tree_sitter_rtx/_binding.abi3.so,sha256=BheMXTvBZRlGsXzFPnigIKXPFUS8d9-E7ubXIZwzBBE,128160
+tree_sitter_rtx/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_rtx/binding.c,sha256=KIPm3uxZuR6zrTdOctsizM0ymcI3VNXFLwxw6AD4KwI,677
+tree_sitter_rtx/__init__.py,sha256=aPsgiK8P3jOHi0Rlil_Gcs8FCvaROVbU3WR9zr7EqMw,1177
+tree_sitter_rtx/queries/tags.scm,sha256=EvencJSpLHMru5tUomQF0dEpZwo2vlSflt-Q3BJlDl8,384
+tree_sitter_rtx/queries/highlights.scm,sha256=X0g0Qm5cQhmhMJusaxTZQzFhAaPJsnsvBITbdlt-vqg,565
