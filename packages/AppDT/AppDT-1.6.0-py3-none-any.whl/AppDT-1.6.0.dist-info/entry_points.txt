@@ -1,0 +1,2 @@
+[console_scripts]
+adt = AppDT.whlcode:adt
