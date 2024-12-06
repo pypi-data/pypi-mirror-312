@@ -1,0 +1,4 @@
+aspose-cells==24.11.0
+aspose-diagram==24.11.0
+aspose-ocr-python-java==24.7.0
+aspose-pdf-for-python-via-java==24.9
