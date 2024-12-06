@@ -1,0 +1,3 @@
+[console_scripts]
+hmk1=hmk1.main:main
+
