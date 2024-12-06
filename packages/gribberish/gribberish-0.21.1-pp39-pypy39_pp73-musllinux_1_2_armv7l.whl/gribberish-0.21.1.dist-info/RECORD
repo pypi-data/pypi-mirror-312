@@ -1,0 +1,13 @@
+gribberish-0.21.1.dist-info/METADATA,sha256=VmynXhdE4nnzrgz5-6cdTBIopK5lAjHR-0ZUP0MX17Y,4599
+gribberish-0.21.1.dist-info/WHEEL,sha256=UnaixyNz0ut7CQJ3INaj5SCug8ihbpLGgf47tRzLGPo,112
+gribberish-0.21.1.dist-info/entry_points.txt,sha256=85APBzGYCPTskRxz_0eNGTi4IsI7JnTMqThwK0LNGJ8,200
+gribberish.libs/libgcc_s-5b5488a6.so.1,sha256=HGKUsVmTeNAxEdSy7Ua5Vh_I9FN3RCbPWzvZ7H_TrwE,2749061
+gribberish/gribberish_backend.py,sha256=nF6Eucv3bRK3ptceiO0dZ-LUVKyC3NS00YKvvIPgfoc,4187
+gribberish/__init__.py,sha256=Qg3dLpcNAcepV_3QKNOfgK9kpieLWaPCIb27HGSgJ3k,42
+gribberish/zarr/codec.py,sha256=7qrKb5kC-ot61lSdjvMpdIN5dEG3OZ-2JXlMppmsrpQ,2150
+gribberish/zarr/__init__.py,sha256=BOIEpMcmVy83TrZvZ7srIZ5wMuIihal7nGBO7nw1GN8,28
+gribberish/kerchunk/codec.py,sha256=qMfWfuyUtrFN9j6cAh5ISWUeAynaWBgROHAkkMkDAEA,1010
+gribberish/kerchunk/__init__.py,sha256=BSVOnsWE5R9U-Dt4kVN9svUlJyY51HgpKrcuT4g8hH4,51
+gribberish/kerchunk/mapper.py,sha256=k_cZ4pIi1w95MvHeuLGPdiqlyEJ9WkALA2G9wLHgVrs,5853
+gribberish/_gribberish_python.pypy39-pp73-arm-linux-gnu.so,sha256=4crPXXXkuR7KU3EXlVWssHDsCzzMj4lf_jnedn-hsDY,12250269
+gribberish-0.21.1.dist-info/RECORD,,
