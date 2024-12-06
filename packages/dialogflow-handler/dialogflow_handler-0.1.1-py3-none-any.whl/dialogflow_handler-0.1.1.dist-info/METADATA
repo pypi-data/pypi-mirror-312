@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dialogflow-handler
+Version: 0.1.1
+Summary: Another Dialogflow API wrapper
+Home-page: https://github.com/ecnivs/dialogflow-handler
+Author: Vince Swu
+Author-email: vinceswu88@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-cloud-dialogflow
+Requires-Dist: google-api-core
+
+# Dialogflow Handler
+
+`dialogflow-handler` is a Python package that provides an easy-to-use wrapper for interacting with Dialogflow's API. It helps in integrating Dialogflow with Python applications for natural language processing tasks, making it easier to send queries and handle responses.
+
+## Installation
+
+You can install the package via `pip`:
+```bash
+pip install dialogflow-handler
+```
+
+### I'd appreciate any feedback or code reviews you might have!
