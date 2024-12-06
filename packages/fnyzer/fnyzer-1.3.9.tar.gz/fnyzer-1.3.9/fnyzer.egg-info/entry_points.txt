@@ -1,0 +1,2 @@
+[console_scripts]
+fnyzer = fnyzer.fnyzer:main
