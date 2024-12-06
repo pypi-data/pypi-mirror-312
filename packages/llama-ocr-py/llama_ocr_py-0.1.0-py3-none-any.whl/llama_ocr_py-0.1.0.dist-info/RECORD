@@ -1,0 +1,16 @@
+llama_ocr/__init__.py,sha256=07gcmX4jrSCsmuQi102_OYEjK4ZsewF_ppfJuuw1Kf4,366
+llama_ocr/config.py,sha256=lcaYw_GvVCPSq5zkRJz2PLG1KPX7UgzHVnplAvamnIY,672
+llama_ocr/core/__init__.py,sha256=jNeDjtYGYoDGcwe4cy6yNaZWOSFIwEoeX5fZ_mVUc0w,238
+llama_ocr/core/base.py,sha256=nn0Oz1BG_LMEjA9nAzIptOPnMavoBiMrHEImfWS8VxI,749
+llama_ocr/core/extractor.py,sha256=vHJDrGnK7D_ShKt8TYWn2dCK1j0A4yp7nlDSD9y-fHM,2764
+llama_ocr/core/image_processor.py,sha256=0Azi6F5FZpJWPzMxDFaGs0OerbHGVlPUm5qIXc1ptYk,2813
+llama_ocr/core/vision_client.py,sha256=s2v68G57-54Hio5Nb05sysEqm0V-t-_VXhcsgQAH6ds,1871
+ollama_vision_extract/__init__.py,sha256=oUehgXd3f-pV4tF_gtqRFnFFSPxzP939NWiFeElqt38,232
+ollama_vision_extract/extractor.py,sha256=SV6ourxFtayXuajvZ24D1gX1C_Zy7EIXvldtCos_Iug,4775
+ollama_vision_extract/image_processor.py,sha256=xlxMEhGbYKv9X1JRB_tSs47eZsUvN5lU3x_mmhFFzb0,4658
+ollama_vision_extract/vision_client.py,sha256=D3VQHypi7ogru02eeSrPIrGb-mZWF0_GOVDirEbkJ90,2841
+llama_ocr_py-0.1.0.dist-info/LICENSE,sha256=1QQ4NVQlJ57Yrg34FEIdeDsqJxYhGz8Zje5WHxIZrUc,1088
+llama_ocr_py-0.1.0.dist-info/METADATA,sha256=PBpmcGRujQhYK1l9ynGOQdfhGSCp-10IhrsLTrH_lU4,5282
+llama_ocr_py-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+llama_ocr_py-0.1.0.dist-info/top_level.txt,sha256=_ksJ9pUDPsi_uJagiOy983Um2ZvGoTcGFJoawqMM9CA,32
+llama_ocr_py-0.1.0.dist-info/RECORD,,
