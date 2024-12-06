@@ -1,0 +1,169 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+{% if page and not page.meta.disable_tol and page.toc %}
+{% with page = page %}
+{% include "./components/toc.html.j2" %}
+{% endwith %}
+{% endif %}
+<main role="main" class="col-12 col-md-8 print-main">
+  {% if ("i18n" in config.plugins) and (i18n_file_locale != i18n_page_locale) %}
+  {% with i18n_config = i18n_config, i18n_page_locale = i18n_page_locale %}
+  {% include "./components/untranslatedAlert.html.j2" %}
+  {% endwith %}
+  {% endif %}
+  {% if page.meta.long_title %}
+  <h1 {% if i18n_file_locale %}lang="{{ i18n_file_locale }}" {% endif %}>{{ page.meta.long_title }}</h1>
+  {% else %}
+  <h1 {% if i18n_file_locale %}lang="{{ i18n_file_locale }}" {% endif %}>{{ page.title }}</h1>
+  {% endif %}
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">{{ config.site_name }}</li>
+      {% for nav_item in nav %}
+      {% if nav_item.active %}
+      <li class="breadcrumb-item active" aria-current="page">{{ nav_item.title }}</li>
+      {% if nav_item.children %}
+      {% include "breadcrumb.html" %}
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+    </ol>
+  </nav>
+  {% if page and page.meta.summary %}
+  <p {% if i18n_file_locale %}lang="{{ i18n_file_locale }}" {% endif %}>{{ page.meta.summary }}</p>
+  <hr />
+  {% endif %}
+  {% if page and not page.meta.disable_tools %}
+  <div class="container ml-0">
+    <div class="row">
+      {% if page and not page.meta.disable_nav_tool %}
+      <div class="col-2 px-0" style="text-wrap: nowrap;">
+        {% if page.previous_page %}
+        <a class="btn text-primary print-hide" href="{{ page.previous_page.url|url }}"
+          title="{{ page.previous_page.title }}"><i class="bi bi-chevron-left"></i></a>
+        {% else %}
+        <a class="btn text-muted print-hide"><i class="bi bi-chevron-left"></i></a>
+        {% endif %}
+        {% if page.next_page %}
+        <a class="btn text-primary print-hide" href="{{ page.next_page.url|url }}" title="{{ page.next_page.title }}"><i
+            class="bi bi-chevron-right"></i></a>
+        {% else %}
+        <a class="btn text-muted print-hide"><i class="bi bi-chevron-right"></i></a>
+        {% endif %}
+      </div>
+      <div class="col px-0" style="text-align: right;">
+        {% if page and page.meta.author %}
+        {% if page and page.meta.author_url %}
+        <a href="{{ page.meta.author_url }}" class="unnewtab">{{ page.meta.author }}</a>
+        {% else %}
+        <span>{{ page.meta.author }}</span>
+        <span>|</span>
+        {% endif %}
+        {% else %}
+        {% if git_page_authors %}
+        <small>{{ git_page_authors | default('enable mkdocs-git-authors-plugin') }}</small>
+        <span>|</span>
+        {% endif %}
+        {% endif %}
+        {% if page and page.meta.date %}
+        <span>{{ page.meta.date }}</span>
+        {% else %}
+        {% if page.meta.revision_date %}
+        <span>{{ page.meta.revision_date }}</span>
+        {% endif %}
+        {% endif %}
+        <button class="btn print-visible d-none" onclick="print_normal();"
+          title="{% trans %}open-new-tab{% endtrans %}"><i class="bi bi-arrow-up-right-square"></i></button>
+      </div>
+      <div class="col-1 col-sm-2 px-0 print-hide" style="text-align: right;text-wrap: nowrap;">
+        {% if page and not page.meta.disable_edit %}
+        {% if page and page.edit_url %}
+        <a class="btn print-hide unnewtab d-none d-sm-inline" href="{{ page.edit_url }}"><i
+            class="bi bi-pencil"></i></a>
+        {% elif config.repo_url %}
+        <a class="btn print-hide unnewtab d-none d-sm-inline" href="{{ config.repo_url }}"><i
+            class="bi bi-pencil"></i></a>
+        {% else %}
+        <a class="btn disabled print-hide d-none d-sm-inline"><i class="bi bi-pencil"></i></a>
+        {% endif %}
+        {% endif %}
+        {% if "i18n" in config.plugins %}
+        <span class="dropdown print-hide d-none d-lg-inline">
+          <button class="btn btn" type="button" id="lang-selector" data-bs-toggle="dropdown" aria-expanded="false"><i
+              class="bi bi-translate"></i></button>
+          <ul class="dropdown-menu" aria-labelledby="lang-selector">
+            <li>
+              <h6 class="dropdown-header">{% trans %}switch-lang{% endtrans %}</h6>
+            </li>
+            {% for lang in i18n_config.languages %}
+            <li><a class="btn dropdown-item {% if lang.locale == i18n_page_locale %}active{% endif %}"
+                onclick="switch_language('{{ lang.link }}', {{ i18n_build_languages }})"><i
+                  class="bi bi-globe"></i>&nbsp;{{ lang.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </span>
+        {% else %}
+        <button class="btn print-block d-none d-lg-inline" title="{% trans %}print-this-article{% endtrans %}"
+          onclick="window.print();"><i class="bi bi-printer"></i></button>
+        {% endif %}
+        <span class="dropdown print-hide">
+          <button class="btn btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false"><i class="bi bi-list"></i></button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <h6 class="dropdown-header">{% trans %}share{% endtrans %}</h6>
+            </li>
+            <li><button class="btn dropdown-item"
+                onclick="share_to_twitter('{% if page.title %}{{ page.title }} | {% endif %}{{ config.site_name }}','{% if config.share %}{% if config.share.twitter_params %}{{ config.share.twitter_params }}{% endif %}{% endif %}');"><i
+                  class="bi bi-twitter-x"></i>&nbsp;X.com</button></li>
+            <li><button class="btn dropdown-item" onclick="share_to_facebook();"><i
+                  class="bi bi-facebook"></i>&nbsp;Facebook</button></li>
+            <li><button class="btn dropdown-item" onclick="share_to_line();"><i
+                  class="bi bi-line"></i>&nbsp;LINE</button></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><button class="btn dropdown-item" onclick="window.print();"><i class="bi bi-printer"></i>&nbsp;{% trans
+                %}print{% endtrans %}</button></li>
+            <li><button class="btn dropdown-item" id="page-url-copy-btn"><i class="bi bi-clipboard"></i>&nbsp;{% trans
+                %}copy-url{% endtrans %}</button></li>
+            <li>
+              {% if page and not page.meta.disable_edit %}
+              {% if page and page.edit_url %}
+              <a class="btn dropdown-item" href="{{ page.edit_url }}"><i class="bi bi-pencil"></i>&nbsp;{% trans
+                %}edit-this-article{% endtrans %}</a>
+              {% elif config.repo_url %}
+              <a class="btn dropdown-item" href="{{ config.repo_url }}"><i class="bi bi-pencil"></i>&nbsp;{% trans
+                %}edit-this-article{% endtrans %}</a>
+              {% else %}
+              <a class="btn dropdown-item disabled"><i class="bi bi-pencil"></i>&nbsp;{% trans
+                %}edit-this-article{% endtrans %}</a>
+              {% endif %}
+              {% endif %}
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            {% if "i18n" in config.plugins %}
+            <li><button class="btn dropdown-item" data-bs-toggle="modal" data-bs-target="#langSwitchModal"><i
+                  class="bi bi-translate"></i>&nbsp;{% trans
+                %}switch-lang{% endtrans %}</button></li>
+            {% endif %}
+            <li><button class="btn dropdown-item" onclick="print_view();"><i
+                  class="bi bi-file-earmark-text"></i>&nbsp;{% trans %}view-in-embed-mode{% endtrans %}</button></li>
+          </ul>
+        </span>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  <hr />
+  {% endif %}
+  <div {% if i18n_file_locale %}lang="{{ i18n_file_locale }}" {% endif %}>
+    {% block content %}
+    {{ page.content }}
+    {% endblock %}
+  </div>
+</main>
+{% endblock %}
