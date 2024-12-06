@@ -1,0 +1,2 @@
+[console_scripts]
+mx = genov.genov:genov

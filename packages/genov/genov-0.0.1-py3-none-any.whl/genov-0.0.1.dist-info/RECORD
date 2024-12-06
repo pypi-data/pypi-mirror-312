@@ -1,0 +1,13 @@
+genov/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genov/genov.py,sha256=fiOVkg-uitaO0Qrb1QWxGbFt1x6-fzNVaTERrm5LwWc,237
+genov/legacy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genov/welcome/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genov/welcome/welcome.py,sha256=Fn_VIMhlBf6wM-pVaBoJebYkDc9lrhecx_rePukYnXI,137
+genov/welcome/welcomeTyper.py,sha256=oDu6q32jKFyataNeiqAexnXsoOnDKt_vuf-Oxwaz0Q8,917
+assets/README.md/BrandLogo.svg,sha256=vC4scOJ7tR2kfbePU689zMW-x1hdrm8rh3jX4PGthWI,5654
+assets/README.md/ppl.qlik.dates.png,sha256=gIDmtfaddZgmyCexZaRp3p0C80avixV05X6rxuQ8Gug,37012
+genov-0.0.1.dist-info/METADATA,sha256=nyQ5nxWEz7taSMMXni68xoaYjYqhJjLFuBL5ke6e2Bg,8585
+genov-0.0.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+genov-0.0.1.dist-info/entry_points.txt,sha256=6agSD14k81cZN4tOLNYacuY6SnFuDk65lB7Wy_FHWOA,41
+genov-0.0.1.dist-info/licenses/LICENSE,sha256=TE8EPjchXVFQGbNGK7p46rywL53p658XDhRhPvTVXeQ,372
+genov-0.0.1.dist-info/RECORD,,
