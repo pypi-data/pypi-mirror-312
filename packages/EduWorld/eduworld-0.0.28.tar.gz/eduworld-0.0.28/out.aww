@@ -1,0 +1,44 @@
+map: rows=10 cols=10
+
+robot: x=3 y=7
+
+tile: x=1 y=1 beepers=0 temperature=0 radiation=0 color= mark= walls=tl
+tile: x=1 y=10 beepers=0 temperature=0 radiation=0 color= mark= walls=bl
+tile: x=2 y=1 beepers=0 temperature=0 radiation=0 color= mark= walls=t
+tile: x=2 y=10 beepers=0 temperature=0 radiation=0 color= mark= walls=b
+tile: x=3 y=1 beepers=0 temperature=0 radiation=0 color= mark= walls=t
+tile: x=3 y=10 beepers=0 temperature=0 radiation=0 color= mark= walls=b
+tile: x=4 y=1 beepers=0 temperature=0 radiation=0 color= mark= walls=t
+tile: x=4 y=10 beepers=0 temperature=0 radiation=0 color= mark= walls=b
+tile: x=5 y=1 beepers=0 temperature=0 radiation=0 color= mark= walls=t
+tile: x=5 y=10 beepers=0 temperature=0 radiation=0 color= mark= walls=b
+tile: x=6 y=1 beepers=0 temperature=0 radiation=0 color= mark= walls=t
+tile: x=6 y=10 beepers=0 temperature=0 radiation=0 color= mark= walls=b
+tile: x=7 y=1 beepers=0 temperature=0 radiation=0 color= mark= walls=t
+tile: x=7 y=10 beepers=0 temperature=0 radiation=0 color= mark= walls=b
+tile: x=8 y=1 beepers=0 temperature=0 radiation=0 color= mark= walls=t
+tile: x=8 y=10 beepers=0 temperature=0 radiation=0 color= mark= walls=b
+tile: x=9 y=1 beepers=0 temperature=0 radiation=0 color= mark= walls=t
+tile: x=9 y=10 beepers=0 temperature=0 radiation=0 color= mark= walls=b
+tile: x=10 y=1 beepers=0 temperature=0 radiation=0 color= mark= walls=tr
+tile: x=10 y=10 beepers=0 temperature=0 radiation=0 color= mark= walls=br
+tile: x=1 y=2 beepers=0 temperature=0 radiation=0 color= mark= walls=l
+tile: x=10 y=2 beepers=0 temperature=0 radiation=0 color= mark= walls=r
+tile: x=1 y=3 beepers=0 temperature=0 radiation=0 color= mark= walls=l
+tile: x=10 y=3 beepers=0 temperature=0 radiation=0 color= mark= walls=r
+tile: x=1 y=4 beepers=0 temperature=0 radiation=0 color= mark= walls=l
+tile: x=10 y=4 beepers=0 temperature=0 radiation=0 color= mark= walls=r
+tile: x=1 y=5 beepers=0 temperature=0 radiation=0 color= mark= walls=l
+tile: x=10 y=5 beepers=0 temperature=0 radiation=0 color= mark= walls=r
+tile: x=1 y=6 beepers=0 temperature=0 radiation=0 color= mark= walls=l
+tile: x=10 y=6 beepers=0 temperature=0 radiation=0 color= mark= walls=r
+tile: x=1 y=7 beepers=0 temperature=0 radiation=0 color= mark= walls=l
+tile: x=10 y=7 beepers=0 temperature=0 radiation=0 color= mark= walls=r
+tile: x=1 y=8 beepers=0 temperature=0 radiation=0 color= mark= walls=l
+tile: x=10 y=8 beepers=0 temperature=0 radiation=0 color= mark= walls=r
+tile: x=1 y=9 beepers=0 temperature=0 radiation=0 color= mark= walls=l
+tile: x=10 y=9 beepers=0 temperature=0 radiation=0 color= mark= walls=r
+tile: x=3 y=3 beepers=0 temperature=0 radiation=0 color= mark= walls=r
+tile: x=3 y=4 beepers=0 temperature=0 radiation=0 color= mark= walls=l
+tile: x=3 y=5 beepers=0 temperature=0 radiation=0 color= mark= walls=r
+tile: x=3 y=6 beepers=0 temperature=0 radiation=0 color= mark= walls=l
