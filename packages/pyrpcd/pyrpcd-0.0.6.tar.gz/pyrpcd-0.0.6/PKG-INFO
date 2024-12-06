@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pyrpcd
+Version: 0.0.6
+Summary: Run a RPC server by the most convenient way
+Home-page: https://github.com/aiyojun/pysolv
+Author: aiyojun
+Author-email: aiyojun@gmail.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: tornado>=6.4.1
+Requires-Dist: voxe==0.0.3
+
+pyrpcd
+=================================
+
+Pyrpcd is a RPC server, implemented by tornado framework.
+Expose all functions of a python module in current directory.
+Use voxe as data transporting protocol.
+
+Usage
+------------
+
+Install::
+
+    python -m pyrpcd.server hello.py
+
+
+hello.py
+
+
+.. code:: python
+
+    def print_hello():
+        print('hello ...')
+
+    def remote_add(a, b):
+        return a + b
+
+main.py
+
+.. code:: python
+
+    import requests
+    import voxe
+
+    response = requests.post('http://127.0.0.1:8080/rpc/print_hello')
+    response = requests.post('http://127.0.0.1:8080/rpc/remote_add', voxe.dumps(2, 3))
+    print(voxe.loads(response.content))
+
+Run::
+
+    python main.py

@@ -1,0 +1,10 @@
+README.rst
+setup.py
+pyrpcd/__init__.py
+pyrpcd/server.py
+pyrpcd/share.py
+pyrpcd.egg-info/PKG-INFO
+pyrpcd.egg-info/SOURCES.txt
+pyrpcd.egg-info/dependency_links.txt
+pyrpcd.egg-info/requires.txt
+pyrpcd.egg-info/top_level.txt
