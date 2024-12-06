@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: idcrockford
+Version: 0.1.0
+Summary: Crockford Base32 ID generation and validation
+Author-email: saif <sirsaif99@gmail.com>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# IDCrockford
+
+Crockford Base32 ID encoder/decoder with FastAPI dependency injection support for validation and generation of Crockford Base32 IDs.
+
+
+## Installation
