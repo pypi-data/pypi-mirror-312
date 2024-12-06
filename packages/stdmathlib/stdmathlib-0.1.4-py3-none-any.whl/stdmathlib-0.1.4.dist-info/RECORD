@@ -1,0 +1,8 @@
+stdmathlib/__init__.py,sha256=NqYHXzD1SxwGMH4IOKS5jn3Ljv45X1uiCnuQxpeq5Oc,326
+stdmathlib/algebra.py,sha256=bnBFWCR6jLF1a2AqBEoOalOoyCTHedha9XFbzpPGvBA,1611
+stdmathlib/integrals.py,sha256=YfT9Hxplr0NZAI-P3iqy872aOAv_CTefui51g8Epxfo,1593
+stdmathlib/ode.py,sha256=iS03wkPm8qMZiaOwFDfjLPuv-KRwM2qViLwJ7W0Lrwo,1568
+stdmathlib-0.1.4.dist-info/METADATA,sha256=7S1xLh0YptGoD1CpyciyA8og2Rj5RM9k2BnDwn1iai4,616
+stdmathlib-0.1.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+stdmathlib-0.1.4.dist-info/top_level.txt,sha256=DpmXB2teRanbvNcyg1NJlymSuPpdBG1N9gu9UEqKy-A,11
+stdmathlib-0.1.4.dist-info/RECORD,,
