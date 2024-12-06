@@ -1,0 +1,2 @@
+[console_scripts]
+felafax-cli = felafax.cli.main:app
