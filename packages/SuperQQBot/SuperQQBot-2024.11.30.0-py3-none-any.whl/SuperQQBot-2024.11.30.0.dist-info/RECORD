@@ -1,0 +1,17 @@
+SuperQQBot/__init__.py,sha256=Psj-AJ_NtJ4V_h7WEH0NAddSRd49ToATe9ykUt6nw98,260
+SuperQQBot/core/Error.py,sha256=yKOnnWemoPI2OSdmIo1XkZwN2Ad38bRs0lLzUajPj0s,4891
+SuperQQBot/core/User_Interface.py,sha256=HcnDCGEYvtjI6Xk8mIagGjNkZOubNoR2ypiQh1Zi3WQ,305
+SuperQQBot/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SuperQQBot/core/api.py,sha256=jjDxRW2afWkrRIGvLh0Se3ZJGNQlVIYFR-JKz7uhqVM,35678
+SuperQQBot/core/client.py,sha256=YQ2Z4w9ph5bJDdd35rCEcp6afNdD9QfkSONeEJ7RLkk,32046
+SuperQQBot/core/connection.py,sha256=CFGUuNHLABbCYiy2tO5gnEkFpVFNx8o_NpmBILzRtN8,4912
+SuperQQBot/core/logging.py,sha256=nuoOr2G6lYL2Z_r8Ot1-5iCpbtvM2LEL3OUrVSWOjiE,5233
+SuperQQBot/core/types.py,sha256=9-7yF52TdEJ1HmQgn_a3FGqUBs7O76SLwLwZCjac4Vk,16170
+SuperQQBot/ext/ModLoaderCoreSupport.py,sha256=w7231evkiigNvnPB_mroBpaXrNt7xVEIxi5FSPNR4jw,1982
+SuperQQBot/ext/__init__.py,sha256=FKO1sMSIz0w8bmwyQZYqpUf9McIeTS7DT6uTzdrKUro,45
+SuperQQBot/ext/cog_yaml.py,sha256=yJQgc857xiARFHRdblhrRtKOVneR4zM9vzfu_KFMSmY,399
+SuperQQBot-2024.11.30.0.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+SuperQQBot-2024.11.30.0.dist-info/METADATA,sha256=8cXYBSE3poaLvg_dohY8vDMSoulQ9ukinat_GLiFFR0,6372
+SuperQQBot-2024.11.30.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+SuperQQBot-2024.11.30.0.dist-info/top_level.txt,sha256=aqcRG80trKFGWdB_JbnpGEfbrd82qSht39MaSS9uZkE,11
+SuperQQBot-2024.11.30.0.dist-info/RECORD,,
