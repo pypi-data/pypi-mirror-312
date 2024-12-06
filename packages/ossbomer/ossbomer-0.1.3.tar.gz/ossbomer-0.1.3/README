@@ -1,0 +1,101 @@
+OSSBOMER
+=========
+
+OSSBOMER is a CLI tool designed to validate Software Bill of Materials (SBOMs) for quality, compliance, and metadata integrity. It supports SPDX and CycloneDX formats.
+
+Features
+--------
+
+- **License Validation**: Checks components in the SBOM for blocked, weak-copyleft, or unknown licenses.
+- **PURL Validation**: Flags problematic Package URLs (PURLs) based on exact matches or regex patterns.
+- **Schema Validation**: Ensures SBOMs conform to their respective schema (SPDX or CycloneDX) and NTIA requirements.
+- **Metadata Validation**: Verifies the presence of essential metadata such as SPDX IDs and creation timestamps.
+- **Dataset Management**:
+  - Updates license rules and package signatures from remote sources.
+  - Provides an inventory of dataset versions.
+
+Installation
+------------
+
+1. Clone the repository:
+
+   .. code-block:: bash
+
+      git clone https://github.com/your-org/ossbomer.git
+      cd ossbomer
+
+2. Install the package:
+
+   .. code-block:: bash
+
+      pip install .
+
+3. Verify the installation:
+
+   .. code-block:: bash
+
+      ossbomer --help
+
+Usage
+-----
+
+Validate an SBOM
+~~~~~~~~~~~~~~~~
+Validate an SBOM for quality and compliance:
+
+.. code-block:: bash
+
+   ossbomer validate <path-to-sbom>
+
+**Example**
+
+.. code-block:: bash
+
+   ossbomer validate samples/example-sbom.json
+
+**Output**
+
+::
+
+   * Checking licenses...
+   Blocked license detected for component 'insecure-package': GPL-3.0
+   * Checking PURLs...
+   Warning: Problematic PURL detected - pkg:deb/example-package@1.0.0?distro=debian
+   * Validating schema and metadata...
+   * Validation complete!
+
+Update Datasets
+~~~~~~~~~~~~~~~
+Update license rules and package signatures from remote sources:
+
+.. code-block:: bash
+
+   ossbomer update
+
+**Output**
+
+::
+
+   Datasets updated successfully!
+
+Show Version
+~~~~~~~~~~~~
+Display the current version of OSSBOMER:
+
+.. code-block:: bash
+
+   ossbomer version
+
+View Dataset Inventory
+~~~~~~~~~~~~~~~~~~~~~~
+Display an inventory of dataset files and their versions:
+
+.. code-block:: bash
+
+   ossbomer inventory
+
+License
+-------
+
+OSSBOMER is licensed under the Apache-2.0 License. See the `LICENSE <LICENSE>`_ file for details.
+
