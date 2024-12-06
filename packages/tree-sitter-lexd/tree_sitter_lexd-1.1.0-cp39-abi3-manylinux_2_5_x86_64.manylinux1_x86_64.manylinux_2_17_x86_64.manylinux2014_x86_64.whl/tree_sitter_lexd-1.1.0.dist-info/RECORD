@@ -1,0 +1,10 @@
+tree_sitter_lexd/__init__.pyi,sha256=oixFm8lXsZZWYa5cRwj6brbqh37_fzN2rLE-dmX9_rA,247
+tree_sitter_lexd/_binding.abi3.so,sha256=sQHgt-0YW6slO9XkFnGjQNrzF6h7bAkF5rLSHXF3d7s,96040
+tree_sitter_lexd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_lexd/binding.c,sha256=8pDth59KaoJlGOWdCM8JKGRzogtNP37DhpRgb4YOM5s,679
+tree_sitter_lexd/__init__.py,sha256=CGnvyKUj9ofB35PKB1pymoQ0lwzXq_4MJsGnNmitDyY,1167
+tree_sitter_lexd/queries/highlights.scm,sha256=yt93s7m_ogHkuHtU_SAiY4MG6xQ6Kd3VfgHGf5V0X8c,596
+tree_sitter_lexd-1.1.0.dist-info/RECORD,,
+tree_sitter_lexd-1.1.0.dist-info/top_level.txt,sha256=mmVJ_kKvQpqkXHCmE6YO9-vEzQvtE0hZ04S0NwO8W0E,26
+tree_sitter_lexd-1.1.0.dist-info/METADATA,sha256=W-dM-i0DD9cU6UP4KTm54uqhSltY_X_kU-D2TBS3GrI,779
+tree_sitter_lexd-1.1.0.dist-info/WHEEL,sha256=M32NYhdQOlxGr-K6svdyFbsxb9WIS_QAvFT_PZK65U8,217
