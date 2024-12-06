@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+import "fr24/proto/_common.proto";
+
+message Geolocation {
+    float lat = 1;
+    float lon = 2;
+}
+
+message NearestFlightsRequest {
+    Geolocation location = 1;
+    // Radius, metres
+    uint32 radius = 2;
+    // Maximum number of aircraft to return
+    uint32 limit = 3;
+}
+
+message NearbyFlight {
+    _common.Flight flight = 1;
+    // Distance from the location, metres
+    uint32 distance = 2;
+}
+
+message NearestFlightsResponse {
+    repeated NearbyFlight flights_list = 1;
+}
