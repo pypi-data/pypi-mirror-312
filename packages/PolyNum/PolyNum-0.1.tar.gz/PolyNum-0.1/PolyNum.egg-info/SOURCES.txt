@@ -1,0 +1,8 @@
+setup.py
+PolyNum/NumericalMethods.py
+PolyNum/Polynomial.py
+PolyNum/__init__.py
+PolyNum.egg-info/PKG-INFO
+PolyNum.egg-info/SOURCES.txt
+PolyNum.egg-info/dependency_links.txt
+PolyNum.egg-info/top_level.txt
