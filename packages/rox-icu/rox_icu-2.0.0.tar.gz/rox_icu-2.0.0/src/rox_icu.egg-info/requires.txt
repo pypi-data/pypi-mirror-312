@@ -1,0 +1,7 @@
+aiomqtt
+click
+coloredlogs
+orjson
+python-can
+
+[dev]
