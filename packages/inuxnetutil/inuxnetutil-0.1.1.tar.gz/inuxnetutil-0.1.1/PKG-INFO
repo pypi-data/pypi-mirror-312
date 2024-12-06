@@ -1,0 +1,590 @@
+Metadata-Version: 2.1
+Name: inuxnetutil
+Version: 0.1.1
+Summary: Set of common handy functions and tools.
+Home-page: https://newgit.inuxnet.org/devel/inuxnetutil.git
+Author: Jess Williams
+Author-email: Jess Williams <devel@inuxnet.org>
+License: MIT License
+        
+        Copyright (c) 2024 Jess Williams
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://newgit.inuxnet.org/devel/inuxnetutil.git
+Project-URL: Documentation, https://newgit.inuxnet.org/devel/inuxnetutil.git
+Project-URL: Repository, https://newgit.inuxnet.org/devel/inuxnetutil.git
+Keywords: validation,encrypt,decrypt,inuxnet
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# inuxnetutil
+This library and set of tools are common functions and tools used in various Inuxnet
+projects.
+
+## Installing
+This module requires cryptography. It is advisable to install this inside a virtual
+environment. 
+
+### Setting up and activating the Python Virtual Environment
+
+It is recommended to install within a Python Virtual Environment, please review your 
+specific OS instructions to install VirtualEnv on your system.
+
+From the directory of the repository:
+
+```
+python3 -m venv venv
+```
+
+Activating the Virtual Environment:
+```
+. venv/bin/activate
+```
+
+To exit the Virtual Environment:
+
+```
+deactivate
+```
+
+### Installing using the setup.py
+
+All commands should be run from the root directory of the repository.
+```
+pip install -r requirements.txt
+python3 setup.py install
+```
+
+### Installing from [PyPi](https://pypi.org/project/inuxnetutil/0.1.0/)
+
+```
+pip install inuxnetutil
+```
+
+## Pythonic Usage
+
+### validate_argument
+Python is not strictly typed and will allow any type to be input
+as arguments for functions and methods. Used to validate input 
+parameters for functions and methods to ensure the proper data 
+is being input as arguments.
+```
+Help on function validate_argument in module inuxnetutil.inuxnetutil:
+
+validate_argument(argument: object, arg_types: type, arg_name: str = 'argument', nullable: bool = False, message: str = "Parameter {arg_name} '{argument}' must be of type {' or '.join([ f'{x}' for x in arg_types ])}.") -> object
+    Validates argument, raises TypeError or returns argument
+    :param argument: <class 'any'>
+        - This can be any type that needs to match
+    :param arg_types: <class 'list'> or <class 'tuple'> or <class 'type'>
+        - A list/tuple of <class 'type'> to match
+    :param arg_name: <class 'str'>
+        - The name of the argument being passed in. Defaults to "argument"
+    :param nullable: <class 'bool'>
+        - If None is allowed as an input parameter
+    :param message: <class 'str'>
+        - Custom error message, defaults to:
+          f"Parameter {arg_name} '{argument}' must be of type {' or '.join([ f'{x}' for x in arg_types ])}"
+    :return: <class 'object'>
+        - returns the argument object
+        
+Example:
+>>> arg = validate_argument("123", int)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "inuxnetutil.py", line 74, in validate_argument
+    raise TypeError(msg)
+TypeError: Parameter argument '123' must be of type <class 'int'>.
+
+>>> arg = 123
+>>> validate_argument(arg, [str,float], "parameter_name")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "inuxnetutil.py", line 74, in validate_argument
+    raise TypeError(msg)
+TypeError: Parameter parameter_name '123' must be of type <class 'str'> or <class 'float'>.
+
+>>> validate_argument(arg, [int,float], "people_count")
+123
+
+>>> arg = None
+>>> validate_argument(arg, [int,float], "people_count", True)
+```
+
+### is_empty_string
+This is an extension of validate_argument and will ensure that the
+string data is not empty.
+```
+Help on function is_empty_string in module inuxnetutil.inuxnetutil:
+
+is_empty_string(arg: str, arg_name: str = None, nullable: bool = False) -> str
+    Validates arguments and ensures no empty string if not nullable
+    :param arg: <class 'str'>
+        - Since it is validating an empty string, must be a string
+    :param arg_name: <class 'str'>
+        - The argument name, defaults to 'argument'
+    :param nullable: <class 'bool'>
+        - If None is allowed as an input parameter
+    :return: <class 'str'>
+        - Returns the string passed in.
+        
+Examples:
+
+>>> data = ''
+>>> is_empty_string(data, "data")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "inuxnetutil.py", line 92, in is_empty_string
+    raise ValueError(f"{arg_name} '{arg}' must have a valid value, cannot be empty.")
+ValueError: data '' must have a valid value, cannot be empty.
+```
+
+### validate_filepath
+An extension of validate_argument that validates a file exists.
+```
+Help on function validate_filepath in module inuxnetutil.inuxnetutil:
+
+validate_filepath(filepath: str)
+    Validates file path.
+    :param filepath: <class 'str'>
+        - The filepath to validate
+        
+Examples:
+
+>>> validate_filepath("some_non_existent_file.txt")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "inuxnetutil.py", line 106, in validate_filepath
+    raise ValueError(f"{filepath} is invalid. Either invalid path or permissions.")
+ValueError: some_non_existent_file.txt is invalid. Either invalid path or permissions.
+
+>>> print(validate_filepath("inuxnetutil/inuxnetutil.py")) # Valid Path
+None
+```
+
+### derive_key
+Derives a byte encoded key from passphrase, used for encrypting/decrypting.
+```
+Help on function derive_key in module inuxnetutil.inuxnetutil:
+
+derive_key(passphrase: str, salt: bytes) -> bytes
+    Derives a key from passphrase and salt.
+    :param passphrase: <class 'str'>
+        - The passphrase to derive key from.
+    :param salt: <class 'bytes'>
+        - The salt to spice the key.
+    :return: <class 'bytes'>
+    
+Examples:
+>>> salt = os.urandom(16)
+>>> key = derive_key("SecretPassphrase", salt)
+>>> print(key.decode('utf-8'))
+zLXClPOw_ZPUm0wucc9GRFMu2p8ScsbHNZh1zuJsR2s=
+```
+
+### encrypt
+Encrypts bytes with passphrase and salt.
+```
+Help on function encrypt in module inuxnetutil.inuxnetutil:
+
+encrypt(data: bytes, passphrase: str, salt: bytes = None) -> bytes
+    Encrypts a list of bytes, returns encrypted bytes
+    :param data: <class 'bytes'>
+        - The unencrypted bytes.
+    :param passphrase: <class 'str'>
+        - The passphrase to encrypt with.
+    :param salt: <class 'bytes'>
+        - Season the encryption, defaults to None and generates random salt
+    :return: <class 'bytes'>
+        - Encrypted bytes
+
+Examples:
+>>> text = "Secret to encrypt"
+>>> encrypted_text = encrypt(text.encode('utf-8'), "SecretPassphrase")
+>>> print(base64.b64encode(encrypted_text).decode('utf-8'))
+zuwUtqziG65qxvqBtGCJHWdBQUFBQUJuVExkSk16WWc3MkIxV1dHX29HYnQ2MTluR1BQMW1yb0pkdC11Z2x3SG1nU0RMcGhwNlJyNlo2bkEyTkVQeHEyLTF6VHdzQnJyZzhBWXJkZENXRFFIdlR1UVo0a3pIS24zajJncEhTZDVkdEYwdEl3PQ==
+```
+
+### encrypt_file
+Encrypts file with passphrase and outputs to encrypted file.
+```
+Help on function encrypt_file in module inuxnetutil.inuxnetutil:
+
+encrypt_file(file_path: str, passphrase: str, output_path: str)
+    Encrypts file
+    :param file_path: <class 'str'>
+        - The file path of the file to encrypt.
+    :param passphrase: <class 'str'>
+        - The passphrase to encrypt the file with.
+    :param output_path: <class 'str'>
+        - The file path of the output encrypted file.
+        
+Examples:
+>>> encrypt_file("inuxnetutil/inuxnetutil.py","SecretPassphrase","./inuxnet.py.encrypted")
+```
+
+### decrypt
+Decrypts bytes with passphrase.
+```
+Help on function decrypt in module inuxnetutil.inuxnetutil:
+
+decrypt(data: bytes, passphrase: str) -> bytes
+    Decrypts bytes of data with passphrase, returns string
+    :param data: <class 'bytes'>
+        - Encrypted bytes
+    :param passphrase:
+        - Passphrase to decrypt
+    :return: <class 'bytes'>
+        - Decrypted data
+
+Examples:
+>>> encrypted_string = "zuwUtqziG65qxvqBtGCJHWdBQUFBQUJuVExkSk16WWc3MkIxV1dHX29HYnQ2MTluR1BQMW1yb0pkdC11Z2x3SG1nU0RMcGhwNlJyNlo2bkEyTkVQeHEyLTF6VHdzQnJyZzhBWXJkZENXRFFIdlR1UVo0a3pIS24zajJncEhTZDVkdEYwdEl3PQ=="
+>>> # This string is base64 Encoded so it will need to be decoded into original bytes
+>>> decrypted_string = decrypt(base64.b64decode(encrypted_string),"SecretPassphrase")
+>>> print(decrypted_string.decode('utf-8'))
+Secret to encrypt
+```
+
+### decrypt_file
+Decrypts file with passphrase and outputs to decrypted file.
+```
+Help on function decrypt_file in module inuxnetutil.inuxnetutil:
+
+decrypt_file(file_path: str, passphrase: str, output_path: str)
+    Derives a key from bytes
+    :param file_path: <class 'str'>
+        - The file path of the encrypted file to decrypt
+    :param passphrase: <class 'str'>
+        - The passphrase the file is encrypted with.
+    :param output_path: <class 'str'>
+        - The output file path for decrypted file.
+
+Examples:
+>>> decrypt_file("./inuxnet.py.encrypted","SecretPassphrase","./inuxnet.py.decrypted")
+```
+
+### validate_password
+Validates Password complexity and input.
+```
+Help on function validate_password in module inuxnetutil.inuxnetutil:
+
+validate_password(password: str, display_help: bool = True) -> bool
+    Validates password
+    :param password: <class 'str'>
+    :param display_help: <class 'bool'>
+        - Displays Help if password is invalid, defaults to True    
+    :return: <class 'bool'>
+    
+Example:
+>>> validate_password("abc123")
+Invalid Password (Invalid Length):
+  * Must contain at least one Uppercase Letter
+  * Must Contain at least 1 Lowercase Letter
+  * Must Contain at least 1 Number
+  * Must Contain at least one of the following
+    special characters ~!@#$%^&*()_-+`{}|[]\:";<>?,/.
+  * Must *NOT* Contain spaces or apostrophes
+  * Must be at least 8 characters in length.
+False
+
+>>> validate_password("abc123", display_help=False)
+False
+
+>>> validate_password("Pq1@yuguytfyt")
+True
+```
+
+### printpasswordhelp
+Prints help output for password.
+```
+Help on function printpasswordhelp in module inuxnetutil.inuxnetutil:
+
+printpasswordhelp(msg: str)
+    Prints Password requirments
+    :param msg: <class 'str'>
+        - The specific message
+
+Examples:
+>>> printpasswordhelp("Your Password is not complex enough")
+Invalid Password (Your Password is not complex enough):
+  * Must contain at least one Uppercase Letter
+  * Must Contain at least 1 Lowercase Letter
+  * Must Contain at least 1 Number
+  * Must Contain at least one of the following
+    special characters ~!@#$%^&*()_-+`{}|[]\:";<>?,/.
+  * Must *NOT* Contain spaces or apostrophes
+  * Must be at least 8 characters in length.
+```
+
+### get_valid_password
+Gets a valid password from standard input. Does not echo to console.
+```
+Help on function get_valid_password in module inuxnetutil.inuxnetutil:
+
+get_valid_password(validate: bool = True, complexity: bool = True) -> str
+    Returns a valid password
+    :param validate: <class 'bool'>
+        - Must enter the password twice if True, defaults to True
+    :param complexity: <class 'bool'>
+        - Password must be reasonably complex, defaults to True
+    :return: <class 'str'>
+        - The valid password entered
+
+Examples:
+>>> password = get_valid_password()
+Enter your passphrase: 
+ReEnter your passphrase: 
+>>> print(password)
+Pq1@yuguytfyt
+
+>>> password = get_valid_password(validate=False)
+Enter your passphrase: 
+>>> print(password)
+Pq1@yuguytfyt
+
+>>> password = get_valid_password(validate=False) # Attempted password is abc123
+Enter your passphrase: 
+Invalid Password (Invalid Length):
+  * Must contain at least one Uppercase Letter
+  * Must Contain at least 1 Lowercase Letter
+  * Must Contain at least 1 Number
+  * Must Contain at least one of the following
+    special characters ~!@#$%^&*()_-+`{}|[]\:";<>?,/.
+  * Must *NOT* Contain spaces or apostrophes
+  * Must be at least 8 characters in length.
+Enter your passphrase:
+>>> print(password)
+Pq1@yuguytfyt
+
+>>> password = get_valid_password(validate=False, complexity=False) # Password is abc123
+Enter your passphrase:
+>>> print(password)
+abc123
+```
+
+## Commandline Usage
+
+### encrypt
+Encrypt piped/argument data to standard output.
+
+#### Usage:
+```
+usage: encrypt [-h] [-d DATA] [-p PASSPHRASE] [--nocomplexity] [--novalidate]
+
+Encrypts a string with passphrase.
+
+options:
+  -h, --help            show this help message and exit
+  -d DATA, --data DATA  The string data to encrypt.
+  -p PASSPHRASE, --passphrase PASSPHRASE
+                        (Optional) Passphrase to encrypt the info, if omitted will query user.
+  --nocomplexity        (Optional) Do not require complexity for passphrase, defaults to True
+  --novalidate          (Optional) Do not validate password input, defaults to true
+
+Examples:
+    echo "Secret to encrypt" | encrypt -p 'P@ssw0rd'
+    encrypt "Secret to encrypt"
+    encrypt "Secret to encrypt" --passphrase='P@ssw0rd'
+```
+
+#### Examples:
+```
+$ data=$(echo -n "Secret to encrypt" | encrypt -p "Pq1@yuguytfyt")
+$ echo $data
+yjeIs+xIh9ByJ2cMYsZUW2dBQUFBQUJuVE1JQ1VrbzRiMkdCbC1iZTBSdkpnTklTMGxabkVIaWVZT0dXX3pVN05Ba1lxQjNiazQydzhfMW5KZlZ2dC0yZzRjb1EzallTQ1FQUHJwajN4ekpneWJZdW5UakNnVlc4X0c0bmpUV0hONTV5cEtNPQ==
+
+$ data=$(echo -n "Secret to encrypt" | encrypt -p "abc123")
+Invalid Password (Invalid Length):
+  * Must contain at least one Uppercase Letter
+  * Must Contain at least 1 Lowercase Letter
+  * Must Contain at least 1 Number
+  * Must Contain at least one of the following
+    special characters ~!@#$%^&*()_-+`{}|[]\:";<>?,/.
+  * Must *NOT* Contain spaces or apostrophes
+  
+$ data=$(echo -n "Secret to encrypt" | encrypt -p "abc123" --nocomplexity)
+$ echo $data
+PNHo8WZKK6r/ZY7xfxcxwmdBQUFBQUJuVE1oR1lQcDRuSWF4WXV2QjNiRjVwaGFSc0hpUmg2U3NzQ3F3VWxPQ29lMTRWNGhIaloxamxIblJUa0lneGZwbHpzaGttalhCTGNNblNfMlFBU0xaQVhReFkxbE5kRzhVY21QZldfbi00eHNwaDNZPQ==
+
+$ data=$(echo -n "Secret to encrypt" | encrypt) # Entered Pq1@yuguytfyt
+Enter your passphrase:
+ReEnter your passphrase:
+$ echo $data
+m1hMHna+o774ZTMrnojH32dBQUFBQUJuVE1rUnk3SmFWeE9ycng0WUxGb3ZiOGFlOGdubHFZWVdyaF9EY1VvYmhVWVNlMmpMbExiVTFOZDdWdEpqVm1BQXpEMk9WQ3NNZkhGU0dPa2FjUk01U3dXQjFObnBMc1M4V2tqRHUyanRIYUpQMHFJPQ==
+
+$ data=$(echo -n "Secret to encrypt" | encrypt --novalidate) # Entered Pq1@yuguytfyt
+Enter your passphrase:
+$ echo $data
+wxQD3AayG4gpoyc6SS/4AWdBQUFBQUJuVE1tcjd2OVpnZnBTZVVMR3kwT25Xcm1BQnNJVkZFVThxYU92SG5rZEhJOXQyRE9qQTMyT0dIdWxNYXhfeXRpazd4NVQ0c194TVVfalJpNUZTd1E5clBBNkhhdTBva1JyVHZPN1dBcG5YLUhjcUpvPQ==
+```
+
+### decrypt
+Decrypt piped/argument data to standard output.
+
+#### Usage:
+```
+usage: decrypt [-h] [-d DATA] [-p PASSPHRASE]
+
+Encrypts a string with passphrase.
+
+options:
+  -h, --help            show this help message and exit
+  -d DATA, --data DATA  The string data to encrypt.
+  -p PASSPHRASE, --passphrase PASSPHRASE
+                        (Optional) Passphrase to encrypt the info, if omitted will query user.
+
+Examples:
+    cat encrypted_file.txt | decrypt -p 'P@ssw0rd'
+    decrypt "hd78hgdf832f7g78=="
+    decrypt "hd78hgdf832f7g78==" --passphrase='P@ssw0rd'
+```
+
+#### Examples:
+```
+$ decrypted_data=$(echo -n $data | decrypt -p 'Pq1@yuguytfyt')
+$ echo $decrypted_data
+Secret to encrypt
+
+$ decrypted_data=$(echo -n $data | decrypt)
+Enter your passphrase:
+$ echo $decrypted_data
+Secret to encrypt
+```
+
+### encryptfile
+Encrypts a file to output file.
+
+#### Usage:
+```
+usage: encryptfile [-h] [--nocomplexity] [--novalidate] [-p PASSPHRASE] [-k KEYFILE] [-f OUTFILE]
+
+Encrypts a file with passphrase.
+
+options:
+  -h, --help            show this help message and exit
+  --nocomplexity        (Optional) Do not require complexity for passphrase, defaults to True
+  --novalidate          (Optional) Do not validate password input, defaults to true
+  -p PASSPHRASE, --passphrase PASSPHRASE
+                        (Optional) Passphrase to encrypt the info, if omitted will query user.
+  -k KEYFILE, --keyfile KEYFILE
+                        The file that needs to be encrypted or decrypted.
+  -f OUTFILE, --outfile OUTFILE
+                        The resulting output file.
+
+Examples:
+  encryptfile -p 'P@ssw0rd' -k ./id_rsa -f /tmp/id_rsa.enc
+  encryptfile --passphrase='P@ssw0rd' --keyfile=./id_rsa --outfile=/tmp/id_rsa.enc
+  encryptfile -k ./id_rsa -f /tmp/id_rsa.enc
+```
+
+#### Examples:
+```
+$ encryptfile -p "abc123" --nocomplexity -k "inuxnetutil/inuxnetutil.py" -f "./inuxnet.py.enc"
+
+$ encryptfile -p "abc123" -k "inuxnetutil/inuxnetutil.py" -f "./inuxnet.py.enc"
+Invalid Password (Invalid Length):
+  * Must contain at least one Uppercase Letter
+  * Must Contain at least 1 Lowercase Letter
+  * Must Contain at least 1 Number
+  * Must Contain at least one of the following
+    special characters ~!@#$%^&*()_-+`{}|[]\:";<>?,/.
+  * Must *NOT* Contain spaces or apostrophes
+  * Must be at least 8 characters in length.
+  
+$ encryptfile -k "inuxnetutil/inuxnetutil.py" -f "./inuxnet.py2.enc" # Entered Pq1@yuguytfyt
+Enter your passphrase: 
+ReEnter your passphrase:
+```
+
+## decryptfile
+Decrypts an encrypted file to output file.
+
+#### Usage:
+```
+usage: decryptfile [-h] [-p PASSPHRASE] [-k KEYFILE] [-f OUTFILE]
+
+Decrypts a file with passphrase.
+
+options:
+  -h, --help            show this help message and exit
+  -p PASSPHRASE, --passphrase PASSPHRASE
+                        (Optional) Passphrase to encrypt the info, if omitted will query user.
+  -k KEYFILE, --keyfile KEYFILE
+                        The file that needs to be encrypted or decrypted.
+  -f OUTFILE, --outfile OUTFILE
+                        The resulting output file.
+
+Examples:
+  decryptfile -p 'P@ssw0rd' -k ./id_rsa.enc -f /tmp/id_rsa
+  decryptfile --passphrase='P@ssw0rd' --keyfile=./id_rsa.enc --outfile=/tmp/id_rsa
+  decryptfile -k ./id_rsa.enc -f /tmp/id_rsa
+```
+
+#### Examples:
+```
+$ decryptfile -p "abc123" -k "inuxnet.py.enc" -f "inuxnet.py.decrypted"
+
+$ decryptfile -p "abc123" -k "inuxnet.py2.enc" -f "inuxnet.py2.decrypted"
+Cannot Decrypt. Invalid Passphrase or Encrypted File.
+
+$ decryptfile -k "inuxnet.py2.enc" -f "inuxnet.py2.decrypted" # Entered Pq1@yuguytfyt
+Enter your passphrase:
+$ ls inuxnet.py2.decrypted
+inuxnet.py2.decrypted
+$ diff inuxnet.py2.decrypted inuxnetutil/inuxnetutil.py
+$ echo $?
+0
+```
+
+### cryptfile
+Both encryptfile and decryptfile wrapped in one command.
+
+#### Usage:
+```
+usage: cryptfile [-h] -o {ENCRYPT,DECRYPT} [--nocomplexity] [--novalidate] [-p PASSPHRASE] [-k KEYFILE] [-f OUTFILE]
+
+Encrypts or Decrypts a file with passphrase.
+
+options:
+  -h, --help            show this help message and exit
+  -o {ENCRYPT,DECRYPT}, --operation {ENCRYPT,DECRYPT}
+                        Specify the operation: ENCRYPT or DECRYPT
+  --nocomplexity        (Optional) Do not require complexity for passphrase, defaults to True
+  --novalidate          (Optional) Do not validate password input, defaults to true
+  -p PASSPHRASE, --passphrase PASSPHRASE
+                        (Optional) Passphrase to encrypt the info, if omitted will query user.
+  -k KEYFILE, --keyfile KEYFILE
+                        The file that needs to be encrypted or decrypted.
+  -f OUTFILE, --outfile OUTFILE
+                        The resulting output file.
+
+Examples:
+  cryptfile -o ENCRYPT -p 'P@ssw0rd' -k ./id_rsa -f /tmp/id_rsa.enc
+  cryptfile --operation=DECRYPT --passphrase='P@ssw0rd' --keyfile=./id_rsa.enc --outfile=/tmp/id_rsa
+  cryptfile -o ENCRYPT -k ./id_rsa -f /tmp/id_rsa.enc
+```
+
+#### Examples:
+See the examples for encryptfile and decryptfile with the exception
+that the --operation, -o {ENCRYPT|DECRYPT} needs to be added.
