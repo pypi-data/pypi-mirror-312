@@ -1,0 +1,58 @@
+[build-system]
+requires = [
+  "hatch-vcs>=0.3",
+  "hatchling>=1.12.2",
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "defected"
+authors = [
+    {name = "Hervé Beraud", email = "herveberaud.pro@gmail.com"},
+]
+description = "Detect suspicious behaviors in git repos and open-source projects."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Development Status :: 3 - Alpha",
+    "Topic :: Software Development",
+    "Topic :: Security",
+    "Topic :: Sociology",
+]
+dynamic = ["version"]
+dependencies = [
+    "pandas",
+]
+
+[project.urls]
+Homepage = "https://github.com/4383/defected"
+History = "https://github.com/4383/defected/blob/main/CHANGELOG.md"
+Sponsor = "https://github.com/sponsors/4383"
+Tracker = "https://github.com/4383/defected/issues"
+Source = "https://github.com/4383/defected"
+
+[project.scripts]
+defected = "defected.main:main"
+
+[project.optional-dependencies]
+dev = ["black", "isort", "pip-tools", "build", "twine", "pre-commit", "commitizen"]
+
+[options.packages.find]
+where = "defected"
+exclude = "tests*"
+
+[tool.hatch]
+version.source = "vcs"
+
+[tool.isort]
+profile = "black"
