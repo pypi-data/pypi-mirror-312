@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: graspgraph
+Version: 0.1.0
+Summary: Create easy-to-understand graphs
+Author-email: mskz-3110 <mskz.saito@gmail.com>
+Project-URL: Homepage, https://github.com/mskz-3110/graspgraph
+Project-URL: Issues, https://github.com/mskz-3110/graspgraph/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: plotly
+Requires-Dist: numpy
+Requires-Dist: kaleido==1.0.0rc0
+
+# graspgraph
+Create easy-to-understand graphs
+
+## Versions
+
+|Version|Summary|
+|:--|:--|
+|0.1.0|Release statsgraph|
+
+## Installation
+
+`pip install graspgraph`
+
+## Usage
+![](./image/sample_usage.png)
+```python
+import graspgraph as gg
+
+def test_statsgraph_usage():
+  statsgraph = gg.Statsgraph(
+    gg.StatsgraphAxis([1, 2, 3, 4, 5]),
+    gg.StatsgraphAxis([11, 12, 13, 14, 15]),
+    gg.FigureColors(line = "blue"))
+  figure = statsgraph.to_figure_helper()
+  figure.LayoutTitleText = "<b>[statsgraph]<br>Title</b>"
+  figure.XTitleText = "X"
+  figure.YTitleText = "Y"
+  figure.write_image("./image/sample_usage.png")
+```
