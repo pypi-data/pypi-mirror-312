@@ -1,0 +1,17 @@
+numpy<2.0
+matplotlib
+torch
+lightning
+pytorch_lightning
+
+[docs]
+sphinx>5.0
+sphinx_rtd_theme
+sphinx_copybutton
+sphinx_design
+pydata_sphinx_theme
+
+[test]
+pytest
+pytest-cov
+scipy
