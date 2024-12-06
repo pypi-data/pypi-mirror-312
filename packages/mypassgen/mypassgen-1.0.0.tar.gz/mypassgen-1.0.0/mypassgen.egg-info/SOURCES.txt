@@ -1,0 +1,8 @@
+README.md
+setup.py
+mypassgen/__init__.py
+mypassgen/idgen.py
+mypassgen.egg-info/PKG-INFO
+mypassgen.egg-info/SOURCES.txt
+mypassgen.egg-info/dependency_links.txt
+mypassgen.egg-info/top_level.txt
