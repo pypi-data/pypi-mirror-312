@@ -1,0 +1,15 @@
+# pip install fwhassess --upgrade
+
+import json
+from fwhassess.assesspv import AssessAllDevice
+import os
+
+
+with open(os.path.join(os.path.abspath(os.path.dirname(__file__)), "test_pv.json"), "r") as fp:
+    data = json.load(fp)
+
+
+if __name__ == "__main__":
+    assess_all_device = AssessAllDevice(data)
+    assess_all_device.report()
+    assess_all_device.plot()
