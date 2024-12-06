@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_utils.py
+tests/test_web_paging.py
+web_paging/__init__.py
+web_paging/core.py
+web_paging/flask_support.py
+web_paging/utils.py
+web_paging.egg-info/PKG-INFO
+web_paging.egg-info/SOURCES.txt
+web_paging.egg-info/dependency_links.txt
+web_paging.egg-info/requires.txt
+web_paging.egg-info/top_level.txt
