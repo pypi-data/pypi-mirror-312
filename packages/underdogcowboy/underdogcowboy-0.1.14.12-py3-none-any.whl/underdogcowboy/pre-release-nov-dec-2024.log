@@ -1,0 +1,15 @@
+2024-11-25 16:05:03,113 - INFO - llm_manager.py:20 - Default LLM set to Claude 3.5 Sonnet (claude-3-5-sonnet-20241022)
+2024-11-25 16:05:03,113 - INFO - message_mixin.py:11 - post target message set to: MultiScreenApp(title='MultiScreenApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})
+2024-11-25 16:05:03,114 - DEBUG - selector_events.py:64 - Using selector: KqueueSelector
+2024-11-25 16:05:03,153 - INFO - main.py:184 - Created action method: action_return_to_timeline for screen: TimeLine Editor
+2024-11-25 16:05:03,153 - INFO - main.py:184 - Created action method: action_return_to_clarity for screen: Clarity
+2024-11-25 16:05:03,153 - INFO - main.py:184 - Created action method: action_return_to_agent_assessment_builder for screen: Agent Assessment Builder
+2024-11-25 16:05:03,153 - INFO - main.py:167 - Skipping disabled screen: _Agent WorkSession
+2024-11-25 16:05:03,154 - INFO - message_mixin.py:11 - post target message set to: MultiScreenApp(title='MultiScreenApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})
+2024-11-25 16:05:03,157 - INFO - message_mixin.py:11 - post target message set to: MultiScreenApp(title='MultiScreenApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})
+2024-11-25 16:05:03,158 - INFO - llm_manager.py:20 - Default LLM set to Claude 3.5 Sonnet (Upgrade) (claude-3-5-sonnet-20241022)
+2024-11-25 16:05:03,158 - INFO - agent_clarity_src.py:91 - CSS path set to: None. Able to read CSS as textual.
+2024-11-25 16:05:03,158 - INFO - message_mixin.py:11 - post target message set to: MultiScreenApp(title='MultiScreenApp', classes={'-dark-mode'}, pseudo_classes={'dark', 'focus'})
+2024-11-25 16:05:03,158 - INFO - main.py:119 - Skipping disabled screen: _Agent WorkSession
+2024-11-25 16:05:03,158 - INFO - main.py:119 - Skipping disabled screen: initial_screen
+2024-11-25 16:05:03,259 - INFO - timeline_editor_src.py:96 - TimeLineEditorScreen on_mount called
