@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+strik0rium/Strik0r.py
+strik0rium/__init__.py
+strik0rium.egg-info/PKG-INFO
+strik0rium.egg-info/SOURCES.txt
+strik0rium.egg-info/dependency_links.txt
+strik0rium.egg-info/top_level.txt
