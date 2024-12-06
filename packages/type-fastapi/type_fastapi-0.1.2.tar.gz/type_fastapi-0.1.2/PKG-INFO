@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: type-fastapi
+Version: 0.1.2
+Summary: 
+Author: KevinRawal
+Author-email: kevinrawal30@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pytest (>=8.3.3,<9.0.0)
+Requires-Dist: typer (>=0.13.1,<0.14.0)
+Description-Content-Type: text/markdown
+
+# type-fastapi
+A cli tool to quickly generate FastAPI projects.
+
