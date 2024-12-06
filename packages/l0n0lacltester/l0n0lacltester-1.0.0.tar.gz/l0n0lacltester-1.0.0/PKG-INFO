@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: l0n0lacltester
+Version: 1.0.0
+Summary: 用于cpu调试ascendc编写的算子
+Author: l0n0l
+Author-email: 1038352856@qq.com
+Keywords: acl,ascendc,算子,算子开发
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 1 功能描述
+由于在ascendc算子开发过程中运行算子比较复杂，为了简化算子的运行，将运行算子变成可以用python直接调用的函数。所以编写了此代码。
+
+# 2 安装
+```
+pip install l0n0lacltester
+```
+
+# 3 运行算子实例
+## 3.1 先切换到cann环境,比如我的环境是:
+```
+source /home/HwHiAiUser/Ascend/ascend-toolkit/set_env.sh
+```
