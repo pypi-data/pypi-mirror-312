@@ -1,0 +1,19 @@
+[project]
+name = "dtalib"
+dynamic = ["version"]
+description = "DTA Library"
+authors = [{ name = "Artyom Serazhetdinov"}]
+license = { text = "MIT" }
+
+dependencies = [
+    "pandas",
+    "matplotlib"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "dtalib/__init__.py"
+pattern = '^__version__ = "(?P<version>.+)"'

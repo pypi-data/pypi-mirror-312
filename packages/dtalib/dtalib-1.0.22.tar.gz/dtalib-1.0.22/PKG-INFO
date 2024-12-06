@@ -1,0 +1,8 @@
+Metadata-Version: 2.3
+Name: dtalib
+Version: 1.0.22
+Summary: DTA Library
+Author: Artyom Serazhetdinov
+License: MIT
+Requires-Dist: matplotlib
+Requires-Dist: pandas
