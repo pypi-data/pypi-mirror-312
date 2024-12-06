@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: cricket-scoring
+Version: 1.0.1
+Summary: A library for cricket scoring logic.
+Home-page: https://github.com/Rad-99/cricket_scoring
+Author: Radha Kantipudi
+Author-email: x23226391@student.ncirl.ie
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+# Cricket Scoring Library
+
+A Python library for managing cricket scoring logic. This library provides utility functions for updating batting stats, bowling stats, and switching batting teams.
+
+## Features
+
+- Update batting statistics (runs, balls, boundaries, dismissals).
+- Update bowling statistics (runs conceded, wickets, overs bowled).
+- Switch batting teams during a match.
+
+## Installation
+
+Install the library via pip:
+
+```bash
+pip install cricket-scoring
+```
+
+## Usage
+
+### Updating Batting Stats
+
+```python
+from cricket_scoring.batting import update_batting_stats
+
+player_stats = {
+    'runs': 10,
+    'balls': 5,
+    'fours': 1,
+    'sixes': 0,
+    'is_out': False
+}
+
+updated_stats = update_batting_stats(player_stats, runs=4, balls=1, is_out=False, is_four=True, is_six=False)
+print(updated_stats)
+```
+
+### Updating Bowling Stats
+
+```python
+from cricket_scoring.bowling import update_bowling_stats
+
+bowler_stats = {
+    'runs_conceded': 20,
+    'balls_bowled': 12,
+    'wickets': 1,
+    'overs': 2.0
+}
+
+updated_stats = update_bowling_stats(bowler_stats, runs=4, balls=1, is_wicket=False)
+print(updated_stats)
+```
+
+### Switching Batting Teams
+
+```python
+from cricket_scoring.match import switch_batting_team
+
+current_team = "Team A"
+team1 = "Team A"
+team2 = "Team B"
+
+new_batting_team = switch_batting_team(current_team, team1, team2)
+print(new_batting_team)
+```
+
+## Development
+
+### Running Tests
+
+Install `pytest`:
+
+```bash
+pip install pytest
+```
+
+Run tests:
+
+```bash
+pytest tests/
+```
+
+## License
+
+This project is licensed under the MIT License.
