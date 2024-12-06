@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vatsal
+Version: 1.0.7
+Summary: Custom utility functions to reuse efficiently.
+Home-page: https://github.com/vatsal1306/vatsal
+Author: Vatsal Vadodaria
+Author-email: vatsal1399@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# vatsal
+Custom repository for many utility functions.
