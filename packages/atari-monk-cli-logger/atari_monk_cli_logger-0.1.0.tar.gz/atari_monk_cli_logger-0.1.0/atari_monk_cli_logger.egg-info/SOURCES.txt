@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+atari_monk_cli_logger.egg-info/PKG-INFO
+atari_monk_cli_logger.egg-info/SOURCES.txt
+atari_monk_cli_logger.egg-info/dependency_links.txt
+atari_monk_cli_logger.egg-info/top_level.txt
+cli_logger/__init__.py
+cli_logger/logger.py
+cli_logger/usage_example.py
