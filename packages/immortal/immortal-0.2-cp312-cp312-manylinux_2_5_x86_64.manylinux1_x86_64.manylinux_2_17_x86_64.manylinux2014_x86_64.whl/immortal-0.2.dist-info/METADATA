@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: immortal
+Version: 0.2
+Summary: Hack around with PEP 683
+Author: Joshix
+Project-URL: Home, https://codeberg.org/Joshix/immortal
+Requires-Python: >=3.12
