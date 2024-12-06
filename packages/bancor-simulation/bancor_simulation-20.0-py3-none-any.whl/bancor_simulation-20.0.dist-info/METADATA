@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bancor-simulation
+Version: 20.0
+Summary: Bancor protocol simulation package with telemetry
+Home-page: https://github.com/yourusername/bancor-simulation
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+
+# Bancor Simulation
+
+A Python package for simulating Bancor protocol mechanics.
+
+## Installation
