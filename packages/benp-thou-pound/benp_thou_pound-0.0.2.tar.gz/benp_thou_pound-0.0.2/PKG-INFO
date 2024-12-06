@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: benp_thou_pound
+Version: 0.0.2
+Summary: A library for quick data analysis while watch shows with bariatric surgery.
+Author: Ben Payton
+Project-URL: Documentation, https://github.com/Ben-Payton/benp_thou_pound/blob/main/README.md
+Project-URL: Source, https://github.com/Ben-Payton/benp_thou_pound
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+
+## bariatric_candidate
+
+Used to do quick calculations about bariatric candidates

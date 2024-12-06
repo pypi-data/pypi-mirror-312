@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+benp_thou_pound/__init__.py
+benp_thou_pound/proctor_goals.py
+benp_thou_pound.egg-info/PKG-INFO
+benp_thou_pound.egg-info/SOURCES.txt
+benp_thou_pound.egg-info/dependency_links.txt
+benp_thou_pound.egg-info/requires.txt
+benp_thou_pound.egg-info/top_level.txt
+tests/test.py
