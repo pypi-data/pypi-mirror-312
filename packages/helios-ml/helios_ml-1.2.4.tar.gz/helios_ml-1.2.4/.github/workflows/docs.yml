@@ -1,0 +1,58 @@
+name: "Render docs"
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sphinx:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        id: setup_python
+        with:
+          python-version: "3.12"
+
+      - name: Cache virtualenv
+        uses: actions/cache@v4
+        with:
+          key: venv_ubuntu-latest_py-${{ steps.setup_python.outputs.python-version}}_${{ hashFiles('requirements/ci.txt') }}
+          path: venv
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          python -m pip install -r requirements/ci.txt
+          echo "$VIRTUAL_ENV/bin" >> $GITHUB_PATH
+          echo "VIRTUAL_ENV=$VIRTUAL_ENV" >> $GITHUB_ENV
+
+      - name: Install Helios
+        shell: bash
+        run: |
+          pip install .
+
+      - name: Build Docs
+        shell: bash
+        run: |
+          cd docs
+          make html
+
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: html-docs
+          path: docs/build/html/
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/build/html
