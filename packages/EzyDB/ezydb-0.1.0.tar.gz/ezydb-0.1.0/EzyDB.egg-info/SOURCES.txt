@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+EzyDB/__init__.py
+EzyDB/main.py
+EzyDB.egg-info/PKG-INFO
+EzyDB.egg-info/SOURCES.txt
+EzyDB.egg-info/dependency_links.txt
+EzyDB.egg-info/entry_points.txt
+EzyDB.egg-info/top_level.txt
+test/test.py

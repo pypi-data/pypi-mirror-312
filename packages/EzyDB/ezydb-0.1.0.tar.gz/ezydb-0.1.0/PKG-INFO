@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: EzyDB
+Version: 0.1.0
+Summary: EzyDB is a lightweight, file-based NoSQL database system designed for Python developers.
+Author: Rakesh Kanna
+Author-email: rakeshkanna0108@gmail.com
+License: MIT
+Keywords: database,db,nosql,json,bson,storage,store
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EzyDB  
+EzyDB is a lightweight, file-based NoSQL database system designed for Python developers.
+
+> [!WARNING]
+> This tool is in **BETA** / **DEVELOPMENT** stage. Please use latest version.
