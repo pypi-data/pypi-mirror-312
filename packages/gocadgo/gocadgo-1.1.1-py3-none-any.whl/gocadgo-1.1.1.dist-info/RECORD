@@ -1,0 +1,12 @@
+gocadgo/__init__.py,sha256=prkbI2D3BECFKBH3pvncfvDi9ZvDZttS8iKN60hxzhI,140
+gocadgo/cell.py,sha256=pZtI2SPzQiv2i3ivVfTrI2suDpYL_G95Kj5XKHrY81Y,3088
+gocadgo/hello.py,sha256=wbo4DF9S9igF04nv5sDp0bsIKnVVna8Sgt5BJKp__s8,39
+gocadgo/helper.py,sha256=BUirKqmsu6ihLBp_Rcxg9lKFsIh2MdNdWqTSJk6OmoM,749
+gocadgo/main.py,sha256=m7f8roDLdkcwXJ_XFMB3l7wkQiHEhLZINl8r9S5HJ_Y,574
+gocadgo/network.py,sha256=u_y0gG6mQX3Lk06mtNazSy6wHDyGr-UAmufiwGNvt10,1661
+gocadgo/plotter.py,sha256=8WDZSBqKXy_kX94kcSC6Ii7njBSDenL9rO4EyuKM9wU,274
+gocadgo-1.1.1.dist-info/LICENSE,sha256=xDteC1BsRmd_zrsGDL6ajCcT49Wpea9GNu2s2RnMHs0,1072
+gocadgo-1.1.1.dist-info/METADATA,sha256=RyE6MXiObkSrUqs_rl6znQ2UnHOohXmUqzIu2ELdCPM,3029
+gocadgo-1.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+gocadgo-1.1.1.dist-info/top_level.txt,sha256=8cmmWiOYKCb12dHaUL5NRmkwIzmMdWmjckrgj8gdIb4,8
+gocadgo-1.1.1.dist-info/RECORD,,
