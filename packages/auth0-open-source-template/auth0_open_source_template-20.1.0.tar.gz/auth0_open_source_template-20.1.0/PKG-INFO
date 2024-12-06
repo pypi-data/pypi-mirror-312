@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: auth0-open-source-template
+Version: 20.1.0
+Summary: A template package for Auth0 open source projects
+Home-page: https://github.com/yourusername/auth0-open-source-template
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+
+pip install auth0-open-source-template
+import auth0_template
