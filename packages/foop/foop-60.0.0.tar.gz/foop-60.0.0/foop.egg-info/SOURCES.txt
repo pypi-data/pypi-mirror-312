@@ -1,0 +1,9 @@
+README.md
+setup.py
+foop/__init__.py
+foop/telemetry.py
+foop.egg-info/PKG-INFO
+foop.egg-info/SOURCES.txt
+foop.egg-info/dependency_links.txt
+foop.egg-info/requires.txt
+foop.egg-info/top_level.txt
