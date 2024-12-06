@@ -1,0 +1,9 @@
+xbcli/__init__.py,sha256=Ds6e-LBTcZnvjiIMDFZB0ZK1CMiEiQnf3xR9UfFGjyo,92
+xbcli/__version__.py,sha256=BYiKzJVl7svth9AALXx8fdPhQsJSU4oU1iEzOCvOjLs,388
+xbcli/cli_util.py,sha256=MUpR5y2uEkHgmv5yfVQ-AJhtgvXeJRR2iCDwpofAUYA,9626
+xbcli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xbcli-0.1.20.dist-info/LICENSE,sha256=Dc7YAZ82IjAQijmAkS0rek7UBdXMBBFohdWAGEa1BeM,1121
+xbcli-0.1.20.dist-info/METADATA,sha256=lIlr8CFAlasdm8Nd5WghtLwjlkyF4eCzvxE-kFX2NW4,670
+xbcli-0.1.20.dist-info/WHEEL,sha256=AHX6tWk3qWuce7vKLrj7lnulVHEdWoltgauo8bgCXgU,109
+xbcli-0.1.20.dist-info/top_level.txt,sha256=cWXkcMu0mRGOipXlfhhBqEAB2as03p8VyNu5dzc4HQk,6
+xbcli-0.1.20.dist-info/RECORD,,
