@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: PyUdisk
+Version: 0.1.1
+Summary: Extensive disk monitor for Linux OS
+Author-email: Vignesh Rao <svignesh1793@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 TheVickypedia
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/thevickypedia/PyUdisk
+Project-URL: Source, https://github.com/thevickypedia/PyUdisk
+Keywords: disk-monitor,PyUdisk
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: System :: Monitoring
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click==8.1.*
+Requires-Dist: psutil==6.0.*
+Requires-Dist: pydantic==2.*
+Requires-Dist: pydantic-settings==2.*
+Provides-Extra: dev
+Requires-Dist: pre-commit; extra == "dev"
+Provides-Extra: standard
+Requires-Dist: Jinja2==3.1.*; extra == "standard"
+Requires-Dist: requests==2.*; extra == "standard"
+Requires-Dist: gmail-connector; extra == "standard"
+
+# PyUdisk (Linux)
+
+PyUdisk is a wrapper around the `udisksctl` command-line tool to generate a comprehensive list of all block devices and drives on a Linux machines.
+
+
+### Installation
+
+**Recommendations**
+
+- Install `python` [3.10] or [3.11]
+- Use a dedicated [virtual environment]
+
+For monitoring and reporting, use
+```shell
+pip install PyUdisk[standard]
+```
+
+For basic functionality, use
+```shell
+pip install PyUdisk
+```
+
+### Usage
+
+**IDE**
+```python
+import pyudisk
+
+
+if __name__ == '__main__':
+    pyudisk.monitor()
+```
+
+**CLI**
+```shell
+pyudisk start
+```
+
+> Use `pyudisk --help` for usage instructions.
+
+## Environment Variables
+
+<details>
+<summary><strong>Sourcing environment variables from an env file</strong></summary>
+
+> _By default, `PyUdisk` will look for a `.env` file in the current working directory._
+</details>
+
+- **UDISK_LIB**: Path to the `udisksctl` command-line tool. Default: `/usr/bin/udisksctl`
+- **METRICS**: List of metrics to monitor. Default: `[]`
+- **GMAIL_USER**: Gmail username to authenticate SMTP library.
+- **GMAIL_PASS**: Gmail password to authenticate SMTP library.
+- **RECIPIENT**: Email recipient for email notifications.
+- **PHONE**: Phone number for SMS notifications.
+- **NTFY_URL**: URL for Ntfy notifications.
+- **NTFY_TOPIC**: Topic for Ntfy notifications.
+- **NTFY_USERNAME**: Username for Ntfy notifications.
+- **NTFY_PASSWORD**: Password for Ntfy notifications.
+- **TELEGRAM_BOT_TOKEN**: Telegram bot token for Telegram notifications.
+- **TELEGRAM_CHAT_ID**: Telegram chat ID for Telegram notifications.
+- **TELEGRAM_THREAD_ID**: Telegram thread ID for Telegram notifications.
+- **DISK_REPORT**: Boolean flag to send disk report via email.
+- **REPORT_DIR**: Directory to save disk reports. Default: `report`
+- **REPORT_FILE**: Filename for disk reports. Default format: `disk_report_%m-%d-%Y_%I:%M_%p.html`
