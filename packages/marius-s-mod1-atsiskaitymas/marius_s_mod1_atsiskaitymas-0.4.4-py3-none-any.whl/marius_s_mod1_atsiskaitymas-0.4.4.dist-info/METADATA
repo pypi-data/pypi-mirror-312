@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: marius_s_mod1_atsiskaitymas
+Version: 0.4.4
+Summary: A crawler for news articles from specified websites
+Author: Marelis272
+Author-email: Mariusstosk@gmail.com
+Requires-Python: >=3.13,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: lxml (>=5.3.0,<6.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Marius-s-mod1-atsiskaitymas
+
+## Funkcijos
+
+Pavyzdys: crawl(site='lrytas.lt', timeout=5, format='list')
+
+site - nurodo svetainę, iš kurios bus imami duomenys
+
+timeout - nurodo funkcijos veikimo laiką sekundėmis
+
+format - nurodo duomenų grąžinimo formatą
+
+### galimos svetainės
+
+    1. lrytas.lt
+    2. kaunodiena.lt
+
+### galimi duomenų formatai
+
+    1. list
+    2. csv
+
+## instaliacija
+
+poetry add Marius_s_mod1_atsiskaitymas
+
+pypi repozitorija - https://pypi.org/project/marius-s-mod1-atsiskaitymas/
