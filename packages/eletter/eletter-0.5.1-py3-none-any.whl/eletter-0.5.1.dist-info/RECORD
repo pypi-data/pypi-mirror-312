@@ -1,0 +1,11 @@
+eletter/__init__.py,sha256=ef8G8_bmsB8HTRdOjDagh0Uv9Dpdc0X1bnfEtU6T8hk,1657
+eletter/classes.py,sha256=pFy4RcfQy-e7dRNKsBSOfeHCy0j3v8T1Uu3UTQmpemM,28035
+eletter/core.py,sha256=kZz1aR7bIwyzRGn3MKJXXjPGVN8hbIobt8SBJCEAXzg,5376
+eletter/decompose.py,sha256=Efsf_XUD-JgNiNTLGoGAJi3EohGIQjOoEgezlDNKfDU,18172
+eletter/errors.py,sha256=0vsufccjx7IvByWxUcTow8fHcSaGp9DKFEqYk8EsVNA,1013
+eletter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eletter/util.py,sha256=lKbWMJUycyMg75RAjDgOVEcAKL3hhbid4ymB0f_XZZo,1601
+eletter-0.5.1.dist-info/METADATA,sha256=A_88KpuI_fZmrRcPADGLdR-uk1WhsifAMKrRCkPuZlo,5770
+eletter-0.5.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+eletter-0.5.1.dist-info/licenses/LICENSE,sha256=El0o1KVet3cO8D_pkhWPG5vKhB_vg0dXkOqU4xWMD6E,1095
+eletter-0.5.1.dist-info/RECORD,,
