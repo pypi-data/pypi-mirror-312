@@ -1,0 +1,6 @@
+README.md
+setup.py
+ladyqingyu_mypackage1.egg-info/PKG-INFO
+ladyqingyu_mypackage1.egg-info/SOURCES.txt
+ladyqingyu_mypackage1.egg-info/dependency_links.txt
+ladyqingyu_mypackage1.egg-info/top_level.txt
