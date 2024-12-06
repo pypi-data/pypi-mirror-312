@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: InstructionCLI
+Version: 0.0.4
+Summary: Command line parser based on the concept of instructions
+Project-URL: Homepage, https://github.com/Fleenko/InstructionCLI
+Project-URL: Issues, https://github.com/Fleenko/InstructionCLI/issues
+Author-email: "Stas Borovikov (aka Fleenko)" <stas.borovikov01@yandex.ru>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
