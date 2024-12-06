@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: PolyNum
+Version: 0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Muskan Chaurasia
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Numerical Methods and Polynomial Evaluation
+
+This module provides tools for performing polynomial operations and solving numerical methods problems. It includes functions for polynomial evaluations, roots finding, and key numerical techniques used in computational mathematics.
+
+## Features
+
+- **Polynomial Evaluation**: Evaluate polynomials at a given point.
+- **Polynomial Operations**: Perform basic operations like addition, subtraction, multiplication, and division on polynomials.
+- **Numerical Methods**: Implement common numerical techniques like Euler's method, numerical integration, and root-finding algorithms.
+- **Customizable Degree Representation**: Polynomials are represented as lists of coefficients, with the 0th index corresponding to the highest degree term.
+
+## Installation
+
+You can install this module via `pip` (if it's packaged) or directly from the repository:
+
+```bash
+pip install PolyNum
+
+
