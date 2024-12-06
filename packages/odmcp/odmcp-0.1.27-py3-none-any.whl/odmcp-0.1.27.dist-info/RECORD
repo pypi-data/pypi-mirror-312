@@ -1,0 +1,11 @@
+odmcp/__init__.py,sha256=vEF032D64gj-9WJp4kp0yS1eFIq4XHIqJr91sJJNwWg,23
+odmcp/cli.py,sha256=LHZW1T1KiI7wqSxyh7_scmhOoGSLGlaWMxslGAthYQM,6271
+odmcp/client.py,sha256=G56xOLeeb6a7-TuPzBoVN31aOS6OqWS9fmzATBfZJbA,1571
+odmcp/utils.py,sha256=fUr6YVlcE1lwK8NMZOmnciAwUYCAGUKwWfyM-dejO2w,2246
+odmcp/providers/__template__.py,sha256=hM4EYEfU8XjE_s3gocmQHAhqufjJGzdmFYk7upXRcQ4,3712
+odmcp/providers/ch_sbb.py,sha256=lxJqhB1lG3zqbRcA8qmHFp-gkMux7rMQ2nk27zeMEEo,14586
+odmcp-0.1.27.dist-info/METADATA,sha256=EXnCgDBZZHrgZl4KhuoNd-tj6pR_PZ8LpPFo5Q8z7aA,9419
+odmcp-0.1.27.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+odmcp-0.1.27.dist-info/entry_points.txt,sha256=pBFTrsnBuGwupS7N_vptKxgFIaXIOt6eKi49qkBx2mc,41
+odmcp-0.1.27.dist-info/licenses/LICENSE,sha256=6g7ket0M3R-ZECVQRPhsg8t09rJ1lPhVZgT0bY-s5U4,1073
+odmcp-0.1.27.dist-info/RECORD,,
