@@ -1,0 +1,6 @@
+query groups {
+  items: groups {
+    id
+    shortName
+  }
+}

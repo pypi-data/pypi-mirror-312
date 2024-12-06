@@ -1,0 +1,66 @@
+query groupById($id: ID) {
+  object: groupById(id: $id) {
+    id
+    name
+    shortName
+    avatarUrl
+    schoolTerm {
+      id
+      name
+    }
+    groupType {
+      id
+      name
+    }
+    members {
+      id
+      avatarContentUrl
+      firstName
+      lastName
+      fullName
+      shortName
+      dateOfBirth
+      sex
+      email
+      username
+    }
+    owners {
+      id
+      fullName
+      avatarContentUrl
+    }
+    childGroups {
+      id
+      name
+      avatarUrl
+      schoolTerm {
+        id
+        name
+      }
+    }
+    parentGroups {
+      id
+      name
+      avatarUrl
+      schoolTerm {
+        id
+        name
+      }
+    }
+    statistics {
+      members
+      ageAvg
+      ageRangeMin
+      ageRangeMax
+    }
+
+    canEdit
+    canDelete
+  }
+}
+
+mutation deleteGroups($ids: [ID]!) {
+  deleteGroups(ids: $ids) {
+    deletionCount
+  }
+}

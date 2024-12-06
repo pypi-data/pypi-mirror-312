@@ -1,0 +1,3 @@
+query Ping($payload: String) {
+  ping(payload: $payload)
+}
