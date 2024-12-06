@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/bcTeam.egg-info/PKG-INFO
+src/bcTeam.egg-info/SOURCES.txt
+src/bcTeam.egg-info/dependency_links.txt
+src/bcTeam.egg-info/top_level.txt
+src/bcTeams/__init__.py
+src/bcTeams/db.py
