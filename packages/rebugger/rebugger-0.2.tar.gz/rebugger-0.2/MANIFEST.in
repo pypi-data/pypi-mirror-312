@@ -1,0 +1,3 @@
+include protos/**
+include test.py
+include README.md
