@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pylivoltek
+Version: 1.0.9
+Summary: Livoltek API
+Home-page: 
+Author-email: 
+Keywords: Swagger,Livoltek API
+Requires-Dist: urllib3>=1.15
+Requires-Dist: six>=1.10
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    Python API Client for the Livoltek API
+    
