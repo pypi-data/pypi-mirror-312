@@ -1,0 +1,11 @@
+geometry_lib/__init__.py,sha256=Ua58cka1-7dt59w9bUQpFE_4KelDB3TeE8uGYpxz7H4,127
+geometry_lib/shapes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geometry_lib/shapes/base.py,sha256=hvXXrP_M54WTwTNR9o5eJHpqR3TyFPlwC8lXhvz4D6c,815
+geometry_lib/shapes/factory.py,sha256=I_M-FZ03QyEBBlPWR0iJ-wtlrPaQj6c3wA-jbumQI7Q,572
+geometry_lib/shapes/primitives.py,sha256=hyqPc8_0xXFvCfSrg4Vr09YAtKRt4p0JNFqB-QJBp9I,2045
+geometry_lib/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geometry_lib/utils/validators.py,sha256=MI1hQ1h0fbFJ0z6ECbTWh5mZe2MC4FfKvLqZwe5BwfQ,650
+geometry_lib_pca-1.0.4.dist-info/LICENSE,sha256=IcPYiLhXMFnpYcHoBESxOpLhqEHqU9ZOw3Lryx5Xa7w,1072
+geometry_lib_pca-1.0.4.dist-info/METADATA,sha256=CiSTnoq2-nEGK8F3ZrlkkVTAq68WwAWgMnbhjNyqIec,2646
+geometry_lib_pca-1.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+geometry_lib_pca-1.0.4.dist-info/RECORD,,
