@@ -1,0 +1,10 @@
+hostname dev20
+!
+version 16.12
+!
+interface FiveGigabitEthernet0/0
+ description <20>
+ ip address 10.0.0.20 255.255.0.0
+ no shutdown
+!
+end

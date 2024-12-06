@@ -1,0 +1,10 @@
+hostname dev12
+!
+version 16.12
+!
+interface BRI0/1/1:0
+ description <Test12>
+ ip address 10.0.0.112 255.255.0.0
+ no shutdown
+!
+end

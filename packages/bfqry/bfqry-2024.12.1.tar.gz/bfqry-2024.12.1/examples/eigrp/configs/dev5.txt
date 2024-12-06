@@ -1,0 +1,14 @@
+hostname dev5
+!
+version 16.12.5
+!
+interface GigabitEthernet0/0
+ description <dev4 Gi0/1>
+ ip address 10.45.0.5 255.255.255.0
+ no shutdown
+!
+router eigrp 65000
+ network 0.0.0.0 255.255.255.255
+ eigrp router-id 5.5.5.5
+!
+end

@@ -1,0 +1,10 @@
+hostname dev21
+!
+version 16.12
+!
+interface TenGigabitEthernet0/0
+ description <21>
+ ip address 10.0.0.21 255.255.0.0
+ no shutdown
+!
+end

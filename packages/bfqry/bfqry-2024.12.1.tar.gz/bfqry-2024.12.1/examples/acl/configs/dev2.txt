@@ -1,0 +1,25 @@
+hostname dev2
+!
+version 16.12.2
+!
+interface GigabitEthernet0/0
+ description <dev1 Gi0/1>
+ ip address 10.12.0.2 255.255.255.0
+ ip access-group 102 in
+ no shutdown
+!
+interface GigabitEthernet0/1
+ description <dev3 Gi0/0>
+ ip address 10.23.0.2 255.255.255.0
+ no shutdown
+!
+access-list 102 permit tcp any any eq 53
+access-list 102 permit udp any any eq 53
+access-list 102 deny ip any any
+access-list 102 permit tcp any any eq 10001
+access-list 102 permit tcp any any eq 10002
+access-list 102 permit tcp any any eq 10003
+!
+ip route 0.0.0.0 0.0.0.0 10.23.0.3
+!
+end

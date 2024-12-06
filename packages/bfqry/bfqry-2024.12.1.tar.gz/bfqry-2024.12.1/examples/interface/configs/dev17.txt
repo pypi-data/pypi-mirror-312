@@ -1,0 +1,14 @@
+hostname dev17
+!
+version 16.12
+!
+interface FastEthernet0/0
+ description <17>
+ ip address 10.0.0.17 255.255.0.0
+ ip access-group ACL out
+ no shutdown
+!
+ip access-list extended ACL
+ permit ip any any
+!
+end

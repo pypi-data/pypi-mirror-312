@@ -1,0 +1,14 @@
+hostname dev16
+!
+version 16.12
+!
+interface Ethernet0/0
+ description <16>
+ ip address 10.0.0.16 255.255.0.0
+ ip access-group ACL in
+ no shutdown
+!
+ip access-list extended ACL
+ permit ip any any
+!
+end

@@ -1,0 +1,10 @@
+hostname dev13
+!
+version 16.12
+!
+interface BRI0/1/0:0
+ description <13>
+ ip address 10.0.0.13 255.255.0.0
+ no shutdown
+!
+end

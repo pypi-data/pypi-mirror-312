@@ -1,0 +1,26 @@
+hostname dev5
+!
+version 16.12
+!
+vlan 45,99
+!
+interface GigabitEthernet0/0
+ switchport
+ switchport access vlan 45
+ switchport mode access
+ spanning-tree portfast
+ no shutdown
+!
+interface Vlan45
+ ip address 10.45.0.5 255.255.255.0
+ no ip redirects
+ no shutdown
+!
+interface Vlan99
+ ip address 10.99.0.5 255.255.255.0
+ no ip redirects
+ shutdown
+!
+ip route 0.0.0.0 0.0.0.0 10.45.0.4
+!
+end

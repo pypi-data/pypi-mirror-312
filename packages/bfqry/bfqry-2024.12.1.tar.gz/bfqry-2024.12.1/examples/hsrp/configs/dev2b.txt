@@ -1,0 +1,27 @@
+hostname dev2b
+!
+version 16.12
+!
+interface GigabitEthernet0/0
+ description <dev1 Gi0/1>
+ ip address 10.12.0.22 255.255.255.0
+ standby 101 ip 10.12.0.101
+ standby 101 preempt
+ standby 101 track GigabitEthernet0/1
+ standby 102 ip 10.12.0.102
+ standby 102 priority 105
+ standby 102 preempt
+ standby 102 track GigabitEthernet0/1
+ no shutdown
+!
+interface GigabitEthernet0/1
+ description <dev3 Gi0/0>
+ ip address 10.23.0.22 255.255.255.0
+ standby 103 ip 10.23.0.2
+ standby 103 preempt
+ standby 103 track GigabitEthernet0/0
+ no shutdown
+!
+ip route 0.0.0.0 0.0.0.0 10.23.0.3
+!
+end

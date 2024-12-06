@@ -1,0 +1,10 @@
+hostname dev22
+!
+version 16.12
+!
+interface TwentyFiveGigE0/0
+ description <22>
+ ip address 10.0.0.22 255.255.0.0
+ no shutdown
+!
+end

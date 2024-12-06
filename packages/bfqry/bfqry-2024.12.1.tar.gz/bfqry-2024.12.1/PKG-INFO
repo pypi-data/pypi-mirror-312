@@ -1,0 +1,56 @@
+Metadata-Version: 2.3
+Name: bfqry
+Version: 2024.12.1
+Summary: Batfish Query Utility
+Project-URL: Documentation, https://github.com/sig9org/bfqry
+Project-URL: Issues, https://github.com/sig9org/bfqry/issues
+Project-URL: Source, https://github.com/sig9org/bfqry
+Author-email: sig9 <sig9@sig9.org>
+License: MIT
+Keywords: batfish
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: argcomplete
+Requires-Dist: openpyxl
+Requires-Dist: pybatfish
+Requires-Dist: requests
+Requires-Dist: setuptools
+Description-Content-Type: text/markdown
+
+# bfqry
+
+[![PyPI - Version](https://img.shields.io/pypi/v/bfqry.svg)](https://pypi.org/project/bfqry)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bfqry.svg)](https://pypi.org/project/bfqry)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install bfqry
+```
+
+## Dependencies
+
+- [argcomplete](https://pypi.org/project/argcomplete/)
+- [openpyxl](https://pypi.org/project/openpyxl/)
+- [pybatfish](https://pypi.org/project/pybatfish/)
+- [requests](https://pypi.org/project/requests/)
+- [setuptools](https://pypi.org/project/setuptools/)
+
+## License
+
+`bfqry` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

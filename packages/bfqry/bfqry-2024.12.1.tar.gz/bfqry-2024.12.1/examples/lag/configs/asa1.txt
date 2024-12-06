@@ -1,0 +1,198 @@
+ASA Version 9.2(3) 
+!
+hostname asa1
+!
+interface GigabitEthernet0/0
+ description LAN Failover Interface
+!
+interface GigabitEthernet0/1
+ description STATE Failover Interface
+!
+interface GigabitEthernet0/2
+ shutdown
+ no nameif
+ no security-level
+ no ip address
+!
+interface GigabitEthernet0/3
+ shutdown
+ no nameif
+ no security-level
+ no ip address
+!
+interface GigabitEthernet0/4
+ channel-group 3 mode active
+ no nameif
+ no security-level
+ no ip address
+!
+interface GigabitEthernet0/5
+ channel-group 3 mode active
+ no nameif
+ no security-level
+ no ip address
+!
+interface Management0/0
+ management-only
+ nameif management
+ security-level 100
+ ip address 130.177.254.40 255.255.255.0 standby 130.177.254.41 
+!
+interface Management0/1
+ shutdown
+ no nameif
+ no security-level
+ no ip address
+!
+interface TenGigabitEthernet0/6
+ channel-group 10 mode active
+ no nameif
+ no security-level
+ no ip address
+!
+interface TenGigabitEthernet0/7
+ channel-group 10 mode active
+ no nameif
+ no security-level
+ no ip address
+!
+interface TenGigabitEthernet0/8
+ channel-group 2 mode active
+ no nameif
+ no security-level
+ no ip address
+!
+interface TenGigabitEthernet0/9
+ channel-group 2 mode active
+ no nameif
+ no security-level
+ no ip address
+!
+interface Port-channel2
+ lacp max-bundle 8
+ no nameif
+ no security-level
+ no ip address
+!
+interface Port-channel2.839
+ vlan 839
+ nameif OUTSIDE1
+ security-level 0
+ ip address 130.177.241.9 255.255.255.248 standby 130.177.241.10 
+!
+interface Port-channel2.905
+ vlan 905
+ nameif OUTSIDE2
+ security-level 0
+ ip address 130.177.242.1 255.255.255.248 standby 130.177.242.2 
+!
+interface Port-channel2.906
+ vlan 906
+ nameif OUTSIDE3
+ security-level 0
+ ip address 130.177.242.9 255.255.255.248 standby 130.177.242.10 
+!
+interface Port-channel2.907
+ vlan 907
+ nameif OUTSIDE4
+ security-level 0
+ ip address 130.177.242.17 255.255.255.248 standby 130.177.242.18 
+!
+interface Port-channel2.933
+ vlan 933
+ nameif OUTSIDE5
+ security-level 0
+ ip address 130.177.242.129 255.255.255.248 standby 130.177.242.130 
+!
+interface Port-channel2.950
+ vlan 950
+ nameif OUTSIDE6
+ security-level 0
+ ip address 130.177.242.185 255.255.255.248 standby 130.177.242.186 
+!
+interface Port-channel2.952
+ vlan 952
+ nameif OUTSIDE7
+ security-level 0
+ ip address 130.177.242.201 255.255.255.248 standby 130.177.242.202 
+!
+interface Port-channel2.953
+ vlan 953
+ nameif OUTSIDE8
+ security-level 0
+ ip address 130.177.242.209 255.255.255.248 standby 130.177.242.210 
+!
+interface Port-channel2.963
+ vlan 963
+ nameif OUTSIDE9
+ security-level 0
+ ip address 130.177.242.217 255.255.255.248 standby 130.177.242.218 
+!
+interface Port-channel2.964
+ vlan 964
+ nameif OUTSIDE10
+ security-level 0
+ ip address 130.177.242.225 255.255.255.248 standby 130.177.242.226 
+!
+interface Port-channel2.971
+ vlan 971
+ nameif OUTSIDE11
+ security-level 0
+ ip address 130.177.242.233 255.255.255.248 standby 130.177.242.234 
+!
+interface Port-channel2.997
+ vlan 997
+ nameif OUTSIDE13
+ security-level 0
+ ip address 130.177.243.81 255.255.255.248 standby 130.177.243.82 
+!
+interface Port-channel2.1017
+ vlan 1017
+ nameif OUTSIDE14
+ security-level 0
+ ip address 130.177.243.121 255.255.255.248 standby 130.177.243.122 
+!
+interface Port-channel2.1025
+ vlan 1025
+ nameif OUTSIDE15
+ security-level 0
+ ip address 130.177.245.1 255.255.255.248 standby 130.177.245.2 
+!
+interface Port-channel2.1026
+ vlan 1026
+ nameif OUTSIDE16
+ security-level 0
+ ip address 130.177.237.185 255.255.255.248 standby 130.177.237.186 
+!
+interface Port-channel2.1082
+ vlan 1082
+ nameif OUTSIDE17
+ security-level 0
+ ip address 130.177.245.17 255.255.255.248 standby 130.177.245.18 
+!
+interface Port-channel3
+ lacp max-bundle 8
+ no nameif
+ no security-level
+ no ip address
+!
+interface Port-channel3.994
+ vlan 994
+ nameif OUTSIDE101
+ security-level 0
+ ip address 130.177.244.1 255.255.255.248 standby 130.177.244.2 
+!
+interface Port-channel10
+ lacp max-bundle 8
+ no nameif
+ no security-level
+ no ip address
+!
+interface Port-channel10.838
+ vlan 838
+ nameif INSIDE1
+ security-level 100
+ ip address 130.177.241.1 255.255.255.248 standby 130.177.241.2 
+!
+Cryptochecksum:31046907f9c7c4f1b640e66f8e157bd2
+: end

@@ -1,0 +1,13 @@
+hostname dev5
+!
+version 16.12
+!
+ip vrf A
+!
+interface Loopback0
+ ip vrf forwarding A
+ ip address 10.0.0.99 255.255.255.0 secondary
+ ip address 10.0.0.5 255.255.255.0
+ no shutdown
+!
+end

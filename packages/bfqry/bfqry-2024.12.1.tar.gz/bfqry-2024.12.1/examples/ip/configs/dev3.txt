@@ -1,0 +1,10 @@
+hostname dev3
+!
+version 16.12
+!
+interface Loopback0
+ ip address 10.0.0.93 255.255.255.0 secondary
+ ip address 10.0.0.3 255.255.255.0
+ no shutdown
+!
+end

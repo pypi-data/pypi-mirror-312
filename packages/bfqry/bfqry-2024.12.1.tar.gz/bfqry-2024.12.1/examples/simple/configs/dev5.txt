@@ -1,0 +1,10 @@
+hostname dev5
+!
+interface GigabitEthernet0/0
+ description <dev4 Gi0/1>
+ ip address 10.45.0.5 255.255.255.0
+ no shutdown
+!
+ip route 0.0.0.0 0.0.0.0 10.45.0.4
+!
+end

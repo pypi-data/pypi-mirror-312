@@ -1,0 +1,10 @@
+hostname dev17
+!
+version 16.12
+!
+interface TwentyfiveGigabitEthernet0/0
+ description <Test17>
+ ip address 10.0.0.117 255.255.0.0
+ no shutdown
+!
+end

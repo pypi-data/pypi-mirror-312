@@ -1,0 +1,10 @@
+hostname dev18
+!
+version 16.12
+!
+interface GigabitEthernet0/0
+ description <18>
+ ip address 10.0.0.18 255.255.0.0
+ no shutdown
+!
+end

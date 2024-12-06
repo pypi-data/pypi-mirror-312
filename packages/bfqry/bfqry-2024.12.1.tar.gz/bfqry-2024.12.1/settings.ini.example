@@ -1,0 +1,8 @@
+batfish=10.0.0.1
+port1=9997
+port2=9996
+timeout=5.0
+https=false
+insecure=true 
+ignore_filter=false
+nocache=false

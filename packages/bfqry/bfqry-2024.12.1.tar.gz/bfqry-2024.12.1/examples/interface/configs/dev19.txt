@@ -1,0 +1,10 @@
+hostname dev19
+!
+version 16.12
+!
+interface TwoGigabitEthernet0/0
+ description <19>
+ ip address 10.0.0.19 255.255.0.0
+ no shutdown
+!
+end

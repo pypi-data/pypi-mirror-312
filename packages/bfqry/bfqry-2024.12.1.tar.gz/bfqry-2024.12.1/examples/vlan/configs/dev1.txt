@@ -1,0 +1,21 @@
+hostname dev1
+!
+version 16.12
+!
+vlan 12
+!
+interface GigabitEthernet0/1
+ switchport
+ switchport access vlan 12
+ switchport mode access
+ spanning-tree portfast
+ no shutdown
+!
+interface Vlan12
+ ip address 10.12.0.1 255.255.255.0
+ no ip redirects
+ no shutdown
+!
+ip route 0.0.0.0 0.0.0.0 10.12.0.2
+!
+end

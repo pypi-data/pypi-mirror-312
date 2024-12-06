@@ -1,0 +1,10 @@
+hostname dev4
+!
+version 16.12
+!
+interface Loopback0
+ ip address 10.0.0.4 255.255.255.0 secondary
+ ip address 10.0.0.99 255.255.255.0
+ no shutdown
+!
+end

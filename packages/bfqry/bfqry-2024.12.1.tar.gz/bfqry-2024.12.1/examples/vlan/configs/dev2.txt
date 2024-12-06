@@ -1,0 +1,33 @@
+hostname dev2
+!
+version 16.12
+!
+vlan 12,23
+!
+interface GigabitEthernet0/0
+ switchport
+ switchport access vlan 12
+ switchport mode access
+ spanning-tree portfast
+ no shutdown
+!
+interface GigabitEthernet0/1
+ switchport
+ switchport access vlan 23
+ switchport mode access
+ spanning-tree portfast
+ no shutdown
+!
+interface Vlan12
+ ip address 10.12.0.2 255.255.255.0
+ no ip redirects
+ no shutdown
+!
+interface Vlan23
+ ip address 10.23.0.2 255.255.255.0
+ no ip redirects
+ no shutdown
+!
+ip route 0.0.0.0 0.0.0.0 10.23.0.3
+!
+end

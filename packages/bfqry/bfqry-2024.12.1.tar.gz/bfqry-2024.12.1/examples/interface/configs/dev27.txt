@@ -1,0 +1,10 @@
+hostname dev27
+!
+version 16.12
+!
+interface FourHundredGigE0/0
+ description <27>
+ ip address 10.0.0.27 255.255.0.0
+ no shutdown
+!
+end

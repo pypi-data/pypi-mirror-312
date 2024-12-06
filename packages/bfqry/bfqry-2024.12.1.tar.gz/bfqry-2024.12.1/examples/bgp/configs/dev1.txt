@@ -1,0 +1,16 @@
+hostname dev1
+!
+interface Loopback0
+ ip address 10.99.1.1 255.255.255.0
+ no shutdown
+!
+interface GigabitEthernet0/1
+ ip address 10.12.0.1 255.255.255.0
+ no shutdown
+!
+router bgp 100
+ bgp router-id 10.99.1.1
+ network 10.99.1.0 mask 255.255.255.0
+ neighbor 10.12.0.2 remote-as 300
+!
+end

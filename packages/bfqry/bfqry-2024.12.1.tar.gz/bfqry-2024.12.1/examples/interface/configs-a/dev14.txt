@@ -1,0 +1,14 @@
+hostname dev14
+!
+version 16.12
+!
+interface FastEthernet0/0
+ description <Test14>
+ ip address 10.0.0.114 255.255.0.0
+ ip access-group ACL-14 out
+ no shutdown
+!
+ip access-list extended ACL-14
+ permit ip any any
+!
+end

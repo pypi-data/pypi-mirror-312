@@ -1,0 +1,11 @@
+hostname dev12
+!
+version 16.12
+!
+interface Serial0/0
+ description <12>
+ ip address 10.0.0.12 255.255.0.0
+ clock rate 64000
+ no shutdown
+!
+end

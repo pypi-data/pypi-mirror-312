@@ -1,0 +1,19 @@
+hostname dev2
+!
+interface Loopback0
+ ip address 10.99.0.2 255.255.255.0
+ no shutdown
+!
+interface GigabitEthernet0/0
+ ip address 10.12.0.2 255.255.255.0
+ no shutdown
+!
+interface GigabitEthernet0/1
+ ip address 10.23.0.2 255.255.255.0
+ no shutdown
+!
+router ospf 65000
+ router-id 10.99.0.2
+ network 0.0.0.0 255.255.255.255 area 0.0.0.0
+!
+end

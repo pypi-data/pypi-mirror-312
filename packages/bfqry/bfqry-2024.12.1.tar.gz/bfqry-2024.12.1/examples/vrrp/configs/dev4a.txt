@@ -1,0 +1,21 @@
+hostname dev4a
+!
+version 16.12
+!
+interface GigabitEthernet0/0
+ description <dev3 Gi0/1>
+ ip address 10.34.0.41 255.255.255.0
+ vrrp 34 ip 10.34.0.4
+ vrrp 34 ip priority 115
+ no shutdown
+!
+interface GigabitEthernet0/1
+ description <dev5 Gi0/0>
+ ip address 10.45.0.41 255.255.255.0
+ vrrp 45 ip 10.45.0.4
+ vrrp 45 ip priority 115
+ no shutdown
+!
+ip route 0.0.0.0 0.0.0.0 10.34.0.3
+!
+end

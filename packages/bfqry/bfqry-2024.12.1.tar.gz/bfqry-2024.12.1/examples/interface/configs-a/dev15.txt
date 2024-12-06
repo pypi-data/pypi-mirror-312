@@ -1,0 +1,10 @@
+hostname dev15
+!
+version 16.12
+!
+interface GigabitEthernet0/0
+ description <Test15>
+ ip address 10.0.0.115 255.255.0.0
+ no shutdown
+!
+end

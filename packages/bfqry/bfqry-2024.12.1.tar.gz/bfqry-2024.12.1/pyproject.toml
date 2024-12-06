@@ -1,0 +1,75 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bfqry"
+dynamic = ["version"]
+description = 'Batfish Query Utility'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = ["batfish"]
+authors = [
+  { name="sig9", email="sig9@sig9.org" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+    "argcomplete",
+    "openpyxl",
+    "pybatfish",
+    "requests",
+    "setuptools",
+]
+
+[project.urls]
+Documentation = "https://github.com/sig9org/bfqry"
+Issues = "https://github.com/sig9org/bfqry/issues"
+Source = "https://github.com/sig9org/bfqry"
+
+[project.scripts]
+bfqry = "bfqry.cli:main"
+
+[tool.hatch.version]
+path = "src/bfqry/__about__.py"
+
+[tool.hatch.envs.default]
+installer = "uv"
+type = "virtual"
+path = ".venv"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/bfqry tests}"
+
+[tool.coverage.run]
+source_pkgs = ["bfqry", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/bfqry/__about__.py",
+]
+
+[tool.coverage.paths]
+bfqry = ["src/bfqry", "*/bfqry/src/bfqry"]
+tests = ["tests", "*/bfqry/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]

@@ -1,0 +1,10 @@
+hostname dev18
+!
+version 16.12
+!
+interface FortyGigabitEthernet0/0
+ description <Test18>
+ ip address 10.0.0.118 255.255.0.0
+ no shutdown
+!
+end

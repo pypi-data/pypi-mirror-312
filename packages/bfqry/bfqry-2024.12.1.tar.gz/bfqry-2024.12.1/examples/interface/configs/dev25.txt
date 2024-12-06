@@ -1,0 +1,10 @@
+hostname dev25
+!
+version 16.12
+!
+interface HundredGigE0/0
+ description <25>
+ ip address 10.0.0.25 255.255.0.0
+ no shutdown
+!
+end

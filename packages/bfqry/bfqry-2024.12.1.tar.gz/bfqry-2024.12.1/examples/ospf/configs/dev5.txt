@@ -1,0 +1,15 @@
+hostname dev5
+!
+interface Loopback0
+ ip address 10.99.0.5 255.255.255.0
+ no shutdown
+!
+interface GigabitEthernet0/0
+ ip address 10.45.0.5 255.255.255.0
+ no shutdown
+!
+router ospf 65000
+ router-id 10.99.0.5
+ network 0.0.0.0 255.255.255.255 area 0.0.0.0
+!
+end

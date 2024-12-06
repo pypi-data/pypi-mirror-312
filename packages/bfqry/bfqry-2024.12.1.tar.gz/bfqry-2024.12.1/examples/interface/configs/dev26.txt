@@ -1,0 +1,10 @@
+hostname dev26
+!
+version 16.12
+!
+interface TwoHundredGigE0/0
+ description <26>
+ ip address 10.0.0.26 255.255.0.0
+ no shutdown
+!
+end
