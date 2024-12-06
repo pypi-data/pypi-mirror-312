@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+manychrome/__init__.py
+manychrome/colorful.py
+manychrome/component.py
+manychrome/findme.py
+manychrome/happy_helpers.py
+manychrome/manychrome_examples.py
+manychrome/stylish.py
+manychrome.egg-info/PKG-INFO
+manychrome.egg-info/SOURCES.txt
+manychrome.egg-info/dependency_links.txt
+manychrome.egg-info/top_level.txt
+tests/test_manychrome.py
