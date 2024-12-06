@@ -1,0 +1,10 @@
+bigbuy/__init__.py,sha256=WsXQRsagnuS-TJuJnfJJ7809ctiB3rbnfQ80fayCkDE,1906
+bigbuy/api.py,sha256=-DRKRiCsBbjZfeQHUOKZhuo_ECJNjRJdXnwNKwE4su0,26235
+bigbuy/exceptions.py,sha256=QDAFQbhckRCF3tprjEBF9ff8PQ_YFUBUi7EhfFHnJm8,13466
+bigbuy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bigbuy/rate_limit.py,sha256=D1KyhgxG_JjzT_-sOlY7eJUGWetRIhyAht6I-3HxvvA,1403
+bigbuy/types.py,sha256=mcxssIut2U_bOGEwkIe3dlx6_Ytjmw6rZfnmvcR_2VQ,1441
+pybigbuy-3.21.1.dist-info/LICENSE,sha256=C46i3woHiu74BIN5T39q2mvRYYIw_MEBFlGBSlJ3qKE,1062
+pybigbuy-3.21.1.dist-info/METADATA,sha256=w0B2iObKnuZh5wvkMtPItEom6r2_4AKQ2NZKmLWS1gU,1331
+pybigbuy-3.21.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pybigbuy-3.21.1.dist-info/RECORD,,
