@@ -1,0 +1,3 @@
+[console_scripts]
+cotton-daisy=cotton_daisy.cli:app
+
