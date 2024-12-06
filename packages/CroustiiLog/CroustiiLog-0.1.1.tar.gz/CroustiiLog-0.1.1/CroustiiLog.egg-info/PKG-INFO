@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: CroustiiLog
+Version: 0.1.1
+Summary: A customizable logging package
+Author: kebabou.r
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# CroustiiLog
+
+**CroustiiLog** is a customizable logging package for Python that allows you to log messages with timestamps and different log levels such as `INFO`, `DEBUG`, `ERROR`, and `SUCCESS`. It also supports custom formatting and colorization for a more aesthetic and practical logging experience.
+
+## Features
+
+- Colored logging output with customizable colors.
+- Customizable log format (e.g., with or without timestamps).
+- Multiple log levels: `INFO`, `DEBUG`, `ERROR`, `SUCCESS`, `FATAL`.
+- Support for key-value logging.
+- Tree-style vertical logging for structured data.
+
+
+## Installation
+
+You can install **CroustiiLog** via pip:
+
+```bash
+pip install CroustiiLog
+
+
+
+from croustiilog import CustomLog
+
+# Create a CustomLog instance
+log = CustomLog()
+
+# Log with different levels
+log.info("This is an info log.")
+log.debug("This is a debug log.")
+log.error("This is an error log.")
+log.success("This is a success log.")
+log.fatal("This is a fatal log.")
+
+
+log.log("Retrieved", code="6969")
+
+
+from colorama import Fore
+
+log = CustomLog(color_map={
+    "INFO": Fore.BLUE,
+    "DEBUG": Fore.YELLOW,
+    "ERROR": Fore.RED,
+    "SUCCESS": Fore.GREEN,
+    "FATAL": Fore.MAGENTA
+})
+
+log.info("This is a blue info log.")
+log.error("This is a red error log.")
+
+log = CustomLog(log_format="{timestamp} LEVEL > message")
+
+log.info("This is a custom formatted info log.")

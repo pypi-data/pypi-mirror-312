@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+CroustiiLog.egg-info/PKG-INFO
+CroustiiLog.egg-info/SOURCES.txt
+CroustiiLog.egg-info/dependency_links.txt
+CroustiiLog.egg-info/requires.txt
+CroustiiLog.egg-info/top_level.txt
