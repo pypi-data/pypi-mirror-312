@@ -1,0 +1,12 @@
+jax_cgd/__init__.py,sha256=6IefMRQM8UYu5RF8RShUX2zKZ5DJ_9gZwTEwZ4mdk_I,89
+jax_cgd/acgd.py,sha256=8CN6jnPZ8TTXqPY7S2gg3y2qSIwEyRd1iAd_pIR19tU,5574
+jax_cgd/cgd.py,sha256=nI3x-TLsUJZq_ug4ZPcAMZU4hV4GQQ260BR4F5vrfXY,4585
+jax_cgd/utils.py,sha256=ui445lfA2dnczMVCXH36D1Lc9HjeDBoeN4BZy-l6_C4,5976
+jax_cgd/solvers/__init__.py,sha256=0PzHiYEy8bCihdn2WtDOAoZ10L7HPAa0daNsnb3-Zk4,44
+jax_cgd/solvers/cg.py,sha256=e63LVS9jP2jMRx-cNYz9yr1s4AXKxD3VQZZIF2sBM3U,1341
+jax_cgd/solvers/gmres.py,sha256=pOwlvQZJO9-a6qFEo73ER9b2tLCOveiAqZwddkbo4IY,1199
+jax_cgd-0.1.5.dist-info/LICENSE,sha256=XR_0awpx0PAIAX0Y0KyTCFOX7sn7qLsQozZFKwyFd68,1089
+jax_cgd-0.1.5.dist-info/METADATA,sha256=Dugu84sz4B4OF4T6JYsvrzv8UreJmkC4IAq5Rz8kITw,1228
+jax_cgd-0.1.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+jax_cgd-0.1.5.dist-info/top_level.txt,sha256=D-hOSxZDapvOPVajrogIml2wf_qWm8qZOLsiwqetrXM,8
+jax_cgd-0.1.5.dist-info/RECORD,,
