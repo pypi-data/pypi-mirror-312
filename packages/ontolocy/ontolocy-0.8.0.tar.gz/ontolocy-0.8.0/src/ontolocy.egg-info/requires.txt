@@ -1,0 +1,4 @@
+pydantic<3,>=2
+neontology<3,>=2
+pandas<3,>1
+requests
