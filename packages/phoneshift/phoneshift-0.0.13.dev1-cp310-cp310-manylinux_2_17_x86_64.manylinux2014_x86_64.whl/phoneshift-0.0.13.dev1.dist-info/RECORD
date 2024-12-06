@@ -1,0 +1,11 @@
+phoneshift/sdk_python3.cpython-310-x86_64-linux-gnu.so,sha256=hPFWIRYKUm3YcBkN4od3zpJDn3LjmgYSFkCVZ0Fb2DI,10423480
+phoneshift/__init__.py,sha256=s7nS2Tydu6lCxjG6TiQFm_SWsGmG0IUh-lSR1FJ35zg,1700
+phoneshift/tests/utils.py,sha256=pki2baJNPblV1ZqZApgLnXHsHTrIanus8xsWFqERMgI,834
+phoneshift/tests/test_license.py,sha256=OfKNoBdbNqiEslmmzDFafj1r1zoHf-3lm0iefQxaA4k,2896
+phoneshift/tests/__init__.py,sha256=KxQHxpq0tmYECZnP6lOhLyr15buK3l4jXy8T6o1LaAc,607
+phoneshift/tests/test_nolicense.py,sha256=6lJualEW3KrvCKfYAllMzFZ6rq9QExKnBewa6JKOOgk,1950
+phoneshift/tests/test_data/wav/female2_assertive_4b_1.wav,sha256=8bBu7T-O73eoGc112spo20Ei_WKrvVPGoCJ_S8LRa9w,202904
+phoneshift-0.0.13.dev1.dist-info/top_level.txt,sha256=Zt3MUHIDfUfkCVfGiL0WcncShwG0kFNySztSBjKSU5I,34
+phoneshift-0.0.13.dev1.dist-info/RECORD,,
+phoneshift-0.0.13.dev1.dist-info/METADATA,sha256=ljEG3z7PPZ_UDraYRg_DIkmiStnotu_kTCeB69yL6w0,521
+phoneshift-0.0.13.dev1.dist-info/WHEEL,sha256=m2_gJPr7xnnGfiE013tVzgC-Sc1sFXYskwf7kyqFHXk,151

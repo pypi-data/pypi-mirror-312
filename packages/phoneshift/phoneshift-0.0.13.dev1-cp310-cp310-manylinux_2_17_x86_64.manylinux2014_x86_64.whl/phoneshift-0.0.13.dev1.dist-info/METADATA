@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: phoneshift
+Version: 0.0.13.dev1
+Summary: Please see https://phoneshift.ing
+Home-page: https://phoneshift.ing
+Author: Phoneshift
+Author-email: dev@phoneshift.ing
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Phoneshift
+
+See https://phoneshift.ing
