@@ -1,0 +1,3 @@
+[console_scripts]
+protoc-gen-py-ml = py_gen_ml.plugin.main:run
+py-gen-ml = py_gen_ml.cmd.generate:app
