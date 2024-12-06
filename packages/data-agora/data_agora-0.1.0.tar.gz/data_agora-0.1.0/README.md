@@ -1,0 +1,124 @@
+# Agora 🧪
+
+Composable Pipeline for Data Augmentation with Large Language Models
+
+## Overview 🎯
+
+Agora provides tools for:
+
+- Generating synthetic instruction data using LLMs
+- Evaluating LLMs' data augmentation capabilities
+- Comparing different augmentation methods
+
+## Core Components 🔧
+
+### Augmentation Scenarios
+
+1. **Instance Generation**: Create new instruction-response pairs from small seed dataset
+2. **Response Generation**: Generate responses for existing instructions
+3. **Quality Enhancement**: Improve quality of existing instruction-response pairs
+
+## Usage Guide 🚀
+
+## **Using Pre-built Pipeline**
+
+To use AgoraBench for replicating the results from the paper or using the exact same pipeline for custom use with potentially different seed data:
+```
+cd "scripts/agora_scripts"
+
+python3 run.py --method {} --domain {} --model_name {} --max_tokens 4096 --temperature 1.0 --num_instances 50 --num_threads 4
+```
+- method should be either "instance_generation", "response_generation", or "quality_enhancement" For other custom pipelines, refer to the Section below.
+- domain should be either "math", "general", "code'. When using custom data and there is no distinct constraint of how the data should look like, use "general".
+- model_name should be exactly the same with how you call it on OpenAI API, LiteLLM, or vLLM.
+
+
+## **Custom Usage**
+
+For custom usage with different pipelines, parsing mechanisms, and validation logics, Agora supports convenient customization through abstract classes
+
+### Prompt Loader:
+```python
+class CustomPromptLoader(InstanceGenerationPromptLoader):
+   def __init__(self, prompt_template: str, seed_data: List[Dict], num_fewshot: int, placeholder_formats: Dict[str, str] = None, num_sample_from_seed_data: Optional[int] = None, [...]):
+      super().__init__(prompt_template, seed_data, num_fewshot, placeholder_formats, num_sample_from_seed_data)
+      [...]
+    
+    def prepare(self) -> PromptResult:
+      [...]
+      return PromptResult(prompt=prompt, metadata=metadata)
+```
+
+### Parser:
+```python
+class CustomParser(Parser):
+
+   def parse(self, prompt, teacher_model_output, placeholder_formats, [...]):
+      [...]
+      return {"instruction: instruction, "response": response}
+```
+
+### Validator:
+```python
+class CustomValidator(Validator):
+   def validate(self, instruction: str, response: str, [...]):
+      [...]
+      if [...]:
+        return True
+      else:
+        return False
+```
+
+### Data Generation with Agora:
+
+
+```python
+# MODIFY THE PLACEHOLDER FORMATS BASED ON YOUR PROMPT TEMPLATE
+# Demonstration related placeholders are only used for instance generation
+# Input Theme place holder is an example of a custom placeholder
+
+placeholder_formats = {
+    "demonstration_input_placeholder": "<input@>",
+    "demonstration_output_placeholder": "<output@>",
+    "test_input_placeholder": "<input>",
+    "test_output_placeholder": "<output>",
+    "test_input_trigger": "INPUT:",
+    "test_output_trigger": "OUTPUT:",
+    "stop_phrase": "[END]",
+    "input_theme": "<input_theme>",
+}
+
+
+with open("", "r") as f:
+    seed_data = json.load(f)
+
+with open("", "r") as f:
+    prompt_template = f.read()
+
+llm = OpenAILLM(model_name="gpt-4o-mini-2024-07-18", api_key="")
+
+prompt_loader = CustomPromptLoader(prompt_template=prompt_template, seed_data=seed_data, num_fewshot=3, placeholder_formats=placeholder_formats, num_sample_from_seed_data=2)
+parser = CustomParser()
+validator = CustomValidator()
+
+
+sampling_params = {
+    "max_tokens": args.max_tokens,
+    "temperature": args.temperature,
+    "top_p": 0.9,
+    "stop": placeholder_formats["stop_phrase"]
+}
+
+agora = Agora(
+    llm=llm,
+    placeholder_formats=placeholder_formats,
+    prompt_loader=prompt_loader,
+    parser=parser,
+    validator=validator,
+    sampling_params=sampling_params
+)
+
+# Use cache_file to resume from previous results: The Agora class will automatically make a cache file "final_result.jsonl" for example
+result = agora.run(num_instances=10000, num_threads=16, output_file="./results/final_result.json")
+print(result[0])
+```
