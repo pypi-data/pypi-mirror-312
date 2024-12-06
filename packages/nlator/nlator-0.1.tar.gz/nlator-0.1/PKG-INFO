@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: nlator
+Version: 0.1
+Summary: A simple translator package for multiple languages.
+Author: NihadKerimli
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: googletrans==4.0.0-rc1
