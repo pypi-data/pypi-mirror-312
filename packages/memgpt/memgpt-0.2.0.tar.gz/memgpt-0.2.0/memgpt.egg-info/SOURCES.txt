@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+memgpt/__init__.py
+memgpt/data_loader.py
+memgpt/generate_text.py
+memgpt/memgpt_model.py
+memgpt/train.py
+memgpt.egg-info/PKG-INFO
+memgpt.egg-info/SOURCES.txt
+memgpt.egg-info/dependency_links.txt
+memgpt.egg-info/top_level.txt
