@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pyfieldimager/__init__.py
+src/pyfieldimager/__version__.py
+src/pyfieldimager/index.py
+src/pyfieldimager/main.py
+src/pyfieldimager.egg-info/PKG-INFO
+src/pyfieldimager.egg-info/SOURCES.txt
+src/pyfieldimager.egg-info/dependency_links.txt
+src/pyfieldimager.egg-info/entry_points.txt
+src/pyfieldimager.egg-info/top_level.txt
