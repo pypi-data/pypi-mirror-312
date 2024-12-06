@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+git_branch_manager/__init__.py
+git_branch_manager/branch_operations.py
+git_branch_manager/main.py
+git_branch_manager/repository_operations.py
+git_branch_manager/summary_printer.py
+git_branch_manager.egg-info/PKG-INFO
+git_branch_manager.egg-info/SOURCES.txt
+git_branch_manager.egg-info/dependency_links.txt
+git_branch_manager.egg-info/entry_points.txt
+git_branch_manager.egg-info/requires.txt
+git_branch_manager.egg-info/top_level.txt
