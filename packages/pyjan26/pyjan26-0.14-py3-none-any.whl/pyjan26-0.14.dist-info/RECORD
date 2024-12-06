@@ -1,0 +1,13 @@
+pyjan26/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjan26/core.py,sha256=tQcKCCt_9Zac92pXKqimSijXExJhDyZyIGpnS3bYBdg,18018
+pyjan26/main.py,sha256=2CXyU57U6Ugy1RzECTNIDqQCyQd8UtlF_yutK2dTfZM,2296
+pyjan26/registry.py,sha256=Qd2ByFSovvfLAIO7E5og2dPoaszZ7A1ggOO8Ak_d9bk,767
+pyjan26/project_structure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjan26/project_structure/settings.py,sha256=zAJMHEcQexRVCyO-Y1BS3Ph6mOLlSn42ZV0_Nws2IXs,865
+pyjan26/project_structure/_content/index.md,sha256=xCLk1p4g6McCP7QLQwFyVIMnoiSkDHTskbjU6YbTf_A,106
+pyjan26/project_structure/_templates/base.html,sha256=j0XgWyT1BX4OkTl4lhaNSgwJyViS2E_9V5nOyN5twSs,171
+pyjan26-0.14.dist-info/LICENSE,sha256=saYpHqsW0asP9mOMHYAOVR_oCl3mt-Xi-bccZ-4Pp8U,1063
+pyjan26-0.14.dist-info/METADATA,sha256=WghaXeo7ckVO09Nsoz_GGybAnvJ_gPbfG3KeHi5FVk0,7726
+pyjan26-0.14.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+pyjan26-0.14.dist-info/top_level.txt,sha256=hoP6swLWnGVe6WOXVmcwMqotU-PRbmoFk-XjXuE5oUI,8
+pyjan26-0.14.dist-info/RECORD,,
