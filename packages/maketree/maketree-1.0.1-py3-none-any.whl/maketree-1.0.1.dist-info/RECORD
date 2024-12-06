@@ -1,0 +1,15 @@
+maketree/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maketree/__main__.py,sha256=XePHQrCE_eLyf5y-vBnh2nNOwn3mZHsiNXCcGhUgBKo,285
+maketree/cli.py,sha256=zznFCC3DB0y86F4jqERWyQsCF5wx_L5nuuhKdvgHGpM,4266
+maketree/utils.py,sha256=Y80b3Eqe6vjHI-tPqXbMNkS-SYUf6UtPXnWAQwbmGK4,5528
+maketree/core/__init__.py,sha256=7kq4xfAODsGXOF3rbpVZk4Y1MWVZKMpHFiDH4RH4JOA,87
+maketree/core/normalizer.py,sha256=Skz7DHDoaDP7gzHzeRzJ7s1btFDRLT6R6LjRIyapa4E,1909
+maketree/core/parser.py,sha256=vR_Jjfk135QIJXKiixWtotS3oPUsrqnsPOWKgzbMQuM,3118
+maketree/core/tree_builder.py,sha256=vhAeUtx1MGhIZueTPUIXBwePcpGVPfz_15vaJh-VcoQ,2352
+tests/__init__.py,sha256=vii7ZdukYZFfWtWuUuW1EJAEpHRK8RXdwmY3K97B7EY,38
+maketree-1.0.1.dist-info/LICENSE,sha256=2MitBk18CVn16dsijI0xuhLS6SyFtLr9jSl-Nypl5VY,1090
+maketree-1.0.1.dist-info/METADATA,sha256=g2Gu5CDtuJNel3ZPMj7_MG9nZLWJ2-epnPDDMxM3aeo,8190
+maketree-1.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+maketree-1.0.1.dist-info/entry_points.txt,sha256=28NB3hJesY-tKqxBz4UHR2iF0GCDnCGJtIPuijHRTy8,47
+maketree-1.0.1.dist-info/top_level.txt,sha256=8U8fLLZEjSw78i0NDVVwWrnVKsXKzMqkGWQvc4juCH4,15
+maketree-1.0.1.dist-info/RECORD,,
