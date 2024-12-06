@@ -1,0 +1,13 @@
+pyhamcrest>=2.0
+Deprecated>=1.2
+brunns-row>=2.0
+beautifulsoup4>=4.0
+
+[:python_version < "3.8"]
+typing-extensions>=3.7
+
+[optional]
+furl>=2.0
+yarl>=1.9
+requests>=2.0
+Werkzeug>=2.0
