@@ -1,0 +1,17 @@
+subdata/__init__.py,sha256=Jn1NfRdM731LJbPYsCcY3uv-6YXMyR4d0MpHIVO83tE,411
+subdata/download.py,sha256=KzqtNJ7DABEpeXXot3I0cW4w8pnUziIoiafs2drAtW4,6157
+subdata/main.py,sha256=XdFaerAOFNqtyV6bNLcMIG2snIjpSuCc1dP4UrKTDdY,4787
+subdata/process.py,sha256=b-WOlbmTtd33lOazWEeeWkZ6yJIGkPXyk7utO6mTGEo,3300
+subdata/update.py,sha256=6nAP8W5uttPMyq_2BhNq2phfRcTjr7IbKl42KEci1Rk,8894
+subdata/utils.py,sha256=iQDOfOgF1_e1zbdceCB3GoAl2q4-gAfsWg-1y_kmmQc,3090
+subdata/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subdata/resources/download_dict.json,sha256=lbikTY7OdsIWUIfXrdwedXj4ne5fub4v4zwCr2u7Dgo,2959
+subdata/resources/instruction_dict.json,sha256=GcCkyhSl4c7kHgDi1SvyxoELIYzMe-33tP5kWUz-ymM,457
+subdata/resources/mapping_original.json,sha256=HVJeoOj3hWr9abC_TWhxk0aHerN-3RWmNCXmNI_JfGs,8720
+subdata/resources/overview_dict_original.json,sha256=5nD5YIK0_VU33XUuYOWmemDCDfh-80o8III8VHidp6o,5073
+subdata/resources/process_dict.json,sha256=7CkIfYsiG5oudQkD_lxrQj4FYGaV5QTgYX9FyG4-1Xg,9434
+subdata/resources/taxonomy_original.json,sha256=v82nXqIJTVlhINyiffEwpo5Jm8wJDD20wEwEISLJc3A,973
+subdata-0.1.7.dist-info/METADATA,sha256=LDemdtKa3y7oytlOxTW7kh_oClk7esfxO1Yg2rUEwSQ,473
+subdata-0.1.7.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+subdata-0.1.7.dist-info/top_level.txt,sha256=p402WaK_9GpSKfizcxu7raxS_0dfsmTjdOkDPVsZBlY,8
+subdata-0.1.7.dist-info/RECORD,,
