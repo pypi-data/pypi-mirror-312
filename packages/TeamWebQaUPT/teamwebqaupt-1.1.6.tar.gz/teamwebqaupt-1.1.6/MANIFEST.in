@@ -1,0 +1,10 @@
+include README.md
+include requirements.txt
+
+# Incluir todos los archivos .feature en el paquete
+recursive-include TeamWebQaUPT/features *.feature
+
+# Incluir todos los archivos .py de la carpeta steps
+recursive-include TeamWebQaUPT/features/steps *.py
+
+# Opcionalmente, incluir otros archivos no Python que sean necesarios
