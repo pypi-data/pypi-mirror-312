@@ -1,0 +1,10 @@
+README.md
+setup.py
+pypyterminal/__init__.py
+pypyterminal/commands.py
+pypyterminal/utils.py
+pypyterminal.egg-info/PKG-INFO
+pypyterminal.egg-info/SOURCES.txt
+pypyterminal.egg-info/dependency_links.txt
+pypyterminal.egg-info/requires.txt
+pypyterminal.egg-info/top_level.txt

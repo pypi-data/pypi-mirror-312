@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pypyterminal
+Version: 0.0.1
+Summary: A library to automate and shorten terminal commands for Python development on Ubuntu
+Author: Abdullah
+Author-email: abdullahashik2001@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: virtualenv
+Requires-Dist: jupyter
+
+# PyTerminal
+
+A Python library that automates and simplifies terminal commands for Python development on Ubuntu.
+
+## Features
+
+- Create, activate, and manage virtual environments
+- Run Python scripts and manage packages
+- Shortcuts for common terminal commands
+- Interactive command line interface
+
+## Installation
+
+You can install the library using pip:
