@@ -1,0 +1,17 @@
+SubjData/__init__.py,sha256=DqxyZWnwbtiwgOwweVr7rkm25k07In_fKQ_9NteJc3s,233
+SubjData/download.py,sha256=1VX0S20S7ylhX5Wci3pxwzhAJ-ftGb4M6mpaMjhG1PA,6071
+SubjData/main.py,sha256=69pKgjTtkAIXuSbMGIJj3fC2Cu8c-mJoiYDzM_jlClI,4738
+SubjData/process.py,sha256=JPV8HpyJ1_mu76m2I56m9UBrdVcRy0YrahT3utS_s1A,3214
+SubjData/update.py,sha256=flTqahn80XkP9OUyTvatd3Kmt8eyJidwNaplja08PJM,10922
+SubjData/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SubjData/resources/download_dict.json,sha256=lbikTY7OdsIWUIfXrdwedXj4ne5fub4v4zwCr2u7Dgo,2959
+SubjData/resources/instruction_dict.json,sha256=GcCkyhSl4c7kHgDi1SvyxoELIYzMe-33tP5kWUz-ymM,457
+SubjData/resources/mapping_original.json,sha256=HVJeoOj3hWr9abC_TWhxk0aHerN-3RWmNCXmNI_JfGs,8720
+SubjData/resources/overview_dict_original.json,sha256=5nD5YIK0_VU33XUuYOWmemDCDfh-80o8III8VHidp6o,5073
+SubjData/resources/process_dict.json,sha256=7CkIfYsiG5oudQkD_lxrQj4FYGaV5QTgYX9FyG4-1Xg,9434
+SubjData/resources/taxonomoy_original.json,sha256=v82nXqIJTVlhINyiffEwpo5Jm8wJDD20wEwEISLJc3A,973
+SubjData/resources/utils.py,sha256=_uwqd3Ay4eb3KIIHrQP3ycLPh9IFEvqiXaePpA3B0OA,3098
+SubjData-0.1.13.dist-info/METADATA,sha256=3Kf5bNuQY1N2KA7I9aBXZaSVAD-0fymgVGwPbX4MBAk,503
+SubjData-0.1.13.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+SubjData-0.1.13.dist-info/top_level.txt,sha256=sgfW966Q-KNjvOsZJmQnaVmjvHOsyN_WA93G5bFJ3MI,9
+SubjData-0.1.13.dist-info/RECORD,,
