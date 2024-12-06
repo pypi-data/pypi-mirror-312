@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: spark-dataproc-local-tools
+Version: 0.1.2
+Summary: spark_dataproc_local_tools
+Home-page: https://github.com/jonaqp/spark_dataproc_local_tools/
+Author: Jonathan Quiza
+Author-email: jony327@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/jonaqp/spark_dataproc_local_tools/archive/main.zip
+Keywords: spark,dataproc,pyspark
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools==58.2.0
+
+# spark_dataproc_local_tools
+spark_dql_mvp_tools
+
+

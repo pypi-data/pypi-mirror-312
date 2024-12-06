@@ -1,0 +1,9 @@
+spark_dataproc_local_tools/__init__.py,sha256=m7BRqMnJNhJ5QjobTLM7ssZM9iyRZ51DVMSOM-dgFls,261
+spark_dataproc_local_tools/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spark_dataproc_local_tools/functions/generator.py,sha256=19N9aPyKr3rOBc7cRmpuPin_DLqy-vgOAjdMEMHavzo,5581
+spark_dataproc_local_tools/utils/__init__.py,sha256=yQavjvLa_2UoWQ6A2cectDDrzgoap2B8IpuoYg250kw,137
+spark_dataproc_local_tools-0.1.2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+spark_dataproc_local_tools-0.1.2.dist-info/METADATA,sha256=lYm5egrlXxZIAx1nWWfADSpBK_GEqbhFsjUNJxVqbCo,885
+spark_dataproc_local_tools-0.1.2.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+spark_dataproc_local_tools-0.1.2.dist-info/top_level.txt,sha256=3nhpxJ-sgredVunVVdhjmbXz14I_nOTwS-zQ_vhvuxU,27
+spark_dataproc_local_tools-0.1.2.dist-info/RECORD,,
