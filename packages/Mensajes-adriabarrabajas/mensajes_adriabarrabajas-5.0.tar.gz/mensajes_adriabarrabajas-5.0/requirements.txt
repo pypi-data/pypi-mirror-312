@@ -1,0 +1,4 @@
+# Contenido del fichero de texto "requeriments.txt"
+
+# Aquí se indican los paquetes y la versión a instalar previamente a la ejecución del script
+numpy >= 1.23.0
