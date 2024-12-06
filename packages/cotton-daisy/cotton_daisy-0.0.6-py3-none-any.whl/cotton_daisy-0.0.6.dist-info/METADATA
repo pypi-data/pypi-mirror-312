@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: cotton-daisy
+Version: 0.0.6
+Summary: CLI for generating DaisyUI components for Django-Cotton
+License: MIT
+Author: Adrian Ciołek
+Author-email: ciolek.adrian@protonmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: typer (>=0.14.0,<0.15.0)
+Description-Content-Type: text/markdown
+
+# Cotton-Daisy
+
+**Cotton-Daisy** is a CLI tool for generating and managing DaisyUI components for Django-Cotton. It streamlines the integration of Tailwind-based components into Django projects.
+
+## Features
+- Pre-designed DaisyUI components.
+- Simple integration with Django-Cotton.
+- Developer-friendly CLI.
+- Customizable component templates.
