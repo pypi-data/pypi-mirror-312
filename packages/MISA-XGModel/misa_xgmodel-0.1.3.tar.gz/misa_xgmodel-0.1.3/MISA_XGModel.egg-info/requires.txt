@@ -1,0 +1,7 @@
+xgboost
+numpy
+xarray
+joblib
+scikit-learn
+netcdf4
+pandas
