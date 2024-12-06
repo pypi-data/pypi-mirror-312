@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: orchestr8
+Version: 0.0.0
+Summary: Orchestrate it baby!
+Home-page: https://github.com/synacktraa/orchestr8
+Author: Harsh Verma
+Author-email: synacktra.work@gmail.com
+Requires-Python: >=3.8,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Documentation, https://synacktraa.github.io/orchestr8/
+Project-URL: Repository, https://github.com/synacktraa/orchestr8
+Description-Content-Type: text/markdown
+
+# orchestr8
+
+<p align="center">Orchestrate it baby!</p>
+
+---
+
+<p align="center">
+    <a href="https://img.shields.io/github/v/release/synacktraa/orchestr8">
+        <img src="https://img.shields.io/github/v/release/synacktraa/orchestr8" alt="orchestr8 version">
+    </a>
+    <a href="https://github.com/synacktraa/orchestr8/actions/workflows/main.yml">
+        <img src="https://github.com/synacktraa/orchestr8/actions/workflows/main.yml/badge.svg" alt="orchestr8 CI status">
+    </a>
+    <a href="https://codecov.io/gh/synacktraa/orchestr8">
+        <img src="https://codecov.io/gh/synacktraa/orchestr8/branch/main/graph/badge.svg" alt="orchestr8 codecov">
+    </a>
+    <a href="https://img.shields.io/github/license/synacktraa/orchestr8">
+        <img src="https://img.shields.io/github/license/synacktraa/orchestr8" alt="orchestr8 license">
+    </a>
+</p>
+
+
+- **Github repository**: <https://github.com/synacktraa/orchestr8/>
+- **Documentation** <https://synacktraa.github.io/orchestr8/>
+
+## Getting started with your project
+
+First, create a repository on GitHub with the same name as this project, and then run the following commands:
+
+```bash
+git init -b main
+git add .
+git commit -m "init commit"
+git remote add origin git@github.com:synacktraa/orchestr8.git
+git push -u origin main
+```
+
+Finally, install the environment and the pre-commit hooks with
+
+```bash
+make install
+```
+
+You are now ready to start development on your project!
+The CI/CD pipeline will be triggered when you open a pull request, merge to main, or when you create a new release.
+
+To finalize the set-up for publishing to PyPI or Artifactory, see [here](https://fpgmaas.github.io/cookiecutter-poetry/features/publishing/#set-up-for-pypi).
+For activating the automatic documentation with MkDocs, see [here](https://fpgmaas.github.io/cookiecutter-poetry/features/mkdocs/#enabling-the-documentation-on-github).
+To enable the code coverage reports, see [here](https://fpgmaas.github.io/cookiecutter-poetry/features/codecov/).
+
+## Releasing a new version
+
+- Create an API Token on [PyPI](https://pypi.org/).
+- Add the API Token to your projects secrets with the name `PYPI_TOKEN` by visiting [this page](https://github.com/synacktraa/orchestr8/settings/secrets/actions/new).
+- Create a [new release](https://github.com/synacktraa/orchestr8/releases/new) on Github.
+- Create a new tag in the form `*.*.*`.
+- For more details, see [here](https://fpgmaas.github.io/cookiecutter-poetry/features/cicd/#how-to-trigger-a-release).
+
+---
+
+Repository initiated with [fpgmaas/cookiecutter-poetry](https://github.com/fpgmaas/cookiecutter-poetry).
+
