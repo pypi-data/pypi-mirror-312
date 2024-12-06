@@ -1,0 +1,3 @@
+include *.json
+recursive-include long_s/german-lists/processed *.json
+recursive-include long_s/german-lists/raw *.json
