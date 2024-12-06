@@ -1,0 +1,8 @@
+README.md
+setup.py
+ipm/ipm_python.egg-info/PKG-INFO
+ipm/ipm_python.egg-info/SOURCES.txt
+ipm/ipm_python.egg-info/dependency_links.txt
+ipm/ipm_python.egg-info/entry_points.txt
+ipm/ipm_python.egg-info/requires.txt
+ipm/ipm_python.egg-info/top_level.txt
