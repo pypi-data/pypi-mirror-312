@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "zerolan-data"
+version = "1.0.0"
+description = ""
+authors = ["AkagawaTsurunaki <AkagawaTsurunaki@outlook.com>"]
+readme = "README.md"
+packages = [{include = "zerolan", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
