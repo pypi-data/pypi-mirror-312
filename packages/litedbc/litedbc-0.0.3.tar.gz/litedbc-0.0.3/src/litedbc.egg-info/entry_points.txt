@@ -1,0 +1,2 @@
+[console_scripts]
+litedbc = litedbc.__main__:main
