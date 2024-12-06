@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dq-pyspark
+Version: 0.1.0
+Summary: Ad Hoc Data Quality Tool for PySpark
+Author: Alexandre "Alex" de Magalhaes
+Author-email: alexandredemagalhaess@gmail.com
+License-File: LICENSE
+
