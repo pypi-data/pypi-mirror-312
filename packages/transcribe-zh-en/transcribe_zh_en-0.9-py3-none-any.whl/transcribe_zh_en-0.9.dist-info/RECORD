@@ -1,0 +1,9 @@
+transcribe_zh_en/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transcribe_zh_en/audio_to_text.py,sha256=EGl0aNzurJiKRZtSKrhk2I1bsyrkNUdPvZT6GunMgeg,1553
+transcribe_zh_en/main.py,sha256=GZFf3y17iboI7YNO1NufCG9EcB_a6NSa2RSgvxFva64,6321
+transcribe_zh_en-0.9.dist-info/LICENSE,sha256=7wzKE7sFihkr2xJEMb5VZYIGCXTlnXS94nkpOz1je5g,1076
+transcribe_zh_en-0.9.dist-info/METADATA,sha256=90sxa-3jmrpXRm-luasMmZxlUCNShBKmt9Ft5opJpMw,688
+transcribe_zh_en-0.9.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+transcribe_zh_en-0.9.dist-info/entry_points.txt,sha256=N91D4cxfwPHGb0uvhRy6lDVXQoUjpHgwIzIM4RQjwvQ,64
+transcribe_zh_en-0.9.dist-info/top_level.txt,sha256=GlnyjjWAt4JHYXBAhaYIi_s2j8EWBmI3XlnY4sd7yH4,17
+transcribe_zh_en-0.9.dist-info/RECORD,,
