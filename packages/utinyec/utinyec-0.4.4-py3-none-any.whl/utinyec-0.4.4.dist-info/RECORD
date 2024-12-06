@@ -1,0 +1,9 @@
+utinyec/__init__.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+utinyec/cryptography.py,sha256=Ndh6xCFT2VMsihOfGrKYQkKTwJ_kDGrMocz7CE6j0O4,6858
+utinyec/ec.py,sha256=2PwxHzP5blHuzZeeWkZI8AJj-w8E_FRFizpZBCci8Ck,9872
+utinyec/registry.py,sha256=Dyl_5_8O0qlAPEO7MSPrtqE-AtwBIEp1MR01j4FwXwk,10686
+utinyec-0.4.4.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+utinyec-0.4.4.dist-info/METADATA,sha256=JU1ZOuZ9VZIAnqou5qyb2xVgWmqq0QO6VMfg9yq31uY,11070
+utinyec-0.4.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+utinyec-0.4.4.dist-info/top_level.txt,sha256=JAZFmZQRr8j2U-bWF-ksINrJLt2piqE9MO-KrboYAFM,8
+utinyec-0.4.4.dist-info/RECORD,,
