@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tree-sitter-ziggy
+Version: 0.1.0
+Summary: Ziggy grammar for tree-sitter
+Author-email: Loris Cro <kappaloris@gmail.com>, Louis Vignoli <louis.vignoli@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/lvignoli/tree-sitter-ziggy
+Keywords: incremental,parsing,tree-sitter,ziggy
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: core
+Requires-Dist: tree-sitter~=0.22; extra == "core"
+
+# tree-sitter-ziggy
+
+Ziggy grammar for tree-sitter.
+Extracted from [kristoff-it/ziggy](https://github.com/kristoff-it/ziggy/) for packaging purposes.
