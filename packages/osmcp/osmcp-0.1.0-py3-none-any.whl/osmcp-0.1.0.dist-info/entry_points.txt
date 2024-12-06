@@ -1,0 +1,2 @@
+[console_scripts]
+osmcp = osmcp.cli:main
