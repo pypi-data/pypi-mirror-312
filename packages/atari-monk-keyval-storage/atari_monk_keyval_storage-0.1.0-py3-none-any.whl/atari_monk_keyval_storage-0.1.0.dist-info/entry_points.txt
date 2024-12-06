@@ -1,0 +1,2 @@
+[console_scripts]
+keyval_cli = keyval_storage.cli:main
