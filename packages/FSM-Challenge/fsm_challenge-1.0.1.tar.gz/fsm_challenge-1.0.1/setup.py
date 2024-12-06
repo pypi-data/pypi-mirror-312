@@ -1,0 +1,43 @@
+from setuptools import find_packages, setup
+
+with open("README.md", 'r') as f:
+    description = f.read()
+
+setup(
+    name='FSM_Challenge',
+    version='1.0.1',
+    packages=find_packages(),
+    install_requires=[
+        'cloudpickle==3.1.0',
+        'contourpy==1.3.0',
+        'cycler==0.12.1',
+        'fonttools==4.55.0',
+        'importlib_resources==6.4.5',
+        'joblib==1.4.2',
+        'kiwisolver==1.4.7',
+        'llvmlite==0.43.0',
+        'matplotlib==3.9.3',
+        'networkx==3.2.1',
+        'numba==0.60.0',
+        'numpy==2.0.2',
+        'packaging==24.2',
+        'pandas==2.2.3',
+        'pillow==11.0.0',
+        'pyparsing==3.2.0',
+        'python-dateutil==2.9.0.post0',
+        'pytz==2024.2',
+        'scikit-learn==1.5.2',
+        'scipy==1.13.1',
+        'shap==0.46.0',
+        'six==1.16.0',
+        'slicer==0.0.8',
+        'threadpoolctl==3.5.0',
+        'tqdm==4.67.1',
+        'tzdata==2024.2',
+        'zipp==3.21.0'
+    ],
+    long_description=description,
+    long_description_content_type="text/markdown",
+
+)
+
