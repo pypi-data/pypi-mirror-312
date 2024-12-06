@@ -1,0 +1,4 @@
+[console_scripts]
+opt=opthub_client.opt:opt
+opthub=opthub_client.opt:opt
+
