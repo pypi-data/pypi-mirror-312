@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/aoc_mod/__init__.py
+src/aoc_mod/interactive.py
+src/aoc_mod/utilities.py
+src/aoc_mod.egg-info/PKG-INFO
+src/aoc_mod.egg-info/SOURCES.txt
+src/aoc_mod.egg-info/dependency_links.txt
+src/aoc_mod.egg-info/entry_points.txt
+src/aoc_mod.egg-info/requires.txt
+src/aoc_mod.egg-info/top_level.txt
+src/aoc_mod/file_templates/__init__.py
+src/aoc_mod/file_templates/py_templates.py
+tests/test_aoc_mod.py
+tests/test_interactive.py
+tests/test_utilities.py
