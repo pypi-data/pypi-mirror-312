@@ -1,0 +1,12 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "location": "Plats"
+                },
+                "description": "V\u00e4lj den plats du vill ta emot Stookwijzer-information f\u00f6r."
+            }
+        }
+    }
+}
