@@ -1,0 +1,10 @@
+stdmathlib/__init__.py,sha256=RCVOabjcYajhy_E4oiaNQ-IuWGCL4QFHqWBQzN7sygQ,514
+stdmathlib/algebra.py,sha256=bnBFWCR6jLF1a2AqBEoOalOoyCTHedha9XFbzpPGvBA,1611
+stdmathlib/graph.py,sha256=uvyGsjj5432HQ8Kyc4ytFvtjiU0HI58PIBfGByXAkws,1715
+stdmathlib/integrals.py,sha256=YfT9Hxplr0NZAI-P3iqy872aOAv_CTefui51g8Epxfo,1593
+stdmathlib/ode.py,sha256=iS03wkPm8qMZiaOwFDfjLPuv-KRwM2qViLwJ7W0Lrwo,1568
+stdmathlib/pde.py,sha256=q6gwoxntSEwMLZz_66VO_DODccdHVU3gY_9cSHgXa8s,1814
+stdmathlib-0.1.8.dist-info/METADATA,sha256=Y1eV4S58WkXU2Hf6ABvgOI_Oo-3OZzabQ4MA6vLetJY,4438
+stdmathlib-0.1.8.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+stdmathlib-0.1.8.dist-info/top_level.txt,sha256=DpmXB2teRanbvNcyg1NJlymSuPpdBG1N9gu9UEqKy-A,11
+stdmathlib-0.1.8.dist-info/RECORD,,
