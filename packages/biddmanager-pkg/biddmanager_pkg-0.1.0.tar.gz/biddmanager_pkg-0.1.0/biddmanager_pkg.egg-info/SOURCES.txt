@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+biddmanager_pkg/__init__.py
+biddmanager_pkg/biddmanager.py
+biddmanager_pkg.egg-info/PKG-INFO
+biddmanager_pkg.egg-info/SOURCES.txt
+biddmanager_pkg.egg-info/dependency_links.txt
+biddmanager_pkg.egg-info/top_level.txt
