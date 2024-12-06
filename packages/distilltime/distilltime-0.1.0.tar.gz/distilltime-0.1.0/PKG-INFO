@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: distilltime
+Version: 0.1.0
+Summary: Distill Time is a model distillation framework for LLMs.
+Author-email: Motoki Wu <tokestermw@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# distilltime
+
+Distill Time is a model distillation framework for LLMs.

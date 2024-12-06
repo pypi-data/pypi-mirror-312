@@ -1,0 +1,12 @@
+[project]
+name = "distilltime"
+version = "0.1.0"
+authors = [
+    {name = "Motoki Wu", email = "tokestermw@gmail.com"}
+]
+description = "Distill Time is a model distillation framework for LLMs."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+# TODO(fix): https://github.com/astral-sh/uv/issues/9513
+# license = {file = "LICENSE"}
