@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: MTBF_G48
+Version: 1.0.2
+Summary: marionette driver to establish connection.
+Home-page: UNKNOWN
+Author: shayan
+Author-email: syedshayan109@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/mtbf_g48/
+Description: marionette_driver for QA testing purpose of devices.
+Keywords: mtbf_g48,g48
+Platform: UNKNOWN
