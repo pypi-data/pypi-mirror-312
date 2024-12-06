@@ -1,0 +1,14 @@
+README.md
+setup.py
+ipm/__init__.py
+ipm/downloader.py
+ipm/installer.py
+ipm/mirrors.py
+ipm/resolver.py
+ipm/utils.py
+ipm_python.egg-info/PKG-INFO
+ipm_python.egg-info/SOURCES.txt
+ipm_python.egg-info/dependency_links.txt
+ipm_python.egg-info/entry_points.txt
+ipm_python.egg-info/requires.txt
+ipm_python.egg-info/top_level.txt
