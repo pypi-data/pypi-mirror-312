@@ -1,0 +1,9 @@
+web_paging/__init__.py,sha256=5UTrhluXWmHqX_1SJL9yg_9Czn0fmuijBAD2ODVb3x0,139
+web_paging/core.py,sha256=JPNAEEKswWE1_wWOovmnZmzRQQxyz0DDb8mpSr7GVmw,2592
+web_paging/flask_support.py,sha256=0Jn7rYqWqw_-9gsWMko6JHDet9_6FEmOujqaCfkj5t8,312
+web_paging/utils.py,sha256=75UiUeMxG163sg_s_VYa8DVnIb3UHDQx55VsFo_j_4g,832
+web_paging-0.2.0.dist-info/LICENSE,sha256=skMhh_tUhcfJn3pH6cQ9eCJouiKcj6u5fK473jPBA_U,1067
+web_paging-0.2.0.dist-info/METADATA,sha256=KKWeFEGiGTwURCU_PlEUgEtQ17dAVdojqhOs75MP-R8,3207
+web_paging-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+web_paging-0.2.0.dist-info/top_level.txt,sha256=2wU3f2HATnOhVxWyJOapQ3Ru5HG1P9dyyjv-cO3NIYU,11
+web_paging-0.2.0.dist-info/RECORD,,
