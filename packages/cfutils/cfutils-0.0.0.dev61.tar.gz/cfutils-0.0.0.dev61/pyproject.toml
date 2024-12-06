@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "cfutils"
+version = "0.0.0.dev61"
+description = "Chromatogram File Utils"
+authors = ["Ye Chang <yech1990@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/yech1990/cfutils"
+documentation = "https://cf.readthedocs.io/"
+keywords = ["DNA", "mutation", "chromatogram", "biology"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.0"
+ssw = "^0.4.1"
+matplotlib = "^3.9.2"
+
+[tool.poetry.scripts]
+cfutils = "cfutils.cli:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
