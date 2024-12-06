@@ -1,0 +1,82 @@
+from typing import Callable
+from functools import wraps
+from dataclasses import dataclass
+import uuid
+from typing import Dict, Any
+
+
+from nema.run.utils import convert_app_input_to_dict, convert_app_output_to_nema_data
+
+
+@dataclass
+class InternalWorkflowOutput:
+    input_data: Any
+    output_data: Any
+    input_global_id_mapping: Dict[str, int]
+    output_global_id_mapping: Dict[str, int]
+
+
+def workflow(
+    input_global_id_mapping: Dict[str, int],
+    output_global_id_mapping: Dict[str, int],
+    job_id=None,
+):
+    # create random string if not provided
+    actual_job_id = job_id if job_id else str(uuid.uuid4())
+
+    def decorator(func: Callable):
+
+        # Attach the mappings and job ID as attributes to the function
+        func.__workflow_attributes__ = {
+            "input_global_id_mapping": input_global_id_mapping,
+            "output_global_id_mapping": output_global_id_mapping,
+            "job_id": actual_job_id,
+        }
+
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+
+            if len(args) > 0 or len(kwargs) > 0:
+                # not running from Nema
+                return func(*args, **kwargs)
+
+            # now we need to pull data from Nema and upload the results back
+
+            # check that all global IDs are valid
+            for key, g_id in input_global_id_mapping.items():
+                if g_id <= 0:
+                    raise ValueError(
+                        f"Global ID for input {key} is not set. Run `nema-python workflow create-data` to create the data."
+                    )
+
+            for key, g_id in output_global_id_mapping.items():
+                if g_id <= 0:
+                    raise ValueError(
+                        f"Global ID for output {key} is not set. Run `nema-python workflow create-data` to create the data."
+                    )
+
+            # get the type of func
+            annotations = func.__annotations__
+            arg_name = list(annotations)[0]
+            input_type = annotations[arg_name]
+            converted_input = convert_app_input_to_dict(
+                input_global_id_mapping, branch="main"
+            )
+
+            typed_argument = input_type(**converted_input)
+
+            result = func(typed_argument)
+
+            return InternalWorkflowOutput(
+                input_data=typed_argument,
+                output_data=result,
+                input_global_id_mapping=input_global_id_mapping,
+                output_global_id_mapping=output_global_id_mapping,
+            )
+
+        return wrapper
+
+    # # close all the data properties in the collection
+    # data_collection.close()
+
+    return decorator
