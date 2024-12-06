@@ -1,0 +1,5 @@
+zlapi
+
+[telegram]
+python-telegram-bot
+telebot
