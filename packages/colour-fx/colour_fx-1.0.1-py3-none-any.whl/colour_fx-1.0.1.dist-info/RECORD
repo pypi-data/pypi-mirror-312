@@ -1,0 +1,11 @@
+colour_fx/__init__.py,sha256=wHzCscCvVWXhsZDTUMWH7c2p7kv-pLSCFxNpWN-AfX4,260
+colour_fx/_util.py,sha256=bVxeyeAePBMLV2bIkyeJohMXl8f1pBrDfIIydw-T_e4,689
+colour_fx/eight_bit.py,sha256=LbmXSGn5KHPMbduM0MnGnRxYb7hUDPLhEzd9uEx2-to,3517
+colour_fx/four_bit.py,sha256=XBWxIp-icQPOTgcZXvLGS73gBF2fOXjky_sRfrJG_Ak,1685
+colour_fx/effects/__init__.py,sha256=-I26ajWRpbUB3O-dUN1KbEANxLphKiGk-yEg4639lm8,216
+colour_fx/effects/_fx_util.py,sha256=mUaoqB1h_585Ty2-UxcGb8HbzjXjLw1-FF0i_iGqv-o,6422
+colour_fx/effects/gradients.py,sha256=_w_UVdGVKlH7JkYINDklLnxpCq3riYQpH9MnL6R1nvw,1609
+colour_fx-1.0.1.dist-info/METADATA,sha256=iEYJTLmireB39Z4FzSK8yOZhXR_3cNnMddezR3t0HqM,7748
+colour_fx-1.0.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+colour_fx-1.0.1.dist-info/licenses/LICENSE,sha256=T4HyNJKj1cRVJR03GRCJSEtQnqcpesZ5r8KhGdDoEbs,1067
+colour_fx-1.0.1.dist-info/RECORD,,
