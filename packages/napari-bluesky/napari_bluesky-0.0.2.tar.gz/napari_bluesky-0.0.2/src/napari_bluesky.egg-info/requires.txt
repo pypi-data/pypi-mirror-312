@@ -1,0 +1,16 @@
+numpy
+magicgui
+qtpy
+scikit-image
+atproto
+appdirs
+python-dotenv
+pillow
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5

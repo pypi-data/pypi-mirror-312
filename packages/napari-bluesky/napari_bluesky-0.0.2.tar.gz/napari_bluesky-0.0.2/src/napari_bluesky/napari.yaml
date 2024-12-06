@@ -1,0 +1,14 @@
+name: napari-bluesky
+display_name: Bluesky
+# use 'hidden' to remove plugin from napari hub search results
+visibility: public
+# see https://napari.org/stable/plugins/manifest.html for valid categories
+categories: ["Annotation", "Segmentation", "Acquisition"]
+contributions:
+  commands:
+    - id: napari-bluesky.make_qwidget
+      python_name: napari_bluesky:BlueskyWidget
+      title: Bluesky post
+  widgets:
+    - command: napari-bluesky.make_qwidget
+      display_name: Bluesky post

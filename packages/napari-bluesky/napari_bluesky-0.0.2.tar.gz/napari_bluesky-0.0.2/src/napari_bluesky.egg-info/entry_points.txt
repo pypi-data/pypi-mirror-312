@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-bluesky = napari_bluesky:napari.yaml
