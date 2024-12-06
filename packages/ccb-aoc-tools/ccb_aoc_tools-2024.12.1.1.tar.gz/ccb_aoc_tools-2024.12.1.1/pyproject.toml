@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccb-aoc-tools"
+version = "2024.12.1.1"
+requires-python = ">= 3.4"
+authors = [
+  {name = "Elijah Underhill", email = "elijahmcraft6@gmail.com"},
+]
+description = "My custom-made tools for Advent of Code projects."
+readme = "README.md"
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python"
+]

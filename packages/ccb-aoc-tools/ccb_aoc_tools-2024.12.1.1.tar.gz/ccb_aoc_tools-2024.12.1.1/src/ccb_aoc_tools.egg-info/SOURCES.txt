@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/aoc/__init__.py
+src/aoc/file/__init__.py
+src/aoc/file/loaddata.py
+src/ccb_aoc_tools.egg-info/PKG-INFO
+src/ccb_aoc_tools.egg-info/SOURCES.txt
+src/ccb_aoc_tools.egg-info/dependency_links.txt
+src/ccb_aoc_tools.egg-info/top_level.txt
