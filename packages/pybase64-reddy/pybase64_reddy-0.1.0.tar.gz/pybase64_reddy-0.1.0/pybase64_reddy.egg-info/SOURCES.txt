@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+pybase64_reddy/__init__.py
+pybase64_reddy/cli.py
+pybase64_reddy.egg-info/PKG-INFO
+pybase64_reddy.egg-info/SOURCES.txt
+pybase64_reddy.egg-info/dependency_links.txt
+pybase64_reddy.egg-info/entry_points.txt
+pybase64_reddy.egg-info/top_level.txt

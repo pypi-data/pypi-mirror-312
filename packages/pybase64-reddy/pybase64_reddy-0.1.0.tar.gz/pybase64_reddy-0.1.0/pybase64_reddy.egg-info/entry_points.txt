@@ -1,0 +1,2 @@
+[console_scripts]
+pybase64_reddy = pybase64_reddy.cli:main
