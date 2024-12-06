@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-tavily = mcp_server_tavily.__main__:main
