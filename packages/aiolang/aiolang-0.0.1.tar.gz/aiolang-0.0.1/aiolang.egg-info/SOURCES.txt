@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+aiolang/__init__.py
+aiolang/exceptions.py
+aiolang/google.py
+aiolang/langs.py
+aiolang/translate.py
+aiolang.egg-info/PKG-INFO
+aiolang.egg-info/SOURCES.txt
+aiolang.egg-info/dependency_links.txt
+aiolang.egg-info/requires.txt
+aiolang.egg-info/top_level.txt
