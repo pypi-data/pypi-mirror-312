@@ -1,0 +1,5 @@
+[console_scripts]
+protoc-gen-brokrpc=pyprotostuben.protoc:gen_brokrpc
+protoc-gen-echo=pyprotostuben.protoc:echo
+protoc-gen-mypy-stub=pyprotostuben.protoc:gen_mypy_stub
+
