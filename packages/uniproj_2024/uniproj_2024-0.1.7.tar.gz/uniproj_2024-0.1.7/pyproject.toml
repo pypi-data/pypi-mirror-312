@@ -1,0 +1,18 @@
+[project]
+name = "uniproj_2024"
+version = "0.1.7"
+description = "Ce projet a pour but la manipulation et l'analyse de données de protéines issues de la base de données Uniprot via l'implémentation de classes Python."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+{name = "Maya Givre"},
+{name = "Thibaud Guiramand"}
+]
+keywords = ["uniprot", "protein", "gene"]
+dependencies = [
+    "matplotlib>=3.8",
+]
+
+[project.urls]
+Documentation = "http://pedago-service.univ-lyon1.fr:2325/tguiramand/uniprot/-/blob/publish/README.md?ref_type=heads"
+Repository = "http://pedago-service.univ-lyon1.fr:2325/tguiramand/uniprot/-/tree/publish?ref_type=heads"
