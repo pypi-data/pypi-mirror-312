@@ -1,0 +1,8 @@
+mathlib_basic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mathlib_basic/operations.py,sha256=9vPTv0dR-6w9EwUAGNyKuw9ZKU5GBFtWe-omVyEgdco,362
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_operations.py,sha256=oJzUzFu4x7KlQQ7ksoAsUdJXYYJbc-NHroti_Y2Nmq8,714
+mathlib_basic-0.1.dist-info/METADATA,sha256=sQgrA0D1Fq09AaRJUBmsdEHrGo-9AnJfXP3SVrN_K20,273
+mathlib_basic-0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+mathlib_basic-0.1.dist-info/top_level.txt,sha256=V2oplON_LlsifSCXMbLiAFe0pNXzub3_Y4PWWT789us,20
+mathlib_basic-0.1.dist-info/RECORD,,
