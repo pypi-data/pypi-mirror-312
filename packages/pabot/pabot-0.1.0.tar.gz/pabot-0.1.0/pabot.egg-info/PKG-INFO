@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pabot
+Version: 0.1.0
+Summary: Redirect package for robotframework-pabot
+Home-page: https://github.com/mkorpela/pabot
+Author: Mikko Korpela
+Author-email: mikko.korpela@gmail.com
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Requires-Dist: robotframework-pabot

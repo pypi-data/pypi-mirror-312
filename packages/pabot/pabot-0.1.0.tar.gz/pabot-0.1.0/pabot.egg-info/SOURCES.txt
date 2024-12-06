@@ -1,0 +1,8 @@
+README.md
+setup.py
+pabot/__init__.py
+pabot.egg-info/PKG-INFO
+pabot.egg-info/SOURCES.txt
+pabot.egg-info/dependency_links.txt
+pabot.egg-info/requires.txt
+pabot.egg-info/top_level.txt
