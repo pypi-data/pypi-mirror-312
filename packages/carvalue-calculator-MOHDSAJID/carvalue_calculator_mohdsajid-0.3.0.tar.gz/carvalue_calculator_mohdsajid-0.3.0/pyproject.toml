@@ -1,0 +1,18 @@
+[project]
+name = "carvalue_calculator_MOHDSAJID"
+version = "0.3.0"
+authors = [
+  { name="MOHDSAJID", email="sajid.mohd555@gmail.com" },
+]
+description = "A small carvalue_calculator"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"

@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+src/setup.py
+src/carvalue_calculator/__init__.py
+src/carvalue_calculator/calculator.py
+src/carvalue_calculator_MOHDSAJID.egg-info/PKG-INFO
+src/carvalue_calculator_MOHDSAJID.egg-info/SOURCES.txt
+src/carvalue_calculator_MOHDSAJID.egg-info/dependency_links.txt
+src/carvalue_calculator_MOHDSAJID.egg-info/top_level.txt
