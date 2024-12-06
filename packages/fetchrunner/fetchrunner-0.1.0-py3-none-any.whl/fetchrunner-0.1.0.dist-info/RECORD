@@ -1,0 +1,12 @@
+fetchrunner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fetchrunner/config.py,sha256=_QPfj6BmrBF35OQ8aNMn9v6g3dxz91XR9F0SVf73NZk,84
+fetchrunner/fetcher.py,sha256=-bzxoSYOxgvwbENmxFrgqvSoHXoWoMtvsxVhNOp4gv0,4841
+fetchrunner/formatting.py,sha256=uQkOHjuQfeh9WVrGAwdQJ5O0r_EIoPI3Wj72VJ54joc,2982
+fetchrunner/io.py,sha256=jPWf8j4A6oukOY-qczZCNK5VqXCXp1y2JRyGCWAgssc,1053
+fetchrunner/main.py,sha256=nmnnX1njhgAHoBU9ImjBciaOhv1_HGRKJqfvwnU4l9g,1075
+fetchrunner/utils.py,sha256=Eii5iVMf0_2AeTVbixmbCkiwFdgixuHxTuUJr6ULkj0,1938
+fetchrunner-0.1.0.dist-info/METADATA,sha256=hfMrHUAIzyoppGOVEEJny44V5oFsF7OP5dik2lewinI,1442
+fetchrunner-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+fetchrunner-0.1.0.dist-info/entry_points.txt,sha256=jNyOrpe32veJJoocZsCfiMKIpRdY6RxfcJ7eNUEJvt8,54
+fetchrunner-0.1.0.dist-info/top_level.txt,sha256=3xpVYTU5WlxbcktMIYPujuAb0OklyKLbxXknilL7CgU,12
+fetchrunner-0.1.0.dist-info/RECORD,,
