@@ -1,0 +1,8 @@
+README.md
+setup.py
+cncdev7/__init__.py
+cncdev7/salom.py
+cncdev7.egg-info/PKG-INFO
+cncdev7.egg-info/SOURCES.txt
+cncdev7.egg-info/dependency_links.txt
+cncdev7.egg-info/top_level.txt
