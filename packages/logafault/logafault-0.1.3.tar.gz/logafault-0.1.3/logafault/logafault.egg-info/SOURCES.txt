@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+logafault/logafault.egg-info/PKG-INFO
+logafault/logafault.egg-info/SOURCES.txt
+logafault/logafault.egg-info/dependency_links.txt
+logafault/logafault.egg-info/requires.txt
+logafault/logafault.egg-info/top_level.txt
