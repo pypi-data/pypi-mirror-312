@@ -1,0 +1,3 @@
+[console_scripts]
+mxr = mx_remote_manager.main:mxr_main
+mxr-ui = mx_remote_manager.main:mxr_ui

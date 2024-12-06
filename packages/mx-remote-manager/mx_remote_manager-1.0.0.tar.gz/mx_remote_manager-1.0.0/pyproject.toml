@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mx_remote_manager"
+version = "1.0.0"
+dependencies = [
+  "argparse>=1.4.0",
+  "netifaces>=0.11.0",
+  "PyGObject>=3.50.0",
+  "aes3tool>=1.1.0",
+  "pyperclip>=1.9.0",
+  "mx_remote>=2.0.0",
+]
+requires-python = ">=3.11"
+authors = [
+  {name = "Lars Op den Kamp", email = "lars@opdenkamp.eu"},
+]
+maintainers = [
+  {name = "Lars Op den Kamp", email = "lars@opdenkamp.eu"},
+]
+description = "Application for managing MX Remote compatible devices."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["matrixos", "oneip", "ampos", "pulse-eight"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python",
+  "Topic :: System :: Networking :: Monitoring",
+]
+
+[project.urls]
+Homepage = "https://github.com/opdenkamp/mx_remote_manager/"
+Documentation = "https://github.com/opdenkamp/mx_remote_manager/"
+Repository = "https://github.com/opdenkamp/mx_remote_manager.git"
+"Bug Tracker" = "https://github.com/opdenkamp/mx_remote_manager/issues"
+
+[project.scripts]
+mxr = "mx_remote_manager.main:mxr_main"
+mxr-ui = "mx_remote_manager.main:mxr_ui"

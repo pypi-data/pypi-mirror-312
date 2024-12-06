@@ -1,0 +1,2 @@
+global-include *.gresource
+global-exclude *.ui *.png gresources.xml
