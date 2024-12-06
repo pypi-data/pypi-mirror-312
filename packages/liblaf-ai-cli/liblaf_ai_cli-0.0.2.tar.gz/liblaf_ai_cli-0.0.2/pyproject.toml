@@ -1,0 +1,45 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[dependency-groups]
+dev = ["icecream>=2.1.3"]
+
+[project]
+authors = [
+  { email = "30631553+liblaf@users.noreply.github.com", name = "liblaf" },
+]
+dependencies = [
+  "gitpython>=3.1.43",
+  "hishel>=0.1.1",
+  "httpx[socks]>=0.27.2",
+  "lazy-loader>=0.4",
+  "litellm>=1.52.12",
+  "loguru>=0.7.2",
+  "pydantic-settings>=2.6.1",
+  "pydantic>=2.10.1",
+  "python-dotenv>=1.0.1",
+  "rich>=13.9.4",
+  "transformers>=4.46.3",
+  "typer-di>=0.1.2",
+  "typer>=0.13.1",
+]
+description = "🚀 AI CLI - A powerful and versatile command-line interface for AI-driven code commit messages, repository descriptions, and topic generation, designed to enhance productivity and collaboration."
+name = "liblaf-ai-cli"
+readme = "README.md"
+requires-python = ">=3.12"
+version = "0.0.2"
+
+[project.scripts]
+ai = "ai:app"
+aic = "ai.cmd.commit:app"
+
+[project.urls]
+"Changelog" = "https://github.com/liblaf/ai-cli/blob/main/CHANGELOG.md"
+"Homepage" = "https://github.com/liblaf/ai-cli"
+"Issue Tracker" = "https://github.com/liblaf/ai-cli/issues"
+"Release Notes" = "https://github.com/liblaf/ai-cli/releases"
+"Source Code" = "https://github.com/liblaf/ai-cli"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ai"]
