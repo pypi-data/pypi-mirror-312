@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mkpipe-loader-postgres
+Version: 0.1.0
+Summary: PostgreSQL loader for mkpipe.
+Author: Metin Karakus
+Author-email: metin_karakus@yahoo.com
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+License-File: LICENSE
