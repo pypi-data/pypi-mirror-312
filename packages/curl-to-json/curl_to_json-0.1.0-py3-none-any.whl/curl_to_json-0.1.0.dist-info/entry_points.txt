@@ -1,0 +1,3 @@
+[console_scripts]
+curl_to_json=curl_to_json:main
+

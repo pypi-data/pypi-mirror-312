@@ -1,0 +1,7 @@
+curl_to_json/__init__.py,sha256=7MARj_YhvHPQGVl2Vppner6IRke-3dT438TvwkFAjSQ,319
+curl_to_json/__main__.py,sha256=fr-CFAsvUaq-F1nICslExsfLggcTfrfCuU_MUBrHZdQ,58
+curl_to_json/transform.py,sha256=gOsbOIPi-eKKFoxmtBFirzWyZc2wfjbS3IE1p1MqVIU,6164
+curl_to_json-0.1.0.dist-info/METADATA,sha256=jfvLf0pcR28eglD1zLHyk9Rak2KDBzxo4bJOOZ1DVpo,3217
+curl_to_json-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+curl_to_json-0.1.0.dist-info/entry_points.txt,sha256=3F1YDgIBkgESef7FKxYiRQ2_d-yAsNYQkIKacwOuGVU,50
+curl_to_json-0.1.0.dist-info/RECORD,,
