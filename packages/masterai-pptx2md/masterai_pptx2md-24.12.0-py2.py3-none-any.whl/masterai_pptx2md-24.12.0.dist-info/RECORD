@@ -1,0 +1,12 @@
+masterai_pptx2md/__init__.py,sha256=wPYIBDcwA8CM_T7IViaLkMH6MUq3uNHF_DD77Ro55ls,142
+masterai_pptx2md/__version__.py,sha256=gi2NiBloSZnPCLWN0mUfOhRNK29D3o95YaLYVSHmbAk,24
+masterai_pptx2md/exceptions.py,sha256=qG-DJE9SBUeWh-7m5Z3OmXZC_6cffDS2_dboBQcICpQ,43
+masterai_pptx2md/http_file_types.py,sha256=gJGvJFESvbMHno1JCJHXodcRJ5nnaoYkvag9oxGHpJg,61139
+masterai_pptx2md/models.py,sha256=nvyEUtTqpR3xhbFJpiK_xfDeo3dKYKY29hZz_OxSGxc,1098
+masterai_pptx2md/outputter.py,sha256=NEv_EefeuuWWTbu5_BmC-ojQQtyFg-avd-prjFuBxLc,2866
+masterai_pptx2md/parser.py,sha256=0E5gwClz__HitPTqdRtCVLlGsq7LO1xubg45BtWb_Ro,9594
+masterai_pptx2md/utils.py,sha256=Po6gql2zaDU0b-vyRUy0J9gTSu_Eusm9Dynnlqq_Fo4,2778
+masterai_pptx2md-24.12.0.dist-info/METADATA,sha256=erTKIkChUqlGzapXW7iEtNlHM212Qfzexe4ig5RjyuI,1048
+masterai_pptx2md-24.12.0.dist-info/WHEEL,sha256=OpXWERl2xLPRHTvd2ZXo_iluPEQd8uSbYkJ53NAER_Y,109
+masterai_pptx2md-24.12.0.dist-info/top_level.txt,sha256=x1C2sDd7_5u18G0GAx_NQr6rb-tFr2VA0FygkdxtD5g,17
+masterai_pptx2md-24.12.0.dist-info/RECORD,,
