@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.py
+Kivy_Stopwatch_package/main.py
+Kivy_Stopwatch_package/stopwatch.kv
+Kivy_Stopwatch_package.egg-info/PKG-INFO
+Kivy_Stopwatch_package.egg-info/SOURCES.txt
+Kivy_Stopwatch_package.egg-info/dependency_links.txt
+Kivy_Stopwatch_package.egg-info/entry_points.txt
+Kivy_Stopwatch_package.egg-info/requires.txt
+Kivy_Stopwatch_package.egg-info/top_level.txt

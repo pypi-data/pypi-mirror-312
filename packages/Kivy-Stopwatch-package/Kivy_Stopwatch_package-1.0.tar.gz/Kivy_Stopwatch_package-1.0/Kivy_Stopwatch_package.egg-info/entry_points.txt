@@ -1,0 +1,3 @@
+[console_scripts]
+Kivy_Stopwatch = Kivy_Stopwatch.__main__:main
+

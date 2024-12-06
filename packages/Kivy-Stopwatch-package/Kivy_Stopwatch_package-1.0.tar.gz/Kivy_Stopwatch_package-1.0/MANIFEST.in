@@ -1,0 +1,2 @@
+include Kivy_Stopwatch_package/main.py
+include Kivy_Stopwatch_package/stopwatch.kv
