@@ -1,0 +1,2 @@
+[console_scripts]
+mlxpsub = mlxp.mlxpsub:main
