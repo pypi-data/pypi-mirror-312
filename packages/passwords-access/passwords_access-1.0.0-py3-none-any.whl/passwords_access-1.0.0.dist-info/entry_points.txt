@@ -1,0 +1,2 @@
+[console_scripts]
+passwords = passwords_access.__main__:main
