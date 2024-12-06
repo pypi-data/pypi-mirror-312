@@ -1,0 +1,9 @@
+pytortilla/__init__.py,sha256=2lbA3T483H12kwspoDJw_E-rIjm98Sse6YcRkk0HYa4,50
+pytortilla/core.py,sha256=mfEW5QJwkjWyZkM1tnyfjGbVrKta4TVNEopydVBWm5w,11866
+pytortilla/main.py,sha256=Lj8hb8G5gMHqk1KB9uT10_Uo-5jK9PEDK1J8xJWeYnQ,8290
+pytortilla/utils.py,sha256=SHuBZB99K04HjDy_WGypmHvwKl90f1bFHftg5HWFWag,4629
+pytortilla/utils_gdal.py,sha256=Jbcykvkg8I0ndqaBdBhGvzBpyNvKqxLb-a9xnzIVo0M,1958
+pytortilla-0.0.5.dist-info/LICENSE,sha256=YdB4BQMkMzWuKvXRIpQR4g91IQ_pwA5PSH2lNM97zFI,1070
+pytortilla-0.0.5.dist-info/METADATA,sha256=XdhGHIibxOx2sR5KHRy7lSs_5ga_2lCSmQ61j74CoV4,3263
+pytortilla-0.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pytortilla-0.0.5.dist-info/RECORD,,
