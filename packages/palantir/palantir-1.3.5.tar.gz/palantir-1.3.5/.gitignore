@@ -1,0 +1,12 @@
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+*.h5ad
+build/
+palantir.egg-info/
+.coverage
+notebooks/testing.ipynb
+dist/
+.vscode/
+data/
+venv/
