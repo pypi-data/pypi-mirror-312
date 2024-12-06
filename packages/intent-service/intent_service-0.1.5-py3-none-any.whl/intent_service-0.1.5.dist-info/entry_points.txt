@@ -1,0 +1,3 @@
+[console_scripts]
+intent-cli = cli:app
+intent-service = run_service:main
