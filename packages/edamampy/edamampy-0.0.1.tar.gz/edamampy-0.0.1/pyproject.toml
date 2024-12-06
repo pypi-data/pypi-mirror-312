@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edamampy"
+version = "0.0.1"
+authors = [
+  { name="Mark Scharmann"},
+]
+description = "An easier way of interacting with the edamam recipe search api."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ma-a-sc/edamampy"
+Issues = "https://github.com/ma-a-sc/edamampy/issues"
