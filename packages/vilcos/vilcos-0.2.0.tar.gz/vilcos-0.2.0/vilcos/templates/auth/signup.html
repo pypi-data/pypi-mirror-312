@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+<v-container class="fill-height">
+    <v-row justify="center">
+        <v-col cols="12" sm="8" md="6" lg="4">
+            <v-card>
+                <v-toolbar>
+                    <v-toolbar-title>Create Account</v-toolbar-title>
+                </v-toolbar>
+                <v-card-text>
+                    <v-alert
+                        v-if="error"
+                        type="error"
+                        class="mb-4"
+                        closable
+                        @click="error = ''"
+                    >
+                        ${error}
+                    </v-alert>
+                    
+                    <form @submit.prevent="handleSubmit">
+                        <v-text-field
+                            v-model="username"
+                            label="Username"
+                            type="text"
+                            required
+                            minlength="3"
+                        ></v-text-field>
+
+                        <v-text-field
+                            v-model="email"
+                            label="Email"
+                            type="email"
+                            required
+                            minlength="3"
+                        ></v-text-field>
+
+                        <v-text-field
+                            v-model="password"
+                            label="Password"
+                            type="password"
+                            required
+                            minlength="6"
+                        ></v-text-field>
+
+                        <v-btn
+                            block
+                            color="primary"
+                            type="submit"
+                            :loading="loading"
+                        >
+                            Sign Up
+                        </v-btn>
+                    </form>
+
+                    <div class="text-center mt-4">
+                        <v-btn
+                            variant="text"
+                            href="/auth/signin"
+                        >
+                            Sign In Instead
+                        </v-btn>
+                    </div>
+                </v-card-text>
+            </v-card>
+        </v-col>
+    </v-row>
+</v-container>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    const { createApp } = Vue;
+    const { createVuetify } = Vuetify;
+    const vuetify = createVuetify();
+
+    const app = createApp({
+        data() {
+            return {
+                username: '',
+                email: '',
+                password: '',
+                loading: false,
+                error: ''
+            }
+        },
+        methods: {
+            async handleSubmit() {
+                this.loading = true;
+                this.error = '';
+                
+                try {
+                    const response = await axios.post('/auth/signup', {
+                        username: this.username,
+                        email: this.email,
+                        password: this.password
+                    });
+                    
+                    if (response.data.error) {
+                        this.error = response.data.error;
+                    } else {
+                        window.location.href = '/dashboard';
+                    }
+                } catch (error) {
+                    this.error = error.response?.data?.error || 'An error occurred during signup';
+                } finally {
+                    this.loading = false;
+                }
+            }
+        },
+        delimiters: ['${', '}']
+    });
+
+    app.use(vuetify).mount('#app');
+</script>
+{% endblock %}

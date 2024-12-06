@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}FastAPI Template{% endblock %}</title>
+    <!-- Vuetify CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@3.7.3/dist/vuetify.min.css" rel="stylesheet">
+    <!-- MDI Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="{{ url_for('static', path='css/main.css') }}" rel="stylesheet">
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <v-app v-cloak>
+            <v-layout>
+                <v-app-bar color="primary">
+                    <template v-slot:prepend>
+                        <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+                    </template>
+                    <v-toolbar-title class="ml-0 pl-3">
+                        Vilcos Framework
+                    </v-toolbar-title>
+                </v-app-bar>
+
+                <v-navigation-drawer v-model="drawer" app  width="310" expand-on-hover>
+                    <v-list>
+                        <v-list-item prepend-icon="mdi-view-dashboard" title="Dashboard" value="dashboard"
+                            href="/dashboard"></v-list-item>
+                        <v-list-item prepend-icon="mdi-account" title="Users" value="users"
+                            href="/admin/users"></v-list-item>
+                        <v-list-item prepend-icon="mdi-shield-account" title="Roles" value="roles"
+                            href="/admin/roles"></v-list-item>
+                    </v-list>
+                </v-navigation-drawer>
+
+
+                {% block content %}{% endblock %}
+            </v-layout>
+        </v-app>
+    </div>
+
+    <!-- Vue 3 -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- Vuetify -->
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@3.7.3/dist/vuetify.min.js"></script>
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Custom Scripts -->
+    
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>
