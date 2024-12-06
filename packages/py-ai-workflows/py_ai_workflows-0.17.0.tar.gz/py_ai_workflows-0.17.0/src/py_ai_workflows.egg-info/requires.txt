@@ -1,0 +1,17 @@
+unstructured[all-docs]
+openai
+anthropic[bedrock]
+tiktoken
+langsmith<0.2,>=0.1.63
+tenacity
+PyMuPDF
+pymupdf4llm
+Pillow
+openpyxl
+nltk==3.9.1
+jsonschema
+beautifulsoup4>=4.12.0
+markdown>=3.5.0
+colab-or-not~=0.4.0
+json_repair==0.*
+docling<3.0,>=2.8.1
