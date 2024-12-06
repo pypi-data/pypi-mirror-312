@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+gptize.egg-info/PKG-INFO
+gptize.egg-info/SOURCES.txt
+gptize.egg-info/dependency_links.txt
+gptize.egg-info/entry_points.txt
+gptize.egg-info/requires.txt
+gptize.egg-info/top_level.txt
+src/__init__.py
+src/gptizer.py
+src/main.py
+src/models.py
+src/output_builder.py
+src/settings.py
