@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/__main__.py
+src/bools.py
+src/clss.py
+src/core.py
+src/dicts.py
+src/iters.py
+src/lists.py
+src/maths.py
+src/strs.py
+src/pyamda.egg-info/PKG-INFO
+src/pyamda.egg-info/SOURCES.txt
+src/pyamda.egg-info/dependency_links.txt
+src/pyamda.egg-info/top_level.txt

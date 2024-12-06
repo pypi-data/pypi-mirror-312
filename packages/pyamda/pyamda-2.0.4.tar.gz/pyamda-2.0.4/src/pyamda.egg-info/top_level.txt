@@ -1,0 +1,10 @@
+__init__
+__main__
+bools
+clss
+core
+dicts
+iters
+lists
+maths
+strs
