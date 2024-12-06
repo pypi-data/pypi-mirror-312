@@ -1,0 +1,3 @@
+[console_scripts]
+q3rcon=q3rconlib.cli.client:run
+
