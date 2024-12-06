@@ -1,0 +1,11 @@
+gptk/__init__.py,sha256=rptPrr-HtH19LTCejJ3Kq43RUI60_deBr3BB5oCqUYo,538
+gptk/constants.py,sha256=P9pqeEQhTF_YmTPbp2izRABzD-wf2398a_TlYxBrgxk,293
+gptk/encoding.py,sha256=xQbpH9wjGXGbrfTDFIZGRDod8YD-QuyPBLFD4OKUczM,1227
+gptk/enums.py,sha256=HcJxvOb827wYYyyWaubFdtvh44e26FQfFM2KWKXplhU,678
+gptk/pydocument.py,sha256=BkoxMvZy50tC7IDadQIYBVdnV2AGzO7sDMGijhiySpI,289
+gptk/singletons.py,sha256=khn6WBToSYcNYGjOmAJMDdCB3YjrCjY1jYKvbp4gx-8,1918
+gptk-0.4.0.dist-info/LICENSE.md,sha256=RoxHSd5sG0_TeJLfWB4PXNuXK6pZn_1Pbf7GTxCRctw,1076
+gptk-0.4.0.dist-info/METADATA,sha256=AzfwRNiMqNkyhbOsiNxLTAnrAWab_6QDkXS-041sbBs,949
+gptk-0.4.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+gptk-0.4.0.dist-info/top_level.txt,sha256=BGe2Ws1tNemkRSxTtQRVhpTo11iZtjXdw7kB4-xP1dw,5
+gptk-0.4.0.dist-info/RECORD,,
