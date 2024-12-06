@@ -1,0 +1,17 @@
+source/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/config.py,sha256=ezFDM0ozESRSXGUmAc6ooDrbFOM7ihqbw6NZ5hkBkrM,480
+source/constants.py,sha256=PSXqXVlT3PDOv9x3bd1O5l7uYjGW_r7skO_bvBZb6oM,112
+source/utilities.py,sha256=ZHK2Vy7OgrKCpaP8F78h8OpKJ5pfoPBv0SSNfgtSXEw,1612
+source/gcal_sync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/gcal_sync/call_sync.py,sha256=r07x8gUFE5--b3gQUyQYJ3Eg9rGsLq4fIQQZA3tCWYc,5144
+source/gcal_sync/get_events.py,sha256=jRrslBA0xOynUiejha-AVIfvcgmnUObqe-6JV3f4-5c,2249
+source/gcal_sync/schemas.py,sha256=ex6rht4X_m2qRlzKf3JAJS105FQFbiwDkociGhoWVoI,1359
+source/noko_logger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/noko_logger/time_logger.py,sha256=5mS4KTeqT8KsQXr4eI69X6ZpgIi-_J4E8xLncvs1YPw,2525
+source/setup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/setup/setup.py,sha256=LIdCc7zEdGkePQnDquxgloR0Q4TEl-papvNkjsqPWLk,862
+noko_cli-0.1.5.dist-info/METADATA,sha256=cPgRzsy-ucs0jGcM8RmbzBDWfORyPdrIJS0B25Cjae0,2280
+noko_cli-0.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+noko_cli-0.1.5.dist-info/entry_points.txt,sha256=fXrHHCupiV6BZ8L_cETWuogRE1HoC-rOqvm6Ovav0Gg,177
+noko_cli-0.1.5.dist-info/top_level.txt,sha256=uLsDT5tjvQJU-8fBV8rnRsdYU_RkPWzqhE3EjdtX9SI,7
+noko_cli-0.1.5.dist-info/RECORD,,

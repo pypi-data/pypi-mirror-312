@@ -1,0 +1,5 @@
+[console_scripts]
+ncs = source.setup.setup:setup
+nl = source.noko_logger.time_logger:log
+noko_cli_setup = source.setup.setup:setup
+noko_log = source.noko_logger.time_logger:log
