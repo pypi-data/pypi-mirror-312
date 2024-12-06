@@ -1,0 +1,5 @@
+% Resolved crashes and glitches in CalVi usage.<br><br>Squashed issues with undo/redo, image tree handling, process logging and calibration steps.<br><br>Fixed errors in velocity field visualization and stereo-PIV streamline rendering.<br>
+& Introduced representation of the reference frame system when plotting the common region in the disparity and stereo-PIV analysis steps and visualization of the out-of-plane vorticity field.<br><br> You can now copy input and output information between steps of the same process.<br><br>Interrupt processing before it starts if there’s an issue — your workflows are now more secure.<br>
+* Optimized multithreading for faster and smoother processing in both PIV and Stereo-PIV workflows.<br><br>Smarter interface: smoother focus-out behavior, streamlined controls, and polished visuals.<br>
+
+# !=critical issue, %=bugfix, &=announcement, *=improvement, £=bold font without icon 
