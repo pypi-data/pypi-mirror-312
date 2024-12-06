@@ -1,0 +1,8 @@
+amyxomics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amyxomics/__main__.py,sha256=FoJrLFrR3xPoKe3X33QvUdN8i0J8i3XdW14qUxrmEqg,1772
+amyxomics/annotation.py,sha256=LF-3CirJ_TcNM3dvhk2j1JbqD_i1wikgXnECR_muhzk,4876
+amyxomics/readers_gff.py,sha256=Xdcv3kPDqARxun2glfDiY22dACHWH1mUm9iowmd4FMk,9916
+xomics_amy_imene-0.1.1.dist-info/METADATA,sha256=X2IcY1uS3vu80M-KhLJT4hq7wljKdg4BfUq65WB9fWs,3123
+xomics_amy_imene-0.1.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+xomics_amy_imene-0.1.1.dist-info/top_level.txt,sha256=6hXtMc28tNdQBctyR0cwQSoEzSr2AFQ1QUoXFyGsdmE,10
+xomics_amy_imene-0.1.1.dist-info/RECORD,,
