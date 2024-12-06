@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/JustPaste.py.egg-info/PKG-INFO
+src/JustPaste.py.egg-info/SOURCES.txt
+src/JustPaste.py.egg-info/dependency_links.txt
+src/JustPaste.py.egg-info/top_level.txt
+src/justpaste/__init__.py
+src/justpaste/base.py
+src/justpaste/consts.py
+src/justpaste/exceptions.py
+src/justpaste/messages.py
+src/justpaste/objects.py
+src/justpaste/settings.py
+src/justpaste/utils.py
