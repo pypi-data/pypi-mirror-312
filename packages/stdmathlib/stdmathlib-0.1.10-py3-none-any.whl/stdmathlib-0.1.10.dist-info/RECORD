@@ -1,0 +1,11 @@
+stdmathlib/__init__.py,sha256=7UG4_K6JJpnnFrSs-L8hDwVo5uMp8oop6MKsYxB7UYY,826
+stdmathlib/algebra.py,sha256=B3b4t0lhwjVXJThkcU1A4NbLNEQhZuLZqV_F9DTonyY,1614
+stdmathlib/combinatorics.py,sha256=92-4b7LdzUbOmR8vzhEQMga-Sc8eFlnqL2af-r9nq0k,1889
+stdmathlib/graph.py,sha256=Hk9-iYIAbTLzLuZxiB3hvDSepnmYLsswi6YV5b8G3To,2404
+stdmathlib/integrals.py,sha256=evRj_ILqf5iu0ht2z4F9pzF3Nv27SUAIBiBWERQEdxc,3491
+stdmathlib/ode.py,sha256=6iQDW4KSD0B08Ddv_4aHDPW-PA-7thpB9Q81fWEOMdU,1571
+stdmathlib/pde.py,sha256=q6gwoxntSEwMLZz_66VO_DODccdHVU3gY_9cSHgXa8s,1814
+stdmathlib-0.1.10.dist-info/METADATA,sha256=Xczqz_uviZbnie1apw3PtXkhSuNhopQRFIwYpp-ywGU,7352
+stdmathlib-0.1.10.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+stdmathlib-0.1.10.dist-info/top_level.txt,sha256=DpmXB2teRanbvNcyg1NJlymSuPpdBG1N9gu9UEqKy-A,11
+stdmathlib-0.1.10.dist-info/RECORD,,
