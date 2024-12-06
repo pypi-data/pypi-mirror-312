@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+requirements.txt
+setup.py
+django_alpine/__init__.py
+django_alpine/apps.py
+django_alpine.egg-info/PKG-INFO
+django_alpine.egg-info/SOURCES.txt
+django_alpine.egg-info/dependency_links.txt
+django_alpine.egg-info/requires.txt
+django_alpine.egg-info/top_level.txt
+django_alpine/static/js/alpine.js
+django_alpine/templatetags/__init__.py
+django_alpine/templatetags/alpine_tags.py
