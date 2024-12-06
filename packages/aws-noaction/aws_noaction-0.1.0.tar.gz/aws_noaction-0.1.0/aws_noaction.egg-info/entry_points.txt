@@ -1,0 +1,2 @@
+[console_scripts]
+read_state = app.main:read_state_from_s3
