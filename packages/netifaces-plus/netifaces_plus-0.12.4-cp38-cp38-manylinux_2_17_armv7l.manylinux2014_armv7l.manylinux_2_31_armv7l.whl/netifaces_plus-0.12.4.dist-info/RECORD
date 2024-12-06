@@ -1,0 +1,9 @@
+_netifaces.cpython-38-arm-linux-gnueabihf.so,sha256=6PbQ3Cq3AHmh_1yxV4wl3I1AI-exMG1F-4-Tzy_MfP4,75780
+netifaces/__init__.py,sha256=-XyHdSxcA3kVGWtcdg5VSjvED-G5KcDwsA9c6gX5sRo,25
+netifaces/__init__.pyi,sha256=nnE3bwvfcUM2ue29kL1IFFqi_KgCbayYY2y4hGKeHGI,1314
+netifaces/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netifaces_plus-0.12.4.dist-info/top_level.txt,sha256=Uottauqlwc0xXgCPKJ2MVyruHTReV5fUBBkK05GoOvU,21
+netifaces_plus-0.12.4.dist-info/RECORD,,
+netifaces_plus-0.12.4.dist-info/LICENSE,sha256=sguJUWS3K5zAFw5sDWCxT5qqzGhiwFVu7UHqo0iINwU,1066
+netifaces_plus-0.12.4.dist-info/METADATA,sha256=5zHh8fpuS0VZTL6yPh90idl76U9H7gL1clAKnAw_T2k,9377
+netifaces_plus-0.12.4.dist-info/WHEEL,sha256=Sy9sxnGR3TZmN-N5Mfpkc-zbffWXTsgH1tO2q64b_C8,184
