@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: openapi-llm
+Version: 0.2.0
+Summary: Convert and invoke OpenAPI specifications as LLM tool/function definitions
+Project-URL: Homepage, https://github.com/vblagoje/openapi-llm
+Project-URL: Bug Tracker, https://github.com/vblagoje/openapi-llm/issues
+Project-URL: Source Code, https://github.com/vblagoje/openapi-llm
+Author-email: Vladimir Blagojevic <dovlex@gmail.com>
+License: Apache-2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Requires-Dist: jsonref
+Requires-Dist: pydantic
+Requires-Dist: pyyaml
+Requires-Dist: requests
