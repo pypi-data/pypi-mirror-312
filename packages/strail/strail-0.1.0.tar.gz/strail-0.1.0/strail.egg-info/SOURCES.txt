@@ -1,0 +1,7 @@
+README.md
+hello.py
+pyproject.toml
+strail.egg-info/PKG-INFO
+strail.egg-info/SOURCES.txt
+strail.egg-info/dependency_links.txt
+strail.egg-info/top_level.txt
