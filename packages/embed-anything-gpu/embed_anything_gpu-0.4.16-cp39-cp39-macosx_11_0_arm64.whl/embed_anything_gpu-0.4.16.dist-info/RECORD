@@ -1,0 +1,10 @@
+embed_anything_gpu-0.4.16.dist-info/METADATA,sha256=o58wgDQ7DSFgrnyl4f_xHx_xlKjrvwrsv5KGTNq9Dv0,13769
+embed_anything_gpu-0.4.16.dist-info/WHEEL,sha256=MBppgnVXfELcxVuEOC4sQuqQhNR48M5Zb8JoOj6or3w,102
+embed_anything_gpu-0.4.16.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+embed_anything/_embed_anything.pyi,sha256=rfgUgbm-akNMPoPsHnVWELPA-zY3dl6BYnSlDopk948,19010
+embed_anything/vectordb.py,sha256=UUkkC4Guv6xlkzJg-DERbwzWtpdWYdjanSovNmUgrKE,633
+embed_anything/__init__.py,sha256=rY8RbmHOq0JQNtX8m6j4gDMmbfWTc7RnRLPf-KFdnL0,4309
+embed_anything/libiomp5md.dll,sha256=CtcfRm0RXTU9zpS6MrY-KI9IGY6J9VHUbczkYf7b0ZU,2047000
+embed_anything/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+embed_anything/_embed_anything.cpython-39-darwin.so,sha256=3sGqDQrN21nyXf-wyvKsK9r67KBOB6e7afAYVBhgwgg,26658824
+embed_anything_gpu-0.4.16.dist-info/RECORD,,
