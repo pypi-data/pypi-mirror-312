@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include qiscus_python_sdk *.py
+recursive-include tests *.py
