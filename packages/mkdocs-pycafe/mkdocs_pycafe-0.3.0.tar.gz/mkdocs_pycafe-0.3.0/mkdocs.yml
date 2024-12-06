@@ -1,0 +1,25 @@
+site_name: PyCafe plugin for MkDocs
+site_url: https://mkdocs.py.cafe
+repo_url: https://github.com/py-cafe/mkdocs-pycafe
+repo_name: mkdocs-pycafe
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  features:
+    - content.code.annotate #
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: python
+          class: 'highlight'
+          validator: !!python/name:mkdocs_pycafe.validator
+          format: !!python/object/apply:mkdocs_pycafe.formatter
+            kwds:
+              type: solara
+              requirements: |
+                altair
+                anywidget
+              link_text: |
+                <img src="https://py.cafe/logos/pycafe_logo.png" style="height: 24px"> **Run and edit this code in PyCafe**
+  - pymdownx.snippets:
+      url_download: true
