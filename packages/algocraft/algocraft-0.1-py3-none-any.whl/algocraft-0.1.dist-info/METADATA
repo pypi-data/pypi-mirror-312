@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: algocraft
+Version: 0.1
+Summary: A collection of classic algorithms in Python
+Author: Leander
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: heapq
+Requires-Dist: math
+
+# Algocraft
+
+**Algocraft** is a Python package that provides implementations of classic algorithms, including searching, sorting, dynamic programming, graph algorithms, and more. It aims to be a comprehensive library for fundamental algorithms commonly used in computer science.
+
+## Features
+
+- **Sorting Algorithms**: Bubble Sort, Merge Sort, Quick Sort, Heap Sort, Strassen's Matrix Multiplication.
+- **Search Algorithms**: Binary Search, Linear Search.
+- **Dynamic Programming**: Fibonacci, Knapsack Problem.
+- **Graph Algorithms**: Dijkstra's Algorithm, Floyd-Warshall Algorithm.
+- **Miscellaneous Algorithms**: Topological Sort, Tower of Hanoi, 8-Queens Problem, Simplex Method, etc.
+
+## Installation
+
+You can install the `algocraft` package via `pip`:
+
+```bash
+pip install algocraft
