@@ -1,0 +1,10 @@
+cumd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cumd/cumd.py,sha256=IEi4bQ_51UCbSWsnmVALOEy44-K_ADgpTAlJpSDU6_g,8273
+cumd/cuxml.py,sha256=IC4q5HYw-v38_MVa2FlhkBSOmHH9KKOVAonYKpanGFM,5617
+cumd/test/test_cumd.py,sha256=GGBW2Uv_gilYwig3YWQ6bM-EaAwn9S6_I_C-k_QBisc,7042
+cumd-1.5.2.dist-info/LICENSE,sha256=FWtL2nZY-PAlrwyVCN2NQGktJPAs7rwP5BdbsnUhpJE,1086
+cumd-1.5.2.dist-info/METADATA,sha256=g-QP1mj6wP9peCm325CWYwdAtsNNCZCfGtP5qcNZv80,2731
+cumd-1.5.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+cumd-1.5.2.dist-info/entry_points.txt,sha256=325CJ4bLa6UUe1WMU5iefK6ULB17j8rifa1JrTMs4YY,64
+cumd-1.5.2.dist-info/top_level.txt,sha256=mRY6QVtpqp8fujpQxCEMfOWXWG6kbvbdBwT92csAh5E,5
+cumd-1.5.2.dist-info/RECORD,,
