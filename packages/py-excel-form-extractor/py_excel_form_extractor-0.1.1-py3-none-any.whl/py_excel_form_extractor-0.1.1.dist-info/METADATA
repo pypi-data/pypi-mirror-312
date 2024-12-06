@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: py_excel_form_extractor
+Version: 0.1.1
+Summary: Extract excel form content into structured data.
+Home-page: https://github.com/adhadse/excelFormExtractor
+Author: Anurag Dhadse
+License: MIT
+Keywords: go,golang,python,excel,xlsx,form,extractor
+Platform: Linux
+Platform: Mac OS X
+Description-Content-Type: text/markdown
+License-File: LICENSE
