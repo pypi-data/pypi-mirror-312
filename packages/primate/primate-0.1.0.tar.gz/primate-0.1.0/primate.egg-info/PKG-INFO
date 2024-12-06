@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: primate
+Version: 0.1.0
+Summary: Primate AI: Tools for decision-making and NLP.
+Author: Primate
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: matplotlib>=3.4.0
+
+Primate AI
+==========
+
+Primate AI is a Python package that bridges decision-making and natural language processing, inspired by intelligent behavior.
+
+Features
+--------
+
+- **Decision-Making Models**
+  - Game-theoretic strategies (e.g., tit-for-tat).
+  - Multi-agent simulations.
+  - Reinforcement learning agents.
+
+- **Natural Language Processing**
+  - Sentiment analysis.
+  - Tokenization and text similarity.
+  - Language evolution simulation.
+
+Installation
+------------
+
+You can install the package via pip::
+
+    pip install primate
+
+Quick Start
+-----------
+
+Example usage:
+
+.. code-block:: python
+
+    # Decision Agent
+    from primate.decision.agent import DecisionAgent
+    agent = DecisionAgent(strategy="tit_for_tat")
+    decision = agent.decide(opponent_action="cooperate")
+    print(f"Agent decided to: {decision}")
+
+    # Sentiment Analysis
+    from primate.nlp.sentiment import SentimentAnalyzer
+    analyzer = SentimentAnalyzer()
+    print(analyzer.analyze("I love bananas!"))  # Output: "positive"
+
+License
+-------
+
+This project is licensed under the MIT License.
