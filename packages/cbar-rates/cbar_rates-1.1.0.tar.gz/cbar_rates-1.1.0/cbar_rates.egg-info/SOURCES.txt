@@ -1,0 +1,14 @@
+CHANGES.md
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+cbar/__init__.py
+cbar/core.py
+cbar_rates.egg-info/PKG-INFO
+cbar_rates.egg-info/SOURCES.txt
+cbar_rates.egg-info/dependency_links.txt
+cbar_rates.egg-info/requires.txt
+cbar_rates.egg-info/top_level.txt
+tests/__init__.py
+tests/test_core.py
