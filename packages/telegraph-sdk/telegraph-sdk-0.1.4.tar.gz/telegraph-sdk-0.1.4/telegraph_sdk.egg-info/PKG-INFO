@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: telegraph-sdk
+Version: 0.1.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# telegraph-sdk
+
+## 简介
+
+`Telegraph` 是一个异步客户端，用于与 [Telegraph API](https://telegra.ph) 交互。它支持创建用户账户、发布文章、查看文章阅读次数以及获取用户的文章列表。
+
+## 安装
+
+首先，确保您已经安装了 `telegraph-sdk` 库：
+
+```bash
+pip install telegraph-sdk
+```
+
+## 用法
+
+### 创建 `Telegraph` 对象
+
+```python
+from telegraph_sdk import Telegraph
+
+tg = Telegraph(
+    short_name='your_short_name',
+    author_name='your_author_name',
+    author_url='your_author_url',
+    proxy='http://127.0.0.1:51623'
+)
+```
+
+- `short_name`: 用户的短名称（字母和数字组合）
+- `author_name`: 作者名称
+- `author_url`: 作者的 URL
+- `proxies`: 代理配置（可选）
+
+### 初始化用户
+
+在使用任何方法前，首先需要初始化用户（获取 `access_token`）。
+
+```python
+await tg.init_user()
+```
+
+### 创建文章页面
+
+```python
+page_url = await tg.create_page(
+    title='Page Title',
+    content='<p>Page Content</p>',
+    author_name='Author Name',
+    author_url='https://author.url'
+)
+print(f"Page created: {page_url}")
+```
+
+- `title`: 页面标题
+- `content`: 页面内容，支持 HTML 格式
+- `author_name`: 作者名称（可选）
+- `author_url`: 作者 URL（可选）
+
+### 获取文章阅读次数
+
+```python
+views = await tg.get_views('page-path')
+print(f"Views: {views}")
+```
+
+- `page-path`: 文章路径，例如 `telegra.ph/page-title-123`
+
+### 获取文章列表
+
+```python
+pages = await tg.get_page_list()
+print(f"Pages: {pages}")
+```
+
+### 关闭客户端
+
+```python
+await tg.close()
+```
+
+## 示例
+
+```python
+import asyncio
+from telegraph_sdk import Telegraph
+
+async def main():
+    tg = Telegraph(
+        short_name='example_short_name',
+        author_name='example_author',
+        author_url='https://example.com',
+        proxy='http://127.0.0.1:51623'
+    )
+
+    try:
+        # 创建页面
+        page_url = await tg.create_page(
+            title='Test Page',
+            content='<p>This is a test page.</p>',
+            author_name='Example Author',
+            author_url='https://example.com'
+        )
+        print(f"Page created: {page_url}")
+    finally:
+        # 关闭会话
+        await tg.close()
+
+# 运行异步事件循环
+asyncio.run(main())
+```
+
+## 错误处理
+
+- 如果请求失败，客户端会进行最多 3 次重试。
+- 请求错误将记录为警告日志并抛出异常。
+
