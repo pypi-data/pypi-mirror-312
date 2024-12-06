@@ -1,0 +1,30 @@
+[project]
+name = "kiteai"
+version = "0.0.1"
+description = "KiteML Python Package"
+readme = "README.md"
+authors = [{ name = "Kite", email = "kite@kiteml.io" }]
+requires-python = ">=3.12"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+homepage = "https://github.com/kiteml/kite"
+repository = "https://github.com/kiteml/kite"
+
+[dependency-groups]
+dev = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kite"]
+
+#[tool.hatch.build.targets.wheel.shared-data]
+#"src/kite" = "kml"
