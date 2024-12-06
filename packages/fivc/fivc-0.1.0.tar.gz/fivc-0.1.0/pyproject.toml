@@ -1,0 +1,67 @@
+[build-system]
+requires = ["hatchling<=1.18.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fivc"
+dynamic = ["version"]
+description = 'fivc'
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "LICENSE" }
+#license-files = { paths = ["LICENSE"] }
+keywords = []
+authors = [
+  { name = "Charlie ZHANG", email = "sunnypig2002@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "PyYAML==6.0.1",
+]
+
+[project.urls]
+Documentation = "https://github.com/5C-Plus/fivc#readme"
+Issues = "https://github.com/5C-Plus/fivc/issues"
+Source = "https://github.com/5C-Plus/fivc"
+
+[tool.hatch.version]
+path = "src/fivc/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+core-metadata-version = '2.1'
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/fivc tests}"
+
+[tool.coverage.run]
+source_pkgs = ["fivc", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/fivc/__about__.py",
+]
+
+[tool.coverage.paths]
+fivc = ["src/fivc", "*/fivc/src/fivc"]
+tests = ["tests", "*/fivc/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]

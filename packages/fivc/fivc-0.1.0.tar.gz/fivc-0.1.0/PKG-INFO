@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: fivc
+Version: 0.1.0
+Summary: fivc
+Project-URL: Documentation, https://github.com/5C-Plus/fivc#readme
+Project-URL: Issues, https://github.com/5C-Plus/fivc/issues
+Project-URL: Source, https://github.com/5C-Plus/fivc
+Author-email: Charlie ZHANG <sunnypig2002@gmail.com>
+License: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: pyyaml==6.0.1
