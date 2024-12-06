@@ -1,0 +1,8 @@
+setup.py
+tests/test_uuid32.py
+uuid32/__init__.py
+uuid32/uuid32.py
+uuid32.egg-info/PKG-INFO
+uuid32.egg-info/SOURCES.txt
+uuid32.egg-info/dependency_links.txt
+uuid32.egg-info/top_level.txt
