@@ -1,0 +1,2 @@
+[console_scripts]
+csv2sendy = csv2sendy.cli:main
