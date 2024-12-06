@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cartesian_converter_for_vasp
+Version: 0.0.2
+Summary: A tool to convert fractional coordinates to Cartesian coordinates for VASP data files.
+Author: REB YuanTong
+Author-email: REN YuanTong <renyt1621@mails.jlu.edu.cn>
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy>=1.26.4
