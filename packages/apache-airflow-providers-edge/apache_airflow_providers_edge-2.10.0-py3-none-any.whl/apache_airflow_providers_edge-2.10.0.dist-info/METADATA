@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: apache-airflow-providers-edge
+Version: 2.10.0
+Summary: Apache Airflow Edge Provider
+Home-page: https://github.com/yourusername/apache-airflow-providers-edge
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.0
+

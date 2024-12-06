@@ -1,0 +1,6 @@
+apache_airflow_providers_edge/__init__.py,sha256=szT5sYZvkYwUbthQAP8eXnm6GJDn_0piFPhtY9wzGoU,152
+apache_airflow_providers_edge/telemetry.py,sha256=VQXYvRJxC76ZbFk82sUTMc69YQL9WWUu_7W0bIKaa60,1557
+apache_airflow_providers_edge-2.10.0.dist-info/METADATA,sha256=sXM3qXIxUEVtOeQ9zLEfttEjIkNCyvAep6IbKkFuXaE,500
+apache_airflow_providers_edge-2.10.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+apache_airflow_providers_edge-2.10.0.dist-info/top_level.txt,sha256=yUkcheSoyNQRKkAIfhzfZdAoWjyKxYmpMgClHsocQ-I,30
+apache_airflow_providers_edge-2.10.0.dist-info/RECORD,,
