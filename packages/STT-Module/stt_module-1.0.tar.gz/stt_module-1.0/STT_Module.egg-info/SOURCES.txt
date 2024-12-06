@@ -1,0 +1,6 @@
+setup.py
+STT_Module/__init__.py
+STT_Module.egg-info/PKG-INFO
+STT_Module.egg-info/SOURCES.txt
+STT_Module.egg-info/dependency_links.txt
+STT_Module.egg-info/top_level.txt
