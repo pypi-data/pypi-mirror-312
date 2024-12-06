@@ -1,0 +1,21 @@
+[build-system]
+requires = [ "setuptools>=41", "wheel", ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygame_simple_events"
+version = "1.1.1"
+authors = [
+    { name="BetterBuiltFool", email="betterbuiltfool@gmail.com"}
+]
+description = "A simple decorator-based event handler and key bind system for use with pygame"
+readme = "README.md"
+requires-python = ">=3.12.4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment",
+    "Topic :: Software Development :: Libraries :: pygame",
+    "Typing :: Typed"
+]

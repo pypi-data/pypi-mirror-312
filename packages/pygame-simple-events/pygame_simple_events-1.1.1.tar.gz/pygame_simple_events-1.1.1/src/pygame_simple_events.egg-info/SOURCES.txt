@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/pygame_simple_events.egg-info/PKG-INFO
+src/pygame_simple_events.egg-info/SOURCES.txt
+src/pygame_simple_events.egg-info/dependency_links.txt
+src/pygame_simple_events.egg-info/top_level.txt
+src/simple_events/__init__.py
+src/simple_events/base_manager.py
+src/simple_events/event_manager.py
+src/simple_events/file_parser.py
+src/simple_events/joy_map.py
+src/simple_events/key_manager.py
+src/simple_events/key_map.py
+src/simple_events/py.typed
+tests/test_event_manager.py
+tests/test_key_manager.py
