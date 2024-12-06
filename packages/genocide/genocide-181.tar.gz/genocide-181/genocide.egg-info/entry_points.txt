@@ -1,0 +1,4 @@
+[console_scripts]
+genocide = genocide.control:wrapped
+genocided = genocide.daemon:main
+genocides = genocide.service:wrapped
