@@ -1,0 +1,2 @@
+[console_scripts]
+afusion = afusion.cli:main
