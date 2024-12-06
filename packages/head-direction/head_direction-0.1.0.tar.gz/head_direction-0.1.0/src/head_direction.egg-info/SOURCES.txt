@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/head_direction/__init__.py
+src/head_direction/head.py
+src/head_direction/tools.py
+src/head_direction.egg-info/PKG-INFO
+src/head_direction.egg-info/SOURCES.txt
+src/head_direction.egg-info/dependency_links.txt
+src/head_direction.egg-info/requires.txt
+src/head_direction.egg-info/top_level.txt
+tests/test_head.py
