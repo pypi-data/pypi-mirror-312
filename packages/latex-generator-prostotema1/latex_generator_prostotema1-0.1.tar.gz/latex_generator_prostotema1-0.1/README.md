@@ -1,0 +1,1 @@
+**Simple libriary to work with latex**
