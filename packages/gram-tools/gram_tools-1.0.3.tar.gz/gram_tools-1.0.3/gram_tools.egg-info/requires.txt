@@ -1,0 +1,6 @@
+aiogram>=3.0.0
+orjson
+aiofiles
+numpy
+networkx
+matplotlib
