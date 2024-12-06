@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: prem
+Version: 0.0.1
+Summary: WiP
+Maintainer-email: Casper da Costa-Luis <casper.dcl@physics.org>
+License: MPL-2.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: argopt
+Requires-Dist: shtab
+
+# Prem common utilities
+
+Parsable cross-platform system information
