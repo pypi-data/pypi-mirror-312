@@ -1,0 +1,27 @@
+*.exe
+*.lock
+*.swp
+*.rsproj
+tags*
+build/
+build-tests/
+target/
+*~
+/.idea
+/.project
+*.sublime-*
+/bin/
+.DS_Store
+
+# Python
+*__pycache__*
+*.pyc
+*.DS_Store
+*.egg-info
+*.egg
+*.whl
+*.so 
+*pyc*
+
+
+
