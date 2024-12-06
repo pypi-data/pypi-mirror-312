@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: nvdinterface
+Version: 0.4.0
+Summary: An convenience python class for interacting with NVD
+Author: Lachlan Jones
+Requires-Python: >=3.9
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: datetime (>=5.5)
+Requires-Dist: iso639-lang (>=2.5.1,<3.0.0)
+Requires-Dist: requests (>=2.13.0)
+Description-Content-Type: text/markdown
+
+# NVDInterface
+
+NVDInterface is a python library to simplify retrieving and interacting with data from the National Vulnerability Database (NVD).
+
+This project is currently in the early stages of development and will hopefully see changes soon, however is being made available early for others to use, test, and request changes on.
+
+---
+
+## Install
+
+```shell
+(.venv) $ pip install nvdinterface
+```
+
+
+## Example Usage
+
+```pycon
+>>> from nvdinterface import search_cves
+>>> search_cves(cveId="CVE-2021-44228")
+```
+
+## Building from Source
+
+1. Clone the repository
+2. Enter repository directory
+3. Install using poetry
+
+*Example:*
+
+```shell
+(.venv) $ git clone https://github.com/LachJones/nvdinterface.git
+(.venv) $ cd nvdinterface
+(.venv) $ python -m poetry install
+```
