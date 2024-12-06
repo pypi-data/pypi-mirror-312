@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "autogen-xai-client"
+version = "0.1.1"
+description = ""
+authors = ["me020523 <me020523@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+autogen-core = ">=0.4.0.dev8,<0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
