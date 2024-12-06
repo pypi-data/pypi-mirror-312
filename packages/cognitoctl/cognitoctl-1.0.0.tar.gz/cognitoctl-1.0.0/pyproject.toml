@@ -1,0 +1,60 @@
+[tool.poetry]
+name = "cognitoctl"
+version = "1.0.0"
+description = "CLI to use aws cognito in a simple way"
+authors = ["Daniel Muñoz Gonzalez <dani16595@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "cognitoctl", from = "src" }]
+keywords = ["aws", "cognito", "authentication", "authorization", "python", "cli"]
+repository = "https://github.com/DaniMG95/cognitoctl"
+documentation = "https://github.com/DaniMG95/cognitoctl/blob/main/README.md"
+
+[project]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DaniMG95/cognitoctl"
+"Bug Tracker" = "https://github.com/DaniMG95/cognitoctl/issues"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 120
+
+
+[tool.coverage.report]
+skip_empty=true
+include=["src/*"]
+
+
+[tool.coverage.run]
+source=["src"]
+
+
+[tool.poetry.scripts]
+cognitoctl = "cognitoctl.__main__:main"
+
+
+[tool.poetry.dependencies]
+python = "^3.10.0"
+cognitopy = "1.1.6"
+click = "^8.1.7"
+toml = "^0.10.2"
+
+
+[tool.poetry.group.test.dependencies]
+freezegun = "^1.5.1"
+coverage = {extras = ["toml"], version = "^7.5.3"}
+
+
+[tool.poetry.group.linting.dependencies]
+pre-commit = "^3.7.1"
+flake8 =  "^7.0.0"
