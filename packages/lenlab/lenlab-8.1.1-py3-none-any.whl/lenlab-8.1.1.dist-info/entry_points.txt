@@ -1,0 +1,2 @@
+[console_scripts]
+lenlab = lenlab.cli.cli:main
