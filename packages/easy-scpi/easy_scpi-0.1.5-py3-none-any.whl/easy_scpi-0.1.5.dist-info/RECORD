@@ -1,0 +1,8 @@
+easy_scpi/__init__.py,sha256=sZFhyvQNC60N680rp55D_N_7ak9MQ4LS8CZqs_dCjQY,152
+easy_scpi/_version.py,sha256=521ZYbRlyEa3WfDLB-ge-0UCd1d05PHKwvuvQRw2dSA,86
+easy_scpi/scpi_instrument.py,sha256=286lIaFcd4J8y8Mr5BmAIdRKprCye2kkWNnsavGp_QY,17777
+easy_scpi-0.1.5.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+easy_scpi-0.1.5.dist-info/METADATA,sha256=cVaUbvFuUATcrbbDtfmWl_b9L_ja2sxrUajpvW2gxI0,5307
+easy_scpi-0.1.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+easy_scpi-0.1.5.dist-info/top_level.txt,sha256=XbXP41fasou3pcVdmH029zcZCG72J9FzEiK4vB1I_qo,10
+easy_scpi-0.1.5.dist-info/RECORD,,
