@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: agentcrew
+Version: 0.1.0
+Summary: Placeholder for reserving the agentcrew package name.
+Home-page: https://agentcrew.org
+Author: Aboyai Inc.
+Author-email: abhilashk.cse@gmai.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AgentCrew
+
+Placeholder package for reserving the `agentcrew` name on PyPI.
