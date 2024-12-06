@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+varphi_parsing_tools/VarphiLexer.py
+varphi_parsing_tools/VarphiListener.py
+varphi_parsing_tools/VarphiParser.py
+varphi_parsing_tools/VarphiRepresentor.py
+varphi_parsing_tools/VarphiSyntaxErrorListener.py
+varphi_parsing_tools/__init__.py
+varphi_parsing_tools.egg-info/PKG-INFO
+varphi_parsing_tools.egg-info/SOURCES.txt
+varphi_parsing_tools.egg-info/dependency_links.txt
+varphi_parsing_tools.egg-info/requires.txt
+varphi_parsing_tools.egg-info/top_level.txt
