@@ -1,0 +1,5 @@
+pyyaml
+xlrd
+pytest
+openpyxl
+toml
