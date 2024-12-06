@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: clip-studio-paint-layers-extractor
+Version: 0.1.0
+Summary: A Python library to extract and manipulate Clip Studio Paint (.clip) files
+Home-page: https://github.com/FlagCatStudio/clip-studio-paint-layers-extractor
+License: MIT
+Keywords: clip studio paint,layers,python
+Author: coolstorybro
+Author-email: quentin@flagcat.studio
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pillow (>=11.0.0,<12.0.0)
+Project-URL: Repository, https://github.com/FlagCatStudio/clip-studio-paint-layers-extractor
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <img src="https://framerusercontent.com/assets/r0fB0LdlevK6WWlfVG4OTrxc.png" width="100">
+</p>
+
+<h1 align="center">(>flagcat<)</h1>
+
+# ClipStudioPaintLayersExtractor
+
+A Python library to extract and manipulate Clip Studio Paint (.clip) files.
+
+## Installation
+
+```bash
+pip install clipstudio
+```
+
+## Usage
+
+```python
+from clipstudio import ClipStudio
+
+# Load a .clip file
+clip = ClipStudio.load("path/to/your/file.clip")
+
+# Extract the thumbnail
+thumbnail = clip.get_thumbnail()
+thumbnail.save("thumbnail.png")
+
+# Extract layers
+layers = clip.get_layers()
+print(layers)
+
+clip.close()
+```
+
