@@ -1,0 +1,1 @@
+This is a simple project to add our daily or monthly expenses and modify in addition to generate reports.
