@@ -1,0 +1,9 @@
+msfabricutils/__init__.py,sha256=6bQr-md1WcdD8M6sMLNRChByOiV53Eh4GpKUQJb4Klo,119
+msfabricutils/fabric_duckdb_connection.py,sha256=S_nCPlrV1pxYccDO_PDQU16g3NwgCq2OPIx6wTgVzpo,21504
+msfabricutils/helpers/__init__.py,sha256=iT4k177NXGg2Q81f9OwdMKChkhXEJp-0aycxUssFHTM,90
+msfabricutils/helpers/separator_indices.py,sha256=QWsV99kCHDLEniYqWAGt1Mih2RePb05WSCOBIM-0V3c,979
+msfabricutils-0.1.6.dist-info/LICENSE,sha256=0N2a9Ag8Y2WsT908WcTAoxJ1PT2oUEfrWXhNm-xV01Y,1082
+msfabricutils-0.1.6.dist-info/METADATA,sha256=f6cSdoT8x8oShiPq8PapinaM3jGtQn_nkNjZ0OPTgTc,4673
+msfabricutils-0.1.6.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+msfabricutils-0.1.6.dist-info/top_level.txt,sha256=v2leaQr_9uJhG9nAXYf2uYpn7HF2v-iCjyvTgAocx-Q,14
+msfabricutils-0.1.6.dist-info/RECORD,,
