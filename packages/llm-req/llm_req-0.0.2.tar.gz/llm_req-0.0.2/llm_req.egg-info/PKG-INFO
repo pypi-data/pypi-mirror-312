@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: llm-req
+Version: 0.0.2
+Summary: llm req client
+Home-page: https://github.com/xxx
+Author: auth
+Author-email: xxx@gmail.com
+License: MIT
+Requires-Dist: requests
+Requires-Dist: aiohttp

@@ -1,0 +1,2 @@
+[console_scripts]
+mroy = llm_req.cmd:main
