@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+foundry_map_tool.egg-info/PKG-INFO
+foundry_map_tool.egg-info/SOURCES.txt
+foundry_map_tool.egg-info/dependency_links.txt
+foundry_map_tool.egg-info/top_level.txt
