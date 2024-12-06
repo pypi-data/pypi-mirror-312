@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: fwhassess
+Version: 1.0.2
+Summary: A standard code base for model performance evaluation.
+Home-page: 
+Author: lotuslaw
+Author-email: Lotuslaw.Ni@franklinwh.com
+License: MIT License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE.txt
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# Standardized assessment codes.
+
+# 安装
+```bash
+pip install fwhassess --upgrade
+```
+
+# 使用
+> 见test目录。
