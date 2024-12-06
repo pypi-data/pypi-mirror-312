@@ -1,0 +1,4 @@
+[console_scripts]
+bcapi=bcapi.scripts.daily:main
+bcapi-auth=bcapi.scripts.auth:main
+
