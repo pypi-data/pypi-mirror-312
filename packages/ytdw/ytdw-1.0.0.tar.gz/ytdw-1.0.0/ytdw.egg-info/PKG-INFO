@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ytdw
+Version: 1.0.0
+License-File: LICENSE
+Requires-Dist: yt-dlp
+Requires-Dist: rich
+Requires-Dist: tqdm

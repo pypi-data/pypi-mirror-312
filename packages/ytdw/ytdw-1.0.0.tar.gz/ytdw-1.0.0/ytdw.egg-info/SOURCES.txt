@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ytdw.egg-info/PKG-INFO
+ytdw.egg-info/SOURCES.txt
+ytdw.egg-info/dependency_links.txt
+ytdw.egg-info/requires.txt
+ytdw.egg-info/top_level.txt
