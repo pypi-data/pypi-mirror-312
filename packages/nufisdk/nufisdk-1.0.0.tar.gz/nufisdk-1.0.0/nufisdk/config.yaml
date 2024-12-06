@@ -1,0 +1,7 @@
+config:
+  current_context: default
+  default: https://nufi.nufi.me:31500/api/deployments
+server:
+  pipeline_name: null
+  server_url: http://localhost:30463
+  websocket_url: null
