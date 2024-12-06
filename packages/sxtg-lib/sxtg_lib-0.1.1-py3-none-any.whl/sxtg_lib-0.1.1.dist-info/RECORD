@@ -1,0 +1,14 @@
+lib/__init__.py,sha256=_VGBggL1J-jjX6XCX48t8aDKKXFEvzsmmlkhNhHdp6A,658
+lib/__main__.py,sha256=pLgA51yP-zK3GYyVXjUEaX1va6MoUwRCZZklKHY5aH8,164
+lib/bot_content/__init__.py,sha256=5Zl8tWW60fD8EmlQ36_xeqmeJUQUxTLSZoso78TUbHo,3296
+lib/bot_settings/__init__.py,sha256=MteTCYZzfArZOXE5zA13dII2ICqNxYVG2HvvZXjzQow,2110
+lib/redis_connection/__init__.py,sha256=ysPj3Bxyl3ETXsR795cI_v_jjlHOm--WypL_n4_rzxI,1581
+sxtg/__init__.py,sha256=_VGBggL1J-jjX6XCX48t8aDKKXFEvzsmmlkhNhHdp6A,658
+sxtg/__main__.py,sha256=pLgA51yP-zK3GYyVXjUEaX1va6MoUwRCZZklKHY5aH8,164
+sxtg/bot_content/__init__.py,sha256=5Zl8tWW60fD8EmlQ36_xeqmeJUQUxTLSZoso78TUbHo,3296
+sxtg/bot_settings/__init__.py,sha256=MteTCYZzfArZOXE5zA13dII2ICqNxYVG2HvvZXjzQow,2110
+sxtg/redis_connection/__init__.py,sha256=ysPj3Bxyl3ETXsR795cI_v_jjlHOm--WypL_n4_rzxI,1581
+sxtg_lib-0.1.1.dist-info/METADATA,sha256=dCP0bG6XtsU34WzrQ_e7Obmp7xOv1M71LXDRnxmkf8w,446
+sxtg_lib-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sxtg_lib-0.1.1.dist-info/top_level.txt,sha256=yJ0nCSp77_E8LfVJPt6dEsmloeEiI2S2RhwHdKeWjwc,5
+sxtg_lib-0.1.1.dist-info/RECORD,,
