@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: GscComponent
+Version: 0.1.2
+Summary: the component for GSC
+Home-page: https://https://github.com/GustaveGSC/GscComponent
+Author: Gustave
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Requires-Dist: PyQt5
