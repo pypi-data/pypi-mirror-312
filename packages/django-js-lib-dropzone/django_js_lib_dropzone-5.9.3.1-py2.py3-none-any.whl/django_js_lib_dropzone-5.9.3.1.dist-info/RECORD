@@ -1,0 +1,14 @@
+js_lib_dropzone/__init__.py,sha256=dGST4By7JCA2srhdWJ4EHZF888EN5JLTnjlrjdpRM0I,93
+js_lib_dropzone/apps.py,sha256=UZyZDf6-qaQF_SMMHIYMQ30IAhVZIzC3-NyZtNMXboQ,128
+js_lib_dropzone/static/js_lib_dropzone/basic.css,sha256=xwGhCXXcKR6XVFQ3L1jLNn8tsIwKq2s4kwSoAktH8hM,889
+js_lib_dropzone/static/js_lib_dropzone/dropzone-amd-module.js,sha256=ep8XVNwSl49RbfEzzbyWYgX7r7hoD5INhsEgrOvjXNQ,341176
+js_lib_dropzone/static/js_lib_dropzone/dropzone.css,sha256=6X2vamB3vs1zAJefAme_aHhUeJl13mYKs3VKpIGmcV4,11789
+js_lib_dropzone/static/js_lib_dropzone/dropzone.js,sha256=ep8XVNwSl49RbfEzzbyWYgX7r7hoD5INhsEgrOvjXNQ,341176
+js_lib_dropzone/static/js_lib_dropzone/min/basic.min.css,sha256=_4HNZFQ9aoR40zyMpcfty49TfzYuOgFTpWD8WiZhSHI,749
+js_lib_dropzone/static/js_lib_dropzone/min/dropzone-amd-module.min.js,sha256=uCdT6FLkY6-68Xzm4f9O0usHnJPdKv0Q0rsoXvLchP4,114702
+js_lib_dropzone/static/js_lib_dropzone/min/dropzone.min.css,sha256=n_Cuyrm-v15Nim0mJ2ZrElHlCk8raJs_57WeCsIzDr4,9830
+js_lib_dropzone/static/js_lib_dropzone/min/dropzone.min.js,sha256=uCdT6FLkY6-68Xzm4f9O0usHnJPdKv0Q0rsoXvLchP4,114702
+django_js_lib_dropzone-5.9.3.1.dist-info/LICENSE,sha256=dEBZ9pnVU_P0P2qhfkDqI8Ieg0bYG7ckRQeG6_teC8I,1134
+django_js_lib_dropzone-5.9.3.1.dist-info/WHEEL,sha256=ssQ84EZ5gH1pCOujd3iW7HClo_O_aDaClUbX4B8bjKY,100
+django_js_lib_dropzone-5.9.3.1.dist-info/METADATA,sha256=FFdcFHWu1bLdOjqYTy4FLLWTJSA1ukEgsq9ahdjqBM0,828
+django_js_lib_dropzone-5.9.3.1.dist-info/RECORD,,
