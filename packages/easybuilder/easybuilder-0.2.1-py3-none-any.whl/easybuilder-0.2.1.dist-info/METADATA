@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: easybuilder
+Version: 0.2.1
+Summary: Default template for PDM package
+Author-Email: svtter <svtter@qq.com>
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: loguru>=0.7.2
+Description-Content-Type: text/markdown
+
+# EasyBuilder
+
+A quick docker image build tool with python.
+
+## install
+
+`pip install easybuilder`
