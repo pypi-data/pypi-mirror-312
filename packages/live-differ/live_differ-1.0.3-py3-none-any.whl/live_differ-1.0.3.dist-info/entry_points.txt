@@ -1,0 +1,2 @@
+[console_scripts]
+live-differ = live_differ.cli:cli
