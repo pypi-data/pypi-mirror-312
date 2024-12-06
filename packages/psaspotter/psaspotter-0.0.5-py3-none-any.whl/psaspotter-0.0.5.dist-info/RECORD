@@ -1,0 +1,15 @@
+psaspotter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psaspotter/__main__.py,sha256=Vdhw8YA1K3wPMlbJQYL5WqvRzAKVeZ16mZQFO9VRmCo,62
+psaspotter/batch.py,sha256=izekS-LKsp9H3NMAfEI1qqGFGNkcP8YURuLE2RI4E14,16334
+psaspotter/capture.py,sha256=hjxTFLIvMnRM7LTKhNa8tuWDyI5Qhk_GshON5QfyUVw,45989
+psaspotter/extract.py,sha256=Ihb8xV94S3PDYv_ZCoHB7wXBKIEDVP7A9ms91DIg6rU,4286
+psaspotter/get_repo.py,sha256=XnvgGZ7Bi0Sh0pwRV_5cZOjN-Kt5CH8rObTVEFgMwAc,768
+psaspotter/main.py,sha256=b-lwrTMxZWKbYHA9o6petOCjPczbwotLJPeRzdclq4E,3289
+psaspotter/projects.py,sha256=YOqplJncHe3pTCqJcUibU9933qO8Tiq-Uw0Gp1Qtgwk,2490
+psaspotter-0.0.5.dist-info/LICENSE.txt,sha256=fejIpEXmvCace0CngV-bQ2cu7CL8WU0KjknD2tLL5sQ,1076
+psaspotter-0.0.5.dist-info/METADATA,sha256=GbPRGp73eGwIeOLIEFl1xlo20Xdqc_hOFs1_0iP-160,6731
+psaspotter-0.0.5.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+psaspotter-0.0.5.dist-info/entry_points.txt,sha256=2GcnMJHuWXgOVeVJYiCWJxUMiJUhSEFE7rZr0MnBQk4,82
+psaspotter-0.0.5.dist-info/top_level.txt,sha256=n-5BfOKg0NkxxSCGv5l4hsx1C6m3Me_JMeSATQ2QgWc,11
+psaspotter-0.0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+psaspotter-0.0.5.dist-info/RECORD,,
