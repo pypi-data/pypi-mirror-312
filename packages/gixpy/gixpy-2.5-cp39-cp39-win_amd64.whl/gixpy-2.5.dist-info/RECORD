@@ -1,0 +1,13 @@
+gixpy_c.cp39-win_amd64.pyd,sha256=s1fqJv2mKCUvknUWZePy-MQUdlDb5QfNdbtS9n0K19I,22016
+gixpy/__init__.py,sha256=XYsNJ2mp94lYEi-RF8xl8fXbBMAVQxpY0wJ89YuQvgQ,74
+gixpy/gixpy.c,sha256=7Nj9onsTPBK2Kc7dVft3mGMAwTf6WsJX8cZq2_JIogQ,24931
+gixpy/gixpy.py,sha256=pa5qVIiQw__RxNlAKZUyAmhaYxsZ_H3paImNHqk76Lw,17323
+gixpy/poni.py,sha256=1vueoOXDZwA1l-Gq22fIiaDEdiG5Svc4bPURYbNlpLo,10494
+gixpy/programs.py,sha256=dZ9-FT0IXNTG3UKLudNwdV_K2XtafzkDaSTYLix_eUQ,4925
+gixpy/style.mplstyle,sha256=acDddDpnJr6-dy7YL5f5qNkHKFq6Xb6gaiWUIuYbYCQ,217
+gixpy-2.5.dist-info/LICENSE,sha256=-tuoGxKHCugDv0LqCznzpgGzwD4PH0iZZ8lGCltm_fI,1096
+gixpy-2.5.dist-info/METADATA,sha256=czfAlOe-R9mt7qu5gxUkQGO8UfMN3N4OzhPAFjF1Ek8,10943
+gixpy-2.5.dist-info/WHEEL,sha256=EfPXSsrLwp9clrn29v9vbmPfEm-IfFzseSJd0ZtI9XA,99
+gixpy-2.5.dist-info/entry_points.txt,sha256=0d-N9pAXWjipQg0MlwlGTUiIrQznS7HDJb2DRGh_Aew,61
+gixpy-2.5.dist-info/top_level.txt,sha256=UUxNX_uYnIS60VJHelm75K_hbERpi_ASsSCjKA02Tto,14
+gixpy-2.5.dist-info/RECORD,,
