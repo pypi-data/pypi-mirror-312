@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pps-tools"
+version = "2.1.0"
+authors = [
+  { name="Stefan R. Filipek", email="srfilipek@gmail.com" },
+]
+description = "Pure Python implementation of RFC2783 PPS tools."
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Networking :: Time Synchronization",
+]
+keywords = ["pps", "pps-tools", "ppstools", "RFC2783", "pulse", "per", "second"]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/srfilipek/pps-tools"
+"Bug Tracker" = "https://gitlab.com/srfilipek/pps-tools/-/issues"
+
+[project.scripts]
+pps-tools = "pps_tools.main:main"
+
+[project.optional-dependencies]
+dev = ["tox", "pytest", "black", "isort", "mypy", "bumpversion"]
+
+[tool.black]
+line-length = 120
+target-version = ["py35", "py38", "py39", "py310", "py311"]
