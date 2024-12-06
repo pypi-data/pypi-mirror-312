@@ -1,0 +1,1 @@
+from gocadgo import hello
