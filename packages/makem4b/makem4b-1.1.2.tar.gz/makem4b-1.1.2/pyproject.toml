@@ -1,0 +1,128 @@
+[tool.poetry]
+name = "makem4b"
+version = "1.1.2"
+description = "Merge audio files into an audiobook."
+authors = ["Jan Willhaus <mail@janwillhaus.de>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{ include = "makem4b" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Multimedia",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Utilities",
+]
+repository = "https://github.com/janw/makem4b"
+
+[tool.poetry.urls]
+"Bug Reports" = "https://github.com/janw/makem4b/issues"
+
+[tool.poetry.scripts]
+makem4b = 'makem4b.cli.base:main'
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.10.1"
+rich-click = "^1.8.4"
+loguru = "^0.7.2"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.0.1"
+ruff = "^0.8.0"
+ipdb = "^0.13.13"
+mypy = "^1.13.0"
+
+[tool.commitizen]
+version_scheme = "semver"
+version_provider = "poetry"
+version_files = [
+    "pyproject.toml:version = ",
+    "makem4b/__init__.py",
+]
+annotated_tag = true
+tag_format = "v$version"
+update_changelog_on_bump = true
+changelog_start_rev = "v0.0.1"
+gpg_sign = true
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+lint.extend-select = [
+    "F",   # pyflakes
+    "E",   # pycodestyle
+    "W",   # pycodestyle
+    "I",   # isort
+    "N",   # naming conventions
+    "ANN", # type annotations
+    "S",   # bandit
+    "B",   # bugbear
+    "BLE", # blind except
+    "FBT", # boolean trap
+    "A",   # builtins shadowing
+    "COM", # commas
+    "DTZ", # datetimez (UTCs)
+    "T10", # debugger left
+    "EM",  # error message formatting
+    "EXE", # executable scripts
+    "LOG", # logging conventions
+    "G",   # logging format
+    "ISC", # implicit-str-concat
+    "Q",   # quotes
+    "TID", # tidy-imports
+    "C4",  # comprehensions
+    "SIM", # simplify
+    "C90", # mccabe
+    "TC",  # type-checking
+    "UP",  # upgrade
+    "FA",  # future-rewriteable typing
+    "INP", # implicit namespace package (missing __init__.py)
+    "D200",
+    "D209",
+    "D400",
+    "D401",
+]
+lint.unfixable = [
+    "B", # bugbear
+    "F841"  # assigned but unused
+]
+lint.ignore = [
+    "SIM108", # if-else-block-instead-of-if-exp
+    "ISC001", # single-line-implicit-string-concatenation (conflicts with ruff format)
+    "COM819", # ignore superfluous commas (used to force wrapping through ruff format)
+    "COM812", # ignore superfluous commas (used to force wrapping through ruff format)
+    "ANN401", # any type disallowed
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.mypy]
+disallow_untyped_defs = true
+disallow_any_generics = true
+disallow_untyped_calls = true
+disallow_incomplete_defs = true
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+strict_optional = true
+strict_equality = true
+check_untyped_defs = true
+no_implicit_reexport = true
+
+packages = ["makem4b"]
+plugins = [
+    "pydantic.mypy",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
