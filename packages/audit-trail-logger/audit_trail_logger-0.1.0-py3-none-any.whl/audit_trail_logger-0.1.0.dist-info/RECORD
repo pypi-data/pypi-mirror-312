@@ -1,0 +1,8 @@
+auditlog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auditlog/decorators.py,sha256=zKCTiTYE_O2LpDX35Bg_dV7iHpJdPVwYjKpiSwX79_Y,1728
+auditlog/models.py,sha256=jRLjTu7Z3g8g684zDSU5BgQnU3dwFqPoCcenqYuszpc,1882
+audit_trail_logger-0.1.0.dist-info/LICENSE,sha256=1GWJN0sbz3-IUNxWcYpA7xMGm5mDHWri26vyKm-yEj8,1078
+audit_trail_logger-0.1.0.dist-info/METADATA,sha256=s7bsdKLZFTGaDSCuifVMGjgdHtT6ZUgoo5DIdNkrvlU,1016
+audit_trail_logger-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+audit_trail_logger-0.1.0.dist-info/top_level.txt,sha256=YT-YO-7apt0ZwspGJnPFTaJGHTxamn24L7W-hkBbf7A,9
+audit_trail_logger-0.1.0.dist-info/RECORD,,
