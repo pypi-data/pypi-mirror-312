@@ -1,0 +1,10 @@
+pynecil/__init__.py,sha256=nNaF4hIc6-B4OurPKs3zuLfLb6cMvZEJAvO2rwVouFk,653
+pynecil/client.py,sha256=kV0fkjUFIPvqplkAyWB2czFNNAb9Ud_Tg7MO85oIHgE,24058
+pynecil/const.py,sha256=x0leYfDxAWkjut4mS_LMg0biTSlZizTsfPDwjsSUiB4,5019
+pynecil/exceptions.py,sha256=52E0O4Wg0OnrouVOdVjRyrP6fVfgFieLKHJh0Ah1HWg,799
+pynecil/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynecil/types.py,sha256=8vwI5e6n8e9AncOvxWKoo9YRWh0-GuhQjElYlK-GPAc,10200
+pynecil-1.0.1.dist-info/METADATA,sha256=Nu16jbMMMu0O2dt7RcHqy3NEdyuh0dLAIgTnk1ThfWg,2279
+pynecil-1.0.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+pynecil-1.0.1.dist-info/licenses/LICENSE,sha256=oIinIOSJ49l1iVIRI3XGXFWt6SF7a83kEFBAY8ORwNI,1084
+pynecil-1.0.1.dist-info/RECORD,,
