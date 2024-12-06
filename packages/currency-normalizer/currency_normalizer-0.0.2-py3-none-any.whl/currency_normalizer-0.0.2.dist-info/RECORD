@@ -1,0 +1,7 @@
+currency_normalizer/__init__.py,sha256=lhrT4PKYxcFBKG1tEuJ7M5zxnf1JNrN8LV6pvp9BbME,129
+currency_normalizer/currencies.yaml,sha256=BVfBQfEo1ySt8_B6wMsOeuhSQUurh76f-LF2lVyg7Pw,18379
+currency_normalizer/currency_normalizer.py,sha256=O6J9BNzXTJrHATr9o5YTsAJlULfcZPZThooVWIFYhus,1295
+currency_normalizer-0.0.2.dist-info/METADATA,sha256=1RFr3xhyJ-_HZwyH0dww2GHahMRnBW80mYyZDaIrs48,914
+currency_normalizer-0.0.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+currency_normalizer-0.0.2.dist-info/top_level.txt,sha256=KBP1cWfmrspjyi_IYw8R_nEqGbWcWunFT6_rn2B3e3Q,20
+currency_normalizer-0.0.2.dist-info/RECORD,,
