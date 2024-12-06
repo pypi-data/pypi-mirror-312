@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: varphi_parsing_tools
+Version: 0.0.4
+Summary: Lexer, parser, and representor for the Varphi programming language.
+Home-page: https://github.com/hassanelsheikha/varphi_parsing_tools
+Author: Hassan El-Sheikha
+Author-email: hassan.elsheikha@utoronto.ca
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: antlr4-python3-runtime==4.13.2
+Requires-Dist: varphi_types==0.0.4
+
+# varphi_parsing_tools
+
+This repository contains the grammar for the Varphi Programming Language, as well as an ANTLR-generated lexer and parser, for use by `vpc` and by other potential compilers and interpreters.
+
+Contributors editing the grammar for the language may make their changes to `varphi_parsing_tools/Varphi.g4`, and then follow the follow instructions
+
+1. Install the ANTLR runtime for Python
+
+    ```
+    pip install antlr4-python3-runtime
+    ```
+
+2. Download the ANTLR `.jar` from [here](https://www.antlr.org/download.html)
+
+3. Open a new terminal, change into this repository directory, and run
+
+    ```
+    java -jar <PATH TO ANTLR JAR> -Dlanguage=Python3 varphi_parsing_tools/Varphi.g4
+    ```
+
+This will generate the Python files required to support the new grammar. There are 
+
+* `varphi_parsing_tools/VarphiLexer.py`
+* `varphi_parsing_tools/VarphiParser.py`
+* `varphi_parsing_tools/VarphiListener.py`
