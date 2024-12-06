@@ -1,0 +1,3 @@
+[console_scripts]
+eips = eips.cli:eips_cli
+ercs = eips.cli:ercs_cli
