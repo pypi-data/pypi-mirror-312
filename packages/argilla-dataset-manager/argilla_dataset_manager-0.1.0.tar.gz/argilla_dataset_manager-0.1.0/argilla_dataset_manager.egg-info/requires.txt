@@ -1,0 +1,7 @@
+argilla>=1.8.0
+pandas>=1.5.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+pyyaml>=6.0.1
+tqdm>=4.65.0
+python-logging-json>=0.2.0
