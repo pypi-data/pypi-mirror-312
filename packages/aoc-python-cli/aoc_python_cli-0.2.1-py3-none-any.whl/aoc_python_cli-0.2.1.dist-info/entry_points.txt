@@ -1,0 +1,4 @@
+[console_scripts]
+aoc=aoc.main:app
+aoccli=aoc.main:app
+

@@ -1,0 +1,14 @@
+aoc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aoc/base.py,sha256=3HCWQHnvyoml0DXsmyTKcwqvGtH_SrZLNSmDhpzuKCA,3116
+aoc/base_tests.py,sha256=jNccjt2QAtWqm0omXwJGaWBJuBOtLf0f9CZOt0_rSO0,3049
+aoc/input_providers.py,sha256=7yMgo1D6fCz-3ESsJHq390RRDye8yVSYJWndirRGIIo,2398
+aoc/logger.py,sha256=vU7QiGSy_AJuJFmClUocqIJ-Ltku_8C24ZU8L6fLJR0,53
+aoc/main.py,sha256=yXCew_zhDoFayJJW4ejw6Ommnk03SFtZ-vyL6Jx3XNU,9965
+aoc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aoc/templates/day_template/__init__.py,sha256=kZnhwITP_tVk8JkpnVumNgnX18dSPy2ZtOQajVIOeoM,772
+aoc/templates/day_template/test_solution.py,sha256=atky_R5xLRj0Fhev9tX680VlFyZte2v5S4pmkT7TReI,257
+aoc_python_cli-0.2.1.dist-info/LICENCE,sha256=6SmDfx_iA7EHbaaaCIIygJFJhnkzz6yuoa0kkNJOENs,1101
+aoc_python_cli-0.2.1.dist-info/METADATA,sha256=mAv2vObifuqDJ3_-fFaNUh44rSZhsbWKjwJstlBqM_4,7656
+aoc_python_cli-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+aoc_python_cli-0.2.1.dist-info/entry_points.txt,sha256=8YqtqNaryLYW0DrVKvCm7rLD4Nhxkkg2N2rVDXnA2_c,56
+aoc_python_cli-0.2.1.dist-info/RECORD,,
