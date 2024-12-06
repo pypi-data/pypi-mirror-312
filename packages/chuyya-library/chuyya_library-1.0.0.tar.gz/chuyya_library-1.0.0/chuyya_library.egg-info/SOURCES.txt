@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+chuyya_library.egg-info/PKG-INFO
+chuyya_library.egg-info/SOURCES.txt
+chuyya_library.egg-info/dependency_links.txt
+chuyya_library.egg-info/requires.txt
+chuyya_library.egg-info/top_level.txt
+my_library/__init__.py
+my_library/my_library.py
+tests/__init__.py
+tests/test_my_library.py
