@@ -1,0 +1,9 @@
+cudagrad/__init__.py,sha256=L4ZGAQoDnPMlctHprOkA6BQYkKEVxRIPkmGngtjBuU8,283
+cudagrad/nn.py,sha256=eRqzouz80bZ9fK0IaIYSzzol3_SBzJnSaxHVX4L4ARU,2018
+cudagrad/tensor.pyi,sha256=YvWYg9HiOsxO2O1Wr34UA9r140oKmPD5yFr5WW1gfWQ,2042
+cudagrad/tensor.so,sha256=wnNgSJ1iycf8iARaGLK3-9SABKZDizgHtRQ9CX_Kc0s,3069760
+cudagrad-0.2.7.dist-info/LICENSE,sha256=yXXApZxX6ixP7s_YQGStlkXGWv941qZcQreb_wtNMI4,1117
+cudagrad-0.2.7.dist-info/METADATA,sha256=WakvS8DM3DIZOT5Ixc8AGYpoBjZc9Yn5s_ZYtTHZ8lk,2162
+cudagrad-0.2.7.dist-info/WHEEL,sha256=z7jxKkYRKKJ7SfPfMKwPqpTzAxGIqIt5_V74YUShghE,105
+cudagrad-0.2.7.dist-info/top_level.txt,sha256=eUsLZwNAeYr-wV9gcDaARWFTWZWAXK2KpiS5LIPqHqQ,16
+cudagrad-0.2.7.dist-info/RECORD,,
