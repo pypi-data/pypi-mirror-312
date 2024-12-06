@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+test/test_ec.py
+test/test_registry.py
+utinyec/__init__.py
+utinyec/cryptography.py
+utinyec/ec.py
+utinyec/registry.py
+utinyec.egg-info/PKG-INFO
+utinyec.egg-info/SOURCES.txt
+utinyec.egg-info/dependency_links.txt
+utinyec.egg-info/top_level.txt
