@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: manjpfb
+Version: 0.0.1
+Summary: FreeBSD Japanese-man Pager
+Author-email: Mike Turkey <voice@miketurkey.com>
+Maintainer-email: Mike Turkey <voice@miketurkey.com>
+Project-URL: Homepage, https://miketurkey.com
+Classifier: Topic :: Documentation
+Classifier: Topic :: Education
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: <=4.0,>=3.9
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: importlib-metadata; python_version < "3.8"

@@ -1,0 +1,74 @@
+
+# note. buildpkg_pypi.pyの注意事項
+#   buildディレクトリーに移動させるときにpyproject.tomlのコメン
+#   ト行は削除されます。
+#   必要なコメントはprivate/pypiにあるpyproject.tomlに行ってく
+#   ださい。
+
+
+[project]
+name = "manjpfb"
+# note. version format
+#  ここに設定できるバージョン番号のフォーマットは0.0.0形式
+#  v0.0x 形式では勝手に０を消去して0.x としてしまい大変困る
+#  ことになる。
+version = "0.0.1"
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.8"',
+]
+
+# python 3.9 later, 4.0 older.
+requires-python = '>=3.9, <=4.0' 
+
+authors     = [{name = 'Mike Turkey', email = 'voice@miketurkey.com'}]
+maintainers = [{name = 'Mike Turkey', email = 'voice@miketurkey.com'}]
+
+description = 'FreeBSD Japanese-man Pager'
+# readme      = {file = "README.rst", content-type = "text/x-rst"}
+# license     = {file = "LICENSE"}
+
+# see also. https://pypi.org/classifiers/
+classifiers = [
+	      'Topic :: Documentation',
+	      'Topic :: Education',
+	      'Topic :: Software Development :: Documentation',
+	      'Development Status :: 3 - Alpha',
+	      'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+	      'Operating System :: MacOS :: MacOS X',
+	      'Operating System :: POSIX :: BSD :: FreeBSD',
+	      'Programming Language :: Python :: 3 :: Only',
+	      'Programming Language :: Python :: 3.9',
+	      'Programming Language :: Python :: 3.10',
+	      'Programming Language :: Python :: 3.11']
+
+
+# README.rstが含まれない時はこれらを試すこと
+# [tool.setuptools]
+# include-package-data = true
+# [tool.setuptools.package-data]
+# 指定したファイルをパッケージに含める
+# mk1onepass = ["README.rst"]
+
+[project.urls]
+Homepage = "https://miketurkey.com"
+# Repository = "https://github.com/MikeTurkey/mk1pass"
+
+
+# How to build and install
+# $ python3.9 -m build
+# $ python3.9 -m pip install dist/shachecksumpy-0.1.dev0-py3-none-any.whl
+
+# Ref. https://github.com/pypa/sampleproject
+# 
+# Ref. src layout vs flat layout
+#      https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/
+
+
+
+[project.scripts]
+# e.g.
+#  sha-checksum = "shachecksumpy:main_shachecksum"
+#     -> from shachecksum import main_shachecksum
+#     -> sha-checksum command.
+manjpfb = "manjpfb:main"
