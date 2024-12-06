@@ -1,0 +1,17 @@
+indi_pylibcamera/CameraControl.py,sha256=PYLyE1ekezbaAWO9IjHQNzdGzz5OcRBGT7MMvcTncPs,51667
+indi_pylibcamera/SnoopingManager.py,sha256=mABY5GU3_gfk9_QS4jFBsvd2iNHY56tCdWUwghO_cvA,3244
+indi_pylibcamera/__init__.py,sha256=X-FYCmPtWkfYaB3WpS0SmnJnzK-zinJsQ4LrF3Iym1w,75
+indi_pylibcamera/indi_pylibcamera.ini,sha256=va-BTAV0_FVRyVUjGYBCe99w7qGXYtkcg7I4ROKOTzk,2472
+indi_pylibcamera/indi_pylibcamera.py,sha256=m2BRv87b1HImP3Zx11HJWja7KO8pAsclI9ijTx7lGXI,60590
+indi_pylibcamera/indi_pylibcamera.xml,sha256=Qnn-6pPs6E0zQBG9itQHN49Zs_oiDWJRIhp5A8-CnJ8,216
+indi_pylibcamera/indi_pylibcamera_postinstall.py,sha256=vhcQ3yRlDQcQjVOsnh6PeE7O2PirnMYz4apTNMjjFos,2825
+indi_pylibcamera/indidevice.py,sha256=2YtIUztdlDd-0Qnfd8zgzVPbC5mia99ZnOyzL7MtXUw,28776
+indi_pylibcamera/make_driver_xml.py,sha256=wQ-V9xr6kSD_zske02ndtCKWeVjcxvKXlUvHd6sJOIE,902
+indi_pylibcamera/print_camera_information.py,sha256=_FJgw8g-oxScGFtwGPbnD7SHmoyunUzQ2761o6uIynU,1944
+indi_pylibcamera/profiling.py,sha256=y0UYoqDJhUcy5WMdrQEiiLa13ycw96E-3VqVWhj0tyo,2869
+indi_pylibcamera-2.7.0.dist-info/LICENSE,sha256=LAnqaBgY6KQt5JxA6Tac6ETv9vQi6-Qbby_BCq4b35k,1074
+indi_pylibcamera-2.7.0.dist-info/METADATA,sha256=ehWKNuSpnDxz_7Pylkv03C4OnpliP3l9s3zMaj06oGc,25324
+indi_pylibcamera-2.7.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+indi_pylibcamera-2.7.0.dist-info/entry_points.txt,sha256=66PvoxN-NmKU-v61DCJBhMnZ7TnoHK-wxq_5NAZ9P84,249
+indi_pylibcamera-2.7.0.dist-info/top_level.txt,sha256=wu0VjgyKZRby1A_1OccCyvqYOvtB-nA0FGWDHNdu3I4,17
+indi_pylibcamera-2.7.0.dist-info/RECORD,,
