@@ -1,0 +1,6 @@
+from djing.core.Fields.Filters.Filter import Filter
+
+class DateTimeFilter(Filter):
+    component: str
+    def apply(self, request, query, value): ...
+    def default(self): ...
