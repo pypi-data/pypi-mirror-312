@@ -1,0 +1,8 @@
+README.md
+setup.py
+eazyml_cf/__init__.py
+eazyml_cf.egg-info/PKG-INFO
+eazyml_cf.egg-info/SOURCES.txt
+eazyml_cf.egg-info/dependency_links.txt
+eazyml_cf.egg-info/requires.txt
+eazyml_cf.egg-info/top_level.txt
