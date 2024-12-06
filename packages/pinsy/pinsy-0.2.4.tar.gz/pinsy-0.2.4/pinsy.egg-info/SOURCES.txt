@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pinsy/__init__.py
+pinsy/_others.py
+pinsy/_pinsy.py
+pinsy/cli.py
+pinsy/utils.py
+pinsy.egg-info/PKG-INFO
+pinsy.egg-info/SOURCES.txt
+pinsy.egg-info/dependency_links.txt
+pinsy.egg-info/entry_points.txt
+pinsy.egg-info/requires.txt
+pinsy.egg-info/top_level.txt
