@@ -1,0 +1,14 @@
+shark_games/__init__.py,sha256=rKqa7f5_OVflXFabh01XEuC1DIrIA8J18eqrqeLPqdo,732
+shark_games/cli.py,sha256=o711Nwk1XA660fH6rHj6DTaz1C6bEnUHraw_hERdWlA,5818
+shark_games/main.py,sha256=UeUrEsWupdpXfVelbzvHqVZr6Etjsn9zgS7rP6pPVxw,14044
+shark_games/dices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shark_games/dices/coin.py,sha256=B_HZ5iJZBLq5qTunD3AWViwc9GgBaCnTR-29fvCJw6c,80
+shark_games/dices/roll.py,sha256=T91oWZhxWNC9xLl0EkB54obhLH3sCQBacE7rP82w2Rs,83
+shark_games/praise/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shark_games/praise/praise.py,sha256=Y-SuPpEbQY7EyacJOIxWz1PcwGSqQaiYyz22k4ttN_o,436
+shark_games-0.2.4.dist-info/LICENSE,sha256=JkxbWDt2seq2gL-hptRdjBsV7DY08pdhdVmknH24Dfc,34598
+shark_games-0.2.4.dist-info/METADATA,sha256=XNCHs2lltKkXNJDUxoVv5HVmOd1Ei8EklOK3pljpQ2A,41553
+shark_games-0.2.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+shark_games-0.2.4.dist-info/entry_points.txt,sha256=Pt37RabOT6HI2LBBuxtIZC2MTeHddZXtqBbEDnNJvDA,51
+shark_games-0.2.4.dist-info/top_level.txt,sha256=C3MioK-pOEQlajJr8_4JuY5Ue-U1LQeUIi1KWUk8SYU,12
+shark_games-0.2.4.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+sharkgames = shark_games.cli:cli
