@@ -1,0 +1,9 @@
+logafault/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logafault/auth.py,sha256=W5u--hIh-RibaleT8Kz84rpsb4BYiixMhQFdcxVSZOQ,1219
+logafault/exceptions.py,sha256=u1_veAIAmdZNM4pNH9obWuunpMVrZ1x2Sb7T10gUbak,187
+logafault/faults.py,sha256=SOOWkFyT8lebWpwsTZV4bC28WODNVyFGBdOZmhF8Txk,1583
+logafault-0.1.1.dist-info/LICENSE,sha256=_ZpbYIlMSoYIVIRUgjIMRhuaL3sBN67Aqts-Mle4w30,1172
+logafault-0.1.1.dist-info/METADATA,sha256=dmCraOqNksYst3poaPtzhYXaoVNI776j1CtPMdQgZ2c,324
+logafault-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+logafault-0.1.1.dist-info/top_level.txt,sha256=ZtohkcV74lKDdAJxEeuiW2eYGfr3Seh27wkOffrYW70,10
+logafault-0.1.1.dist-info/RECORD,,
