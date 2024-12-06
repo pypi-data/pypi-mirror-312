@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: godx
+Version: 1.0.3
+Summary: God Written By Ghost
+Author: Ghost
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: requests

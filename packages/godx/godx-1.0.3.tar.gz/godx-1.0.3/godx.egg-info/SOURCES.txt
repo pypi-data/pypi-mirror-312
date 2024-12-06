@@ -1,0 +1,10 @@
+README.md
+setup.py
+godx/__init__.py
+godx/godx.py
+godx.egg-info/PKG-INFO
+godx.egg-info/SOURCES.txt
+godx.egg-info/dependency_links.txt
+godx.egg-info/entry_points.txt
+godx.egg-info/requires.txt
+godx.egg-info/top_level.txt
