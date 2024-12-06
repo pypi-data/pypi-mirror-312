@@ -1,0 +1,3 @@
+[console_scripts]
+gptize = src.main:main
+
