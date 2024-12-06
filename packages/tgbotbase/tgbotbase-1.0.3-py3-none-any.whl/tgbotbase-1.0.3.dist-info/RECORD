@@ -1,0 +1,12 @@
+tgbotbase/answer.py,sha256=s-ielIX0ebQ3VhYSmC0zYhdD6RtVRDntAmyLOVwVXTc,8564
+tgbotbase/default_factories.py,sha256=9kIWlV-5NAeT0eH0RAvlewibEUi8U5UcoKkfoDZMOLo,2179
+tgbotbase/keyboards.py,sha256=fnxGFDwJCX3SnXV5wFtLx26AtSB3V_vK5EiX_Rl4Bs8,11547
+tgbotbase/middleware.py,sha256=9SQoS_nam_uQowy9XDbTdJObhQvHkGCzrmV3u-VkzZQ,10526
+tgbotbase/peewee_serializer.py,sha256=2aa14QvaqMurjdiVLcNEhFJC7y6ag7xivWaJKQzGI9I,7470
+tgbotbase/query_keyboard.py,sha256=7jYwz0dPM1d-B4KCKF2UZw5NFLnrO367Wzljd8tZRQA,3889
+tgbotbase/utils.py,sha256=kO3Hmsm5ZSbtb6xcYc2XhopOZcw_y6KxuIQu-lyoMeU,16024
+tgbotbase-1.0.3.dist-info/LICENSE,sha256=e11-FvYASAgz-8JoDhD3AiDN1559N3QUSX8cZ1JQUtQ,1087
+tgbotbase-1.0.3.dist-info/METADATA,sha256=KrJRSMAO4DC6f8TJH8ZbcIFJa3vmbFeSMuugLnd6Ycs,1737
+tgbotbase-1.0.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+tgbotbase-1.0.3.dist-info/top_level.txt,sha256=rWLXn_G-7wXlnNW9r9BjbmeqTbt-xye_A5o5NmEAybw,10
+tgbotbase-1.0.3.dist-info/RECORD,,
