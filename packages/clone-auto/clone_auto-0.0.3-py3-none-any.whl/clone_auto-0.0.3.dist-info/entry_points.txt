@@ -1,0 +1,2 @@
+[console_scripts]
+clone_auto = clone_auto:main
