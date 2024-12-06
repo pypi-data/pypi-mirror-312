@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+db_in_json/__init__.py
+db_in_json/files.py
+db_in_json/main.py
+db_in_json/queries.py
+db_in_json.egg-info/PKG-INFO
+db_in_json.egg-info/SOURCES.txt
+db_in_json.egg-info/dependency_links.txt
+db_in_json.egg-info/top_level.txt
+tests/test_1.py
