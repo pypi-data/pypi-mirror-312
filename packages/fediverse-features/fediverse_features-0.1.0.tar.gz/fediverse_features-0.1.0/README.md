@@ -1,0 +1,35 @@
+# fediverse-features
+
+This is a simple tool to download a subset of the
+Gherkin features available at
+[helge/fediverse-features](https://codeberg.org/helge/fediverse-features).
+These enable one to BDD tests for Fediverse
+applications.
+
+## Usage
+
+Install via
+
+```bash
+pip install fediverse-features
+```
+
+Create a toml file `fediverse-features.toml` containing
+
+```toml
+tag = "0.1.6"
+
+features = [
+    "fedi/node_info.feature"
+]
+```
+
+where features is the list of feature files. Then
+run
+
+```bash
+python -mfediverse_features
+```
+
+The feature files are then downloaded to the `features`
+directory.
