@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+minimalist_neural_networks.egg-info/PKG-INFO
+minimalist_neural_networks.egg-info/SOURCES.txt
+minimalist_neural_networks.egg-info/dependency_links.txt
+minimalist_neural_networks.egg-info/requires.txt
+minimalist_neural_networks.egg-info/top_level.txt
+neural/evaluation.py
+neural/functions/activation.py
+neural/functions/loss.py
+neural/structures/__init__.py
+neural/structures/deep_neural_network.py
+neural/structures/flat_neural_network.py
+neural/structures/neural_network.py
