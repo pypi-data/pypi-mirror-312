@@ -1,0 +1,11 @@
+README.md
+setup.py
+dirhunter/__init__.py
+dirhunter/core.py
+dirhunter/utils.py
+dirhunter.egg-info/PKG-INFO
+dirhunter.egg-info/SOURCES.txt
+dirhunter.egg-info/dependency_links.txt
+dirhunter.egg-info/entry_points.txt
+dirhunter.egg-info/requires.txt
+dirhunter.egg-info/top_level.txt
