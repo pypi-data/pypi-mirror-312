@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+datanow/__init__.py
+datanow/datanow.py
+datanow.egg-info/PKG-INFO
+datanow.egg-info/SOURCES.txt
+datanow.egg-info/dependency_links.txt
+datanow.egg-info/requires.txt
+datanow.egg-info/top_level.txt
