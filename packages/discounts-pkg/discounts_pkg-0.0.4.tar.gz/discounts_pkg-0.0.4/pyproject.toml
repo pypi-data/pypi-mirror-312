@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "discounts_pkg"
+version = "0.0.4"
+authors = [
+{ name="Muhammad Arsil Khan", email="arsil.36k@gmail.com" },
+]
+description = "A library to apply discounts on your products or services."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+"Programming Language :: Python :: 3",
+"License :: OSI Approved :: MIT License",
+"Operating System :: OS Independent",
+]
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
