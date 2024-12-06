@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: input_validator
+Version: 0.1.1
+Summary: This library aims to validate inputs to prevent common security vulnerabilities that are prevalent due to bad inputs
+Home-page: https://github.com/PradeepKumar10321/input-validator
+Author: Pradeep Kumar
+Author-email: pradeepkumar.r10321@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# README #
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+### What is this repository for? ###
+
+* Quick summary
+* Version
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+
+### How do I get set up? ###
+
+* Summary of set up
+* Configuration
+* Dependencies
+* Database configuration
+* How to run tests
+* Deployment instructions
+
+### Contribution guidelines ###
+
+* Writing tests
+* Code review
+* Other guidelines
+
+### Who do I talk to? ###
+
+* Repo owner or admin
+* Other community or team contact
