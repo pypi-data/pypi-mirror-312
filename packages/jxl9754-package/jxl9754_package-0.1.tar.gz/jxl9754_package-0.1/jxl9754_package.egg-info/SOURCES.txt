@@ -1,0 +1,9 @@
+setup.py
+jxl9754_package/__init__.py
+jxl9754_package/module1.py
+jxl9754_package/module2.py
+jxl9754_package.egg-info/PKG-INFO
+jxl9754_package.egg-info/SOURCES.txt
+jxl9754_package.egg-info/dependency_links.txt
+jxl9754_package.egg-info/requires.txt
+jxl9754_package.egg-info/top_level.txt
