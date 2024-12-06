@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mirinae
+Version: 0.1.0
+Summary: Mirinae is a Python package for MAGO's framework
+Home-page: https://github.com/holamago/mirinae-cli.git
+Author: MAGO
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: requests
+Requires-Dist: type_docopt
+Requires-Dist: pydantic
+Requires-Dist: pandas
+
+# Mirinae
+
+마고 프레임워크를 사용할 수 있는 CLI 도구입니다.
