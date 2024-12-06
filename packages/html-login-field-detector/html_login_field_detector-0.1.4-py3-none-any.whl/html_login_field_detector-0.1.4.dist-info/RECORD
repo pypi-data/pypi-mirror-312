@@ -1,0 +1,11 @@
+html_login_field_detector-0.1.4.data/data/dataset/training_urls.json,sha256=S5d-kjStXW0kuwFUl-jwjl2W3f4nsrpXula3uLCOSPA,21712
+html_login_field_detector-0.1.4.data/data/docs/README.md,sha256=fmRAJ3WRzA4PkrgcXhssXnwHk4ihJ3K8w7RBUxo9hpc,2038
+login_field_detector/__init__.py,sha256=McuS5zxOI6jWhMW9rEOlld_MmZlJfp_zk7mje8gFAow,166
+login_field_detector/field_detector.py,sha256=FQgbp6tJEZz_FhLaSlu5nbp1h-7oE_x_6LkOmdMGVO8,16072
+login_field_detector/html_feature_extractor.py,sha256=sR_AeEplH2-dHtJ5wWQH2kGcW9GYJv7_Brsm6XTvh0c,4914
+login_field_detector/html_fetcher.py,sha256=lvxCXlrWZcH6OBmLMPjnVI6GFoGwQu1THBWdfwZGV4s,3972
+login_field_detector/keywords.json,sha256=rGWFdWy9c5o2622QHJnpMBFs5fzrspxX28sBdNuCJTI,2964
+html_login_field_detector-0.1.4.dist-info/METADATA,sha256=M4xgISyYZcEDOVCPp81VZssWJsnITUOcID9E1lILB6I,3718
+html_login_field_detector-0.1.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+html_login_field_detector-0.1.4.dist-info/top_level.txt,sha256=0dDeBx66qFpB-n_uAoMORmrBryvyiU5XFENyUynvhew,21
+html_login_field_detector-0.1.4.dist-info/RECORD,,
