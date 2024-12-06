@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+varphi_lsp_server/__init__.py
+varphi_lsp_server/varphi_lsp_server.py
+varphi_lsp_server.egg-info/PKG-INFO
+varphi_lsp_server.egg-info/SOURCES.txt
+varphi_lsp_server.egg-info/dependency_links.txt
+varphi_lsp_server.egg-info/entry_points.txt
+varphi_lsp_server.egg-info/requires.txt
+varphi_lsp_server.egg-info/top_level.txt
