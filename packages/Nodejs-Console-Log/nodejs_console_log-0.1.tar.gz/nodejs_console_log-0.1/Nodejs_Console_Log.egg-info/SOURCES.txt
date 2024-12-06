@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Nodejs_Console_Log.egg-info/PKG-INFO
+Nodejs_Console_Log.egg-info/SOURCES.txt
+Nodejs_Console_Log.egg-info/dependency_links.txt
+Nodejs_Console_Log.egg-info/top_level.txt
+nodejs_console_log/__init__.py
+nodejs_console_log/log.py
+tests/test_log.py

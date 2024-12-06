@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Nodejs-Console-Log
+Version: 0.1
+Summary: A Python package that makes the command form Node.js/JavaScript console.log()
+Home-page: https://github.com/Bartosz8291/Nodejs-Console-Log
+Author: BARTEKK23
+Author-email: minbartek41@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Nodejs-Console-Log
+
+This is a simple Python package that makes the Node.js `console.log()` function.
+
+## Installation
+
+```bash
+pip install Nodejs-Console-Log
