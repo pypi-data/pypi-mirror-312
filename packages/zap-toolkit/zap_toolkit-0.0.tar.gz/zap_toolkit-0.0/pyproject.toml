@@ -1,0 +1,8 @@
+[project]
+name = "zap_toolkit"
+authors = [
+    {name = "Tomasz Salacinski", email = "ts@ishish.io"},
+]
+version = "0.0"
+
+description = "Coming soon"
