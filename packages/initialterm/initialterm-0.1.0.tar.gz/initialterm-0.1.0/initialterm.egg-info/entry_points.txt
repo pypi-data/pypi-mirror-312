@@ -1,0 +1,2 @@
+[console_scripts]
+initialterm = initialterm.main:start_custom_cmd

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+initialterm/__init__.py
+initialterm/main.py
+initialterm/setup.py
+initialterm.egg-info/PKG-INFO
+initialterm.egg-info/SOURCES.txt
+initialterm.egg-info/dependency_links.txt
+initialterm.egg-info/entry_points.txt
+initialterm.egg-info/requires.txt
+initialterm.egg-info/top_level.txt
