@@ -1,0 +1,9 @@
+morgan_course_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+morgan_course_data/api.py,sha256=4xq1uBrCk5nkA5kkZvYV_2EnCyva0IdtNGCi2nUD2C8,12991
+morgan_course_data/db.py,sha256=Vz_vMOzdJM8Marqffo5tumn69ZjS3oQLf98yyuac2Sw,423
+morgan_course_data/types.py,sha256=k5Yfi2CVNCfYBdCTE3SnMDHqEybAhL5o7tRJlUesBWI,1203
+morgan_course_data/utils.py,sha256=UvpxIV_7k5Ipewx8DVnUGP886Ts783WaW1cqSlkvCKI,290
+morgan_course_data-0.1.1.dist-info/METADATA,sha256=GL5BmpEadNwPue5FiYUPUz8Kd8X1wvKZFBvfvUURFiw,7997
+morgan_course_data-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+morgan_course_data-0.1.1.dist-info/top_level.txt,sha256=k8BF4FtYXSbzdAa77D_TVIuYsz-pqSKY6njc8_8rsqE,19
+morgan_course_data-0.1.1.dist-info/RECORD,,
