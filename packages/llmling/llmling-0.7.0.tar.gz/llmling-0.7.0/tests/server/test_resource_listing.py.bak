@@ -1,0 +1,80 @@
+from __future__ import annotations
+
+from mcp.types import (
+    ListResourcesRequest,
+    ListResourcesResult,
+    ReadResourceRequest,
+    ReadResourceRequestParams,
+    ReadResourceResult,
+    TextResourceContents,
+)
+import pytest
+
+from llmling import config_resources
+from llmling.server.server import LLMLingServer
+
+
+@pytest.mark.asyncio
+async def test_resource_handling() -> None:
+    """Test complete resource handling flow."""
+    server = LLMLingServer.from_config_file(config_resources.TEST_CONFIG)
+
+    try:
+        # 1. Test resource listing
+        list_handler = server.server.request_handlers[ListResourcesRequest]
+        result = await list_handler(ListResourcesRequest(method="resources/list"))
+        assert isinstance(result.root, ListResourcesResult)
+        resources = result.root.resources
+
+        # Expected resources from test.yml
+        expected_resources = {
+            "Python coding standards and best practices": "file://host/python_guidelines",
+            "Utility module source code": "source://host/my_utils",
+            "Current system information": "callable://host/system_info",
+            "Test prompt for consistent output": "resource://host/system_prompt",
+            "Current git changes": "cli://host/git_diff",
+        }
+
+        # Verify each resource
+        found_resources = {r.name: str(r.uri) for r in resources}
+        assert found_resources == expected_resources
+
+        # 2. Test resource reading
+        read_handler = server.server.request_handlers[ReadResourceRequest]
+
+        # Try reading the system prompt
+        system_prompt = next(r for r in resources if "system prompt" in r.name)
+        request = ReadResourceRequest(
+            method="resources/read",
+            params=ReadResourceRequestParams(uri=system_prompt.uri),
+        )
+
+        result = await read_handler(request)
+        assert isinstance(result.root, ReadResourceResult)
+        contents = result.root.contents
+        assert len(contents) == 1
+        content = contents[0]
+        assert isinstance(content, TextResourceContents)  # Check type using isinstance
+        assert "You are a test assistant" in content.text
+        assert content.mimeType == "text/plain"
+
+    finally:
+        await server.shutdown()
+
+
+def assert_valid_resource(resource: Resource) -> None:
+    """Verify that a resource has all required fields."""
+    assert resource.uri, "Resource URI is empty"
+    assert resource.name, "Resource name is empty"
+    assert resource.mimeType, "Resource MIME type is empty"
+
+    # Verify URI format
+    uri = str(resource.uri)
+    assert "://" in uri, f"Invalid URI format: {uri}"
+    assert uri.startswith((
+        "file://host/",
+        "resource://host/",
+        "source://host/",
+        "callable://host/",
+        "cli://host/",
+    )), f"Unexpected URI scheme: {uri}"
