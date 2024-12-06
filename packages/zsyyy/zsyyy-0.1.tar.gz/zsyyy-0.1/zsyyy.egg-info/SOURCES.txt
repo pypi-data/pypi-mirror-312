@@ -1,0 +1,7 @@
+say_hello.py
+setup.py
+zsyyy.egg-info/PKG-INFO
+zsyyy.egg-info/SOURCES.txt
+zsyyy.egg-info/dependency_links.txt
+zsyyy.egg-info/requires.txt
+zsyyy.egg-info/top_level.txt
