@@ -1,0 +1,52 @@
+Metadata-Version: 2.3
+Name: happy-migrations
+Version: 0.0.5
+Summary: Hopefully no tears.
+Project-URL: Homepage, https://github.com/Zimzozaur/happy-migrations
+Project-URL: Issues, https://github.com/Zimzozaur/happy-migrations/issues
+Author-email: Simon Piechutowski <szymonpiechutowski@gmail.com>
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Typing :: Typed
+Requires-Python: >=3.12
+Requires-Dist: click~=8.1.7
+Requires-Dist: textual
+Provides-Extra: dev
+Requires-Dist: coverage~=7.6.8; extra == 'dev'
+Requires-Dist: pre-commit~=4.0.1; extra == 'dev'
+Requires-Dist: pytest~=8.3.2; extra == 'dev'
+Requires-Dist: ruff>=0.6.1; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Happy Migrations: Smooth Transitions, Zero Tears (WIP)
+
+Happy is a developer-friendly database schema migration CLI and library. Write your migrations as simple Python scripts with raw SQL, and let Happy handle the heavy lifting. No fuss, no stress—just clean, controlled database changes directly from your code.
+
+## Database support 🔋
+Currently, SQLite is supported. More DBs coming soon!
+
+## Test it yourself 🛠️
+Get a feel of **Happy** in minutes.
+
+Install Happy in your virtual environment:
+```shell
+pip install happy-migrations
+```
+Run the demo to generate everything you need in your current directory:
+```shell
+happy demo run
+```
+
+## Join us on Discord
+Join the Happy developers and community on our [Discord Server](https://discord.gg/new7rgTw).
