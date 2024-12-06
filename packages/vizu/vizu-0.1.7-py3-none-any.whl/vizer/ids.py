@@ -1,0 +1,30 @@
+
+X_DROPDOWN_ID = "x-dropdown-id"
+Y_DROPDOWN_ID = "y-dropdown-id"
+Z_DROPDOWN_ID = "z-dropdown-id"
+X_GRP_DROPDOWN_ID = "x-grp-dropdown-id"
+Y_GRP_DROPDOWN_ID = "y-grp-dropdown-id"
+Z_GRP_DROPDOWN_ID = "z-grp-dropdown-id"
+GROUP_DROPDOWN_ID = "group-dropdown-id"
+GROUPS_DROPDOWN_ID = "groups-dropdown-id"
+AGG_DROPDOWN_ID = "agg-dropdown-id"
+QUERY_INPUT_ID = "query-input-id"
+ROOT_QUERY_INPUT_ID = "root-query-input-id"
+OK_BUTTON_ID = "ok-button-id"
+GRAPH_ID = "graph-id"
+TYPE_DROPDOWN_ID = "type-dropdown-id"
+CHARTS_BUTTONS_ID = "charts-buttons-id"
+SELECTED_CHART_STORE_ID = "selected-chart-store-id"
+
+CHARTS_STORE_ID = "charts-store-id"
+GENERAL_STORE_ID = "general-store-id"
+URL_ID = "url-id"
+ADD_CHART_ID = "add-chart-id"
+DELETE_CHART_ID = "delete-chart-id"
+SELECT_CHECKBOX_ID = "select-checkbox-id"
+
+PLOT_INDEX_INPUT_ID = "plot-index-input-id"
+COL_INPUT_ID = "col-input-id"
+PLOT_LAYOUT_STORE_ID = "plot-layout-store-id"
+
+COL_INDEX_DROPDOWN_ID = 'col-index-dropdown-id'

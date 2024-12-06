@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: vizu
+Version: 0.1.7
+Summary: Visualization of data files
+Home-page: https://github.com/gedemagt/vizer
+Author: Jesper Halkjær Jensen
+Author-email: mail@jeshj.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: flask>=3.0.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: scipy>=1.14.0
+Requires-Dist: dash>=2.15.0
+Requires-Dist: dash-extensions>=1.0.0
+Requires-Dist: dash-bootstrap-components==1.6.0
+Requires-Dist: dash-table==5.0.0
+Requires-Dist: watchdog>=5.0.0
+
+# Vizu - the simple CSV-viewer
+
+Doing advanced analysis of data in CSV-format can be done with many tools - Excel and Pandas are two popular choises.
+However, to quickly browse through the data for simple analysis and exploration, you will need more button-clicks than you should. 
+
+`vizu` is meant to bridge the gap by providing a simple UI to browse a CSV file.
+
+It uses the excellent libraries `dash` and `pandas` under the hood for GUI and data manipulation, respectively.
+
+### Installation
+`pip install vizu`
+
+### Browse your first .csv file
+Run the following command in a terminal
+
+`vizu path/to/file.csv`
+
+and go to your browser via the link it outputs.
+
+
