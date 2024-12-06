@@ -1,0 +1,54 @@
+Metadata-Version: 2.3
+Name: lynyrd
+Version: 0.1.1
+Summary: Animation to go along with Free Bird
+Project-URL: Documentation, https://github.com/robinvandernoord/lynyrd#readme
+Project-URL: Issues, https://github.com/robinvandernoord/lynyrd/issues
+Project-URL: Source, https://github.com/robinvandernoord/lynyrd
+Author-email: Robin van der Noord <robinvandernoord@gmail.com>
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# lynyrd
+
+
+[![PyPI - Version](https://img.shields.io/pypi/v/lynyrd.svg)](https://pypi.org/project/lynyrd)
+
+
+Animation to go along with Free Bird
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+uvenv install lynyrd
+```
+
+## Usage
+```bash
+lynyrd
+# or,
+python -m lynyrd
+```
+
+Then, at `localhost:8347` you should be able to see the app.
+
+## License
+
+`lynyrd` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
