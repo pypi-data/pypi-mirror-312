@@ -1,0 +1,89 @@
+{
+  "matl": {
+    "fck": {
+      "ui:field": "union_value_unit"
+    },
+    "fy": {
+      "ui:field": "union_value_unit"
+    },
+    "fys": {
+      "ui:field": "union_value_unit"
+    }
+  },
+  "items": {
+    "x": {
+      "ui:field": "union_value_unit"
+    },
+    "y": {
+      "ui:field": "union_value_unit"
+    }
+  },
+  "effArea": {
+    "b": {
+      "ui:field": "union_value_unit"
+    },
+    "d": {
+      "ui:field": "union_value_unit"
+    }
+  },
+  "point": {
+    "x": {
+      "ui:field": "union_value_unit"
+    },
+    "y": {
+      "ui:field": "union_value_unit"
+    }
+  },
+  "rebar": {
+    "cover": {
+      "ui:field": "union_value_unit"
+    }
+  },
+  "stirrup": {
+    "space": {
+      "ui:field": "union_value_unit"
+    }
+  },
+  "i": {
+    "Fz": {
+      "ui:field": "union_value_unit"
+    },
+    "Mx": {
+      "ui:field": "union_value_unit"
+    },
+    "My": {
+      "ui:field": "union_value_unit"
+    },
+    "Vx": {
+      "ui:field": "union_value_unit"
+    },
+    "Vy": {
+      "ui:field": "union_value_unit"
+    }
+  },
+  "j": {
+    "Fz": {
+      "ui:field": "union_value_unit"
+    },
+    "Mx": {
+      "ui:field": "union_value_unit"
+    },
+    "My": {
+      "ui:field": "union_value_unit"
+    },
+    "Vx": {
+      "ui:field": "union_value_unit"
+    },
+    "Vy": {
+      "ui:field": "union_value_unit"
+    }
+  },
+  "length": {
+    "lX": {
+      "ui:field": "union_value_unit"
+    },
+    "lY": {
+      "ui:field": "union_value_unit"
+    }
+  }
+}
