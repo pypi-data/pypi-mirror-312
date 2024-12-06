@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: dual_autodiff
+Version: 0.0.post26
+Summary: A Python package for forward-mode automatic differentiation using dual numbers.
+Author-email: Raunaq Rai <rsr45@cam.ac.uk>
+License: MIT Licence
+        
+        Copyright (c) 2024 Raunaq Rai
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Documentation, https://your-readthedocs-url-here
+Project-URL: Source, https://gitlab.developers.cam.ac.uk/phy/data-intensive-science-mphil/assessments/c1_coursework1/rsr45.git
+Project-URL: Issues, https://github.com/yourusername/dual_autodiff/issues
+Keywords: automatic differentiation,dual numbers,forward-mode
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: pytest>=6.0
+Requires-Dist: argparse
+
+# dual_autodiff
+
+The `dual_autodiff` package is a Python library designed for forward-mode automatic differentiation using dual numbers!
+
+---
+
+## Features
+
+- **Core Dual Class**:
+  - Represents dual numbers with real and dual parts.
+  - Supports basic arithmetic operations (addition, subtraction, multiplication, division).
+- **Advanced Functions**:
+  - Trigonometric functions: `sin`, `cos`, `tan`.
+  - Exponential and logarithmic functions: `exp`, `log`, `sqrt`.
+  - Hyperbolic and inverse trigonometric functions: `sinh`, `asin`, etc.
+- **Easy-to-Use API**:
+  - Simple function calls for differentiation tasks.
+
+---
+
+## Installation
+
+Ensure you have Python 3.9 or higher. You can install the package using `pip install -e .` from the project folder:
+
+```bash
+cd /path/to/dual_autodiff
+pip install -e .
+```
+
+## Usage
+
+Here’s a quick example of how to use the package:
+
+```python
+from dual_autodiff.dual import Dual
+from dual_autodiff.functions import sin, log
+
+# Define a dual number
+x = Dual(1, 1)  # Dual number: 1 + 1ε
+
+# Perform arithmetic operations
+y = x ** 2 + 3 * x - 5
+
+# Compute derivatives using built-in functions
+result_sin = sin(x)  # sin(1) + cos(1)ε
+result_log = log(x)  # ln(1) + (1 / 1)ε
+
+# Display the results
+print(y)           # Output: 1 + 5ε
+print(result_sin)  # Output: sin(1) + cos(1)ε
+print(result_log)  # Output: ln(1) + 1ε
+```
+
+---
+
+## Testing
+
+Run the test suite using `pytest` to ensure everything is working correctly:
+
+```bash
+pytest tests/
+```
+
+## License
+
+This project is licensed under the MIT License.  
+
+You are free to use, modify, and distribute this software under the terms of the MIT License.  
+See the `LICENCE` file for detailed information.
+
