@@ -1,0 +1,8 @@
+optjet/__init__.py,sha256=57W3pfQ3eSRdtidbgB8-kftwgnjc-P8jN6NwtuSu9S0,180
+optjet/md_encoder.cp38-win_amd64.pyd,sha256=aLVjH_0rW8yfVk6Ty1JSzkI0A8fJrQ_maB8xBguAyIU,1049088
+optjet/quant_engine.cp38-win_amd64.pyd,sha256=K42pyBMPsinq5Qr2jCY0if4kr9OtcBxE3InkY6ku2Fg,9838592
+optjet-0.2.3.1622.dist-info/LICENSE,sha256=PIjlyuzuCwBAQ3VONPT9ljOaE_D4XAIF5gmlYUvBlcQ,1481
+optjet-0.2.3.1622.dist-info/METADATA,sha256=iEqGlc-c90FSVtqfBj4TTD20_gMdPZjCXKcZoTQWDhw,3509
+optjet-0.2.3.1622.dist-info/WHEEL,sha256=L7iDe0gnhxAIl4O1ywL3Ua8qYC_NrMQclbMtgMApFc0,99
+optjet-0.2.3.1622.dist-info/top_level.txt,sha256=OgevicQAlBHU9o15Yrg-iO8_np5nRn5KIAO51dPIW8c,7
+optjet-0.2.3.1622.dist-info/RECORD,,
