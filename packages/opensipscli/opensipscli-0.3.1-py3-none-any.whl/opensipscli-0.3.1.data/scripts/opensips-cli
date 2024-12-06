@@ -1,0 +1,9 @@
+#!python
+
+from opensipscli import main
+
+def run_console():
+    main.main()
+
+if __name__ == '__main__':
+    run_console()
