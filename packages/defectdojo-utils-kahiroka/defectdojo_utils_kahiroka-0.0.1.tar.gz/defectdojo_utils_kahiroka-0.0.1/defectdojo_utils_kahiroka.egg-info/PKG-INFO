@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: defectdojo-utils-kahiroka
+Version: 0.0.1
+Summary: Defect Dojo Util
+Home-page: https://github.com/kahiroka/defectdojo-utils
+Author: kahiroka
+Author-email: 
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/kahiroka/defectdojo-utils/issues
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: requests>=2.25.1
+Requires-Dist: urllib3>=1.26.5
+
+# defectdojo-utils
+DefectDojo Utilities
