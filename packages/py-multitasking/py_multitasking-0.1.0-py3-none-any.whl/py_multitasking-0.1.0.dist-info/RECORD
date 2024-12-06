@@ -1,0 +1,14 @@
+py_multitasking/__init__.py,sha256=cfnN3d6mAsJOxxH7iPb7GtN1OVjyQuWP3SIUxvGxejE,341
+py_multitasking/context.py,sha256=ohUiNfT431sCHIrcrE33Uru9ecuDXs0c21M4QGj1I-o,6290
+py_multitasking/exceptions.py,sha256=4Y6IQo6UOM3EPmkEzt5AydYmu1RKBN-fwv5LVDtMnjA,272
+py_multitasking/helpers.py,sha256=Ptm4UfrSpHMxSu7XYrWDZMfWK-NukYPOqrYdFpRnIeA,2591
+py_multitasking/manager.py,sha256=WNLCDXVNf0Pq4DpqcZxFMs_PaUItI_nl3HGIGHilRC8,18886
+py_multitasking/processimpl.py,sha256=VphqL8JGGFUodSZRszO6EiDa5Q0D6ULC5fVGYz3ifwo,2348
+py_multitasking/task.py,sha256=5nq6ffybUdI9j2ZWrG3rsRABfQFIHRq5_YKg0zAefUk,4854
+py_multitasking/threadimpl.py,sha256=tCJuo23ksRwRtMB5I4HOx91Zf8BtlLxTFl_BKFv-OnQ,1859
+py_multitasking/typedefs.py,sha256=MWFPQ461-S6m_3twDoF75hCS4CVIZKoHcE5oTe-KaAY,388
+py_multitasking/utils.py,sha256=ANx6OJcvzM10O782bexRQtTcjkxsYpBxWGBBpjvQNAM,1544
+py_multitasking-0.1.0.dist-info/LICENSE,sha256=GQ-hK3eLDdiy5ZkLc-0xZeh0opCB8HeoWIs1j6I3dJw,1080
+py_multitasking-0.1.0.dist-info/METADATA,sha256=PU4_Kv07iNhWdZ5Drsb_hgohlF5KfYhW47IEkuuU9tc,20075
+py_multitasking-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+py_multitasking-0.1.0.dist-info/RECORD,,
