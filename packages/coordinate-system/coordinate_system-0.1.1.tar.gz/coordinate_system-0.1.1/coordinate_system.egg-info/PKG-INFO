@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: coordinate_system
+Version: 0.1.1
+Summary: A package for coordinate systems
+Home-page: https://github.com/panguojun/Coordinate-System
+Author: romeosoft
+Author-email: 18858146@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### `__init__.py`
+
+Create an `__init__.py` file in the `coordinate_system/` directory to mark it as a package. You can add the following content to the `__init__.py` file:
+
+```python
+from .coord import coord3
