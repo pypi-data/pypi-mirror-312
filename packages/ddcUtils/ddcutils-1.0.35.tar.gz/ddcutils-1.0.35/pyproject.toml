@@ -1,0 +1,50 @@
+[build-system]
+requires = ["poetry-core>=1.9.1"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "ddcUtils"
+version = "1.0.35"
+description = "File Utilities"
+license = "MIT"
+readme = "README.md"
+authors = ["Daniel Costa <danieldcsta@gmail.com>"]
+maintainers = ["Daniel Costa"]
+repository = "https://github.com/ddc/ddcUtils"
+homepage = "https://pypi.org/project/ddcUtils"
+packages = [{include = "ddcUtils"}]
+package-mode = true
+keywords = [
+    "python3", "python-3", "python",
+    "tools", "utility", "utilities",
+    "utils", "utility-library", "utils-library",
+    "utilities-library"
+]
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+    "Environment :: Other Environment",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+]
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+requests = ">=2.32.3"
+
+[tool.poetry.group.test.dependencies]
+coverage = ">=7.6.8"
+poethepoet = ">=0.31.1"
+pytest = ">=8.3.3"
+
+[tool.poe.tasks]
+_test = "poetry run coverage run --omit=./tests/* --source=./ddcUtils -m pytest -v"
+_coverage = "poetry run coverage report"
+tests = ["_test", "_coverage"]
+test = ["tests"]
