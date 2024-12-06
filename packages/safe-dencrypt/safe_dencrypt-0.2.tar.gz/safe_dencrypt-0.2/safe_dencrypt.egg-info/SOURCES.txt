@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+safe_dencrypt.egg-info/PKG-INFO
+safe_dencrypt.egg-info/SOURCES.txt
+safe_dencrypt.egg-info/dependency_links.txt
+safe_dencrypt.egg-info/top_level.txt
+safecrypt/__init__.py
+safecrypt/decrypt.py
+safecrypt/encrypt.py
+safecrypt/onezero.py
