@@ -1,0 +1,73 @@
+Metadata-Version: 2.3
+Name: v2dl-lite
+Version: 0.1.4
+Summary: A super lightweight version of V2PH downloader
+Project-URL: repository, https://github.com/ZhenShuo2021/V2DL-Lite
+Project-URL: homepage, https://github.com/ZhenShuo2021/V2PH-Lite
+Author-email: ZhenShuo2021 <leo01412123@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 ZhenShuo2021
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Requires-Python: >=3.10
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: curl-cffi>=0.7.3
+Requires-Dist: httpx[http2]>=0.27.2
+Requires-Dist: lxml>=5.3.0
+Requires-Dist: pathvalidate>=3.2.1
+Provides-Extra: ja4
+Requires-Dist: primp>=0.8.1; extra == 'ja4'
+Provides-Extra: v2dl
+Requires-Dist: v2dl>=0.1.6; extra == 'v2dl'
+Description-Content-Type: text/markdown
+
+# V2DL-Lite  
+[English](/README.en.md)
+
+超級輕量版本的 [V2PH-Downloader](https://github.com/ZhenShuo2021/V2PH-Downloader)
+
+## Why V2DL-Lite?  
+用瀏覽器自動化工具爬蟲覺得心有不甘，於是寫了一個 lite 版本。
+
+此版本移除肥大的自動化工具，沒有麻煩的密碼設定，沒有眼花撩亂的自定義選項，只要準備好 cookie 檔案即可輕鬆下載。
+
+## Usage
+
+```sh  
+pip install v2dl-lite  # 使用 pip install "v2dl-lite[v2dl]" 同時安裝輕量版和原版
+v2dl-lite <url or urls.txt>  
+```  
+
+超方便！
+
+## Cookie 登入  
+Cookie 登入是必要的，使用 [Cookie-Editor](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm) 以 **Netscape** 格式匯出並且儲存在設定資料夾中 (預設在 `~/.config/v2dl`)。腳本會自動掃描所有包含  "**cookie**" 的 **txt** 檔案。
+
+## 選項  
+- `-f`: 不跳過已經存在的相簿  
+- `-d`: 設定下載資料夾 (default: `~/Downloads/v2dl`)  
+- `-c`: 設定 cookies 資料夾 (default: `~/.config/v2dl`)  
+- `-l`: 設定語言，用於命名下載資料夾 (default: `zh-TW`)  
+- `-s`: 選擇客戶端會話套件，預設使用 (default: `curl`)  
+- `-v`: 顯示套件版本  
+
+## Notes  
+- 支援多 cookies 檔案  
+- 網站的機器人檢查很嚴格，所以此版本可能需要頻繁的更新 cookies
