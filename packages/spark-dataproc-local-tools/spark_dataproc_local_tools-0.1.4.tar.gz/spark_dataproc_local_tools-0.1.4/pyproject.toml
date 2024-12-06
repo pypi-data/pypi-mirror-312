@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "spark-dataproc-local-tools"
+version = "0.1.0"
+description = ""
+authors = ["jonathan.quiza <jonathan.quiza@bbva.com>"]
+readme = "README.md"
+packages = [{include = "spark_dataproc_local_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyterlab = "^4.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
