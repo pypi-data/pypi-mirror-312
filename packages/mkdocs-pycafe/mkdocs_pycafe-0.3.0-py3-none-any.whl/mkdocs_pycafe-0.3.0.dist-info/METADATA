@@ -1,0 +1,54 @@
+Metadata-Version: 2.3
+Name: mkdocs-pycafe
+Version: 0.3.0
+Summary: Mkdocs plugins to link code to py.cafe
+Project-URL: Documentation, https://github.com/py-cafe/mkdocs-pycafe#readme
+Project-URL: Issues, https://github.com/py-cafe/mkdocs-pycafe/issues
+Project-URL: Source, https://github.com/py-cafe/mkdocs-pycafe
+Author-email: "Maarten A. Breddels" <maartenbreddels@gmail.com>
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Requires-Dist: markdown
+Provides-Extra: docs
+Requires-Dist: mkdocs; extra == 'docs'
+Requires-Dist: mkdocs-material; extra == 'docs'
+Requires-Dist: pymdown-extensions>=10.9; extra == 'docs'
+Provides-Extra: integration
+Requires-Dist: mkdocs; extra == 'integration'
+Requires-Dist: mkdocs-material; extra == 'integration'
+Requires-Dist: playwright; extra == 'integration'
+Requires-Dist: pytest-playwright; extra == 'integration'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+# mkdocs-pycafe
+
+[![PyPI - Version](https://img.shields.io/pypi/v/mkdocs-pycafe.svg)](https://pypi.org/project/mkdocs-pycafe)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mkdocs-pycafe.svg)](https://pypi.org/project/mkdocs-pycafe)
+
+-----
+
+## Documentation
+
+Documentation is available at [mkdocs.py.cafe](https://mkdocs.py.cafe).
+
+## Installation
+
+```console
+pip install mkdocs-pycafe
+```
+
+## License
+
+`mkdocs-pycafe` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
