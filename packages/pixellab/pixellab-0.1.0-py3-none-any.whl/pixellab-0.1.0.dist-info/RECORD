@@ -1,0 +1,16 @@
+pixellab/__init__.py,sha256=k5Iin6226hMCBZOF4QH70x6adcHzejC7VBX0fCLTmnI,45
+pixellab/animate_with_skeleton.py,sha256=WDn2Kjtpgh6eXXmzfyRyJUR7ebB-xZHexgDtSJ8PDT0,4847
+pixellab/client.py,sha256=LjMKJZ0_3lVbJb7zImUpXCDvX4FncXq4Ur3wahwZSFs,1021
+pixellab/generate_image_bitforge.py,sha256=fEM7xzWxmzsm_QEN3LQtbA_g16KCab37AlSdTnoc-Ck,5225
+pixellab/generate_image_pixflux.py,sha256=it1fIJ2itj3_l7rIb8vvJ9deMNujaFH_oQ4w-gLYhNY,3858
+pixellab/inpaint.py,sha256=LNeXohQ6-xUdBZSMCRSqzqcV64xmbQbUb36TpyuqM-c,4382
+pixellab/models/__init__.py,sha256=tkEEz6MzUGJRxlC5_C5LVelHV7QH8L3tNqjfTSYn33g,155
+pixellab/models/base64_image.py,sha256=LJH1LPTYhyNVaP1CdD-Wg7Zr1MtwUhExo9RMd-jAe4w,693
+pixellab/models/image_size.py,sha256=FyloYxseYxTwuwF2ij4sBEzTRvo6O8DN_r8p-7TE_98,101
+pixellab/models/keypoint.py,sha256=gIbOCV7zfI8Dk3z_N25dFrI5b0LrX9lImu-AFukiDZ4,475
+pixellab/rotate.py,sha256=8fW5Il-bPNmoh_wEBh71he5oeJfEhfiKIv2Q8HSqjvk,3585
+pixellab/settings.py,sha256=rusyWHhGVZT1nViXbqEBoJt98yXIvxZ4e_QHtfXgMQc,310
+pixellab/types.py,sha256=i8jb0dWezfptoMHpTDUXpTwUeW6VUF6lAbqv9vuydVA,566
+pixellab-0.1.0.dist-info/METADATA,sha256=VsgOI2bW3Qyet0OdFDS7334Rfo_Wl40R5e8AZ1x0oUk,2602
+pixellab-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pixellab-0.1.0.dist-info/RECORD,,
