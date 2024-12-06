@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: simplecmd_discordpy
+Version: 1.0.7
+Summary: Uma biblioteca mais simples para a criação de comandos no Discord.py
+Author: Anão Lenda
+Author-email: 4x0bfuscator@gmail.com
+License: MIT
+Keywords: simplecmd discordpy comandos
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: AsyncIO
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: discord
+
+## **Welcome!!**
+
+**(PT:BR) - Uma biblioteca para criar comando para o Discord.py muito mais simples!!**
+**(ENG) - A library to create a much simpler command for Discord.py!!**
+
+## Usage example
+```python
+import simplecmd as scmd
+import discord
+
+scmd.config.set(logs=True, prefix=f"$") # Seta as configurações necessárias!!
+
+intents = discord.Intents.default()
+client = discord.Client(intents=intents)
+
+@scmd.command("ping") # Função para criar comandos
+async def ping_cmd(message):
+    await message.channel.send("Pong🏓", reference=message)
+
+@client.event
+async def on_message(message):
+    if message.author.bot:
+        return
+    if message.author.id == client.user.id:
+        return
+    await scmd.load(message) # Carrega Todos Os Comandos
+
+```
