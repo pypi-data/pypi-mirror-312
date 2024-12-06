@@ -1,0 +1,43 @@
+default_stages:
+  - pre-commit
+repos:
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
+    hooks:
+      - id: codespell
+        additional_dependencies:
+          - tomli
+  - repo: local
+    hooks:
+      - id: ruff
+        name: ruff
+        description: "Run 'ruff' for extremely fast Python linting"
+        entry: ruff
+        language: system
+        types_or:
+          - python
+          - pyi
+        args: [ "check", "--force-exclude", "--output-format=full", "--fix" ]
+        require_serial: true
+        minimum_pre_commit_version: "2.9.2"
+  - repo: local
+    hooks:
+      - id: ruff-format
+        name: ruff-format
+        description: "Run 'ruff' for extremely fast Python linting"
+        entry: ruff
+        language: system
+        types_or:
+          - python
+          - pyi
+        args: [ "format", "--force-exclude" ]
+        require_serial: true
+        minimum_pre_commit_version: "2.9.2"
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    # uv version.
+    rev: 0.5.4
+    hooks:
+      # Update the uv lockfile
+      - id: uv-lock
+      - id: uv-export
+        args: [ "--frozen", "--no-hashes", "--no-emit-project", "--all-groups",  "--output-file=requirements-dev.txt" ]
