@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+settings.ini
+setup.py
+gridstitcher/__init__.py
+gridstitcher/_modidx.py
+gridstitcher/core.py
+gridstitcher/stitcher.py
+gridstitcher.egg-info/PKG-INFO
+gridstitcher.egg-info/SOURCES.txt
+gridstitcher.egg-info/dependency_links.txt
+gridstitcher.egg-info/entry_points.txt
+gridstitcher.egg-info/not-zip-safe
+gridstitcher.egg-info/requires.txt
+gridstitcher.egg-info/top_level.txt
