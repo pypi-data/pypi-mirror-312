@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+remotezip2.py
+test_remotezip2.py
+.github/workflows/python-package.yml
+.github/workflows/python-publish.yml
+remotezip2.egg-info/PKG-INFO
+remotezip2.egg-info/SOURCES.txt
+remotezip2.egg-info/dependency_links.txt
+remotezip2.egg-info/entry_points.txt
+remotezip2.egg-info/requires.txt
+remotezip2.egg-info/top_level.txt
+test_data/zip64.zip
