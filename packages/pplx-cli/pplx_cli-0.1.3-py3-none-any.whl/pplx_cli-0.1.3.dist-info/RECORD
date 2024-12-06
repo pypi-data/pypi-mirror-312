@@ -1,0 +1,11 @@
+pplx_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pplx_cli/api.py,sha256=DsEq_u3P2WSxtEkbJTz5uddwgCqou9dphUcdXIHQsB8,1023
+pplx_cli/cli.py,sha256=fefoLrOuELO4Ev9K5tcze3lFDzxmi1BUjh3JJMajaig,6347
+pplx_cli/config.py,sha256=x-Bl-548Ut7XDlVlaErQSjWj3vMYmFsXo-V0ITZeu4M,2433
+pplx_cli/main.py,sha256=JP-y1PkXuoC93BQ0BtaDxXUMROvIcOgDMU2vd8HJqwg,60
+pplx_cli/notes.py,sha256=D735eqQfWTlZDP4lLXARR_OfIob_2vg_p1xD4yBKFvg,3722
+pplx_cli-0.1.3.dist-info/LICENSE,sha256=RoQXRRp4QQTmg4EryBsrXXTvT3LTmL_BL89Dx3d9d4c,1066
+pplx_cli-0.1.3.dist-info/METADATA,sha256=uYlif2caSzARB3rh4RtQwrGz8lqjDF9E0vbV1XvGKc4,3008
+pplx_cli-0.1.3.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pplx_cli-0.1.3.dist-info/entry_points.txt,sha256=CuU0g3BahAX5urKMcdHF82_QeMQZvHcYc24y2CzS0QM,47
+pplx_cli-0.1.3.dist-info/RECORD,,
