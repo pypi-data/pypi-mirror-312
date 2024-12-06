@@ -1,0 +1,14 @@
+cotton_daisy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cotton_daisy/base.py,sha256=NlQ5d7Zj5G8PBPFeLpqGzbEjxFhiAROKfyeSa_mQVqo,1055
+cotton_daisy/cli.py,sha256=EKQ8QZCdSeV2hQp-YGVCA8xEWBXABB-IBNk_dEqxZJ8,522
+cotton_daisy/templates/avatar.html,sha256=cB683K9NRv2Q6l_wDxTxmcJAQTWggwDcd-_6jmlni8I,315
+cotton_daisy/templates/badge.html,sha256=6wL6Me4KG4fbPvOTUP5k6zuvHqaBLjVQphd9kLCCAzc,203
+cotton_daisy/templates/button.html,sha256=cs8P3UwbI8j61NkFNVoazC2bSlcX1RCjpqn9sl1dEdc,502
+cotton_daisy/templates/card.html,sha256=225z_qQqC-cecyDZNq0ojUy7uGfpUsiWVUageGb9c4c,1226
+cotton_daisy/templates/loading.html,sha256=nrfDhNmHUztPfytleTggN-OpIlGSwzvLew9PNZrJQQ4,170
+cotton_daisy/templates/progress.html,sha256=7isYAvG7MEw7dkvJPiYQM2kYbenXxt7H9r_ltv0aKgU,178
+cotton_daisy-0.0.4.dist-info/LICENSE,sha256=qkmsc_4Jk4q2V3fTsBram6gJDxTPh17-MJi2c3hxw_c,1071
+cotton_daisy-0.0.4.dist-info/METADATA,sha256=a2kHF8Rii2xtWv7qHVhtd9ncUGypGU3RYXMyQJLWcVM,857
+cotton_daisy-0.0.4.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+cotton_daisy-0.0.4.dist-info/entry_points.txt,sha256=lHHBBa9OEyPOCbugavbbV2zvbxuer4rM3zBvj6cejgE,53
+cotton_daisy-0.0.4.dist-info/RECORD,,
