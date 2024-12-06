@@ -1,0 +1,7 @@
+llm>=0.19
+anthropic>=0.39.0
+
+[test]
+pytest
+pytest-recording
+pytest-asyncio
