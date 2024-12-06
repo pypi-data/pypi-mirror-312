@@ -1,0 +1,9 @@
+README.md
+setup.py
+printedcolors/__init__.py
+printedcolors/colors.py
+printedcolors/colours.py
+printedcolors.egg-info/PKG-INFO
+printedcolors.egg-info/SOURCES.txt
+printedcolors.egg-info/dependency_links.txt
+printedcolors.egg-info/top_level.txt
