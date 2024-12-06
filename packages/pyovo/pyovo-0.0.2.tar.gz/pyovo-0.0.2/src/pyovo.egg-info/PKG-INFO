@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyovo
+Version: 0.0.2
+Summary: physical simulation devtoys
+Author-email: VeriTas-arch <veritas-k@qq.com>
+Project-URL: Homepage, https://github.com/Ancient-Gadget-Laboratory/pyovo
+Project-URL: Issues, https://github.com/Ancient-Gadget-Laboratory/pyovo/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pythonic-template
+
+A template repository for pythonic coding.
+
+## Usage
+
+Use the commands below to add git hooks to local git configuration.
+
+```bash
+cd .githooks
+git config core.hooksPath .githooks
+```
