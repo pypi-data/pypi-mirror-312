@@ -1,0 +1,15 @@
+symars/__init__.py,sha256=mr6Qs7Qfaad6Qosg3bzpsbkL_Dtf2WYB28lSLDlUcfI,248
+symars/dense.py,sha256=ZKNUF-fWMdePLFBeT6pbAuDlkfIQv6yC948FjNHyM9U,923
+symars/meta.py,sha256=dorAmvv_SvRbQdSzOFWLvgt0q42LiM0Zpq1lH6Q_hgA,3677
+symars/scalar.py,sha256=8xKWestYf7RdGNmoztArK_GM9WJxa6VioXYBl5W2aA8,8713
+symars/sparse.py,sha256=9Dv7kAigYZc5p4n7UIWeXB-hS2yoCiFCcNzOHx13R7k,2364
+symars/dense_impl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+symars/dense_impl/array.py,sha256=Y2TCaITR6eoD_80FyECQKYUyeaAkSqkDefyF-8UtL1A,1658
+symars/dense_impl/faer.py,sha256=ueXZUtdjsd5_1ZaDDGcDXeRTLuJd-wbZqwDDL23hl10,3111
+symars/dense_impl/nalgebra.py,sha256=njpndYamjlvDYwbSka1OdyhQgT9IoPBgXy8AGm90CN0,1546
+symars/dense_impl/vecshape.py,sha256=EpVjktdb50_-22HVwbmyjtEQwAXZa1E6naoIp09xIR4,703
+symars-0.0.1.dist-info/LICENSE,sha256=25vBw-IcwxliTAdTDv09TUUoo80hQeDbCdxO9cGV5tA,1071
+symars-0.0.1.dist-info/METADATA,sha256=RCfdIsvF76YE7nEYxlqcIllw1Owe_UdHztP6SyIdGv0,2135
+symars-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+symars-0.0.1.dist-info/top_level.txt,sha256=ERVLbDqTxQsj-YrOdsVWijeC1aQdPwInVMaXdcZUQtA,7
+symars-0.0.1.dist-info/RECORD,,
