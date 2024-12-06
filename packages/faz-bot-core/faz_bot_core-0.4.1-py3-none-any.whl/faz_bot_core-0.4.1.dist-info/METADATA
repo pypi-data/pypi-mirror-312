@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: faz-bot-core
+Version: 0.4.1
+Summary: Core logic used by the other faz-bot components.
+Author-email: FAZuH <fazuhhh@proton.me>
+License: MIT License
+        
+        Copyright (c) 2024 FAZuH
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Source, https://github.com/FAZuH/faz-bot-core
+Project-URL: Issues, https://github.com/FAZuH/faz-bot-core/issues
+Project-URL: Documentation, https://github.com/FAZuH/faz-bot-core#readme
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp>=3.11.7
+Requires-Dist: aiomysql>=0.2.0
+Requires-Dist: faz-utils>=0.1.2
+Requires-Dist: greenlet>=3.1.1
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: nextcord>=2.6.0
+Requires-Dist: numpy>=2.1.3
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: sortedcontainers>=2.4.0
+Requires-Dist: sqlalchemy>=2.0.36
+
+# faz-bot-core
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Installation
+
+```console
+pip install faz-bot-core
+```
+
+## Scripts
+
+This package provides a few scripts to help with development. It is recommended to run the scripts using [uv](https://docs.astral.sh/uv/).
+
+### faz-initdb
+
+```console
+uv run faz-initdb
+```
+
+Initializes `faz-cord` and `faz-wynn` database. Does not install the database client. Overwrite default configs using environment variables (from .env-example).
+
+### faz-alembic
+
+```console
+uv run faz-alembic -n <name> [command]
+```
+
+Entry point for [Alembic](https://alembic.sqlalchemy.org/en/latest/), a database migration tool. `<name>` can be: `faz-cord`, `faz-wynn`, `faz-cord_test` or `faz-wynn_test`.
+
+The following are some useful commands:
+
+- `upgrade head`: Upgrade to the latest revision.
+- `upgrade <revision>`: Upgrade to a specific revision.
+- `downgrade <revision>`: Downgrade to a specific revision.
+- `current`: Show the current revision.
+- `history`: Show the revision history.
+- `ensure_version`: Ensure the version table exists (named `alembic_version`).
+
+## License
+
+`faz-bot-core` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

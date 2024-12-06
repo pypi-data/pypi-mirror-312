@@ -1,0 +1,3 @@
+[console_scripts]
+faz-alembic = faz.bot.dev.scripts.faz_alembic:main
+faz-initdb = faz.bot.dev.scripts.initdb:main
