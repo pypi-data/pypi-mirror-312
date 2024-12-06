@@ -1,0 +1,15 @@
+wiggle_camera/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wiggle_camera/camera.py,sha256=R029sE_afCD7QfuyZEVbEFhwvlCtNO3Upqm4dmI8q7s,6504
+wiggle_camera/enhance.py,sha256=vjU6Rj6Qk7VJrMZWMmFoI-JK3A39CuakuA9LsO3GFLg,2901
+wiggle_camera/install.py,sha256=simlbZobFCzDXhqdjnPysImlPGlYWSriaTYZWtStAC0,1111
+wiggle_camera/light.py,sha256=1aqLIHnuM6yFm_KXeIlTq5rhoGqArKJ81jXqQePOfa8,587
+wiggle_camera/main.py,sha256=AjNXvn3J4vbvXmVZOMRyoVx9mmQcfoc16cwXm-jUKGM,1419
+wiggle_camera/object_detection.py,sha256=EQW52osZu5qnqsFeZqNTDsfq4SYo4r8AgFxaH8UV3IU,1938
+wiggle_camera/timelapse.py,sha256=eCccKy96tmQPWu77-l85VwtoXXX7DxZ2OvevdEEu2Ug,1366
+wiggle_camera/vision.py,sha256=YHcymIxeGJVcShugylstGqDEIRpEhy_8zg4fbT_vddY,379
+wiggle_camera/write.py,sha256=6pcS6fMNeeSWuQ5B6RXOT16dVv_bGJPuEwkEeMh5dXU,1618
+wiggle_camera-0.0.4.dist-info/METADATA,sha256=yIE9_ygdNSFM5fkGJNj4O49LbJ2yTFVD1XdyQLeU2mk,2391
+wiggle_camera-0.0.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+wiggle_camera-0.0.4.dist-info/entry_points.txt,sha256=nlg6XKG8Qjzpt4yH9BI0fA-jUsVhHMzQfxy7BSyluqw,112
+wiggle_camera-0.0.4.dist-info/top_level.txt,sha256=z3TGV5eDrLvnh7vynQ0MY8UtXEkIM5AzH5lRFfAWebc,14
+wiggle_camera-0.0.4.dist-info/RECORD,,
