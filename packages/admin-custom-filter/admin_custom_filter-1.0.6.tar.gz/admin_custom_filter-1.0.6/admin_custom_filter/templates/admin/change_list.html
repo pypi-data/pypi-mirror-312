@@ -1,0 +1,177 @@
+{% extends "admin/change_list.html" %}
+
+{% block extrahead %}
+    <style>
+        .collapse{
+            overflow: hidden;
+            height: 0;
+        }
+        .title-container {
+            display: flex;
+            align-items: center;
+        }
+        .title-container button {
+            margin-top: 0.5rem;
+            background-color: #264b5d;
+            border: 1px solid #264b5d;
+            color: white;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .title {
+            font-size: 20px;
+        }
+        .sub-title {
+            font-size: 15px;
+        }
+        .custom-filter-container {
+            display: block;
+            border: 1px solid white;
+            padding: 0.2rem;
+        }
+        .custom-filter-inner-container div {
+            margin-left: 1rem;
+        }
+        .button-container {
+            margin: 1rem 0 0 0.5rem;
+        }
+    </style>
+    <script>
+        window.onUsersnapCXLoad = function (api) {
+            api.init();
+        }
+        var script = document.createElement('script');
+        script.defer = 1;
+        script.src = 'https://widget.usersnap.com/global/load/722b3d37-a3bf-4f70-bd1a-0522169a8695?onload=onUsersnapCXLoad';
+        document.getElementsByTagName('head')[0].appendChild(script);
+    </script>
+{% endblock %}
+
+{% block search %}
+    {{ block.super }}
+    
+    {% if need_filter %}
+        <div>
+            <div class="title-container">
+                <h3 class="title">Custom filter</h3>
+                <button id="open-close-custom-filter">Open/Close</button>
+            </div>
+            <div class="collapse">
+                <div class="custom-filter-container">
+                    <form action="" method="post">
+                        {% csrf_token %}
+                        <div>
+                            <h4 class="sub-title">Add Filter by:</h4>
+                            <div class="custom-filter-inner-container">
+                                {% for field in model_fields %}
+                                    <div>
+                                        <input type="checkbox" {% for filter_by_selected in filters_by_selected %} {% if filter_by_selected == field.field_name %} checked {% endif %} {% endfor %} value="{{field.field_name}}" name="filters_by" id="filter_by_{{field.display_name}}">
+                                        <label for="filter_by_{{field.display_name}}">{{field.display_name}}</label>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="sub-title">Add search by:</h4>
+                            <div class="custom-filter-inner-container">
+                                {% for field in model_fields %}
+                                        <div>
+                                            <input type="checkbox" {% for selected_search_by in searches_by_selected %} {% if selected_search_by == field.field_name %} checked {% endif %} {% endfor %} value="{{field.field_name}}" name="searches_by" id="search_by_{{field.display_name}}">
+                                            <label for="search_by_{{field.display_name}}">{{field.display_name}}</label>
+                                        </div>
+                                    {% endfor %}
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="sub-title">Add list displays by:</h4>
+                            <div class="custom-filter-inner-container">
+                                {% for field in display_fields %}
+                                <div>
+                                        {% if field.can_be_link %}
+                                            <input type="checkbox" {% for selected_link_display in link_fields_selected %} {% if selected_link_display == field.field_name %} checked {% endif %} {% endfor %}  value="{{field.field_name}}" name="list_displays_link" id="list_display_{{field.display_name}}_link">
+                                            <label for="list_display_{{field.display_name}}_link">{{field.display_name}}</label>
+                                        {% else %}
+                                            <input type="checkbox" {% for selected_list_display in list_displays_selected %} {% if selected_list_display == field.field_name %} checked {% endif %} {% endfor %} value="{{field.field_name}}" name="list_displays" id="list_display_{{field.display_name}}">
+                                            <label for="list_display_{{field.display_name}}">{{field.display_name}}</label>
+                                        {% endif %}
+                                            
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="sub-title">Date hierarchy</h4>
+                            <div class="custom-filter-inner-container">
+                                <select name="date_hierarchy" id="">
+                                    <option {% if date_hierarchy_selected == "null" %} selected {% endif %} value="null">None</option>
+                                    <option {% if date_hierarchy_selected == "created_at" %} selected {% endif %} value="created_at">Track by dates</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="sub-title">Order by</h4>
+                            <div class="custom-filter-inner-container">
+                                <select name="order_by" id="">
+                                    <option {% if order_by_selected == "null" %} selected {% endif %} value="null">None</option>
+                                    <option {% if order_by_selected == "created_at" %} selected {% endif %} value="created_at">From oldest to newest</option>
+                                    <option {% if order_by_selected == "-created_at" %} selected {% endif %} value="-created_at">From newest oldest</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="sub-title">List per page</h4>
+                            <div class="custom-filter-inner-container">
+                                <input type="number" value="{{list_per_page}}" name="list_per_page">
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <input type="submit" value="Apply">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            var openCloseCustomFilterButton = document.getElementById('open-close-custom-filter');
+            openCloseCustomFilterButton.addEventListener('click', function() {
+                var collapse = document.querySelector('.collapse');
+                if (collapse.style.height === '0px' || collapse.style.height === '') {
+                    collapse.style.height = 'auto';
+                } else {
+                    collapse.style.height = '0px';
+                }
+            });
+        </script>
+        {% endif %}
+        <script>
+            setTimeout(() => {
+                var selectAll = document.getElementById('action-toggle');
+                var checkboxes = document.querySelectorAll('.action-select');
+                var actionCounter = document.querySelector('.action-counter');
+                selectAll?.addEventListener('click', function() {
+                    checkboxes.forEach(checkbox => {
+                        checkbox.checked = selectAll.checked;
+                        if (selectAll.checked) {
+                            actionCounter.textContent = `${checkboxes.length} of ${checkboxes.length} selected`;
+                        } else {
+                            actionCounter.textContent = `0 of ${checkboxes.length} selected`;
+                        }
+                    });
+                });
+                var counter = 0;
+                checkboxes.forEach((checkbox, index) => {
+                    checkbox.addEventListener('click', function() {
+                        if (checkbox.checked) {
+                            counter++;
+                            actionCounter.textContent = `${counter} of ${checkboxes.length} selected`;
+                        } else {
+                            counter--;
+                            actionCounter.textContent = `${counter} of ${checkboxes.length} selected`;
+                        }
+                    });
+                });
+            }, 500);
+        </script>
+{% endblock search %}
