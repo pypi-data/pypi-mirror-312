@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nasr_search
+Version: 0.3.0
+Summary: Search for values in XLSX files.
+Author: Eslam
+Author-email: eslam.mostafa000@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# nasr_search
+
+A Python script to search for values in XLSX files within a specific folder.
+
+## Features
+- Creates a folder `C:\nasr_search` if it doesn't already exist.
+- Searches all `.xlsx` files in the `C:\nasr_search` folder for a specified column and value.
+
+## Installation
+
+```bash
+pip install nasr_search

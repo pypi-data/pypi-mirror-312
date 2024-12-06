@@ -1,0 +1,2 @@
+[console_scripts]
+nasr_search = nasr_search.nasr_search:main
