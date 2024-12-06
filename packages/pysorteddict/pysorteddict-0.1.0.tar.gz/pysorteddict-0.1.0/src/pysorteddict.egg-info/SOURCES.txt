@@ -1,0 +1,11 @@
+COPYING.md
+README.md
+pyproject.toml
+setup.py
+src/pysorteddict/pysorteddict.cc
+src/pysorteddict.egg-info/PKG-INFO
+src/pysorteddict.egg-info/SOURCES.txt
+src/pysorteddict.egg-info/dependency_links.txt
+src/pysorteddict.egg-info/top_level.txt
+tests/test_int_keys.py
+tests/test_invalid_construction.py
