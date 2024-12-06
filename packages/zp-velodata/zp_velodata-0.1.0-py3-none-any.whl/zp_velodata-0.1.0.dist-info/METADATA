@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: zp-velodata
+Version: 0.1.0
+Summary: Download and process data from the zwift_power_com api.
+Author-email: Vincent Davis <pypi@vdavis.net>
+Requires-Python: >=3.12
+Requires-Dist: beautifulsoup4>=4.12.3
+Requires-Dist: httpx>=0.27.2
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: pyarrow>=18.0.0
+Requires-Dist: pydantic>=2.10.1
+Requires-Dist: pytest>=8.3.3
+Requires-Dist: python-dotenv>=1.0.1

@@ -1,0 +1,8 @@
+zp_velodata/__init__.py,sha256=5tx0gBlamMo3gQCRs_4LlB6b6PiInDg64hoAzseSnoQ,236
+zp_velodata/api_models.py,sha256=BUk7DGfb-4ByzaYUZCYHiw4e-Jlnt9uQfWWnu34OZ4s,5455
+zp_velodata/logging_config.py,sha256=t10Fp2sHQmeElhYRtL1ms_BTRrkbDTyOJ3ng-7qDFZ8,3282
+zp_velodata/zp_client.py,sha256=4PF2HLQBqSHIsNrSJFeuZ2t7piidMcxt9JoWoeaVgCc,7153
+zp_velodata-0.1.0.dist-info/METADATA,sha256=n--2LeEaiE5-PXSF8SGk_Ait4tuJYPsZI-Q7kW2azKU,414
+zp_velodata-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+zp_velodata-0.1.0.dist-info/entry_points.txt,sha256=r71-u591oKI2fFsmKt0VIKQJGxVaKjY7mtK_1yoGx7g,54
+zp_velodata-0.1.0.dist-info/RECORD,,
