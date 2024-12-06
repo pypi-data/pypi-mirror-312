@@ -1,0 +1,19 @@
+[project]
+name = "xomics_amy_imene"
+version = "0.1.1"
+description = "analyse approfondi de fichiers gff"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib>=3.7.5",
+]
+authors = [
+  {name = "Imène Sebaï", email = "imene.sebai@etu.univ-lyon1.fr"},
+  {name = "Ndeye Amy Gueye", email = "ndeye.gueye@etu.univ-lyon1.fr"},
+]
+keywords = ["python", "projet", "gestion", "packages", "dépendances", "gene", "uniprot"]
+
+[project.urls]
+Repository = "http://pedago-service:2325/ngueye/xomics.git"
+
+
