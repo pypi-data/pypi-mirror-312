@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+prlps_translit/__init__.py
+prlps_translit/mapping.py
+prlps_translit.egg-info/PKG-INFO
+prlps_translit.egg-info/SOURCES.txt
+prlps_translit.egg-info/dependency_links.txt
+prlps_translit.egg-info/top_level.txt
