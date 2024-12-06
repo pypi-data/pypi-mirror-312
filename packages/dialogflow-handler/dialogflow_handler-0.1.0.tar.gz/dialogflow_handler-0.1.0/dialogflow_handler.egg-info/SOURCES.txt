@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+dialogflow-handler/__init__.py
+dialogflow-handler/agent.py
+dialogflow_handler.egg-info/PKG-INFO
+dialogflow_handler.egg-info/SOURCES.txt
+dialogflow_handler.egg-info/dependency_links.txt
+dialogflow_handler.egg-info/requires.txt
+dialogflow_handler.egg-info/top_level.txt
