@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: inzicht
+Version: 0.1.1
+Summary: 
+Author: Alexey Naumov
+Author-email: digitaal.vier@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: sqlalchemy (>=2.0.36,<3.0.0)
+Description-Content-Type: text/markdown
+
+
