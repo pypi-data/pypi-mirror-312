@@ -1,0 +1,11 @@
+huparry/__init__.py,sha256=aMcia-x6TWG4l7HgqobCQ9V15MbcB_npBtbpJ_AXyv0,8709
+huparry/aiosqlite.py,sha256=sJfO2Ho3_zz8WPShiljW6MOdKCH_V5-QUV3MBWvguAY,15772
+huparry/atcoder.py,sha256=42l0LQcBATJpACQkuRBJNWx4lfdMawUYfn0WRYEng3E,4381
+huparry/codeforces.py,sha256=gnIGoGLt7oGO8st2ELrELJayFpZmN6AXnpsZNXSTO0s,5621
+huparry/config.py,sha256=jpRCYoQu4MJdhlCKPUA4i9ADCE4YwehBxHI5YLIYpOU,1869
+huparry/nowcoder.py,sha256=Idd-_QBsGBdfqfU3YCcfDrwg9PKVU9aYtk2GOGIl3S0,4167
+huparry/utils.py,sha256=airsJ_wj9PDooRwfI-k5xZgqIBPIFAaoH-fda0zt0k8,1069
+huparry-0.0.1.dist-info/LICENSE,sha256=jFXC9qMWcz6x87KRiZ4z0uJApdd-th5FHkYgnqZUOSM,1085
+huparry-0.0.1.dist-info/METADATA,sha256=YuEVooo8n1zDTaui-bZQOARvAmKnJ292K97QMUyuCsY,1179
+huparry-0.0.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+huparry-0.0.1.dist-info/RECORD,,
