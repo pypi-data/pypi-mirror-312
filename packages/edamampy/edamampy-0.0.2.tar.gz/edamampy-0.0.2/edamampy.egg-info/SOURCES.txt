@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+edamampy.egg-info/PKG-INFO
+edamampy.egg-info/SOURCES.txt
+edamampy.egg-info/dependency_links.txt
+edamampy.egg-info/top_level.txt
