@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rebugger
+Version: 0.1.0
+Summary: Captures detailed trace logs for viewing in Perfetto
+Author-email: Tom Flanagan <tom@zkpq.ca>
+Project-URL: Homepage, https://github.com/Knio/knio/rebugger
+Project-URL: Source, https://github.com/Knio/knio/rebugger
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+
+See test.py

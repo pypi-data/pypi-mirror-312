@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+rebugger/__init__.py
+rebugger/_version.py
+rebugger/perfetto.py
+rebugger/rebugger.py
+rebugger.egg-info/PKG-INFO
+rebugger.egg-info/SOURCES.txt
+rebugger.egg-info/dependency_links.txt
+rebugger.egg-info/top_level.txt
