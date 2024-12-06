@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-server-ancestry = mcp_server_ancestry:main
