@@ -1,0 +1,9 @@
+README.md
+setup.py
+nlator/__init__.py
+nlator/nlator.py
+nlator.egg-info/PKG-INFO
+nlator.egg-info/SOURCES.txt
+nlator.egg-info/dependency_links.txt
+nlator.egg-info/requires.txt
+nlator.egg-info/top_level.txt
