@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+auth_manager/__init__.py
+auth_manager/auth_manager.py
+auth_manager.egg-info/PKG-INFO
+auth_manager.egg-info/SOURCES.txt
+auth_manager.egg-info/dependency_links.txt
+auth_manager.egg-info/requires.txt
+auth_manager.egg-info/top_level.txt
