@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "python-decouple-stubs"
+version = "3.8.0.2"
+description = "Stub file for the python-decouple package to enable static type checking"
+authors = ["TobiEvil <48364799+tobievil@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/tobievil/decouple-stubs"
+repository = "https://github.com/tobievil/decouple-stubs"
+packages = [{ include = "decouple-stubs", from = "src" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-decouple = "3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+examples = "examples.types:main"
