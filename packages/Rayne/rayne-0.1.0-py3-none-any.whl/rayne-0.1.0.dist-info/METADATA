@@ -1,0 +1,80 @@
+Metadata-Version: 2.3
+Name: Rayne
+Version: 0.1.0
+Summary: A micro benchmarking utility for Python
+Project-URL: Documentation, https://rayne.readthedocs.io
+Project-URL: Repository, https://github.com/brobeson/Rayne
+Project-URL: Issue Tracker, https://github.com/brobeson/Rayne/issues
+Author-email: brobeson <brobeson@users.noreply.github.com>
+License: MIT License
+        
+        Copyright (c) 2023 brobeson
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Keywords: benchmark,micro-benchmark,microbenchmark,python
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+
+Rayne
+=====
+
+.. image:: https://github.com/brobeson/Rayne/actions/workflows/code_quality.yaml/badge.svg
+   :target: https://github.com/brobeson/Rayne/actions/workflows/code_quality.yaml
+
+.. image:: https://coveralls.io/repos/github/brobeson/Rayne/badge.svg?branch=main
+   :target: https://coveralls.io/github/brobeson/Rayne?branch=main
+
+.. image:: https://img.shields.io/github/license/brobeson/Rayne
+   :alt: GitHub License
+   :target: https://github.com/brobeson/Rayne?tab=MIT-1-ov-file
+
+.. image:: https://img.shields.io/pypi/v/rayne?logo=python
+   :alt: PyPI - Version
+   :target: https://pypi.org/project/rayne
+
+.. image:: https://img.shields.io/readthedocs/rayne?logo=readthedocs
+   :alt: Read the Docs
+   :target: https://rayne.readthedocs.io/en/latest/
+
+Rayne is a micro-benchmarking library for Python code.
+It is
+
+#. Easy to use
+#. Extensible
+
+Rayne accurately measures your code's execution time by
+
+.. #. Warming up the cache
+
+#. Measuring your code 1000 times
+#. Accounting for the time necessary to query your system's clock
+
+So... `get started <https://rayne.readthedocs.io/en/latest/getting_started.html>`_ writing your benchmarks!
