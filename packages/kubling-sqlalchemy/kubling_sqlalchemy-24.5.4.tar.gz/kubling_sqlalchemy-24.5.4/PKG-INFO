@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: kubling_sqlalchemy
+Version: 24.5.4
+Requires-Dist: sqlalchemy>=1.4
+Requires-Dist: psycopg2-binary
