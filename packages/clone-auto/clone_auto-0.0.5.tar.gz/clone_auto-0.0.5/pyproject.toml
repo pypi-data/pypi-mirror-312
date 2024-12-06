@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clone-auto"
+dynamic = ["version"]
+
+authors = [
+  { name="sivefunc", email="sivefunc@tuta.io" },
+]
+
+readme = {file = 'README.md', content-type='text/markdown', charset="UTF-8", variant="GFM"}
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+description = "Clone all public repositories from a user in a GIT server"
+requires-python = ">=3.11"
+
+keywords = ['linux', 'python3', 'git', 'script']
+dependencies = [
+    "requests==2.32.3"
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "_version.__version__"}
+
+[project.scripts]
+clone_auto = "clone_auto:main"
+
+[project.urls]
+Homepage = "https://gitlab.com/sivefunc/"
