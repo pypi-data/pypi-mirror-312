@@ -1,0 +1,13 @@
+stages:
+  {{ stage_name }}:
+    params: []
+    deps: []
+    outs:
+      - output
+    cmd:
+      - |
+        bash -euo pipefail << EOF
+
+        # add bash code here
+
+        EOF
