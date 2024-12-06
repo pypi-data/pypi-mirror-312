@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hyperbolic-gradio"
+version = "0.0.5"
+description = "A Python package for creating Gradio applications with Hyperbolic AI models"
+authors = [
+    { name = "AK", email = "ahsen.khaliq@gmail.com" },
+    { name = "YuchenJin", email = "yuchenj@cs.washington.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "gradio>=5.5.0",
+    "openai",
+]
+
+[project.urls]
+homepage = "https://github.com/HyperbolicLabs/hyperbolic-gradio"
+repository = "https://github.com/HyperbolicLabs/hyperbolic-gradio"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["hyperbolic_gradio"]
+
