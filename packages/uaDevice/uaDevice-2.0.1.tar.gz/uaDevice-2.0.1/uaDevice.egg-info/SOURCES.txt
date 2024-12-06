@@ -1,0 +1,15 @@
+README.md
+setup.py
+test/test.py
+test/test_old.py
+uaDevice/__init__.py
+uaDevice/browser_detector.py
+uaDevice/device_detector.py
+uaDevice/os_detector.py
+uaDevice/ua_parser.py
+uaDevice/utils.py
+uaDevice/version.py
+uaDevice.egg-info/PKG-INFO
+uaDevice.egg-info/SOURCES.txt
+uaDevice.egg-info/dependency_links.txt
+uaDevice.egg-info/top_level.txt
