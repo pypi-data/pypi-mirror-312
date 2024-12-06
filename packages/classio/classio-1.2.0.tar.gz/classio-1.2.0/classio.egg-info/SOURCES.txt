@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+classio/__init__.py
+classio/constants.py
+classio/declario.py
+classio.egg-info/PKG-INFO
+classio.egg-info/SOURCES.txt
+classio.egg-info/dependency_links.txt
+classio.egg-info/requires.txt
+classio.egg-info/top_level.txt
+tests/test_declario.py
+tests/test_ml_example.py

@@ -1,0 +1,40 @@
+[project]
+name = "classio"
+version = "1.2.0"
+description = "IO tools for python classes."
+authors = [{ name = "Zach Kurtz", email = "zkurtz@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "dummio >=1.2.0",
+  "packio >=0.0.2",
+]
+
+[dependency-groups]
+dev = [
+  "pre-commit >=3.8.0",
+  "pyright >=1.1.378",
+  "ruff >=0.6.3",
+  "pytest >=8.3.2",
+  "pandas >=2.0.0",
+  "fastparquet>=2024.11.0",
+  "pydantic >=1.10.0",
+  "onnx>=1.10.1",
+  "scikit-learn >=1.0.2",
+  "skl2onnx >=1.10.1",
+]
+
+[project.urls]
+Source = "https://github.com/zkurtz/classio"
+
+[tool.uv]
+package = true
+
+[tool.ruff]
+line-length = 120
+
+[tool.pyright]
+include = ["classio", "tests"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
