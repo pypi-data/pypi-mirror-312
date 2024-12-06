@@ -1,0 +1,150 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "CycloneDX BOM",
+    "type": "object",
+    "required": ["bomFormat", "specVersion", "components", "metadata"],
+    "properties": {
+        "bomFormat": {
+            "type": "string",
+            "const": "CycloneDX",
+            "description": "The BOM format type."
+        },
+        "specVersion": {
+            "type": "string",
+            "description": "The CycloneDX specification version."
+        },
+        "metadata": {
+            "type": "object",
+            "description": "Metadata about the BOM, including tools and components.",
+            "required": ["timestamp"],
+            "properties": {
+                "timestamp": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "The timestamp of when the BOM was created."
+                },
+                "tools": {
+                    "oneOf": [
+                        {
+                            "type": "array",
+                            "description": "Tools used to generate the SBOM.",
+                            "items": {
+                                "type": "object",
+                                "required": ["name"],
+                                "properties": {
+                                    "name": {
+                                        "type": "string",
+                                        "description": "Name of the tool."
+                                    },
+                                    "version": {
+                                        "type": "string",
+                                        "description": "Version of the tool."
+                                    },
+                                    "vendor": {
+                                        "type": "string",
+                                        "description": "Vendor or creator of the tool."
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "description": "Alternative format for tools using a components array.",
+                            "properties": {
+                                "components": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "required": ["name", "version"],
+                                        "properties": {
+                                            "type": {
+                                                "type": "string",
+                                                "description": "The component type (e.g., application)."
+                                            },
+                                            "author": {
+                                                "type": "string",
+                                                "description": "The author of the component."
+                                            },
+                                            "name": {
+                                                "type": "string",
+                                                "description": "The name of the tool or component."
+                                            },
+                                            "version": {
+                                                "type": "string",
+                                                "description": "The version of the tool or component."
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "required": ["components"]
+                        }
+                    ]
+                },
+                "component": {
+                    "type": "object",
+                    "required": ["type", "name", "version"],
+                    "properties": {
+                        "type": {
+                            "type": "string",
+                            "description": "The type of the component (e.g., application)."
+                        },
+                        "name": {
+                            "type": "string",
+                            "description": "The name of the component."
+                        },
+                        "version": {
+                            "type": "string",
+                            "description": "The version of the component."
+                        }
+                    }
+                }
+            }
+        },
+        "components": {
+            "type": "array",
+            "description": "A list of software components.",
+            "items": {
+                "type": "object",
+                "required": ["type", "name", "version"],
+                "properties": {
+                    "type": {
+                        "type": "string",
+                        "description": "The component type (e.g., library, application)."
+                    },
+                    "name": {
+                        "type": "string",
+                        "description": "The component name."
+                    },
+                    "version": {
+                        "type": "string",
+                        "description": "The component version."
+                    },
+                    "purl": {
+                        "type": "string",
+                        "description": "The Package URL (PURL)."
+                    },
+                    "licenses": {
+                        "type": "array",
+                        "description": "List of licenses associated with the component.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "license": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "type": "string",
+                                            "description": "SPDX License ID."
+                                        }
+                                    },
+                                    "required": ["id"]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
