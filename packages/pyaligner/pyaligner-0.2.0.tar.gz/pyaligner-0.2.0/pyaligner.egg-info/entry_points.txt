@@ -1,0 +1,2 @@
+[console_scripts]
+pyaligner = pyaligner.scripts.aligner:main
