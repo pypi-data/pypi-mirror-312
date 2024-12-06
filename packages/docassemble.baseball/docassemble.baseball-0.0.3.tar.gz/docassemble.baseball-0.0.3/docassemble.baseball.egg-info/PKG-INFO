@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: docassemble.baseball
+Version: 0.0.3
+Summary: A docassemble extension.
+Home-page: https://docassemble.org
+Author: Jonathan Pyle
+Author-email: admin@admin.com
+License: The MIT License (MIT)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A docassemble extension about baseball.
+
+This is a new version, just as a test.
+
+This is an even newer version, testing the twine upload process.
