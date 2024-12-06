@@ -1,0 +1,7 @@
+Flask
+Flask-JWT-Extended
+Pillow==9.5.0
+pymysql
+dbutils
+pyyaml
+requests
