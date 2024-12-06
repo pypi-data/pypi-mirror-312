@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: kolonix-rag
+Version: 0.1.0
+Summary: A Retrieval-Augmented Generation (RAG) framework with MongoDB and Sentence Transformers
+Home-page: https://github.com/yourusername/rag-framework
+Author: Rino Alfian
+Author-email: rino.alpin@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pymongo
+Requires-Dist: sentence-transformers
+Requires-Dist: nltk
+Requires-Dist: numpy
+
+# Example usage
+```
+if __name__ == "__main__":
+    mongo_url = 'your_mongo_url_here'
+    db_name = 'chat-service'
+    collection_name = 'rag'
+    model_name = 'sentence-transformers/all-MiniLM-L6-v2'
+    similarity_threshold = 0.3
+
+    rag = RAGFramework(mongo_url, db_name, collection_name, model_name, similarity_threshold)
+
+    # Update embeddings for existing documents
+    rag.update_embeddings()
+
+    # Insert new data
+    raw_text = "This is a sample document text that needs to be inserted into MongoDB."
+    result = rag.insert_data(raw_text)
+    print(result)
+
+    # Retrieve data based on a query
+    query = "sample document text"
+    retrieved_data = rag.retrieve_data(query)
+    print(retrieved_data)
+```

@@ -1,0 +1,4 @@
+pymongo
+sentence-transformers
+nltk
+numpy
