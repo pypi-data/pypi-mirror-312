@@ -1,0 +1,12 @@
+pyaligner/__init__.py,sha256=2VTD32PuV8sQo4EAryCs2xYJgsTXpm13xFKqdeXQMq8,19
+pyaligner/notebooks/first.ipynb,sha256=J5IFMacvIbvJvTAhB5szY4U0lvpDaYi4IMJ5jUm7HIE,18616
+pyaligner/scripts/aligner.py,sha256=oT_do6p8BAg6pzCSUvzu0_N4NR5g8loNn7E1JkuSuNM,11311
+pyaligner/scripts/gui.py,sha256=rw4c0OWbULYp_JGoDPbVii1h5JHfejj-q76f7ZhrrOo,5840
+pyaligner/utils/__init__.py,sha256=2VTD32PuV8sQo4EAryCs2xYJgsTXpm13xFKqdeXQMq8,19
+pyaligner/utils/utils.py,sha256=STR0ipYEfdZjVhkO3IEWvSPfx8faGfMAxIzcJdOupBo,2487
+pyaligner-0.2.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+pyaligner-0.2.0.dist-info/METADATA,sha256=1Eb48UTYI1Un4S3kozE9WKaWtMeIWabb_EbkJAO--J8,3148
+pyaligner-0.2.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pyaligner-0.2.0.dist-info/entry_points.txt,sha256=H3aqtsr08l_EHqOEB0krOD_H5ZeJOhzsmEiop_-u5UA,61
+pyaligner-0.2.0.dist-info/top_level.txt,sha256=kxvpJp0H2ujzNG1gJsO8EVdtMPKqb1_MfSH1YApgopE,10
+pyaligner-0.2.0.dist-info/RECORD,,
