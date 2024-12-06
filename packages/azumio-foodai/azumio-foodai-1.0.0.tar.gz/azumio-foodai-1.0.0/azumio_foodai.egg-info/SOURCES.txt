@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+azumio_foodai.egg-info/PKG-INFO
+azumio_foodai.egg-info/SOURCES.txt
+azumio_foodai.egg-info/dependency_links.txt
+azumio_foodai.egg-info/requires.txt
+azumio_foodai.egg-info/top_level.txt
+foodai/__init__.py
+foodai/food_response.py
+foodai/foodai.py
