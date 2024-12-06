@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+model_hallucination/__init__.py
+model_hallucination/cli.py
+model_hallucination/dataset_loader.py
+model_hallucination/evaluator.py
+model_hallucination_cli.egg-info/PKG-INFO
+model_hallucination_cli.egg-info/SOURCES.txt
+model_hallucination_cli.egg-info/dependency_links.txt
+model_hallucination_cli.egg-info/entry_points.txt
+model_hallucination_cli.egg-info/requires.txt
+model_hallucination_cli.egg-info/top_level.txt
+tests/__init__.py
+tests/test_cli.py

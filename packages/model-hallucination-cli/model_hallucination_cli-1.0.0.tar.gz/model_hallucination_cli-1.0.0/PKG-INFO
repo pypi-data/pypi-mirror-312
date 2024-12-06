@@ -1,0 +1,209 @@
+Metadata-Version: 2.1
+Name: model-hallucination-cli
+Version: 1.0.0
+Summary: A CLI for checking model hallucinations using Hugging Face datasets.
+Home-page: https://github.com/abhijit/model-hallucination-cli
+Author: Abhijit
+Author-email: Abhijit <abhijitsr92@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: typer>=0.9.0
+Requires-Dist: rich>=13.4.0
+Requires-Dist: datasets>=2.14.0
+Requires-Dist: numpy<1.22.0,>=1.21.0
+
+
+
+---
+
+# **Model Hallucination Evaluator CLI**
+
+A Python CLI tool for evaluating model hallucinations on various datasets, such as **FEVER**, **SimpleQuestions (SimpQ)**, **TruthfulQA**, and **FactCC**, using the Entropix API and the Hugging Face ecosystem. This tool is designed to help researchers and developers assess the factual accuracy of their models and identify potential hallucinations.
+
+---
+
+## **Features**
+
+- Evaluate hallucination rates for local or hosted models.
+- Supports multiple datasets:
+  - **FEVER**: Fact verification claims and evidence dataset.
+  - **SimpleQuestions (SimpQ)**: Fact-based QA dataset.
+  - **TruthfulQA**: Evaluates truthfulness of models.
+  - **FactCC**: Factual consistency in summarization.
+- Beautiful and informative CLI interface using `rich`.
+- Customizable dataset size for quick evaluations.
+- Hugging Face API integration for user-friendly evaluation.
+
+---
+
+## **Installation**
+
+### **From PyPI**
+
+Install the package directly from PyPI:
+
+```bash
+pip install model-hallucination
+```
+
+### **From Source**
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/abhijit-without-h/model-hallucination.git
+   cd model-hallucination
+   ```
+
+2. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Install the package:
+   ```bash
+   pip install .
+   ```
+
+---
+
+## **Usage**
+
+The CLI provides a simple interface for evaluating models on supported datasets. 
+
+### **Available Commands**
+
+#### **Evaluate Dataset**
+Evaluate a model’s hallucination likelihood on a specific dataset.
+
+```bash
+model-hallucination evaluate-dataset --dataset DATASET_NAME --max-samples SAMPLE_COUNT --api-key YOUR_API_KEY
+```
+
+#### **Arguments**
+
+| Argument              | Description                                             |
+|-----------------------|---------------------------------------------------------|
+| `--dataset`           | Dataset to evaluate: `fever`, `simpq`, `truthfulqa`, or `factcc`. |
+| `--max-samples`       | Maximum number of samples to evaluate (default: `100`). |
+| `--api-key`           | Your Hugging Face API key.                              |
+
+#### **Example Usage**
+
+1. **Evaluate FEVER dataset:**
+   ```bash
+   model-hallucination evaluate-dataset --dataset fever --max-samples 50 --api-key hf_your_api_key
+   ```
+
+2. **Evaluate TruthfulQA dataset:**
+   ```bash
+   model-hallucination evaluate-dataset --dataset truthfulqa --max-samples 100 --api-key hf_your_api_key
+   ```
+
+---
+
+## **Supported Datasets**
+
+### 1. **FEVER**
+- Fact verification dataset.
+- Contains claims and corresponding evidence.
+
+### 2. **SimpleQuestions (SimpQ)**
+- Fact-based QA dataset.
+- Includes simple questions with a single fact-based answer.
+
+### 3. **TruthfulQA**
+- Evaluates model truthfulness.
+- Questions designed to test a model’s ability to avoid generating false or misleading information.
+
+### 4. **FactCC**
+- Evaluates factual consistency in text summarization.
+- Includes claim-evidence pairs.
+
+---
+
+## **Example Output**
+
+When evaluating a dataset, the CLI will display results in a table format:
+
+```plaintext
+Loading truthfulqa dataset...
+Evaluating 50 samples...
+
+Hallucination Evaluation
++-----------------------------+-----------------------+--------------------+
+| Input                       | Reference            | Hallucination Score|
++-----------------------------+-----------------------+--------------------+
+| What is the capital of Mars?| None (fictional)     | 0.95               |
+| What is 2 + 2?              | 4                    | 0.01               |
++-----------------------------+-----------------------+--------------------+
+```
+
+---
+
+## **Development**
+
+### **Testing**
+Run unit tests using `pytest`:
+
+```bash
+pytest tests/
+```
+
+### **Building the Package**
+To build the package for distribution:
+
+```bash
+python setup.py sdist bdist_wheel
+```
+
+### **Publishing to PyPI**
+Upload the package to PyPI:
+
+```bash
+twine upload dist/*
+```
+
+---
+
+## **Contributing**
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+---
+
+## **License**
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## **Acknowledgments**
+
+- **Hugging Face** for their datasets library.
+- **Entropix API** for enabling hallucination evaluation.
+- Open-source contributors for inspiration and guidance.
+
+---
+
+## **Contact**
+
+For support or feedback, open an issue on the [GitHub repository](https://github.com/abhijit-without-h/model-hallucination) or email `abhijitsr92@gmail.com`.
+
+--- 
+
+Let me know if you'd like any modifications or additions to this! 🚀
