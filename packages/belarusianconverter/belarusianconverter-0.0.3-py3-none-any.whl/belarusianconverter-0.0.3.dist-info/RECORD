@@ -1,0 +1,13 @@
+BelarusianConverter/__init__.py,sha256=TtG-zCZ1oQqOvg4H14cdYOxMop-VojEtePvwhJkj4ag,36
+BelarusianConverter/arabic.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BelarusianConverter/belarusianconverter.py,sha256=MmGN6BE55UUFxAjIb3JVjWsmpqURbQnaLAqFBoQh6jA,4248
+BelarusianConverter/latin1929.py,sha256=zhNphxaMJmWxsiowxgHssThy9ahdvVuxFFLV1UenDX8,7243
+BelarusianConverter/latin1962.py,sha256=8r2GoENMe26sMEnE4rfzSukQfteJJUUCSK4-Nqp4J5Y,7243
+BelarusianConverter/latinMP.py,sha256=zLTz604kE4z8BN8KXW8yyv3Rb_2VCxeH5SBBJ0pKiVg,8086
+BelarusianConverter/latinUN.py,sha256=GpEkWfumIA2Qo_dDKvVtitHBheaL_iqlYiP5DmM2Utw,6412
+BelarusianConverter/romanization2023.py,sha256=Cu0tDHPZdNpP4jU6aRb51BsiyH55WILsFRWYoWLjSMU,6005
+belarusianconverter-0.0.3.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+belarusianconverter-0.0.3.dist-info/METADATA,sha256=WnRcrtZKBXM6wzJl4--VVl1H4kNlYXKayAcKFyKLjSA,1927
+belarusianconverter-0.0.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+belarusianconverter-0.0.3.dist-info/top_level.txt,sha256=Qb9IibdexTtwhjW6PUt3XULCwI_RXl_c16poB-ld_5I,20
+belarusianconverter-0.0.3.dist-info/RECORD,,
