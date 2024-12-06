@@ -1,0 +1,2 @@
+[console_scripts]
+bouillon = bouillon.cli:main_cli
