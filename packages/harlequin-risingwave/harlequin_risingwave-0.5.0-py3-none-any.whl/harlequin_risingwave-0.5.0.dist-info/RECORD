@@ -1,0 +1,8 @@
+harlequin_risingwave/__init__.py,sha256=Cl1G9yYZK4LsjDmoncTqmQWxeiil7KJb4hiPhl28UVM,78
+harlequin_risingwave/adapter.py,sha256=gqXVusB5H8VDFKhkUmpY37s-giodwJrSgqSvz2PdKas,6850
+harlequin_risingwave/completion.py,sha256=8b1vGCJu3lA6UOdWrOkL9jInLC-olIm6C_JR4gjS-V4,1388
+harlequin_risingwave-0.5.0.dist-info/LICENSE,sha256=4ix-bYe2BfMr6RchyTiQ2g18h5fXPTdVrjB6LLsxoaQ,1068
+harlequin_risingwave-0.5.0.dist-info/METADATA,sha256=4iKS6b2u6Gfb4fR5a2BjmjZ90ZbPiHkp_6D30J4cFOw,2215
+harlequin_risingwave-0.5.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+harlequin_risingwave-0.5.0.dist-info/entry_points.txt,sha256=Xz3HNste35xmjn8Drpf6np-AvPabMjikQ9lhqG1yzvA,80
+harlequin_risingwave-0.5.0.dist-info/RECORD,,
