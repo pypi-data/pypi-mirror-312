@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+agentcrew/__init__.py
+agentcrew.egg-info/PKG-INFO
+agentcrew.egg-info/SOURCES.txt
+agentcrew.egg-info/dependency_links.txt
+agentcrew.egg-info/top_level.txt
