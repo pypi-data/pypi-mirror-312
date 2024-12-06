@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudformation_redis_cloudformation_prosubscription/__init__.py
+src/cdk_cloudformation_redis_cloudformation_prosubscription/py.typed
+src/cdk_cloudformation_redis_cloudformation_prosubscription.egg-info/PKG-INFO
+src/cdk_cloudformation_redis_cloudformation_prosubscription.egg-info/SOURCES.txt
+src/cdk_cloudformation_redis_cloudformation_prosubscription.egg-info/dependency_links.txt
+src/cdk_cloudformation_redis_cloudformation_prosubscription.egg-info/requires.txt
+src/cdk_cloudformation_redis_cloudformation_prosubscription.egg-info/top_level.txt
+src/cdk_cloudformation_redis_cloudformation_prosubscription/_jsii/__init__.py
+src/cdk_cloudformation_redis_cloudformation_prosubscription/_jsii/redis-cloudformation-prosubscription@1.0.0-alpha.7.jsii.tgz
