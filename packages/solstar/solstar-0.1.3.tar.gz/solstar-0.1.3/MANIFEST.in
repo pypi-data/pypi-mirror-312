@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include solstar/dem_python/data/*
+include solstar/GRFF/binaries/*
+include solstar/GRFF/source/*
+include solstar/GRFF/binaries/*

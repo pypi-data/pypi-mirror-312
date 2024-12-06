@@ -1,0 +1,104 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solstar"
+version = "0.1.3"
+description = "A package to simulate GHz radio Sun spectral image cubes"
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { text = "MIT" }
+authors = [
+    { name = "Devojyoti Kansabanik", email = "dkansabanik@ucar.edu" }
+]
+dependencies = [
+    "aiapy==0.9.1",
+    "aioftp==0.23.1",
+    "aiohappyeyeballs==2.4.3",
+    "aiohttp==3.11.8",
+    "aiosignal==1.3.1",
+    "asciitree==0.3.3",
+    "astropy==6.1.7",
+    "astropy-iers-data==0.2024.11.25.0.34.48",
+    "astropy_healpix==1.0.3",
+    "async-timeout==5.0.1",
+    "attrs==24.2.0",
+    "beautifulsoup4==4.12.3",
+    "certifi==2024.8.30",
+    "charset-normalizer==3.4.0",
+    "click==8.1.7",
+    "cloudpickle==3.1.0",
+    "contourpy==1.3.1",
+    "cycler==0.12.1",
+    "dask==2024.11.2",
+    "drms==0.8.0",
+    "fasteners==0.19",
+    "fonttools==4.55.0",
+    "frozenlist==1.5.0",
+    "fsspec==2024.10.0",
+    "h5py==3.12.1",
+    "idna==3.10",
+    "importlib_metadata==8.5.0",
+    "isodate==0.7.2",
+    "joblib==1.4.2",
+    "kiwisolver==1.4.7",
+    "locket==1.0.0",
+    "lxml==5.3.0",
+    "matplotlib==3.9.2",
+    "mpl_animators==1.2.0",
+    "multidict==6.1.0",
+    "numcodecs==0.13.1",
+    "numpy==2.1.3",
+    "packaging==24.2",
+    "pandas==2.2.3",
+    "parfive==2.1.0",
+    "partd==1.4.2",
+    "pillow==11.0.0",
+    "platformdirs==4.3.6",
+    "propcache==0.2.0",
+    "psutil==6.1.0",
+    "pyerfa==2.0.1.5",
+    "pyparsing==3.2.0",
+    "python-dateutil==2.9.0.post0",
+    "pytz==2024.2",
+    "PyYAML==6.0.2",
+    "reproject==0.14.1",
+    "requests==2.32.3",
+    "requests-file==2.1.0",
+    "requests-toolbelt==1.0.0",
+    "scipy==1.14.1",
+    "six==1.16.0",
+    "soupsieve==2.6",
+    "sunpy==6.0.3",
+    "threadpoolctl==3.5.0",
+    "toolz==1.0.0",
+    "tqdm==4.67.1",
+    "typing_extensions==4.12.2",
+    "tzdata==2024.2",
+    "urllib3==2.2.3",
+    "yarl==1.18.0",
+    "zarr==2.18.3",
+    "zeep==4.3.1",
+    "zipp==3.21.0"
+]
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+urls = { "Homepage" = "https://github.com/devojyoti96/solstar" }
+
+# Console scripts entry points
+[project.scripts]
+run_solstar = "solstar.run_GHz_sun_simulator:main"
+aia_download_n_calib = "solstar.aia_download_n_calib:main"
+get_total_tb = "solstar.get_tot_tbmap:main"
+gen_dem = "solstar.gen_dem:main"
+simulate_coronal_tb = "solstar.simulate_coronal_TB:main"
+simulate_chromo_tb = "solstar.simulate_chromo_TB:main"
+make_GHz_solar_spectral_cube = "solstar.make_spectral_cube:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+

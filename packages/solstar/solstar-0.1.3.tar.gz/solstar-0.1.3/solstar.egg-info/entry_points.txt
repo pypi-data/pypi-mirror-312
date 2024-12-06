@@ -1,0 +1,8 @@
+[console_scripts]
+aia_download_n_calib = solstar.aia_download_n_calib:main
+gen_dem = solstar.gen_dem:main
+get_total_tb = solstar.get_tot_tbmap:main
+make_GHz_solar_spectral_cube = solstar.make_spectral_cube:main
+run_solstar = solstar.run_GHz_sun_simulator:main
+simulate_chromo_tb = solstar.simulate_chromo_TB:main
+simulate_coronal_tb = solstar.simulate_coronal_TB:main
