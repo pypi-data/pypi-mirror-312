@@ -1,0 +1,76 @@
+Metadata-Version: 2.3
+Name: rectangle
+Version: 0.5
+Summary: A class for handling rectangle regions.
+Project-URL: repository, https://github.com/NeilGirdhar/rectangle
+Author: Neil Girdhar
+Author-email: mistersheik@gmail.com
+Maintainer: Neil Girdhar
+Maintainer-email: mistersheik@gmail.com
+License: MIT License
+        
+        Copyright (c) 2017 Neil
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: <3.13,>=3.10
+Requires-Dist: numpy>=1.21
+Description-Content-Type: text/x-rst
+
+=========
+Rectangle
+=========
+.. image:: https://badge.fury.io/py/rectangle.svg
+    :target: https://badge.fury.io/py/rectangle
+
+A class for handling rectangle regions.
+
+Example
+=======
+
+.. code-block:: python
+
+    In [1]: from rectangle import Rect
+
+    In [2]: r = Rect(mins=[1, 2], maxes=[4, 6])
+
+    In [3]: r
+    Out[3]: Rect([1. 2.], [4. 6.])
+
+    In [4]: r + 1
+    Out[4]: Rect([2. 3.], [5. 7.])
+
+    In [5]: s = Rect(sizes=[1, 1])
+
+    In [6]: r < s
+    Out[6]: False
+
+    In [7]: s <= r
+    Out[7]: True
+

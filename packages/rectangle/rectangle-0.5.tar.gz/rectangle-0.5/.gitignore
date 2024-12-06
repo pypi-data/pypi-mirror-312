@@ -1,0 +1,9 @@
+# Python
+*.egg-info
+*.pyc
+.eggs
+build
+dist
+
+# vim
+*.orig
