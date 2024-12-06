@@ -1,0 +1,7 @@
+blake3-1.0.0.dist-info/METADATA,sha256=svINTfHUTpziZR8AkwUtvr02DCwUE20_vrnisn36fHI,4118
+blake3-1.0.0.dist-info/WHEEL,sha256=Oex2ET58z8rpL73UKAtYR5gHP0myUA3PMM9CKJKBf64,127
+blake3/__init__.py,sha256=i5GXKa35g4Dt_hOK8OmCFGY-6xDtzmTAGlepSFv_0ns,107
+blake3/__init__.pyi,sha256=Ngl-UCmwX3q3E9IWmQGCqbEQhfdkaoSVd1G1QaHtQNg,750
+blake3/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blake3/blake3.cpython-312-s390x-linux-gnu.so,sha256=8OnZbr0hWFw8S1miftpABDjSv-kJJd0L7XnXkHfWAzk,999224
+blake3-1.0.0.dist-info/RECORD,,
