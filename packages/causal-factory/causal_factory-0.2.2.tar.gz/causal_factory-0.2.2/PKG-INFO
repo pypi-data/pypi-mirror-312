@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: causal-factory
+Version: 0.2.2
+Summary: CausalFactory is Python package for causal model discovery and inference aims to seamlessly discover, visualize, and operationalize causal relationships
+Home-page: https://github.com/Awadelrahman/causal-factory
+Author: Awadelrahman M. A. Ahmed
+Author-email: awadrahman@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mlflow
+Requires-Dist: pandas
+Requires-Dist: gcastle
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: networkx
+Requires-Dist: matplotlib
+
+CausalFactory is Python package for causal model discovery and inference aims to seamlessly discover, visualize, and operationalize causal relationships
