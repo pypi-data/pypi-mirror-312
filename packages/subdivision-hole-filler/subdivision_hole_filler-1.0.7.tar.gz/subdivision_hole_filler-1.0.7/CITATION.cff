@@ -1,0 +1,19 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Filler for N-sided holes
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Lihao
+    family-names: Huang
+    email: huang-lihao@outlook.com
+    orcid: 'https://orcid.org/0000-0003-3828-892X'
+    affiliation: Tsinghua University
+repository-code: 'https://github.com/huang-lihao/subdivision-hole-filler'
+license: MIT
+version: v1.0.7
+date-released: '2024-12-02'
