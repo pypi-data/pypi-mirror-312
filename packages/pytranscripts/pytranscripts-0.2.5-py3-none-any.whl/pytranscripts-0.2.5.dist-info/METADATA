@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pytranscripts
+Version: 0.2.5
+Summary: A python package for extracting electronic health transcripts ,  and then classifying them based on human annotated data.
+Author: eskayML
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: transformers[torch]
+Requires-Dist: datasets
+Requires-Dist: evaluate
+Requires-Dist: accelerate
+Requires-Dist: einops
+Requires-Dist: loguru
+
