@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/bcdb/__init__.py
+src/bcdb/lib.py
+src/bcdb.egg-info/PKG-INFO
+src/bcdb.egg-info/SOURCES.txt
+src/bcdb.egg-info/dependency_links.txt
+src/bcdb.egg-info/top_level.txt
