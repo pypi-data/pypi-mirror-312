@@ -1,0 +1,4 @@
+[console_scripts]
+smart_pr_generator=smart_pr_generator.main:main
+spr=smart_pr_generator.main:main
+
