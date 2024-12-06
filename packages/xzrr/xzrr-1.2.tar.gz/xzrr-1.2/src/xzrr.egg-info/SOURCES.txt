@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/xzrr/Xzrr.py
+src/xzrr/__init__.py
+src/xzrr.egg-info/PKG-INFO
+src/xzrr.egg-info/SOURCES.txt
+src/xzrr.egg-info/dependency_links.txt
+src/xzrr.egg-info/top_level.txt
