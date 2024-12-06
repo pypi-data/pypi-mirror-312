@@ -1,0 +1,1 @@
+Commit edb3202.                    Build and Run scripts for executing the Certora Prover on Solidity smart contracts.
