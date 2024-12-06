@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+license.txt
+setup.py
+soeasypack/__init__.py
+soeasypack.egg-info/PKG-INFO
+soeasypack.egg-info/SOURCES.txt
+soeasypack.egg-info/dependency_links.txt
+soeasypack.egg-info/not-zip-safe
+soeasypack.egg-info/top_level.txt
+soeasypack/core/__init__.py
+soeasypack/core/py_to_pyd.py
+soeasypack/core/slimfile.py
+soeasypack/core/soeasypack.py
+soeasypack/dep_exe/__init__.py
