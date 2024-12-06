@@ -1,0 +1,5 @@
+pymongo
+bson
+
+[dev]
+pytest>=6.0.0
