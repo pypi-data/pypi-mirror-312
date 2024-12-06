@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cricket-scoring
+Version: 1.0.0
+Summary: A library for cricket scoring logic.
+Home-page: https://github.com/Rad-99/cricket_scoring
+Author: Radha Kantipudi
+Author-email: x23226391@student.ncirl.ie
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
