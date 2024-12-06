@@ -1,0 +1,64 @@
+# Requirements for developing the PhasorPy library
+#
+# runtime requirements
+numpy
+scipy
+matplotlib
+click
+pooch
+tqdm
+xarray
+tifffile>=2024.8.30
+#
+# build requirements
+setuptools
+build
+wheel
+twine
+packaging
+cibuildwheel
+Cython>=3.0.11
+# meson-python
+#
+# documentation requirements
+sphinx
+sphinx-issues
+sphinx-design
+sphinx_gallery
+sphinx-copybutton
+sphinx_click
+sphinx-inline-tabs
+numpydoc
+pydata-sphinx-theme>=0.16.0
+#
+# test requirements
+pytest
+coverage
+pytest-cov
+pytest-runner
+pytest-doctestplus
+#
+# tools requirements
+tomli; python_version < "3.11"
+black
+blackdoc
+flake8
+isort
+mypy
+codespell
+cython_lint
+pyupgrade
+autoflake
+pre-commit
+pre-commit-hooks
+#
+# optional requirements
+# scikit-image
+# scikit-learn
+# pandas
+# zarr
+# fsspec
+# bioio
+lfdfiles
+sdtfile
+ptufile
