@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: facile
+Version: 1.6
+Summary: Python constraint programming library
+Home-page: https://github.com/xoolive/facile
+License: LGPL 3.0
+Author: Xavier Olive
+Author-email: git@xoolive.org
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Python constraint programming library
+
+OCaml Facile library is an excellent tool for solving constraint programming problems in OCaml. Facile stands for "Functional Constraint Library". Besides, "facile" means "easy" in French!
+
+This code is a Cython-based wrapping in Python of basic functionalities of this library.
+
+The documentation (installation, quickstart and examples) has been moved to [readthedocs.org](http://facile.readthedocs.io/).
+
+> [!WARNING]
+> I did not write the Ocaml library. I wrote the Python binding.  
+> I can only offer support on the Python binding.  
+> The plan is to clarify the contributions in a very near future.
+
+## Things left to do
+
+- Find a way to better parametrize the resolution process (heuristics, variable choice order, etc.)
+- Study the feasibility of building your own constraints in pure Python.
+
+## Compilation
+
+- `opam switch create 5.1.1`
+- `opam install dune`
+- in `ocaml/facile`: `dune build; dune install`
+- in `python/binding`: `dune build`
+- in `python`: `poetry install`
+- check: `pytest`
+- check few examples: `for i in examples; do python $i; done`
+- finally: `poetry build`
+
