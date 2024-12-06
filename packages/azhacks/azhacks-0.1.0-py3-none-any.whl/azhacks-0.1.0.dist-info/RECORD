@@ -1,0 +1,10 @@
+azhacks/__init__.py,sha256=1tox-AJ7nJ5Ko6xK_IDpCYtD1uk6YlDknN9a3QrD2cs,53
+azhacks/container_manager.py,sha256=-SntWFkxvIv9nKGiszq08a75ISnx_eL2Z2OYYmsjces,5151
+azhacks/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azhacks/queue_manager.py,sha256=IcaDiRvoxSR2qO2ke6LwR44cNcYewvxIN22TCZEo-HA,2033
+azhacks/storage_resource_manager.py,sha256=DpS4QVQjXaF-VcxVp3cPWun754YO72f75o5rfpRqPNI,2396
+azhacks/table_manager.py,sha256=8mZe2jxhm0y4k1wLXThLUw49O-vFY5K99nsec_7ukrY,2517
+azhacks-0.1.0.dist-info/METADATA,sha256=m2w8Q_DFJRrjdxAuX5_hj_tVsd5qWhN8JqPNJftch2I,1602
+azhacks-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+azhacks-0.1.0.dist-info/licenses/LICENSE,sha256=PRuaxuJ3AciS0RnvljnKVu4iE_RHvI5N1fLnwB7XcBw,1070
+azhacks-0.1.0.dist-info/RECORD,,
