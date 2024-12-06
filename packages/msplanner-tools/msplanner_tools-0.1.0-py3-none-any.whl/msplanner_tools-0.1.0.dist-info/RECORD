@@ -1,0 +1,11 @@
+msplanner-tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msplanner-tools/auth.py,sha256=udP6cLMxRFHFZu_ExHDrd-Pj_QsfpVoV_Qz7W6AX8Qg,2549
+msplanner-tools/buckets.py,sha256=8-uKqAXeXFpPMBIBVrXG2MNcmWrNdOmorgi_tacI754,7126
+msplanner-tools/plans.py,sha256=rcr6eRL531BXZKJWkGg3a6Uzzoyb9Q3GvF1OUS498ro,8900
+msplanner-tools/tasks.py,sha256=YFYJiwBYGhezXqZPBvjt8V7io_s-OI_BAz1EKk6WTbI,8332
+msplanner-tools/users.py,sha256=L3HMMUaErfsYolJHW7FFefYAtwAvHKNpGw5rRTb7VzI,2490
+msplanner_tools-0.1.0.dist-info/LICENSE,sha256=IfiRuHfwTE7thpMPvR0Y7XkUc3u4ebK4e8BBHzWa3Do,1062
+msplanner_tools-0.1.0.dist-info/METADATA,sha256=F2BltjLM-DDnZQ_lkkq-iOBLsFbwINEU9mtCjTCOTik,2147
+msplanner_tools-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+msplanner_tools-0.1.0.dist-info/top_level.txt,sha256=M3837kHsyI-m_pvDHpGFv-kQHkHvMaNO1VrEcHshv7c,16
+msplanner_tools-0.1.0.dist-info/RECORD,,
