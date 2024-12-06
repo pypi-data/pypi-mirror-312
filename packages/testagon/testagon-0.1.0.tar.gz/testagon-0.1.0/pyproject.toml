@@ -1,0 +1,21 @@
+[project]
+name = "testagon"
+version = "0.1.0"
+description = "Automated invariant detection and test case generation with LLMs"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "openai",
+    "libcst",
+    "platformdirs",
+    "pytest>=8.3.3",
+    "pytest-json-report",
+    "colorama>=0.4.6",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+testagon = "testagon.cli:main"

@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+testagon/__init__.py
+testagon/__main__.py
+testagon/cli.py
+testagon/critic.py
+testagon/generate_invariants.py
+testagon/logger.py
+testagon/unit_tests.py
+testagon/util.py
+testagon.egg-info/PKG-INFO
+testagon.egg-info/SOURCES.txt
+testagon.egg-info/dependency_links.txt
+testagon.egg-info/entry_points.txt
+testagon.egg-info/requires.txt
+testagon.egg-info/top_level.txt
