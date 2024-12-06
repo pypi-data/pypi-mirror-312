@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/danav/__init__.py
+src/danav.egg-info/PKG-INFO
+src/danav.egg-info/SOURCES.txt
+src/danav.egg-info/dependency_links.txt
+src/danav.egg-info/top_level.txt
