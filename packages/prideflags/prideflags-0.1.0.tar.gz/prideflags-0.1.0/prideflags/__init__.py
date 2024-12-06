@@ -1,0 +1,1 @@
+from .flags import print_flag, list_flags, get_random_flag

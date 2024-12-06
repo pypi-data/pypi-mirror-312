@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+prideflags/__init__.py
+prideflags/flags.py
+prideflags/utils.py
+prideflags.egg-info/PKG-INFO
+prideflags.egg-info/SOURCES.txt
+prideflags.egg-info/dependency_links.txt
+prideflags.egg-info/top_level.txt

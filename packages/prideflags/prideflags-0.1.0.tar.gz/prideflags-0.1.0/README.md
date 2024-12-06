@@ -1,0 +1,42 @@
+# prideflags
+pride flags library for python 3.9+
+## installation
+```bash
+pip install prideflags
+```
+## usage
+```python
+import prideflags
+
+# Print a specific flag
+prideflags.print_flag("gay")
+
+# List all available flags
+print(prideflags.list_flags())
+
+# Get and print a random flag
+random_flag = prideflags.get_random_flag()
+print(f"Random flag: {random_flag}")
+prideflags.print_flag(random_flag)
+```
+## flags
+- straight
+- gay
+- bisexual
+- lesbian
+- trans
+- pansexual
+- nonbinary
+- demiboy
+- demigirl
+- genderfluid
+- aromantic
+- agender
+- asexual
+- graysexual
+## credits
+- [me](https://github.com/sctech-tr) for the code
+- [pypi](https://pypi.org/project/prideflags/) for hosting
+- [pridefetch](https://github.com/cartoon-raccoon/pridefetch) for flags
+- [git.gay](https://git.gay) for the git repository
+- and you for using this library! <3
