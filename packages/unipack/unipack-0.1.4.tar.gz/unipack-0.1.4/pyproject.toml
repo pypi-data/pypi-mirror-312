@@ -1,0 +1,9 @@
+[project]
+name = "unipack"
+version = "0.1.4"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10" #version python nécessaire
+dependencies = [
+    "matplotlib>=3.9.2",
+]

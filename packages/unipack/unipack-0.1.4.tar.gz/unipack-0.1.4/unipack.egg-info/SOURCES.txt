@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+unipack/__init__.py
+unipack/uniprot.py
+unipack/uniprot_collection.py
+unipack.egg-info/PKG-INFO
+unipack.egg-info/SOURCES.txt
+unipack.egg-info/dependency_links.txt
+unipack.egg-info/requires.txt
+unipack.egg-info/top_level.txt
