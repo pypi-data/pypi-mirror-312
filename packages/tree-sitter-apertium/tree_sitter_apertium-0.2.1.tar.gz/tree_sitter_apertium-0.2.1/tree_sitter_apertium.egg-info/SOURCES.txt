@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tree_sitter_apertium/__init__.py
+tree_sitter_apertium.egg-info/PKG-INFO
+tree_sitter_apertium.egg-info/SOURCES.txt
+tree_sitter_apertium.egg-info/dependency_links.txt
+tree_sitter_apertium.egg-info/requires.txt
+tree_sitter_apertium.egg-info/top_level.txt
+tree_sitter_apertium/test/__init__.py
+tree_sitter_apertium/test/test.py
