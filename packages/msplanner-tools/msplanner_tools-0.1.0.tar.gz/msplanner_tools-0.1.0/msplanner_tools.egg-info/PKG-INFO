@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: msplanner-tools
+Version: 0.1.0
+Summary: Library to interact with Microsoft Planner via API Graph
+Author-email: Miguel Batista <miguelsbatista0610@gmail.com>
+License: Copyright 2024 Miguel Batista
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Repository, https://github.com/MigueldsBatista/msplanner-tools
+Keywords: Microsoft Planner,API,Graph,Python,Tasks,Buckets,Plans
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: msal
+
+# MSPlanner Tools
+
+MSPlanner Tools is a Python library designed to interact with Microsoft Planner through the Microsoft Graph API. This library provides functionalities to manage plans, tasks, buckets and authentication within Microsoft Planner.
+
+## Features
+
+- Create, update, and delete plans
+- Create, update, and delete tasks
+- Create, update, and delete buckets
+- Retrieve details of plans, tasks, and buckets
+- Manage OAuth2 tokens for accessing Microsoft Graph API
+
+## Installation
+
+To install the library just run:
+
+```sh
+pip install msplanner-tools
+```
