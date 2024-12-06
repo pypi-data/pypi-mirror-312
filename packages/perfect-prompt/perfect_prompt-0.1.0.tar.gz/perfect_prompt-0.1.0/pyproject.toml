@@ -1,0 +1,71 @@
+[project]
+name = "perfect-prompt"
+version = "0.1.0"
+description = "Perfect your image generation prompt with a visual LLM."
+readme = "README.md"
+authors = [{name = "James Stout"}]
+requires-python = ">=3.11"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "click>=8.1.7",
+    "httpx>=0.27.2",
+    "huggingface-hub>=0.26.1",
+    "llm-gemini>=0.3",
+    "llm-mistral>=0.7",
+    "llm>=0.17.1",
+    "mistral-common[opencv]>=1.4.4",
+    "mistral-inference>=1.5.0",
+    "python-dotenv>=1.0.1",
+    "torch>=2.4.1",
+    "xformers>=0.0.28.post1",
+]
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cu124", marker = "platform_system != 'Darwin'"},
+]
+xformers = [
+  { index = "pytorch-cu124", marker = "platform_system != 'Darwin'"},
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+Homepage = "https://github.com/wolfmanstout/perfect-prompt"
+Changelog = "https://github.com/wolfmanstout/perfect-prompt/releases"
+Issues = "https://github.com/wolfmanstout/perfect-prompt/issues"
+CI = "https://github.com/wolfmanstout/perfect-prompt/actions"
+
+[project.scripts]
+perfect-prompt = "perfect_prompt.cli:cli"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.3",
+]
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+ignore = ["E501", "SIM105", "SIM116", "UP007"]
