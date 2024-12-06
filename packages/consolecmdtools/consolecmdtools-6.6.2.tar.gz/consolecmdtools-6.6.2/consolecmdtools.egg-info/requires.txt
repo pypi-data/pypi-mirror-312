@@ -1,0 +1,9 @@
+consoleiotools
+
+[dev]
+build
+twine
+wheel
+
+[opt]
+pillow
