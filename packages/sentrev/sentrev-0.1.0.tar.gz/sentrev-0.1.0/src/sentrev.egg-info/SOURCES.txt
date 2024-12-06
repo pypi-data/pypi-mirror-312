@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/sentrev/__init__.py
+src/sentrev/evaluator.py
+src/sentrev/utils.py
+src/sentrev.egg-info/PKG-INFO
+src/sentrev.egg-info/SOURCES.txt
+src/sentrev.egg-info/dependency_links.txt
+src/sentrev.egg-info/requires.txt
+src/sentrev.egg-info/top_level.txt
