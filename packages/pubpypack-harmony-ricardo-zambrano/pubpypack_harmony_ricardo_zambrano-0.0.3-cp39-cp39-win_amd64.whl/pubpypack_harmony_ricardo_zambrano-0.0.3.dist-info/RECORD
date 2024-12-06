@@ -1,0 +1,14 @@
+imppkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/data.json,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/harmonic_mean.c,sha256=odo_1BwOeUGJ79JZlz8WOloNVv_lFAIPHFGEzfvkTLE,257341
+imppkg/harmonic_mean.cp39-win_amd64.pyd,sha256=TBy3lLYNpaQ-eMpwWJdQs6njqZAtNmFfBQzFiUl8vcI,33280
+imppkg/harmonic_mean.pyx,sha256=aR0WFIh8icLxNZfhrOFeU2b-I-3U_kWk_nx7y4J7RvE,277
+imppkg/harmony.py,sha256=FsLWy62swKnin90M7MeDGEk2VIYE-BG49HbATBrqlD4,1630
+imppkg/hello.py,sha256=9bjrHV-BuKqXmufmxB3HdMxbfVbRGxCvrvt93_2YAE0,269
+imppkg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pubpypack_harmony_ricardo_zambrano-0.0.3.dist-info/LICENSE,sha256=VZGy9b9-AN14-kroWNqNTlPbF9T_YXB52wotncJyNns,95
+pubpypack_harmony_ricardo_zambrano-0.0.3.dist-info/METADATA,sha256=sHUyV937dXz0UngW0zwIdMvbMCl9ooP7p6vBeg0g0Vc,603
+pubpypack_harmony_ricardo_zambrano-0.0.3.dist-info/WHEEL,sha256=EfPXSsrLwp9clrn29v9vbmPfEm-IfFzseSJd0ZtI9XA,99
+pubpypack_harmony_ricardo_zambrano-0.0.3.dist-info/entry_points.txt,sha256=feiUFKolyjyA-i9QN-YuipocWPVf07pii8AbrEjvfW8,48
+pubpypack_harmony_ricardo_zambrano-0.0.3.dist-info/top_level.txt,sha256=I91hjGcw_F0H8zGbV0bRxPlcQJVwYHLtIyAPaQ9x-hE,7
+pubpypack_harmony_ricardo_zambrano-0.0.3.dist-info/RECORD,,
