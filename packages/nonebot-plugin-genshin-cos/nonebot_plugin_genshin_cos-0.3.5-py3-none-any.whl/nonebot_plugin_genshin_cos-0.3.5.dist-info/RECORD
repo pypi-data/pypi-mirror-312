@@ -1,0 +1,10 @@
+nonebot_plugin_genshin_cos-0.3.5.dist-info/METADATA,sha256=jx-hOg9SOOCWW4ZbBrB9pLHe4eq5xQ8NyZ1NpOcY6SE,4769
+nonebot_plugin_genshin_cos-0.3.5.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+nonebot_plugin_genshin_cos-0.3.5.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+nonebot_plugin_genshin_cos-0.3.5.dist-info/licenses/LICENSE,sha256=xsMvwYg38wCsrYifeHRWjqLD51p57ZWCFwtGBjQnM-I,1065
+nonebot_plugin_genshin_cos/__init__.py,sha256=RrdLp0Xha7Nn6bitFNBa-S7GGZSwKd60nTFszrccFPI,1506
+nonebot_plugin_genshin_cos/config.py,sha256=GUTe8_0Vbt_e-CpFD_mFtr39UpUF2Oh6DRlXhUMpuHc,260
+nonebot_plugin_genshin_cos/hoyospider.py,sha256=h4NqQ5DLZ4TUCDaPO0t4MS3vk43KJcLWwwjqLdvQq7I,13901
+nonebot_plugin_genshin_cos/matcher.py,sha256=ui1gYRQhV7vi77qmA8i00W4t2s7l5voYwzBkIWgjTZo,14936
+nonebot_plugin_genshin_cos/utils.py,sha256=2deCt5y3_p3L0KkgdXMRMA8--Yz-bHev5FmXr1-QWuE,4949
+nonebot_plugin_genshin_cos-0.3.5.dist-info/RECORD,,
