@@ -1,0 +1,8 @@
+setup.py
+mailify/__init__.py
+mailify/mailer.py
+mailify.egg-info/PKG-INFO
+mailify.egg-info/SOURCES.txt
+mailify.egg-info/dependency_links.txt
+mailify.egg-info/requires.txt
+mailify.egg-info/top_level.txt
