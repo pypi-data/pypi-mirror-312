@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: hmk1
+Version: 0.1.2
+Summary: A package that is quite pointless
+License: MIT
+Author: some dude
+Author-email: jr5887@nyu.edu
+Maintainer: John Smith
+Maintainer-email: johnsmith@example.org
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: annotated-types (==0.7.0)
+Requires-Dist: anyio (==4.6.2.post1)
+Requires-Dist: astor (==0.8.1)
+Requires-Dist: attrs (==24.2.0)
+Requires-Dist: autodocstrings (==0.1.3)
+Requires-Dist: black (==24.10.0)
+Requires-Dist: certifi (==2024.8.30)
+Requires-Dist: cffi (==1.17.1)
+Requires-Dist: cfgv (==3.4.0)
+Requires-Dist: charset-normalizer (==3.3.2)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: coverage (==7.6.4)
+Requires-Dist: cryptography (==43.0.1)
+Requires-Dist: distlib (==0.3.9)
+Requires-Dist: distro (==1.9.0)
+Requires-Dist: exceptiongroup (==1.2.2)
+Requires-Dist: filelock (==3.16.1)
+Requires-Dist: git-filter-repo (==2.45.0)
+Requires-Dist: gitdb (==4.0.11)
+Requires-Dist: gitdb2 (==4.0.2)
+Requires-Dist: gitpython (==3.0.6)
+Requires-Dist: h11 (==0.14.0)
+Requires-Dist: httpcore (==1.0.6)
+Requires-Dist: httpx (==0.27.2)
+Requires-Dist: identify (==2.6.2)
+Requires-Dist: idna (==3.10)
+Requires-Dist: iniconfig (==2.0.0)
+Requires-Dist: jiter (==0.7.0)
+Requires-Dist: jsonschema (==4.23.0)
+Requires-Dist: jsonschema-specifications (==2024.10.1)
+Requires-Dist: markdown-it-py (==3.0.0)
+Requires-Dist: mdurl (==0.1.2)
+Requires-Dist: mypy (==1.13.0)
+Requires-Dist: mypy-extensions (==1.0.0)
+Requires-Dist: nodeenv (==1.9.1)
+Requires-Dist: openai (==1.54.3)
+Requires-Dist: packaging (==24.2)
+Requires-Dist: pathspec (==0.12.1)
+Requires-Dist: platformdirs (==4.3.6)
+Requires-Dist: pluggy (==1.5.0)
+Requires-Dist: pre-commit (==4.0.1)
+Requires-Dist: pycparser (==2.22)
+Requires-Dist: pydantic (==2.9.2)
+Requires-Dist: pydantic-core (==2.23.4)
+Requires-Dist: pygments (==2.18.0)
+Requires-Dist: pytest (==8.3.3)
+Requires-Dist: pytest-cov (==6.0.0)
+Requires-Dist: pytest-mock (==3.14.0)
+Requires-Dist: pyyaml (==6.0.2)
+Requires-Dist: referencing (==0.35.1)
+Requires-Dist: requests (==2.32.3)
+Requires-Dist: rich (==13.9.4)
+Requires-Dist: rpds-py (==0.21.0)
+Requires-Dist: scapy (==2.6.0)
+Requires-Dist: shellingham (==1.5.4)
+Requires-Dist: smmap (==5.0.1)
+Requires-Dist: sniffio (==1.3.1)
+Requires-Dist: tomli (==2.0.2)
+Requires-Dist: tqdm (==4.67.0)
+Requires-Dist: trufflehogregexes (==0.0.7)
+Requires-Dist: typer (==0.13.0)
+Requires-Dist: typing-extensions (==4.12.2)
+Requires-Dist: urllib3 (==2.2.3)
+Requires-Dist: virtualenv (==20.27.1)
+Description-Content-Type: text/markdown
+
+# This is homework1 of CS-GY/UY 3943/9223 SUpply Chain Secrity
+
+## set-up:
+This entire project is based on the sigstore [cosign](https://docs.sigstore.dev/cosign/system_config/installation/) tools
+on linux:
+```bash
+curl -O -L "https://github.com/sigstore/cosign/releases/latest/download/cosign-linux-amd64"
+sudo mv cosign-linux-amd64 /usr/local/bin/cosign
+sudo chmod +x /usr/local/bin/cosign
+```
+If you have ``go`` or ``homebrew`` it would be easier.
+## Signing an artifact:
+1. Sign an artifact using cosign tool with your identity using:
+```bash
+    cosign sign-blob <file> --bundle cosign.bundle
+  ```
+You can also refer to the official [cosign tutorial](https://docs.sigstore.dev/cosign/signing/signing_with_blobs/)
+
+## After signing an artifact:
+commands:
+```bash
+python3 main.py -c
+python3 main.py --inclusion <artifact> 
+  # (the last argument can be changed to anything you signed)
+python3 main.py --consistency
+```
+## Important notes:
+
+- This repo runs a [Trufflehog](https://github.com/trufflesecurity/trufflehog) 
+    command to scan each latest commit attempt to prevent secret leak,
+    however, the local repo on linux environment resulted in likely non-functional
+    pre-commit config. The Docker image of Trufflehog does not support laetst one-
+    commit scan. For Mac environment, modify ``pre-commit-config.yaml``, line 7, to:
+    ```yaml
+    entry: bash -c 'trufflehog git file://. --since-commit HEAD --no-verification --fail --max-depth=1'
+    ```
+
+## notes
+The point of this homework is the know-how of cosign tools, i particular the rekor APIs
+- the "security" is implemented as a merkle tree, and in this homework I compare two nodes in the tree:
+the latest checkpoint provided by Rekor that is just simply literally the latest checkpoint
+and the checkpoint of my own signed artifact which is retrievable via
+api call using the log index generated when I signed the artifact.
+
+- somehow against my simple understanding of the merkle tree implementation, the "treeSize" filed goes backward:
+If you check the log index 1 on Rekor, the tree size is huge (4163431) while by the point I did this homework
+and signed a dummy, the size is only 1110000+ ~ish, I wonder what happens when number
+reaches 0.
+
+- prof explained in class that this implementation is lighter-weight than actual blockchain but I don't quite see why or how.
+
+
+## reference materials:
+- [Template Code from class TA](https://github.com/mayank-ramnani/python-rekor-monitor-template)
+- [Rekor API Spec](https://www.sigstore.dev/swagger/#/tlog/getLogInfo)
