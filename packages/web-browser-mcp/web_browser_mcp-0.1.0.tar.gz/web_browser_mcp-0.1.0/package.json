@@ -1,0 +1,34 @@
+{
+  "name": "@modelcontextprotocol/server-web-browser",
+  "version": "0.1.0",
+  "description": "An MCP server implementation for web browsing capabilities using BeautifulSoup4",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-web-browser": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modelcontextprotocol/servers.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "web-browser",
+    "beautifulsoup"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modelcontextprotocol/servers/issues"
+  },
+  "homepage": "https://github.com/modelcontextprotocol/servers#readme"
+}
