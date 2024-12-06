@@ -1,0 +1,15 @@
+unipkg.py,sha256=rK6QJIQqGjDLo7qpVExdJY4j13SLVLnufxfXaEnujj0,5161
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/check_other_pms.py,sha256=90wkXnYRooG43389rZqAhAmf7x59fuEMnrMfIgBvprs,589
+src/execute_command.py,sha256=1U-eumn5URkAur7Vz26L9DsP5qjTsIFs5lj-9ie_19Q,4152
+src/get_commands.py,sha256=rZr98i0BAYtZ_9uHt4iLxfVUDvrBB287aFvsQB-Hdp0,5273
+src/get_pms.py,sha256=0HGhu8VHwk3eLkl6klGOfogGGF8WM-OPlqQzfkoLbCU,1072
+src/loop.py,sha256=Pohd82Jw_3epvmWdhkvI3yWP-63ZwiimC9tyBEz7KO4,801
+src/settings.py,sha256=ayVHArDArUhS_s8jJHgk2sVV_V_8vR9KtftxfbylP94,2727
+src/vars.py,sha256=fkZvt7ZH55RA0RZugHofCx6N5sbJZeN6SanuSiOzAWk,360
+unipkg-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+unipkg-0.1.3.dist-info/METADATA,sha256=vvPBZ712uZ7q5BimOubAPHDrD0spIEeSa85ydZ3mla0,3691
+unipkg-0.1.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+unipkg-0.1.3.dist-info/entry_points.txt,sha256=S4qldQlGQpAXFx6yYBzJKfdeooLbX2joQYJaKcdGZ8Q,39
+unipkg-0.1.3.dist-info/top_level.txt,sha256=WuqV1W0wHv3dcvNu5_SwlQwlp3s7WhZSYNtJZJpsw4w,11
+unipkg-0.1.3.dist-info/RECORD,,
