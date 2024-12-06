@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: visualize_heapq
+Version: 0.0.1
+Summary: A package that visualizes heapq heaps
+Project-URL: Homepage, https://github.com/zlliu246/visualize_heapq
+Project-URL: Issues, https://github.com/zlliu246/visualize_heapq/issues
+Author-email: Liu Zuo Lin <zlliu246@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: print-btree
+Description-Content-Type: text/markdown
+
+
+# visualize_heapq
+
+This file is the first thing users see when they visit PyPI or github
+
+describe what your project does here
