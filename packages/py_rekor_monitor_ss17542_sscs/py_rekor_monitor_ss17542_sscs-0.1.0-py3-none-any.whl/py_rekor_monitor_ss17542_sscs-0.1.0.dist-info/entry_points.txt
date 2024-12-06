@@ -1,0 +1,3 @@
+[console_scripts]
+py_rekor_monitor_ss17542_sscs=py_rekor_monitor_ss17542_sscs.main:main
+
