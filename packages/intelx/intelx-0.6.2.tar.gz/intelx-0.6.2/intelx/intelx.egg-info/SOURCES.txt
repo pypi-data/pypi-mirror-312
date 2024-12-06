@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+intelx/intelx_identity.py
+intelx/intelxapi.py
+intelx/intelx.egg-info/PKG-INFO
+intelx/intelx.egg-info/SOURCES.txt
+intelx/intelx.egg-info/dependency_links.txt
+intelx/intelx.egg-info/requires.txt
+intelx/intelx.egg-info/top_level.txt
+scripts/intelx.py
