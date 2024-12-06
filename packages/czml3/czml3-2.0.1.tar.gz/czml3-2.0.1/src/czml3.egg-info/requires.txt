@@ -1,0 +1,15 @@
+pydantic>=2.10.1
+python-dateutil<3,>=2.7
+w3lib
+typing-extensions>=4.12.0
+StrEnum>=0.4.0
+
+[dev]
+astropy
+pytest
+pytest-cov
+pytest-mypy
+types-python-dateutil
+tox
+build
+ruff
