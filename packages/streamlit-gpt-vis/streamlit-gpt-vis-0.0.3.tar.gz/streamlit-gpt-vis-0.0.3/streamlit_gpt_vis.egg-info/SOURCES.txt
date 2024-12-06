@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+streamlit_gpt_vis/__init__.py
+streamlit_gpt_vis.egg-info/PKG-INFO
+streamlit_gpt_vis.egg-info/SOURCES.txt
+streamlit_gpt_vis.egg-info/dependency_links.txt
+streamlit_gpt_vis.egg-info/requires.txt
+streamlit_gpt_vis.egg-info/top_level.txt
+streamlit_gpt_vis/frontend/dist/bootstrap.min.css
+streamlit_gpt_vis/frontend/dist/index.html
+streamlit_gpt_vis/frontend/dist/assets/index-DVvu74bu.js
+streamlit_gpt_vis/frontend/dist/assets/index-Da9KaUzh.js
+streamlit_gpt_vis/frontend/dist/assets/worker-dpUGKuRO.js
