@@ -1,0 +1,13 @@
+gptcmd/__init__.py,sha256=H1VP_DsASPPmP-AYfevOn2owLgXBxY0T_hwKQ4Kugz0,80
+gptcmd/cli.py,sha256=RMTbkNphvcNDCFeeZFZBrfS1bi4mVPBpWKxhPAyQGAI,45421
+gptcmd/config.py,sha256=r9wfepuJ0s3iu4fzQ8rqUl8zFHuoC8_JiMAmhQz-sks,7087
+gptcmd/config_sample.toml,sha256=sP2XTs4L27cZeAm3ECYkIfPHM2VyFKnp19gUmXJdHyM,4180
+gptcmd/message.py,sha256=x0q3X9-uKBc_aJHBg7I5Wd6kkMBSD9ukzyy0xbbD6ZY,13416
+gptcmd/llm/__init__.py,sha256=KJX_8q2m4YQOiVHYK9hXx1gkQrrjCZegGDd94S5KHQc,5918
+gptcmd/llm/openai.py,sha256=XCvjwfW0I92vhRr6LulF1CwfLjvs5yrgbrm1It8iJhs,11765
+gptcmd-2.0.1.dist-info/COPYING.txt,sha256=TWRdxsaB9yyJ10eakraTzKQhFX_felhEdponlLV8VOM,64009
+gptcmd-2.0.1.dist-info/METADATA,sha256=U0bu4FXnmiF3tfrAJD48GMyFjXoCdYP7LS7CjgFKvb8,39269
+gptcmd-2.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+gptcmd-2.0.1.dist-info/entry_points.txt,sha256=CDloM_MYqvRRX4UAvWJ6GfEtswuia2SAljZ3KxOFECs,43
+gptcmd-2.0.1.dist-info/top_level.txt,sha256=4MA_jx_CFd2VMkoCBNhr2QDF0PThi-fMhdCkawZbu1o,7
+gptcmd-2.0.1.dist-info/RECORD,,
