@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "irctk-bot"
+version = "0.2.1"
+description = "Bot framework for irctk"
+authors = ["Kyle Fuller <kyle@fuller.li>"]
+license = "BSD"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+irc-toolkit = "^0.4.0"
+
+[tool.poetry.scripts]
+irctk-bot = 'irctk_bot.cli:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
