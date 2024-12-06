@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "fronius_solarweb"
+version = "0.3.2"
+description = "A Python wrapper for the Fronius Solar.web Cloud API"
+authors = ["Derek Caudwell <derek_caudwell@hotmail.com>"]
+readme = "README.md"
+repository = "https://github.com/drc38/python-fronius-web"
+license = "MIT"
+
+[tool.poetry.urls]
+issues = "https://github.com/drc38/python-fronius-web/issues"
+
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+httpx = ">=0.23"
+pydantic = ">=2,<3.0"
+tenacity = ">=8.1,<10.0"
+
+
+[tool.poetry.dev-dependencies]
+black = "^24.1"
+isort = "^5.10.1"
+pylint = "^3.2"
+pytest = "^8.2"
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
