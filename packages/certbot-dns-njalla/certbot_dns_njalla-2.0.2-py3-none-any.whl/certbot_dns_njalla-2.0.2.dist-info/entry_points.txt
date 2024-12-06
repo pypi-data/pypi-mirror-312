@@ -1,0 +1,2 @@
+[certbot.plugins]
+dns-njalla = certbot_dns_njalla.dns_njalla:Authenticator
