@@ -1,0 +1,13 @@
+interfacy_cli/__init__.py,sha256=KMGLzAIgrIcMHJM4mPBVPZHqRPBXbKCyBOfx-UnEejw,145
+interfacy_cli/argparse_backend.py,sha256=HfPywW43PtGXtQyZ025Bs-OJ9YOMZpRj_0pYWfAOU6A,24620
+interfacy_cli/click_backend.py,sha256=NZkiGzpEv0ei6h0qnh6uvgiANioOJNxTnYTCG6mpXaI,13616
+interfacy_cli/core.py,sha256=SQxRy5R4DgIwXmohrgSgt_QdmhmuFoErO-YUYVEy_Y4,4101
+interfacy_cli/exceptions.py,sha256=w2d6UgaTN7KlmbOyT8k_6KRqljne5K5okHcMP6VrGlI,885
+interfacy_cli/flag_generator.py,sha256=UCGFhtj8I82hzM7xOscHh8J9pX9rknU0MkdChNS-Cks,3219
+interfacy_cli/themes.py,sha256=I6lO5lm6PluRMjw9_X41k60ELirIR8gI52e57XqGZQs,4860
+interfacy_cli/util.py,sha256=GNeg36Tr_ay8G1SYopO_cbBcgJ6bv2t7pgOHOahfv04,5050
+interfacy_cli-0.2.1.dist-info/LICENSE,sha256=QZDpZpY8EeSqcJeD9h21EnBz9IcIMlPaIhoxjYuDKzE,1071
+interfacy_cli-0.2.1.dist-info/METADATA,sha256=0vYdyvkP9Au8WP95jC5nyuXqElcFj8Ohr6VxS2m2Oms,1856
+interfacy_cli-0.2.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+interfacy_cli-0.2.1.dist-info/top_level.txt,sha256=37W5M_w4SYm5FbsdyyK0j-cZ291p6c7TjIpbydQy6ZU,14
+interfacy_cli-0.2.1.dist-info/RECORD,,
