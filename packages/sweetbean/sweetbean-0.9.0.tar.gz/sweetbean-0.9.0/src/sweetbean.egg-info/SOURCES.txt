@@ -1,0 +1,104 @@
+.DS_Store
+.gitattributes
+.gitignore
+.pre-commit-config.yaml
+LICENCE
+README.md
+main.py
+mkdocs.yml
+pyproject.toml
+.github/workflows/publish-documentation-gh-pages.yml
+.github/workflows/python-publish.yml
+.github/workflows/test-pytest.yml
+build_scripts/img_processing.py
+build_scripts/res/stroop-timeline.png
+build_scripts/res/trolley-problem.png
+docs/Announcement.md
+docs/Contributor Guide.md
+docs/index.md
+docs/styles.css
+docs/Examples/index.md
+docs/Examples/AI Alignment/Trolley Problem.ipynb
+docs/Examples/AI Alignment/trolley_problem.json
+docs/Examples/Psychophysics/psychophysics.ipynb
+docs/Examples/Psychophysics/sweetpea.ipynb
+docs/Notebooks/Basic LLM Experiment.ipynb
+docs/Notebooks/tst.py
+docs/Quickstart Guide/(1) First Experiment.ipynb
+docs/Quickstart Guide/(2) Instruction Block.ipynb
+docs/Quickstart Guide/(3) Stroop Block.ipynb
+docs/Quickstart Guide/(4) Responses and Feedback.ipynb
+docs/Quickstart Guide/Mastery.ipynb
+docs/Quickstart Guide/index.md
+docs/Stimuli/index.md
+docs/Stimuli/choice/bandit.html
+docs/Stimuli/choice/bandit.py
+docs/Stimuli/choice/index.md
+docs/Stimuli/image/image.html
+docs/Stimuli/image/image.py
+docs/Stimuli/image/index.md
+docs/Stimuli/rdp/index.md
+docs/Stimuli/rdp/weber_fechner.html
+docs/Stimuli/rdp/weber_fechner.py
+docs/Stimuli/rok/index.md
+docs/Stimuli/rok/rok.html
+docs/Stimuli/rok/rok.py
+docs/Stimuli/survey/index.md
+docs/Stimuli/survey/likert.py
+docs/Stimuli/survey/multi_choice.html
+docs/Stimuli/survey/multi_choice.py
+docs/Stimuli/survey/text_survey.html
+docs/Stimuli/survey/text_survey.py
+docs/Stimuli/symbols/index.md
+docs/Stimuli/symbols/symbols.html
+docs/Stimuli/symbols/symbols.py
+docs/Stimuli/text/feedback_manual.html
+docs/Stimuli/text/feedback_manual.py
+docs/Stimuli/text/flanker.html
+docs/Stimuli/text/flanker.py
+docs/Stimuli/text/index.md
+docs/Stimuli/text/text.html
+docs/Stimuli/text/text.py
+docs/User Guide/data_variables.md
+docs/User Guide/function_variables.md
+docs/User Guide/index.md
+docs/User Guide/llm_synthetic_participant.md
+docs/User Guide/overview.md
+docs/User Guide/timeline_variables.md
+docs/img/word-cloud.png
+docs/javascripts/mathjax.js
+examples/.DS_Store
+examples/AI Experiment/Basic LLM Experiment.ipynb
+examples/AI Experiment/Psychometric.ipynb
+examples/AI Experiment/Stability Flexibility.ipynb
+examples/AI Experiment/google_api.py
+examples/AI Experiment/llama_api.py
+examples/text/.DS_Store
+mkdocs/gen_ref_pages.py
+mkdocs/hooks.py
+mkdocs/overrides/main.html
+src/sweetbean/__init__.py
+src/sweetbean/_const.py
+src/sweetbean/block.py
+src/sweetbean/data.py
+src/sweetbean/experiment.py
+src/sweetbean.egg-info/PKG-INFO
+src/sweetbean.egg-info/SOURCES.txt
+src/sweetbean.egg-info/dependency_links.txt
+src/sweetbean.egg-info/requires.txt
+src/sweetbean.egg-info/top_level.txt
+src/sweetbean/stimulus/Choice.py
+src/sweetbean/stimulus/HtmlKeyboardResponse.py
+src/sweetbean/stimulus/Image.py
+src/sweetbean/stimulus/RO.py
+src/sweetbean/stimulus/Stimulus.py
+src/sweetbean/stimulus/Survey.py
+src/sweetbean/stimulus/Video.py
+src/sweetbean/stimulus/_Template_.py
+src/sweetbean/stimulus/__init__.py
+src/sweetbean/util/parse.py
+src/sweetbean/variable/__init__.py
+tests/test_js_code.py
+tests/test_stimuli.py
+transcrypt_static/copy.js
+transcrypt_static/runtime.js
