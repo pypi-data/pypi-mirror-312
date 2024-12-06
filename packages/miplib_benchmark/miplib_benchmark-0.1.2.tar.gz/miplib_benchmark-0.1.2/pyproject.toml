@@ -1,0 +1,23 @@
+[project]
+name = "miplib_benchmark"
+version = "0.1.2"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.1.7",
+    "highspy>=1.8.1",
+    "polars>=1.15.0",
+    "requests>=2.32.3",
+    "tqdm>=4.67.1",
+]
+
+[project.scripts]
+miplib = "miplib_benchmark:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
