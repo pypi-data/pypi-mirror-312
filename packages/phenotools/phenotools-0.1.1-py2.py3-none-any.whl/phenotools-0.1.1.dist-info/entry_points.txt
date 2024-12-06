@@ -1,0 +1,3 @@
+[console_scripts]
+phenotools-q = phenotools.manage:djangohuey
+phenotools-w = phenotools.manage:runserver
