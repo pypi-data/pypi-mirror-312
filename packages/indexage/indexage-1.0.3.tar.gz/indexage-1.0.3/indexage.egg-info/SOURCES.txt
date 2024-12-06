@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+indexage/__init__.py
+indexage/__main__.py
+indexage/assets.py
+indexage/lib.py
+indexage.egg-info/PKG-INFO
+indexage.egg-info/SOURCES.txt
+indexage.egg-info/dependency_links.txt
+indexage.egg-info/index.html
+indexage.egg-info/top_level.txt
