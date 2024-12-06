@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: 2024-ass2-ErbaFiore
+Version: 1.0.1
+Summary: Assignment2 DevOps
+Author: GruppoErbaFiore
+Author-email: l.erba6@campus.unimib.it
+License: MIT
+Requires-Dist: pymongo
+Requires-Dist: pytest
+Requires-Dist: prospector
+Requires-Dist: bandit
+Requires-Dist: mkdocs
+Requires-Dist: twine
