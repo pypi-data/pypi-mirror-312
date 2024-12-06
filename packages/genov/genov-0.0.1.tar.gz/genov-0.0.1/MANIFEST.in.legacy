@@ -1,0 +1,5 @@
+recursive-include assets *
+recursive-include src *.json
+recursive-include src *.csv
+recursive-include src *.xlsx
+recursive-include src *.bin

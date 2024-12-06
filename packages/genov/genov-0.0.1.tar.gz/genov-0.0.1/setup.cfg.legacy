@@ -1,0 +1,32 @@
+[metadata]
+name = enov-murex
+version = 0.1.2
+author = jean-sebastien guillard
+author_email = jsebastien.guillard@gmail.com
+description = project management toolbox at Murex
+long_description = file: README.md
+long_description_content_type = text/markdown
+classifiers =
+    Programming Language :: Python :: 3
+    License :: Other/Proprietary License
+    Operating System :: OS Independent
+
+[options]
+install_requires =
+    com-enovation
+    click
+    pandas
+    pywin32
+package_dir =
+    = src
+packages = find:
+python_requires = >=3.11
+
+include_package_data = True
+
+[options.packages.find]
+where = src
+
+[options.entry_points]
+console_scripts =
+    mx = enov.murex.murex:mx
