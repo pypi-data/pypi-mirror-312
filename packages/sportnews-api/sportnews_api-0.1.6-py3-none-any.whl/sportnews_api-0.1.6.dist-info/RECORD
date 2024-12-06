@@ -1,0 +1,9 @@
+sportnews/__init__.py,sha256=y4pGVukKemSpeBwjxR4MAoKJWBZQcxmOyVfszSdrEZ8,192
+sportnews/client.py,sha256=0JZaYwKJt9R59lJ8mjNXuZgJr9yKlSM66H35YGlvpZw,4795
+sportnews/exceptions.py,sha256=uctPHkpTB2CLghPNrKMb9710AO9zFRi8qzaspFu9Y_Q,96
+sportnews/models.py,sha256=Nf0DwiGgpmMXZyow7lmc8ilIphf6HQCKbU4exrcxkAU,1552
+sportnews_api-0.1.6.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sportnews_api-0.1.6.dist-info/METADATA,sha256=aJ_-UNNaFDWBZ6OmSYwIVwKCwumS7Pdl9_FJwC40xKE,3906
+sportnews_api-0.1.6.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+sportnews_api-0.1.6.dist-info/top_level.txt,sha256=aNLorH93c9VKHIRcG1cgqWeecoflCVcAF6D6T1RPrJw,10
+sportnews_api-0.1.6.dist-info/RECORD,,
