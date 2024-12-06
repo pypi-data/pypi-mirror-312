@@ -1,0 +1,95 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eric-ide-server"
+description =  "eric7_server is the server part of the eric7 IDE."
+readme = "docs/README-server.md"
+license = {text = "GPLv3"}
+authors = [
+    {name = "Detlev Offenbach"},
+    {name = "Detlev Offenbach", email = "detlev@die-offenbachs.de"},
+]
+maintainers = [
+    {name = "Detlev Offenbach"},
+    {name = "Detlev Offenbach", email = "detlev@die-offenbachs.de"},
+]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Environment :: MacOS X",
+    "Environment :: Win32 (MS Windows)",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows :: Windows 11",
+    "Operating System :: POSIX :: BSD",
+    "Operating System :: POSIX :: BSD :: FreeBSD",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Debuggers",
+    "Topic :: Text Editors :: Integrated Development Environments (IDE)",
+]
+keywords = [
+    "Development",
+    "eric-ide",
+    "IDE",
+    "Python3", 
+]
+requires-python = ">=3.9, <3.14"
+dependencies = [
+    "pip>=21.1",
+    "EditorConfig",
+    "coverage>=6.5.0",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://eric-ide.python-projects.org"
+Donation = "https://www.paypal.com/donate/?hosted_button_id=XG3RSPKE3YAJ2"
+"Issues Tracker" = "https://tracker.die-offenbachs.homelinux.org/"
+"Source Code" = "https://hg.die-offenbachs.homelinux.org/eric/"
+Download = "https://sourceforge.net/projects/eric-ide/files/latest/download"
+"Mailing List" = "https://www.riverbankcomputing.com/mailman/listinfo/eric"
+News = "https://eric-ide.python-projects.org/eric-news.html"
+
+[project.scripts]
+eric7_server =  "eric7.eric7_server:main"
+
+#
+# setuptools specific parts below
+#
+
+[tool.setuptools]
+platforms = [
+    "FreeBSD",
+    "Linux",
+    "macOS",
+    "Windows",
+]
+include-package-data = false
+
+[tool.setuptools.dynamic]
+version = {attr = "eric7.__version__.VersionOnly"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = [
+    "*.txt",
+    "*.md",
+    "*.rst",
+]

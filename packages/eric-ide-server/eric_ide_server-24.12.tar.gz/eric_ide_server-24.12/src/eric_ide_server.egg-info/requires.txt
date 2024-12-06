@@ -1,0 +1,3 @@
+pip>=21.1
+EditorConfig
+coverage>=6.5.0
