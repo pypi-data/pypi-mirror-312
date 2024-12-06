@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+azumio_foodai/__init__.py
+azumio_foodai/food_response.py
+azumio_foodai/foodai.py
+azumio_foodai.egg-info/PKG-INFO
+azumio_foodai.egg-info/SOURCES.txt
+azumio_foodai.egg-info/dependency_links.txt
+azumio_foodai.egg-info/requires.txt
+azumio_foodai.egg-info/top_level.txt
+tests/test_foodai.py
