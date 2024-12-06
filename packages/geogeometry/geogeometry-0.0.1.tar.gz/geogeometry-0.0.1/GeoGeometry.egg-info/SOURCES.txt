@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+GeoGeometry.egg-info/PKG-INFO
+GeoGeometry.egg-info/SOURCES.txt
+GeoGeometry.egg-info/dependency_links.txt
+GeoGeometry.egg-info/top_level.txt
+geogeometry/__init__.py
+geogeometry.egg-info/PKG-INFO
+geogeometry.egg-info/SOURCES.txt
+geogeometry.egg-info/dependency_links.txt
+geogeometry.egg-info/top_level.txt
