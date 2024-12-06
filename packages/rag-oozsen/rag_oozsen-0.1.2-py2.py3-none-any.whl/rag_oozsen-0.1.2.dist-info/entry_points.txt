@@ -1,0 +1,2 @@
+[console_scripts]
+rag_oozsen = rag_oozsen.cli:main
