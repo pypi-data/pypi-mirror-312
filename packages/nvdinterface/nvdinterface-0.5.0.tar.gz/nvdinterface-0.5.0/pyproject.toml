@@ -1,0 +1,42 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "nvdinterface"
+version = "0.5.0"
+authors = [
+    "Lachlan Jones",
+]
+description = "An convenience python class for interacting with NVD"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+
+[project.urls]
+Homepage = "https://github.com/lachjones/nvdinterface"
+Repository = "https://github.com/lachjones/nvdinterface"
+Issues = "https://github.com/lachjones/nvdinterface/issues"
+Changelog = "https://github.com/LachJones/nvdinterface/tags"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+requests = "==2.32.3"
+datetime = "==5.5"
+iso639-lang = "==2.5.1"
+
+[tool.poetry.group.tests]
+optional = true
+
+[tool.poetry.group.tests.dependencies]
+black = "==24.10.0"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "==8.1.3"
