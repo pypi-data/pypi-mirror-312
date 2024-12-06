@@ -1,0 +1,17 @@
+[package]
+name = "wakapi-anyide"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "wakapi_anyide"
+crate-type = ["cdylib"]
+
+[dependencies.pyo3]
+version = "0.22.5"
+features = ["abi3-py312", "extension-module"]
+
+[dependencies.notify]
+version = "7.0.0"
+default-features = false
+features = ["macos_kqueue"]

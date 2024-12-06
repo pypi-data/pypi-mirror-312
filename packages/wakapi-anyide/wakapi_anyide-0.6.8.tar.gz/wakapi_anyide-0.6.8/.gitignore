@@ -1,0 +1,19 @@
+.venv/
+__pycache__
+
+# Added by cargo
+
+/target
+/release
+
+# Maturin
+
+*.abi3.so
+
+# Build output
+
+/dist
+
+# Ruff
+
+.ruff_cache
