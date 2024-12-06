@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Xsrkt_26.egg-info/PKG-INFO
+Xsrkt_26.egg-info/SOURCES.txt
+Xsrkt_26.egg-info/dependency_links.txt
+Xsrkt_26.egg-info/top_level.txt
+example_2/__init__.py
