@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pipincode
+Version: 1
+Summary: Pip in code
+Author: Dang Vo Anh Kiet
+Author-email: himnnha23@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
