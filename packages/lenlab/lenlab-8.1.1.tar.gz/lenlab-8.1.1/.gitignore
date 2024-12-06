@@ -1,0 +1,9 @@
+.idea/
+.venv/
+dist/
+
+.theia/
+.settings/
+.clangd
+Debug/
+targetConfigs/
