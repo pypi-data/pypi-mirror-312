@@ -1,0 +1,4 @@
+[console_scripts]
+gnuxexec=gnuxlinux.exec:main
+gnuxlinux=gnuxlinux.__main__:main
+
