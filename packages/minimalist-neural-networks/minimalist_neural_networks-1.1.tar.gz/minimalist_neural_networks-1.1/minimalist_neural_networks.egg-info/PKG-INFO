@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: minimalist_neural_networks
+Version: 1.1
+Summary: A minimalist implementation of deep neural networks which requires few dependencies.
+Home-page: https://github.com/VictorLaugt/NeuralNetworksFromScratch
+Author: Victor Laügt
+Author-email: victorlaugtdev@gmail.com
+License: GPLv3
+Keywords: deep machine learning minimalist neural network
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
