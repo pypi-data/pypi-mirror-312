@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/TheApi/__init__.py
+src/TheApi/api.py
+src/TheApi/func.py
+src/TheApix.egg-info/PKG-INFO
+src/TheApix.egg-info/SOURCES.txt
+src/TheApix.egg-info/dependency_links.txt
+src/TheApix.egg-info/requires.txt
+src/TheApix.egg-info/top_level.txt
