@@ -1,0 +1,19 @@
+name: Enhancement
+description: Request a new feature.
+labels: [enhancement]
+assignees: [brobeson]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of Rayne are you using?
+    validations:
+      required: true
+  - type: textarea
+    id: enhancement
+    attributes:
+      label: New Feature
+      description: Describe the new feature.
+    validations:
+      required: true

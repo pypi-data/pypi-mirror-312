@@ -1,0 +1,118 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Rayne: Pipeline",
+      "icon": {
+        "color": "terminal.ansiMagenta",
+        "id": "tools"
+      },
+      "detail": "Run all tasks",
+      "type": "shell",
+      "dependsOn": [
+        "Rayne: Build the Docs",
+        "Rayne: Mypy",
+        "Rayne: Prettier",
+        "Rayne: Spell Check"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Rayne: Build the Docs",
+      "icon": {
+        "color": "terminal.ansiGreen",
+        "id": "book"
+      },
+      "detail": "Build the user documentation",
+      "type": "shell",
+      "command": "sphinx-build",
+      "args": [
+        "--write-all",
+        "--fail-on-warning",
+        "--builder=html",
+        "--doctree-dir=build/doctrees",
+        "--jobs=auto",
+        "--nitpicky",
+        "docs/",
+        "docs/build/html"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Rayne: Spell Check",
+      "icon": {
+        "color": "terminal.ansiGreen",
+        "id": "tools"
+      },
+      "detail": "Run CSpell on all files",
+      "type": "shell",
+      "command": "cspell",
+      "args": ["--gitignore", "--dot", "--show-suggestions", "."],
+      "problemMatcher": {
+        "applyTo": "allDocuments",
+        "fileLocation": "absolute",
+        "pattern": {
+          "regexp": "^([^:]+):(\\d+):(\\d+) - (.+)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "message": 4
+        },
+        "severity": "info",
+        "source": "cspell task",
+        "owner": "cspell task"
+      }
+    },
+    {
+      "label": "Rayne: Prettier",
+      "icon": {
+        "color": "terminal.ansiGreen",
+        "id": "tools"
+      },
+      "detail": "Run Prettier on all files",
+      "type": "shell",
+      "command": "prettier",
+      "args": ["--write", "./**/*.{md,json,yaml}"],
+      "problemMatcher": {
+        "applyTo": "allDocuments",
+        "fileLocation": "absolute",
+        "pattern": {
+          "regexp": "^([^:]+):(\\d+):(\\d+) - (.+)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "message": 4
+        },
+        "severity": "info",
+        "source": "cspell task",
+        "owner": "cspell task"
+      }
+    },
+    {
+      "label": "Rayne: Mypy",
+      "icon": {
+        "color": "terminal.ansiGreen",
+        "id": "tools"
+      },
+      "detail": "Run Mypy on all Python files",
+      "type": "shell",
+      "command": "mypy",
+      "args": ["."],
+      "problemMatcher": {
+        "applyTo": "allDocuments",
+        "fileLocation": "relative",
+        "pattern": {
+          "regexp": "^([^:]+):(\\d+): ([^:]+): ([^\\[]+)\\[([^\\]]+)]$",
+          "file": 1,
+          "line": 2,
+          "severity": 3,
+          "message": 4,
+          "code": 5
+        },
+        "severity": "info",
+        "source": "mypy task",
+        "owner": "mypy task"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+[project]
+authors = [{ name = "brobeson", email = "brobeson@users.noreply.github.com" }]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Testing",
+]
+description = "A micro benchmarking utility for Python"
+keywords = ["python", "benchmark", "micro-benchmark", "microbenchmark"]
+license = { file = "LICENSE" }
+name = "Rayne"
+readme = "README.rst"
+requires-python = ">=3.7"
+version = "0.1.0"
+
+[project.urls]
+Documentation = "https://rayne.readthedocs.io"
+Repository = "https://github.com/brobeson/Rayne"
+"Issue Tracker" = "https://github.com/brobeson/Rayne/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.coverage.run]
+omit = ["docs/conf.py"]
+
+[tool.isort]
+profile = "black"
+skip_gitignore = true
+no_sections = true

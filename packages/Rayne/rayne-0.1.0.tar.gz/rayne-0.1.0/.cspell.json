@@ -1,0 +1,29 @@
+{
+  "version": "0.2",
+  "dictionaries": ["python"],
+  "ignorePaths": [".gitignore", "__pycache__", ".git/"],
+  "words": [
+    "autodocstring",
+    "automodule",
+    "bierner",
+    "brobeson",
+    "copybutton",
+    "davidanson",
+    "debugpy",
+    "doctree",
+    "doctrees",
+    "esbenp",
+    "furo",
+    "isort",
+    "linenos",
+    "literalinclude",
+    "microbenchmark",
+    "nitpicky",
+    "njpwerner",
+    "pylance",
+    "pylint",
+    "rayne",
+    "tamasfe",
+    "testpypi"
+  ]
+}
