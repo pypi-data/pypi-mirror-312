@@ -1,0 +1,10 @@
+README.md
+setup.py
+currency_normalizer/__init__.py
+currency_normalizer/currencies.yaml
+currency_normalizer/currency_normalizer.py
+currency_normalizer.egg-info/PKG-INFO
+currency_normalizer.egg-info/SOURCES.txt
+currency_normalizer.egg-info/dependency_links.txt
+currency_normalizer.egg-info/requires.txt
+currency_normalizer.egg-info/top_level.txt

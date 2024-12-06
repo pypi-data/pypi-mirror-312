@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: currency_normalizer
+Version: 0.0.2
+Summary: A module to normalize currency strings
+Author: Enes Kuzucu
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+
+Whole purpose of this package is to normlize currency strings to the standard currency codes
+
+You can input USD or $ or USD dollars and it will be normalized. This is it. 
+
+
+```
+
+cn = CurrencyNormalizer()
+r=cn.normalize("$")
+print(r)
+
+# output is "USD"
+
+```
+
+
+
+
