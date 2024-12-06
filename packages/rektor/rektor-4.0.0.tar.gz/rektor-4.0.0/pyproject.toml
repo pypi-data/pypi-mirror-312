@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "rektor"
+packages = [
+    { include = "rektor" }
+]
+version = "4.0.0"
+description = "Rekor Transparency Log Verifier"
+authors = ["Adnan Jakati <mj3184@nyu.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+cryptography = "^43.0.3"
+mypy = "^1.11"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+mypy = "^1.13.0"
+ruff = "^0.7.3"
+flake8 = "^7.1.1"
+pylint = "^3.3.1"
+bandit = "^1.7.10"
+pytest = "^8.3.3"
+pytest-cov = "^6.0.0"
+truffleHog = "^2.2.1"
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+
+[tool.mypy]
+files = ["rektor/main.py", "rektor/merkle_proof.py", "rektor/util.py"]
+
+[tool.flake8]
+max-line-length = 88
+
+[tool.ruff]
+select = ["E", "F", "W"]
+
+[tool.pylint]
+disable = ["C0114", "C0115", "C0116"]
+
+[tool.bandit]
+targets = ["."]
