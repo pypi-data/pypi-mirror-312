@@ -1,0 +1,12 @@
+UniversalBackupValidator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+UniversalBackupValidator/cli.py,sha256=2bQU3DVlwqVzJ54J3gAoAHeTvfqhesYklApWemqJBoA,9194
+validators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+validators/sevenz_validator.py,sha256=GjVzBb6fdjB9H4BUOTdw6g3QhZRpaXHwVkrRh2nk4Ag,872
+validators/tar_validator.py,sha256=r3aDJQKJGhsJQJvXnsqk6Q0PwJo6GmUt4K57CaCb8WY,826
+validators/zip_validator.py,sha256=mDPGo5eq4_L7UbqOsQuJ-0JpG0kaADsbdoBEIxfezCg,1270
+UniversalBackupValidator-1.0.0.dist-info/LICENSE,sha256=y3FwP7aYBymPALG7bO6SrOcDeJE3Bc4CYfj7277tAKs,917
+UniversalBackupValidator-1.0.0.dist-info/METADATA,sha256=VgsPYuYburNvyBcCkhHrREQ-fyWprwbTB2qK5bTyN4o,3570
+UniversalBackupValidator-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+UniversalBackupValidator-1.0.0.dist-info/entry_points.txt,sha256=A_7g2pQD0EBCpjR3xv9DOwbbWWXvYUieOmhdy29lagE,58
+UniversalBackupValidator-1.0.0.dist-info/top_level.txt,sha256=3yt9UXJMXX8AbtNZ9Mb3whY6CUegET4bmohjPcPMT5U,36
+UniversalBackupValidator-1.0.0.dist-info/RECORD,,
