@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+varphi_types/__init__.py
+varphi_types/varphi_types.py
+varphi_types.egg-info/PKG-INFO
+varphi_types.egg-info/SOURCES.txt
+varphi_types.egg-info/dependency_links.txt
+varphi_types.egg-info/top_level.txt
