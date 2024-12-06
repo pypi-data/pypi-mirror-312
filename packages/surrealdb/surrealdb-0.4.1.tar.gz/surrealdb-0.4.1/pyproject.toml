@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "surrealdb"
+version = "0.4.1"
+description = "The official SurrealDB library for Python."
+readme = "README.md"
+authors = ["SurrealDB"]
+license = "Apache-2.0"
+repository = "https://github.com/surrealdb/surrealdb.py"
+documentation = "https://surrealdb.com/docs/sdk/python"
+keywords = ["SurrealDB", "Database"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Database",
+    "Topic :: Database :: Front-Ends",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-rust"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+cbor2 = "^5.6.5"
+websockets = "^14.1"
+
+[tool.poetry.group.dev]
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.0"
+black = "^24.10.0"
+mypy = "^1.13.0"
+types-requests = "^2.32.0.20241016"
+
