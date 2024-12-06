@@ -1,0 +1,17 @@
+novara/commands/configure.py,sha256=8IoU3qiPuHZVWSjIYtKqbUvmuWm6R3Euzw-rfUkYx9w,2967
+novara/commands/docker.py,sha256=BRgjcYmTy-CXoj3xE-2P7yWLHbU7flaKD5G1hGLXptU,1202
+novara/commands/generate.py,sha256=Lwx9e3xOEiyOwMcO6I0uGpralOxYwnorlnlXwfRz2MQ,4210
+novara/commands/init.py,sha256=X3Yq4jyDxJVrgyrZ5u9i4IbBHvebqWQ5Db300xdOjc8,3331
+novara/commands/logs.py,sha256=jrQK5XiNvqL9dWS36_CEaG4LoYM-aWs0R5sgU5QF_nU,2251
+novara/commands/pull.py,sha256=rKtDnKH5zYCz_UikAtfjrWV1UJ8jY7_ewP7khC7Zyfc,8373
+novara/commands/run.py,sha256=vK8WoU7TjOJlmSw8Ocq4pah4Tk97ONZ4IzSHEHOVij8,7552
+novara/commands/status.py,sha256=1HrG_5VRuOw4ZvE_gYz936WCZuciQFKYDSaOOg1kgHk,1817
+novara/config.py,sha256=r9e4dC8WRIqUVHr6p2yLi8cNmfYIT3dsH2l48mErLLQ,3150
+novara/constants.py,sha256=2zMAMJTD4TcSMZTHt0V8fopYIl12jSQEsFIXimNz7V0,279
+novara/main.py,sha256=XMbpcYK5Du84DykFLAKDDZQQJ_ocuelGbb-lFIH6icQ,700
+novara/request.py,sha256=VJe_uV0jA2Eq3uiwrD4ReipMXCEx4wW1Tz8V_qCzekU,6819
+novara/utils.py,sha256=SR1r46WmHEE8_g10YAykocpTRsftnMMia9DPnTc5ppc,2693
+novara-0.1.12.dist-info/METADATA,sha256=BUoqvr_3GaYmJYCKHde2Ofusp5TguQSdSbi5AIG52V4,2053
+novara-0.1.12.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+novara-0.1.12.dist-info/entry_points.txt,sha256=w-KxJ7Wk8dq2RRKOUJpRVHuKx4sQ-edI7UV73w7z36k,43
+novara-0.1.12.dist-info/RECORD,,
