@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+chatrouter/__init__.py
+chatrouter/py.typed
+chatrouter.egg-info/PKG-INFO
+chatrouter.egg-info/SOURCES.txt
+chatrouter.egg-info/dependency_links.txt
+chatrouter.egg-info/requires.txt
+chatrouter.egg-info/top_level.txt

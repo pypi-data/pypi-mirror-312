@@ -1,0 +1,3 @@
+aiofiles
+typing-extensions
+types-aiofiles
