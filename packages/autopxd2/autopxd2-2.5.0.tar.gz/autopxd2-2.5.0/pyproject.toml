@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autopxd2"
+version = "2.5.0"
+description = "Automatically generate Cython pxd files from C headers"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "elijahr", email = "elijahr+autopxd2@gmail.com" },
+  { name = "Emmanuel Leblond", email = "emmanuel.leblond@gmail.com" },
+  { name = "Gabriel de Marmiesse", email = "gabrieldemarmiesse@gmail.com" },
+  { name = "Thiago de Arruda", email = "tpadilha84@gmail.com" },
+]
+urls = { "Homepage" = "https://github.com/elijahr/python-autopxd2" }
+keywords = ["autopxd", "autopxd2", "cython", "code-generators"]
+classifiers = [
+  "Topic :: Software Development :: Compilers",
+  "Topic :: Software Development :: Code Generators",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Cython",
+  "Programming Language :: C",
+  "Programming Language :: C++",
+]
+dependencies = ["Click", "pycparser"]
+
+[project.optional-dependencies]
+dev = ["pytest", "cython", "pre-commit"]
+
+[project.scripts]
+autopxd = "autopxd:cli"
+
+[tool.setuptools.package-data]
+autopxd = [
+  "stubs/include/*",
+  "stubs/include/**/*",
+  "stubs/darwin-include/*",
+  "stubs/darwin-include/**/*",
+]
+
+[tool.black]
+# black-compatible configurations for various Python code formatters.
+# Assembled from https://black.readthedocs.io/en/stable/compatible_configs.html
+line_length = 120
+preview = true
+
+[tool.autopep8]
+exclude = ".git,__pycache__"
+max-line-length = 120
+ignore = "E203,E501,W6"
+
+[tool.isort]
+profile = "black"
+known_first_party = "autopxd"
+known_third_party = ["click", "pycparser", "pytest", "Cython", "libc"]
+# line_length is intentionally small, to ensure each imported object gets its
+# own line.
+line_length = 10
+multi_line_output = 3
+include_trailing_comma = true
+
+[tool.pylint]
+max-line-length = 120
+disable = [
+  "missing-class-docstring",
+  "missing-module-docstring",
+  "import-error",
+  "invalid-name",
+  "missing-function-docstring",
+  "too-many-arguments",
+  "too-few-public-methods",
+  "too-many-branches",
+  "consider-using-f-string",
+  "unused-import",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["test"]

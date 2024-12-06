@@ -1,0 +1,7 @@
+Click
+pycparser
+
+[dev]
+pytest
+cython
+pre-commit
