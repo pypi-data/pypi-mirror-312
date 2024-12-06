@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: minnesota-immunization-data-pipeline
+Version: 0.1.10
+Summary: A data pipeline that minimizes manual effort when extracting immunization records from the Minnesota Department of Health, transforming them, and loading them into the student information system, Infinite Campus.
+Home-page: https://github.com/DillonOLeary/immunization-records-pipeline
+License: GPL-3.0-only
+Keywords: etl,poetry,immunization,civic tech
+Author: Dillon O'Leary
+Author-email: dillon.oleary@icloud.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Project-URL: Repository, https://github.com/DillonOLeary/immunization-records-pipeline
+Description-Content-Type: text/markdown
+
+# Immunization Records Pipeline
+A data pipeline that minimizes manual effort when extracting immunization records from the Minnesota Department of Health, transforming them, and loading them into the student information system, Infinite Campus.
