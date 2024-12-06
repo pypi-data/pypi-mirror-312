@@ -1,0 +1,13 @@
+README.md
+setup.py
+morgan_course_data/__init__.py
+morgan_course_data/api.py
+morgan_course_data/db.py
+morgan_course_data/types.py
+morgan_course_data/utils.py
+morgan_course_data.egg-info/PKG-INFO
+morgan_course_data.egg-info/SOURCES.txt
+morgan_course_data.egg-info/dependency_links.txt
+morgan_course_data.egg-info/requires.txt
+morgan_course_data.egg-info/top_level.txt
+tests/test_morgan_course_data.py
