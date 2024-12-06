@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+seleniumproxy/__init__.py
+seleniumproxy/core.py
+seleniumproxy.egg-info/PKG-INFO
+seleniumproxy.egg-info/SOURCES.txt
+seleniumproxy.egg-info/dependency_links.txt
+seleniumproxy.egg-info/requires.txt
+seleniumproxy.egg-info/top_level.txt
