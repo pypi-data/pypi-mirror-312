@@ -1,0 +1,10 @@
+apple_notes_mcp/__init__.py,sha256=9WteQ2jVS8m5SCyCXx1qE5uH6CwHkKycwPUo7Ys-wR8,467
+apple_notes_mcp/notes_database.py,sha256=cQlHj-zbQEKIt1749kslaKicpMpC9aUjArfv_Ur7eSA,10377
+apple_notes_mcp/server.py,sha256=wvfe831LGJHXX7ho7ClG2SCn_mseOkRpjsGU51pqE7U,10296
+apple_notes_mcp/proto/notestore.proto,sha256=HK7xb0j_4kKMMpc3Ra0hVaYdQRrvFBfDQasu7QBOo88,6675
+apple_notes_mcp/proto/notestore_pb2.py,sha256=TC7PTFiNQvfmOZ_aZSQbHb4jWgLlnuP4YzPp3Chi3B0,9662
+apple_notes_mcp-0.1.1.dist-info/METADATA,sha256=mnLqliBdZ2kHZBMURTcDlTYKq8ERDDIhtyZrkRXinT0,3928
+apple_notes_mcp-0.1.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+apple_notes_mcp-0.1.1.dist-info/entry_points.txt,sha256=hqkgy6xN1GXWnWuwYBtUHP28gNZYnkgq1t9TrZoQ8eU,57
+apple_notes_mcp-0.1.1.dist-info/licenses/LICENSE,sha256=Z7YCVqOtyjBIpDvAf_V6hr-wtuEF12UpFZjCSV3H6dk,1070
+apple_notes_mcp-0.1.1.dist-info/RECORD,,
