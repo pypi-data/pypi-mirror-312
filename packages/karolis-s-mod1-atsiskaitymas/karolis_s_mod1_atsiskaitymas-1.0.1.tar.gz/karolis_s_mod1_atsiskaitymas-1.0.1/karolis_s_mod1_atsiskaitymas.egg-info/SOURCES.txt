@@ -1,0 +1,10 @@
+README.md
+setup.py
+karolis_s_mod1_atsiskaitymas/__init__.py
+karolis_s_mod1_atsiskaitymas/main.py
+karolis_s_mod1_atsiskaitymas/testai.py
+karolis_s_mod1_atsiskaitymas.egg-info/PKG-INFO
+karolis_s_mod1_atsiskaitymas.egg-info/SOURCES.txt
+karolis_s_mod1_atsiskaitymas.egg-info/dependency_links.txt
+karolis_s_mod1_atsiskaitymas.egg-info/entry_points.txt
+karolis_s_mod1_atsiskaitymas.egg-info/top_level.txt

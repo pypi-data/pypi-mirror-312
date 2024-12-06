@@ -1,0 +1,2 @@
+[console_scripts]
+karolis_crawl = karolis_s_mod1_atsiskaitymas.main:crawl_gintarine

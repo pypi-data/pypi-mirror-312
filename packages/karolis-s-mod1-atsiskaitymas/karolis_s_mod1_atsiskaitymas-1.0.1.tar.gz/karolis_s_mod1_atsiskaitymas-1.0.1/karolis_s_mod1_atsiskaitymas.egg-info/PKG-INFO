@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: karolis_s_mod1_atsiskaitymas
+Version: 1.0.1
+Author: Karolis
+Author-email: karolis.skruibis@codeacademylt.onmicrosoft.com
+Description-Content-Type: text/markdown
+
+Å is projektas leidÅ¾ia nuskaityti produktÅ³ informacijÄ… (pavadinimÄ… ir kainÄ…) iÅ¡ `https://www.gintarine.lt/asmens-higiena-3`.
+
+Naudojimas
+
+from karolis_s_mod1_atsikaitymas.main import *
+
+Nuskaitymas iÅ¡ Gintarines vaistines puslapio
+
+from karolis_s_mod1_atsiskaitymas.main import *
+products = crawl_gintarine ()
+
+    for product in products:
+        print (f"Pavadinimas: {product['title']}")
+        print (f"Kaina: {product['price']}")
