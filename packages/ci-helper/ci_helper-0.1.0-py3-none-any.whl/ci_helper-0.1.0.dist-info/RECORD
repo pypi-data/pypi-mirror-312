@@ -1,0 +1,11 @@
+ci_helper/__init__.py,sha256=npB_KdSACjRyJBy26TlLH10bIQfUOiuSsY3qfbOPsrE,89
+ci_helper/__main__.py,sha256=fbOQhtWVfi4kBLd4d9YJT158NDZ_fgn_23uiA3RQ5gk,4421
+ci_helper/__version__.py,sha256=PKz6bKiuM7wAkBz7aPv3HGZ4P_H59_GqQ8O4b7vSYTg,624
+ci_helper/ci_distinfo.py,sha256=aTfWgQ1mq2dNBW7IYv0Tv0DBogMyb5zgV2nf7sayc8M,2052
+ci_helper-0.1.0.data/data/lib/python3.12/site-packages/setuptools/_distutils/command/ci_distinfo.py,sha256=wv41yjVJHfhgcplPzgA0SHRZjoGyiApDwJrI_9DK7tw,46
+ci_helper-0.1.0.dist-info/LICENSE.txt,sha256=3mgN7gts5RUJpaxp4BZ8quNCSpZGbtsFib10aRfwGHc,1079
+ci_helper-0.1.0.dist-info/METADATA,sha256=SDSACFVsEsgryXWDzg844UMN2v_rs60RTc1jZ87A1nY,5457
+ci_helper-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+ci_helper-0.1.0.dist-info/entry_points.txt,sha256=9elbjJQ006m9owk3zYufl-CMqaL9F5cgHVDeJcNFxwE,54
+ci_helper-0.1.0.dist-info/top_level.txt,sha256=hDnJJ-LWQDv6CsxZ0T4b69G4yfSND5EofhlgMu8QrfU,10
+ci_helper-0.1.0.dist-info/RECORD,,
