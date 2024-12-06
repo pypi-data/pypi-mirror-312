@@ -1,0 +1,2 @@
+[console_scripts]
+concat-stories = app:main
