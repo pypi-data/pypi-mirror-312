@@ -1,0 +1,136 @@
+Metadata-Version: 2.3
+Name: web-browser-mcp-server
+Version: 0.1.2
+Summary: Transform your AI applications with advanced web browsing capabilities through this Model Context Protocol (MCP) server
+Project-URL: Repository, https://github.com/blazickjp/web-browser-mcp-server
+License: MIT
+Requires-Python: >=3.11
+Requires-Dist: aiohttp==3.9.1
+Requires-Dist: beautifulsoup4==4.12.2
+Requires-Dist: click==8.1.7
+Requires-Dist: fastapi>=0.110.0
+Requires-Dist: mcp>=1.0.0
+Requires-Dist: pydantic-settings>=2.1.0
+Requires-Dist: pydantic>=2.8.0
+Requires-Dist: python-dotenv==1.0.0
+Requires-Dist: requests==2.31.0
+Requires-Dist: uvicorn==0.27.0
+Provides-Extra: test
+Requires-Dist: aioresponses==0.7.6; extra == 'test'
+Requires-Dist: httpx>=0.27.0; extra == 'test'
+Requires-Dist: pluggy==1.3.0; extra == 'test'
+Requires-Dist: pytest-asyncio==0.23.5; extra == 'test'
+Requires-Dist: pytest-cov==4.1.0; extra == 'test'
+Requires-Dist: pytest==8.0.0; extra == 'test'
+Description-Content-Type: text/markdown
+
+# Web Intelligence MCP Server
+
+Transform your AI applications with advanced web browsing capabilities. This Model Context Protocol (MCP) server empowers AI systems to intelligently navigate, extract, and analyze web content with precision and reliability.
+
+## Overview
+
+The Web Intelligence MCP server bridges the gap between AI systems and web content, enabling sophisticated web browsing capabilities through a robust, production-ready API. By leveraging the power of BeautifulSoup4 and modern async processing, it provides AI applications with the ability to understand and extract structured information from any webpage.
+
+## Key Features
+
+The server provides enterprise-grade capabilities for web content processing:
+
+- Intelligent content extraction with customizable CSS selectors
+- High-performance asynchronous processing
+- Comprehensive metadata capture including titles, links, and structured content
+- Robust error handling and timeout management
+- Production-ready security features
+- Cross-platform compatibility
+
+## Integration with Claude and AI Applications
+
+Seamlessly integrate web browsing capabilities into your AI workflows by adding this configuration to your `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "web-intelligence": {
+      "module": "web-browser-mcp",
+      "env": {
+        "REQUEST_TIMEOUT": "30"
+      }
+    }
+  }
+}
+```
+
+## Enterprise-Ready Features
+
+Our implementation focuses on reliability and security:
+
+- Configurable timeout and retry mechanisms
+- Comprehensive error handling
+- Rate limiting and resource protection
+- Detailed logging and monitoring capabilities
+- Production-grade async processing
+- Cross-origin request security
+
+## API Example
+
+Extract structured content from web pages with precision:
+
+```python
+response = requests.post(
+    "http://localhost:8000/parse",
+    json={
+        "url": "https://example.com",
+        "selectors": {
+            "article_content": "article.main-content",
+            "headlines": "h1.headline",
+            "metadata": ".meta-tags"
+        }
+    }
+)
+
+structured_content = response.json()
+```
+
+## Development and Testing
+
+We maintain high standards for code quality and testing:
+
+```bash
+# Set up development environment
+uv venv
+source .venv/bin/activate
+uv pip install -e ".[test]"
+
+# Run comprehensive test suite
+python -m pytest
+```
+
+## Security Considerations
+
+The server implements industry-standard security practices:
+
+- Input validation and sanitization
+- Secure request handling
+- Timeout controls
+- Rate limiting
+- Error handling without information exposure
+
+## Production Deployment
+
+Deploy with confidence using our production-ready configuration:
+
+```bash
+python -m mcp_web_browser.cli --workers 4 --log-level warning
+```
+
+## Contributing
+
+We welcome contributions that enhance the server's capabilities. Please review our contributing guidelines and code of conduct.
+
+## License
+
+This project is licensed under the MIT License, providing flexibility for both personal and commercial use.
+
+---
+
+*Empower your AI applications with intelligent web browsing capabilities. Start integrating today.*
