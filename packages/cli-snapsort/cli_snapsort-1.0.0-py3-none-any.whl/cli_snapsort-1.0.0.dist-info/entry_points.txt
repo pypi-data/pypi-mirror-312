@@ -1,0 +1,2 @@
+[console_scripts]
+snapsort = snap_sort.cli:snapsort
