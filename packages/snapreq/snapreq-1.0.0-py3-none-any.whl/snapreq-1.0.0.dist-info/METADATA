@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: snapreq
+Version: 1.0.0
+Summary: A sample CLI based API client
+Home-page: https://github.com/rnium/snapreq
+Author: Md. Saiful Islam Roni
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: rich>=13.9
+Requires-Dist: requests>=2.32
+
+# SnapReq
+This is a simple CLI based API client.
+
