@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+pyoverlapped/__init__.py
+pyoverlapped/bindings.py
+pyoverlapped/overlapped.py
+pyoverlapped/structures.py
+pyoverlapped.egg-info/PKG-INFO
+pyoverlapped.egg-info/SOURCES.txt
+pyoverlapped.egg-info/dependency_links.txt
+pyoverlapped.egg-info/top_level.txt
