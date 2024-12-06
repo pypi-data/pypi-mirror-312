@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/lsdir/__init__.py
+src/lsdir/__main__.py
+src/lsdir/lsdir.py
+src/lsdir.egg-info/PKG-INFO
+src/lsdir.egg-info/SOURCES.txt
+src/lsdir.egg-info/dependency_links.txt
+src/lsdir.egg-info/entry_points.txt
+src/lsdir.egg-info/requires.txt
+src/lsdir.egg-info/top_level.txt

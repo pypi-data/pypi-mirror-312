@@ -1,0 +1,24 @@
+[project]
+name = "lsdir"
+version = "0.1.6"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "python-magic>=0.4.27",
+]
+
+[project.scripts]
+lsdir = "lsdir.__main__:main"
+
+[[project.authors]]
+name="Noah J. Blair"
+email="noahjblair@outlook.com"
+
+[dependency-groups]
+dev = [
+    "build>=1.2.2.post1",
+    "hatch>=1.13.0",
+    "mypy>=1.13.0",
+    "ruff>=0.8.0",
+]

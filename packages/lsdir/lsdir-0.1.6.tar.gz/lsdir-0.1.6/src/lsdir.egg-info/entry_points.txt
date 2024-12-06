@@ -1,0 +1,2 @@
+[console_scripts]
+lsdir = lsdir.__main__:main
