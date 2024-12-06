@@ -1,0 +1,17 @@
+name: snakedwi_latest
+url: 'http://github.com/pvandyken/snakedwi'
+tag: 'remove-checkpoint'
+runscript: 'snakedwi/run.py' #relative to the app repo
+opts: '-c all'
+snakebids_components:
+  - t1
+  - dwi
+analysis_level: participant
+singularity_opts: '--nv'
+resources:
+  cores: 8
+  mem_mb: 32000
+  runtime: 360 
+  gpus: 1
+
+

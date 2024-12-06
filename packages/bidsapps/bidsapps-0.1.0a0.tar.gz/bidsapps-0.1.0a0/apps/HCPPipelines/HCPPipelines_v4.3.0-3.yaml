@@ -1,0 +1,10 @@
+analysis_level: participant
+container: docker://bids/hcppipelines:v4.3.0-3
+description: A BIDS App for minimal preprocessing using the HCP Pipelines
+name: HCPPipelines_v4.3.0-3
+opts: ''
+resources:
+  cores: 4
+  gpus: 0
+  mem_mb: 8000
+  runtime: 120

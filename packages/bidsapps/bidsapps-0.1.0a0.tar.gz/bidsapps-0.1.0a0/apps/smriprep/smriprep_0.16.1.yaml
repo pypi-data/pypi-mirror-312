@@ -1,0 +1,11 @@
+analysis_level: participant
+container: docker://nipreps/smriprep:0.16.1
+description: Structural MRI PREProcessing (sMRIPrep) workflows for NIPreps (NeuroImaging
+  PREProcessing tools)
+name: smriprep_0.16.1
+opts: ''
+resources:
+  cores: 4
+  gpus: 0
+  mem_mb: 8000
+  runtime: 120

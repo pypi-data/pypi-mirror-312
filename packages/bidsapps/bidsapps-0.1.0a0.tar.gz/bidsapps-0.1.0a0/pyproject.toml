@@ -1,0 +1,36 @@
+[project]
+name = "bidsapps"
+version = "0.1.0-alpha"
+description = "CLI tool for running BIDS apps"
+readme = "README.md"
+requires-python = ">=3.8,<4.0"
+dependencies = [
+    "appdirs>=1.4.4",
+    "click>=8.1.7",
+    "pyyaml>=6.0.2",
+    "questionary>=2.0.1",
+    "requests>=2.32.3",
+    "rich>=13.9.4",
+    "snakebids>=0.13.1",
+    "pulp<2.8.0"
+]
+
+# CLI entry point
+[project.scripts]
+bidsapps = "bidsapps.cli:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["bidsapps"]
+
+[tool.hatch.metadata]
+license = "MIT"
+authors = ["Ali Khan <alik@robarts.ca>"]
+homepage = "https://github.com/khanlab/bidsapps"
+repository = "https://github.com/khanlab/bidsapps"
+
+
+

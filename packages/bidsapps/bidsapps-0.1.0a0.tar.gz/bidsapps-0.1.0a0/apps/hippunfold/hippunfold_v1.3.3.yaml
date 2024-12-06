@@ -1,0 +1,12 @@
+name: hippunfold_v1.3.3
+container: 'docker://khanlab/hippunfold:v1.3.3'
+opts: '--modality T1w --atlas bigbrain --until import_t1'
+snakebids_components:
+  - t1
+analysis_level: participant
+resources:
+  cores: 8
+  mem_mb: 32000
+  runtime: 360 
+  gpus: 0
+

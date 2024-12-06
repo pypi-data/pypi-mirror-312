@@ -1,0 +1,12 @@
+analysis_level: 'participant'
+container: docker://nipreps/fmriprep:24.1.1
+description: fMRIPrep is a robust and easy-to-use pipeline for preprocessing of diverse
+  fMRI data. The transparent workflow dispenses of manual intervention, thereby ensuring
+  the reproducibility of the results.
+name: fmriprep_24.1.1
+opts: ''
+resources:
+  cores: 4
+  gpus: 0
+  mem_mb: 8000
+  runtime: 120

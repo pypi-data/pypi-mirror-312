@@ -1,0 +1,93 @@
+#list of analysis levels in the bids app
+analysis_levels:
+ - participant
+
+
+# mapping from analysis_level to set of target rules or files
+targets_by_analysis_level:
+  participant:
+    - 'all'  # if '', then the first rule is run
+
+
+
+
+pybids_inputs:  #can be overriden in the dataset
+  t1:
+    filters:
+      suffix: 'T1w'
+      extension: '.nii.gz'
+      datatype: 'anat'
+        
+    wildcards:
+      - subject
+      - session
+      - acquisition
+      - run
+  dwi:
+    filters:
+      suffix: 'dwi'
+      extension: '.nii.gz'
+      datatype: 'dwi'
+        
+    wildcards:
+      - subject
+      - session
+      - acquisition
+      - run
+
+
+
+
+defaults:
+
+  singularity_prefix: '/cifs/khan/shared/containers/snakemake_containers/' #'/project/6050199/akhanf/singularity/snakemake_containers' #can be overriden in apps
+
+  resources:  # can be overriden in apps
+    cores: 8
+    mem_mb: 32000
+    runtime: 360 
+    tmpdir: /tmp
+    gpus: 0
+
+  tmpdir_env: SLURM_TMPDIR  
+
+
+# Configure components:
+# Each entry creates a new component that can be retreived within the workflow
+# via `generate_inputs`.
+# Filters are used to select paths: each filter has an `entity` key and a
+# single value or list of values to select.
+# Wildcards are used to mark variable parts of paths. Each wildcard is an
+# entity, such as `subject` or `session`, that may vary across component paths.
+#
+#
+
+
+# configuration for the command-line parameters to make available
+# passed on the argparse add_argument()
+parse_args:
+  bids_dir:
+    help: |
+      Input BIDS dataset to run BIDS Apps on.
+  output_dir:
+    help: |
+      Output folder where app derivatives will be placed. A folder with the name of the app 
+      will be created in this directory for each app to run. Should be a folder named derivatives
+      as a sibling or child folder of the bids dataset.
+
+  apps_to_run:
+    help: |
+      Names of BIDS Apps to run on the BIDS dataset. List of configured BIDS apps can be displayed with ...
+    nargs: "+"
+
+
+  --skip-bids-validation:
+    help: |
+      Skip validation of BIDS dataset. BIDS validation is performed by default
+      using the bids-validator plugin (if installed/enabled) or with the pybids
+      validator implementation (if bids-validator is not installed/enabled).
+    dest: "plugins.validator.skip"
+    action: "store_true"
+    default: False
+
+

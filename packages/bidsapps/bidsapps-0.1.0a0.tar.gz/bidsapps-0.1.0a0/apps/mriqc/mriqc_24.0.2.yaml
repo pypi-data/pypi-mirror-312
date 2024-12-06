@@ -1,0 +1,11 @@
+analysis_level: null
+container: docker://nipreps/mriqc:24.0.2
+description: Automated Quality Control and visual reports for Quality Assessment of
+  structural (T1w, T2w) and functional MRI of the brain
+name: mriqc_24.0.2
+opts: null
+resources:
+  cores: 4
+  gpus: 0
+  mem_mb: 8000
+  runtime: 120

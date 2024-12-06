@@ -1,0 +1,39 @@
+{
+    "apps": [
+        {
+            "name": "snakedwi_latest",
+            "type": "snakebids",
+            "path": "apps/snakedwi/snakedwi_latest.yaml"
+        },
+        {
+            "name": "mriqc_24.0.2",
+            "type": "container",
+            "path": "apps/mriqc/mriqc_24.0.2.yaml"
+        },
+        {
+            "name": "smriprep_0.16.1",
+            "type": "container",
+            "path": "apps/smriprep/smriprep_0.16.1.yaml"
+        },
+        {
+            "name": "fmriprep_24.1.1",
+            "type": "container",
+            "path": "apps/fmriprep/fmriprep_24.1.1.yaml"
+        },
+        {
+            "name": "hippunfold_v1.4.1",
+            "type": "container",
+            "path": "apps/hippunfold/hippunfold_v1.4.1.yaml"
+        },
+        {
+            "name": "hippunfold_v1.3.3",
+            "type": "container",
+            "path": "apps/hippunfold/hippunfold_v1.3.3.yaml"
+        },
+        {
+            "name": "HCPPipelines_v4.3.0-3",
+            "type": "container",
+            "path": "apps/HCPPipelines/HCPPipelines_v4.3.0-3.yaml"
+        }
+    ]
+}

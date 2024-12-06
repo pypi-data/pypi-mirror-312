@@ -1,0 +1,11 @@
+analysis_level: participant
+container: /srv/containers/hippunfold_v1.4.1.sif
+name: hippunfold_v1.4.1
+opts: --modality T1w --atlas bigbrain -c all --until import_t1
+resources:
+  cores: 8
+  gpus: 0
+  mem_mb: 32000
+  runtime: 360
+snakebids_components:
+- t1
