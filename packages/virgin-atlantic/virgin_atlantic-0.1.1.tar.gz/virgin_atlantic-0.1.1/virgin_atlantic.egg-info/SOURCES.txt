@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_api.py
+virgin_atlantic.egg-info/PKG-INFO
+virgin_atlantic.egg-info/SOURCES.txt
+virgin_atlantic.egg-info/dependency_links.txt
+virgin_atlantic.egg-info/not-zip-safe
+virgin_atlantic.egg-info/requires.txt
+virgin_atlantic.egg-info/top_level.txt
