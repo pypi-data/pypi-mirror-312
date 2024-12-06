@@ -1,0 +1,2 @@
+from allennlp_srl_bert.predictors.predictor import Predictor
+from allennlp_srl_bert.predictors.srl import SemanticRoleLabelerPredictor
