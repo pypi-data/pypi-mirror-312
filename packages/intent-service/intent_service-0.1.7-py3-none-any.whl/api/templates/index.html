@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intent Service Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/htmx.org@1.9.8"></script>
+    <script src="https://unpkg.com/json-formatter-js"></script>
+    <style>
+        .glass-card {
+            background: linear-gradient(
+                135deg,
+                rgba(255, 255, 255, 0.7),
+                rgba(255, 255, 255, 0.4)
+            );
+            backdrop-filter: blur(12px) saturate(180%);
+            -webkit-backdrop-filter: blur(12px) saturate(180%);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 
+                0 8px 32px 0 rgba(31, 38, 135, 0.15),
+                inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+        }
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: inherit;
+            background: linear-gradient(
+                45deg,
+                rgba(255, 255, 255, 0.1) 0%,
+                rgba(255, 255, 255, 0.05) 100%
+            );
+            pointer-events: none;
+        }
+        .glass-input {
+            background: linear-gradient(
+                135deg,
+                rgba(255, 255, 255, 0.8),
+                rgba(255, 255, 255, 0.5)
+            );
+            backdrop-filter: blur(8px) saturate(160%);
+            -webkit-backdrop-filter: blur(8px) saturate(160%);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.1);
+        }
+        .glass-button {
+            background: linear-gradient(
+                135deg,
+                rgba(14, 165, 233, 0.9),
+                rgba(14, 165, 233, 0.7)
+            );
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 
+                0 4px 12px rgba(14, 165, 233, 0.2),
+                inset 0 1px 1px rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+        .glass-button:hover {
+            background: linear-gradient(
+                135deg,
+                rgba(14, 165, 233, 1),
+                rgba(14, 165, 233, 0.8)
+            );
+            transform: translateY(-2px);
+            box-shadow: 
+                0 6px 16px rgba(14, 165, 233, 0.3),
+                inset 0 1px 1px rgba(255, 255, 255, 0.4);
+        }
+        .glass-section {
+            background: linear-gradient(
+                135deg,
+                rgba(255, 255, 255, 0.5),
+                rgba(255, 255, 255, 0.3)
+            );
+            backdrop-filter: blur(6px) saturate(160%);
+            -webkit-backdrop-filter: blur(6px) saturate(160%);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        /* Add shimmer effect to cards */
+        @keyframes shimmer {
+            0% {
+                background-position: -1000px 0;
+            }
+            100% {
+                background-position: 1000px 0;
+            }
+        }
+        .glass-card {
+            position: relative;
+            overflow: hidden;
+        }
+        .glass-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200%;
+            height: 100%;
+            background: linear-gradient(
+                90deg,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 0.15) 50%,
+                rgba(255, 255, 255, 0) 100%
+            );
+            transform: translateX(-100%);
+            animation: shimmer 6s infinite linear;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-sky-50 via-sky-100 to-white min-h-screen">
+    <nav class="bg-gradient-to-r from-sky-500 to-sky-600 text-white p-4 shadow-lg">
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-2xl font-bold">Intent Service Dashboard</h1>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto p-6 space-y-6">
+        <!-- Model List Section -->
+        <div class="glass-card rounded-xl p-6">
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="text-xl font-semibold text-sky-900">Available Models</h2>
+                
+                <div class="flex items-center gap-3">
+                    <!-- Search toggle button -->
+                    <button
+                        onclick="toggleSearch()"
+                        class="glass-button text-white px-3 py-2 rounded-lg hover:bg-sky-600 flex items-center"
+                        title="Toggle Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    
+                    <!-- Refresh button -->
+                    <button
+                        class="glass-button text-white px-3 py-2 rounded-lg hover:bg-sky-600 flex items-center"
+                        hx-get="/model"
+                        hx-target="#modelList"
+                        hx-trigger="click"
+                        title="Refresh Models">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z" clip-rule="evenodd"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Collapsible search form -->
+            <form id="searchForm" 
+                  class="mb-6 space-y-4 transition-all duration-300 origin-top hidden"
+                  hx-get="/model"
+                  hx-target="#modelList"
+                  hx-trigger="submit"
+                  hx-indicator="#searchSpinner">
+                <div>
+                    <label class="block text-sm font-medium text-sky-700 mb-1">Model Name</label>
+                    <input type="text" 
+                           name="name_contains"
+                           class="glass-input block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500 text-sm px-4 py-3" 
+                           placeholder="Search models by name...">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-sky-700 mb-1">Intents</label>
+                    <input type="text" 
+                           name="intents"
+                           class="glass-input block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500 text-sm px-4 py-3" 
+                           placeholder="Filter by intents (e.g., greeting,farewell)">
+                </div>
+                <!-- Hidden limit input with default value -->
+                <input type="hidden" name="limit" value="20">
+                
+                <!-- Submit button -->
+                <button type="submit" 
+                        class="glass-button text-white px-4 py-2 rounded-lg w-full">
+                    Search Models
+                </button>
+                
+                <!-- Loading spinner -->
+                <div id="searchSpinner" class="htmx-indicator flex items-center justify-center">
+                    <div class="animate-spin rounded-full h-5 w-5 border-b-2 border-sky-500"></div>
+                </div>
+            </form>
+
+            <div id="modelList" 
+                 class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-h-[600px] overflow-y-auto"
+                 hx-get="/model"
+                 hx-trigger="load">
+                <p class="text-sky-600 col-span-full">Loading models...</p>
+            </div>
+        </div>
+
+        <!-- Model Training Section -->
+        <div class="glass-card rounded-xl p-6">
+            <h2 class="text-xl font-semibold mb-4 text-sky-900">Train New Model</h2>
+            <form id="trainForm" class="space-y-4">
+                <!-- Dataset Source Section -->
+                <div class="space-y-4 p-4 bg-white/50 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-lg font-medium text-sky-900">Dataset Source</h3>
+                    <div>
+                        <label class="block text-sm font-medium text-sky-700">Source Type</label>
+                        <select id="sourceType" 
+                                class="glass-input mt-1 block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500"
+                                onchange="toggleSourceInputs()">
+                            <option value="url">URL</option>
+                            <option value="upload">File Upload</option>
+                        </select>
+                    </div>
+                    
+                    <!-- URL Input -->
+                    <div id="urlInput">
+                        <label class="block text-sm font-medium text-sky-700">Dataset URL</label>
+                        <input type="url" 
+                               id="datasetUrl"
+                               class="glass-input mt-1 block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500" 
+                               placeholder="https://example.com/dataset.csv">
+                    </div>
+
+                    <!-- File Upload Input -->
+                    <div id="fileInput" class="hidden">
+                        <label class="block text-sm font-medium text-sky-700">Upload CSV File</label>
+                        <div class="mt-1 flex items-center space-x-2">
+                            <input type="file" 
+                                   id="csvFile" 
+                                   accept=".csv"
+                                   class="block w-full text-sm text-sky-700
+                                          file:mr-4 file:py-2 file:px-4
+                                          file:rounded-lg file:border-0
+                                          file:text-sm file:font-semibold
+                                          file:bg-sky-50 file:text-sky-700
+                                          hover:file:bg-sky-100">
+                            <input type="hidden" id="fileContent">
+                            <div id="fileStatus" class="text-sm"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Model Configuration -->
+                <div class="space-y-4 p-4 bg-white/50 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-lg font-medium text-sky-900">Model Configuration</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-sky-700">Model Name</label>
+                            <input type="text" 
+                                   id="modelName"
+                                   class="glass-input mt-1 block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500" 
+                                   placeholder="my-intent-model">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-sky-700">Experiment Name</label>
+                            <input type="text" 
+                                   id="experimentName"
+                                   class="glass-input mt-1 block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500" 
+                                   placeholder="my-experiment">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-sky-700">Intents (Optional)</label>
+                        <input type="text" 
+                               id="intents"
+                               class="glass-input mt-1 block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500" 
+                               placeholder="greeting,farewell,help_request">
+                        <p class="mt-1 text-sm text-sky-600">If specified, must match the intents in your dataset. Leave empty to use all intents from dataset.</p>
+                    </div>
+                </div>
+
+                <!-- Training Configuration -->
+                <div class="space-y-4 p-4 bg-white/50 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-lg font-medium text-sky-900">Training Configuration</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-sky-700">Number of Epochs</label>
+                            <input type="number" 
+                                   id="numEpochs"
+                                   class="glass-input mt-1 block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500" 
+                                   value="10" min="1">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-sky-700">Batch Size</label>
+                            <input type="number" 
+                                   id="batchSize"
+                                   class="glass-input mt-1 block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500" 
+                                   value="32" min="1">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-sky-700">Learning Rate</label>
+                            <input type="number" 
+                                   id="learningRate"
+                                   class="glass-input mt-1 block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500" 
+                                   value="0.00005" step="0.00001">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-sky-700">Base Model Name</label>
+                            <select id="baseModel" class="glass-input mt-1 block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500">
+                                <option value="distilbert-base-uncased">DistilBERT Base Uncased (Default)</option>
+                                <option value="bert-base-uncased">BERT Base Uncased</option>
+                                <option value="roberta-base">RoBERTa Base</option>
+                                <option value="albert-base-v2">ALBERT Base v2</option>
+                                <option value="xlm-roberta-base">XLM-RoBERTa Base</option>
+                                <option value="microsoft/deberta-base">Microsoft DeBERTa Base</option>
+                                <option value="google/electra-base-discriminator">Google ELECTRA Base Discriminator</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" 
+                        class="glass-button w-full text-white px-6 py-3 rounded-lg text-lg font-medium"
+                        id="trainButton">
+                    Train Model
+                </button>
+            </form>
+            <div id="trainingResult" class="mt-4"></div>
+        </div>
+
+        <!-- Model Search Section -->
+        <!-- <div class="glass-card rounded-xl p-6">
+            <h2 class="text-xl font-semibold mb-4 text-sky-900">Search Models</h2>
+            <form hx-post="/model/search" hx-target="#searchResult" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium text-sky-700">Name Contains</label>
+                    <input type="text" name="name_contains" class="glass-input mt-1 block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500" placeholder="Search by name...">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-sky-700">Required Intents</label>
+                    <input type="text" name="intents" class="glass-input mt-1 block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500" placeholder="intent1,intent2">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-sky-700">Result Limit</label>
+                    <input type="number" name="limit" class="glass-input mt-1 block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500" value="10">
+                </div>
+                <button type="submit" class="glass-button text-white px-6 py-2 rounded-lg">
+                    Search
+                </button>
+            </form>
+            <div id="searchResult" class="mt-4"></div>
+        </div> -->
+    </main>
+
+    <script>
+        // Helper function to format timestamps
+        function formatTimestamp(timestamp) {
+            return new Date(timestamp).toLocaleString();
+        }
+
+        // Helper function to create tag pills
+        function createTagPill(key, value) {
+            return `<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
+                ${key}:${value}
+            </span>`;
+        }
+
+        // Helper function to create intent pills
+        function createIntentPill(intent) {
+            return `<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
+                ${intent}
+            </span>`;
+        }
+
+        htmx.on('htmx:afterSettle', function(evt) {
+            const modelList = evt.target;
+            if (modelList.id === 'modelList') {
+                try {
+                    const models = JSON.parse(modelList.textContent);
+                    modelList.innerHTML = models.map(model => `
+                        <div class="glass-card overflow-hidden rounded-xl border-0">
+                            <div class="px-4 py-5 sm:p-6">
+                                <div class="flex items-center justify-between">
+                                    <h3 class="text-lg font-medium text-sky-900">${model.name}</h3>
+                                    <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium ${
+                                        model.run_info.status === 'FINISHED' ? 'bg-sky-100 text-sky-800' : 'bg-amber-100 text-amber-800'
+                                    }">
+                                        v${model.version}
+                                    </span>
+                                </div>
+                                <p class="mt-1 text-sm text-sky-600">${model.description || 'No description'}</p>
+                                
+                                <div class="mt-4">
+                                    <h4 class="text-sm font-medium text-sky-700">Intents</h4>
+                                    <div class="mt-2 flex flex-wrap gap-2">
+                                        ${model.intents.map(intent => `
+                                            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-sky-100 text-sky-800">
+                                                ${intent}
+                                            </span>
+                                        `).join('')}
+                                    </div>
+                                </div>
+
+                                ${Object.keys(model.tags).length > 0 ? `
+                                    <div class="mt-4">
+                                        <h4 class="text-sm font-medium text-sky-700">Tags</h4>
+                                        <div class="mt-2 flex flex-wrap gap-2">
+                                            ${Object.entries(model.tags).map(([key, value]) => `
+                                                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-sky-50 text-sky-700">
+                                                    ${key}:${value}
+                                                </span>
+                                            `).join('')}
+                                        </div>
+                                    </div>
+                                ` : ''}
+
+                                <div class="mt-4 grid grid-cols-2 gap-4 text-sm text-sky-600">
+                                    <div>
+                                        <span class="block font-medium text-sky-700">Created</span>
+                                        ${formatTimestamp(model.creation_timestamp)}
+                                    </div>
+                                    <div>
+                                        <span class="block font-medium text-sky-700">Last Updated</span>
+                                        ${formatTimestamp(model.last_updated_timestamp)}
+                                    </div>
+                                </div>
+
+                                <div class="mt-4 text-sm">
+                                    <span class="block font-medium text-sky-700">Run ID</span>
+                                    <span class="text-sky-600">${model.run_info.run_id}</span>
+                                </div>
+
+                                <div class="mt-4">
+                                    <button 
+                                        onclick="useModelForPrediction('${model.name}')"
+                                        class="glass-button text-white px-4 py-2 rounded-lg text-sm w-full">
+                                        Use for Prediction
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('');
+                } catch (e) {
+                    console.error('Failed to parse models:', e);
+                }
+            }
+        });
+
+        // Keep the existing JSON formatter for other responses
+        htmx.on('htmx:afterSettle', function(evt) {
+            const jsonElements = evt.target.querySelectorAll('[data-json]');
+            jsonElements.forEach(element => {
+                try {
+                    const json = JSON.parse(element.textContent);
+                    const formatter = new JSONFormatter(json);
+                    element.innerHTML = '';
+                    element.appendChild(formatter.render());
+                } catch (e) {
+                    console.error('Failed to parse JSON:', e);
+                }
+            });
+        });
+
+        // File upload handling
+        function toggleSourceInputs() {
+            const sourceType = document.getElementById('sourceType').value;
+            const urlInput = document.getElementById('urlInput');
+            const fileInput = document.getElementById('fileInput');
+            
+            if (sourceType === 'url') {
+                urlInput.classList.remove('hidden');
+                fileInput.classList.add('hidden');
+            } else {
+                urlInput.classList.add('hidden');
+                fileInput.classList.remove('hidden');
+            }
+        }
+
+        // Handle file selection and conversion to base64
+        document.getElementById('csvFile').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            const fileStatus = document.getElementById('fileStatus');
+            const fileContent = document.getElementById('fileContent');
+            const trainButton = document.getElementById('trainButton');
+            
+            if (file) {
+                if (file.size > 10 * 1024 * 1024) { // 10MB limit
+                    fileStatus.textContent = 'File too large (max 10MB)';
+                    fileStatus.classList.add('text-red-500');
+                    trainButton.disabled = true;
+                    return;
+                }
+
+                fileStatus.textContent = 'Reading file...';
+                fileStatus.classList.remove('text-red-500');
+                trainButton.disabled = true;
+
+                const reader = new FileReader();
+                
+                reader.onload = function(event) {
+                    try {
+                        // Get the raw content as base64
+                        const base64Content = event.target.result.split(',')[1];
+                        fileContent.value = base64Content;
+                        fileStatus.textContent = 'File ready';
+                        fileStatus.classList.remove('text-red-500');
+                        trainButton.disabled = false;
+                    } catch (error) {
+                        console.error('Error processing file:', error);
+                        fileStatus.textContent = 'Error reading file';
+                        fileStatus.classList.add('text-red-500');
+                        trainButton.disabled = true;
+                    }
+                };
+
+                reader.onerror = function() {
+                    console.error('Error reading file');
+                    fileStatus.textContent = 'Error reading file';
+                    fileStatus.classList.add('text-red-500');
+                    trainButton.disabled = true;
+                };
+
+                // Read the file as data URL (this will give us base64)
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // Handle training form submission
+        document.getElementById('trainForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const trainButton = document.getElementById('trainButton');
+            const resultDiv = document.getElementById('trainingResult');
+            
+            try {
+                trainButton.disabled = true;
+                trainButton.textContent = 'Training...';
+                resultDiv.innerHTML = '<div class="text-blue-600">Starting training process...</div>';
+
+                // Prepare the request payload
+                const sourceType = document.getElementById('sourceType').value;
+                console.log('sourceType', sourceType);
+                const intentsString = document.getElementById('intents').value;
+                console.log('intentsString', intentsString);
+
+                const payload = {
+                    dataset_source: {
+                        source_type: sourceType
+                    },
+                    intents: intentsString.split(',').map(i => i.trim()).filter(i => i),
+                    model_name: document.getElementById('modelName').value || undefined,
+                    experiment_name: document.getElementById('experimentName').value || undefined,
+                    training_config: {
+                        num_epochs: parseInt(document.getElementById('numEpochs').value),
+                        batch_size: parseInt(document.getElementById('batchSize').value),
+                        learning_rate: parseFloat(document.getElementById('learningRate').value),
+                        base_model_name: document.getElementById('baseModel').value
+                    }
+                };
+
+                // Add source-specific data
+                if (sourceType === 'url') {
+                    const url = document.getElementById('datasetUrl').value;
+                    if (!url) {
+                        throw new Error('Please provide a dataset URL');
+                    }
+                    payload.dataset_source.url = url;
+                } else {
+                    const fileContent = document.getElementById('fileContent').value;
+                    if (!fileContent) {
+                        throw new Error('Please upload a CSV file');
+                    }
+                    payload.dataset_source.file_content = fileContent;
+                }
+
+                // Train the model
+                const trainResponse = await fetch('/model/train', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                const trainResult = await trainResponse.json();
+
+                if (!trainResponse.ok) {
+                    throw new Error(trainResult.detail || 'Training failed');
+                }
+
+                resultDiv.innerHTML = '<div class="text-blue-600">Training complete. Registering model...</div>';
+
+                // Register the model
+                const modelName = payload.model_name || `intent-model-${trainResult.model_id.slice(0, 8)}`;
+                const registerPayload = {
+                    mlflow_run_id: trainResult.model_id,
+                    name: modelName,
+                    description: `Model trained with ${payload.training_config.base_model_name}`,
+                    tags: {
+                        base_model: payload.training_config.base_model_name,
+                        epochs: payload.training_config.num_epochs,
+                        batch_size: payload.training_config.batch_size,
+                        learning_rate: payload.training_config.learning_rate,
+                        experiment: payload.experiment_name || "default"
+                    }
+                };
+
+                const registerResponse = await fetch('/model/register', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(registerPayload)
+                });
+
+                if (!registerResponse.ok) {
+                    const registerError = await registerResponse.json();
+                    throw new Error(registerError.detail || 'Model registration failed');
+                }
+
+                const registerResult = await registerResponse.json();
+
+                resultDiv.innerHTML = `
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                        <h4 class="text-green-800 font-medium">Training and Registration Successful!</h4>
+                        <p class="text-green-700 mt-1">Run ID: ${trainResult.model_id}</p>
+                        <p class="text-green-700 mt-1">Registered Name: ${registerResult.name}</p>
+                        <p class="text-green-600 mt-1">${trainResult.message}</p>
+                    </div>
+                `;
+
+                // Refresh the model list
+                document.querySelector('[hx-get="/model"]').click();
+
+            } catch (error) {
+                console.error('Error:', error);
+                resultDiv.innerHTML = `
+                    <div class="bg-red-50 border border-red-200 rounded-lg p-4">
+                        <h4 class="text-red-800 font-medium">Operation Failed</h4>
+                        <p class="text-red-700 mt-1">${error.message}</p>
+                    </div>
+                `;
+            } finally {
+                trainButton.disabled = false;
+                trainButton.textContent = 'Train Model';
+            }
+        });
+
+        // Move form setup into a function
+        function setupPredictionForm() {
+            const predictionForm = document.getElementById('predictionForm');
+            if (!predictionForm) {
+                console.error('Prediction form not found');
+                return;
+            }
+
+            predictionForm.addEventListener('submit', async function(e) {
+                e.preventDefault();
+                const modelId = document.getElementById('modelIdInput').value;
+                const text = this.querySelector('textarea[name="text"]').value;
+                const resultDiv = document.getElementById('predictionResult');
+                const submitButton = this.querySelector('button[type="submit"]');
+                
+                if (!modelId || !text) {
+                    resultDiv.innerHTML = `
+                        <div class="text-red-600">Please provide both model ID and text.</div>
+                    `;
+                    return;
+                }
+
+                try {
+                    submitButton.disabled = true;
+                    submitButton.innerHTML = 'Predicting...';
+                    
+                    console.log('Sending prediction request:', { modelId, text });
+                    
+                    const response = await fetch(`/model/${encodeURIComponent(modelId)}/predict?text=${encodeURIComponent(text)}`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+
+                    const result = await response.json();
+                    
+                    const resultHtml = `
+                        <div class="bg-gray-50 rounded-lg p-4">
+                            <h3 class="font-medium text-gray-900 mb-2">Prediction Results</h3>
+                            <div class="space-y-2">
+                                ${Object.entries(result)
+                                    .sort(([,a], [,b]) => b - a)
+                                    .map(([intent, confidence]) => `
+                                        <div class="flex items-center justify-between">
+                                            <span class="text-gray-700">${intent}</span>
+                                            <div class="flex items-center">
+                                                <div class="w-32 bg-gray-200 rounded-full h-2 mr-2">
+                                                    <div class="bg-blue-600 h-2 rounded-full" style="width: ${confidence * 100}%"></div>
+                                                </div>
+                                                <span class="text-sm text-gray-600">${(confidence * 100).toFixed(1)}%</span>
+                                            </div>
+                                        </div>
+                                    `).join('')}
+                            </div>
+                        </div>
+                    `;
+                    
+                    resultDiv.innerHTML = resultHtml;
+                } catch (error) {
+                    resultDiv.innerHTML = `
+                        <div class="text-red-600">Error: ${error.message}</div>
+                    `;
+                } finally {
+                    submitButton.disabled = false;
+                    submitButton.innerHTML = 'Predict';
+                }
+            });
+        }
+
+        // Call setup when opening the modal
+        function useModelForPrediction(modelId) {
+            console.log('Opening prediction modal for model:', modelId);
+            document.getElementById('modelIdInput').value = modelId;
+            
+            const modal = document.getElementById('predictionModal');
+            modal.classList.remove('hidden');
+            
+            // Set up the form when opening the modal
+            setupPredictionForm();
+            
+            document.querySelector('#predictionForm textarea').focus();
+        }
+
+        function closePredictionModal() {
+            const modal = document.getElementById('predictionModal');
+            modal.classList.add('hidden');
+            // Clear the form and results
+            document.getElementById('predictionForm').reset();
+            document.getElementById('predictionResult').innerHTML = '';
+        }
+
+        // Close modal when clicking outside
+        const predictModal = document.getElementById('predictionModal')
+        if (predictModal){
+            predictModal.addEventListener('click', function(e) {
+                if (e.target === this) {
+                    closePredictionModal();
+                }
+            });
+        }
+
+        // Add this to your existing script section
+        function toggleSearch() {
+            const searchForm = document.getElementById('searchForm');
+            if (searchForm.classList.contains('hidden')) {
+                // Show search form
+                searchForm.classList.remove('hidden');
+                // Use setTimeout to ensure the transition happens after display is set
+                setTimeout(() => {
+                    searchForm.classList.add('scale-100', 'opacity-100');
+                    searchForm.classList.remove('scale-95', 'opacity-0');
+                }, 10);
+                // Focus the first input
+                searchForm.querySelector('input').focus();
+            } else {
+                // Hide search form
+                searchForm.classList.add('scale-95', 'opacity-0');
+                searchForm.classList.remove('scale-100', 'opacity-100');
+                // Wait for transition to complete before hiding
+                setTimeout(() => {
+                    searchForm.classList.add('hidden');
+                }, 300);
+                // Clear the search inputs
+                searchForm.reset();
+                // Trigger a refresh of the model list
+                document.querySelector('[hx-get="/model"]').click();
+            }
+        }
+    </script>
+
+    <!-- Prediction Modal Dialog -->
+    <div id="predictionModal" class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity hidden" style="z-index: 1000;">
+        <div class="fixed inset-0 z-10 overflow-y-auto">
+            <div class="flex min-h-full items-center justify-center p-4 text-center sm:p-0" onclick="closePredictionModal()">
+                <div class="glass-card relative transform overflow-hidden rounded-lg text-left transition-all sm:my-8 sm:w-full sm:max-w-xl" onclick="event.stopPropagation()">
+                    <div class="px-6 py-4 border-b border-gray-200">
+                        <div class="flex items-center justify-between">
+                            <h3 class="text-xl font-semibold text-sky-900">Make Prediction</h3>
+                            <button onclick="closePredictionModal()" class="text-gray-400 hover:text-gray-500">
+                                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4">
+                        <form id="predictionForm" class="space-y-4">
+                            <input type="hidden" id="modelIdInput">
+                            <div>
+                                <label class="block text-sm font-medium text-sky-700">Text to Classify</label>
+                                <textarea name="text" 
+                                        rows="3" 
+                                        class="glass-input mt-1 block w-full rounded-lg shadow-sm focus:ring-sky-500 focus:border-sky-500" 
+                                        placeholder="Enter text to classify..."></textarea>
+                            </div>
+                            <button type="submit" 
+                                    class="glass-button text-white px-6 py-2 rounded-lg w-full">
+                                Predict
+                            </button>
+                        </form>
+                        <div id="predictionResult" class="mt-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
