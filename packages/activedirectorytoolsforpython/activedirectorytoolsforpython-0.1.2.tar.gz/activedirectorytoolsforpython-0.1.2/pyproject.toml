@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "activedirectorytoolsforpython"
+version = "0.1.2"
+authors = [
+  { name="Jess Williams", email="devel@inuxnet.org" },
+]
+description = "Set of tools for Active Directory using python."
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["ad","activedirectory","ldap","get-aduser","powershell","get-adgroup","get-adorganizationalunit","get-adobject"]
+requires-python = ">=3.8"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "cryptography >= 44.0.0",
+    "gssapi >= 1.9.0",
+    "ldap3 >= 2.9.1",
+    "inuxnetutil >= 0.1.1",
+]
+
+[project.urls]
+Homepage = "https://newgit.inuxnet.org/devel/activedirectorytoolsforpython"
+Documentation = "https://newgit.inuxnet.org/devel/activedirectorytoolsforpython"
+Repository = "https://newgit.inuxnet.org/devel/activedirectorytoolsforpython"
