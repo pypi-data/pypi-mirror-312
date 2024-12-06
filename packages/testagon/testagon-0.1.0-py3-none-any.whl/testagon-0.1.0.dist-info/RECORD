@@ -1,0 +1,13 @@
+testagon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testagon/__main__.py,sha256=TdU7dxF-EABlRRcoT0bGtVt5d3uncZjQFL95G7S-5i8,65
+testagon/cli.py,sha256=brl2eVqwV0ovxgb4xyFpCzZGxv_jABycREfwjYcdKkw,6787
+testagon/critic.py,sha256=3CvV3CLSgW0rim1IKs2A3UomPfZT8FuC1_FT_YmMrBY,12411
+testagon/generate_invariants.py,sha256=Calg_XOjGKQzrrW8AIEwCaCxZN9wg_Jv63UD3ue3k0c,10143
+testagon/logger.py,sha256=YdPdXX1_dG7TLxNOpK-AOgqadtaWezZsxkWpJWavcCw,318
+testagon/unit_tests.py,sha256=Juy6eC2ZIC7TD7-d-lsMkQApT4KizHywJInIW0TdEvY,8009
+testagon/util.py,sha256=8d2sWkzcZE3XKqfJrY9YKLWrHkfxlGrhy7bp8JGerS8,7996
+testagon-0.1.0.dist-info/METADATA,sha256=r0SVL4O8QWFH6wvT4TWduWrt9bJukJS5a9TCpXJm0AY,3604
+testagon-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+testagon-0.1.0.dist-info/entry_points.txt,sha256=ba-2x7rdxrsjEgPHc4-ZWnqhziMrdrmc3qGKznAkzt8,47
+testagon-0.1.0.dist-info/top_level.txt,sha256=Bbofa7JVTAlVps5EN5XQuHZIsRvvqV7YNCWnpcaDuxI,9
+testagon-0.1.0.dist-info/RECORD,,
