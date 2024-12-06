@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: atari-monk-cli-tool-commands
+Version: 0.1.0
+Summary: A custom commands package for CLI Tool
+Home-page: https://github.com/atari-monk/cli_commands
+Author: atari monk
+Author-email: atari.monk1@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.12.0
+Description-Content-Type: text/markdown
+Requires-Dist: yt-dlp>=2023.3.1
+Requires-Dist: pyperclip
+Requires-Dist: atari-monk-keyval-storage
+Requires-Dist: atari-monk-pytoolbox
+Requires-Dist: atari-monk-cli-logger
