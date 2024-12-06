@@ -1,0 +1,17 @@
+zfit
+logzero
+PyYAML
+scipy
+awkward
+tqdm
+joblib
+scikit-learn
+toml
+numpy
+matplotlib
+mplhep
+hist[plot]
+pandas
+
+[dev]
+pytest
