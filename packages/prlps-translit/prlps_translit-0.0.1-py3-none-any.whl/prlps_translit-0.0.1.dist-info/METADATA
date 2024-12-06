@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: prlps-translit
+Version: 0.0.1
+Summary: веб поиск
+Home-page: https://github.com/prolapser/prlps_translit
+Author: prolapser
+License: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+`pip install prlps_translit`
+
+
+```python
+from prlps_translit import transliterate
+
+cyrillic_text = """
+Два континента
+под властью моей страны.
+Зависть у всех к ней.
+"""
+latin_translit = transliterate(cyrillic_text)
+print(latin_translit)
+```
+
+```python
+from prlps_translit import translate_to_url
+
+cyrillic_string = "Русский мир в каждый дом!"
+translit_for_url = translate_to_url(cyrillic_string)
+print(translit_for_url)
+```
