@@ -1,0 +1,11 @@
+aliyun_log_py_bindings-0.0.4.dist-info/METADATA,sha256=LHec_IvvRAJ-MIHf-McBAgFemVzCS_j7mpjg2QSu2mE,2400
+aliyun_log_py_bindings-0.0.4.dist-info/WHEEL,sha256=--SjLeeksTPY0yXRxgrgKsaviLu0bFJ_zIbVF5t3zpI,94
+aliyun_log_py_bindings-0.0.4.dist-info/licenses/LICENSE,sha256=IG1wmOIjUvOAh9gJPgqqtQOtIFN0OeLO_6bl61ZLn4Q,1089
+aliyun_log_py_bindings/aliyun_log_py_bindings.pyi,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+aliyun_log_py_bindings/log_parser/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+aliyun_log_py_bindings/log_parser/__init__.pyi,sha256=UPPozVht-jlgYLZSkZiNsg1MVgRONDioLF2gNBrZ0wg,1135
+aliyun_log_py_bindings/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyun_log_py_bindings/__init__.py,sha256=GjiQm8fZjuLko3akd2pv3ApMaVZ35J3qwv9pA8aaIQ0,177
+aliyun_log_py_bindings/__init__.pyi,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+aliyun_log_py_bindings/aliyun_log_py_bindings.pyd,sha256=BiAU1ajhGwlq23hG6OhgCiT2CioUfGSgRbZ1N-gnj1E,386048
+aliyun_log_py_bindings-0.0.4.dist-info/RECORD,,
