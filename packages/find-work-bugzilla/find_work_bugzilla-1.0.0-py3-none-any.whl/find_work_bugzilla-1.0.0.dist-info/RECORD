@@ -1,0 +1,10 @@
+find_work/plugins/gentoo_bugzilla/__init__.py,sha256=DAlDyZ7F6SZbaN1EU69llXZX3K2H9Nw1zfh-KzUthWE,1049
+find_work/plugins/gentoo_bugzilla/cli.py,sha256=gngB91JeGovh2eXVEiloMfEK8QY0EQKPgDnsVd5ALS4,3346
+find_work/plugins/gentoo_bugzilla/constants.py,sha256=IE3gV3q6-ROdNOy9KlsjYWySXfNqHr3DyrsoBaWbDx0,218
+find_work/plugins/gentoo_bugzilla/internal.py,sha256=ZHLa1bHZ4DBFVXKw12DZukP-aSGaDyMsXfTSzeWudZQ,3293
+find_work/plugins/gentoo_bugzilla/options.py,sha256=8n4aTz5dzNZtj9x9MseU31EYvgqfNSCuvue3J_OYcwg,670
+find_work/plugins/gentoo_bugzilla/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+find_work_bugzilla-1.0.0.dist-info/entry_points.txt,sha256=Q2laDPVlaXotq5Anv2RKDzHt9PJNO3TomDpW911lctA,67
+find_work_bugzilla-1.0.0.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+find_work_bugzilla-1.0.0.dist-info/METADATA,sha256=SMHHhLH00NhF3_6II9L1KblJ_I-QYxFBnNabfj2ydLE,3265
+find_work_bugzilla-1.0.0.dist-info/RECORD,,
