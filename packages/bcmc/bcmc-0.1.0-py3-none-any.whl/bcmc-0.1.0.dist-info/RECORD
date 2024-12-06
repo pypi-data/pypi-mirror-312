@@ -1,0 +1,13 @@
+bcmc/__init__.py,sha256=VgcQ2L4CHYH3QCXHDDrcifWVlifHcBxRjhw9mlE7CnM,230
+bcmc/__main__.py,sha256=z3pWxmD89849raug7BOtXgfgExOKgYclO3sQq7ydSkI,2859
+bcmc/appsetup.py,sha256=PXORG_07QVKZPsq1m3TXsrCvTmNwfuzR_QMDL_AliKs,5461
+bcmc/broadcast.py,sha256=0ePVbvsVegtSDK7hipACjsEXWuEvyP_zRp9ZPHfcmgQ,8340
+bcmc/helpers.py,sha256=2wXwwyddkocaSn3Qbgu1cB_tZPJxKX19x1pi2YI7YAc,169
+bcmc/multicast.py,sha256=tZRqg3TdYpvIOxMNP23EIVqadYltFndZXMYnVBXPglo,8905
+bcmc/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+bcmc-0.1.0.dist-info/LICENSE,sha256=yzEXSYmqJylRVsd__jkETAMo8UDT4qMxyluWaYozGW0,1522
+bcmc-0.1.0.dist-info/METADATA,sha256=z13WGzfr3VQ2304jVWg4-o209axssIgr4fpi4HDkShY,6447
+bcmc-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+bcmc-0.1.0.dist-info/entry_points.txt,sha256=E18lpkJrOAV0IpBLhMh0WflUQcGPCsmw2Y7ae0X7lSA,44
+bcmc-0.1.0.dist-info/top_level.txt,sha256=BYwYlwBTRuFSVnS2T_S5OwfwBvONudi1NUz9cOqHlR4,5
+bcmc-0.1.0.dist-info/RECORD,,
