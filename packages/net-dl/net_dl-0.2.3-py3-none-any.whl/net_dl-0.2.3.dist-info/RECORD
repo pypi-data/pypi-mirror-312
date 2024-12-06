@@ -1,0 +1,11 @@
+net_dl/__init__.py,sha256=MyriKnMDGYBNtVX0mXTsFVOy_Om1ccujIG9YBsm9ZYs,2779
+net_dl/__main__.py,sha256=ubt6XyZvcHwdjCQ90B_U4MeP-3YJduz5GWUC9yOgkrg,27
+net_dl/config.py,sha256=b6-Rj7xl38kQ5yKcKCNHDDx4rZ8T015r4zBZwNzQBh4,298
+net_dl/download.py,sha256=0tS-JA0u20bXZ0EooNvP8jxPgX1x5dmZkuldAo3l7g4,12269
+net_dl/props.py,sha256=_LN0slle_BrhjxNmYLhoBveprwS-lNwTl95928-RC-w,9184
+net_dl-0.2.3.dist-info/LICENSE.txt,sha256=7qJUJFrRW8hTmi7tdUrF37_5G2HTGCmvXN5xOPCrsLg,1076
+net_dl-0.2.3.dist-info/METADATA,sha256=9sship1hQJDpX94b7YAj59vQipm8lZ9eZllWxIFQXXo,2874
+net_dl-0.2.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+net_dl-0.2.3.dist-info/entry_points.txt,sha256=OkYXsqwKtKcBU2G_63FijWURjSQYhNQGy_wPOW7BtXo,39
+net_dl-0.2.3.dist-info/top_level.txt,sha256=0wd5RyFRWzNsJMt1vqCh6uDcVyg0vYclNLiBAGZZ-w8,7
+net_dl-0.2.3.dist-info/RECORD,,
