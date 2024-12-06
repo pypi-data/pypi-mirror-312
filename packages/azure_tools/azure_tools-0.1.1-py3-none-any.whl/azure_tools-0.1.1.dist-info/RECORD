@@ -1,0 +1,8 @@
+azure_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure_tools/aml.py,sha256=2uddAsjny2y-umCbMc3KZ8tPrFa-HdhCe1Uh3xJ95y0,4778
+azure_tools/main.py,sha256=RYwfKDZtBTUkM3twH6QsJ3Z-VSRgE06QRIHRba7IIR4,2070
+azure_tools/progress.py,sha256=0xZtGgrhTfrECk6ptd9QYeCegPthvCpWD_4k4N4OOKE,839
+azure_tools-0.1.1.dist-info/METADATA,sha256=YmLBkSdNB0A3PjE0SwZIfXD78iP0z2hBK_dgQ_OYzEM,1312
+azure_tools-0.1.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+azure_tools-0.1.1.dist-info/entry_points.txt,sha256=u8y1asDtFIcVFrHuD5htL8rE_nTVpe5EaUd9EN34Pqg,45
+azure_tools-0.1.1.dist-info/RECORD,,
