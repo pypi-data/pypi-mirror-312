@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: CUDAAAAGH
+Version: 0.1.1
+Summary: Centralized Underage Distributed Arithmetic - Automated Assignment And Group Hashing
+Project-URL: Homepage, https://github.com/robert/CUDAAAAGH
+Project-URL: Repository, https://github.com/robert/CUDAAAAGH
+Author-email: Robert Heaton <robqheaton@gmail.com.com>
+Requires-Python: >=3.8
+Requires-Dist: aioconsole
+Requires-Dist: fastapi
+Requires-Dist: httpx
+Requires-Dist: pydantic
+Requires-Dist: uvicorn
+Description-Content-Type: text/markdown
+
+TKTK
