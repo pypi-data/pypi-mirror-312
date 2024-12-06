@@ -1,0 +1,10 @@
+psdls/app.py,sha256=2r3Mt7QFOoO44ypnCKOzYakKTLER1oCQfbpeO8ZdRw8,1735
+psdls/buildtools.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psdls/clock.py,sha256=Qd6mdWkddhD1rzLjY6SDtP4DXoAEAvwxkaHP_BZpHus,782
+psdls/logger.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psdls/resource.py,sha256=hCEtiOgh04m02q5PIoY6w55bB_r91W2JxA3eh_x0wt0,542
+psdls/window.py,sha256=fM3HOdeV_Xdc8ZnxwGmV1elKZnf2VA2CNMVN3ALSsIE,1737
+pysdlstrap-0.1.0.dist-info/METADATA,sha256=JnZaUqoIrvdKd8YlbdUH5wdYpYo17AW7ZifMOzZLzXw,1292
+pysdlstrap-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pysdlstrap-0.1.0.dist-info/top_level.txt,sha256=OqdtC2t1QoxMnk61CP7-mADAUbgBMIwXlqz6puD9n4s,6
+pysdlstrap-0.1.0.dist-info/RECORD,,
