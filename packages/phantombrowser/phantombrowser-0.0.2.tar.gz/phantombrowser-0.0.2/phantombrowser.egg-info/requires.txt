@@ -1,0 +1,5 @@
+types-aiofiles
+aiofiles
+aiohttp
+requests
+types-requests

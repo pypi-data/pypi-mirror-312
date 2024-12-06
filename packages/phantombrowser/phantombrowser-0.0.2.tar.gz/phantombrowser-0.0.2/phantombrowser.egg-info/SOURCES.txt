@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+PhantomBrowser/AsyncBrowser.py
+PhantomBrowser/Browser.py
+PhantomBrowser/__init__.py
+PhantomBrowser/py.typed
+phantombrowser.egg-info/PKG-INFO
+phantombrowser.egg-info/SOURCES.txt
+phantombrowser.egg-info/dependency_links.txt
+phantombrowser.egg-info/requires.txt
+phantombrowser.egg-info/top_level.txt
