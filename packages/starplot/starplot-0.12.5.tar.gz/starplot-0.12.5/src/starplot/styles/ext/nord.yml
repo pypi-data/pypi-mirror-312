@@ -1,0 +1,159 @@
+background_color: '#4c566a'
+
+text_border_color: '#4c566a'
+
+border_bg_color: '#2e3440'
+border_font_color: '#a3be8c'
+border_line_color: '#a3be8c'
+
+horizon:
+  line:
+    color: '#2e3440'
+    edge_color: '#a3be8c'
+  label:
+    font_color: '#a3be8c'
+
+zenith:
+  marker:
+    color: '#D99CBA'
+  label:
+    font_color: '#D99CBA'
+
+title:
+  font_color: '#a3be8c'
+celestial_equator:
+  label:
+    font_color: '#77A67F'
+  line:
+    color: '#77A67F'
+constellation:
+  label:
+    font_alpha: 0.6
+    font_color: rgb(230, 204, 147)
+    font_size: 7
+    font_weight: light
+  line:
+    alpha: 0.36
+    color: rgb(230, 204, 147)
+    width: 2
+
+dso_double_star:
+  marker:
+    alpha: 0.8
+    color: '#88c0d0'
+    edge_color: '#88c0d0'
+  label:
+    font_color: '#88c0d0'
+dso_galaxy:
+  marker:
+    alpha: 0.6
+    color: '#D99CBA'
+    edge_color: '#bd5187'
+  label:
+    font_color: '#bd5187'
+dso_nebula:
+  marker:
+    alpha: 0.32
+    color: '#9CD9BB'
+    edge_color: '#52896e'
+  label:
+    font_color: '#52896e'
+dso_open_cluster:
+  marker:
+    alpha: 0.32
+    color: '#d8d99c'
+    edge_color: '#9d9f3c'
+  label:
+    font_color: '#9d9f3c'
+dso_association_stars:
+  marker:
+    alpha: 0.32
+    color: '#d8d99c'
+    edge_color: '#9d9f3c'
+  label:
+    font_color: '#9d9f3c'
+dso_globular_cluster:
+  marker:
+    alpha: 0.5
+    color: '#c7c7c7'
+    edge_color: '#444'
+  label:
+    font_color: '#444'
+
+
+# other DSOs
+dso_unknown: &DSO
+  marker:
+    alpha: 0.32
+    color: '#9CD9BB'
+    edge_color: '#52896e'
+  label:
+    font_color: '#52896e'
+dso_dark_nebula: *DSO
+dso_hii_ionized_region: *DSO
+dso_supernova_remnant: *DSO
+dso_nova_star: *DSO
+dso_nonexistant: *DSO
+dso_unknown: *DSO
+dso_duplicate: *DSO
+
+ecliptic:
+  label:
+    font_color: '#D99CBA'
+  line:
+    color: '#D99CBA'
+gridlines:
+  label:
+    font_alpha: 0.8
+    font_color: '#c2d2f3'
+    font_size: 8
+    font_weight: light
+  line:
+    alpha: 0.8
+    color: '#888'
+    style: solid
+    width: 1
+milky_way:
+  alpha: 0.14
+  fill_color: '#95a3bf'
+  edge_width: 0
+planets:
+  label:
+    font_color: '#D99CCF'
+  marker:
+    alpha: 0.8
+    color: '#D99CCF'
+    fill: full
+
+star:
+  label:
+    font_color: '#88c0d0'
+    font_size: 9
+    font_weight: bold
+  marker:
+    color: '#88c0d0'
+    edge_color: '#4c566a'
+sun:
+  label:
+    font_color: '#88c0d0'
+    font_size: 9
+    font_weight: bold
+  marker:
+    color: '#88c0d0'
+    edge_color: '#88c0d0'
+moon:
+  label:
+    font_color: '#88c0d0'
+    font_size: 9
+    font_weight: bold
+  marker:
+    color: '#88c0d0'
+
+bayer_labels:
+  font_alpha: 0.8
+  font_color: '#85c9de'
+
+legend:
+  background_color: '#515e76'
+  background_alpha: 1.0
+  font_color: '#d5e0f5'
