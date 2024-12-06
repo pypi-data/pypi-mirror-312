@@ -1,0 +1,11 @@
+bleak
+construct-typing
+
+[dev]
+ruff
+mypy
+
+[test]
+pytest
+pytest-cov
+pytest-asyncio
