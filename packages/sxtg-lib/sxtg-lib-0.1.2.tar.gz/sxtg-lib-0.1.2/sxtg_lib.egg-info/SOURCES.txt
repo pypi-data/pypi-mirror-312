@@ -1,0 +1,11 @@
+README.md
+setup.py
+sxtg/__init__.py
+sxtg/__main__.py
+sxtg/bot_content/__init__.py
+sxtg/bot_settings/__init__.py
+sxtg/redis_connection/__init__.py
+sxtg_lib.egg-info/PKG-INFO
+sxtg_lib.egg-info/SOURCES.txt
+sxtg_lib.egg-info/dependency_links.txt
+sxtg_lib.egg-info/top_level.txt
