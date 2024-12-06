@@ -1,0 +1,14 @@
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-anthropic>=0.2.0
+python-dotenv>=1.0.0
+pytest>=7.0.0
+
+[dev]
+pytest-cov
+black
+flake8
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0
+build
+twine
