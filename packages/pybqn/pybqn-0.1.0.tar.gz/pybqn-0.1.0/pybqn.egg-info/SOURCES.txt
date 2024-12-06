@@ -1,0 +1,11 @@
+COPYING
+LICENSE
+README.md
+bqn.c
+pyproject.toml
+setup.py
+pybqn.egg-info/PKG-INFO
+pybqn.egg-info/SOURCES.txt
+pybqn.egg-info/dependency_links.txt
+pybqn.egg-info/requires.txt
+pybqn.egg-info/top_level.txt
