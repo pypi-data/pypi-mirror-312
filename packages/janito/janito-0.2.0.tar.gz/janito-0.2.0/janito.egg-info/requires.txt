@@ -1,0 +1,6 @@
+anthropic
+prompt_toolkit
+rich
+typer
+watchdog
+pytest
