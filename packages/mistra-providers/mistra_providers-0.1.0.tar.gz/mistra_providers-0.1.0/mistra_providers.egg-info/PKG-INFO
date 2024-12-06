@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mistra-providers
+Version: 0.1.0
+Summary: MISTRA Providers contains a collection of custom providers for the MISTRA package
+Home-page: 
+Author: luismasuelli
+Author-email: luisfmasuelli@gmail.com
+License: MIT
+Requires-Python: >=3.12
+Requires-Dist: mistra>=0.1.0
+Requires-Dist: pandas>=2.2.3
