@@ -1,0 +1,26 @@
+[project]
+name = "FGI-YAML-Formattor"
+version = "0.1.1.post"
+description = "Default template for PDM package"
+authors = [
+    { name = "kaesinol", email = "keiplyer@gmail.com" },
+]
+dependencies = [
+    "ruamel-yaml>=0.18.6, <1.0",
+    "ruamel-yaml-string>=0.1.1, <1.0",
+    "pyyaml>=6.0.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
