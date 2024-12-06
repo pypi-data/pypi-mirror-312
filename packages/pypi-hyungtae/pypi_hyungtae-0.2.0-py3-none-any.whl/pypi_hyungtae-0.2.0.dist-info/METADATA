@@ -1,0 +1,49 @@
+Metadata-Version: 2.3
+Name: pypi_hyungtae
+Version: 0.2.0
+Summary: Python binding TEST
+Project-URL: Homepage, https://github.com/LimHyungTae/pypi_study
+Author-email: Hyungtae Lim <fudxo5143@naver.com>
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# Pypi Study Using `pyproject.toml`
+
+
+## Dependency
+
+```angular2html
+pip3 install build twine numpy
+```
+
+`numpy` is to test the dependency in the Pypi package
+
+
+## How to build
+
+```
+python3 -m build
+```
+
+![](/materials/built_result.png)
+
+```
+python3 -m build
+```
+
