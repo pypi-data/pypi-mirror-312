@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_matplotlib.py
+zhplot/__init__.py
+zhplot/matplotlib.py
+zhplot/py.typed
+zhplot.egg-info/PKG-INFO
+zhplot.egg-info/SOURCES.txt
+zhplot.egg-info/dependency_links.txt
+zhplot.egg-info/requires.txt
+zhplot.egg-info/top_level.txt
+zhplot.egg-info/zip-safe
+zhplot/fonts/simhei.ttf
