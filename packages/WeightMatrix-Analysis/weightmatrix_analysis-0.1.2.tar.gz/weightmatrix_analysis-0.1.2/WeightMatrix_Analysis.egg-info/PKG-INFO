@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: WeightMatrix_Analysis
+Version: 0.1.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+## find left null space of a matrix
