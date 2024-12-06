@@ -1,0 +1,50 @@
+[project]
+name = "legion-utils"
+version = "0.5.0"
+description = "Utilities for Legion Reporters and Monitors"
+authors = [
+    { name = "Eugene Kovalev", email = "eugene@kovalev.systems" },
+]
+dependencies = [
+    "robotnikmq>=0.7.4",
+    "click>=8.1.7",
+    "psutil>=5.9.6",
+    "environs>=11.0.0",
+]
+requires-python = ">3.9.0,<4.0"
+readme = "README.md"
+
+[project.license]
+text = "GPL-3.0-or-later"
+
+[project.scripts]
+princeps = "legion_utils.princeps.princeps:cli"
+legion_publish = "legion_utils.cli.cli:cli"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "flake8<5.0.0,>=3.0.0",
+    "pytest>=7.3.0",
+    "pytest-cov>=4.0.0",
+    "pytest-mock>=3.12.0",
+    "pylint<3.0.0,>=2.12.2",
+    "mypy<1.0,>=0.930",
+    "testcontainers[rabbitmq]>=3.7.1",
+    "robotnikmq @ file:///${PROJECT_ROOT}/../robotnikmq",
+    "twine>=5.1.1",
+]
+
+[tool.pdm.scripts.publish-test]
+cmd = "twine upload -r testpypi dist/*"
+
+[tool.pdm.scripts.publish-prod]
+cmd = "twine upload -r pypi dist/*"
+
+[tool.pdm.build]
+includes = []
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.4",
+]
+build-backend = "pdm.pep517.api"
