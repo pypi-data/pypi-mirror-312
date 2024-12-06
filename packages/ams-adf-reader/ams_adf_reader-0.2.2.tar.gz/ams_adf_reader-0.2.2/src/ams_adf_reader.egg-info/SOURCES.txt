@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.py
+src/ams-adf-reader/Measurement.py
+src/ams-adf-reader/__init__.py
+src/ams_adf_reader.egg-info/PKG-INFO
+src/ams_adf_reader.egg-info/SOURCES.txt
+src/ams_adf_reader.egg-info/dependency_links.txt
+src/ams_adf_reader.egg-info/requires.txt
+src/ams_adf_reader.egg-info/top_level.txt
