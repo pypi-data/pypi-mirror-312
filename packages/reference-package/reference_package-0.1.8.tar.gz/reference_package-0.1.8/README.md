@@ -1,0 +1,108 @@
+# Basic package template
+
+## Summary
+
+Just a basic package template.
+
+## Credit
+
+I borrowed and modified the structure and tools from the idiomatic usage of IHME's Central Computation GBD team when I worked with them in 2023-2024.
+
+## Structure
+
+```bash
+    src/reference_package/api       Public and internal API.
+    src/reference_package/cli       Command-line-interface.
+    src/reference_package/lib       Implementation.
+    tests/e2e                       End-to-end tests.
+    test/integration                Integration tests.
+    tests/unit                      Unit tests.
+```
+
+## Dependencies
+
+* Python 3.11
+* [make](https://www.gnu.org/software/make/)
+
+
+## Library functions
+
+`reference_package` is a library from which you can import functions. Import the public example function like this: `from reference_package import wait_a_second`. Or, import the internal version like a power user like this: `from reference_package.api.internal import wait_a_second`.
+
+Unless you're developing, avoid importing directly from library, like `from reference_package.lib.example import wait_a_second`.
+
+## CLI
+
+Try the example CLI:
+
+    $ python -m example
+    $ python -m example --secs 2
+
+## Dev installation
+
+You'll want this package's site-package files to be the source files in this repo so you can test your changes without having to reinstall. We've got some tools for that.
+
+First build and activate the env before installing this package:
+
+    $ make build-env
+    $ conda activate reference_package_py3.12
+
+Then, install this package and its dev dependencies:
+
+    $ make install INSTALL_EXTRAS=[dev]
+
+This installs all the dependencies in your conda env site-packages, but the files for this package's installation are now your source files in this repo.
+
+## Dev workflow
+
+You can list all the make tools you might want to use:
+
+    $ make list-targets
+
+Go check them out in `Makefile`.
+
+### QC and testing
+
+Before pushing commits, you'll usually want to rebuild the env and run all the QC and testing:
+
+    $ make clean format full
+
+When making smaller commits, you might just want to run some of the smaller commands:
+
+    $ make clean format full-qc full-test
+
+### CI test run
+
+Before opening a PR or pushing to it, you'll want to run locally the same CI pipeline that GitHub will run (`.github/workflows/QC-and-build.yml`). This runs on multiple images, so you'll need to install Docker and have it running on your machine: https://www.docker.com/
+
+Once that's installed and running, you can use `act`. You'll need to install that as well. I develop on a Mac, so I used `homebrew` to install it (which you'll also need to install: https://brew.sh/):
+
+    $ brew install act
+
+Then, run it from the repo directory:
+
+    $ make ci-run
+
+That will run `.github/workflows/QC-and-build.yml` and every other action tagged to the pull_request event. Also, since `act` doesn't work with Mac and Windows architecture, it skips/fails them, but it is a good test of the Linux build.
+
+# TODO
+
+- Move these to issues.
+- Restrict deployment with GitHub environments: https://docs.github.com/en/actions/use-cases-and-examples/deploying/deploying-with-github-actions, https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-deployments/managing-environments-for-deployment
+- Update deploy jobs to install from deployed package version and run tests again. (https://test.pypi.org/project/reference-package/ `pip install -i https://test.pypi.org/simple/ reference-package==0.1.6`)
+- Add proper branch protection on main and set publishing environments to protected branches only.
+- Add CLI help docs to documentation.
+- Make docs deploy.
+- Add Windows image to matrix.
+  - Get a local runner that will work with Windows (other than my laptop)
+- Remove upper pins on dependencies since this is a template and pretty bare? (That way I'll know if a new change is truly breaking to basic usage, and new packages built from this template can choose upper pins based on what they install at that time.)
+- Make a periodic build, with failure/success alerts. https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule, https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#create-a-repository-dispatch-event
+- Add license and other standard docs.
+- Verify user for all PRs, not just to main?
+- Install app to only allow PRs from within org?
+- Explain SPEC 0 support window as rationale for matrix build.
+- Ooo, make an experimental doc lint recipe with these neato tools: https://earthly.dev/blog/markdown-lint/
+- And, look more closely at this: https://www.writethedocs.org/guide/docs-as-code/
+- Make repo public.
+- Bump QC to python 3.13 when msgspec update gets released: https://github.com/jcrist/msgspec/issues/698, https://github.com/jcrist/msgspec/issues/698 (Add issue number to inline TODO.)
+- Build package first and install that in base env to clone and then install and run QC, tests, and doc build? Just to be more certain of what we're deploying.
