@@ -1,0 +1,2 @@
+[console_scripts]
+pack_age = pack_age:hello
