@@ -1,0 +1,2 @@
+[pytest11]
+django_assert_model_queries = django_assert_model_queries.pytest
