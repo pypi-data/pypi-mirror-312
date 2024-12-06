@@ -1,0 +1,2 @@
+[console_scripts]
+sendfile = sendfile.__main__:main

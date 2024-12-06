@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+sendfile/__main__.py
+sendfile/client.py
+sendfile/server.py
+sendfile/utils.py
+sendfile.egg-info/PKG-INFO
+sendfile.egg-info/SOURCES.txt
+sendfile.egg-info/dependency_links.txt
+sendfile.egg-info/entry_points.txt
+sendfile.egg-info/requires.txt
+sendfile.egg-info/top_level.txt
