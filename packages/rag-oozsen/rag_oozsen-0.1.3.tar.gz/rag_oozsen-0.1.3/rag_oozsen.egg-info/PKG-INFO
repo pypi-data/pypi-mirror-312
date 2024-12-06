@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: rag-oozsen
+Version: 0.1.3
+Summary: A simple RAG implementation for educational purposes implemented by Özgür ÖZŞEN
+Author-email: Özgür ÖZŞEN <oozsen@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/oozsen/rag-oozsen
+Keywords: rag-oozsen
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: PyMuPDF
+Requires-Dist: python-docx
+Requires-Dist: langchain
+Requires-Dist: sentence_transformers
+Requires-Dist: google.generativeai
+Requires-Dist: chromadb==0.5.3
+Requires-Dist: streamlit
+Provides-Extra: all
+Requires-Dist: rag-oozsen[extra]; extra == "all"
+Provides-Extra: extra
+Requires-Dist: pandas; extra == "extra"
+
+# rag-oozsen
