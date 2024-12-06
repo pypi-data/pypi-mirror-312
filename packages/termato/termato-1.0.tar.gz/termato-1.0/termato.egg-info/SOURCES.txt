@@ -1,0 +1,14 @@
+15-5-3.png
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+termato.egg-info/PKG-INFO
+termato.egg-info/SOURCES.txt
+termato.egg-info/dependency_links.txt
+termato.egg-info/entry_points.txt
+termato.egg-info/requires.txt
+termato.egg-info/top_level.txt
+termoto/__init__.py
+termoto/cli.py
+termoto/todoro.py
