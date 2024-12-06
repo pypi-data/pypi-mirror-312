@@ -1,0 +1,9 @@
+README.md
+setup.py
+emlclient/__init__.py
+emlclient/emailclient.py
+emlclient/imap_smtp_factory.py
+emlclient.egg-info/PKG-INFO
+emlclient.egg-info/SOURCES.txt
+emlclient.egg-info/dependency_links.txt
+emlclient.egg-info/top_level.txt
