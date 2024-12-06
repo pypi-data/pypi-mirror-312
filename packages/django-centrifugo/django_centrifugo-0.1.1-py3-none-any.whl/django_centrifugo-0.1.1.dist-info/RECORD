@@ -1,0 +1,15 @@
+LICENSE,sha256=pT8VTYCMQkXkEyPYFeMBLtUSMBO5xFCVsV-pinHcrnU,1081
+README.md,sha256=h5ePrsQFXwqFej1-pydr1cSdvcXLeJxbbafEsA5Kt4g,2072
+pyproject.toml,sha256=9uZOF4FuhlPHdzigYetgkMTaZSNOj3N6oit-XUZq2zw,4776
+django_centrifugo/__about__.py,sha256=3YswAvWjH8ysxWR2EF3T5BM-7T2djlQxzw72vkIoaUk,18
+django_centrifugo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_centrifugo/admin.py,sha256=LPFriTwj15W-RkvMI8b2v9qGmvSE2ua7aGY_g7jtFlg,145
+django_centrifugo/apps.py,sha256=IQNhuDwM1Si6Yh61y9zluZ1ddIgGSUt9qOysgRUOZO0,159
+django_centrifugo/models.py,sha256=SJP3v2DCxl7wjXYJwLo1S9UqArRFZqB3Ajg_sCvUNyE,982
+django_centrifugo/tests.py,sha256=iNuzIhou8uXGSMVFRFYrLYW7MzkU-ea8MQAFx8TiLp8,252
+django_centrifugo/migrations/0001_initial.py,sha256=mqw2JZS8MH0618bAK1DuiI8JwZQ3KluCgUF5uKIYQhY,1758
+django_centrifugo/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_centrifugo-0.1.1.dist-info/METADATA,sha256=VMKddEcvhjOY8eenW4B3ZHJxhZ5aDwNpDvY80u4Oq4s,3436
+django_centrifugo-0.1.1.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+django_centrifugo-0.1.1.dist-info/licenses/LICENSE,sha256=pT8VTYCMQkXkEyPYFeMBLtUSMBO5xFCVsV-pinHcrnU,1081
+django_centrifugo-0.1.1.dist-info/RECORD,,
