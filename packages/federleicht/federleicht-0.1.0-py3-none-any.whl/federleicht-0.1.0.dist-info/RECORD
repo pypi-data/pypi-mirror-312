@@ -1,0 +1,11 @@
+federleicht/__init__.py,sha256=OiySaJwuOL5bCMCFS5vMyoOz_DtWmHC-0FphXSFIeF0,305
+federleicht/args.py,sha256=4u6SYYlMSAfaZc0-HZChQtP2NXM_vReM_si2_EFAYJs,4564
+federleicht/attrs.py,sha256=91m1ZasRISfJAJH-0l0nw9Wa0vThZanuDMA6V3vIAn4,2387
+federleicht/cache.py,sha256=OGum0i7DyBGgyLG7rJtfxCUMB-92Pc0pgyg3_3coqh4,1791
+federleicht/config.py,sha256=ELpjm4cDJ22WdHqgXnKrsJMRKaghsUjpKEiYk42RaYE,706
+federleicht/dataframe.py,sha256=8iU7dKJphvZWxZtQ1bMzGP-uNzP6qJMfhmV6aXnRVnE,4179
+federleicht/hash.py,sha256=jn-ICfZWO2Oe0nHdfuIkWwzZUQk6OSJZVGoEmuZ3kcM,2172
+federleicht-0.1.0.dist-info/LICENSE,sha256=Ht_pJ-L8m2lTUYYUJK3BKAef0sGTcaITzbPtGy4qZxk,1074
+federleicht-0.1.0.dist-info/METADATA,sha256=lJPQh-gaFMV8ePkQ26PdOKNvjBfqyPwvNjxn78bogfg,7102
+federleicht-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+federleicht-0.1.0.dist-info/RECORD,,
