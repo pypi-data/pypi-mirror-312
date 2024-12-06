@@ -1,0 +1,12 @@
+numpy
+optax
+torch
+jax
+
+[doc]
+sphinx
+sphinx_rtd_theme
+
+[tests]
+pytest
+pytest_lazy_fixture
