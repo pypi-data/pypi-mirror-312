@@ -1,0 +1,3 @@
+[console_scripts]
+ru = rubisco.cli.main.main:main
+rubisco = rubisco.cli.main.main:main
