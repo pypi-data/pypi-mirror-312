@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+skystar.egg-info/PKG-INFO
+skystar.egg-info/SOURCES.txt
+skystar.egg-info/dependency_links.txt
+skystar.egg-info/entry_points.txt
+skystar.egg-info/requires.txt
+skystar.egg-info/top_level.txt
