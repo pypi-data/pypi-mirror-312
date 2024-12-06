@@ -1,0 +1,13 @@
+COPYING
+README.rst
+pyproject.toml
+cqr/__init__.py
+cqr/cvxpy_interface.py
+cqr/equilibrate.py
+cqr/solver.py
+cqr/test.py
+cqr.egg-info/PKG-INFO
+cqr.egg-info/SOURCES.txt
+cqr.egg-info/dependency_links.txt
+cqr.egg-info/requires.txt
+cqr.egg-info/top_level.txt
