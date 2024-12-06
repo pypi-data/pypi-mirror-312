@@ -1,0 +1,16 @@
+[console_scripts]
+find-work = find_work.app.__main__:cli
+
+[find_work.reporters.v1]
+ConsoleBugViewReporter = find_work.reporters.console:ConsoleBugViewReporter
+ConsolePkgcheckResultReporter = find_work.reporters.console:ConsolePkgcheckResultReporter
+ConsoleVersionBumpReporter = find_work.reporters.console:ConsoleVersionBumpReporter
+HtmlBugViewReporter = find_work.reporters.html:HtmlBugViewReporter
+HtmlPkgcheckResultReporter = find_work.reporters.html:HtmlPkgcheckResultReporter
+HtmlVersionBumpReporter = find_work.reporters.html:HtmlVersionBumpReporter
+JsonBugViewReporter = find_work.reporters.json:JsonBugViewReporter
+JsonPkgcheckResultReporter = find_work.reporters.json:JsonPkgcheckResultReporter
+JsonVersionBumpReporter = find_work.reporters.json:JsonVersionBumpReporter
+XmlBugViewReporter = find_work.reporters.xml:XmlBugViewReporter
+XmlPkgcheckResultReporter = find_work.reporters.xml:XmlPkgcheckResultReporter
+XmlVersionBumpReporter = find_work.reporters.xml:XmlVersionBumpReporter
