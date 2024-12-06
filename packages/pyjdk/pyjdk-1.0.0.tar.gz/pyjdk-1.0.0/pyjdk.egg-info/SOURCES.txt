@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+pyjdk/__init__.py
+pyjdk/pyjdk.py
+pyjdk.egg-info/PKG-INFO
+pyjdk.egg-info/SOURCES.txt
+pyjdk.egg-info/dependency_links.txt
+pyjdk.egg-info/requires.txt
+pyjdk.egg-info/top_level.txt
