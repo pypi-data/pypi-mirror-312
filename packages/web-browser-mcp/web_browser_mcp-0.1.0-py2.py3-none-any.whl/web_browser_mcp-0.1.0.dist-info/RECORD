@@ -1,0 +1,9 @@
+mcp_web_browser/__init__.py,sha256=EKwNPfHPsFsFYBrd7oEAhribuWXxUyunpLOjzjJNVIQ,82
+mcp_web_browser/cli.py,sha256=MiJAmJab4bUQMRpdumT5FFHzEqHdQWLZFBbkG3lOjuo,1413
+mcp_web_browser/config.py,sha256=X98xdpC0w3zCW8KhuXp-dfNV_gcdczpvr1_8wLcczto,590
+mcp_web_browser/server.py,sha256=ysSV9xCE5JfETIhuKpjE6B23WH2Ajp0Al1yVGRNvJxA,2263
+mcp_web_browser/uvx_config.py,sha256=9PUlnP_L9UnXxr-v0TmxNFHt9FWwCqoHtuH3nZbWVr4,1054
+web_browser_mcp-0.1.0.dist-info/METADATA,sha256=phcy6RZ7Bg9rDqrt1FLfh1tQNEGkCkJ6xxoAqR0wzBA,1874
+web_browser_mcp-0.1.0.dist-info/WHEEL,sha256=aO3RJuuiFXItVSnAUEmQ0yRBvv9e1sbJh68PtuQkyAE,105
+web_browser_mcp-0.1.0.dist-info/licenses/LICENSE,sha256=UtWDM6w7nMyyFqRyOZnsYCr408jfBPWGJGVXAx8pIKM,1065
+web_browser_mcp-0.1.0.dist-info/RECORD,,
