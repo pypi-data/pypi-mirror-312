@@ -1,0 +1,11 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/all_sudokus.py,sha256=pumpJ7Nr4yZay9bzCgg-I1t8ExF4AsuSZq_KTX8TYS8,359
+examples/sudoku.py,sha256=SB-t8L9qVCuysv6tCO1iHbHo-CQaFmUj9DDkRaZi0B0,5320
+pyprune/__init__.py,sha256=kqUD5rqVo7fCHS-1_4L79tPFLd3mKS0fhjSL-Nl2ZB0,295
+pyprune/backtracking.py,sha256=rV3yGASaWPdHPwJJwA19O6M_rAcL9a-wo1bpN5Xl7I8,8529
+pyprune/subset.py,sha256=HKbNBIDpMxPC4pU-cy2AN1wBsRZ-GjMYeUOlnH-GFsY,4735
+pyprune-0.1.1.dist-info/LICENSE,sha256=dVzrWXCPlSs1p7SJj7IUaYe-RN538r34o3NEjDk4BNY,1079
+pyprune-0.1.1.dist-info/METADATA,sha256=R_OO_OlUx2qlHfQRYla_7b8bqTjorWrDLLw8ZLZ9DG0,5867
+pyprune-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pyprune-0.1.1.dist-info/top_level.txt,sha256=yqQuYxwn_attNORFkyhv9yO01smJ06mc8hqR6JvMKo4,17
+pyprune-0.1.1.dist-info/RECORD,,
