@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: foundry-map-tool
+Version: 0.1.6
+Summary: A tool to adjust the scale of maps in JSON files for Foundry VTT.
+Author: Rory Burke
+Author-email: RoryABurke+DAMapTool@gmail.com
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+
+# Foundry Map Tool
+
+This utility takes the JSON from either a DA map export or from a Foundry VTT map export JSON. It scales it down so that all walls, tokens, lights, drawings, notes, and tiles stay in place but there are 4 grid squares for every original.
+
+## Installation
+
+pip install foundry-map-tool
+
+## Usage
+
+from foundry_map_tool import adjust_map
+
+adjust_map()
+
+(install will create a data folder in project folder for output)
+
+## Before
+
+![image](https://github.com/user-attachments/assets/c5c1bdec-e90c-40bd-8c76-a9415f222f13)
+
+## After
+
+![image](https://github.com/user-attachments/assets/a507c128-0c2c-43d0-bd60-4d2fb49b6b82)
