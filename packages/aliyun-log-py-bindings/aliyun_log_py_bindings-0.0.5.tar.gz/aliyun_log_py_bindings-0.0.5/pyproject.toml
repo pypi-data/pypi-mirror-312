@@ -1,0 +1,36 @@
+[project]
+name = "aliyun-log-py-bindings"
+description = "Py bindings for aliyun log service sdk"
+authors = [{ name = "crimson" }]
+license = { text = "MIT" }
+keywords = ["aliyun", "sls", "pyo3"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Programming Language :: Rust",
+]
+dynamic = ["version"]
+
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-benchmark[histogram]"
+]
+
+
