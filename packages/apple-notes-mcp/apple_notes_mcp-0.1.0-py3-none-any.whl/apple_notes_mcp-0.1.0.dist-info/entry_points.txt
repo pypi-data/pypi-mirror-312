@@ -1,0 +1,2 @@
+[console_scripts]
+apple-notes-mcp = apple_notes_mcp:main
