@@ -1,0 +1,7 @@
+stdmathlib/__init__.py,sha256=bmQzaz8plh7jCq5Y9hNPjTS80S7xYYzdXkEO-cTyUiA,236
+stdmathlib/algebra.py,sha256=bnBFWCR6jLF1a2AqBEoOalOoyCTHedha9XFbzpPGvBA,1611
+stdmathlib/ode.py,sha256=74MJ1YCuUd_Dm8h6_-IeTlH7t79-HkYt-x0rmkPCLg0,143
+stdmathlib-0.1.0.dist-info/METADATA,sha256=MWN35E0TqJR5EMs3GvmqVAGjMf6898rwLVQVmytWmJc,616
+stdmathlib-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+stdmathlib-0.1.0.dist-info/top_level.txt,sha256=DpmXB2teRanbvNcyg1NJlymSuPpdBG1N9gu9UEqKy-A,11
+stdmathlib-0.1.0.dist-info/RECORD,,
