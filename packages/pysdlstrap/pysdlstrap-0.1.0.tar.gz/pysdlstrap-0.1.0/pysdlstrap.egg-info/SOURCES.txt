@@ -1,0 +1,13 @@
+README.md
+setup.py
+psdls/app.py
+psdls/buildtools.py
+psdls/clock.py
+psdls/logger.py
+psdls/resource.py
+psdls/window.py
+pysdlstrap.egg-info/PKG-INFO
+pysdlstrap.egg-info/SOURCES.txt
+pysdlstrap.egg-info/dependency_links.txt
+pysdlstrap.egg-info/requires.txt
+pysdlstrap.egg-info/top_level.txt

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pysdlstrap
+Version: 0.1.0
+Summary: PySDLStrap - is a wrapper for SDL2 library for writting optimized apps in python on high-level language.
+Home-page: https://github.com/nesquikcode/pysdlstrap
+Author: nesquik
+Author-email: nesquik@nishine.ru
+License: MIT
+Keywords: app apps pygame sdl sdl2 wrapper python bootstrap framework game engine
+Requires-Dist: PySDL2==0.9.16
+Requires-Dist: pysdl2-dll>=2.30.9
+
+# PySDLStrap
+
+PySDLStrap is a high-level Python library designed for developing applications and games with enhanced performance optimizations. With its intuitive API and powerful build tools, PySDLStrap streamlines the development process, enabling you to focus on creating engaging and efficient software.
+
+## Features
+
+- **High-Level Abstractions**: Write applications and games using high-level constructs that simplify complex operations.
+- **Performance Optimizations**: Leverage built-in optimizations to ensure your software runs efficiently.
+- **Comprehensive Build Tools**: Utilize the included build tools to streamline packaging and deployment.
+- **Cross-Platform Support**: Develop once and deploy across multiple platforms with ease.
+
+## Installation
+
+Install PySDLStrap using pip:
+
+```bash
+pip install pysdlstrap
+```
