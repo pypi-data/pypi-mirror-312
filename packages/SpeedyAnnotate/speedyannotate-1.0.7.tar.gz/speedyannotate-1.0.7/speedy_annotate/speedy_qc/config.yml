@@ -1,0 +1,26 @@
+app_mode: speedy_qc
+backup_dir: /Users/ianselby/speedy_annotate/backups
+backup_interval: 5
+checkboxes:
+- No Finding
+- Enlarged cardiomediastinum
+- Cardiomegaly
+- Lung lesion
+- Lung opacity
+- Oedema
+- Consolidation
+- Pneumonia
+- Pneumothorax
+- Pleural effusion
+- Fracture
+- Support devices
+- Atelectasis
+- Pleural other
+conflict_resolution: false
+conflict_resolution_json_files:
+  '1': ''
+  '2': ''
+log_dir: /Users/ianselby/speedy_annotate/logs
+max_backups: 10
+radiobuttons: []
+tristate_checkboxes: true
