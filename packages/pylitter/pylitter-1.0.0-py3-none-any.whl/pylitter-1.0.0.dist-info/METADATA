@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pylitter
+Version: 1.0.0
+Summary: CLI tool to upload file to litterbox/catbox
+Home-page: https://github.com/moiSentineL/litter
+Author: moisentinel, yukinotenshi
+Author-email: nibir@nibirsan.org, gabriel.bentara@gmail.com
+License: MIT
+Keywords: direct upload cli
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: click
+
+# litter
+
+A simple CLI tool to upload temporary files to [Litterbox](https://litterbox.catbox.moe/) with an upload link.
+
+Made for those who are too lazy to open SCP/SFTP.
+
+## Installation
+```
+pip install pylitter
+```
+
+## Usage
+
+You can use either Litterbox or Catbox (for permanent) for hosting. By default, it uses Litterbox.
+
+```
+litter <filename> --host=<host|default=litterbox> -t <time|1h/12h/24h/72h>
+```
+
+## Example
+```
+litter test.jpg -t 12h   
+
+[71097/71097] bytes |====================>|
+Your link : https://litter.catbox.moe/zmr6i6.jpg
+```
+
+## Running Tests
+```
+python3 upload_test.py
+```
+
+## Issues? Changes?
+Just open an issue/pull request
