@@ -1,0 +1,4 @@
+{
+    "autoDocstring.customTemplatePath": "docs/docs.mustache",
+    "ruff.nativeServer": "on"
+}

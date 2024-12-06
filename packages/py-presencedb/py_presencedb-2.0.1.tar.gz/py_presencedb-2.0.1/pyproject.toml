@@ -1,0 +1,59 @@
+[project]
+name = "py-presencedb"
+version = "2.0.1"
+description = "API wrapper for the presencedb (undocumented) api"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiofile>=3.9.0",
+    "aiohttp>=3.11.8",
+    "humanize>=4.11.0",
+    "msgspec",
+    "yarl>=1.18.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["presencedb"]
+
+[tool.uv.sources]
+msgspec = { git = "https://github.com/jcrist/msgspec.git", rev = "main" }
+
+[dependency-groups]
+dev = [
+    "asyncio>=3.4.3",
+    "pre-commit>=4.0.1",
+    "rich>=13.9.4",
+    "ruff>=0.8.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.3.4",
+        "pytest-asyncio>=0.24.0",
+        "pytest-profiling>=1.8.1"
+]
+docs = ["sphinx>=8.1.3",
+        "sphinxcontrib-trio>=1.1.2",
+        "sphinxcontrib-websupport>=2.0.0",
+        "typing-extensions>=4.12.2"
+]
+
+[tool.ruff]
+ignore = ["F403", "E501"]
+
+[tool.ruff.per-file-ignores]
+"docs/conf.py" = ["E402"]
+"docs/extensions/attributetable.py" = ["F402"]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+console_output_style = "progress"
+required_plugins =  ["pytest-profiling"]
+log_cli = true
+testpaths = ["tests"]
+python_files = ["test_*.py"]
