@@ -1,0 +1,13 @@
+numba>=0.60.0
+numpy<=2.0.2
+opt_einsum>=3.4.0
+
+[dev]
+pytest
+sphinx
+torch
+numpy==1.23.0
+
+[examples]
+dill
+tqdm
