@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+relaxit.egg-info/PKG-INFO
+relaxit.egg-info/SOURCES.txt
+relaxit.egg-info/dependency_links.txt
+relaxit.egg-info/requires.txt
+relaxit.egg-info/top_level.txt
