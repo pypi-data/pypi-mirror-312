@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "curl-to-json"
+version = "0.1.0"
+description = "Convert curl command to json data"
+authors = ["KingJem <qqqivy@gmail.com>"]
+readme = "README.md"
+
+homepage = "https://github.com/KingJem/curl-to-json"
+repository = "https://github.com/KingJem/curl-to-json"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+six = "^1.16.0"
+
+[tool.poetry.scripts]
+curl_to_json = "curl_to_json:main"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
