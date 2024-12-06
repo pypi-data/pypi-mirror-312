@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+qiscus_python_sdk/__init__.py
+qiscus_python_sdk/api_client.py
+qiscus_python_sdk.egg-info/PKG-INFO
+qiscus_python_sdk.egg-info/SOURCES.txt
+qiscus_python_sdk.egg-info/dependency_links.txt
+qiscus_python_sdk.egg-info/requires.txt
+qiscus_python_sdk.egg-info/top_level.txt
+tests/async_test.py
+tests/sync_test.py
