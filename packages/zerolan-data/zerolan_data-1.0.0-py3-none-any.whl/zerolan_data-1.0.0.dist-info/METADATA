@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: zerolan-data
+Version: 1.0.0
+Summary: 
+Author: AkagawaTsurunaki
+Author-email: AkagawaTsurunaki@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pydantic (>=2.10.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# ZerolanData
+
+![Static Badge](https://img.shields.io/badge/Python-3.10-blue) ![Static Badge](https://img.shields.io/badge/License-MIT-orange) ![Static Badge](https://img.shields.io/badge/ver-1.0-green) 
+
+Define data classes used in [**ZerolanLiveRobot**](https://github.com/AkagawaTsurunaki/ZerolanLiveRobot) and [**ZerolanCore**](https://github.com/AkagawaTsurunaki/zerolan-core).
+
