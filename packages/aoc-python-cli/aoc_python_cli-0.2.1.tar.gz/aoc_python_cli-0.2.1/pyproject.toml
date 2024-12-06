@@ -1,0 +1,120 @@
+[tool.poetry]
+name = "aoc-python-cli"
+version = "0.2.1"
+description = "Advent of Code Python scaffolding/running/submitting CLI"
+authors = [
+    "nekeal <szymon.sc.cader@gmail.com>",
+]
+license = "MIT"
+readme = "README.md"
+
+homepage = "https://nekeal.github.io/advent-of-code-python-cli"
+repository = "https://github.com/nekeal/advent-of-code-python-cli"
+
+classifiers = [
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+packages = [
+    { include = "aoc", from = "src" }
+]
+[tool.poetry.scripts]
+aoc = 'aoc.main:app'
+aoccli = 'aoc.main:app'
+
+[tool.poetry.dependencies]
+python = ">=3.11, <4.0"
+typer = "^0.9.0"
+advent-of-code-data = "^2.0.1"
+pytest = "*"  # Required for verifying the solution
+
+[tool.poetry.group.dev.dependencies]
+mypy = "*"
+pre-commit = "*"
+ruff = "*"
+ipython = "*"
+ipdb = "*"
+pytest-watcher = "^0.3.4"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+target-version = "py311"
+exclude = [
+    ".git",
+    "__pycache__",
+    "build",
+    "dist",
+    ".venv",
+    ".eggs",
+    ".tox",
+]
+
+[tool.ruff.lint]
+
+select = [
+    "A", # flake8 builtins
+    "E", # pycodestyle error
+    "W", # pycodestyle warning
+    "F", # pyflakes
+    "N", # pep8-naming
+    "UP", # pyupgrade
+    "B", # flake8-bugbear
+    "I", # isort
+    "C4", # flake8-comprehensions
+    "T10", # flake8-debugger
+    "ERA", # flake8-eradicate
+    "G", # flake8-logging-format
+    "C9", # mccabe
+]
+
+[tool.ruff.lint.pep8-naming]
+classmethod-decorators = [
+    "classmethod",
+    "validator",
+    "root_validator",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"*/__init__.py" = ["F401"]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "src",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    'if TYPE_CHECKING:',
+    'pragma: no cover'
+]
+
+[tool.mypy]
+disallow_any_unimported = false
+disallow_untyped_defs = false
+strict_equality = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_return_any = true
+check_untyped_defs = true
+
+exclude = [
+    "templates",
+    "aoc_solutions",
+]
+
+
+[[tool.mypy.overrides]]
+module = "aocd.*"
+ignore_missing_imports = true
