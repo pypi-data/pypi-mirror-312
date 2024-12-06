@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: msplanner-tools
+Version: 0.0.0
+Home-page: https://github.com/MigueldsBatista/msplanner-tools
+Author: Miguel Batista
+Author-email: miguelsbatista0610@gmail.com
+License: MIT
+Project-URL: Repository, https://github.com/MigueldsBatista/msplanner-tools
+Project-URL: Documentation, https://github.com/MigueldsBatista/msplanner-tools#readme
+Keywords: Microsoft Planner,API,Graph,Python,Tasks,Buckets,Plans
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
