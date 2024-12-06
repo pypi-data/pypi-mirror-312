@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+agentmesh/__init__.py
+agentmesh.egg-info/PKG-INFO
+agentmesh.egg-info/SOURCES.txt
+agentmesh.egg-info/dependency_links.txt
+agentmesh.egg-info/top_level.txt
