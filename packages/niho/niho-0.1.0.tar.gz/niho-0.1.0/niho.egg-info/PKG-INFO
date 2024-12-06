@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: niho
+Version: 0.1.0
+Summary: Niho is a simple HTTP server framework.
+Author: Nihad Kerimli
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Niho
+
+Niho is a simple HTTP server framework for Python.
+
+## Features
+- Lightweight and easy to use.
+- Add, update, and delete routes with ease.
+
+## Installation
+Install Niho using pip:
+```bash
+pip install niho
+```
