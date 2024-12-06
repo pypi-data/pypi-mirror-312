@@ -1,0 +1,13 @@
+simple_events/__init__.py,sha256=DOMgmT1ircXhSAEx08SkRNTu6i73VldYVzfH8QhTzTg,359
+simple_events/base_manager.py,sha256=eGoPEAJHzkJNgCeKA39evFJMGc59583KOXJ77JuM6cs,9889
+simple_events/event_manager.py,sha256=EK3g53PGgJDt2qmx2inFrOFfhyaU09XD-2jOHm6exjI,7267
+simple_events/file_parser.py,sha256=1KlkTKkcdokNdmT3_ujr_QGd6qzrtA3t7nWNRbnKBGU,3673
+simple_events/joy_map.py,sha256=sOMOumQ35gfjpaGFxPcB3h5hB_XDwkV_Bo_OoT8uVlE,6138
+simple_events/key_manager.py,sha256=dk1PRIDIz3KuMqXK_owyB9Naubtolwp19PcZne_m0AY,21626
+simple_events/key_map.py,sha256=eATq02aJgmScwYJyc-cL3vkp4uhVE9ch7XNPJ0v7CMI,6026
+simple_events/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygame_simple_events-1.1.1.dist-info/LICENSE,sha256=vaG-W-qCxhh_2WkfPMTQV2Ss6voY5LJzaNACg0fdFqw,1081
+pygame_simple_events-1.1.1.dist-info/METADATA,sha256=WsYjCZeJl943qDdKgNsd8k8Pr8FN77QlRjuo9vG5LrY,23315
+pygame_simple_events-1.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pygame_simple_events-1.1.1.dist-info/top_level.txt,sha256=Y2q6l0YPiOlqWoC35UDWTvAY_9_6hLyGUrqvZVWDK14,14
+pygame_simple_events-1.1.1.dist-info/RECORD,,
