@@ -1,0 +1,48 @@
+Metadata-Version: 2.3
+Name: chucks
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/fioccajohn/chucks#readme
+Project-URL: Issues, https://github.com/fioccajohn/chucks/issues
+Project-URL: Source, https://github.com/fioccajohn/chucks
+Author-email: John Fiocca <fioccajohn@gmail.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: pandas
+Requires-Dist: schwab-py
+Description-Content-Type: text/markdown
+
+# Chucks
+
+[![PyPI - Version](https://img.shields.io/pypi/v/chucks.svg)](https://pypi.org/project/chucks)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/chucks.svg)](https://pypi.org/project/chucks)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install chucks
+```
+
+## TODO
+- [ ] Pandas wrappers.
+- [ ] Analysis scripts.
+- [ ] Pandas extensions.
+- [ ] Explore the suggestion of using another Schwab python library for orders.
+
+## License
+
+This project does not include a license. All rights reserved.

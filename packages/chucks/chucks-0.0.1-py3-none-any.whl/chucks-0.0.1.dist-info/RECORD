@@ -1,0 +1,8 @@
+chucks/__about__.py,sha256=oU1Fs60v1Rzv-s0rbnB2QlgU00JaY_daIIN6d4P0qio,96
+chucks/__init__.py,sha256=RCmGuvZmbFhpP84E5eLdQemUx1VdCXmsHalD1suOlIQ,247
+chucks/core.py,sha256=WIBWdLkvKV4qDFYNymYIb2hV0MnC8NPv17HSw_LH4OI,7704
+chucks/utils.py,sha256=-2qtE78c1SkaK3t0nNdPQHcne62DP-OwuASqYMb0-FI,799
+chucks/cli/__init__.py,sha256=5zjaj8tReAdspmN_1GZuhZATT5sSWXljNNwC_4RKA4k,275
+chucks-0.0.1.dist-info/METADATA,sha256=hUf9vqjvodrp0CfRPSSfyPTHxxwFUAPmNRHJYRIviC8,1473
+chucks-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+chucks-0.0.1.dist-info/RECORD,,
