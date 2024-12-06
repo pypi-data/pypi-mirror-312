@@ -1,0 +1,5 @@
+[console_scripts]
+mmpm = mmpm.entrypoint:main
+
+[gui_scripts]
+
