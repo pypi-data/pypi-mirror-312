@@ -1,0 +1,4 @@
+daemon
+dist
+doc
+pip-requirements
