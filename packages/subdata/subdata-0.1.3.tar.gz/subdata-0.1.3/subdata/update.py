@@ -1,0 +1,224 @@
+import json
+import os
+import pandas as pd
+
+import importlib.resources
+
+from subdata.download import download_datasets
+from subdata.process import process_datasets
+
+
+### function to update the mapping from dataset keys to targets for a single, specified dataset
+# input {dataset: {key_original: value_new}} to change mapping from dataset-specific key to new target (value_new) (only for this dataset)
+
+def update_mapping_specific(mapping_change, mapping_name='modified'):
+
+    if mapping_name.lower() == 'original':
+        print(f'Please choose another name for the new mapping. {mapping_name} is not allowed.')
+        return None
+        
+    if os.path.exists(f'modified_resources/mapping_{mapping_name}.json'):
+        with open(f'modified_resources/mapping_{mapping_name}.json') as file:
+            mapping_dict = json.load(file)
+        print(f'Updating mapping called {mapping_name}.')
+    else:
+        with importlib.resources.open_text('subdata.resources', 'mapping_original.json') as file:
+            mapping_dict = json.load(file)
+        print('Updating original mapping.')
+
+    valid_targets = [e for t in list(set([v for k_,d in mapping_dict.items() for k,v in d.items()])) for e in t.split(',')] # trust the process
+    changes = []
+    
+    for dataset, change in mapping_change.items():
+        if dataset not in mapping_dict.keys():
+            print(f'{dataset} not a valid dataset name. Please refer to the dataset overview to identify the spelling and format of valid datasets.')
+            continue
+        for key_original, value_new in change.items():
+            if value_new not in valid_targets:
+                print(f'{value_new} is not a valid target name. Please refer to the original mapping to identify the spelling and format of valid targets.')
+                continue
+            if key_original in mapping_dict[dataset].keys():
+                value_old = mapping_dict[dataset][key_original]
+                mapping_dict[dataset][key_original] = value_new
+                changes.append([dataset, key_original, value_old, value_new])
+            else:
+                print(f'{key_original} not found as a key in {dataset}-mapping - no change to the mapping has been made. Please refer to the original mapping to identify the spelling and format of valid keys.')
+
+    if not os.path.exists('modified_resources'): # modified resources (mapping, taxonomy, overview) are stored locally
+        os.mkdir('modified_resources')
+
+    with open(f'modified_resources/mapping_{mapping_name}.json', 'w') as f:
+        json.dump(mapping_dict, f)
+
+    if len(changes) > 0:
+        print('Overview of mapping changes:')
+        for change in changes:
+            print(f'Dataset: {change[0].ljust(20)} Key: {change[1].ljust(20)} Old Value: {change[2].ljust(20)} New Value: {change[3]}')
+    else:
+        print(f'No changes have been made.')
+    
+    return mapping_dict
+
+### function to update the mapping from dataset keys to targets for all datasets
+# input {key_original: value_new} to change mapping from key to new target (value_new) (for all datasets)
+
+def update_mapping_all(mapping_change, mapping_name='modified'):
+
+    if mapping_name.lower() == 'original':
+        print(f'Please choose another name for the new mapping. {mapping_name} is not allowed.')
+        return None
+
+    if os.path.exists(f'modified_resources/mapping_{mapping_name}.json'):
+        with open(f'modified_resources/mapping_{mapping_name}.json') as file:
+            mapping_dict = json.load(file)
+        print(f'Updating mapping called {mapping_name}.')
+    else:
+        with importlib.resources.open_text('subdata.resources', 'mapping_original.json') as file:
+            mapping_dict = json.load(file)
+        print('Updating original mapping.')
+
+    valid_targets = [e for t in list(set([v for k_,d in mapping_dict.items() for k,v in d.items()])) for e in t.split(',')] # trust the process
+    changes = []
+    
+    for key_original, value_new in mapping_change.items():
+        if value_new not in valid_targets:
+            print(f'{value_new} is not a valid target name. Please refer to the original mapping to identify the spelling and format of valid targets.')
+            continue
+        for dataset, dataset_mapping in mapping_dict.items():
+            if key_original in dataset_mapping.keys():
+                value_old = dataset_mapping[key_original]
+                mapping_dict[dataset][key_original] = value_new
+                changes.append([dataset, key_original, value_old, value_new])
+
+    if not os.path.exists('modified_resources'): # modified resources (mapping, taxonomy, overview) are stored locally
+        os.mkdir('modified_resources')
+
+    with open(f'modified_resources/mapping_{mapping_name}.json', 'w') as f:
+        json.dump(mapping_dict, f)
+    
+    if len(changes) > 0:
+        print('Overview of mapping changes:')
+        for change in changes:
+            print(f'Dataset: {change[0].ljust(20)} Key: {change[1].ljust(20)} Old Value: {change[2].ljust(20)} New Value: {change[3]}')
+    else:
+        print(f'No changes have been made.')
+
+    return mapping_dict
+
+# input {target: (old_category, new_category)} to move target from old_category to new_category. 
+# if new_category == None, then target will effectively be removed from taxonomy
+# if new_category not in existing taxonomy, a new category of targets will be added
+
+def update_taxonomy(taxonomy_change, taxonomy_name='modified'):
+
+    if taxonomy_name.lower() == 'original':
+        print(f'Please choose another name for the new taxonomy. {taxonomy_name} is not allowed.')
+        return None
+
+    if os.path.exists(f'modified_resources/taxonomy_{taxonomy_name}.json'):
+        with open(f'modified_resources/taxonomy_{taxonomy_name}.json') as file:
+            taxonomy_dict = json.load(file)
+        print(f'Updating taxonomy called {taxonomy_name}.')
+    else:
+        with importlib.resources.open_text('subdata.resources', 'taxonomy_original.json') as file:
+            taxonomy_dict = json.load(file)
+        print('Updating original taxonomy.')
+
+    changes = []
+
+    for target, change in taxonomy_change.items():
+        old_category, new_category = change[0], change[1]
+        
+        if old_category not in taxonomy_dict.keys():
+            print(f'{old_category} is not a valid category. Please refer to the original taxonomy to specify a valid original category.')
+            continue
+
+        if new_category not in taxonomy_dict.keys():
+            taxonomy_dict[new_category] = []
+            print(f'{new_category} is a new category. A category named {new_category} has been added to the taxonomy.')
+        
+        if target in taxonomy_dict[old_category]:
+            taxonomy_dict[old_category].remove(target)
+            taxonomy_dict[new_category].append(target)
+            changes.append([target, old_category, new_category])
+        else:
+            print(f'{target} not found in original category {old_category}. Please refer to the original taxonomy to specify the correct original category and/or a valid target.')
+
+    if not os.path.exists('modified_resources'): # modified resources (mapping, taxonomy, overview) are stored locally
+        os.mkdir('modified_resources')
+
+    with open(f'modified_resources/taxonomy_{taxonomy_name}.json', 'w') as f:
+        json.dump(taxonomy_dict, f)
+    
+    if len(changes) > 0:
+        print('Overview of taxonomy changes:')
+        for change in changes:
+            print(f'Target: {change[0].ljust(20)} Old Category: {change[1].ljust(20)} New Category: {change[2].ljust(20)}')
+    else:
+        print(f'No changes have been made.')
+
+    return taxonomy_dict
+
+
+# input: {overivew_name='modified', mapping_name='modified', taxonomy_name='modified'} the name of the overview to generate and the names of the (modified) taxonomy and mapping to use for the creation of the overview. (if both mapping and taxonomy are 'original' the call will never lead to changes since a modified mapping and taxonomy can never be named original)
+# creates an overview using all available datasets
+
+def create_overview_dict(df_overview):
+    
+    dict_overview = {k: [] for k in df_overview['target']}
+    
+    for i, row in df_overview.iterrows():
+        for i_dataset, n_targets in enumerate(row[2:]):
+            if n_targets > 0:
+                dict_overview[row.iloc[1]].append((list(df_overview.columns)[i_dataset+2],n_targets))
+                
+    return dict_overview
+
+def update_overview(overview_name='modified', mapping_name='modified', taxonomy_name='modified', hf_token=None):
+
+    if overview_name.lower() == 'original':
+        print('Please choose another name for the new overview. "original" is not allowed.')
+        return None
+
+    if taxonomy_name.lower() == 'original':
+        if mapping_name.lower() == 'original':
+            print('Please specify the name of a modified mapping or taxonomy. "original" is the mapping and taxonomy already used for the current overview, no update necessary.')
+            return None
+
+    if taxonomy_name != 'original': # if not original version requested
+        if os.path.exists(f'modified_resources/taxonomy_{taxonomy_name}.json') == False: # if requested modified version does not exist
+            print(f'Please specify the name of an existing taxonomy. No modified taxonomy with name {taxonomy_name} exists.')
+            return None
+        else: # if requested modified version exists
+            with open(f'modified_resources/taxonomy_{taxonomy_name}.json', 'r') as file:
+                taxonomy_dict = json.load(file)
+    else: # if original version requested
+        with importlib.resources.open_text('subdata.resources', 'taxonomy_original.json') as file:
+            taxonomy_dict = json.load(file)
+
+    with importlib.resources.open_text('subdata.resources', 'download_dict.json') as file:
+        download_dict = json.load(file)
+
+    list_of_dataset_names = [k for k in download_dict.keys()]
+    dict_of_datasets = download_datasets(list_of_dataset_names, hf_token)
+    dict_of_processed_datasets = process_datasets(dict_of_datasets, mapping_name)    
+    
+    df_overview = pd.DataFrame({
+        'category': [category for category, target_groups in taxonomy_dict.items() for t in target_groups],
+        'target': [t for category, target_groups in taxonomy_dict.items() for t in target_groups]
+    })
+    
+    for dataset_name in list_of_dataset_names:
+        df = dict_of_processed_datasets[dataset_name]
+        n_targets = []
+        for category, target_groups in taxonomy_dict.items():
+            for target_group in target_groups:
+                n_targets.append(len(df[df['target']==target_group]))
+        df_overview[dataset_name] = n_targets
+
+    overview_dict = create_overview_dict(df_overview)
+
+    with open(f'modified_resources/overview_dict_{overview_name}.json', 'w') as f:
+        json.dump(overview_dict, f)
+    
+    return df_overview
