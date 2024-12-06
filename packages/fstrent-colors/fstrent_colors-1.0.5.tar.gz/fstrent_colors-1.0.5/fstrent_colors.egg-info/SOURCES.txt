@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+fstrent_colors/__init__.py
+fstrent_colors/fstrent_colors.py
+fstrent_colors.egg-info/PKG-INFO
+fstrent_colors.egg-info/SOURCES.txt
+fstrent_colors.egg-info/dependency_links.txt
+fstrent_colors.egg-info/requires.txt
+fstrent_colors.egg-info/top_level.txt
+tests/__init__.py
+tests/test_fstrent_colors.py
