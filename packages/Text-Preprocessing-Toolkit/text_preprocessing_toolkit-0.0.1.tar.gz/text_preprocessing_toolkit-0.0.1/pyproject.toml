@@ -1,0 +1,33 @@
+[project]
+name = "Text_Preprocessing_Toolkit"
+version = "0.0.1"
+authors = [
+  { name = "Gaurav Jaiswal", email = "jaiswalgaurav863@gmail.com" }
+]
+description = "A package that automates text preprocessing"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+keywords = ["text preprocessing", "toolkit", "automation"]
+
+# The `dependencies` field must be a simple array
+dependencies = [
+    "spellchecker",
+    "matplotlib",
+    "pandas",
+    "spacy",
+    "nltk"
+]
+
+[project.urls]
+Homepage = "https://github.com/Gaurav-Jaiswal-1/Text-Preprocessing-Toolkit"
+Issues = "https://github.com/Gaurav-Jaiswal-1/Text-Preprocessing-Toolkit/issues"
+
+[build-system]
+requires = ["setuptools", "wheel", "build"]
+build-backend = "setuptools.build_meta"
