@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: phenotools
+Version: 0.1.4
+Summary: A user-friendly tool for breeders to extract organ-level phenotypic traits from UAV imagery.
+Home-page: https://phenonet.org/phenosr
+Author: Ruinan Zhang
+Author-email: ruinan@stu.njau.edu.cn
+License: GPL3.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: dj-rest-auth==6.0.0
+Requires-Dist: Django==4.2.7
+Requires-Dist: django-cors-headers==4.3.0
+Requires-Dist: django-filter==23.3
+Requires-Dist: django-huey==1.2.0
+Requires-Dist: django-ranged-response==0.2.0
+Requires-Dist: django-rest-swagger==2.2.0
+Requires-Dist: django-restql==0.15.3
+Requires-Dist: django-timezone-field==6.0.1
+Requires-Dist: djangorestframework==3.14.0
+Requires-Dist: djangorestframework-jwt==1.11.0
+Requires-Dist: djangorestframework-simplejwt==5.3.0
+Requires-Dist: einops==0.8.0
+Requires-Dist: huey==2.5.1
+Requires-Dist: imageio==2.35.1
+Requires-Dist: loguru
+Requires-Dist: matplotlib
+Requires-Dist: netifaces
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pillow
+Requires-Dist: PyJWT
+Requires-Dist: pynvml
+Requires-Dist: pytorch-msssim
+Requires-Dist: psutil
+Requires-Dist: PyYAML
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: SQLAlchemy
+Requires-Dist: torch==1.11.0
+Requires-Dist: torchvision==0.12.0
+Requires-Dist: basicsr>=1.4.2
+Requires-Dist: drf_yasg
+Requires-Dist: tqdm
+
+
+PhenoTools: A user-friendly tool for breeders to extract organ-level phenotypic traits from UAV imagery.
+Author: Ruinan Zhang (ruinan@stu.njau.edu.cn)
+Team: PhenoNet.org

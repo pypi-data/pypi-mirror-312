@@ -1,0 +1,3 @@
+[console_scripts]
+phenotools-q = phenotools.__main__:djangohuey
+phenotools-w = phenotools.__main__:main
