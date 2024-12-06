@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+cpda/__init__.py
+cpda/cesm.py
+cpda/da.py
+cpda/obs.py
+cpda/prior.py
+cpda/psm.py
+cpda/utils.py
+cpda.egg-info/PKG-INFO
+cpda.egg-info/SOURCES.txt
+cpda.egg-info/dependency_links.txt
+cpda.egg-info/not-zip-safe
+cpda.egg-info/requires.txt
+cpda.egg-info/top_level.txt
