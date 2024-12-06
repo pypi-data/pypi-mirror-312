@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+stdmathlib/__init__.py
+stdmathlib/algebra.py
+stdmathlib/combinatorics.py
+stdmathlib/graph.py
+stdmathlib/integrals.py
+stdmathlib/ode.py
+stdmathlib/pde.py
+stdmathlib.egg-info/PKG-INFO
+stdmathlib.egg-info/SOURCES.txt
+stdmathlib.egg-info/dependency_links.txt
+stdmathlib.egg-info/requires.txt
+stdmathlib.egg-info/top_level.txt

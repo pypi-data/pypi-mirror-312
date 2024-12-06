@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stdmathlib"
+version = "0.1.10"
+authors = [
+    { name="AstroKepler", email="nicholasbrislane1@gmail.com" }
+]
+description = "A library to simplify mathematical computations."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "sympy>=1.0",
+    "numpy>=1.18.0",
+    "matplotlib>=3.0.0",
+    "scipy>=1.4.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/astrokepler/stdmathlib"
