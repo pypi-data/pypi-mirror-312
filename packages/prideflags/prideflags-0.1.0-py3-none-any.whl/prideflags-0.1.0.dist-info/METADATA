@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: prideflags
+Version: 0.1.0
+Summary: prideflags library for python 3.9+
+Author-email: sctech <gamerselimiko@gmail.com>
+Project-URL: source, https://git.gay/sctech/prideflags
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# prideflags
+pride flags library for python 3.9+
+## installation
+```bash
+pip install prideflags
+```
+## usage
+```python
+import prideflags
+
+# Print a specific flag
+prideflags.print_flag("gay")
+
+# List all available flags
+print(prideflags.list_flags())
+
+# Get and print a random flag
+random_flag = prideflags.get_random_flag()
+print(f"Random flag: {random_flag}")
+prideflags.print_flag(random_flag)
+```
+## flags
+- straight
+- gay
+- bisexual
+- lesbian
+- trans
+- pansexual
+- nonbinary
+- demiboy
+- demigirl
+- genderfluid
+- aromantic
+- agender
+- asexual
+- graysexual
+## credits
+- [me](https://github.com/sctech-tr) for the code
+- [pypi](https://pypi.org/project/prideflags/) for hosting
+- [pridefetch](https://github.com/cartoon-raccoon/pridefetch) for flags
+- [git.gay](https://git.gay) for the git repository
+- and you for using this library! <3
