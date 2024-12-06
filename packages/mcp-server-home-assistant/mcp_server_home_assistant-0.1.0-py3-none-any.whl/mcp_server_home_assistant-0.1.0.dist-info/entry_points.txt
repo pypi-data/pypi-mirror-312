@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-server-home-assistant = mcp_server_home_assistant.__main__:main
