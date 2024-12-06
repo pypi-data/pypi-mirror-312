@@ -1,0 +1,2 @@
+[mkpipe.extractors]
+postgres = mkpipe_extractor_postgres:PostgresExtractor
