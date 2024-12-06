@@ -1,0 +1,10 @@
+transformers
+huggingface_hub
+torch
+
+[dev]
+orjson
+orjsonl
+torchmetrics
+vendi_score
+k_diffusion
