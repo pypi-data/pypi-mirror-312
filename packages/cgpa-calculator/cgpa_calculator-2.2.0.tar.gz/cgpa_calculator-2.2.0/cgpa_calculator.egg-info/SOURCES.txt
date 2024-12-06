@@ -1,0 +1,8 @@
+README.md
+setup.py
+cgpa_calculator/__init__.py
+cgpa_calculator/cgpa_calc.py
+cgpa_calculator.egg-info/PKG-INFO
+cgpa_calculator.egg-info/SOURCES.txt
+cgpa_calculator.egg-info/dependency_links.txt
+cgpa_calculator.egg-info/top_level.txt
