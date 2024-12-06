@@ -1,0 +1,2 @@
+[console_scripts]
+pull_data = future_sales_prediction_2024.pull_data:main
