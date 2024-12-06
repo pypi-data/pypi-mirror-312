@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+allsort/__init__.py
+allsort/sortall.py
+allsort.egg-info/PKG-INFO
+allsort.egg-info/SOURCES.txt
+allsort.egg-info/dependency_links.txt
+allsort.egg-info/top_level.txt
+tests/__init__.py
+tests/tests_sortall.py
