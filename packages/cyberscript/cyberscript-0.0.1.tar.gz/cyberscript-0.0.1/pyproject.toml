@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cyberscript"
+version = "0.0.1"
+description =  "An AI web browsing framework focused on simplicity and extensibility."
+authors = ["Div Garg <divyansh199@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+packages = [
+    { include = "lib", from = "python"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
