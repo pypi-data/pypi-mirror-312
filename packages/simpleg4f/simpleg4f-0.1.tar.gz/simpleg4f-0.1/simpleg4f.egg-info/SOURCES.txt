@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.cfg
+setup.py
+PythonSimpleG4f/LICENSE
+PythonSimpleG4f/README.md
+PythonSimpleG4f/__init__.py
+PythonSimpleG4f/module.py
+PythonSimpleG4f/setup.py
+simpleg4f.egg-info/PKG-INFO
+simpleg4f.egg-info/SOURCES.txt
+simpleg4f.egg-info/dependency_links.txt
+simpleg4f.egg-info/top_level.txt
