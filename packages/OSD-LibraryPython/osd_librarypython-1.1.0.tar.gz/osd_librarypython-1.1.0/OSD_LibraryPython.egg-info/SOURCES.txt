@@ -1,0 +1,7 @@
+README.md
+setup.py
+OSD_LibraryPython.egg-info/PKG-INFO
+OSD_LibraryPython.egg-info/SOURCES.txt
+OSD_LibraryPython.egg-info/dependency_links.txt
+OSD_LibraryPython.egg-info/requires.txt
+OSD_LibraryPython.egg-info/top_level.txt
