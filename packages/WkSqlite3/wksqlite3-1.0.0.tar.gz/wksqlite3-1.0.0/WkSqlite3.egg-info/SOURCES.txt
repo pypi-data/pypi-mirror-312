@@ -1,0 +1,13 @@
+LICENSE
+setup.py
+WkSqlite3/WkSqlite3.py
+WkSqlite3/__init__.py
+WkSqlite3.egg-info/PKG-INFO
+WkSqlite3.egg-info/SOURCES.txt
+WkSqlite3.egg-info/dependency_links.txt
+WkSqlite3.egg-info/requires.txt
+WkSqlite3.egg-info/top_level.txt
+test/test.py
+test/testLock.py
+test/testMultiThread.py
+test/testZip.py
