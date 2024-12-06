@@ -1,0 +1,9 @@
+README.md
+setup.py
+WTG/__init__.py
+WTG/module.py
+WTG.egg-info/PKG-INFO
+WTG.egg-info/SOURCES.txt
+WTG.egg-info/dependency_links.txt
+WTG.egg-info/requires.txt
+WTG.egg-info/top_level.txt
