@@ -1,0 +1,11 @@
+aoc_mod/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aoc_mod/interactive.py,sha256=2qxLQuxb3RYbNaSGI8xjn-D7ppkLz8e3rgOTTAW_VGk,4539
+aoc_mod/utilities.py,sha256=5J4VQBbp2tOLTNIO-LFKikIca_LNr5dQSIhlzSGne-0,8072
+aoc_mod/file_templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aoc_mod/file_templates/py_templates.py,sha256=ruSknlDUxeJ8k3NunGFuqiZ9JgEmrzMtKw41zj0yTjc,1866
+aoc_mod-0.1.4.dist-info/LICENSE,sha256=G6UTcjxliCGYhKGEQsN5PRg4yeV2qBCw7AGyoytjgOo,1069
+aoc_mod-0.1.4.dist-info/METADATA,sha256=6P_gaMV4o8HxgTUOF3PAIDiH1mydLa93M1QtUytD8Wo,4382
+aoc_mod-0.1.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+aoc_mod-0.1.4.dist-info/entry_points.txt,sha256=2AaRbGXMNmXTcVJ_ci9INrzuEIIyGp4U19wRyNn2GrM,60
+aoc_mod-0.1.4.dist-info/top_level.txt,sha256=7zWM0v1iaZZhcJRuh8zjnLi6mw6dBRzWQq8WpfaxA4g,8
+aoc_mod-0.1.4.dist-info/RECORD,,
