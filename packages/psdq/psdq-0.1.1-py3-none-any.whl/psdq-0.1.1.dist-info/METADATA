@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: psdq
+Version: 0.1.1
+Summary: Ad Hoc Data Quality Tool for PySpark
+Author: Alexandre "Alex" de Magalhaes
+Author-email: alexandredemagalhaess@gmail.com
+License-File: LICENSE
+Requires-Dist: pyspark (>=3.5.3)
+
