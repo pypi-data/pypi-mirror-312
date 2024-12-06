@@ -1,0 +1,9 @@
+black
+
+[dev]
+black
+bump2version
+pytest-cov
+pre-commit
+flake8
+toml
