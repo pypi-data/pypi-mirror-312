@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: glidergun
+Version: 0.7.16
+Summary: Map Algebra with NumPy
+Project-URL: Homepage, https://github.com/jshirota/glidergun
+Project-URL: Bug Tracker, https://github.com/jshirota/glidergun/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: folium>=0.18.0
+Requires-Dist: ipython>=8.12.3
+Requires-Dist: matplotlib>=3.7.5
+Requires-Dist: numpy>=1.24.4
+Requires-Dist: rasterio>=1.3.11
+Requires-Dist: scikit-learn>=1.3.2
+Requires-Dist: scipy>=1.10.1
+Requires-Dist: shapely>=2.0.6
+
+# Map Algebra with NumPy
+
+```
+pip install glidergun
+```
+
+```python
+from glidergun import grid, mosaic
+
+dem1 = grid(".data/n55_e008_1arc_v3.bil")
+dem2 = grid(".data/n55_e009_1arc_v3.bil")
+
+dem = mosaic(dem1, dem2)
+hillshade = dem.hillshade()
+
+# hillshade.save(".output/hillshade.tif", "uint8")
+# hillshade.save(".output/hillshade.png")
+# hillshade.save(".output/hillshade.kmz")
+
+dem, hillshade
+```
+
+![alt text](image.png)
