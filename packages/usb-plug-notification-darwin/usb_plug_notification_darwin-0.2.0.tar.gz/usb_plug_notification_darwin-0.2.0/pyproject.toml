@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "usb-plug-notification-darwin"
+version = "0.2.0"
+description = "Python script to get plug/unplug events on Darwin (MacOS)"
+authors = ["Dick Marinus <dick@mrns.nl>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pyobjc-framework-Cocoa = "*"
+click = "*"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+usb-plug-notification = "usb_plug_notification_darwin.main:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
