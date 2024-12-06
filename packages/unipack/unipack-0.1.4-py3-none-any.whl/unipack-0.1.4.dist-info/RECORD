@@ -1,0 +1,7 @@
+unipack/__init__.py,sha256=fAneW4IF0lAMb1joXolhYySJtxCSWLlDWGp9KROqg-A,170
+unipack/uniprot.py,sha256=WXkPwW9w0LLnj6Iv_ecBZv7bWC2THO4ICLjAcInsGeM,7115
+unipack/uniprot_collection.py,sha256=HCZ2ytzKXGUSvc9y2s_PDjnNyu_2MHjMPn4AzhCNlC8,6719
+unipack-0.1.4.dist-info/METADATA,sha256=e7mt9N0Wzoo5KdeMDyK1BFuWF4phRYftvkUv7asVDbo,7144
+unipack-0.1.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+unipack-0.1.4.dist-info/top_level.txt,sha256=uKoyUsZmiuN1WXE_ciS9n-zs-49IhOgZgoWRbAGpUMs,8
+unipack-0.1.4.dist-info/RECORD,,
