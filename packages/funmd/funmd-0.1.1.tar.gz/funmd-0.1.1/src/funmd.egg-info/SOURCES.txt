@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/funmd/__init__.py
+src/funmd/_pandas.py
+src/funmd.egg-info/PKG-INFO
+src/funmd.egg-info/SOURCES.txt
+src/funmd.egg-info/dependency_links.txt
+src/funmd.egg-info/requires.txt
+src/funmd.egg-info/top_level.txt
