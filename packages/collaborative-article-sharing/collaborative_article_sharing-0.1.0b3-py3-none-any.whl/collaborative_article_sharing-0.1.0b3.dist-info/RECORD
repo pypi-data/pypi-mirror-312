@@ -1,0 +1,13 @@
+cas/cli.py,sha256=m6kj-nDKO80Yy_Ut3sjh2gVikKgXglEprtv6t85cQkk,856
+cas/session_utils.py,sha256=AOzqklNDRqxiUZWR4MJLDY-GnZqd6pCX-VjzMWDcyoU,527
+cas/commands/auth.py,sha256=YSuslCjYbgk6Ut1aWxKcyrZ5ZpJZ1_eQA2Xx-m_OBzE,2237
+cas/commands/help.py,sha256=-49zWamYvom4VXOE_jl-TQMGkVlgXxBzZvUcOEi6AQM,586
+cas/commands/info.py,sha256=WzXU6Nu4MH5qWwqgG16A8NNqroapuDowcrYuUYz6RQM,539
+cas/commands/pull.py,sha256=gqj_sR4hIzuHVHnRL43bZZyjoX7qq5PKCFm2zacp_EM,1471
+cas/commands/push.py,sha256=XzRe0pDgUx8rWZTxDG6nYPOKFTtwBU5osPLn5bESbss,1457
+collaborative_article_sharing-0.1.0b3.dist-info/LICENSE,sha256=CFt4pUZqMAhdWFTW8Nx1fXXDv1XacoSWPA-ed56Fn-k,1072
+collaborative_article_sharing-0.1.0b3.dist-info/METADATA,sha256=Cifav058HoIzH3sIF7NzmleGzawAvg2tO-AC1yZqkN8,940
+collaborative_article_sharing-0.1.0b3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+collaborative_article_sharing-0.1.0b3.dist-info/entry_points.txt,sha256=OauDPdaz_CGuJ2M5MwOefNbXqzyG-QVZt2_FlFaARTI,37
+collaborative_article_sharing-0.1.0b3.dist-info/top_level.txt,sha256=3hPTpw1GEpXkjVd84_PGpJ9Z5R3B-KGHqmP7MMsSTZw,4
+collaborative_article_sharing-0.1.0b3.dist-info/RECORD,,
