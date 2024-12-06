@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+core_data_structures.egg-info/PKG-INFO
+core_data_structures.egg-info/SOURCES.txt
+core_data_structures.egg-info/dependency_links.txt
+core_data_structures.egg-info/requires.txt
+core_data_structures.egg-info/top_level.txt
+data_structures/__init__.py
+data_structures/graphs/__init__.py
+data_structures/graphs/graphs.py
+data_structures/graphs/vertex.py
+data_structures/trees/__init__.py
+data_structures/trees/binary_tree.py
+data_structures/trees/simple_tree.py
