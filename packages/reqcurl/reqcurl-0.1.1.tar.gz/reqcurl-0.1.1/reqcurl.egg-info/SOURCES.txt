@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+reqcurl/__init__.py
+reqcurl/parser.py
+reqcurl/wrapper.py
+reqcurl.egg-info/PKG-INFO
+reqcurl.egg-info/SOURCES.txt
+reqcurl.egg-info/dependency_links.txt
+reqcurl.egg-info/requires.txt
+reqcurl.egg-info/top_level.txt
+tests/__init__.py
+tests/test_parser.py
+tests/test_wrapper.py
