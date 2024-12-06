@@ -1,0 +1,3 @@
+[console_scripts]
+Catch_the_Fly = Catch_the_Fly.__main__:main
+

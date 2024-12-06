@@ -1,0 +1,3 @@
+include Catch_the_Fly_package/main.py
+include Catch_the_Fly_package/assets/*
+include Catch_the_Fly_package/backgrounds/*
