@@ -1,0 +1,11 @@
+model_hallucination/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_hallucination/cli.py,sha256=8cZlHijlrzPCmOPXG-QF_hlrFj4m2I5KIwu8TLJ5ymo,2322
+model_hallucination/dataset_loader.py,sha256=CNmjvsm5NTREYy_ur0kt2xR79u1heN2dhdg7wXGogzU,933
+model_hallucination/evaluator.py,sha256=OUjWI4XZFezmZMxCUvFTvMGlZG9pWo2N4KsRG3jkW0A,549
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli.py,sha256=HMORLnpr0q1JIO-kQ-PgPmVn6HcwrlEXF2qhixuMX5Q,361
+model_hallucination_cli-1.0.0.dist-info/METADATA,sha256=Q_1bmvVfZmWauOHnF6-k2bbXvQm9yc95iauLCJES4lc,5359
+model_hallucination_cli-1.0.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+model_hallucination_cli-1.0.0.dist-info/entry_points.txt,sha256=QTr_j78LkNpH1jMsLnKVxBmUfWQImScwBbJaN8T5XqM,68
+model_hallucination_cli-1.0.0.dist-info/top_level.txt,sha256=a246L3cy1tA7WGPw8XrSXAnRszJ_qDXnIDTbPnLk7Vc,26
+model_hallucination_cli-1.0.0.dist-info/RECORD,,
