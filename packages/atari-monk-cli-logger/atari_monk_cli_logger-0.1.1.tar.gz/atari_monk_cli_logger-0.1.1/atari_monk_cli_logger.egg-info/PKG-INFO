@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: atari-monk-cli-logger
+Version: 0.1.1
+Summary: A logging tool with a CLI interface
+Home-page: https://github.com/atari-monk/cli_logger
+Author: atari monk
+Author-email: atari.monk1@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.12.0
+Description-Content-Type: text/markdown
