@@ -1,0 +1,15 @@
+vertexai
+prompt_toolkit
+python-dotenv
+keyring
+groq
+langsmith
+reportlab
+pillow
+requests-mock
+rich
+mdformat
+textual
+pyyaml
+pyperclip
+uccli>=0.0.5.1

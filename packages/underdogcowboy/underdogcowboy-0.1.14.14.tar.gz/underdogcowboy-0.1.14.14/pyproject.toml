@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "underdogcowboy"
+version = "0.1.14.14"
+description = "Underdog Cowboy (UC): Wrangle Your LLMs with a Smile"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+
+dependencies = [
+    "vertexai",
+    "prompt_toolkit", 
+    "python-dotenv",
+    "keyring",
+    "groq",
+    "langsmith",
+    "reportlab",
+    "pillow",
+    "requests-mock",
+    "rich",
+    "mdformat",
+    "textual",
+    "pyyaml",
+    "pyperclip",
+    "uccli>=0.0.5.1",
+]
+
+[project.scripts]
+timelineeditor = "underdogcowboy.run_timeline_editor:main"
+uc-llm = "underdogcowboy.core.commandtools.llm_config:main"
+uc-poke = "underdogcowboy.core.commandtools.poke:main"
+uc-timelineeditor = "underdogcowboy.run_timeline_editor:main"
+uc-tracing = "underdogcowboy.core.commandtools.tracing_config:main"
+uc-agent-clarity =  "underdogcowboy.core.commandtools.agent_clarity:main"
+uc-agent-pdf = "underdogcowboy.core.commandtools.agent_pdf:main"
+uc-assessment-builder = "underdogcowboy.core.commandtools.assessment_agent_builder:main"
+uc-agent-flow = "underdogcowboy.core.commandtools.agent_flow.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["underdogcowboy*"]
+
+[tool.setuptools.package-data]
+"underdogcowboy.agents" = ["*.json"]
