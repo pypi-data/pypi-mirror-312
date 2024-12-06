@@ -1,0 +1,37 @@
+[project]
+name = "timed-decorator"
+version = "1.6.0"
+#requires-python = ">=3.10"
+requires-python = ">=3.7"
+description = "A timing decorator for python functions."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "George Stoica", email = "58839912+ancestor-mithril@users.noreply.github.com" },
+]
+maintainers = [
+    { name = "George Stoica", email = "58839912+ancestor-mithril@users.noreply.github.com" },
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+keywords = [
+    'timing',
+]
+
+[project.urls]
+Repository = "https://github.com/ancestor-mithril/timed-decorator"
+Issues = "https://github.com/ancestor-mithril/timed-decorator/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "flake8",
+    "torch"
+]
+
