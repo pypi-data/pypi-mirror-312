@@ -1,0 +1,71 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cpanel-cli"
+dynamic = ["version", "authors", "description", "urls"]
+readme = "README.rst"
+requires-python = ">=3.11"
+license = { text = "GNU General Public License v3 (GPLv3)" }
+keywords = ["cpanel", "cli", "command-line", "hosting"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+dependencies = ["cpanel-api>=0.3.0", "parsedatetime>=2.6"]
+
+[project.optional-dependencies]
+dev = [
+    "cpanel-api>=0.3.0",
+    "parsedatetime>=2.6",
+    "build>=1.2",
+    "tox>=4.22",
+    "Sphinx>=5.0",
+    "sphinx-intl>=2.2.0",
+    "sphinx-book-theme>=1.1.3",
+    "twine>=5.1.1",
+]
+
+[project.scripts]
+cpanel = "cpanel.__main__:main"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+include = ["cpanel/*.py", "cpanel/caller/*.py", "cpanel/USAGE", "cpanel/REFERENCE"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "API.md",
+    "CONTRIBUTING.rst",
+    "cpanel/*.py",
+    "cpanel/caller/.*.py",
+    "cpanel/REFERENCE",
+    "cpanel/USAGE",
+    "doc/conf.py",
+    "doc/*.rst",
+    "doc/locale/es/LC_MESSAGES/*.po",
+    "doc/locale/es/LC_MESSAGES/reference/*.po",
+    "doc/reference/*.rst",
+    "doc/*.sh",
+    "doc/requirements.txt",
+    "doc/_static/*",
+    "hatch.py",
+    "LICENSE",
+    "Makefile",
+    "pyproject.toml",
+    "pyrightconfig.json",
+    "README.rst",
+    ".readthedocs.yaml",
+    "test/cpanelrc.test.example",
+    "test/*.py",
+    "tox.ini",
+]
+exclude = ["**/__pycache__", "doc/build/*"]
+
+[tool.hatch.metadata.hooks.custom]
+path = "./hatch.py"
