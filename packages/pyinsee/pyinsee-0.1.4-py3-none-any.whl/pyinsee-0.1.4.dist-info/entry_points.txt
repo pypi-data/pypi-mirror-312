@@ -1,0 +1,3 @@
+[console_scripts]
+py-insee = pyinsee.insee_cli:main
+py-insee-setup = pyinsee.setup_cli:main

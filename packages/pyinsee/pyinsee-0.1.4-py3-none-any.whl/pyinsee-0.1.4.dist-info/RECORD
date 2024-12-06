@@ -1,0 +1,15 @@
+pyinsee/__init__.py,sha256=-ApBN1vfHsqP84fMMDz9XZ3PHMOeeJdODITCJXUp-oc,29
+pyinsee/_version.py,sha256=iobFbhRJbSLrGWf-zWvie3cjIjrCKMWa-ih4uOuy8uA,63
+pyinsee/config.py,sha256=45-NFEzE59P9_gIzo6elsFVJNFOhhcLOeZm5OTTOMW4,4192
+pyinsee/insee_cli.py,sha256=SrRq0xNMBBMv9RVqmLZ4vovm51rv3QUIwKsRYJ4AiB8,12007
+pyinsee/insee_client.py,sha256=vZxArtH9WfiTdKymCEo7hIMqKS-G4IY1gj5KZOiuB_k,16642
+pyinsee/logger.py,sha256=L2Eu3JMUNFfzQJy9SRRUBgRwfzxqpvNdfVBRhb94oDI,2299
+pyinsee/setup_cli.py,sha256=7er1X2Q9E61vidNQYMbYHLF430zx5ItK2UMkCIg6kAc,8113
+pyinsee/utils.py,sha256=WLx2YlqNfdJcQXvzhEq0aQPDPxTW95q07pa9oTcg95Q,7180
+tests/__init__.py,sha256=waXj3YypWUwnZmCh2g4FNRDw8eG1RxYrXYj6n_va6FM,36
+pyinsee-0.1.4.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+pyinsee-0.1.4.dist-info/METADATA,sha256=fWCG1bWz4QIHTx-D5tXyYakcCWlu0UQHN8cEmMKjAo0,21844
+pyinsee-0.1.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pyinsee-0.1.4.dist-info/entry_points.txt,sha256=QEBhOvuTdmWhybuzf3jeK2N6iq4EOcQMrHedA9SiDLs,92
+pyinsee-0.1.4.dist-info/top_level.txt,sha256=VJwzhfg7qgUhmm9qDgRvkML0ERvPCOxqHCSbwxO8Qw4,14
+pyinsee-0.1.4.dist-info/RECORD,,
