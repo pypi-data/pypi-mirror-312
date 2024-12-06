@@ -1,0 +1,2 @@
+include src/indi_pylibcamera/indi_pylibcamera.ini
+include src/indi_pylibcamera/indi_pylibcamera.xml
