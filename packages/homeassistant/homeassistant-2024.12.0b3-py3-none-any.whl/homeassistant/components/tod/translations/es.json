@@ -1,0 +1,25 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "after_time": "Hora de encendido",
+                    "before_time": "Hora de apagado",
+                    "name": "Nombre"
+                },
+                "description": "Crea un sensor binario que se enciende o se apaga dependiendo de la hora."
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "after_time": "Hora de encendido",
+                    "before_time": "Hora de apagado"
+                }
+            }
+        }
+    },
+    "title": "Sensor de horas del d\u00eda"
+}

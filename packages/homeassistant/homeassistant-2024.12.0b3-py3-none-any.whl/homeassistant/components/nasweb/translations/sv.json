@@ -1,0 +1,29 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Enheten \u00e4r redan konfigurerad"
+        },
+        "error": {
+            "cannot_connect": "Det gick inte att ansluta.",
+            "invalid_auth": "Ogiltig autentisering",
+            "unknown": "Ov\u00e4ntat fel"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "V\u00e4rd",
+                    "password": "L\u00f6senord",
+                    "username": "Anv\u00e4ndarnamn"
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "config_entry_error_no_status_update": {
+            "message": "Fick inte n\u00e5gra statusuppdateringar inom det f\u00f6rv\u00e4ntade tidsf\u00f6nstret. Kontrollera att den interna URL:en f\u00f6r Home Assistant \u00e4r n\u00e5bar fr\u00e5n NASweb-enheten. Om problemet kvarst\u00e5r, kontakta support p\u00e5 {support_email}"
+        },
+        "serial_mismatch": {
+            "message": "Ansluten till en annan NASweb-enhet (serienumret st\u00e4mmer inte \u00f6verens)."
+        }
+    }
+}
