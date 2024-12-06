@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: imgorient
+Version: 1.0.0
+Summary: Calculate the orientation of an image.
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: numpy (>=2.1.3,<3.0.0)
+Requires-Dist: opencv-python (>=4.10.0.84,<5.0.0.0)
+Description-Content-Type: text/markdown
+
+# imgorient
+
+## Usage
+```
+imgorient <img_path>
+```
+
+## Example
+
+### Test image
+
+<img src="./img/syokki_hashi_man.png" width="300">
+
+### command
+```
+imgorient ./img/syokki_hashi_man.png
+```
+### output
+```
+angle: 47.325422492344984
+intensity: 0.6059812726967501
+```
+
