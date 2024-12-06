@@ -1,0 +1,11 @@
+hydnam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hydnam/chart.py,sha256=rzI7lFejsu_IB3yY7WxgifAqfb8jrWXa-N2bN6Ngdgw,1040
+hydnam/dataset.py,sha256=cr2Zzs7HMYPcuIFkExqozCTv_p69lb6rY5LlLzNlgYc,1062
+hydnam/hydnam.py,sha256=9E9D7Y3XT6CFZxbKKz4wloNH5AR7n_MNxFL0ylwyRRo,7254
+hydnam/parameters.py,sha256=LRduTEUuRs4EEQ9j28Wfk0kozzWcOZjTihKqNQWvfsI,2165
+hydnam/simulation_result.py,sha256=VpEjIaA4tmJFWYnoPLR2dAdo3YqWdBREXZQ7q0DpLoo,957
+hydnam/statistics.py,sha256=Ja2CZv9Kc3noU_JqZZcRPbX2830uuCXalpJSZvbRzNk,463
+hydnam-1.0.2.dist-info/LICENSE,sha256=5kpB0UDI1sIxkMkU7fkQRnyur5-UUBXebU-OX1FVh6g,1066
+hydnam-1.0.2.dist-info/METADATA,sha256=cpYQnPh5W3jDnaozVvmjQsmLgdIk-SwdSDxMQ0vAVa8,3943
+hydnam-1.0.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+hydnam-1.0.2.dist-info/RECORD,,
