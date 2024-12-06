@@ -1,0 +1,3 @@
+[console_scripts]
+type-fastapi=type_fastapi.main:app
+
