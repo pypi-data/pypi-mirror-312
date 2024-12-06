@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: bfabric-web-apps
+Version: 0.1.0
+Summary: A package containing handy boilerplate utilities for developing bfabric web-applications
+Author: Mark Zuber, Griffin White, GWC GmbH
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
