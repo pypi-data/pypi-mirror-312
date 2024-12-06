@@ -1,0 +1,10 @@
+textrush-0.0.4.dist-info/METADATA,sha256=08_08V4GUiDMOuY26suC-7B0Z8FXhXrFao541FU_4-E,52
+textrush-0.0.4.dist-info/WHEEL,sha256=GmRm5kgrqTyabuSgs7GzvGWZ_6ATNkLBpxir8kbDOhs,105
+textrush.libs/libgcc_s-1e52349c.so.1,sha256=Ani0u_W_tB8ESsFePO4D2mn2lrgWLhyFdw6RETxBTYM,437537
+textrush/librush.pyi,sha256=Q9GHMWT0LT1pT96BlqAJpsYPEsWRHi-LsVFS1obb3W0,839
+textrush/__init__.py,sha256=N4Q7PfdqXpDftEf3zW0fau-SUgKQJNvOR8pfvL69XZI,137
+textrush/core.py,sha256=N1-FdGf8CqyOelCwYusmEju2fdh1XMK36HEU9z58fzE,3163
+textrush/versions.py,sha256=bh162UmHh-zE1SgKS0hw7lqPWsXcGPmzh1EE_3mGrVg,1285
+textrush/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textrush/librush.abi3.so,sha256=tyIjCqCslDGUiwsK3kcl_REiZmpglAjts8B261OyXXI,780817
+textrush-0.0.4.dist-info/RECORD,,
