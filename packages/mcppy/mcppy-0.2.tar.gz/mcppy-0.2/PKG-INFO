@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mcppy
+Version: 0.2
+Summary: Python interface to minecraft with bukkit plugin
+Home-page: https://github.com/mchchuang/mcpy
+Download-URL: https://github.com/mchchuang/mcpy/archive/refs/tags/0.1.tar.gz
+Author: Martin Chuang
+Author-email: martin_chuang@icloud.com
+Keywords: minecraft,plugin,scratch,java,bukkit
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Games/Entertainment
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ipdb
+Requires-Dist: stl-to-voxel
+
+A Python API to Minecraft that works with the Bukkit plugin to enable a python and/or scratch programming interface.
+
+Forked from pyncraft to update and maintain.
