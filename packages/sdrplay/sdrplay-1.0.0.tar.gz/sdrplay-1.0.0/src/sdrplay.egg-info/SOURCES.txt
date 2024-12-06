@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/sdrplay.egg-info/PKG-INFO
+src/sdrplay.egg-info/SOURCES.txt
+src/sdrplay.egg-info/dependency_links.txt
+src/sdrplay.egg-info/requires.txt
+src/sdrplay.egg-info/top_level.txt
+tests/test_sdrplay.py
+tests/test_sdrplay_parameters.py
