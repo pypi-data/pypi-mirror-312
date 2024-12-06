@@ -1,0 +1,12 @@
+trytond_account_invoice<7.3,>=7.2
+trytond_account_invoice_line_standalone<7.3,>=7.2
+trytond_account_invoice_stock<7.3,>=7.2
+trytond_product<7.3,>=7.2
+trytond_purchase<7.3,>=7.2
+trytond_sale<7.3,>=7.2
+trytond_stock<7.3,>=7.2
+trytond<7.3,>=7.2
+
+[test]
+proteus<7.3,>=7.2
+trytond_stock_supply<7.3,>=7.2
