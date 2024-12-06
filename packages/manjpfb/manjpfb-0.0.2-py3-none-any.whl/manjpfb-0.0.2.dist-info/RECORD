@@ -1,0 +1,11 @@
+manjpfb/CHECKSUM-SHA3-256.py,sha256=Ley3_rqaLGW5oSFbMXOzycWFrywS5FUUTpUeBKHiFrk,677
+manjpfb/__init__.py,sha256=J0og9OxrvTo0u31tvIM_k3pqofOIUkvAOqmZgdW9R3A,1935
+manjpfb/__main__.py,sha256=G_DUEGWmzikMLe6Xo1CJLdHYlC9Ib7_Eb5bw7UwyfKY,1849
+manjpfb/man_common.py,sha256=JuPhjvtFHC3GF_YeO04Ha7ws4-Lmmdzd0whqHQH_U_4,6109
+manjpfb/manjpfb.py,sha256=prFB1o8gSnLRXffL_Z6A6n79SsD6iTJqnbljUjCmaW8,8515
+manjpfb-0.0.2.dist-info/LICENSE,sha256=KNkgSDzlokkpWxtM69HGax6AxECATUPfgi76x8aQk-g,4753
+manjpfb-0.0.2.dist-info/METADATA,sha256=4iMSlNEsdAVEAcwc5xnwbZhWVhOWETPCDVGnuzLHfgI,9589
+manjpfb-0.0.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+manjpfb-0.0.2.dist-info/entry_points.txt,sha256=4ZSjIk1zOu_x6G-ApZdT1l7PHe04-bjYcSWn3afHnB0,41
+manjpfb-0.0.2.dist-info/top_level.txt,sha256=kPZGgN_pf-0rY0NQaXcGN8215AIKxXD8c5aTMNgJBiM,8
+manjpfb-0.0.2.dist-info/RECORD,,
