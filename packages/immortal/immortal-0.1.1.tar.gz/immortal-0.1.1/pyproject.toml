@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=74.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "immortal"
+version = "0.1.1"
+# more metadata
+
+[tool.setuptools]
+ext-modules = [
+    {name = "immortal.immortal_c", sources = ["immortal/immortal_c.c"]}
+]
