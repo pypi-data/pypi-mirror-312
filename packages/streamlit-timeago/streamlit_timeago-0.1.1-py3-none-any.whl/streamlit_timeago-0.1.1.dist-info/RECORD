@@ -1,0 +1,12 @@
+streamlit_timeago/__init__.py,sha256=FK-5sqX1nGSqeuHEVSShE7yHEpXG0eC0LckvMQPAl18,2828
+streamlit_timeago/example.py,sha256=sAV9xr-huqB6rRKYdXWNPDGD8gkmxATCJKCxfXq_BK0,457
+streamlit_timeago/frontend/build/asset-manifest.json,sha256=q8VOe18m6iMO6CU5lNTmDa-kIkyQUQkOPFKXAhoGrfY,157
+streamlit_timeago/frontend/build/bootstrap.min.css,sha256=hTwg6axJ8dAPmGVJmYTrsQS3JhKWA0skJ-td54UbEOk,197459
+streamlit_timeago/frontend/build/index.html,sha256=DICCoW1jljvo1fQSCpDeSRD224duCQOs8fxBpkkLyww,492
+streamlit_timeago/frontend/build/static/js/main.7d190ba8.js,sha256=CaY7GHBMTsj1IICr04TolTHvOCSIgcE_KE431JeWqKA,319983
+streamlit_timeago/frontend/build/static/js/main.7d190ba8.js.LICENSE.txt,sha256=cmjEMovgjlkZ-Bs7b5rRQ8FsJtL1F77Y3YkM2E9yfUs,1293
+streamlit_timeago-0.1.1.dist-info/LICENSE,sha256=J6B4fWi46txoKkdgvdV_Cj-PZdFEPkufO_InOeGj3-4,1077
+streamlit_timeago-0.1.1.dist-info/METADATA,sha256=l_BFHHPuPtlbe36ybIXlf0FTzwSdULA0DcBLuKd0fGk,1166
+streamlit_timeago-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+streamlit_timeago-0.1.1.dist-info/top_level.txt,sha256=b9lf-IEuoxMni4TvFiFCVECoe0ZjPB0QVJOZEoNvmPo,18
+streamlit_timeago-0.1.1.dist-info/RECORD,,
