@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+opencv-python
+imutils
+
+[dev]
+build
+twine
+pytest
+sphinx
+sphinx_rtd_theme
+sphinx-autodoc-typehints
+myst-parser
