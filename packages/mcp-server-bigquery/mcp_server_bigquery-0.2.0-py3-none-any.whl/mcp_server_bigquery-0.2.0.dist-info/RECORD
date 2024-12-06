@@ -1,0 +1,6 @@
+mcp_server_bigquery/__init__.py,sha256=evc7AxodfZquBgz5B1m-sw0cIOQqJfPstGs4x0mtXIw,693
+mcp_server_bigquery/server.py,sha256=ndeoq4NgEdsgvxiNUofarydlz61kQgyRS7D1SFSYgjE,6864
+mcp_server_bigquery-0.2.0.dist-info/METADATA,sha256=ynv-4Pn6hOA9Q9y5a2-p3LIuLbLiV866B4HseqBi_sk,3329
+mcp_server_bigquery-0.2.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+mcp_server_bigquery-0.2.0.dist-info/entry_points.txt,sha256=cgwDx4ywZKfn6NKgfs_R27BLCJ4OLfiVOGDLnCmDAr0,65
+mcp_server_bigquery-0.2.0.dist-info/RECORD,,
