@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+deepakV243601.egg-info/PKG-INFO
+deepakV243601.egg-info/SOURCES.txt
+deepakV243601.egg-info/dependency_links.txt
+deepakV243601.egg-info/top_level.txt
+shipping_cal/__init__.py
+shipping_cal/calculator.py
