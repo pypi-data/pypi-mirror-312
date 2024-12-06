@@ -1,0 +1,75 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
+import os
+import glob
+import file_set
+import pandas as pd
+from datetime import datetime
+
+class DataCenter:
+    def __init__(self, market='us') -> None:
+        self.market = market
+        self.date = '2024-11-30'
+        self.data_dir = "%s/data" % (os.getenv('PHOME'))
+        self.fs = file_set.FileSet(self.data_dir)
+
+    def one(self, _id, _date=""):
+        today = datetime.today()
+        self.date = today.strftime("%Y-%m-%d")
+        if self.market == 'us':
+            pass
+        elif self.market == 'hk':
+            pass
+        else:
+            pass
+
+        if len(_date) > 0:
+            self.date = _date
+
+        df = self.fs.fetch(_id, self.date, self.market)
+        return df
+
+    def list(self, market="cn"):
+        return self.listD(market)
+
+    def listD(self, market="cn"):
+        sub = self.dirMap.get(market, 'no')
+        if sub == 'no':
+            return None
+
+        bnDir = "%s/%s" % (self.dataDir, sub)
+        os.chdir(bnDir)
+
+        pattern = "*.csv"
+        fileList = glob.glob(pattern)
+
+        df = pd.DataFrame(fileList, columns=["FileName"])
+        df["code"] = df["FileName"].str[:-4]
+        return df
+
+    def csv(self, _id, _date=""):
+        path = "/Users/allen/project/data/yf/%s.csv" % (_id)
+        df = pd.read_csv(path)
+        # print(df.dtypes)
+        # print(df["Date"])
+        # print(df["Date"].dtype)
+        if len(_date) > 0:
+            return df.loc[df['Date'] <= _date]
+        return df
+    
+if __name__ == "__main__":
+    dc = DataCenter('us')
+    df = dc.one("IONQ")
+    # df = data.one("sh.600036")
+    # logger.debug(df)
+    # print(df)
+    # df = data.listHK()
+    # print(df)
+
+    #print(data.csv("AMD"))
+    #print(data.csv("AMD", '2019-12-31'))
+    #df = data.one("sh.600036", '2024-01-01')
+    #df = data.one("NFLX", '2023-10-31', 'us')
+    # df = data.listD("BN")
+    print(df)
