@@ -1,0 +1,12 @@
+twidgets/__init__.py,sha256=5OliEcg2vzwl8u4lV9ysENP3y8Z_mkxnLXoLqynRGIc,46164
+twidgets/__main__.py,sha256=hrVsI3n7lReivj7-aphzZPUQs1toF3jgGXKTsWXFx_w,66
+twidgets/config.py,sha256=xdhePRTstu844FPNF8Pj1fsiuK-8QKDTnFjwU4piMRg,12437
+twidgets/logo.py,sha256=CdK0E1HyEEL6OwfTEKbR95VaBw1tmbEM4Ipz_uzJU9Q,37006
+twidgets/path.py,sha256=nChqqEVqj4AX5aBYn90tWWioeRdwl3sWbJ8-FN0ZB3k,227
+twidgets/system.py,sha256=Dw7PEKCdBzIw9a27s6N59zQtgYkJTBftrClgjixkzN0,1228
+terminal_widgets-1.25.dist-info/LICENSE,sha256=xGN4N1MoPhcqQrTOv9OufWJz24b0vZt1d9OsQ6PnPPQ,1085
+terminal_widgets-1.25.dist-info/METADATA,sha256=TOfpL0rsJaYxB502ytEWxI-iL3YvPI98xZmbsF3T9qs,19394
+terminal_widgets-1.25.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+terminal_widgets-1.25.dist-info/entry_points.txt,sha256=Bizhq-krtaBkWkjFYQOJfOXIZ_iZJJOf5xX8c3jpE5Y,43
+terminal_widgets-1.25.dist-info/top_level.txt,sha256=Cv2-hvB1DDoRBaFYshcgvv9ciH6jbhyUEVuFmZyWKt0,9
+terminal_widgets-1.25.dist-info/RECORD,,
