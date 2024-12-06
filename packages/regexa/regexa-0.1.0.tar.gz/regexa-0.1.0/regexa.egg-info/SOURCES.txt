@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+regexa/__init__.py
+regexa/regexa.py
+regexa.egg-info/PKG-INFO
+regexa.egg-info/SOURCES.txt
+regexa.egg-info/dependency_links.txt
+regexa.egg-info/top_level.txt
