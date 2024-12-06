@@ -1,0 +1,17 @@
+libigc/__init__.py,sha256=bkKiTEa3YJtClWzCsIvzRDOhE6wYGHflkWEs9vR2rU8,391
+libigc/core.py,sha256=pzjzbN33xs13_zfmrSglZTJ6qNJ1GGbqOK5NktAe9PM,26828
+libigc/flight_parsing_config.py,sha256=Fn4mua0xsukzHHdcqpxL35FnfsUhJe5dLx74e11TryM,2812
+libigc/glide.py,sha256=I70SY9DDFqGB-WKV38o_ht1SC-xnO37G2ebIOhXU5Ao,1792
+libigc/gnss_fix.py,sha256=5o3dyWDkYeD-3EjIW4u7nAVIr0x39cS4FB7lqh2ArE4,5579
+libigc/task.py,sha256=w4ovwjob-QdN-vz0p7KSgTRLH4h-mZjG3XjTBBj2gPM,7509
+libigc/thermal.py,sha256=MqqE66GkH0mylxBGrbHXWJvd5Gen2KFDETxEDCfxxAg,1229
+libigc/utils.py,sha256=MSrT9gYZRQ7w7kyxIMgGYMRpFU1RKNxnP9K_7z7VEZE,958
+libigc/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libigc/lib/dumpers.py,sha256=rxZEvpQzEOEB0Rsf_cDpr7yjiURrJLhbwGz8ZBVPgCU,6504
+libigc/lib/geo.py,sha256=rYIhEP8jwlNQsnUWT9HcOui9klMVFT6-p448KhEyW-4,3660
+libigc/lib/viterbi.py,sha256=Dl24A4PZXvVauGDb5-hxmI2lQvqpHWFpkCSSCtOdRI4,3298
+libigc-1.1.0.dist-info/LICENSE,sha256=ZEFq1XC-qVMzXXrby0Dc6iLF9KWIbtQ2Q2HsQBCat-U,1111
+libigc-1.1.0.dist-info/METADATA,sha256=96TzM1yZmq5cClxc3JzWNp9BsVs0z71fOe9NH5Q3Vhc,9756
+libigc-1.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+libigc-1.1.0.dist-info/top_level.txt,sha256=JNK3JF9gKFSUHFcQjYt-sPODC6n5dZaEM_n05zGd8YU,7
+libigc-1.1.0.dist-info/RECORD,,
