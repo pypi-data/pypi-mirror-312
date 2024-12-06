@@ -1,0 +1,10 @@
+depkit/__init__.py,sha256=_KDGiJwsxmhB7DHT_5EG84k_M0yITDAhk9fUWm_Y8Yk,262
+depkit/depmanager.py,sha256=wh5bjhDk1dUXBa5jQTpshIobwqpDOmhJ2ulsFfoHzRA,9116
+depkit/exceptions.py,sha256=whSoXGdgk3ANGQCrr_N6tvk27LKL1lr2c7c1d-L2OQU,315
+depkit/parser.py,sha256=RZBahqBrRz9hq6OygHosZgf2JDEhQ5CctQ6zf7BS7f0,4311
+depkit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+depkit/utils.py,sha256=9Gu0cw59TS37EACLt7bS2wcdp7Rz0iF-0SapoVuHvSE,6259
+depkit-0.3.4.dist-info/METADATA,sha256=mvzP0LRaot2YzUK0WlnTMt_nvMFiYRb_tXPcXa0ReRQ,9233
+depkit-0.3.4.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+depkit-0.3.4.dist-info/licenses/LICENSE,sha256=AteGCH9r177TxxrOFEiOARrastASsf7yW6MQxlAHdwA,1078
+depkit-0.3.4.dist-info/RECORD,,
