@@ -1,0 +1,13 @@
+argilla_dataset_manager/__init__.py,sha256=MZRVvfI6ly_boPsAhh7w93rP1erCEmxt7d4nLxVKV6s,341
+argilla_dataset_manager/datasets/__init__.py,sha256=uP90FVX2WpuD-uXd_b_D17hkltPUE3PA-_B07Rw2-7Y,191
+argilla_dataset_manager/utils/__init__.py,sha256=Hn-O83t05lHxQuWCyCttD6-CFkqUpJiU99sYtnbjXcg,249
+utils/__init__.py,sha256=j2r5dUBbsKAcwjwFrTWk-utk16HI_HBxfCofQpZ1A30,200
+utils/argilla_client.py,sha256=DmoVO0JoDVzf4TxahVKsig29CeJemBPt9ZJP7PkAxOA,3847
+utils/data_loader.py,sha256=QRruVEpdA68-UGxUQqb7aDRnEci_xS3AzHjgeewR5mw,505
+utils/data_processor.py,sha256=dgj4nRee6bcNt-o_SeFwcUHQ69c8qp198qVYOu_hSVg,1266
+utils/dataset_manager.py,sha256=UYGX5QoBlVYIBIxYxfn4sN8CIyyYfabU08Udd7-4Nfg,9900
+utils/logger.py,sha256=bva9GQw87nBnNTxQAkevCaznpErVIAwCEci_Lq27tS4,707
+argilla_dataset_manager-0.1.3.dist-info/METADATA,sha256=-mNOfHr3M00JhK5BH-uesVUf5NTPHx3lUCRAuNErN3s,6722
+argilla_dataset_manager-0.1.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+argilla_dataset_manager-0.1.3.dist-info/top_level.txt,sha256=WYn2abrIXproF77gi9SuzmgiQrA8HvVLmLjCC4s-VvY,30
+argilla_dataset_manager-0.1.3.dist-info/RECORD,,
