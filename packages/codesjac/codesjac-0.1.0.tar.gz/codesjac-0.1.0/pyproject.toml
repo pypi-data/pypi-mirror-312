@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "codesjac"
+version = "0.1.0"
+description = ""
+authors = ["Martehn03 <martin.tehnik@tul.cz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4"  # Add the pytest dependency
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
