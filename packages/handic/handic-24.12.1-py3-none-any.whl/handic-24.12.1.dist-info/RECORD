@@ -1,0 +1,16 @@
+handic/__init__.py,sha256=6i8wm9XAe-v0mXNOJHGlc5M3cOEkiESY2vbcMvRx9i4,36
+handic/handic.py,sha256=jbDy755H1lfdoPqmNxwfUmhZRZJxo8ptnCLmVO-xgUw,322
+handic/dicdir/README.md,sha256=SJs14pgVfHo9lAdKmuzoxh7VYF0AeccbtP_gisEL5Iw,448
+handic/dicdir/char.bin,sha256=CO6tYDKz_qbTRLd0Bu5vRjhnaN0cwsCG3oMWwVZRocg,262432
+handic/dicdir/dicrc,sha256=QIeLu8IS6k-3sPLA1KxU9Eo5cYfhfDYAHzceJ7nCi_A,397
+handic/dicdir/matrix.bin,sha256=XpDuXHCMHiNaHgR67bBFeTS2JwG2AopEuJqRGwC0aJg,816964
+handic/dicdir/mecabrc,sha256=cgIa4X5WgLtLs7Vw5-eStWfkxnWMexezn7x8jEmSKbM,62
+handic/dicdir/sys.dic,sha256=BjVmI-5ScbsVr4DWsT4WyJc7N9rE0iTP1S-hwGxOXIQ,16816993
+handic/dicdir/unk.dic,sha256=EVou5wsEEHPVf5YI6NUHJDrmnzWssaZ_nKAkBmGs_Jo,4318
+handic/dicdir/version,sha256=jLlcg6pqiIeX96y1qpdPGc82yy9oHI2kKQf5qp0eOCE,10
+handic-24.12.1.dist-info/LICENSE,sha256=n3QRK3H6VDCpjjkhm8jHfobsgtpRuC_SNdxAoClQLMM,2120
+handic-24.12.1.dist-info/LICENSE.handic,sha256=SuQ4r0gVuvLw85mgIdWic19GurkB2vgGbm7xJ3ibBaQ,1503
+handic-24.12.1.dist-info/METADATA,sha256=NSEs0cWr4IGfCFiYgMTey2JqCD-QOnuzFFeYAMxIaVo,5384
+handic-24.12.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+handic-24.12.1.dist-info/top_level.txt,sha256=30HEbkhA1ERWnmFSxjDlESzAQ7P3sZzpVcZO9QqneIM,7
+handic-24.12.1.dist-info/RECORD,,
