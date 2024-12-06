@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ipcore.egg-info/PKG-INFO
+ipcore.egg-info/SOURCES.txt
+ipcore.egg-info/dependency_links.txt
+ipcore.egg-info/requires.txt
+ipcore.egg-info/top_level.txt
+tests/test_async_ipapi.py
+tests/test_ipapi.py

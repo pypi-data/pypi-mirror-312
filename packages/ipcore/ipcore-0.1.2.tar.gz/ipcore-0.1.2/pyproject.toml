@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[tool.poetry]
+name = "ipapi"
+version = "0.1.1"
+description = "A Python library to query IP addresses using ipquery.io API"
+readme="README.md"
+authors = ["IPQuery <admin@ipquery.io>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python="^3.10"
+pydantic = "^2.0"
+httpx = "^0.27.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
