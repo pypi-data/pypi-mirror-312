@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: xomics_amy_imene
+Version: 0.2.0
+Summary: analyse approfondi de fichiers gff
+Author-email: Imène Sebaï <imene.sebai@etu.univ-lyon1.fr>, Ndeye Amy Gueye <ndeye.gueye@etu.univ-lyon1.fr>
+Project-URL: Repository, http://pedago-service:2325/ngueye/xomics.git
+Keywords: python,projet,gestion,packages,dépendances,gene,uniprot
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib >=3.7.5
+
+ ## **Utilisation du Package amyxomics**
+
+Le package **amyxomics** permet de traiter des fichiers GFF via une ligne de commande simple. Une fois le package installé, vous pouvez exécuter le script inclus pour analyser et manipuler les fichiers GFF.
+
+### **Installation**
+
+Si ce n'est pas déjà fait, commencez par installer le package à partir de PyPI ou depuis votre environnement local. 
+
+#### Installation depuis PyPI :
+
+```bash
+pip install xomics_amy_imene
+```
+
+#### Installation depuis le répertoire local :
+
+```bash
+import amyxomics
+```
+
+### **Utilisation**
+
+Une fois le package installé, vous pouvez utiliser le script inclus directement depuis le terminal pour traiter vos fichiers GFF. Vous n'avez qu'à fournir le chemin vers vos fichiers GFF comme arguments au moment de l'exécution.
+
+#### **1. Traitement d'un fichier GFF**
+
+Lancez simplement la commande suivante en remplaçant `<chemin_du_fichier_gff>` par le chemin réel de votre fichier GFF :
+
+```bash
+amyxomics <chemin_du_fichier_gff>
+```
+Cela lira le fichier GFF spécifié et vous fournira un résumé des gènes, transcrits et exons lus depuis le fichier.
+
+#### **2. Fusion de deux fichiers GFF**
+
+Vous pouvez fusionner deux fichiers GFF en utilisant la commande suivante. Remplacez `<chemin_du_fichier_gff_1>` et `<chemin_du_fichier_gff_2>` par les chemins réels de vos fichiers :
+
+```bash
+amixomics <chemin_du_fichier_gff_1> <chemin_du_fichier_gff_2>
+```
+
+Le programme effectuera la fusion des deux fichiers et affichera le résumé des gènes, transcrits et exons fusionnés.
+
+#### **3. Exportation vers un fichier GFF**
+
+Si vous souhaitez exporter les annotations traitées vers un nouveau fichier GFF, vous pouvez utiliser la commande suivante, en remplaçant `<chemin_du_fichier_gff_export>` par le chemin du fichier où vous souhaitez sauvegarder les données traitées :
+
+```bash
+amyxomics <chemin_du_fichier_gff_export>
+```
+
+Cela génère un fichier GFF contenant les annotations exportées.
+
+---
+
+## **Exemple d'exécution**
+
+1. **Traiter un fichier GFF :**
+
+    ```bash
+    amyxomics data/ADGRB2.gff
+    ```
+
+    Cela chargera le fichier `ADGRB2.gff`, traitera les données et affichera un résumé des objets présents dans le fichier.
+
+2. **Fusionner deux fichiers GFF :**
+
+    ```bash
+    amyxomics data/Human_sample1.gff data/Human_sample2.gff
+    ```
+
+    Cette commande fusionnera les fichiers `Human_sample1.gff` et `Human_sample2.gff` et affichera un résumé des gènes, transcrits et exons fusionnés.
+
+3. **Exporter un fichier GFF :**
+
+    ```bash
+    amyxomics data/ADGRB2.gff
+    ```
+
+    Cela exportera les annotations de `ADGRB2.gff` dans un nouveau fichier GFF.
+
+---
+
+
