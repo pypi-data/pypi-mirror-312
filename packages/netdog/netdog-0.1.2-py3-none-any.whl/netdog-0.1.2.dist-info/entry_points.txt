@@ -1,0 +1,5 @@
+[console_scripts]
+netdog = netdog.netdog:cli
+
+[gui_scripts]
+
