@@ -1,0 +1,9 @@
+pyoverlapped/__init__.py,sha256=67tkezSLMPNggt9dq7zKkXIiA6AdJlJpldKRRLd6p7U,112
+pyoverlapped/bindings.py,sha256=TzlJdpelZr460-9ee4oxelThuTDdh9druwM3mVYHPwI,2479
+pyoverlapped/overlapped.py,sha256=qmWNURlHBKC5ExS9DEZgCoVuxy0ZhEjaMPo_eCVLT3M,2534
+pyoverlapped/structures.py,sha256=qw5DZmVcI-WVyuPocdMzUQ80FXXPRT0Dyy9_dwPS2Y4,1263
+pyoverlapped-1.0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+pyoverlapped-1.0.1.dist-info/METADATA,sha256=bVBaAFzI_TqJZfQk4THxGgZE1rzAj2R6-2GYmRKzpr0,42162
+pyoverlapped-1.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pyoverlapped-1.0.1.dist-info/top_level.txt,sha256=yJudEyR8QCnR5ULeH0cIViqSt8NZjszw91YfV1nil_c,13
+pyoverlapped-1.0.1.dist-info/RECORD,,
