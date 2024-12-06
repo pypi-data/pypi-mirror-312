@@ -1,0 +1,10 @@
+levy_package/__init__.py,sha256=31PjFUXTW-nOs6bWACTJVSJxxb_G5T-8knM26FXDNig,286
+levy_package/__main__.py,sha256=BS26VJeWnSIVVbJMXCWbWRJCDm5hsdiNoELtEzoqUcA,180
+levy_package/my_module.py,sha256=9L7bhz2dY-6h306uYaw_73PtmS1T3B2wplWpoA5tswU,141
+levy_package/subpackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+levy_package/subpackage/goodbye.py,sha256=npYkroLML_SLzVkjbVOhC0zAAXLPNQv6pGXdele6tu4,69
+levy_package/subpackage/hello.py,sha256=xAQ7qYaO11ZO6B6hSpT2xsjcoBj2q0FXMAZEx3vZ894,65
+levy_package-0.1.0.dist-info/METADATA,sha256=i-bU7ifKZPb4TeEkfgMJb8Ezv8SafLjqG8FUHdN3x2c,243
+levy_package-0.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+levy_package-0.1.0.dist-info/entry_points.txt,sha256=JCS8WEMKwqvR_B_W9ffSLE6n3ww2kuPFAJ-cDnwnuzQ,49
+levy_package-0.1.0.dist-info/RECORD,,
