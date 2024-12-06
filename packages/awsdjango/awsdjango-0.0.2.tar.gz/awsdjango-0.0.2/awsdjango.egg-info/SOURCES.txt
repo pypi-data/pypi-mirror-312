@@ -1,0 +1,8 @@
+pyproject.toml
+awsdjango/__init__.py
+awsdjango/awsdjango.py
+awsdjango.egg-info/PKG-INFO
+awsdjango.egg-info/SOURCES.txt
+awsdjango.egg-info/dependency_links.txt
+awsdjango.egg-info/requires.txt
+awsdjango.egg-info/top_level.txt

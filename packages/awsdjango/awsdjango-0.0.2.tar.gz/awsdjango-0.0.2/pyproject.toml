@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "awsdjango"
+authors = [
+    {name = "aabhinnav@19", email = "applicationabhinav@gmail.com"}
+]
+description = "This package helps to create aws services which are required by django web application"
+version = "0.0.2"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "boto3"
+]
