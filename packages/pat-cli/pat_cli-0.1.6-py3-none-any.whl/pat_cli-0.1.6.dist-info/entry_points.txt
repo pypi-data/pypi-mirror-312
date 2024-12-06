@@ -1,0 +1,3 @@
+[console_scripts]
+pat=pat_cli.main:main
+

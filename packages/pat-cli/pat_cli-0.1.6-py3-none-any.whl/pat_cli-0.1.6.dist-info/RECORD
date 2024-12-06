@@ -1,0 +1,9 @@
+pat_cli/__init__.py,sha256=n3oM6B_EMz93NsTI18NNZd-jKFcUPzUkbIKj5VFK5ok,22
+pat_cli/main.py,sha256=0DCz5wcoxHv42p6mTyQuuUQ_xVYn_ClZJ5JRyrW5Spg,5892
+pat_cli/tokenization.py,sha256=hdbZxgy3TiyD4UNYkMY6RZzb1MOeR7Zz3Fn7EYjey0Y,2444
+pat_cli/vectorization.py,sha256=HdEZl_GMOt7nNfM7hF2TgqUBbxE4gdx7RDsZNZyyNeM,2424
+pat_cli-0.1.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pat_cli-0.1.6.dist-info/METADATA,sha256=h5XZob-o-wf-TEbjKZvhZwjKxI1zp8hJdHmMnMKBXlI,2905
+pat_cli-0.1.6.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pat_cli-0.1.6.dist-info/entry_points.txt,sha256=BkS8ZKuJnbMqkn6v4hQjth7thdmhB41inFtvF0tuWE8,41
+pat_cli-0.1.6.dist-info/RECORD,,
