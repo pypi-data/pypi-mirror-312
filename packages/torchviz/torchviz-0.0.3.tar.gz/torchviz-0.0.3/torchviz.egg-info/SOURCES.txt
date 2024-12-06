@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+test/test.py
+torchviz/__init__.py
+torchviz/dot.py
+torchviz.egg-info/PKG-INFO
+torchviz.egg-info/SOURCES.txt
+torchviz.egg-info/dependency_links.txt
+torchviz.egg-info/requires.txt
+torchviz.egg-info/top_level.txt
+torchviz.egg-info/zip-safe
