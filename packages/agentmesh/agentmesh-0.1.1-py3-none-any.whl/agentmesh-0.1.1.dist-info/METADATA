@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: agentmesh
+Version: 0.1.1
+Summary: Placeholder for reserving the agentmesh package name.
+Home-page: https://agentmesh.org
+Author: Aboyai Inc
+Author-email: abhilashk.cse@gmai.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AgentMesh
+
+Placeholder package for reserving the `agentmesh` name on PyPI.
