@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: tomatia
+Version: 0.1.1
+Summary: A dead simple pomodoro application built using textual.
+Requires-Python: >=3.13
+Requires-Dist: desktop-notifier>=6.0.0
+Requires-Dist: textual>=0.85.2
+Description-Content-Type: text/markdown
+
+# Tomatia
+
+![Screenshot of the TUI](./.github/screenshot.png)
+
+A dead simple pomodoro application build using textual. You can:
+
+- Start a new session (`s`/`space`).
+- Stop the current session (`s`/`space`).
+- Reset your pomodoro sessions (`r`).
+- Quit (`q`).

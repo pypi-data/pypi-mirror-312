@@ -1,0 +1,2 @@
+[console_scripts]
+tomatia = tomatia.main:main
