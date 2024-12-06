@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: awsdjango
+Version: 0.0.3
+Summary: This package helps to create aws services which are required by django web application
+Author-email: "aabhinnav@19" <applicationabhinav@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
