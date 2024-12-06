@@ -1,0 +1,11 @@
+ddcLogs/.env.example,sha256=ic1JfQtPJZVJPz3ZRFlkAIlYO4YBkdaMN0ljGl6IyIQ,355
+ddcLogs/__init__.py,sha256=4oyNS3EaGYe-VfrRIyKSCG7bFYzxi5hRSpP5y6CFnuo,1298
+ddcLogs/basic_log.py,sha256=EGo1E9_Bz9ugnvqe6xy4esNoV6op1nvpeph1O8Z-7_8,1285
+ddcLogs/log_utils.py,sha256=ALz1Bu958cMxIstfZIC88K2obX52inv1dDYWOjDFfwA,7867
+ddcLogs/settings.py,sha256=Lpslqt3iNqxfGKDMjzfe_xUcVFyPy0qBUhfeR-gNjSA,1586
+ddcLogs/size_rotating.py,sha256=xwFRHEIVWiIE0idLADGKEo2Wut2h1quzIRZ0acdrZPs,4257
+ddcLogs/timed_rotating.py,sha256=9Sl-IEkN0hgzxzlkwcRruY2QHBdiQuXk66fEQUGqYbM,3605
+ddclogs-3.0.4.dist-info/LICENSE,sha256=3fEBeO1ARuqTVV1QJzrGVVmXZz_okGweH0a-MeA0Qpc,1068
+ddclogs-3.0.4.dist-info/METADATA,sha256=JiuGgBvTwhZB5sR3mmAStIyziSjfEnkDH3CrgQpSurU,5513
+ddclogs-3.0.4.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+ddclogs-3.0.4.dist-info/RECORD,,
