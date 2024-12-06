@@ -1,0 +1,8 @@
+README.md
+setup.py
+symtensor/__init__.py
+symtensor/version.py
+symtensor.egg-info/PKG-INFO
+symtensor.egg-info/SOURCES.txt
+symtensor.egg-info/dependency_links.txt
+symtensor.egg-info/top_level.txt
