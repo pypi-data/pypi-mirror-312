@@ -1,0 +1,10 @@
+tree_sitter_ziggy/__init__.pyi,sha256=oixFm8lXsZZWYa5cRwj6brbqh37_fzN2rLE-dmX9_rA,247
+tree_sitter_ziggy/binding.c,sha256=l0O_om7rA-ZvrjqKhXOikBMD_5YOx4cREwpJaRfneS8,681
+tree_sitter_ziggy/__init__.py,sha256=eyHyINdQFHpMiiA0XOB6ikG7o8zysM4aY0-BGua4yVg,1154
+tree_sitter_ziggy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_ziggy/_binding.abi3.so,sha256=bfTZ4OVFEGdbrVjkRmT0KvRHGo6YXWdmuvjQgcxtNgE,51952
+tree_sitter_ziggy-0.1.0.dist-info/RECORD,,
+tree_sitter_ziggy-0.1.0.dist-info/LICENSE,sha256=wLnIYx7qcBPbme4OW00iiCzAenVKYz5-yXhrZHVKrNc,1070
+tree_sitter_ziggy-0.1.0.dist-info/WHEEL,sha256=UKjR--1pVIq9MkMJj-FaHQIj2iexFlBKvgRqgi4PbrA,107
+tree_sitter_ziggy-0.1.0.dist-info/top_level.txt,sha256=V5CvVKR0Cb1a6e_VOX055SpkwDJ8iP8OV1m7obAugig,27
+tree_sitter_ziggy-0.1.0.dist-info/METADATA,sha256=QW_63KbQU1TTNQnYTM6_i5WApC7h4cAx5vyPPHt0awg,803
