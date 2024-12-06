@@ -1,0 +1,11 @@
+cotton_daisy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cotton_daisy/base.py,sha256=TgysGHf6oK0t9AHYiJrau6lyCXTY12rKGfb1H2IOtQ0,885
+cotton_daisy/cli.py,sha256=EKQ8QZCdSeV2hQp-YGVCA8xEWBXABB-IBNk_dEqxZJ8,522
+cotton_daisy/templates/badge.html,sha256=R8C1EQ8yZCH893VLIaFh8cj_blliJClgfPRNxuZSkec,234
+cotton_daisy/templates/button.html,sha256=gypkNUxJZRVFl_BH6sKkCX7mPGPdacjIwIBw8TtLwMU,522
+cotton_daisy/templates/card.html,sha256=zWIgrEbLj_bYpPtraINmDgbCC6hXoMAgAFNL9l3TIGI,923
+cotton_daisy-0.0.2.dist-info/LICENSE,sha256=qkmsc_4Jk4q2V3fTsBram6gJDxTPh17-MJi2c3hxw_c,1071
+cotton_daisy-0.0.2.dist-info/METADATA,sha256=htzhMh-yy1WK_xMsiVCf58EbT2v-Yn_ucDZqIfdM02U,857
+cotton_daisy-0.0.2.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+cotton_daisy-0.0.2.dist-info/entry_points.txt,sha256=lHHBBa9OEyPOCbugavbbV2zvbxuer4rM3zBvj6cejgE,53
+cotton_daisy-0.0.2.dist-info/RECORD,,
