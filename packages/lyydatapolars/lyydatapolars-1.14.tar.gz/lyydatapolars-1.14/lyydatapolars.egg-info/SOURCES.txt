@@ -1,0 +1,8 @@
+LICENSE
+README.md
+lyydatapolars.py
+setup.py
+lyydatapolars.egg-info/PKG-INFO
+lyydatapolars.egg-info/SOURCES.txt
+lyydatapolars.egg-info/dependency_links.txt
+lyydatapolars.egg-info/top_level.txt
