@@ -1,0 +1,8 @@
+hoymiles_modbus/__init__.py,sha256=-Fjn3_Ln2MnRn7JuiCzzt_90iAUVhJcpAvPUADleBw8,129
+hoymiles_modbus/_modbus_tcp_client.py,sha256=dPTvUIhaz6xmnzW56zPRS1vLIsb7mbaLF-vhmkwr3Jo,1299
+hoymiles_modbus/client.py,sha256=sc_gIW1uSwcoizUnv7GQdr30H5diVWOWgDri8JUef0o,3623
+hoymiles_modbus/datatypes.py,sha256=0GYA8eDzPtpp7xrF8FjoK0dN2ePkTHBskNB9dWdEzW4,4616
+hoymiles_modbus-0.8.0.dist-info/LICENSE,sha256=Y9byscMFLXLxBiVN9E7X2Bt-GbvG8EP3hAb_rTaD-u0,1073
+hoymiles_modbus-0.8.0.dist-info/METADATA,sha256=uZI8RwBtgbmYmKFHGwsGsSIxLFnKfJ2j83L9zi5Egqk,3802
+hoymiles_modbus-0.8.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+hoymiles_modbus-0.8.0.dist-info/RECORD,,
