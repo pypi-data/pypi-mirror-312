@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: algocraft
+Version: 0.2.2
+Summary: A collection of classic algorithms in Python
+Author: Leander
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: heapq
+Requires-Dist: math
+
+Here's the updated `README.md` content in markdown format:
+
+
+# Algocraft
+
+**Algocraft** is a Python package that provides efficient and easy-to-use implementations of classic algorithms, including searching, sorting, dynamic programming, graph algorithms, and more. Designed to be a comprehensive library, **Algocraft** offers a wide range of fundamental algorithms commonly used in computer science, making it a go-to toolkit for both learning and practical applications.
+
+## Features
+
+### **Sorting Algorithms**
+- Bubble Sort
+- Merge Sort
+- Quick Sort
+- Heap Sort
+- Strassen's Matrix Multiplication
+
+### **Search Algorithms**
+- Binary Search
+- Linear Search
+
+### **Dynamic Programming**
+- Fibonacci Sequence
+- Knapsack Problem
+
+### **Graph Algorithms**
+- Dijkstra's Algorithm
+- Floyd-Warshall Algorithm
+
+### **Miscellaneous Algorithms**
+- Topological Sort
+- Tower of Hanoi
+- 8-Queens Problem
+- Simplex Method
+
+## Installation
+
+You can install the `algocraft` package via `pip` from the Python Package Index (PyPI):
+
+```bash
+pip install algocraft
+```
+
+## Usage
+
+Once installed, you can start using the algorithms directly by importing them. For example:
+
+```python
+from algocraft import binary_search, fibonacci, merge_sort
+
+# Binary Search
+arr = [1, 2, 3, 4, 5]
+index = binary_search(arr, 3)
+print(f'Index of 3: {index}')  # Output: 2
+
+# Fibonacci
+fib_number = fibonacci(10)
+print(f'10th Fibonacci number: {fib_number}')  # Output: 34
+
+# Merge Sort
+arr_to_sort = [3, 1, 4, 1, 5, 9]
+sorted_arr = merge_sort(arr_to_sort)
+print(f'Sorted array: {sorted_arr}')  # Output: [1, 1, 3, 4, 5, 9]
+```
+
