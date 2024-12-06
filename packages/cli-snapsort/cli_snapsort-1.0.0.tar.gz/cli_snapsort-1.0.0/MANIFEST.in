@@ -1,0 +1,2 @@
+include snap_sort/models/yolov8s.pt
+include snap_sort/utils/*
