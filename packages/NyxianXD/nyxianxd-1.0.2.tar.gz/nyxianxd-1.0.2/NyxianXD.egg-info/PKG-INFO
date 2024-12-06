@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: NyxianXD
+Version: 1.0.2
+Summary: Library Python untuk uploader Nyxian Network.
+Home-page: https://github.com/nyxiancode
+Author: Katsu
+Author-email: support@nyxiannetwork.web.id
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# NyxianXD
+NyxianXD adalah pustaka Python untuk berinteraksi dengan endpoint uploader Nyxian tanpa perlu mengungkapkan URL endpoint.
+
+## Instalasi
+```
+pip install NyxianXD
+```
+
+## Contoh Penggunaan
+```python
+from NyxianXD import NyxianXD
+
+# Inisialisasi dengan API Key Anda
+client = NyxianXD("API_KEY_ANDA")
+
+# Mendapatkan informasi pengguna
+user_info = client.get_user_info()
+print(user_info)
+
+# Mengunggah file
+url = client.upload_file("path/to/your/file.jpg")
+print("File URL:", url)
+```

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+NyxianXD/__init__.py
+NyxianXD/api.py
+NyxianXD/client.py
+NyxianXD.egg-info/PKG-INFO
+NyxianXD.egg-info/SOURCES.txt
+NyxianXD.egg-info/dependency_links.txt
+NyxianXD.egg-info/requires.txt
+NyxianXD.egg-info/top_level.txt
