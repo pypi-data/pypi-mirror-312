@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: logafault
+Version: 0.1.1
+Summary: An SDK for interacting with CityPower's APIs.
+Author-email: Clifton Dhanee <clifton.dhanee@yahoo.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Requires-Dist: requests

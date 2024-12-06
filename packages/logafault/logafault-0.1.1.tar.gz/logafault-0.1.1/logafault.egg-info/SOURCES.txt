@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+logafault/__init__.py
+logafault/auth.py
+logafault/exceptions.py
+logafault/faults.py
+logafault.egg-info/PKG-INFO
+logafault.egg-info/SOURCES.txt
+logafault.egg-info/dependency_links.txt
+logafault.egg-info/requires.txt
+logafault.egg-info/top_level.txt
