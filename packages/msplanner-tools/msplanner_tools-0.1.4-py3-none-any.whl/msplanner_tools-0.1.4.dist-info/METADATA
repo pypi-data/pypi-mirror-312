@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: msplanner-tools
+Version: 0.1.4
+Summary: Library to interact with Microsoft Planner via API Graph
+Author: Miguel Batista
+Author-email: miguelsbatista0610@gmail.com
+License: MIT
+Project-URL: Repository, https://github.com/MigueldsBatista/msplanner-tools
+Keywords: Microsoft Planner,API,Graph,Python,Tasks,Buckets,Plans
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: msal
+
+# MSPlanner Tools
+
+MSPlanner Tools is a Python library designed to interact with Microsoft Planner through the Microsoft Graph API. This library provides functionalities to manage plans, tasks, buckets and authentication within Microsoft Planner.
+
+## Features
+
+- Create, update, and delete plans
+- Create, update, and delete tasks
+- Create, update, and delete buckets
+- Retrieve details of plans, tasks, and buckets
+- Manage OAuth2 tokens for accessing Microsoft Graph API
+
+## Installation
+
+To install the library just run:
+
+```sh
+pip install msplanner-tools
+```
