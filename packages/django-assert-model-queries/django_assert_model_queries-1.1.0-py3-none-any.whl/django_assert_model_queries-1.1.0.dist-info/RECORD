@@ -1,0 +1,9 @@
+django_assert_model_queries/__init__.py,sha256=Ozz3LL9lGCniUme_MxfvKhgwXOHZd3uZ8lpe3Jgh2vg,74
+django_assert_model_queries/patch.py,sha256=6RR900BF_7sUry7UOQpB7TxzuILSptXBaES6enntt1c,4214
+django_assert_model_queries/pytest.py,sha256=9sDlda2jR8L8o2a9BJDmzo652ZZV0WOUMA6EgayTF1Q,379
+django_assert_model_queries/test.py,sha256=li2GqC0tzb_XYoIbQn-LEE4SBpPWyl8YspnmOiPWVbc,7201
+django_assert_model_queries-1.1.0.dist-info/METADATA,sha256=PD-LBzVrg-jjtLavdDAMD0AdszjRmsMA9sWFo-9FKyY,6558
+django_assert_model_queries-1.1.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+django_assert_model_queries-1.1.0.dist-info/entry_points.txt,sha256=l8TRo-5_P5s9GCyqZ5k2OnYLWELqy-ok1vQ1KbI2jxA,76
+django_assert_model_queries-1.1.0.dist-info/licenses/LICENSE,sha256=4wfVQE26IQ2NnB2by4OOvEDgJnMo0nTXC1V9fzC2lVM,1070
+django_assert_model_queries-1.1.0.dist-info/RECORD,,
