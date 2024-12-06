@@ -1,0 +1,2 @@
+[console_scripts]
+varphi_lsp_server = varphi_lsp_server.varphi_lsp_server:main
