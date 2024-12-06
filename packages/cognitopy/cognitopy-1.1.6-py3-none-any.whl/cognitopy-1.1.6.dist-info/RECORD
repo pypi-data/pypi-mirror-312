@@ -1,0 +1,9 @@
+cognitopy/__init__.py,sha256=SuEylNFUTaod3KFyAJMt0ACL_Tb7_9F0a6yp5emSxZc,57
+cognitopy/cognitopy.py,sha256=kkyD8qKTrXLZseyxrtNf7zQiOv-axHHeTnrhjksPn-A,27961
+cognitopy/enums.py,sha256=_T3z8tgWasIPPvp1bNw0VzdcjiimJO-M3ztfcZvcnlU,520
+cognitopy/exceptions.py,sha256=plVoz4lSVj7JQrqyJI9zpBu7aBmxWzZlgxiRRTwSlps,204
+cognitopy/schemas.py,sha256=7tdkRpmiRBC6qoT4iSsPPULgntgV5tAR8F-awFudhrg,570
+cognitopy-1.1.6.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+cognitopy-1.1.6.dist-info/METADATA,sha256=jg_agA76hMaBpV8ARFXDH2GKfpCeA2bBXpVTTEyUEUM,9290
+cognitopy-1.1.6.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+cognitopy-1.1.6.dist-info/RECORD,,
