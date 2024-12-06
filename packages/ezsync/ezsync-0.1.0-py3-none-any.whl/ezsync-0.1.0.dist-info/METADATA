@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ezsync
+Version: 0.1.0
+Summary: Simple syncing of python objects across websockets
+Home-page: https://github.com/Sanjay-Ganeshan/ezsync
+Author: Julie Ganeshan
+Author-email: HeavenlyQueen@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ezsync
+
+Simple syncing for python objects across websockets
+
+## Installation
+
+```bash
+pip install ezsync
+```
