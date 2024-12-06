@@ -1,0 +1,75 @@
+[build-system]
+requires = ["scikit-build-core>=0.10.6"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "verilator-dspsim"
+dynamic = ["version"]
+description = "A Python wrapper around an installation of Verilator."
+readme = "README.md"
+authors = [{ name = "Frank Sodari" }]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Programming Language :: C++",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/fsodari/verilator-python"
+
+# Get the version. Make this automatically match verilator? How? Manually make an update every verilator release?
+[tool.scikit-build.metadata.version]
+provider = "scikit_build_core.metadata.regex"
+input = "src/verilator/__init__.py"
+
+[tool.scikit-build]
+cmake.version = ">=3.26.1"
+cmake.build-type = "Release"
+build.verbose = true
+
+# Supporting cp312 stable abi.
+wheel.py-api = "cp312"
+
+# The installed package.
+wheel.packages = ["src/verilator"]
+
+# This needs to be set so that verilator installs at site-packages/verilator
+wheel.install-dir = "verilator"
+
+[project.scripts]
+verilator = "verilator:_verilator_cli"
+
+[tool.cibuildwheel]
+# Run pytest to ensure that the package was correctly built
+test-command = "pytest {project}/tests"
+test-requires = "pytest"
+
+# 64 bit builds
+archs = ["auto64"]
+
+build = ["cp312-*", "cp313-*"]
+# Don't build arm. Use only > cp39, no PyPy. Not using musl anywhere so no musl (it works though)
+skip = ["*-win_arm64"]
+
+# manylinux builds
+[tool.cibuildwheel.linux]
+before-all = [
+    "yum install -y flex",
+    "yum install -y bison",
+    "yum install -y ccache",
+]
+
+# musllinux builds
+[[tool.cibuildwheel.overrides]]
+select = "*-musllinux*"
+before-all = [
+    "apk add flex",
+    "apk add flex-dev",
+    "apk add bison",
+    "apk add ccache",
+]
