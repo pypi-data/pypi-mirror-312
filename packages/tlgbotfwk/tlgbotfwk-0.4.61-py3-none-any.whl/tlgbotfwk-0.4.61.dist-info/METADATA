@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tlgbotfwk
+Version: 0.4.61
+Summary: A powerful and extensible Python-based Telegram bot framework
+Home-page: https://github.com/gersonfreire/telegram_framework_bolt
+Author: Maker
+Author-email: Maker <youremail@example.com>
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: python-telegram-bot>=20.7
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: pyyaml>=6.0.1
+
