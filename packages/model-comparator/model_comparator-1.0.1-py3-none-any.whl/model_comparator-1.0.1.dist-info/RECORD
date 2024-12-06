@@ -1,0 +1,9 @@
+model_comparator/__init__.py,sha256=lqJUL2VumA9TuHEbMeFlk3LahiPEvqtt_hiFXVPF88Y,41
+model_comparator/comparator.py,sha256=B7APbrggEG5NOtduCu0YqRx1OQI0-4z8ZBKTKXoU9wg,5135
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_comparator.py,sha256=dhxnshpu08jo4oEkiNZa0ZA9pQaV7Z043ZRGgifL9IA,2601
+model_comparator-1.0.1.dist-info/LICENSE,sha256=rjHOc8jAggVwhrWt4agfjT2nWEYL0ovwIvVDQkIF4Rc,1091
+model_comparator-1.0.1.dist-info/METADATA,sha256=JeQZIIXt-brpJJlBbQ2-2ITNHnb_KWa5LbCBvnQWVNs,873
+model_comparator-1.0.1.dist-info/WHEEL,sha256=R06PA3UVYHThwHvxuRWMqaGcr-PuniXahwjmQRFMEkY,91
+model_comparator-1.0.1.dist-info/top_level.txt,sha256=Q-DcLyAaz_toAkOyYkktG6wVcj6OuMNLtQMDFSdtpKM,23
+model_comparator-1.0.1.dist-info/RECORD,,
