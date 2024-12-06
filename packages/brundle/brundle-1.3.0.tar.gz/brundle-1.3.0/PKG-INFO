@@ -1,0 +1,145 @@
+Metadata-Version: 2.1
+Name: brundle
+Version: 1.3.0
+Summary: Run various linters if they are installed.
+Author-email: Janus Heide <janusheide@gmail.com>
+Project-URL: Homepage, https://github.com/janusheide/brundle
+Project-URL: Repository, https://github.com/janusheide/brundle
+Project-URL: Changelog, https://github.com/janusheide/brundle/blob/main/NEWS.rst
+Keywords: maintenance,utility
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Provides-Extra: linters
+Requires-Dist: isort==5.13.2; extra == "linters"
+Requires-Dist: mypy==1.13.0; extra == "linters"
+Requires-Dist: ruff==0.8.1; extra == "linters"
+Provides-Extra: test
+Requires-Dist: brundle[linters]; extra == "test"
+Requires-Dist: dlister==1.3.0; extra == "test"
+Requires-Dist: pytest==8.3.3; extra == "test"
+Requires-Dist: pytest-cov<=6.0.0,>=5.0.0; extra == "test"
+Provides-Extra: dev
+Requires-Dist: brundle[test]; extra == "dev"
+Requires-Dist: bouillon==2.9.0; extra == "dev"
+Requires-Dist: build==1.2.2.post1; extra == "dev"
+Requires-Dist: licensecheck==2024.3; extra == "dev"
+Requires-Dist: twine==5.1.1; extra == "dev"
+Requires-Dist: uppd==1.5.0; extra == "dev"
+
+..  Copyright (c) 2024, Janus Heide.
+..  All rights reserved.
+..
+.. Distributed under the "BSD 3-Clause License", see LICENSE.rst.
+
+Brundle
+=======
+
+.. image:: https://github.com/janusheide/brundle/actions/workflows/unittests.yml/badge.svg
+    :target: https://github.com/janusheide/brundle/actions/workflows/unittests.yml
+    :alt: Unit tests
+
+.. image:: https://img.shields.io/pypi/pyversions/brundle
+   :alt: PyPI - Python Version
+
+.. image:: https://img.shields.io/librariesio/github/janusheide/brundle
+   :alt: Libraries.io dependency status for GitHub repo
+
+
+Runs all the following programs in order, and return 1 if any of them result in an error.
+
+    1. isort
+    2. ruff
+    3. mypy
+
+
+Getting Started
+---------------
+
+Install and run::
+
+    pip install brundle
+    brundle --help
+
+    usage: brundle [-h]
+                   [--log-level {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
+                   [--log-file LOG_FILE]
+                   [--isort ISORT]
+                   [--ruff RUFF]
+                   [--mypy MYPY]
+                   [-v]
+
+    Run available linters.
+
+    options:
+    -h, --help            show this help message and exit
+    --log-level {DEBUG,INFO,WARNING,ERROR,CRITICAL}
+                          logging level (default: INFO)
+    --log-file LOG_FILE   pipe loggining to file instead of stdout (default: None)
+    --isort ISORT         runs isort (default: False)
+    --ruff RUFF           runs ruff (default: False)
+    --mypy MYPY           runs mypy (default: False)
+    -v, --version         show program's version number and exit
+
+
+Or if you want to install all linters that brundle bundles::
+
+    pip install brundle[linters]
+    brundle --help
+
+    usage: brundle [-h]
+                   [--log-level {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
+                   [--log-file LOG_FILE]
+                   [--isort ISORT]
+                   [--ruff RUFF]
+                   [--mypy MYPY]
+                   [-v]
+
+    Run available linters.
+
+    options:
+    -h, --help            show this help message and exit
+    --log-level {DEBUG,INFO,WARNING,ERROR,CRITICAL}
+                          logging level (default: INFO)
+    --log-file LOG_FILE   pipe loggining to file instead of stdout (default: None)
+    --isort ISORT         runs isort (default: True)
+    --ruff RUFF           runs ruff (default: True)
+    --mypy MYPY           runs mypy (default: True)
+    -v, --version         show program's version number and exit
+
+
+Usage
+-----
+
+Run::
+
+    brundle
+
+
+Development
+-----------
+
+Setup, run tests and release::
+
+    pip install .[dev]
+    brundle
+    pytest
+    bouillon release 1.2.3

@@ -1,0 +1,16 @@
+.gitignore
+LICENSE.txt
+NEWS.rst
+README.rst
+pyproject.toml
+.github/workflows/unittests.yml
+src/brundle/__init__.py
+src/brundle/brundle.py
+src/brundle/py.typed
+src/brundle.egg-info/PKG-INFO
+src/brundle.egg-info/SOURCES.txt
+src/brundle.egg-info/dependency_links.txt
+src/brundle.egg-info/entry_points.txt
+src/brundle.egg-info/requires.txt
+src/brundle.egg-info/top_level.txt
+test/brundle/test_brundle.py

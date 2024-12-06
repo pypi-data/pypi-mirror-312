@@ -1,0 +1,2 @@
+[console_scripts]
+brundle = brundle.brundle:main_cli
