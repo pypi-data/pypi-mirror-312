@@ -1,0 +1,8 @@
+easy_http_requests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_http_requests/easy_http_request.py,sha256=q8-M07W4SpMUrgc3dxolpiavZQ97sEmBOv7YYoTn_xI,5019
+easy_http_requests/easy_http_response.py,sha256=7C8JJGfvACKpe-V2B1nhbzkBv_lDD91G9WseS36vuqc,1493
+easy_http_requests/exceptions/easy_http_error.py,sha256=vt-Tzvr9dfAblx0PVnGNyILM5NVXzxDKzpjLXTlDFb0,525
+easy_http_requests-0.3.0.dist-info/LICENSE,sha256=AHjqWFOA0zuHPwpBT18YEYTiQSY4jQmyW4JzBXeOYk4,1089
+easy_http_requests-0.3.0.dist-info/METADATA,sha256=6qETtyz_pkF3RW3VwcPq_MQ6PFNnm0kxc2aKlza1GCs,956
+easy_http_requests-0.3.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+easy_http_requests-0.3.0.dist-info/RECORD,,
