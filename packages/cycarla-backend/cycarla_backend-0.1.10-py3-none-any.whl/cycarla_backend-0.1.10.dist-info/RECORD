@@ -1,0 +1,14 @@
+cycarla_backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cycarla_backend/ble_utils.py,sha256=OReq84UuCSufii8AVZ8ue8F_UHWlYUBvYVtJC1CFD8E,2349
+cycarla_backend/carla_control.py,sha256=EL9tvZMhCQXoJWvQndjEael7ud1GxcqA9wuG50MfsOA,36163
+cycarla_backend/filters.py,sha256=I-hgV0HLZN-_bWxgWWL4Nb5F5zJ3vUHrgpdbDW8SNQ8,2275
+cycarla_backend/gpx.py,sha256=y2H5RdoLC6MIghxsxUprHsvZEeYCMvPK_WdIKqtwvGM,3120
+cycarla_backend/main.py,sha256=hc0pG3RVlykvuUAHzX4Ycex4CpDdIPuxooONy13yEko,13190
+cycarla_backend/profile.html,sha256=ldpft6ZFjDAtVcIcj_RtvO9C3qlRfxcEzprgsx2JEEQ,1486655
+cycarla_backend/profile.json,sha256=klVwT027a0QB0NgVtL1F1V9vPpduA1VVVgRN0KO6kzk,1329520
+cycarla_backend/pycycling_input.py,sha256=0Ck-x-A7LLPVtESeFR3Lej2f6er4pBwH90KlRjXaoes,6646
+cycarla_backend/STRAVA_HOWTO.md,sha256=Yx4gnYDPx_qqjbgU4KGOumjHPUDdtLfnW1Qrk6xvRVQ,2075
+cycarla_backend-0.1.10.dist-info/entry_points.txt,sha256=nxuTfuxfeVYe3X9Nl_hs29yNtxVFUvBIkU0zmRSFQFw,61
+cycarla_backend-0.1.10.dist-info/METADATA,sha256=693Dkkj03KyQcF3qlYwGdXetINw5zfnnSOlzSGTFvUs,3248
+cycarla_backend-0.1.10.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cycarla_backend-0.1.10.dist-info/RECORD,,
