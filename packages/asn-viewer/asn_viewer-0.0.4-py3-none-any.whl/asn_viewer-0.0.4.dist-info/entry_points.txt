@@ -1,0 +1,2 @@
+[console_scripts]
+asn-viewer = asn_viewer.runapp:main
