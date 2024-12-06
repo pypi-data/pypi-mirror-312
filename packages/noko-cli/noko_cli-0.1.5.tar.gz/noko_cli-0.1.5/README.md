@@ -1,0 +1,75 @@
+# Noko CLI
+
+The Noko CLI allows you to log a time entry directly from the CLI and sync all of your calendar events from GCal to Noko.
+
+It makes three CLI commands available:
+
+| Command        | Shorthand | Description                                        |
+|----------------|-----------|----------------------------------------------------|
+| noko_cli_setup | ncs       | Configure the Noko CLI app                         |
+| noko_log       | nl        | Log a time entry to Noko                           |
+| call_sync      | cs        | Sync events from Google Calendar into Noko entries |
+
+## Installation
+
+To install the complete app and dependencies, run:
+
+```shell
+pip install noko-cli
+```
+
+To install only what's required to one specific command, run:
+
+```shell
+pip install noko-cli[noko_log]
+```
+
+```shell
+pip install noko-cli[call_sync]
+```
+
+**Note:** To be able to run the `call_sync` command, you'll need to add a `credentials.json` file with the Google web credentials to `.noko_cli`. 
+
+## noko_cli_setup
+
+Run the `noko_cli_setup` or `ncs` command to set up the application. It'll ask you to provide the information needed to run the commands.
+
+The result of this command will be a `config.json` file with the necessary details.
+
+## noko_log
+
+The `noko_log` or `nl` command requires at least three parameters: minutes, project and description. It also allows an
+optional date parameter.
+
+It supports four flags:
+
+| Flag | Meaning                              |
+|------|--------------------------------------|
+| -u   | Add the unbillable tag to the entry. |
+| -p   | Add the pair tag to the entry.       |
+| -c   | Add the calls tag to the entry.      |
+| -y   | Mark the entry as from yesterday.    |
+
+Example usage:
+
+```shell
+nl 30 Operations "Slack convos and emails"
+```
+
+```shell
+nl --date "2024-09-20" 60 Sales "Sales call with Lead X"
+```
+
+## gcal_sync
+
+The `gcal_sync` or `cs` command does not require any parameters. It allows an optional date parameter.
+
+Example usage:
+
+```shell
+cs
+```
+
+```shell
+cs -d "2024-09-20"
+```

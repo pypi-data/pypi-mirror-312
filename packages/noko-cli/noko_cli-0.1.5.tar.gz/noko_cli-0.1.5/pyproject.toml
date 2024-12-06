@@ -1,0 +1,74 @@
+[tool.ruff]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    "setup.py"
+]
+force-exclude = true
+line-length = 120
+
+[tool.ruff.lint]
+select = ["ANN", "ARG", "C4", "C90", "D", "E", "F", "N", "Q", "RET", "RSE", "RUF", "S", "SIM", "TD", "TID", "T20"]
+ignore = ["ANN002", "ANN003", "ANN101", "ANN102", "ANN204", "D101", "D107"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.format]
+quote-style = "double"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+indent-style = "space"
+
+[tool.ruff.lint.per-file-ignores]
+"*/__init__.py" = ["D104"]
+"source/utilities.py" = ["D103"]
+"source/*/schemas.py" = ["D102"]
+
+[tool.isort]
+profile = "black"
+line_length = 120
+filter_files = true
+
+[[tool.mypy.overrides]]
+module = "google.oauth2.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "noko_client.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "setuptools.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "googleapiclient.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "click"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "dotenv"
+ignore_missing_imports = true
