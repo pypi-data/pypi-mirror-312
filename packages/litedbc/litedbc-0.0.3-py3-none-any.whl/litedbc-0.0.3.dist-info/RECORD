@@ -1,0 +1,16 @@
+litedbc/__init__.py,sha256=ChzeE_Tq-g3FlSCHP9WaCTDxhr6S2y97LE_0hiIU50A,19525
+litedbc/__main__.py,sha256=qw4ySfOLmCfR4R1pYNJNbUxGP4CNMpCQWiW7INmAdlw,148
+litedbc/const/__init__.py,sha256=6oyetiNkL59ccHtqjLJ_-p2XbGW_mz4OeeNkkwQKTwc,838
+litedbc/cursor/__init__.py,sha256=JNldpF4vbHfOlL2olVzfJzJsvM4brQV6MfcWcRkdBzY,4190
+litedbc/errors/__init__.py,sha256=4M13Ntc7aa3CF52phyvzMhNwklvIXge3pohJOV2WC5M,386
+litedbc/misc/__init__.py,sha256=fCw3o3sfFiCosdSMtS8Iw5VSQe0aEYZtUuDcyeuQkYI,1667
+litedbc/transaction/__init__.py,sha256=rdoRo_a_iQ5Py9odKJznmGhsOupfp6HV6802wx6P3qM,1376
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__main__.py,sha256=EcvMJASlVJcLhXKe91gOhBbTfIAJrwup3vltZ8q5q_g,280
+tests/test_dbc.py,sha256=ZNb05lCpPu7bOJNdDACxRkPKnMIpEgQUdG2iRmyBBns,15935
+litedbc-0.0.3.dist-info/LICENSE,sha256=ITD2-z4fEAJvShP07yCwn-8a9IGE6JTFDmsb0xWaZzM,1075
+litedbc-0.0.3.dist-info/METADATA,sha256=2k0GP0OpZDQ8cG2uZFIb5Z54LjHAjo39fh6MS-sPOKU,5705
+litedbc-0.0.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+litedbc-0.0.3.dist-info/entry_points.txt,sha256=yMsmEhXPaFVyi6WqB2h4SwIFKCsNHQRLyCZl8AKZgt4,50
+litedbc-0.0.3.dist-info/top_level.txt,sha256=snYPN9UKz10f1fxjadJL4ZlMMPKp51vX60dHDc6aoFw,8
+litedbc-0.0.3.dist-info/RECORD,,
