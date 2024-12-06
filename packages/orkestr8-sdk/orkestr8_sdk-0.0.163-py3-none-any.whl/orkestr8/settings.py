@@ -1,0 +1,8 @@
+from pathlib import Path
+
+DATA_OUTPUT_FILE = "data.txt"
+LOG_OUTPUT_FILE = "log.txt"
+PID_FILE_NAME = "pid.txt"
+BASE_PATH = Path.home()
+PID_FILE_LOCATION = BASE_PATH / ".orkestr8" / PID_FILE_NAME
+DATA_OUTPUT_FILE_LOCATION = BASE_PATH / LOG_OUTPUT_FILE
