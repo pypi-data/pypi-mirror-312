@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pvway_pgsema"
+version = "0.1.0"
+description = "postgreSQL base semaphore service"
+authors = ["Pierre Van Wallendael <pierrevanwall@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+[[tool.poetry.packages]]
+from = "src"
+include = "pvway_pgsema"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

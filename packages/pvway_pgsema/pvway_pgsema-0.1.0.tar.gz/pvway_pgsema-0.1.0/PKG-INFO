@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pvway_pgsema
+Version: 0.1.0
+Summary: postgreSQL base semaphore service
+Author: Pierre Van Wallendael
+Author-email: pierrevanwall@gmail.com
+Requires-Python: >=3.13,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# pyPgSema
