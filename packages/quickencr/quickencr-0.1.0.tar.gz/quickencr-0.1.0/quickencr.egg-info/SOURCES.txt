@@ -1,0 +1,8 @@
+setup.py
+quickEncrypt/__init__.py
+quickEncrypt/core.py
+quickencr.egg-info/PKG-INFO
+quickencr.egg-info/SOURCES.txt
+quickencr.egg-info/dependency_links.txt
+quickencr.egg-info/requires.txt
+quickencr.egg-info/top_level.txt
