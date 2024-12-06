@@ -1,0 +1,12 @@
+headerparser/__init__.py,sha256=xsv_9nZ8I8Hi7oR6JAiVh5rhig1rhJxTXwuvY-kzfr0,1983
+headerparser/errors.py,sha256=CH8wfSHKsCkkaiksJA2fWn91sMhshRy7xRFMTUkgr-4,4066
+headerparser/normdict.py,sha256=46L6J4DKvPnlUgLoE04SCYdxDabtb6tpR1fVKRkTZg0,4897
+headerparser/parser.py,sha256=upUgpP2AnxJSQB-mSFV0lOD5RUpiHyHqYPKrNz1sTYs,22783
+headerparser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+headerparser/scanner.py,sha256=T0fdAYWFvh6PqMm1f9f25D12kG9Uq9thbQtPnfMFpkI,14873
+headerparser/types.py,sha256=DvTUXX6-JtuEU7hcMO9I_WveLNDFKwBLmcCFzZNAtdE,1656
+headerparser/util.py,sha256=wWv7QaX_F9SCiB5fuglxkWHQ-WdldxvBk8nbzuM6pH0,308
+headerparser-0.5.2.dist-info/METADATA,sha256=h05O4LCeb-y4CK0M5cdvDYgeI9F25xji5mIO-f-_vP4,6707
+headerparser-0.5.2.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+headerparser-0.5.2.dist-info/licenses/LICENSE,sha256=A4ScKc0VmRwQd5zc6UmSlKvKcGG35i26zckoVMvhuzg,1095
+headerparser-0.5.2.dist-info/RECORD,,
