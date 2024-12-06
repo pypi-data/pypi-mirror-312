@@ -1,0 +1,52 @@
+digraph G {
+concentrate=true;
+splines="ortho";
+rankdir="LR";
+subgraph legend{
+    rank = min;
+    label = "legend";
+    Legend [shape=none, margin=0, label = <
+        <table cellspacing="0" cellpadding="0" border="1"><tr><td>Code2flow Legend</td></tr><tr><td>
+        <table cellspacing="0">
+        <tr><td>Regular function</td><td width="50px" bgcolor='#cccccc'></td></tr>
+        <tr><td>Trunk function (nothing calls this)</td><td bgcolor='#966F33'></td></tr>
+        <tr><td>Leaf function (this calls nothing else)</td><td bgcolor='#6db33f'></td></tr>
+        <tr><td>Function call</td><td><font color='black'>&#8594;</font></td></tr>
+        </table></td></tr></table>
+        >];
+}node_453e8c8c [label="0: (global)()" name="upload_payload_test::(global)" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
+node_5a422b71 [label="95: __init__()" name="upload_payload_test::TestAgent.__init__" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_bc2fd474 [label="110: make_lm_call()" name="upload_payload_test::TestAgent.make_lm_call" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_c614e087 [label="130: process_environment()" name="upload_payload_test::TestAgent.process_environment" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_51f945cb [label="79: ask_questions()" name="upload_payload_test::ask_questions" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_133f22ea [label="50: createUploadDataset()" name="upload_payload_test::createUploadDataset" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_772d1255 [label="31: generate_payload_from_data()" name="upload_payload_test::generate_payload_from_data" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_e9328538 [label="140: test_upload_async()" name="upload_payload_test::test_upload_async" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_e7712277 [label="163: test_upload_sync()" name="upload_payload_test::test_upload_sync" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_453e8c8c -> node_e9328538 [color="#F0E442" penwidth="2"];
+node_453e8c8c -> node_e7712277 [color="#F0E442" penwidth="2"];
+node_51f945cb -> node_bc2fd474 [color="#009E73" penwidth="2"];
+node_51f945cb -> node_c614e087 [color="#009E73" penwidth="2"];
+node_e9328538 -> node_5a422b71 [color="#000000" penwidth="2"];
+node_e9328538 -> node_51f945cb [color="#000000" penwidth="2"];
+node_e9328538 -> node_133f22ea [color="#000000" penwidth="2"];
+node_e9328538 -> node_772d1255 [color="#000000" penwidth="2"];
+node_e7712277 -> node_5a422b71 [color="#CC79A7" penwidth="2"];
+node_e7712277 -> node_51f945cb [color="#CC79A7" penwidth="2"];
+node_e7712277 -> node_133f22ea [color="#CC79A7" penwidth="2"];
+node_e7712277 -> node_772d1255 [color="#CC79A7" penwidth="2"];
+subgraph cluster_010cbac3 {
+    node_772d1255 node_133f22ea node_51f945cb node_e9328538 node_e7712277 node_453e8c8c;
+    label="File: upload_payload_test";
+    name="upload_payload_test";
+    style="filled";
+    graph[style=dotted];
+    subgraph cluster_58ccca64 {
+        node_5a422b71 node_bc2fd474 node_c614e087;
+        label="Class: TestAgent";
+        name="TestAgent";
+        style="filled";
+        graph[style=dotted];
+    };
+};
+}
