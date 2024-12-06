@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tai-cli"
+version = "0.1.0"
+description = ""
+authors = ["MateoSaezMata <msaez@triplealpha.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+
+[tool.poetry.scripts]
+tai = "tai_cli:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
