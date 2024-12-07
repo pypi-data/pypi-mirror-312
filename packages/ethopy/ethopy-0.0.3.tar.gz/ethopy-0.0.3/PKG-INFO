@@ -1,0 +1,65 @@
+Metadata-Version: 2.3
+Name: ethopy
+Version: 0.0.3
+Summary: Python Boilerplate contains all the boilerplate you need to create a Python package.
+Project-URL: Homepage, https://github.com/alexevag/testcore
+Project-URL: Documentation, https://alexevag.github.io/testcore
+Project-URL: Repository, https://github.com/alexevag/testcore.git
+Project-URL: Changelog, https://github.com/alexevag/testcore/releases
+Author-email: Alex Evangelou <admin@example.com>
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Requires-Dist: datajoint
+Requires-Dist: h5py
+Requires-Dist: imageio
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: panda3d
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: pillow
+Requires-Dist: pygame
+Requires-Dist: pygame-menu
+Requires-Dist: pyopengl
+Requires-Dist: pytest
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Provides-Extra: dev
+Requires-Dist: black>=23.0; extra == 'dev'
+Requires-Dist: isort>=5.0; extra == 'dev'
+Requires-Dist: mypy>=1.0; extra == 'dev'
+Requires-Dist: pytest-cov>=4.0; extra == 'dev'
+Requires-Dist: pytest>=7.0; extra == 'dev'
+Requires-Dist: ruff>=0.0.290; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs-material>=9.0.0; extra == 'docs'
+Requires-Dist: mkdocs>=1.4.0; extra == 'docs'
+Description-Content-Type: text/markdown
+
+# testcore
+State control system for automated, high-throughput behavioral training based on Python. 
+It is tightly integrated with Database storage & control using the [Datajoint] framework. 
+It can run on Linux, MacOS, Windows and it is optimized for use with Raspberry pi boards. 
+
+
+[![image](https://img.shields.io/pypi/v/testcore.svg)](https://pypi.python.org/pypi/testcore)
+
+
+**Python Boilerplate contains all the boilerplate you need to create a Python package.**
+
+
+-   Free software: MIT License
+-   Documentation: https://alexevag.github.io/testcore
+    
+
+## Features
+
+-   TODO
