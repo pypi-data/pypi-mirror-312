@@ -1,0 +1,3 @@
+[console_scripts]
+snapr = snapreq.cli:main
+

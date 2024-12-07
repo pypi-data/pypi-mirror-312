@@ -1,0 +1,16 @@
+snapreq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snapreq/cli.py,sha256=oRssuhd6Y_4hi0aRzjYUyShYcSStLAkdUCACst9qXVc,1577
+snapreq/console/__init__.py,sha256=gavUA4yRrZQOnCG-o2B0O33Vsm5xCWd4-pSwiPegJw0,65
+snapreq/console/logger.py,sha256=WvWKvdkh70eJwGkqlHbLy_FeUuAZoIMmW3aV9xL1gyQ,3128
+snapreq/console/utils.py,sha256=jRSQiOzpB0EgPzLqB0gn7kLa68j_ozao2NiqnIqWD4o,379
+snapreq/utils/__init__.py,sha256=zQu1BAWHejL_iON38r4JKNS-7RzavBpRlWRCmreVKAU,223
+snapreq/utils/file_writter.py,sha256=cX_o4k9EfzUNRMo4gqPTNL9NAPKYpetF-3qZZCM5x5o,883
+snapreq/utils/handlers.py,sha256=y3COF7XYolH_QRyLchDh6bMmmm94Z_m-yWhP03kOViY,1450
+snapreq/utils/methods.py,sha256=jnN55mbxUiG6525yor5z4vuHF45JIGkreFp0Np1-opU,1101
+snapreq/utils/transformers.py,sha256=O5TBpv0_Dl3KCWYJcJoIA2SG-mzETziuT6_PgREknR0,293
+snapreq-1.1.0.dist-info/LICENSE,sha256=D8MgjYpn23mtf9fxOWCik3KEkKfnM88XdmQ1Jk6brlU,1097
+snapreq-1.1.0.dist-info/METADATA,sha256=sSCdjQK8tsrVhvJjL3lL5fxYl6A46trBNRy54kyFTB8,6114
+snapreq-1.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+snapreq-1.1.0.dist-info/entry_points.txt,sha256=VnUWbRng0XDBMmk-aPqDluz9YegSJoX7aXJTLMDaMQ4,44
+snapreq-1.1.0.dist-info/top_level.txt,sha256=WhQ7Da4zIeWta0p9fzZNviYwXZhrepWg8E7w58kKLxM,8
+snapreq-1.1.0.dist-info/RECORD,,
