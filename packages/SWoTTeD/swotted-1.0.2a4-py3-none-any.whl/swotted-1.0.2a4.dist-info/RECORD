@@ -1,0 +1,13 @@
+swotted/__init__.py,sha256=i1F5MNFV_Is-RoBdc9SJCFMaKb8SCfAB6NgkeePzwkI,278
+swotted/decomposition_contraints.py,sha256=KmetBZOmk-mzmZMTucaTh6CbAewUvDPtRzHVRVolk4Y,2115
+swotted/fastswotted.py,sha256=1j6Kv2ye7faqHU817N6UdRDX9VVGqqOkBELnEeBJc94,20529
+swotted/loss_metrics.py,sha256=NJzBumyL_gkZa9nJtD8sZ8dtlEwxRYwgni5V38nDuQQ,978
+swotted/slidingWindow_model.py,sha256=Q2CSfH1VvsOmLsEXBHopAhYvIkFUpZBe-rrRWB-BETk,5635
+swotted/swotted.py,sha256=50LDL2K7HfxvyLuHKblbJWT63piyTeV-hi59v2-Vcb0,13788
+swotted/temporal_regularization.py,sha256=dphhaXaFvrQyLDQYGM_tEoU6JNkcjlUGfqrJUcGCLPM,1757
+swotted/utils.py,sha256=eCuZJwUqLLqzBx7LTEC_nVlaIg8PcmIkReF8WQPnNsQ,1347
+swotted/version.py,sha256=pP_wrs3_fOCaMHZTdUp8mV5QjvpKfeGkm6j5jQsGido,274
+swotted-1.0.2a4.dist-info/METADATA,sha256=z-Xv1balqLjcr49TbiO_K4uxYiPk5hSpMp4A27yxm3k,12611
+swotted-1.0.2a4.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+swotted-1.0.2a4.dist-info/licenses/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+swotted-1.0.2a4.dist-info/RECORD,,
