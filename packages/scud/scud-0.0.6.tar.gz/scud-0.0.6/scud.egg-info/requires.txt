@@ -1,0 +1,17 @@
+numpy
+optax
+torch
+jax
+pandas
+scikit_learn
+matplotlib
+seaborn
+tqdm
+
+[doc]
+sphinx
+sphinx_rtd_theme
+
+[tests]
+pytest
+pytest_lazy_fixture
