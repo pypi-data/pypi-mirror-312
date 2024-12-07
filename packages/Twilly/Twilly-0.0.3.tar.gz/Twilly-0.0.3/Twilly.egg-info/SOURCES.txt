@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Twilly/__init__.py
+Twilly/whatsappMessage.py
+Twilly.egg-info/PKG-INFO
+Twilly.egg-info/SOURCES.txt
+Twilly.egg-info/dependency_links.txt
+Twilly.egg-info/top_level.txt
