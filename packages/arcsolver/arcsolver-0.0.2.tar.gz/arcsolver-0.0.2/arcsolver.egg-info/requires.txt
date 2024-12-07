@@ -1,0 +1,9 @@
+fastcore
+numpy
+claudette
+scipy
+pydantic
+matplotlib
+nest_asyncio
+
+[dev]
