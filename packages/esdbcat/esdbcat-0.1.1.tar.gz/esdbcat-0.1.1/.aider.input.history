@@ -1,0 +1,36 @@
+
+# 2024-12-02 15:55:31.048820
++/add src
+
+# 2024-12-02 15:55:32.554585
++n
+
+# 2024-12-02 15:55:34.566399
++/add *
+
+# 2024-12-02 15:56:18.969321
++Hi, after a bug report I've reproduced that the official esdbclient does not work with protobuf 3.12.4, I think we need at least protobuf 5. Can you add that as a requirement even though we don't need it directly ourselves, please?  
+
+# 2024-12-02 15:56:28.822079
++n
+
+# 2024-12-02 15:57:08.431617
++Thanks, that fixed it! Can you tag this as 0.1.1 and push to pypi please?
+
+# 2024-12-02 15:57:21.226593
++/run git tag -a v0.1.1 -m "Release version 0.1.1"
+
+# 2024-12-02 15:57:21.226712
++/run git tag -a v0.1.1 -m "Release version 0.1.1"
+
+# 2024-12-02 15:57:21.363249
++/run git push origin v0.1.1
+
+# 2024-12-02 15:57:21.363419
++/run git push origin v0.1.1
+
+# 2024-12-02 15:57:23.092600
++/run python -m build
+
+# 2024-12-02 15:57:23.092846
++/run python -m build
