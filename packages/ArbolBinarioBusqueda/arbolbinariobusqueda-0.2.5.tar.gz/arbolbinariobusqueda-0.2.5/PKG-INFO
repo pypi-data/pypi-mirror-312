@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ArbolBinarioBusqueda
+Version: 0.2.5
+Summary: Mostrar una implementación simple y totalmente en español con fines académicos
+Home-page: https://github.com/felipemoralesquerol/arbolbinariobusqueda
+Author: Felipe Morales
+Author-email: felipe.morales.querol@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Arbol binario de búsqueda
+#### Objetivo: 
+Mostrar una implementación simple y totalmente en español con fines académicos.
+
+TODO: Agregar nuevas funcionalidades como parte de la cursada.
