@@ -1,0 +1,12 @@
+treedata/__init__.py,sha256=jLUs3qbravB3meiyIin_8O301bUFVvEYIJqHnb5AnAU,189
+treedata/_utils.py,sha256=TL1_nbCJQ6fMPRdQEobMacEyd4O1KeViT0rFJuCaBBM,1576
+treedata/_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+treedata/_core/aligned_mapping.py,sha256=id1dz-KhxB2trW3IDe1rhsiAj6K3SN-NruGo1jN9Esc,8613
+treedata/_core/merge.py,sha256=HebIu727YpMyzK0oJ3XiuJRFjeKq8vn-O9w8HQK8iLQ,4880
+treedata/_core/read.py,sha256=45GeqGzQ8s2GV-O1MilNfSGjPhzzXAnNvrEOcKG7Naw,3852
+treedata/_core/treedata.py,sha256=5rGnvjV_QZFH4S3vCjHjVlX0AyS7m__aqihigp7Mgmk,14196
+treedata/_core/write.py,sha256=ohT0yc0CZzp_1uWzPC-YmUZNmqtXxs9zgGiCzaTK8l8,4309
+treedata-0.1.2.dist-info/METADATA,sha256=f743mFPUVMBfH_JvEcZOoT4WkOji8jQgJHyRioa8MDk,5482
+treedata-0.1.2.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+treedata-0.1.2.dist-info/licenses/LICENSE,sha256=4FXAdrg2FSWdARsb7Z4FQl9OrVnGklpwfsRe-MFV-Ts,1522
+treedata-0.1.2.dist-info/RECORD,,
