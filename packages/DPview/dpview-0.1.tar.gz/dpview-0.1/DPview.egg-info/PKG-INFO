@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: DPview
+Version: 0.1
+Summary: Advanced Python library for web browser automation and complex UI features
+Author: kkkppmm
+Requires-Dist: selenium
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4

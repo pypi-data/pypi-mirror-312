@@ -1,0 +1,15 @@
+setup.py
+DPview.egg-info/PKG-INFO
+DPview.egg-info/SOURCES.txt
+DPview.egg-info/dependency_links.txt
+DPview.egg-info/requires.txt
+DPview.egg-info/top_level.txt
+dpview/__init__.py
+dpview/browser_automation.py
+dpview/dynamic_content.py
+dpview/render_tools.py
+dpview/ui_components.py
+dpview/utils.py
+tests/test_browser_automation.py
+tests/test_dynamic_content.py
+tests/test_ui_components.py
