@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]  # Outils requis pour construire le projet
+build-backend = "setuptools.build_meta"  # Utilisation de setuptools comme backend
+[project]
+name = "tp_package"
+version = "0.3"
+description = "A modern Python project using pyproject.toml and setuptools"
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+dependencies = [
+    "requests>=2.30.0",
+]
+keywords = ["example", "setuptools", "pyproject"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
