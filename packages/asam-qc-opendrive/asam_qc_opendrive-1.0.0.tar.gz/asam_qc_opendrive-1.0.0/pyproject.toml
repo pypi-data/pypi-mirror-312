@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "asam-qc-opendrive"
+version = "1.0.0"
+description = "This project implements the OpenDrive Checker for the ASAM Quality Checker project."
+authors = ["Patrick Abrahão <patrick@ivex.ai>", "Tung Dinh <tung@ivex.ai>"]
+license = "MPL-2.0"
+readme = "README.md"
+packages = [
+    { include = "qc_opendrive" },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asam-qc-baselib = "^1.0.0rc1"
+lxml = "^5.2.2"
+numpy = "^1.26.0"
+scipy = "^1.14.0"
+pyclothoids = "^0.1.5"
+transforms3d = "^0.4.2"
+xmlschema = "^3.3.1"
+semver = "^3.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+black = "^24.4.2"
+
+[tool.poetry.scripts]
+qc_opendrive = 'qc_opendrive.main:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
