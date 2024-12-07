@@ -1,0 +1,10 @@
+fxdc/__init__.py,sha256=SIx460Yfjst1TtNiFxrINiijOJsYe04r0AZN5aa7oCU,299
+fxdc/config.py,sha256=DnD5RkppB7GIRGgKA54udkEVC2VP0aVUgFvlOvko7S4,429
+fxdc/exceptions.py,sha256=Qe-Ug1zO6x7q51T20cKr9eidsfDwm8tHC-A93uFpuck,534
+fxdc/misc.py,sha256=McFCHDDtyr90J9-MWoospUB-o1PVzgdk9OGG2kMKc2w,482
+fxdc/read.py,sha256=ejTk5VszawP9KcBVs_W0JSGItJB97wO8EUUO_jUiCdQ,1985
+fxdc/write.py,sha256=D0CdYm4xqm4gPFDnjeH0xXk8ZRS68qMNaoKGr32YtH4,1241
+fxdc-0.1.dist-info/METADATA,sha256=4aDvow-PMycIdH2Nexldns-BrcO1GMBVkK8I7DjVrQI,4159
+fxdc-0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+fxdc-0.1.dist-info/top_level.txt,sha256=nVh3JERca9jmXjbKXUw3e5FCgBAecwxL16IjpBvVjpw,5
+fxdc-0.1.dist-info/RECORD,,
