@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asteroid_sdk"
+version = "0.1.0"
+description = "Asteroid's Python SDK enables efficient control of thousands of agents."
+authors = [
+    {name = "Asteroid", email = "founders@asteroid.sh"},
+]
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "inspect-ai>=0.3.41",
+    "requests",
+    "openai"
+]
+
+[project.urls]
+Homepage = "https://asteroid.sh/"
+Repository = "https://github.com/asteroidai/sentinel"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = { find = { where = ["src"] } }
+
+[tool.setuptools.package-data]
+asteroid_sdk = ["py.typed", "**/*.py"]
+
+[project.entry-points.inspect_ai]
+asteroid_sdk = "asteroid_sdk.supervision.inspect_ai._registry"
