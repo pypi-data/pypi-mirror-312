@@ -1,0 +1,7 @@
+broker:
+  address: "192.168.234.130"
+  port: 1883
+
+topics:
+  publisher: "serre/data"
+  subscriber: "serre/#"
