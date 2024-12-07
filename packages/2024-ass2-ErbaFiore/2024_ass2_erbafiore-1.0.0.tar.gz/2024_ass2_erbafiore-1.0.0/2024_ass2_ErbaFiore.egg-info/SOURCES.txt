@@ -1,0 +1,7 @@
+README.md
+setup.py
+2024_ass2_ErbaFiore.egg-info/PKG-INFO
+2024_ass2_ErbaFiore.egg-info/SOURCES.txt
+2024_ass2_ErbaFiore.egg-info/dependency_links.txt
+2024_ass2_ErbaFiore.egg-info/requires.txt
+2024_ass2_ErbaFiore.egg-info/top_level.txt
