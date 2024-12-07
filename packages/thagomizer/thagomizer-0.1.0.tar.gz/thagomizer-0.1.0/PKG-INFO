@@ -1,0 +1,7 @@
+Metadata-Version: 2.3
+Name: thagomizer
+Version: 0.1.0
+Summary: Useful tools in python
+Author-email: Srinivas Gorur-Shandilya <code@srinivas.gs>
+Requires-Python: >=3.11
+Requires-Dist: xxhash<4,>=3.5.0
