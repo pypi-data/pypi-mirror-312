@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: easy_api_test
+Version: 0.1.1
+Summary: API testing framework
+Author: liulangjuanzhou
+Author-email: liulangjuanzhou@gmail.com
+Requires-Python: >=3.7
+Requires-Dist: requests>=2.25.0
+Requires-Dist: pytest>=6.0.0
+Requires-Dist: pyyaml>=5.4.0
+Requires-Dist: jsonpath>=0.82
+Requires-Dist: lljz-tools>=0.3.4.3
