@@ -1,0 +1,10 @@
+dpview/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dpview/browser_automation.py,sha256=SoHBH_mpZX6HWwvSgCR6jvgE8ydGN-YrDuCkGIuYaik,805
+dpview/dynamic_content.py,sha256=kYaKb4VpptTPGf96uttUopYib2h2HclleV9CfxbWDzs,583
+dpview/render_tools.py,sha256=Z-fzX3ry0jDyVBqSDJt7ANXUcl9aAKzMUji5oY3oLAU,359
+dpview/ui_components.py,sha256=9rUAwwDhs_XDUj4w706CFDAwCn0oRtjSAwzT-sjxQm0,332
+dpview/utils.py,sha256=kSAVsIrUvLdDI46KiJOQVmOpn8QXKowMnp_kjL6VPO8,286
+DPview-0.1.dist-info/METADATA,sha256=cDk-UYWfEJRwLi7WBV9G5jmhhWNoDFcnHiojgLAcDyc,226
+DPview-0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+DPview-0.1.dist-info/top_level.txt,sha256=7gHuLS6WdMBM64F87eC1sZ3DtlPrIdbM3Bw6KKcBTfw,7
+DPview-0.1.dist-info/RECORD,,
