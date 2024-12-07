@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+coubeh/__init__.py
+coubeh.egg-info/PKG-INFO
+coubeh.egg-info/SOURCES.txt
+coubeh.egg-info/dependency_links.txt
+coubeh.egg-info/top_level.txt
+quoi/__init__.py
