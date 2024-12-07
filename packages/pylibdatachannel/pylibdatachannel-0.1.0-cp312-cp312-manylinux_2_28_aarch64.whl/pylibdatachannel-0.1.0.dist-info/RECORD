@@ -1,0 +1,12 @@
+_pylibdatachannel.cpython-312-aarch64-linux-gnu.so,sha256=2_n0doP66JvkhbWbejaN6p8ZwfnMpyP5o01COJXiQNo,10311777
+pylibdatachannel.libs/libdatachannel-39ee6fca.so.0.22.2,sha256=uhyw0FWp9dzE_HuedrsMRUwGoRuCRlty07fnGGNnwZo,16224097
+pylibdatachannel.libs/libcrypto-3dc39733.so.1.1.1k,sha256=_iompPH3TAPEsA4B85pYGztLxEt3RLDKE13q56BlyyM,2945609
+pylibdatachannel.libs/libssl-b6e07dfa.so.1.1.1k,sha256=M-DbmdJllVbnO9frAwzxbbvvKA1QaqPzmCcck64tiw0,740585
+pylibdatachannel-0.1.0.dist-info/top_level.txt,sha256=xVg9sJ7bYRxmqWuobmN6eAO0L2lUFs9L0IIuGf6ergU,35
+pylibdatachannel-0.1.0.dist-info/RECORD,,
+pylibdatachannel-0.1.0.dist-info/LICENSE,sha256=rOErxMqk46YG0wMHOcg9Who0tQxAAGKgShpK8_aolhY,1069
+pylibdatachannel-0.1.0.dist-info/METADATA,sha256=YmpnVBhjsG_A47jTArdvYYnptrmTkuvASSym8KEqZc8,3738
+pylibdatachannel-0.1.0.dist-info/WHEEL,sha256=Cz-tlTb9WbR9n1aic1HxLeW8fz3I7Z9zh75V8o9xrOk,114
+pylibdatachannel/__init__.py,sha256=1Dpf2H70r-1EtRKetMmxUK6M03OEtf96efsIUOJfmBw,46
+pylibdatachannel/__init__.pyi,sha256=G1_ql8ateo1Z3t1hjlicMB_4XNRsovvD4IYRA4CiRn4,13508
+pylibdatachannel/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
