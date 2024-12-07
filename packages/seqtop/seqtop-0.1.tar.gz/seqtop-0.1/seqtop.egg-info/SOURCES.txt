@@ -1,0 +1,10 @@
+LICENSE
+README.md
+seqtop
+setup.cfg
+setup.py
+seqtop.egg-info/PKG-INFO
+seqtop.egg-info/SOURCES.txt
+seqtop.egg-info/dependency_links.txt
+seqtop.egg-info/requires.txt
+seqtop.egg-info/top_level.txt
