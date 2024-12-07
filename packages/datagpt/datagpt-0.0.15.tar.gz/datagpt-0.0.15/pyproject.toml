@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "datagpt"
+version = "0.0.15"
+description = "DataGPT for managing instructions and databases"
+authors = ["yayayru"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.13.0"
+poetry-dynamic-versioning = "^1.4.1"
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.dynamic-versioning]
+enable = true
+source = "git"  # Версия будет извлекаться из тегов Git
+prefix = ""
+style = "pep440"  # Пример: 0.1.0
