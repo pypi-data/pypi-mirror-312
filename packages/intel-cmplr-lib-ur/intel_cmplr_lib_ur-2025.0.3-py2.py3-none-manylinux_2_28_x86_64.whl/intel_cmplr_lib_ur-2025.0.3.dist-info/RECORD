@@ -1,0 +1,15 @@
+intel_cmplr_lib_ur-2025.0.3.data/data/lib/libsycl_ur_trace_collector.so,sha256=sCYcgWXX_vcHqwbUabSEskRmuilwJjGKi6-6_Jyhs8k,235208
+intel_cmplr_lib_ur-2025.0.3.data/data/lib/libur_adapter_level_zero.so,sha256=EDGYf7jP5vBxjK2IXnclIOC4btGsl5s4lQtwLvzYRwo,3340952
+intel_cmplr_lib_ur-2025.0.3.data/data/lib/libur_adapter_level_zero.so.0,sha256=EDGYf7jP5vBxjK2IXnclIOC4btGsl5s4lQtwLvzYRwo,3340952
+intel_cmplr_lib_ur-2025.0.3.data/data/lib/libur_adapter_level_zero.so.0.10.13,sha256=EDGYf7jP5vBxjK2IXnclIOC4btGsl5s4lQtwLvzYRwo,3340952
+intel_cmplr_lib_ur-2025.0.3.data/data/lib/libur_adapter_opencl.so,sha256=NdkbteiiIkUPMWyrHXOxoAJImWGqjRAoyvbUetSHv4Y,2172976
+intel_cmplr_lib_ur-2025.0.3.data/data/lib/libur_adapter_opencl.so.0,sha256=NdkbteiiIkUPMWyrHXOxoAJImWGqjRAoyvbUetSHv4Y,2172976
+intel_cmplr_lib_ur-2025.0.3.data/data/lib/libur_adapter_opencl.so.0.10.13,sha256=NdkbteiiIkUPMWyrHXOxoAJImWGqjRAoyvbUetSHv4Y,2172976
+intel_cmplr_lib_ur-2025.0.3.data/data/lib/libur_loader.so,sha256=S23Xfu_m8QzEWJ2Y5TBTGafwUURXrJSuUt9XQrYjJVI,22568824
+intel_cmplr_lib_ur-2025.0.3.data/data/lib/libur_loader.so.0,sha256=S23Xfu_m8QzEWJ2Y5TBTGafwUURXrJSuUt9XQrYjJVI,22568824
+intel_cmplr_lib_ur-2025.0.3.data/data/lib/libur_loader.so.0.10.13,sha256=S23Xfu_m8QzEWJ2Y5TBTGafwUURXrJSuUt9XQrYjJVI,22568824
+intel_cmplr_lib_ur-2025.0.3.dist-info/LICENSE.txt,sha256=_r-2mlsFj1WJLcfzQRCKnKKdUOn-hXI6V-67uCZDaVg,25224
+intel_cmplr_lib_ur-2025.0.3.dist-info/METADATA,sha256=bnJJypdrk7KGwIaoY3DnYq0WNglKt0brmoBvht_H02E,1227
+intel_cmplr_lib_ur-2025.0.3.dist-info/WHEEL,sha256=wHDSHW15S5Ss-cXTEuv9lQNHlx87Fk-iZqRWK0BLwrI,146
+intel_cmplr_lib_ur-2025.0.3.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+intel_cmplr_lib_ur-2025.0.3.dist-info/RECORD,,
