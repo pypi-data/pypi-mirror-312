@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csra"
+version = "0.0.10"
+description = "Collect NIH NCBI SRA metadata of several GEO studies in one search."
+authors = [
+    { name = "Marta Arcones", email = "marta.arcones@gmail.com" }
+]
+readme = "README.md"
+
+[project.scripts]
+csra = "sra_collector.cli:main"

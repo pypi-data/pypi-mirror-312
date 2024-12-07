@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+csra.egg-info/PKG-INFO
+csra.egg-info/SOURCES.txt
+csra.egg-info/dependency_links.txt
+csra.egg-info/entry_points.txt
+csra.egg-info/top_level.txt
+sra_collector/__init__.py
+sra_collector/cli.py
+tests/test_cli.py
