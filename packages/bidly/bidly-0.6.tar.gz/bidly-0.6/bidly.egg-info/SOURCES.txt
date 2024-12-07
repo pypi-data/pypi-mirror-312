@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+bidly/__init__.py
+bidly/bidding.py
+bidly.egg-info/PKG-INFO
+bidly.egg-info/SOURCES.txt
+bidly.egg-info/dependency_links.txt
+bidly.egg-info/top_level.txt
