@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: version-finder-git-based-versions
+Version: 7.0.0
+Summary: A utility for finding versions in Git repositories
+Author: Matan Levy
+Requires-Python: >=3.7
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-xdist; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: autopep8; extra == "dev"
+Provides-Extra: gui
+Requires-Dist: customtkinter; extra == "gui"
+Requires-Dist: pillow; extra == "gui"
+Provides-Extra: cli
+Requires-Dist: prompt_toolkit>=3.0.0; extra == "cli"
+Provides-Extra: cli-gui
+Requires-Dist: customtkinter; extra == "cli-gui"
+Requires-Dist: prompt_toolkit>=3.0.0; extra == "cli-gui"
+Requires-Dist: pillow; extra == "cli-gui"
+Provides-Extra: all
+Requires-Dist: pytest; extra == "all"
+Requires-Dist: pytest-xdist; extra == "all"
+Requires-Dist: pytest-cov; extra == "all"
+Requires-Dist: flake8; extra == "all"
+Requires-Dist: autopep8; extra == "all"
+Requires-Dist: customtkinter; extra == "all"
+Requires-Dist: prompt_toolkit>=3.0.0; extra == "all"
+Requires-Dist: pillow; extra == "all"
