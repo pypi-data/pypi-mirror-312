@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: AnimeScraper
+Version: 1.0.1
+Summary: A Simple library to get Anime and Character information. It scrapes all information from Myanimelist website.
+Home-page: https://github.com/togashigreat/AnimeScraper
+License: MIT
+Keywords: anime,scraper,myanimelist,fetcher,manga
+Author: MuQiT
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiohttp (>=3.11.6,<4.0.0)
+Requires-Dist: beautifulsoup4 (>=4.12.1,<5.0.0)
+Requires-Dist: sphinx (>=8.1.3,<9.0.0)
+Project-URL: Repository, https://github.com/togashigreat/AnimeScraper
+Description-Content-Type: text/markdown
+
+
