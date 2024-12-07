@@ -1,0 +1,3 @@
+[console_scripts]
+nomad-media-cli=nomad_media_cli.cli:cli
+

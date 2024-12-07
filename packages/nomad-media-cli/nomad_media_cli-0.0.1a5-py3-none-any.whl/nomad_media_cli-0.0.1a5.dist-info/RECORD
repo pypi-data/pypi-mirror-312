@@ -1,0 +1,13 @@
+nomad_media_cli/cli.py,sha256=FS-FRTZpzcY61wdUfK4_keh-vIWgouH_5_Xn_2-kOqw,1060
+nomad_media_cli/commands/init.py,sha256=PYmki8qPZv_pW06J15AUUzXoMlwV43zXqMVga_z0Vh0,1170
+nomad_media_cli/commands/list_assets.py,sha256=PwAIuyKkQHsZD9-ZfgbIv-Q3ndp2whweBE96iHWC9rw,2095
+nomad_media_cli/commands/list_buckets.py,sha256=duAcsnjDZyahBHj1ob417xGsp7ar7eB3aHW6cDs8VPE,784
+nomad_media_cli/commands/list_config_path.py,sha256=9agen12QxlUBvDs2s-S-aBe7-0SaAOTY_w7idep-wew,178
+nomad_media_cli/commands/login.py,sha256=_fMncxeMl7EY3cdaY7zXAntBDJs6hf2C1CynXqbpok0,1164
+nomad_media_cli/commands/set_bucket.py,sha256=1Xew1dde24Z5PiHCn4yCEo7a5mCGmkcE-ey2UkePZF0,614
+nomad_media_cli/commands/update_config.py,sha256=-hy9PtuYcmVx9OncQ-q1XgawNfDZtOO2uOTUY1DpZvg,1289
+nomad_media_cli/utils.py,sha256=j-t5TkPBY2g5GBwh6GehVIfrJbCnkvzHpKQ8GqjM6eo,1407
+nomad_media_cli-0.0.1a5.dist-info/entry_points.txt,sha256=vmLcBYg_SFLoFmunO-aMFbz4r-y71yWJgCfhRH8cH-g,59
+nomad_media_cli-0.0.1a5.dist-info/METADATA,sha256=3_0KhFzEwCtXISAPm9e_kSCKjXCnTVPVVdeR1stVzW8,2138
+nomad_media_cli-0.0.1a5.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+nomad_media_cli-0.0.1a5.dist-info/RECORD,,
