@@ -1,0 +1,68 @@
+cff-version: "1.2.0"
+authors:
+- family-names: Loaiza
+  given-names: Jonathan Posada
+  orcid: "https://orcid.org/0009-0004-4443-6161"
+- family-names: Higuera-Quintero
+  given-names: Santiago
+  orcid: "https://orcid.org/0000-0001-6905-4662"
+- family-names: Noori
+  given-names: Alireza
+  orcid: "https://orcid.org/0009-0009-1091-0802"
+- family-names: Mohtashemi
+  given-names: Laleh
+  orcid: "https://orcid.org/0000-0002-2706-857X"
+- family-names: Hall
+  given-names: R. P.
+  orcid: "https://orcid.org/0009-0004-1137-3651"
+- family-names: Yimam
+  given-names: Naod Ayalew
+  orcid: "https://orcid.org/0009-0007-7522-5027"
+- family-names: Dodge
+  given-names: J. Steven
+  orcid: "https://orcid.org/0000-0003-3219-7314"
+contact:
+- family-names: Dodge
+  given-names: J. Steven
+  orcid: "https://orcid.org/0000-0003-3219-7314"
+doi: 10.5281/zenodo.14188761
+message: If you use this software, please cite our article in the
+  Journal of Open Source Software.
+preferred-citation:
+  authors:
+  - family-names: Loaiza
+    given-names: Jonathan Posada
+    orcid: "https://orcid.org/0009-0004-4443-6161"
+  - family-names: Higuera-Quintero
+    given-names: Santiago
+    orcid: "https://orcid.org/0000-0001-6905-4662"
+  - family-names: Noori
+    given-names: Alireza
+    orcid: "https://orcid.org/0009-0009-1091-0802"
+  - family-names: Mohtashemi
+    given-names: Laleh
+    orcid: "https://orcid.org/0000-0002-2706-857X"
+  - family-names: Hall
+    given-names: R. P.
+    orcid: "https://orcid.org/0009-0004-1137-3651"
+  - family-names: Yimam
+    given-names: Naod Ayalew
+    orcid: "https://orcid.org/0009-0007-7522-5027"
+  - family-names: Dodge
+    given-names: J. Steven
+    orcid: "https://orcid.org/0000-0003-3219-7314"
+  date-published: 2024-12-02
+  doi: 10.21105/joss.07542
+  issn: 2475-9066
+  issue: 104
+  journal: Journal of Open Source Software
+  publisher:
+    name: Open Journals
+  start: 7542
+  title: "THzTools: data analysis software for terahertz time-domain
+    spectroscopy"
+  type: article
+  url: "https://joss.theoj.org/papers/10.21105/joss.07542"
+  volume: 9
+title: "THzTools: data analysis software for terahertz time-domain
+  spectroscopy"
