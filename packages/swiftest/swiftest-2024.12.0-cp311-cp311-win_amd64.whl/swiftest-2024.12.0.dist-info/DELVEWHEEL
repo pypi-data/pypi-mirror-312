@@ -1,0 +1,2 @@
+Version: 1.9.0
+Arguments: ['D:\\a\\_temp\\msys64\\tmp\\cibw-run-4ifzhcwt\\cp311-win_amd64\\build\\venv\\Scripts\\delvewheel', 'repair', '--ignore-existing', '-w', 'D:\\a\\_temp\\msys64\\tmp\\cibw-run-4ifzhcwt\\cp311-win_amd64\\repaired_wheel', 'D:\\a\\_temp\\msys64\\tmp\\cibw-run-4ifzhcwt\\cp311-win_amd64\\built_wheel\\swiftest-2024.12.0-cp311-cp311-win_amd64.whl']
