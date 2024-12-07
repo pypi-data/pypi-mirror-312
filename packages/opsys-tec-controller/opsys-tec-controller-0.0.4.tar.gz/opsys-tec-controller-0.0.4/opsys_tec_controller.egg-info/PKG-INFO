@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: opsys-tec-controller
+Version: 0.0.4
+Summary: python package for thermoelectric temperature controller (TEC)
+Home-page: https://bitbucket.org/opsys_tech/opsys-tec-controller/src/master/
+Download-URL: https://bitbucket.org/opsys_tech/opsys-tec-controller/src/master/
+Author: dmitry.borovensky
+Author-email: dmitry.borovensky@opsys-tech.com
+License-File: LICENSE
