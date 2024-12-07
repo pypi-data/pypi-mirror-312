@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: unlimited-message
+Version: 0.1
+Summary: A package to send WhatsApp messages instantly using Python
+Home-page: https://github.com/yourusername/send_whatsapp_package
+Author: Your Name
+Author-email: your_email@example.com
+License-File: LICENSE
+Requires-Dist: pyautogui
+Requires-Dist: pywhatkit
+
