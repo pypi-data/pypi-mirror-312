@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: OSDOCR
+Version: 0.3.1.2
+Summary: Toolkit for ocr of old structured documents
+Author: Gonçalo Afonso
+Author-email: brazafonso2001@gmail.com
+Requires-Python: >=3.10.11,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PySimpleGui
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: document_image_utils
+Requires-Dist: h5py
+Requires-Dist: huggingface-hub
+Requires-Dist: jellyfish
+Requires-Dist: lxml
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: opencv-python (>=4.9.0.80,<5.0.0.0)
+Requires-Dist: pandas
+Requires-Dist: pillow
+Requires-Dist: pyperclip
+Requires-Dist: pytesseract
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: whittaker_eilers
