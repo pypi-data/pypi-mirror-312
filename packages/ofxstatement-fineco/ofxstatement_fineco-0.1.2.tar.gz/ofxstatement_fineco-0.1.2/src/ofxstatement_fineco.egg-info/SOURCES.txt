@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+src/ofxstatement_fineco/__init__.py
+src/ofxstatement_fineco/plugin.py
+src/ofxstatement_fineco.egg-info/PKG-INFO
+src/ofxstatement_fineco.egg-info/SOURCES.txt
+src/ofxstatement_fineco.egg-info/dependency_links.txt
+src/ofxstatement_fineco.egg-info/entry_points.txt
+src/ofxstatement_fineco.egg-info/requires.txt
+src/ofxstatement_fineco.egg-info/top_level.txt
+src/ofxstatement_fineco/config/defaults.ini
+tests/test_sample.py
