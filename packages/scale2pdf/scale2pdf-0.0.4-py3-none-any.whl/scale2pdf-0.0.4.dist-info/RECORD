@@ -1,0 +1,7 @@
+scale2pdf/__init__.py,sha256=ZShsSk8xDRJPIHcI8hIBDKEZP1_TFnrgnz3AN0gfuVs,96
+scale2pdf/extractpdfimage.py,sha256=runFpVLLecTC34az98IvKyswZhLZX3jKiHiM2AQV89E,965
+scale2pdf/pdfparse.py,sha256=I5VVShZ5tVk1uHJwaY-3sKdinVEug7QDwaiLAS70Bxk,3875
+scale2pdf-0.0.4.dist-info/METADATA,sha256=uBfObbq3b-Wa5sGIA-k7QYwQKdlI1WAwZbFX8Kramlg,1668
+scale2pdf-0.0.4.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+scale2pdf-0.0.4.dist-info/top_level.txt,sha256=vNJdpJEWG8zlLCSucUkWoJ62AWcgFeO8LKx-OWT4Hs4,10
+scale2pdf-0.0.4.dist-info/RECORD,,
