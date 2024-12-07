@@ -1,0 +1,40 @@
+[project]
+name = "blackscholes"
+version = "0.2.0"
+description = "Black Scholes calculator for Python"
+authors = [
+    {name = "Carlo Lepelaars", email = "info@carlolepelaars.nl"},
+]
+license = {text = "MIT License"}
+readme = ".github/README.MD"
+requires-python = ">=3.10,<4"
+
+[project.optional-dependencies]
+dev = [
+    "mkdocs>=1.4.2",
+    "mkdocs-material>=8.5.11",
+    "mkdocstrings-python>=1.7.1",
+    "pytest>=7.2.0",
+    "pytest-cov>=4.1.0",
+    "numpy>=1.23.5",
+    "scipy>=1.9.3",
+    "griffe>=0.36.4",
+]
+
+[tool.ruff]
+line-length = 300
+
+[tool.ruff.lint]
+ignore = ["I001","F403", "F811"] 
+select = ["E", "F", "I"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
