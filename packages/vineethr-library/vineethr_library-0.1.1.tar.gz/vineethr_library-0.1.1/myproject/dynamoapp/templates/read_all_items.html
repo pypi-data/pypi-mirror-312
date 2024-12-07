@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: lightgray;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        img {
+            max-width: 100px;
+            max-height: 100px;
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        hr {
+            border: 1px solid #ddd;
+            margin-top: 20px;
+        }
+
+        .no-items {
+            text-align: center;
+            color: #888;
+            font-size: 1.2em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Items List</h1>
+
+        {% if items and items|length > 0 %}
+        <ul>
+            {% for item in items %}
+            <li>
+                <!-- Update Form -->
+                <form method="POST" action="/update_item/">
+                    <label for="item_id_{{ item.id }}">ID:</label>
+                    <input
+                        type="text"
+                        name="item_id"
+                        id="item_id_{{ item.id }}"
+                        value="{{ item.id }}"
+                        readonly
+                    />
+
+                    <label for="item_name_{{ item.id }}">Vehicle Name:</label>
+                    <input
+                        type="text"
+                        name="item_name"
+                        id="item_name_{{ item.id }}"
+                        value="{{ item.item_name }}"
+                        required
+                    />
+
+                    <label for="item_description_{{ item.id }}">Description:</label>
+                    <input
+                        type="text"
+                        name="item_description"
+                        id="item_description_{{ item.id }}"
+                        value="{{ item.item_description }}"
+                        required
+                    />
+
+                    <label for="image_url_{{ item.id }}">Image URL:</label>
+                    <input
+                        type="text"
+                        name="image_url"
+                        id="image_url_{{ item.id }}"
+                        value="{{ item.image_url }}"
+                    />
+                    <!-- Display the image dynamically -->
+                    <img
+                        src="{{ item.image_url }}"
+                        alt="Image for item {{ item.id }}"
+                    />
+
+                    <label for="image_label_{{ item.id }}">Labels:</label>
+                    <input
+                        type="text"
+                        name="image_label"
+                        id="image_label_{{ item.id }}"
+                        value="{{ item.image_label }}"
+                    />
+
+                    <label for="image_created_ts_{{ item.id }}">Created Timestamp:</label>
+                    <input
+                        type="text"
+                        id="image_created_ts_{{ item.id }}"
+                        value="{{ item.created_ts }}"
+                    />
+
+                    <label for="image_modified_ts_{{ item.id }}">Modified Timestamp:</label>
+                    <input
+                        type="text"
+                        id="image_modified_ts_{{ item.id }}"
+                        value="{{ item.modified_ts }}"
+                    />
+
+                    <button type="submit">Update</button>
+                </form>
+
+                <!-- Delete Form -->
+                <form method="POST" action="/delete_item/">
+                    <input
+                        type="hidden"
+                        name="item_id"
+                        id="item_id_{{ item.id }}"
+                        value="{{ item.id }}"
+                    />
+                    <button type="submit" name="action" value="delete">Delete</button>
+                </form>
+                <hr />
+            </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p class="no-items">No items found.</p>
+        {% endif %}
+        <a href="/add-item" class="btn">Back</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+myproject/dynamoapp/templates/add_item.html
+myproject/dynamoapp/templates/delete_item.html
+myproject/dynamoapp/templates/read_all_items.html
+myproject/dynamoapp/templates/success.html
+myproject/dynamoapp/templates/update_item.html
+vineethr_library.egg-info/PKG-INFO
+vineethr_library.egg-info/SOURCES.txt
+vineethr_library.egg-info/dependency_links.txt
+vineethr_library.egg-info/requires.txt
+vineethr_library.egg-info/top_level.txt

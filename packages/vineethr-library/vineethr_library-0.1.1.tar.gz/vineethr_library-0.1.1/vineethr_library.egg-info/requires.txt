@@ -1,0 +1,4 @@
+Boto3>=1.35.71
+Django>=3.2
+Djangorestframework>=3.15.2
+Pymongo>=4.10.1
