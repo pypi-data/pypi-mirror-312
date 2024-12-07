@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: kinfer
+Version: 0.0.5
+Summary: The kinfer project
+Home-page: https://github.com/kscalelabs/kinfer.git
+Author: K-Scale Labs
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: onnx
+Requires-Dist: onnxruntime
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: darglint; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+
+# kinfer
+
+Welcome to the kinfer project!
