@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: yamlbrew
+Version: 0.1.0
+Summary: Yamlbrew is a tool that makes it easy to generate better synthetic data
+Author-email: Ivan Leo <ivanleomk@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Introduction
+
+Yamlbrew is a tool to help you use yml files to generate varied synthetic data more easily.
+
+One of the most difficult problems of synthetic data generation is to generate data that is varied and realistic.
+
+Yamlbrew tries to solve this problem by allowing you to define the structure of the prompt in a yml file. This makes it easy to vary your prompts easily.
