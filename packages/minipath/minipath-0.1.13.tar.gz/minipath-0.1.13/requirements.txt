@@ -1,0 +1,12 @@
+google-auth
+google-cloud-storage
+numpy
+pandas
+pillow
+pydicom
+python-dotenv
+scikit-learn
+python-dotenv
+opencv-python
+scikit-image
+tqdm
