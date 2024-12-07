@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: math_ops_viviani
+Version: 0.0.1
+Summary: The package math_operations
+Home-page: https://github.com/vivianikelly/math-operations-package
+Author: Viviani Pedroso
+Author-email: viani22@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# math_operations
+
+Description. 
+
+The package math_operations is used to perform basic mathematical operations such as addition, subtraction, multiplication, division, and exponentiation.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install math_operations
+
+```bash
+pip install math_ops_viviani
+```
+
+## Author
+Viviani Pedroso
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

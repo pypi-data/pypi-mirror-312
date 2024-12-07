@@ -1,0 +1,8 @@
+README.md
+setup.py
+math_ops_viviani/__init__.py
+math_ops_viviani/math_viviani.py
+math_ops_viviani.egg-info/PKG-INFO
+math_ops_viviani.egg-info/SOURCES.txt
+math_ops_viviani.egg-info/dependency_links.txt
+math_ops_viviani.egg-info/top_level.txt
