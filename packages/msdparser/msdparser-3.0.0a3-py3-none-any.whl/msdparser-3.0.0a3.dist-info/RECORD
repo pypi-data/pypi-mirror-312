@@ -1,0 +1,9 @@
+msdparser/__init__.py,sha256=xsRjg1iDL70a9OQPFddsJdt9kZ6A7SJJZpcU1fjpIR8,307
+msdparser/lexer.py,sha256=4cKtUzFPmIZUsQzLCQkMDPUg-wVXMWxtixm-Y0DXO_M,8377
+msdparser/parameter.py,sha256=__uEpYvXoo5HIb9pWdnCG61REIWKvf0NTXZCFVutnnA,9337
+msdparser/parser.py,sha256=p1j3ougBsLLBGNLoM7j2MzsOHD-11f1JLdvDu2-dmPw,7251
+msdparser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msdparser-3.0.0a3.dist-info/METADATA,sha256=4jn8qzm44f9kLkezBD-iAGrcFQrxgIepfhforzf9Ppg,3380
+msdparser-3.0.0a3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+msdparser-3.0.0a3.dist-info/top_level.txt,sha256=e4171IWwT-TZ_0J0d8BCaKaRob13CUI0V188BwrhHY4,10
+msdparser-3.0.0a3.dist-info/RECORD,,
