@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "usrnamegen"
+description = "Generate random usernames"
+readme = "README.md"
+requires-python = ">=3.13"
+license = {file = "LICENSE"}
+authors = [
+    { name = "Lifr0m" }
+]
+keywords = ["username", "generator"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Typing :: Typed"
+]
+dynamic = ["version"]
+
+[project.urls]
+homepage = "https://github.com/lifr0m/usrnamegen"
+
+[project.optional-dependencies]
+dev = [
+    "mypy",
+    "ruff"
+]
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "_version.py"
+
+[tool.mypy]
+ignore_missing_imports = true
+disallow_untyped_defs = true
+follow_imports = "silent"
+
+[tool.ruff]
+target-version = "py313"
