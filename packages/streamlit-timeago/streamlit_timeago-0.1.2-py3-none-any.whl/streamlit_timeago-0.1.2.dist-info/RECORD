@@ -1,0 +1,11 @@
+streamlit_timeago/__init__.py,sha256=FK-5sqX1nGSqeuHEVSShE7yHEpXG0eC0LckvMQPAl18,2828
+streamlit_timeago/example.py,sha256=Nq7T4lFqT2LdkV0TknIdy8zqFHfwAVn_nwFnV0cWnjU,511
+streamlit_timeago/frontend/build/asset-manifest.json,sha256=q8VOe18m6iMO6CU5lNTmDa-kIkyQUQkOPFKXAhoGrfY,157
+streamlit_timeago/frontend/build/index.html,sha256=XPqKCQrudhNiqtDaF0W64q13Yfl-PhaNY2_4KPGPrnc,550
+streamlit_timeago/frontend/build/static/js/main.7d190ba8.js,sha256=CaY7GHBMTsj1IICr04TolTHvOCSIgcE_KE431JeWqKA,319983
+streamlit_timeago/frontend/build/static/js/main.7d190ba8.js.LICENSE.txt,sha256=cmjEMovgjlkZ-Bs7b5rRQ8FsJtL1F77Y3YkM2E9yfUs,1293
+streamlit_timeago-0.1.2.dist-info/LICENSE,sha256=J6B4fWi46txoKkdgvdV_Cj-PZdFEPkufO_InOeGj3-4,1077
+streamlit_timeago-0.1.2.dist-info/METADATA,sha256=W6g__CPiK1426_nz5ZVeByWCM1PR-pEOZHUnwWMv54g,1154
+streamlit_timeago-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+streamlit_timeago-0.1.2.dist-info/top_level.txt,sha256=b9lf-IEuoxMni4TvFiFCVECoe0ZjPB0QVJOZEoNvmPo,18
+streamlit_timeago-0.1.2.dist-info/RECORD,,
