@@ -1,0 +1,1 @@
+import{q as t,aA as a}from"./index-CyvlV96y.js";const s=t({class:[String,Array,Object],style:{type:[String,Array,Object],default:null}},"component");function o(e){const r=a("useRender");r.render=e}const c=t({tag:{type:String,default:"div"}},"tag");export{c as a,s as m,o as u};
