@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "asam-qc-openscenarioxml"
+version = "1.0.0"
+description = "This project implements the OpenScenario Checker for the ASAM Quality Checker project."
+authors = ["Danilo Romano <danilo@ivex.ai>"]
+license = "MPL-2.0"
+readme = "README.md"
+packages = [
+    { include = "qc_openscenario" },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asam-qc-baselib = "^1.0.0rc1"
+lxml = "^5.2.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+black = "^24.4.2"
+
+[tool.poetry.scripts]
+qc_openscenario = 'qc_openscenario.main:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
