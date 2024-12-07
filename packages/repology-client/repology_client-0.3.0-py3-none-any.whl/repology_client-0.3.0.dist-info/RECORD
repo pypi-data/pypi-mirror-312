@@ -1,0 +1,17 @@
+repology_client/__init__.py,sha256=9R9sSwgbt-xpmNI69-08nz-nnNV5GqmZeoC2s3KIMKk,655
+repology_client/constants.py,sha256=ZIU_zoV3c8vCYFQw_ln4ZSKIWbe-pacLbO6PxKFAGOE,906
+repology_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repology_client/types.py,sha256=oex3W8Ev7RIEVqQmXTBSS2CT6uQEXZIzecUFgwroEaM,3249
+repology_client/utils.py,sha256=UINQ7prjoLkqk_RbtUQ_6wS24f7olfXeyY58lcf27Co,2267
+repology_client/_client/__init__.py,sha256=yJPI4SDaLswj9xrMgt3MHtnPB8-AsBYguUZHgaCIDPA,2412
+repology_client/_client/experimental.py,sha256=zGpVp_9RD-tzYhAuZrbbqpEqdCPa5eSWR-yRcFt6GZ4,2448
+repology_client/_client/tools.py,sha256=aTQyvUQb5CjpBUjn0WzPsBeE9JVwz8Nhv81V0q_VBfM,2966
+repology_client/_client/v1.py,sha256=vxdvhpX2f1ksxLhHjUM00SOJJvxdUdxSIkCnDQyyg64,4543
+repology_client/exceptions/__init__.py,sha256=d6IVYD5yvkQVc5QAX-wysguglyj5BaQJekO_HRTS8YQ,541
+repology_client/exceptions/resolve.py,sha256=R2rcQ8OKgRJoaFYr-LqcjXWvF6t6-FMSpwk5W_HI1c8,1822
+repology_client-0.3.0.dist-info/METADATA,sha256=omTNlNOeJPHxzM0uo7J_0b5MaBZh3oU5IobjvtL6yXs,3535
+repology_client-0.3.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+repology_client-0.3.0.dist-info/licenses/LICENSES/CC-BY-SA-3.0.txt,sha256=bggJoOQSOOhENDZyBYGM2PSIaboua5c_PbQ--senlzU,21305
+repology_client-0.3.0.dist-info/licenses/LICENSES/CC0-1.0.txt,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+repology_client-0.3.0.dist-info/licenses/LICENSES/EUPL-1.2.txt,sha256=V_tC-80LA3zlKO2PcvHsCV1nvGgl7PFEj_Ob4f5opLQ,13792
+repology_client-0.3.0.dist-info/RECORD,,
