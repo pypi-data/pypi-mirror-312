@@ -1,0 +1,2 @@
+[console_scripts]
+my_cookiecutter_demo = my_cookiecutter_demo.cli:main

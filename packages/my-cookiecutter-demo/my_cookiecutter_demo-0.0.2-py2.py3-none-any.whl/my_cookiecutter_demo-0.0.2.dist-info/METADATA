@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: my-cookiecutter-demo
+Version: 0.0.2
+Summary: A Cookiecutter Demo Project
+Author-email: Deepak Pant <deepak.93p@gmail.com>
+License: Apache Software License
+Project-URL: Homepage, https://github.com/DeepakPant93/my-cookiecutter-demo
+Keywords: my-cookiecutter-demo
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: my-cookiecutter-demo[extra]; extra == "all"
+Provides-Extra: extra
+Requires-Dist: pandas; extra == "extra"
+
+# my-cookiecutter-demo
+
+
+[![image](https://img.shields.io/pypi/v/my-cookiecutter-demo.svg)](https://pypi.python.org/pypi/my-cookiecutter-demo)
+[![image](https://img.shields.io/conda/vn/conda-forge/my-cookiecutter-demo.svg)](https://anaconda.org/conda-forge/my-cookiecutter-demo)
+
+
+**A Cookiecutter Demo Project**
+
+
+-   Free software: Apache Software License 2.0
+-   Documentation: https://DeepakPant93.github.io/my-cookiecutter-demo
+    
+
+## Features
+
+-   TODO
