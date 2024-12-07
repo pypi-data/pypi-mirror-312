@@ -1,0 +1,10 @@
+numpy
+pandas
+python-dotenv
+extended-chart
+tqdm
+pyarrow
+SQLAlchemy
+mysqlclient
+setuptools
+ib_async
