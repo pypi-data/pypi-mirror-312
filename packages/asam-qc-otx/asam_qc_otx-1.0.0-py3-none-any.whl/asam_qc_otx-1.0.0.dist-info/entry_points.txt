@@ -1,0 +1,3 @@
+[console_scripts]
+qc_otx=qc_otx.main:main
+
