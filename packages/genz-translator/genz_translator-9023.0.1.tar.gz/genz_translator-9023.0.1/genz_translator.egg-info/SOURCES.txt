@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+genz_translator/__init__.py
+genz_translator/__main__.py
+genz_translator.egg-info/PKG-INFO
+genz_translator.egg-info/SOURCES.txt
+genz_translator.egg-info/dependency_links.txt
+genz_translator.egg-info/top_level.txt
