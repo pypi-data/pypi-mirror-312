@@ -1,0 +1,15 @@
+cellpose_counter/__init__.py,sha256=s7sN-1zQaIyzEvdGlUxpa2NFWQ-gUFBYoOwGMNL8Imc,170
+cellpose_counter/_version.py,sha256=9GTNkADgEYZ6fEjCvZZUdKyqxiPIgtskLFZNJz7nq_U,411
+cellpose_counter/_widget.py,sha256=GhpKw13Kr1SoObWf9Hn-kRYJbJNxFz8cnTdkyyk7ly8,9450
+cellpose_counter/counter.py,sha256=jjEv-OXLZtxwRLaiH6IkEtnbNm3glpEustBdehPyU70,6516
+cellpose_counter/napari.yaml,sha256=hR_GsLx9LjCVeQcHuGUCLMVNZmfzINBBLvChZ5JMbC4,496
+cellpose_counter/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cellpose_counter/_tests/test_counter.py,sha256=VcyDAzvKdr-BHDCT8FnVzz3fXvxHLrCduhFVhNn6m3Y,2430
+cellpose_counter/_tests/data/image_large_1024.tif,sha256=ycWb5sFm_s6hJybDcAei654p-Vh0It0CEl8jGv2YrVM,2097408
+cellpose_counter/_tests/data/image_small_512.tif,sha256=QV2ntJQUj9hw6sqfdzUX0DYheLDWiJ55kG93jN7v0Yg,524544
+cellpose_counter-0.1.4.dist-info/LICENSE,sha256=buuIgrS8c9oKNpHwf44AU5AjdeJXCRTr1xzUaXxJzvY,1489
+cellpose_counter-0.1.4.dist-info/METADATA,sha256=-H7MTwYFtUb1RcoHhFPPDmf8OvoJ5gPO9RC7kEYKmcU,8014
+cellpose_counter-0.1.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+cellpose_counter-0.1.4.dist-info/entry_points.txt,sha256=e2XA74UkNB4fAR7X7EHXZhkUdKJ2Iiy8CBadcw8MOU4,66
+cellpose_counter-0.1.4.dist-info/top_level.txt,sha256=EeFZbRFbrunFyVtrglz2FdnNLuUtTcF7V9c4zDEUEek,17
+cellpose_counter-0.1.4.dist-info/RECORD,,
