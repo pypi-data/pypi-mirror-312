@@ -1,0 +1,19 @@
+{
+    "package_name": "insecure-package",
+    "publisher": "Your Organization <maintainer@example.com>",
+    "last_updated": "2024-11-26T12:00:00Z",
+    "problem_type": "license_violation",
+    "blocked": false,
+    "approved": true,
+    "description": "Package violates license distribution terms.",
+    "purls": [
+        "pkg:rpm/insecure-package",
+        "pkg:deb/insecure-package@1.0.0?distro=ubuntu"
+    ],
+    "regex": [
+        "^pkg:deb/insecure-package@.*",
+        "^pkg:(?:[^/]+/)?insecure-package@.*"
+    ],
+    "versions": ["1.0.0", "1.2.0"],
+    "version": "1.1.0"
+}
