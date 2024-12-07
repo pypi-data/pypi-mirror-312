@@ -1,0 +1,6 @@
+pyfunctional<=1.5.0
+more-itertools>=10.5.0
+click
+loguru
+python-dotenv
+Deprecated>=1.2.15
