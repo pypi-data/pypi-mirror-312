@@ -1,0 +1,15 @@
+bibli_ls/__init__.py,sha256=zYz9gW4zaQWK9ngkSnYCPGXg3QEXnTX34ehHiiWm3Hs,74
+bibli_ls/bibli_config.py,sha256=BYY08nCSv5-2Gd4W8M4g3Y1RUiMDIey5vdkh21tsSJ0,5726
+bibli_ls/cli.py,sha256=BYffwp99QluXTatEtwdazX_xXhGVuMfvhIUAb8mbtLI,3088
+bibli_ls/database.py,sha256=b_yfSeP-cd1NrMhWo1mG6IR8oQc92ZU863YkwbmXLuA,808
+bibli_ls/server.py,sha256=aVRK9w6XtxvRp42IQcgtXnQpl9QzvE0nP3Hzd86naTs,14333
+bibli_ls/utils.py,sha256=ma0iSlAjjs3GJ5vBe0UpuB0lQ0jfaPINJ4V2r1jIAA4,4965
+bibli_ls/backends/backend.py,sha256=o1DwLGdy7UVepaS5euI9tyzrtMWWjl-HcXtKHndFL0E,1711
+bibli_ls/backends/bibtex_backend.py,sha256=IbuIQ9IBoMnJRVZXenTgPMlbFOit1UL7yDg2TpmJAn4,1816
+bibli_ls/backends/zotero_backend.py,sha256=p8D2FSEQrAol4HTb6F0wOz3VU5BMS5PyMXBMCAXaslY,3151
+bibli_ls-0.1.6.1.dist-info/LICENSE,sha256=3qLQn2eNRZLd3WT-tq5I69liMNRFuxoV3idFv0ZH_zI,1056
+bibli_ls-0.1.6.1.dist-info/METADATA,sha256=7VEuae0aEqBIOkeAMoMGrOWyOKDPBn2Zb8INcz7p1cM,6384
+bibli_ls-0.1.6.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+bibli_ls-0.1.6.1.dist-info/entry_points.txt,sha256=ef_BhxoZgpZhpBrpX9AS4WQ0VsynCGGMd_ByntWndCQ,46
+bibli_ls-0.1.6.1.dist-info/top_level.txt,sha256=zk6wzLSAXHnerwWG3nHLT_n3vZYDx4Dz6JTDAXnjqdk,9
+bibli_ls-0.1.6.1.dist-info/RECORD,,
