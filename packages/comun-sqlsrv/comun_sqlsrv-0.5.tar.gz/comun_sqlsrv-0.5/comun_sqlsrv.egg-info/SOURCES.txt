@@ -1,0 +1,7 @@
+comun_sqlsrv.py
+setup.py
+comun_sqlsrv.egg-info/PKG-INFO
+comun_sqlsrv.egg-info/SOURCES.txt
+comun_sqlsrv.egg-info/dependency_links.txt
+comun_sqlsrv.egg-info/requires.txt
+comun_sqlsrv.egg-info/top_level.txt
