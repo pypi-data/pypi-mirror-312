@@ -1,0 +1,10 @@
+pyrfc==3.3.1
+
+[dev]
+black
+pyproject-flake8
+isort[colors]
+
+[test]
+pytest
+pytest-cov

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "wheel", "Cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyrfc_read"
+readme = "README.md"
+dynamic = [
+    "authors",
+    "classifiers",
+    "dependencies",
+    "description",
+    "optional-dependencies",
+    "requires-python",
+    "version",
+]
+
+[tool.isort]
+profile = "black"
+skip_gitignore = true
+
+[tool.flake8]
+max-line-length = 88
+exclude = """
+    .git,
+    .venv,
+    venv,
+"""
+
+[tool.pytest.ini_options]
+addopts = [
+    "-v",
+    "--cov=pyrfc_read",
+    "--cov-report=term-missing",
+    "--import-mode=importlib",
+]

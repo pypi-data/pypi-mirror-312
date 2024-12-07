@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyrfc_read/__init__.py
+pyrfc_read/pyrfc_read.py
+pyrfc_read/utils.py
+pyrfc_read.egg-info/PKG-INFO
+pyrfc_read.egg-info/SOURCES.txt
+pyrfc_read.egg-info/dependency_links.txt
+pyrfc_read.egg-info/requires.txt
+pyrfc_read.egg-info/top_level.txt
+tests/test_utils.py
