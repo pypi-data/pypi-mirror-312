@@ -1,0 +1,249 @@
+Metadata-Version: 2.3
+Name: SWoTTeD
+Version: 1.0.2a4
+Summary: A tensor decomposition model extracting temporal phenotypes
+Project-URL: homepage, https://gitlab.inria.fr/hsebia/swotted
+Project-URL: repository, https://gitlab.inria.fr/hsebia/swotted
+Project-URL: documentation, https://hsebia.gitlabpages.inria.fr/swotted/
+Author-email: Hana Sebia <hana.sebia@inria.fr>, Thomas Guyet <thomas.guyet@inria.fr>, Mike Rye <jan-michael.rye@inria.fr>
+License:                    GNU LESSER GENERAL PUBLIC LICENSE
+                               Version 3, 29 June 2007
+        
+         Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+         Everyone is permitted to copy and distribute verbatim copies
+         of this license document, but changing it is not allowed.
+        
+        
+          This version of the GNU Lesser General Public License incorporates
+        the terms and conditions of version 3 of the GNU General Public
+        License, supplemented by the additional permissions listed below.
+        
+          0. Additional Definitions.
+        
+          As used herein, "this License" refers to version 3 of the GNU Lesser
+        General Public License, and the "GNU GPL" refers to version 3 of the GNU
+        General Public License.
+        
+          "The Library" refers to a covered work governed by this License,
+        other than an Application or a Combined Work as defined below.
+        
+          An "Application" is any work that makes use of an interface provided
+        by the Library, but which is not otherwise based on the Library.
+        Defining a subclass of a class defined by the Library is deemed a mode
+        of using an interface provided by the Library.
+        
+          A "Combined Work" is a work produced by combining or linking an
+        Application with the Library.  The particular version of the Library
+        with which the Combined Work was made is also called the "Linked
+        Version".
+        
+          The "Minimal Corresponding Source" for a Combined Work means the
+        Corresponding Source for the Combined Work, excluding any source code
+        for portions of the Combined Work that, considered in isolation, are
+        based on the Application, and not on the Linked Version.
+        
+          The "Corresponding Application Code" for a Combined Work means the
+        object code and/or source code for the Application, including any data
+        and utility programs needed for reproducing the Combined Work from the
+        Application, but excluding the System Libraries of the Combined Work.
+        
+          1. Exception to Section 3 of the GNU GPL.
+        
+          You may convey a covered work under sections 3 and 4 of this License
+        without being bound by section 3 of the GNU GPL.
+        
+          2. Conveying Modified Versions.
+        
+          If you modify a copy of the Library, and, in your modifications, a
+        facility refers to a function or data to be supplied by an Application
+        that uses the facility (other than as an argument passed when the
+        facility is invoked), then you may convey a copy of the modified
+        version:
+        
+           a) under this License, provided that you make a good faith effort to
+           ensure that, in the event an Application does not supply the
+           function or data, the facility still operates, and performs
+           whatever part of its purpose remains meaningful, or
+        
+           b) under the GNU GPL, with none of the additional permissions of
+           this License applicable to that copy.
+        
+          3. Object Code Incorporating Material from Library Header Files.
+        
+          The object code form of an Application may incorporate material from
+        a header file that is part of the Library.  You may convey such object
+        code under terms of your choice, provided that, if the incorporated
+        material is not limited to numerical parameters, data structure
+        layouts and accessors, or small macros, inline functions and templates
+        (ten or fewer lines in length), you do both of the following:
+        
+           a) Give prominent notice with each copy of the object code that the
+           Library is used in it and that the Library and its use are
+           covered by this License.
+        
+           b) Accompany the object code with a copy of the GNU GPL and this license
+           document.
+        
+          4. Combined Works.
+        
+          You may convey a Combined Work under terms of your choice that,
+        taken together, effectively do not restrict modification of the
+        portions of the Library contained in the Combined Work and reverse
+        engineering for debugging such modifications, if you also do each of
+        the following:
+        
+           a) Give prominent notice with each copy of the Combined Work that
+           the Library is used in it and that the Library and its use are
+           covered by this License.
+        
+           b) Accompany the Combined Work with a copy of the GNU GPL and this license
+           document.
+        
+           c) For a Combined Work that displays copyright notices during
+           execution, include the copyright notice for the Library among
+           these notices, as well as a reference directing the user to the
+           copies of the GNU GPL and this license document.
+        
+           d) Do one of the following:
+        
+               0) Convey the Minimal Corresponding Source under the terms of this
+               License, and the Corresponding Application Code in a form
+               suitable for, and under terms that permit, the user to
+               recombine or relink the Application with a modified version of
+               the Linked Version to produce a modified Combined Work, in the
+               manner specified by section 6 of the GNU GPL for conveying
+               Corresponding Source.
+        
+               1) Use a suitable shared library mechanism for linking with the
+               Library.  A suitable mechanism is one that (a) uses at run time
+               a copy of the Library already present on the user's computer
+               system, and (b) will operate properly with a modified version
+               of the Library that is interface-compatible with the Linked
+               Version.
+        
+           e) Provide Installation Information, but only if you would otherwise
+           be required to provide such information under section 6 of the
+           GNU GPL, and only to the extent that such information is
+           necessary to install and execute a modified version of the
+           Combined Work produced by recombining or relinking the
+           Application with a modified version of the Linked Version. (If
+           you use option 4d0, the Installation Information must accompany
+           the Minimal Corresponding Source and Corresponding Application
+           Code. If you use option 4d1, you must provide the Installation
+           Information in the manner specified by section 6 of the GNU GPL
+           for conveying Corresponding Source.)
+        
+          5. Combined Libraries.
+        
+          You may place library facilities that are a work based on the
+        Library side by side in a single library together with other library
+        facilities that are not Applications and are not covered by this
+        License, and convey such a combined library under terms of your
+        choice, if you do both of the following:
+        
+           a) Accompany the combined library with a copy of the same work based
+           on the Library, uncombined with any other library facilities,
+           conveyed under the terms of this License.
+        
+           b) Give prominent notice with the combined library that part of it
+           is a work based on the Library, and explaining where to find the
+           accompanying uncombined form of the same work.
+        
+          6. Revised Versions of the GNU Lesser General Public License.
+        
+          The Free Software Foundation may publish revised and/or new versions
+        of the GNU Lesser General Public License from time to time. Such new
+        versions will be similar in spirit to the present version, but may
+        differ in detail to address new problems or concerns.
+        
+          Each version is given a distinguishing version number. If the
+        Library as you received it specifies that a certain numbered version
+        of the GNU Lesser General Public License "or any later version"
+        applies to it, you have the option of following the terms and
+        conditions either of that published version or of any later version
+        published by the Free Software Foundation. If the Library as you
+        received it does not specify a version number of the GNU Lesser
+        General Public License, you may choose any version of the GNU Lesser
+        General Public License ever published by the Free Software Foundation.
+        
+          If the Library as you received it specifies that a proxy can decide
+        whether future versions of the GNU Lesser General Public License shall
+        apply, that proxy's public statement of acceptance of any version is
+        permanent authorization for you to choose that version for the
+        Library.
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Requires-Dist: datetime
+Requires-Dist: fastapi
+Requires-Dist: ipykernel
+Requires-Dist: jupyter
+Requires-Dist: lightning
+Requires-Dist: matplotlib
+Requires-Dist: munkres
+Requires-Dist: numpy
+Requires-Dist: omegaconf
+Requires-Dist: pandas
+Requires-Dist: psycopg
+Requires-Dist: pytorch-lightning
+Requires-Dist: seaborn
+Description-Content-Type: text/markdown
+
+# SWoTTeD : An Extension of Tensor Decomposition to Temporal Phenotyping
+
+This repository contains the implementation of **SWoTTeD** (**S**liding **W**ind**o**w for **T**emporal **Te**nsor **D**ecomposition)
+  
+![Illustration of SwoTTeD Decomposition](./sliding_window_temporal_phenotyping.png)
+
+
+### Authors
+
+* Hana Sebia, Inria, [AIstroSight](https://team.inria.fr/aistrosight/)
+* Thomas Guyet, Inria, [AIstroSight](https://team.inria.fr/aistrosight/)
+* Mike Rye, Inria, [AIstroSight](https://team.inria.fr/aistrosight/)
+
+### Overview
+
+***SWoTTeD*** is a tensor decomposition framework to extract temporal phenotypes from structured data. Most recent decomposition models allow extracting phenotypes that only describe snapshots of typical profiles, also called daily phenotypes. However, ***SWoTTeD*** extends the notion of daily phenotype into temporal phenotype describing an arrangement of features over a time window.
+
+The capabilities of the SWoTTeD model are illustrated in the [example notebook](./notebooks/SWoTTeD_module_example.ipynb).
+
+
+This code implements the SWoTTeD as a [PyTorch Lightning](http://lightning.ai) module that you can embed in you own architecture. The `SWoTTeD` module enables:
+* to discover phenotypes through the decomposition of a *3D tensor* (with dimensions: patients, features and time). To deal with patient' data having different duration, the dataset is a collection of pathways (2D matrices);
+* to project new patient pathways on discovered phenotypes;
+* to predict next events in a pathways.
+
+More documentation about this project and how to use the model is available here: [https://hsebia.gitlabpages.inria.fr/swotted/](https://hsebia.gitlabpages.inria.fr/swotted/).
+
+### How to install
+
+The `pyproject.toml` is the project configuration file for *hatchling* which enables to create and set up a virtual environment suitable to run `SWoTTeD`.
+
+```bash
+git clone https://gitlab.inria.fr/hsebia/swotted
+
+cd swotted
+pip install -e .
+```
+
+`SWoTTeD` is also available on the Python Package Index (PyPI). In this case, you will only have the model (but not the tests, including the random generator of random tensors with hidden patterns). See the First run example in the documentation in this case.
+
+```bash
+pip install swotted
+```
+
+### How to cite
+
+```bibtex
+@article{sebia2024swotted,
+  title={SWoTTeD: an extension of tensor decomposition to temporal phenotyping},
+  author={Sebia, Hana and Guyet, Thomas and Audureau, Etienne},
+  journal={Machine Learning},
+  pages={1--42},
+  year={2024},
+  publisher={Springer}
+}
+```

@@ -1,0 +1,70 @@
+# PyTorch lightning handles all parallelization so there is no need to use a
+# parallelized job launcher such as joblib here.
+defaults:
+  - hydronaut_config
+  # Use the Optuna optimizer with the TPE sampler.
+  #- override hydra/sweeper: optuna
+  #- override hydra/sweeper/sampler: tpe
+  - _self_
+
+hydra:
+  # Set the default mode to MULTIRUN to obviate passing --multirun on each
+  # invocation.
+  mode: MULTIRUN
+  sweeper:
+    # The objective function returns the loss so we seek to minimize it.
+    #direction: minimize
+    # The study name is set to the experiment name but can be changed to
+    # anything.
+    #study_name: ${experiment.name}
+    # The number of Optuna optimization trials.
+    #n_trials: 30
+    # The number of jobs. This only has an effect when a Hydra launcher that
+    # supports concurrent jobs is used.
+    #n_jobs: 1
+    #sampler:
+    #  # Initial seed for the sampler.
+    #  seed: 123
+
+    # Sweep parameters that will be used by the model.
+    params:
+      ++experiment.params.model.non_succession: 0.5
+      ++experiment.params.model.sparsity: 0.5
+      ++experiment.params.synth_data.id: range(1, 2)
+
+experiment:
+  name: 'SWoTTeD Synth data experiment'
+  description: SWoTTeD experiment on synthetic data
+  exp_class: experiment:SyntheticDatasetExperiment
+  params:
+    synth_data:
+      K_train: 100  # number of patients
+      K_test: 50  # number of patients
+      N: 20   # number of features
+      T: 10   # length of pathways
+      R: 5    # number of hidden phenotypes
+      Tw: 3   # duration of hidden phenotypes
+      id: 1   # dataset identifier
+    training:
+      batch_size: 50
+      nepochs: 500
+      lr: 1e-3
+    model:
+      rank: ${experiment.params.synth_data.R}
+      twl: ${experiment.params.synth_data.Tw}
+      N: ${experiment.params.synth_data.N}
+      metric: "Bernoulli"
+      non_succession: 0.5
+      sparsity: 0.5
+    predict:
+      nepochs: 100
+      lr: 1e-3
+    log:
+      on_epoch: true
+      sync_dist: true
+
+  # Make modules under src importable.
+  python:
+    paths:
+      - model
+

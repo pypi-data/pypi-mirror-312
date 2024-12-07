@@ -1,0 +1,40 @@
+## Pipeline for sphinx
+##    -> CI must be activated in the gitlab repo (in Settings>Generals)
+##    -> Runners must also be enabled (in Settings>CI/CD: use the Inria runners)
+
+#"pages" is the name of the pipeline
+pages:
+  # There exists some standard images to ease the preparation of the task
+  image: sphinxdoc/sphinx
+  stage: deploy
+
+  # Tags are used to specify the runner, with Inria gitlab, we use the runners of Inria. The Tags designates the type of machine to use.
+  tags:
+    - ci.inria.fr
+    - small
+    - linux
+
+  # Here, we describe the task to 
+  script:
+    - apt update
+    - apt install -y gcc g++
+    - apt --yes install pandoc
+    - cd docs
+    - pip install -r requirements.txt
+    - mkdir build
+    - mkdir source/_static source/_templates
+    - sphinx-apidoc -f -o source/ ..
+    - make html
+    - cd ..
+    - mkdir -p public
+    - cp -rf docs/build/html/* public/
+    - cp -rf sliding_window_temporal_phenotyping.png public/sliding_window_temporal_phenotyping.png
+
+  # artifact os something to be deployed
+  artifacts:
+    paths:
+      - public
+
+  # Runners will explore only the 'master' branch of the repo
+  only:
+    - main

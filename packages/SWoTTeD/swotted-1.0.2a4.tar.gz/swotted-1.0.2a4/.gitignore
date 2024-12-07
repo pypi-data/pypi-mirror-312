@@ -1,0 +1,13 @@
+**/lightning_logs
+**/__pycache__
+*.pyc
+poetry.lock
+mlruns/*
+multirun/*
+outputs/*
+run.log
+docs/build/*
+dist/*
+venv/*
+**/.ipynb_checkpoints
+swotted/version.py
