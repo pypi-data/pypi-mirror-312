@@ -1,0 +1,4 @@
+jproperties==2.1.2
+setuptools==75.6.0
+six==1.16.0
+wheel==0.45.1
