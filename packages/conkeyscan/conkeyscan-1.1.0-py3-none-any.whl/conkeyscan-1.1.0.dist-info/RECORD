@@ -1,0 +1,10 @@
+conkeyscan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conkeyscan/conkeyscan.py,sha256=IupAXKIc8-ZMLYnxjKpTChg5e2_SL2FCCTXmsnt5Kvg,9016
+conkeyscan/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conkeyscan/config/dict.txt,sha256=GEhouVD9L1CEEFYdht7EjsXhkqrd3EgKOjp0q554LnU,824
+conkeyscan-1.1.0.dist-info/LICENSE,sha256=74bOL0C8LWNRPiJnMfP0SC_0GVH7aLim_RTH63-DwEI,1068
+conkeyscan-1.1.0.dist-info/METADATA,sha256=oAT2WTLt2LYn2S4FjBlAyGjpgn0bhdXPz2sdUTy42i4,2792
+conkeyscan-1.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+conkeyscan-1.1.0.dist-info/entry_points.txt,sha256=MSYVNdAozjgEcCUaiRWLSVyG6ohtyawzmbxH8ciEvLY,65
+conkeyscan-1.1.0.dist-info/top_level.txt,sha256=Mbq2srw9jdX25yPBj0g8egQtn3bRG9LNARKny4XnrSo,11
+conkeyscan-1.1.0.dist-info/RECORD,,
