@@ -1,0 +1,15 @@
+Bio
+biopython
+holoviews
+jupyterlab
+mappy
+matplotlib
+ninetysix
+numpy
+pandas
+sciutil
+seaborn
+scikit-learn
+statsmodels
+tqdm
+biopandas

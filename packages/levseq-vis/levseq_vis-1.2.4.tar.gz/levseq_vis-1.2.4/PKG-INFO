@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: levseq_vis
+Version: 1.2.4
+Home-page: https://github.com/fhalab/levseq/
+Author: Yueming Long, Emreay Gursoy, Ariane Mora, Francesca-Zhoufan Li
+Author-email: ylong@caltech.edu
+License: GPL3
+Project-URL: Bug Tracker, https://github.com/fhalab/levseq/
+Project-URL: Documentation, https://github.com/fhalab/levseq/
+Project-URL: Source Code, https://github.com/fhalab/levseq/
+Keywords: Nanopore,ONT,evSeq,LevSeq
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Bio
+Requires-Dist: biopython
+Requires-Dist: holoviews
+Requires-Dist: jupyterlab
+Requires-Dist: mappy
+Requires-Dist: matplotlib
+Requires-Dist: ninetysix
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: sciutil
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: statsmodels
+Requires-Dist: tqdm
+Requires-Dist: biopandas
+
+# A Beta project LevSeq vis
+
+Web app for combining and visualising [LevSeq](https://github.com/fhalab/LevSeq) sequence function data.
+
+Test it out with the [data](data/) in the data folder. Use the columns in the screenshot below. 
+
+Once you have your figures you can download the csv results by hovering on any of the tables.
+
+## Upload with data
+
+Using the `visualization_partial.csv` file as the variant file and the `300-1` in the `ep1` folder.
+
+### Tables for download
+We join the data based on user selected columns (in this case `cis` and `trans`) from a LC-MS run.
+
+![table](images/table.png)
+
+### Overview of alignment count
+The alignment count is how many reads assigned to each type were assigned to each well.
+![align](images/alignment_count.png)
+
+### Scatterplot of multiple features
+This shows the fitness values of two plotted against eachother, if only one feature is provided we will plot it against 
+the alignment count.
+
+![align](images/cis_trans.png)
+![align](images/single_feature.png)
+
+## Please provide feedback
+Leave a feature request in the issues or on [LevSeq](https://github.com/fhalab/LevSeq) . 
+
+## Cite
+Cite our [paper](https://doi.org/10.1101/2024.09.04.611255) please if you use it.
+
+## Developers
+
+```
+streamlit run app.py
+```
+
+## References
+Streamlit app based on: https://share.streamlit.io/streamlit/example-app-csv-wrangler/
+Thanks to you who made it <3 
