@@ -1,0 +1,9 @@
+fsrapiclient-0.2.0.dist-info/METADATA,sha256=8ENmjcVSwPu4iiTtP-aAnrHf23IZgFBm69wTbowvzQE,4077
+fsrapiclient-0.2.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+fsrapiclient-0.2.0.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+fsrapiclient-0.2.0.dist-info/licenses/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+fsrapiclient/__version__.py,sha256=wvkRrh7soGDfH5EAe7WrQtTiyy54VwwkWDyle5cJ6X8,23
+fsrapiclient/api.py,sha256=deZPkXMpu0jLM7b5YKEcqB9gd5v7SYOUy4DrqMQm7oo,57082
+fsrapiclient/constants.py,sha256=5PDf5YlByYWdO-r1cug80-9-QqEsPZcGxflTG6TJBlY,492
+fsrapiclient/exceptions.py,sha256=lvV1XJF2g6rZ0EMnITO5vD2xByjzAjb5btEnzTRWA58,368
+fsrapiclient-0.2.0.dist-info/RECORD,,
