@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/scipy_optimstruct/__init__.py
+src/scipy_optimstruct/optimstruct.py
+src/scipy_optimstruct.egg-info/PKG-INFO
+src/scipy_optimstruct.egg-info/SOURCES.txt
+src/scipy_optimstruct.egg-info/dependency_links.txt
+src/scipy_optimstruct.egg-info/requires.txt
+src/scipy_optimstruct.egg-info/top_level.txt
+tests/test_optimstruct.py
