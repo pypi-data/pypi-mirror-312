@@ -1,0 +1,46 @@
+### Scale2Pdf
+
+A library made at LAION to scale the parsing of PDFs on CPUs. We tested our pipeline on 44-page pdf and on cheap 2 thread CPU with 12GB ram, it took us 3 mins 22 seconds to parse the pdf, save its content both structure, bulk and its images. We provide following results through our framework
+
+1. Table extraction
+2. Equation extraction
+3. Image Captions
+4. Page extraction
+5. Keyword extraction
+6. Section extraction
+7. Authors extraction
+8. Bibliography extraction
+9. Paragraph extraction
+10. Image extraction
+11. Abstract extraction
+
+### Features
+1. added support for ray for scalability
+
+#### Installation
+
+```pip install scale2pdf ray```
+
+then install 
+
+```sudo apt install poppler-utils```
+
+```Python
+from scale2pdf import scalablepdf 
+from scale2pdf import extractimages
+
+pdf_path = "/content/2408.06257v3.pdf"
+scalablepdf(pdf_path, extract_images=True) # folder is automatically created and results are saved
+# if you want to process a folder of pdfs with ray then
+scalable_ray("example_folder", extract_images=True, num_cpus=4)
+extractimages("2408.06257v3.pdf", "/path/to/output/folder")
+```
+
+##### Ray caution:
+If you don't specify the CPU numbers then 4 CPU cores will be used at a time. You can increase it to the highest number of CPU cores available. 
+
+Speedup depends entirely on the CPU and resources available. I had used on a cheap CPU and it was bad since I had only two threads akin 2 CORE. (although threads here means core not threads themselves like in Computer Hardware)
+
+#### CRAP CPU (NO GPU): 3 min 22 seconds to finish parsing and saving it to JSON. 
+
+#### A Sleeping AI framework made for friends at LAION AI. 
