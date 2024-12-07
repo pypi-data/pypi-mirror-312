@@ -1,0 +1,17 @@
+phanotate-1.6.7.data/scripts/phanotate.py,sha256=4QqGKp4WVcor7F0cJjRX1b3BVaXkvge32p38dfdd0ME,3388
+phanotate_modules/__init__.py,sha256=hm-_RFQLN9E3kBhWoL3qLM8EYGxDWjKeIaOr2F3uZbk,218
+phanotate_modules/edges.py,sha256=sNNabNy8o4Itv6UB9QD0_xyu6nCLErhgpmpc8c8pmec,2153
+phanotate_modules/feature.py,sha256=Tk0rA2uEp118VfvCz5-PCjZ1h4ScGLgwWGvggjI71GY,793
+phanotate_modules/file.py,sha256=mbR_becdSkr7tSfTheQpYVXXKz-uLrrCSxbJIsP0CoQ,110
+phanotate_modules/file_handling.py,sha256=YG26w1tNM8owsaH3jTdFzY2LAOVOYkhOzBTtTZEje6U,8285
+phanotate_modules/functions.py,sha256=RQ8bsdMNuwrzhHtx66Abwh7U3nxIr4o2r1VYFGq70Vk,19476
+phanotate_modules/gc_frame_plot.py,sha256=FmWI_IVdQnsqD0SCQQsUAnDw5zHhuUrSWnB3t-0oB4I,2156
+phanotate_modules/graphs.py,sha256=Rjib9orQo_iELhmT6aKm4ronyhXZ-fPbz_UoYOPQweU,9888
+phanotate_modules/locus.py,sha256=Jn1HdT_y7hTq2JLa7lpA4jeorJ1qZ8JZWGcJKsj84xs,1713
+phanotate_modules/nodes.py,sha256=jsNGnJy2xNMiOCdPuH2zO9g7Ehc-gqKtJ_De2khQPJw,563
+phanotate_modules/orfs.py,sha256=PJEdmo63MHm2JfUXS6LAkiGL7B5tl7nb9vKYpJxG1I4,5830
+phanotate-1.6.7.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+phanotate-1.6.7.dist-info/METADATA,sha256=J1kiYq9aW9Qu9NebOQ5aRKTzRvgs1ErQJk0-fsUYPxs,2975
+phanotate-1.6.7.dist-info/WHEEL,sha256=pxeNX5JdtCe58PUSYP9upmc7jdRPgvT0Gm9kb1SHlVw,109
+phanotate-1.6.7.dist-info/top_level.txt,sha256=6aC39-EZCjpahNOJKUPeG7Ac9Xq60IAVc6zzsVoNRt4,18
+phanotate-1.6.7.dist-info/RECORD,,
