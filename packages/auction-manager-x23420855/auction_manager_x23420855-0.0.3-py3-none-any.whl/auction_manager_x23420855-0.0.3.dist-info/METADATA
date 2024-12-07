@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: auction_manager_x23420855
+Version: 0.0.3
+Summary: A package to manage bids on an Auction site
+Author-email: x23420855 <x23420855@student.ncirl.ie>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: <3.13,>=3.8
+Requires-Dist: boto3>=1.35
+Requires-Dist: phonenumbers>=8.13
+Description-Content-Type: text/markdown
+
+# Auction Manager
+
+This package is used as part of a project to build a property auction web site on AWS
