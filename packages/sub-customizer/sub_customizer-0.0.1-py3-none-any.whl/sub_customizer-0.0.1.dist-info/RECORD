@@ -1,0 +1,11 @@
+sub_customizer/__init__.py,sha256=2w5cYgI4GBam4HB7WJB8Dj0GtGBmKZ5KkLFoZZ4tS3Y,153
+sub_customizer/customizer.py,sha256=P0qGt8DVN6CPo9MPPCSkCl-sZnLRXz9gNQvu3RNOtso,13396
+sub_customizer/datastructures.py,sha256=5ZBFg2zuIdDPBI5OOMcMdtH6Hjb3EsHMaGy83iDK9dc,4795
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_datastructures.py,sha256=9EM62h3DhM6rvZELKAlfzwmmYhgmmZ1blBucP726bRw,3446
+tests/test_true.py,sha256=xn3jXWeRfjaNtNUbuNkcVu1DEyIG9ulwHXG-9ueBOgw,35
+sub_customizer-0.0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+sub_customizer-0.0.1.dist-info/METADATA,sha256=13HLc6VYqzi6KuE8uDAYNRVchAMoL-7VZYJDSHEPCD8,780
+sub_customizer-0.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+sub_customizer-0.0.1.dist-info/top_level.txt,sha256=bdvvZEeYXspXkt3Pqn2nRxrvEAwVtB5lvvE4FIkqBvo,21
+sub_customizer-0.0.1.dist-info/RECORD,,
