@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+OpenDrive.egg-info/PKG-INFO
+OpenDrive.egg-info/SOURCES.txt
+OpenDrive.egg-info/dependency_links.txt
+OpenDrive.egg-info/requires.txt
+OpenDrive.egg-info/top_level.txt
