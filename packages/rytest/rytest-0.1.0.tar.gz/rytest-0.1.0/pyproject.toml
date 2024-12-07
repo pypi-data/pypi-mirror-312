@@ -1,0 +1,45 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "rytest"
+description = "rytest is a reasonably fast, somewhat Pytest compatible Python test runner."
+readme = "README.md"
+keywords = ["test", "testing"]
+license = {file = "LICENSE"}
+authors = [
+    {name = "Jim Kelly"},
+    {name = "Aatish Neupane"}
+]
+requires-python = ">=3.9,<3.13"
+dependencies = [
+    "pytest>=7.0.0,<8.0.0"
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Rust",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Utilities",
+]
+dynamic = [
+    "version",
+]
+urls.Source = "https://github.com/jimjkelly/rytest"
+urls.Tracker = "https://github.com/jimjkelly/rytest/issues"
+
+
+[tool.maturin]
+bindings = "bin"
+manifest-path = "crates/rytest/Cargo.toml"

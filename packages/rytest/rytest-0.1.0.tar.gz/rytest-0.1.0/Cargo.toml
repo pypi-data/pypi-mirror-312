@@ -1,0 +1,43 @@
+[workspace]
+members = ["crates/*"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+rust-version = "1.81"
+version = "0.1.0"
+homepage = "https://github.com/jimjkelly/rytest"
+documentation = "https://github.com/jimjkelly/rytest"
+repository = "https://github.com/jimjkelly/rytest"
+authors = ["rytest Developers"]
+license = "MIT"
+
+[workspace.dependencies]
+rytest = { path = "crates/rytest" }
+rytest-render-benchmark = { path = "crates/rytest-render-benchmark" }
+anyhow = "1.0.86"
+clap = "4.5.19"
+
+# Config for 'cargo dist'
+[workspace.metadata.dist]
+# The preferred cargo-dist version to use in CI (Cargo.toml SemVer syntax)
+cargo-dist-version = "0.20.0"
+# CI backends to support
+ci = "github"
+# The installers to generate for each app
+installers = ["shell"]
+# Target platforms to build apps for (Rust target-triple syntax)
+targets = ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "x86_64-unknown-linux-musl", "x86_64-pc-windows-msvc"]
+# Path that installers should place binaries in
+install-path = "CARGO_HOME"
+# Whether to install an updater program
+install-updater = false
+
+# The profile that 'cargo dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
+
+# Makes insta faster
+[profile.dev.package]
+insta.opt-level = 3
