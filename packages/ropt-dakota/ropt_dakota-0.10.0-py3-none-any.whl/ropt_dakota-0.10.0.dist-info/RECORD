@@ -1,0 +1,10 @@
+ropt_dakota/__init__.py,sha256=xMhT0I14rkvqYok4UaDUr7cCo8T9hOjNAqAnly-pi2Q,42
+ropt_dakota/dakota.py,sha256=DXOpGnPYjUw59fskqE6PUn3cSAoGM7SfEO93ktS0blo,19650
+ropt_dakota/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ropt_dakota/version.py,sha256=D9FzgOn4bdjik_advMRtDDR32aJiX9xm30TIiWkqKLs,413
+ropt_dakota-0.10.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ropt_dakota-0.10.0.dist-info/METADATA,sha256=YWthrsQ34oJMM2SBnIlX220Dm38WF58PuzmL06xECQk,1989
+ropt_dakota-0.10.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+ropt_dakota-0.10.0.dist-info/entry_points.txt,sha256=ZOZey6hY5qKxET_ALuEEpSVtkikMoIHoHrY1sdhaFXU,75
+ropt_dakota-0.10.0.dist-info/top_level.txt,sha256=G-U5NwJSCHjMBUhu-YndEaK0qTZ4QPCfi3QNYY3adtw,12
+ropt_dakota-0.10.0.dist-info/RECORD,,
