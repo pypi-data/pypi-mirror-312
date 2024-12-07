@@ -1,0 +1,11 @@
+README.md
+setup.py
+nomad_media_cli/__init__.py
+nomad_media_cli/cli.py
+nomad_media_cli/utils.py
+nomad_media_cli.egg-info/PKG-INFO
+nomad_media_cli.egg-info/SOURCES.txt
+nomad_media_cli.egg-info/dependency_links.txt
+nomad_media_cli.egg-info/entry_points.txt
+nomad_media_cli.egg-info/requires.txt
+nomad_media_cli.egg-info/top_level.txt
