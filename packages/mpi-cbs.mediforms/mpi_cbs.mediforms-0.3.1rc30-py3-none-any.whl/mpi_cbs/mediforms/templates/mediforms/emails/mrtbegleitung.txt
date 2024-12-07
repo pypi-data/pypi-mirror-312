@@ -1,0 +1,17 @@
+{% extends "mediforms/emails/base.txt" %}
+
+
+{% block video %}
+Bitte schauen Sie sich vor dem Aufklärungsgespräch mit unseren Ärzten/Ärztinnen folgendes Video zur MRT an:
+https://www.cbs.mpg.de/mrt-info
+Benutzername: mrt
+Passwort: mrt
+{% endblock %}
+
+
+{% block links %}
+Informationen für Begleitpersonen - {{ host }}{% url 'information-text' 'mrtbegleitung' %}
+Einwilligung zur Speicherung meiner Daten - {{ host }}{% url 'data-storage-consent' 'mrtbegleitung' %}
+Einwilligung zur Mitwirkung an einer Magnetresonanz-Untersuchung - {{ host }}{% url 'exploration-consent' 'mrtbegleitung' %}
+Erklärungen zum Datenschutz - {{ host }}{% url 'data-protection-declaration-mrt' %}
+{% endblock %}

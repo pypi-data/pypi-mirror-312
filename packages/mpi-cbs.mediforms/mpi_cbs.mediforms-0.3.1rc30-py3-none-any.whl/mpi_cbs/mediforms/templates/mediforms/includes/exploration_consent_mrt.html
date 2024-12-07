@@ -1,0 +1,122 @@
+{% load i18n %}
+
+<div class="ui justified container" style="page-break-before: always;">
+  <h2>{% blocktranslate %}Einwilligungserklärung zur Magnetresonanz-Tomographie (MRT){% endblocktranslate %}</h2>
+  <p>{% blocktranslate %}Ich wurde durch Herrn / Frau __________________________ vollständig über die o. g. Untersuchung aufgeklärt.{% endblocktranslate %}</p>
+  <p>{% blocktranslate %}Ich hatte die Gelegenheit und ausreichend Zeit Fragen zu stellen. Diese wurden zufriedenstellend und vollständig beantwortet. Ich hatte ausreichend Bedenkzeit und ich akzeptiere die Antworten.{% endblocktranslate %}</p>
+  <p>{% blocktranslate %}Ich wurde darauf hingewiesen, dass meine Teilnahme an MRT-Untersuchungen zu wissenschaftlichen Zwecken freiwillig ist und für mich persönlich keinen unmittelbaren Nutzen hat. Zusätzlich wurde ich unterrichtet, dass Zufallsfunde auf den MRT-Aufnahmen entdeckt werden könnten.{% endblocktranslate %}</p>
+  <p>{% blocktranslate %}Ich habe das Recht, meine Einwilligung zur Studienteilnahme jederzeit ohne Angabe von Gründen zu beenden, ohne dass mir dadurch Nachteile entstehen.{% endblocktranslate %}</p>
+  <p>{% blocktranslate %}Ich habe die schriftliche Probandeninformation zu oben genannter Untersuchung erhalten und ich werde eine Kopie meiner unterschriebenen Einwilligungserklärung zur Teilnahme erhalten.{% endblocktranslate %}</p>
+  <p><b>{% blocktranslate %}Ich bin damit einverstanden, an folgenden Magnetresonanz-Untersuchungen zu wissenschaftlichen Zwecken teilzunehmen:{% endblocktranslate %}</b></p>
+</div>
+
+<table style="margin-bottom: 30px; margin-top: 20px;">
+  <tr>
+    <td style="width: 50%;">
+      <b>{% blocktranslate %}3 Tesla-MRT (Normalbetrieb){% endblocktranslate %}</b>
+    </td>
+    <td><b>{% blocktranslate %}O ja{% endblocktranslate %}</b></td>
+    <td><b>{% blocktranslate %}O nein{% endblocktranslate %}</b></td>
+  </tr>
+  <tr>
+    <td style="width: 50%;">
+      <b>{% blocktranslate %}3 Tesla-MRT (Connectom){% endblocktranslate %}</b>
+    </td>
+    <td><b>{% blocktranslate %}O ja{% endblocktranslate %}</b></td>
+    <td><b>{% blocktranslate %}O nein{% endblocktranslate %}</b></td>
+  </tr>
+  <tr>
+    <td style="width: 50%;">
+      <b>{% blocktranslate %}7 Tesla-MRT (Terra.X){% endblocktranslate %}</b>
+    </td>
+    <td><b>{% blocktranslate %}O ja{% endblocktranslate %}</b></td>
+    <td><b>{% blocktranslate %}O nein{% endblocktranslate %}</b></td>
+  </tr>
+</table>
+
+<div class="ui container">
+  <p><b>{% blocktranslate %}Gleichzeitig erkläre ich mit meiner Unterschrift, über etwaige Zufallsfunde unterrichtet werden zu wollen.{% endblocktranslate %}</b></p>
+
+  <p><b>{% blocktranslate %}Die Erklärungen zum Datenschutz habe ich gelesen und stimme diesen zu.{% endblocktranslate %}</b></p>
+</div>
+
+<table style="margin-bottom: 30px; margin-top: 40px; padding: 0 20px;">
+  <tr>
+    <td style="vertical-align: top; width: 50%;">
+      _________________________________________<br>
+      {% blocktranslate %}Ort, Datum{% endblocktranslate %}
+    </td>
+    <td style="vertical-align: top; width: 50%;">
+      _________________________________________<br>
+      {% blocktranslate %}Unterschrift Studienteilnehmer/in (oder gesetzliche/r Vertreter/in{% endblocktranslate %}<sup>[1]</sup>) {% blocktranslate %}[Vor- und Nachname]{% endblocktranslate %}
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td style="padding-top: 35px">
+      _________________________________________<br>
+      {% blocktranslate %}Name Studienteilnehmer/in in Druckbuchstaben{% endblocktranslate %}
+    </td>
+  </tr>
+</table>
+
+
+<div class="ui container">
+  <p><sup>[1]</sup> <b>{% blocktranslate %}Bei minderjährigen Studienteilnehmer/innen:{% endblocktranslate %}</b> {% blocktranslate %}Als Sorgeberechtigte/r bzw. gesetzliche/r Vertreter/in eines/r minderjährigen Studienteilnehmers/in versichere ich, dass ich auch im Namen des/der zweiten Sorgeberechtigten handle oder alleine sorgeberechtigt bin.{% endblocktranslate %}</p>
+</div>
+
+
+<div class="ui container" style="page-break-before: always;">
+  <p>{% blocktranslate %}Der Studienteilnehmer / die Studienteilnehmerin wurde von mir über Ziel, Ablauf, Nutzen und Risiken einer Magnetresonanz-Untersuchung zu wissenschaftlichen Zwecken aufgeklärt und hat ohne Zwang ihre Einwilligung erteilt.{% endblocktranslate %}</p>
+</div>
+
+<table style="margin-bottom: 30px; margin-top: 20px;">
+  <tr>
+    <td style="width: 75%;">
+      {% blocktranslate %}Studienteilnehmer/in ist geeignet für 3 Tesla MRT (CE-Zeichen){% endblocktranslate %}
+    </td>
+    <td>{% blocktranslate %}O ja{% endblocktranslate %}</td>
+    <td>{% blocktranslate %}O nein{% endblocktranslate %}</td>
+  </tr>
+  <tr>
+    <td style="width: 75%;">
+      {% blocktranslate %}Studienteilnehmer/in ist geeignet für 3 Tesla MRT (Connectom / <b>kein</b> CE-Zeichen){% endblocktranslate %}
+    </td>
+    <td>{% blocktranslate %}O ja{% endblocktranslate %}</td>
+    <td>{% blocktranslate %}O nein{% endblocktranslate %}</td>
+  </tr>
+  <tr>
+    <td style="width: 75%;">
+      {% blocktranslate %}Studienteilnehmer/in ist geeignet für 7 Tesla MRT (Terra.X / <b>kein</b> CE-Zeichen){% endblocktranslate %}
+    </td>
+    <td>{% blocktranslate %}O ja{% endblocktranslate %}</td>
+    <td>{% blocktranslate %}O nein{% endblocktranslate %}</td>
+  </tr>
+</table>
+
+<div class="ui container" style="margin-bottom: 150px; margin-top: 15px">
+  <p><b>{% blocktranslate %}Notizen:{% endblocktranslate %}</b></p>
+</div>
+
+
+<table style="padding: 0 20px;">
+  <tr>
+    <td style="vertical-align: top; width: 50%;">
+      _________________________________________<br>
+      {% blocktranslate %}Ort, Datum - durch Ärztin/Arzt einzutragen{% endblocktranslate %}
+    </td>
+    <td style="vertical-align: top; width: 50%;">
+      _________________________________________<br>
+      {% blocktranslate %}Unterschrift Ärztin/Arzt{% endblocktranslate %} {% blocktranslate %}[Vor- und Nachname]{% endblocktranslate %}
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td style="padding-top: 35px">
+      _________________________________________<br>
+      {% blocktranslate %}Name Ärztin/Arzt in Druckbuchstaben{% endblocktranslate %}
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,16 @@
+{% extends "mediforms/emails/base.txt" %}
+
+
+{% block video %}
+Bitte schauen Sie sich vor dem Aufklärungsgespräch mit unseren Ärzten/Ärztinnen folgendes Video zu den Stimulationsmethoden TMS, tDCS und tsDCS an:
+https://www.cbs.mpg.de/stimulation-info
+Benutzername: stimulation
+Passwort: stimulation
+{% endblock %}
+
+
+{% block links %}
+Informationen zum Untersuchungsablauf - {{ host }}{% url 'information-text' 'tms' %}
+Einwilligung zur Speicherung meiner Daten - {{ host }}{% url 'data-storage-consent' 'tms' %}
+Einwilligung zur Magnetresonanz-Untersuchung - {{ host }}{% url 'exploration-consent' 'tms' %}
+{% endblock %}
