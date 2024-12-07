@@ -1,0 +1,158 @@
+Metadata-Version: 2.1
+Name: camden-registration-api
+Version: 1.1.1
+Summary: client for interracting with camden website using api
+Home-page: https://github.com/polovinko1980/camden-registration-api
+License: MIT
+Author: Alex Polovinko
+Author-email: alex.polovinko@gmail.com
+Maintainer: Alex Polovinko
+Maintainer-email: alex.polovinko@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: pytz (>=2024.2,<2025.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Project-URL: Repository, https://github.com/polovinko1980/camden-registration-api
+Description-Content-Type: text/markdown
+
+# Camden Registration MicroService
+
+
+## About
+
+Service to use wrapper on requests api
+to simulate user actions
+on the Camden Activity Registration portal
+
+
+## Running environment
+
+Python > 3.9
+
+
+
+# Running python code
+
+
+To install:
+
+```
+pip3 install camden_registration_api
+
+```
+
+And create your own runner file ```my_camden.py``` like below:
+
+```
+from camden_registration_api import CamdenClient
+
+api_client = CamdenClient(
+        login=<your login>,
+        password=<your password>,
+        activity_id=120589,
+    )
+
+# to run test registration
+api_client.test()
+
+
+# to run actual registration
+api_client.register()
+```
+
+Then execute as normal python code:
+
+```python3 my_camden.py```
+
+
+# Running containerized application
+
+## Using localhost Docker runtime
+
+- Build:
+
+```
+docker build -t polovinko1980/camden-registration:develop.latest -f camden.DockerFile .
+
+```
+
+Create ```docker.env``` file with MongoDB credentials and trigger:
+
+```
+docker run -d --name camden-registration --env-file docker.env polovinko1980/camden-registration:develop.latest python camden_registration_runner.py
+
+```
+
+## Using AWS cloud resources
+
+- Navigate to terraform folder
+
+- Execute:
+
+```
+terraform apply -auto-approve
+```
+
+Note: you need to have secrets manager configured o
+n your account with credentials to connect to datasource (mongoDB).
+
+Using other datasources like FB messenger or telegram WIP still.
+
+
+
+- connect to instance and check:
+
+```
+cat /var/log/cloud-init-output.log
+
+sudo docker ps
+
+sudo docker logs <container_id>
+```
+
+- After job is done, clean up:
+
+```
+terraform destroy -auto-approve
+```
+
+## Using local python runtime
+
+- Install dependencies:
+
+```
+pip3 install -r requirements.txt
+
+```
+
+- Make sure environmental variables to connect to mongo are setup
+
+
+- Run:
+
+```
+python3 camden_registration_runner.py
+
+python3 camden_registration_runner.py --force
+
+python3 camden_registration_runner.py --test
+
+```
+
+
+## Other
+
+To call Camden: 1-408-559-8553
+
+
+
+## Special ask
+
+Do not share with Alex K, let him train his fingers
+
