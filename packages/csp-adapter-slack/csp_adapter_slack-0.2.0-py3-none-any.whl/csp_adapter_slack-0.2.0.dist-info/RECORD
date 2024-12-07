@@ -1,0 +1,8 @@
+csp_adapter_slack/__init__.py,sha256=ra0C5usflKAD5tO-ck7bd1BdChQuex6Y7UsXC9sXSks,76
+csp_adapter_slack/adapter.py,sha256=21KnGE7eP68sGB63Fy3atG1BLRxIjxDRgQg6cW0dUhc,13650
+csp_adapter_slack/adapter_config.py,sha256=ltLdb9ESSz3O95xCfxKHMNoxDAHYjo07r4DwgGs4SYc,1221
+csp_adapter_slack/tests/test_adapter.py,sha256=OczVSohe9U4kp0OS9rEjUb9wvOgmcoswY4gGBSuSqpo,8524
+csp_adapter_slack-0.2.0.dist-info/METADATA,sha256=X63AjcpUqwxqsUccB3zkqlRBsAkvtupksZs9itCI6oY,15658
+csp_adapter_slack-0.2.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+csp_adapter_slack-0.2.0.dist-info/licenses/LICENSE,sha256=Dz904Ba4BFTsnLKU2nrCbcc8nqE1hZvaVDl_oOPueDE,11344
+csp_adapter_slack-0.2.0.dist-info/RECORD,,
