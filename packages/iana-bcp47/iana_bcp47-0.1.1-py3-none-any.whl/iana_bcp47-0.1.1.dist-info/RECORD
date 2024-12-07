@@ -1,0 +1,13 @@
+iana_bcp47/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iana_bcp47/bcp47.py,sha256=nhyhEUODYL247Dx2ZDsYT2JgBhQ0J-1dn7qcfpx2Pbo,231129
+iana_bcp47/fetcher.py,sha256=F2wDlgTxKPFM8vuqwwkEgRx9Mt7XCdVwkG0oDDJareg,4229
+iana_bcp47/validator.py,sha256=IOM64SWx5JOCF01E6Y8xtehBBbB_HRiW2Tvm01UuY7Q,1458
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/highfestiva_bcp47.py,sha256=hNG6EV_I772lgv3krqqLPX5qQ_QUspbj919mgppVP2U,29504
+test/readme_test.py,sha256=pm_5PW7ywaoLGg314vnPGr1Tue8AiaKrgC6tFEhSmgo,303
+test/simple_test.py,sha256=nH0rdIshRmSxW3Blsx-vksNhQhtxTnVZFyJr-O_Y1A4,680
+iana_bcp47-0.1.1.dist-info/LICENSE,sha256=19t_jHR5DMr-oNTZuLxowvAIQS8LT0hw8njt9oQocyU,1066
+iana_bcp47-0.1.1.dist-info/METADATA,sha256=cBkHslhY12pppjFGuwMbKtCABiB5Lxt9QeCkhL_rxvs,2392
+iana_bcp47-0.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+iana_bcp47-0.1.1.dist-info/top_level.txt,sha256=XVuK9lbppuupaUzNGRHXyZAUlfxMEMd67ZqLtnNpwR8,16
+iana_bcp47-0.1.1.dist-info/RECORD,,
