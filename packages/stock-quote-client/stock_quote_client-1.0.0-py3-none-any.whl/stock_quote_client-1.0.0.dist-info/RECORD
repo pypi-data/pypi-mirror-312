@@ -1,0 +1,9 @@
+stock/__init__.py,sha256=Cm8ECBcu2oaMJpxXdLHqMAqDQiZVLSkzskMPU7BnsOA,188
+stock/bin.py,sha256=iFLOH_l2GetVPL3F_bJgnOAEVMfR1xBm0MNWzondYp4,744
+stock/core.py,sha256=Cp74mgZHhODQjyuRrKvYElOqvJoNqseQY9GmzoWDHpo,2398
+stock/version.json,sha256=v-PEDG-N1SCllHf5aX53jU4DHlb1i5DYxmw5mB5M9BU,240
+stock_quote_client-1.0.0.dist-info/METADATA,sha256=7f7fjj9iaBnZg6tomwkChGwOSZ2tFhcvzd1fYH1BXs0,1203
+stock_quote_client-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+stock_quote_client-1.0.0.dist-info/entry_points.txt,sha256=GdJs09xnY2AcwpkjGoncfII6cuzmBAtegdUpCCFeirQ,62
+stock_quote_client-1.0.0.dist-info/top_level.txt,sha256=OUkkYi37pjAD47DrS99pbHPHHlXIPBLVp06HoxyUR3k,6
+stock_quote_client-1.0.0.dist-info/RECORD,,
