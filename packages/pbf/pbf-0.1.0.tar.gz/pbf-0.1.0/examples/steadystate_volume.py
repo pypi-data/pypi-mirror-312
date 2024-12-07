@@ -1,0 +1,47 @@
+import pbf, numpy as np, matplotlib.pyplot as plt
+
+units = pbf.units
+
+IN625 = pbf.makeMaterial("IN625")
+# IN625 = pbf.readMaterialFile("materials/IN625.json")
+
+laserD4Sigma = 170 * units.um
+laserSpeed = 800 * units.mm / units.s
+laserPower = 180 * units.W
+absorptivity = 0.32
+layerThickness = 0.0 * units.um
+
+x0 = 0.25 * units.mm
+x1 = 0.75 * units.mm
+dur = (x1 - x0) / laserSpeed
+
+elementSize = 16 * units.um
+#elementSize = 0.1 * laserD4Sigma
+
+laserTrack = [pbf.LaserPosition(xyz=[x0, 0.0 * units.mm, layerThickness], time=0.0 * units.s, power=laserPower),
+              pbf.LaserPosition(xyz=[x1, 0.0 * units.mm, layerThickness], time=dur, power=laserPower)]
+
+# Setup beam shape
+laserBeam = pbf.gaussianBeam(sigma=laserD4Sigma / 4, absorptivity=0.32)
+heatSource = pbf.volumeSource(laserTrack, laserBeam, depthSigma=0.28 * laserD4Sigma / 4)
+
+# Setup problem
+domainMin = [0.0 * units.mm, -0.3 * units.mm, -0.2 * units.mm]
+domainMax = [1.0 * units.mm, 0.3 * units.mm, layerThickness]
+
+filebase = "outputs/steadystate_volume"
+grid = pbf.createMesh(domainMin, domainMax, elementSize, layerThickness, zfactor=0.5)
+
+# setup process simulation
+setup = pbf.ProcessSimulation(grid=grid, material=IN625)
+
+tsetup = pbf.ThermalProblem(setup)
+tsetup.addPostprocessor(pbf.thermalVtuOutput(filebase))
+# tsetup.addPostprocessor(pbf.meltPoolContourOutput(filebase))
+tsetup.addPostprocessor(pbf.meltPoolBoundsPrinter())
+tsetup.addDirichletBC(pbf.temperatureBC(1, setup.ambientTemperature))
+tsetup.addSource(heatSource)
+
+tstate = pbf.makeThermalState(tsetup, grid, time=dur)
+
+pbf.computeSteadyStateThermal(tsetup, tstate, [laserSpeed, 0, 0])
