@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: haai
+Version: 0.0.1
+Summary: Circling the waters for now
+Author-email: "wouter.durnez" <wouter.durnez@gmail.com>
+License: MIT
+Project-URL: homepage, https://github.com/WouterDurnez/haai
+Project-URL: repository, https://github.com/WouterDurnez/haai
+Project-URL: documentation, https://github.com/WouterDurnez/haai
+Keywords: haai
+Requires-Python: <4.0,>=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.32.3
