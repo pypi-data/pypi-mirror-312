@@ -1,0 +1,9 @@
+selanneal/__init__.py,sha256=hHZzMj3cZHLcNKBMQxwp-NBacb5pJ5bMUIJGqDaiUqc,125
+selanneal/annealing.py,sha256=A3Z92_GkNhZGEWQWw_CZGhMac8MHBPMil77Kv-i7L80,16486
+selanneal/optimise.py,sha256=DhBrbXLzuedLCgu8FSj8GEbo7WVHj9LKkifqgTxa3As,16263
+selanneal/utils.py,sha256=cqrMlSdM8dk1mACGO4khC3MNmu5gyozdNiczdgAFV_4,817
+selanneal-0.0.4.dist-info/LICENSE,sha256=CiwRCCPJdp3uOMMQd1fSb6o5DB3TiA56DnFnPSwCxMk,1073
+selanneal-0.0.4.dist-info/METADATA,sha256=RWse717oo0l1R0LLIXJpn6n6FL5RapvRMyrsnH76DrE,2184
+selanneal-0.0.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+selanneal-0.0.4.dist-info/top_level.txt,sha256=UcDeyBOsl_8NYuuR0jm229iCQIODC_4BWLXQ3G_ZWxE,10
+selanneal-0.0.4.dist-info/RECORD,,
