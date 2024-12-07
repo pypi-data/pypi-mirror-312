@@ -1,0 +1,9 @@
+bgen-1.7.3.dist-info/top_level.txt,sha256=EoVKryxjZc0vkwDWjnOK0IP3dN4fg8YiKIkBcWB9pqw,5
+bgen-1.7.3.dist-info/RECORD,,
+bgen-1.7.3.dist-info/LICENSE.txt,sha256=8xqsNFTZC7SFBJM4k6bQw8tPn0zUKQJpZwdY6zSFBW0,1053
+bgen-1.7.3.dist-info/METADATA,sha256=Y58KdDV9BuAM7sRxz9mDNFxU9QdxKRRHHMYROqgfg3Y,6827
+bgen-1.7.3.dist-info/WHEEL,sha256=Kn109NXuT8KgFUFBR7C2ZbCThqiQvDDPWZsf0xScqBs,147
+bgen/reader.cpython-38-x86_64-linux-gnu.so,sha256=30I0i8F_JGXK7bbIlkJRWaHkF5zAiKVcT9Azr_jqiGc,4922768
+bgen/writer.cpython-38-x86_64-linux-gnu.so,sha256=CaZJuAQIo9w8YhM-YsZgRqoqw80tjfbYNsEBi01TDA0,3372808
+bgen/__init__.py,sha256=YOTi27jSf2JtXYxFaZaX-O3_DN6bbgikoEZNMrQ-5zY,170
+bgen/index.py,sha256=djXqwSVpo8fDFgiABSO2xfbPecC9xu5WudGTVkuvZco,3789
