@@ -1,0 +1,2 @@
+fastpath>=1.3
+genbank>=0.119
