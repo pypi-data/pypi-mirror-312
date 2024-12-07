@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gputils-api
+Version: 1.7.0rc2
+Summary: Python API for GPUtils
+Home-page: https://github.com/GPUEngineering/GPUtils
+Author: ['Pantelis Sopasakis', 'Ruairi Moran']
+Author-email: p.sopasakis@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Keywords: api,GPU
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha 
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: setuptools
+
+
+## GPUtils API
+
+todo
+
