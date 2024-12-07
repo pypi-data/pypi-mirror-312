@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: lstm-dl-model
+Version: 1.0.0
+Summary: long short term memory 'lstm' model predicts future market peices
+Project-URL: Homepage, https://github.com/osama-dev-repo/ibkr-engine
+Project-URL: Issues, https://github.com/osama-dev-repo/ibkr-engine/issues
+Author: OSAMA
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+long short term memory 'lstm' model predicts future market peices

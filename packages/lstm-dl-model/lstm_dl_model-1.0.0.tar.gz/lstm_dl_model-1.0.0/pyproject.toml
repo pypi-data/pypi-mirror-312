@@ -1,0 +1,22 @@
+[build-system]
+requires        = ["hatchling"]
+build-backend   = "hatchling.build"
+
+[project]
+name            = "lstm-dl-model"
+version         = "1.0.0"
+authors         = [
+  { name="OSAMA", email="" },
+]
+description     = "long short term memory 'lstm' model predicts future market peices"
+readme          = "README.md"
+requires-python = ">=3.12"
+classifiers     = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage        = "https://github.com/osama-dev-repo/ibkr-engine"
+Issues          = "https://github.com/osama-dev-repo/ibkr-engine/issues"
