@@ -1,0 +1,13 @@
+ooga_booga_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ooga_booga_python/client.py,sha256=HLJT1xOoZoKRbEsMFykivD5G2FLV5LhBia3W0VzLvBA,9016
+ooga_booga_python/constants.py,sha256=-qX32Rxs8YC5BJK1R70eWGEEBpslAz1Twcdjito_RVo,65
+ooga_booga_python/custom_logger.py,sha256=6b-jowLywfpMIguso7yb5DuVz41V5gEJlA6OdtUIysY,1251
+ooga_booga_python/exceptions.py,sha256=MzTqjjeW-PeLptxQyA_-XhxUrcm3vSEzf92TgahigM4,1461
+ooga_booga_python/models.py,sha256=LNd-6sUDQlgis2D4Q4tofCySP-TNPd_P0KcpLYdOnzU,6946
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/asd.py,sha256=8KWIO8_UG1SH_wAnUeARo2tyORWYjJjr95IC0MGacac,520
+tests/client_test.py,sha256=hxCzECKgRyGOIPMz9MfZ4sKH4TXcOV9yaEYH2LnVeII,3061
+Ooga_Booga_Python-0.0.3.dist-info/METADATA,sha256=iGM_YfLhZ0sLok39tR9pYyCbk_UfnhwaKVtgUf7rXWQ,6980
+Ooga_Booga_Python-0.0.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+Ooga_Booga_Python-0.0.3.dist-info/top_level.txt,sha256=6e-bhjBQvfk3iSvwwai8sWJgi-O1wjIFfnZFpaBgn1U,24
+Ooga_Booga_Python-0.0.3.dist-info/RECORD,,
