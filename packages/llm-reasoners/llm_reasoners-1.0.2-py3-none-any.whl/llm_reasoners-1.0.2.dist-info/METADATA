@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: llm-reasoners
+Version: 1.0.2
+Summary: A library for advanced reasoning methods with large language models
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: fire
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: torch
+Requires-Dist: datasets
+Requires-Dist: huggingface_hub
+Requires-Dist: transformers
+Requires-Dist: sentencepiece
+Requires-Dist: openai
+Requires-Dist: tarski
+Requires-Dist: peft
+Requires-Dist: optimum
+Requires-Dist: ninja
+Requires-Dist: bitsandbytes
+Requires-Dist: fairscale
+Requires-Dist: google-generativeai
+Requires-Dist: anthropic
