@@ -1,0 +1,61 @@
+[package]
+name = "committed"
+version = "1.1.2"
+description = "Nitpicking commit history since beabf39"
+documentation = "https://docs.rs/committed"
+readme = "../../README.md"
+categories = ["development-tools", "text-processing"]
+keywords = ["development"]
+license.workspace = true
+repository.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+include.workspace = true
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs", "--generate-link-to-definition"]
+
+[package.metadata.release]
+tag-prefix = ""
+pre-release-replacements = [
+  {file="../../CHANGELOG.md", search="Unreleased", replace="{{version}}", min=1},
+  {file="../../CHANGELOG.md", search="\\.\\.\\.HEAD", replace="...{{tag_name}}", exactly=1},
+  {file="../../CHANGELOG.md", search="ReleaseDate", replace="{{date}}", min=1},
+  {file="../../CHANGELOG.md", search="<!-- next-header -->", replace="<!-- next-header -->\n## [Unreleased] - ReleaseDate\n", exactly=1},
+  {file="../../CHANGELOG.md", search="<!-- next-url -->", replace="<!-- next-url -->\n[Unreleased]: https://github.com/crate-ci/committed/compare/{{tag_name}}...HEAD", exactly=1},
+  {file="../../action/entrypoint.sh", search="VERSION=.*", replace="VERSION={{version}}", min=1},
+  {file="../../README.md", search="rev: .*", replace="rev: {{tag_name}}", exactly=1},
+  {file="../../setup.py", search="COMMITTED_VERSION = .*", replace="COMMITTED_VERSION = '{{version}}'", exactly=1},
+]
+
+[dependencies]
+regex = "1.10"
+once_cell = "1.19.0"
+git-conventional = "0.12"
+unicase = "2.7.0"
+anyhow = "1.0"
+git2 = { version = "0.19", default-features = false }
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.8"
+unicode-segmentation = "1.11.0"
+log = "0.4"
+env_logger = "0.11.3"
+clap-verbosity-flag = "3.0"
+colorchoice-clap = "1.0.3"
+grep-cli = "0.1"
+imperative = "1.0.5"
+derive_more = { version = "1.0.0", features = ["from", "display"] }
+itertools = "0.13.0"
+proc-exit = "2.0"
+human-panic = "2.0.0"
+anstream = "0.6.13"
+anstyle = "1.0.6"
+
+[dev-dependencies]
+snapbox = { version = "0.6.19", features = ["cmd", "path"] }
+
+[lints]
+workspace = true
