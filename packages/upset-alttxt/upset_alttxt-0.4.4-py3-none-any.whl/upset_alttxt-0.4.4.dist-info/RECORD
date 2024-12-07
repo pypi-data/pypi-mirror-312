@@ -1,0 +1,15 @@
+alttxt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alttxt/__main__.py,sha256=qvHjO6ZfcJm3dciHhw41ByvH-hUvMLXriX32ePKaVqc,2407
+alttxt/enums.py,sha256=EV_R6TxXTJsm4Twq7A-fuXwL_tZWCPRHjnkhWOgVz20,3243
+alttxt/generator.py,sha256=nglCEV2DxejB5gPLPsKLWrKEP9jTTiYZHzOZjoF7Y3o,7532
+alttxt/glossary.py,sha256=-tHaHuGv-RdgUvGEsmlhkl0R6xMDttNgULdsouDXom4,1395
+alttxt/models.py,sha256=jjQUPcYgSOKT68_LDXRBiNlLiKwCKOmb181tSKEH2E4,1983
+alttxt/parser.py,sha256=wFagQW4vOtuebz6sdyk1RnPiFXqqxmukpJDC8gU_ZYc,14096
+alttxt/phrases.py,sha256=dJEedwAvigSFyuP6r-ouMNAvce-H8U-8c_4rECbcisA,6973
+alttxt/regionclass.py,sha256=jVCkDR4wqPcLRmc4DQImBq5vgcDsInNxXyCQjaHuplg,552
+alttxt/tokenmap.py,sha256=m0I6kz1ZV-Xnt8qsx01XqnMmGljoZsM9-KsxLty2Z3I,54495
+upset_alttxt-0.4.4.dist-info/LICENSE,sha256=Ez7-zLv4cUcDqCQOGG7BGjJkoRslZlIpNevQAXQwr5w,1532
+upset_alttxt-0.4.4.dist-info/METADATA,sha256=_E6U2UK8-NX3a7Ws-PBIh1fXwdToG89N8F505q3z658,4002
+upset_alttxt-0.4.4.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+upset_alttxt-0.4.4.dist-info/top_level.txt,sha256=ZOdx7DqQdqdGy3gRW8v1aAanzs4hpezUXEzMxu6IlTQ,7
+upset_alttxt-0.4.4.dist-info/RECORD,,
