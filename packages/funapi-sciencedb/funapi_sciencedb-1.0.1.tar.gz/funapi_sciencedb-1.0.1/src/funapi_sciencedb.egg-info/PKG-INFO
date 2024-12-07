@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: funapi-sciencedb
+Version: 1.0.1
+Summary: Add your description here
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: funutil>=1.0.42
+
+# funapi-sciencedb
