@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: bidplotter
+Version: 0.6
+Summary: A library for predicting auction prices and visualizing bidding progress.
+Home-page: https://github.com/Priya-1110/bidplotter
+Author: Priya Shanmugam
+Author-email: priyashan112002@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+
+
+                                                    __________.__    .___      .__          __    __                
+                                                    \______   \__| __| _/_____ |  |   _____/  |__/  |_  ___________ 
+                                                     |    |  _/  |/ __ |\____ \|  |  /  _ \   __\   __\/ __ \_  __ \
+                                                     |    |   \  / /_/ ||  |_> >  |_(  <_> )  |  |  | \  ___/|  | \/
+                                                     |______  /__\____ ||   __/|____/\____/|__|  |__|  \___  >__|   
+                                                            \/        \/|__|                               \/       
+
+
+
+**BidPlotter** is a Python-based library that calculates predicted final auction prices, simulates bidding progression, and generates real-time bidding progression visualizations. It’s a perfect tool for auction platforms and enthusiasts to analyze and predict bidding outcomes effectively.
+
+**Key Features **:
+
+Predict the final auction price based on starting price, bid increment, and auction duration.
+Simulate bidding activity over a specified timeframe.
+Generate and save bidding progression visualizations.
+Lightweight and easy to integrate into Python applications.
+
+**Installation** : 
+ 
+pip install bidplotter
+
