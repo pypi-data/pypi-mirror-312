@@ -1,0 +1,10 @@
+herd_python/__init__.py,sha256=ib9UQgxjc1NHw3ThaTNj5exlx8frsputhE75xXLftEs,30
+herd_python/client.py,sha256=XBAQmDmTQuRlcQEkQh3rBRvzsFWb7SU9dWXIguLwzdk,3767
+herd_python/keyvaluestore_pb2.py,sha256=An_i1OaDWUdMoc9JE7BSmFsnI7V3Jhavmz4W2D2OayA,4376
+herd_python/keyvaluestore_pb2_grpc.py,sha256=lFz1ztz0SScy0Lb4H_2F5TG83NR1Wy7yIpG-KSYY7Uw,14412
+herd_python/latencytesting.py,sha256=K8ILayT4wXpGFW5zgz2Tel6F6j6tkE6GqMPFu2-CFhY,1465
+herd_python/test.py,sha256=l8_xuMbwK38e835jxggM_-AQCa_-d98qQs7h70EpTbM,93
+herd_python-0.1.13.dist-info/METADATA,sha256=1m7yfsQGMrtHH9ZLKT1fEe9Pw783wCjU55AGNjsm0nw,311
+herd_python-0.1.13.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+herd_python-0.1.13.dist-info/top_level.txt,sha256=doVLafCRC-JeYtgRP_whqFYIKxCAES-JN0O1A_8ArQQ,12
+herd_python-0.1.13.dist-info/RECORD,,
