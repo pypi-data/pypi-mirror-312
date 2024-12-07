@@ -1,0 +1,9 @@
+mybatis/__init__.py,sha256=iofe6ojOupbUVe9UDZv5ZpaVJ8J0V8MQ7pLRGnMFv0k,41
+mybatis/mapper_manager.py,sha256=UvsipNqx8imtFTljCRdpeMBoq2WdSnshDeSpFzNV5N4,4962
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_mapper_manager.py,sha256=2FGzDG8UTFekNiFhJgslYX7fBBP3i6Qf0e7PEj6fhxw,1896
+mybatis-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mybatis-0.0.1.dist-info/METADATA,sha256=mrBbx3mizwP6abxPKt3OrfG01d-gV6eqyFOD15p2S0U,478
+mybatis-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+mybatis-0.0.1.dist-info/top_level.txt,sha256=Jd3Qdt0MZewjvIGD4Vp4Xc0ZepcfLw1r12WnlnrnjMA,13
+mybatis-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mybatis
+Version: 0.0.1
+Summary: A python ORM like mybatis.
+Home-page: https://github.com/ralgond/mybatis-py
+Author: Teng Huang
+Author-email: ht201509@163.com
+License: Apache-2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mybatis-py
+A python ORM like mybatis.
