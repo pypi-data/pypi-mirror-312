@@ -1,0 +1,14 @@
+[project]
+name = "yamlbrew"
+version = "0.1.0"
+description = "Yamlbrew is a tool that makes it easy to generate better synthetic data"
+readme = "README.md"
+authors = [
+    { name = "Ivan Leo", email = "ivanleomk@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
