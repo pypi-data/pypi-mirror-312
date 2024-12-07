@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lsme
+Version: 0.1.0
+Summary: One-loop matching data for the linear SM extensions
+Home-page: https://github.com/johngarg/lsme
+Author: John Gargalionis
+Author-email: john.gargalionis@gmail.com
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
