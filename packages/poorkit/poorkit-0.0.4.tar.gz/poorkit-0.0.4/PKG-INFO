@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: poorkit
+Version: 0.0.4
+Summary: A programmer's personal tool collection.
+Home-page: https://github.com/huxulm/poorkit
+License: MIT
+Author: Huxulm
+Author-email: huxulm@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Description-Content-Type: text/markdown
+
+# Poorkit
+
+A programmer's personal tool collection. It provides a set of utilities and helpers to make common tasks easier and more efficient.
+
+## Features
+
+- **Lightweight**: Minimal dependencies to keep your project lean.
+- **Easy to Use**: Simple and intuitive API.
+- **Extensible**: Easily add your own utilities and helpers.
+
+## Installation
+
+To install Poorkit, use pip:
+
+```bash
+pip install poorkit
+```
+
+## Usage
+
+Here is a basic example of how to use Poorkit:
+
+```shell
+pk file create --name "README.md" --content "Hi, poorkit!"
+```
+
+## Contributing
+
+We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, please open an issue on GitHub.
+
