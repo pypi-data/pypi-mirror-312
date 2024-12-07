@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: insta360-lib
+Version: 0.2.5
+Summary: insta360 算法库调用封装库
+Home-page: https://gitlab.insta360.com/test2/production-testing-tools/insta360_lib.git
+Author: rain
+Author-email: chenrunming@insta360.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: loguru
+
+# insta360-gfpt
+
+浜ф祴SDK璋冪敤
+鍒涘缓浜ф祴椤圭洰妗嗘灦
+
+## Installation
+
+```sh
+pip install insta360_lib
