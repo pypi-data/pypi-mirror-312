@@ -1,0 +1,2 @@
+include OpenDrive/modules/perception/trained_models/objects_detection/yolov8n.pt
+include OpenDrive/modules/perception/trained_models/traffic_sign_detection/signDetection.pt
