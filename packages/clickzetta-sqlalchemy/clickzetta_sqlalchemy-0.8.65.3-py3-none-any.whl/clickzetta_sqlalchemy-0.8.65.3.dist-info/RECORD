@@ -1,0 +1,13 @@
+sqlalchemy_clickzetta/__init__.py,sha256=K8LA9khBgRoIEx0xyHA-1OQ9d2y6Zzm5TzXxr30HUz8,499
+sqlalchemy_clickzetta/_connector.py,sha256=1LY8NdRkVfJmbybmMjmewgWnzIPgBz4zUUjpNY0Eqts,430
+sqlalchemy_clickzetta/_helpers.py,sha256=Sf6RXz0ejDOEv5sBVU5NgGnjI4WEXtfMrOH0adpUPLg,1158
+sqlalchemy_clickzetta/_types.py,sha256=4HJCluSBUBMSDdIOkBb0U7kLuUIZcGJ6HNCklUj5zDk,1634
+sqlalchemy_clickzetta/base.py,sha256=uFlLCxHAaKchz57K0xbsvICgzk_GIGdsxpgPD6e-2tI,20337
+sqlalchemy_clickzetta/parse_url.py,sha256=D65j004BINcxOjKecQaL0WnmhVjKt6XUASWlSymTdJo,2375
+sqlalchemy_clickzetta/requirements.py,sha256=Xdx8wzikjX218HKk0jU7cMj-sgYOxqaL0Mww4nQH46U,2742
+sqlalchemy_clickzetta/version.py,sha256=zYluE7T90T9x2Ax4AyEZKAc4NFXJCorg_Q-eJab6H2k,24
+clickzetta_sqlalchemy-0.8.65.3.dist-info/METADATA,sha256=0L4e0auQyhk0Wzdavctp4CXeTMmKGG9P7jtNZjSPqEw,1614
+clickzetta_sqlalchemy-0.8.65.3.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+clickzetta_sqlalchemy-0.8.65.3.dist-info/entry_points.txt,sha256=_Nc-TzI3_SwyUX1EHRuapG02J8NUq2TiwIm5dl7lw-k,75
+clickzetta_sqlalchemy-0.8.65.3.dist-info/top_level.txt,sha256=02huQXpbuNdyBpa96HHzfFq7KOEHgwMcrxfFFjsIWBE,22
+clickzetta_sqlalchemy-0.8.65.3.dist-info/RECORD,,
