@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: wsidata
+Version: 0.2.0
+Dynamic: Summary
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Requires-Dist: opencv-python
+Requires-Dist: openslide-python
+Requires-Dist: rich
+Requires-Dist: spatialdata>=0.2.6
+Requires-Dist: tiffslide
+Provides-Extra: all
+Requires-Dist: torch; extra == 'all'
+Requires-Dist: torchstain; extra == 'all'
+Requires-Dist: torchvision; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: hatchling; extra == 'dev'
+Requires-Dist: myst-nb; extra == 'dev'
+Requires-Dist: numpydoc; extra == 'dev'
+Requires-Dist: pydata-sphinx-theme; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Requires-Dist: sphinx-copybutton; extra == 'dev'
+Requires-Dist: sphinx-design; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# wsidata
+
+<p align="center">
+    <picture align="center">
+    <img src="https://raw.githubusercontent.com/rendeirolab/wsidata/main/assets/logo.svg" width="100px">
+    </picture>
+</p>
+<p align="center">
+  <i>Efficient data structures and IO for whole slide images analysis</i>
+</p>
+
+
+## Installation
+
+```bash
+pip install wsidata
+```
