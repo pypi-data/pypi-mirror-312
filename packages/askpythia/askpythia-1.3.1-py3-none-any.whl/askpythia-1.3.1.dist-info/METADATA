@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: askpythia
+Version: 1.3.1
+Summary: AI Hallucination tool including basic validators
+Home-page: https://wisecube.atlassian.net/wiki/spaces/OR/pages/147128324/AI+Hallucination+API+Pythia
+Author: Wisecube.ai
+Author-email: info@wisecube.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3 (~=1.35.44)
+Requires-Dist: litellm (==1.52.6)
+Requires-Dist: openai (>=1.54.0)
+Requires-Dist: tqdm (~=4.66.5)
+Requires-Dist: pydantic (~=2.9.2)
+Requires-Dist: typing-extensions (==4.12.2)
+Requires-Dist: numpy (==1.23.2)
+Requires-Dist: llm-guard (==0.3.14)
+
+# wisecube-pythia
+
+## As a library
+You can install the project as a library from github
+```commandline
+pip install git+https://github.com/wisecubeai/wisecube-pythia
+```
+or if you don't have the git configure use the token
+```
+pip install git+https://<GIT_TOKEN>@github.com/wisecubeai/wisecube-pythia
+```
+
+**Also is required to have the `OPENAI_API_KEY` set as an env variable**
+
+Usage
+```python
+from pythia.ai_hallucination import ask_pythia
+
+ref = ["ref1", "ref1"]
+resp = "response"
+question = "question"
+
+pythia_response = ask_pythia(input_reference=ref, input_response=resp, question=question
+print(pythia_response)
+```
+
+## As a Rest API
+### Docker build 
+```
+docker build -t wisecube-pythia .
+```
+
+### Docker run
+```commandline
+docker run -p 8085:8085 --name wiscube-pythia -e OPENAI_API_KEY=<KEY> public.ecr.aws/u9o1b9m6/wisecube-pythia:latest
+```
+
