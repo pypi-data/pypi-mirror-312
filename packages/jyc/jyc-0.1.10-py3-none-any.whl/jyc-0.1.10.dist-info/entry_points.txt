@@ -1,0 +1,3 @@
+[console_scripts]
+jyc=app:main
+
