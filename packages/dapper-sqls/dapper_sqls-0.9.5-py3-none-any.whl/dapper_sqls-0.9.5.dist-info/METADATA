@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dapper-sqls
+Version: 0.9.5
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Samuel Semedo
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: annotated-types ==0.7.0
+Requires-Dist: pydantic ==2.10.2
+Requires-Dist: pydantic-core ==2.27.1
+Requires-Dist: pyodbc ==5.2.0
+Requires-Dist: typing-extensions ==4.12.2
+
+UNKNOWN
+
