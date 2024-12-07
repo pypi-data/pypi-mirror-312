@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools==70.0.0","pandas==2.2.3","phidata==2.5.30","openai==1.54.3","tqdm==4.67.0","anthropic==0.40.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parse_me"
+version = "0.2.0"
+authors = [
+  { name="Tomer Sagi", email="tsagi@cs.aau.dk" }, { name="Sinai Rusinek", email="sinai.rusinek@gmail.com" },
+    { name="Moran Zaga", email="mzaga@Staff.haifa.ac.il" }
+]
+description = "An AI-backed name parsing package for Middle-Eastern and Other languages. \n To use, one must set an environment variable named OPENAI_API_KEY with one's own OpenAI API key or ANTHROPIC_API_KEY for an Anthropic key. \n The package was developed as part of the MEHDIE project- https://mehdie.org/. \n MEHDIE is funded by the Israel Ministry of Science and Technology (MOST)."
+
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { file="LICENSE.txt" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://mehdie.org/"
+"Bug Tracker" = "https://gitlab.com/m8417/mehdie-arabic-name-parser/-/issues"
+
+[tool.setuptools.packages.find]
+exclude = ["venv2", "venv2.*", "venv", "venv.*", ]

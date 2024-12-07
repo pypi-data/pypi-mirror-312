@@ -1,0 +1,49 @@
+# MEHDIE Arabic Name Parser
+
+This is an AI-backed name parser that parses names into their constituent parts. The parser employs an Open-AI GPT Chat  
+model that is prompted with explanations on how to parse names of the specific chosen language, script and sometimes
+historical period. The GPT model is also given a langauge and script specific example. 
+The response is parsed into a structured response by the phi.agent framework and some post-processing rules are applied 
+to handle some of the common mistakes the agent makes.  
+
+The parser was developed as part of the MEHDIE project- https://mehdie.org/. <img src="https://gitlab.com/m8417/hebrew-transliteration-service/-/raw/main/mehdie_logo.png" alt="the mehdie logo is a line-drawn M in several similar lines symbolizing the similarity and distincness of the middle-eastern languages" width="100"/>)
+
+MEHDIE is funded by the Israel Ministry of Science and Technology [MOST](www.most.gov.il). <img src="https://gitlab.com/m8417/hebrew-transliteration-service/-/raw/main/menora.png" alt="The symbol of the state of Israel, a Menora with two olive branches on the sides." width="80"/>) 
+
+
+## Usage
+The parser can be used to parse a single name or a given tab-seperated file containing names. 
+
+### Set up
+
+1. Choose which language and script to parse from. Supported language-script combinations can be shown by running: `print(parse.get_supported_languages())`
+2. Choose an AI model to use. The model string needs to be one of the valid models specified in the [OpenAI API](https://platform.openai.com/docs/models) or the [Anthropic API](https://docs.anthropic.com/en/docs/about-claude/models).
+3. Set an environment variable for your chosen AI provider's API key (e.g. `export OPENAI_API_KEY=your-api-key` or `export ANTHROPIC_API_KEY=your-api-key`). 
+
+### Parsing a single name
+
+```
+from parse_me.parse import parse_name
+
+result = parse_name(name="Abū Ayyūb Sulaymān b. Yaḥyā b. Ǧabīrūl al-Qurṭubī", language="arL",
+                    background_info="A fighter and a poet", model_name="gpt-o1-mini")
+```
+
+Use the `background_info` parameter to provide additional context that can help the parser understand the name better.
+Use the `model_name` parameter to specify the AI model to use, e.g. `gpt-4o` or `claude-3-5-sonnet-latest`. 
+This model should match the API key you have set up.
+
+### Parsing a file with names
+
+```
+from parse_me.parse import parse_tsv
+
+result_file = parse_tsv(tsv_file='/data/names.tsv', column_name='person_name', language='he', background_column_name='description',
+              model_name='gpt-4o')
+```
+
+## Contributing
+
+We invite users to contribute new prompts and examples for existing and new languages, scripts and historical periods. 
+Just edit the parsing_prompts and open a pull request or open an issue with suggested additional post-processing rules 
+or encountered mistakes the parser made. 

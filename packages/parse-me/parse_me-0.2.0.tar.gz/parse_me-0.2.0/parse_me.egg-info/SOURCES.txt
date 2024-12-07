@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+parse_me/__init__.py
+parse_me/name_parsing_agent.py
+parse_me/name_parsing_prompts.py
+parse_me/parse.py
+parse_me/test_package.py
+parse_me.egg-info/PKG-INFO
+parse_me.egg-info/SOURCES.txt
+parse_me.egg-info/dependency_links.txt
+parse_me.egg-info/top_level.txt
+test/convert_tsv.py
+test/test_parser.py
