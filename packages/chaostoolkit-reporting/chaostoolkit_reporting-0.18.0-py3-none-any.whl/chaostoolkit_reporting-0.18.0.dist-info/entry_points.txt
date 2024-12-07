@@ -1,0 +1,7 @@
+[chaostoolkit.cli_plugins]
+report = chaosreport.cli:report
+
+[console_scripts]
+
+[gui_scripts]
+
