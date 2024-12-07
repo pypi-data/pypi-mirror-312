@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: BaseLogn
+Version: 1.0.0
+Summary: Reference classes for Syslog Levels and some standard groups of classifications for general use
+Author: Anderson
+Author-email: anderbytes@gmail.com
+Description-Content-Type: text/markdown
