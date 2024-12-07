@@ -1,0 +1,7 @@
+README.md
+setup.py
+SQLViaCode.egg-info/PKG-INFO
+SQLViaCode.egg-info/SOURCES.txt
+SQLViaCode.egg-info/dependency_links.txt
+SQLViaCode.egg-info/requires.txt
+SQLViaCode.egg-info/top_level.txt
