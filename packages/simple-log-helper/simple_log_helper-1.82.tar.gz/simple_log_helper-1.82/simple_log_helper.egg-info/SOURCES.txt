@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+simple_log_helper/__init__.py
+simple_log_helper/custom_logger.py
+simple_log_helper/logger_manager.py
+simple_log_helper.egg-info/PKG-INFO
+simple_log_helper.egg-info/SOURCES.txt
+simple_log_helper.egg-info/dependency_links.txt
+simple_log_helper.egg-info/top_level.txt
