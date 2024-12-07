@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: lime_internal_getter
+Version: 0.0.3
+Summary: Wrapper project of plotly.py, extra functionalities for scientific plots
+Project-URL: Homepage, https://gitlab.com/harisankar99/lime_internal_getter
+Project-URL: Issues, https://gitlab.com/harisankar99/lime_internal_getter/issues
+Author-email: Harisankar Suresh <harisankar.suresh@lime.ai>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: pandas>=2.2.3
+Description-Content-Type: text/markdown
+
+Test
