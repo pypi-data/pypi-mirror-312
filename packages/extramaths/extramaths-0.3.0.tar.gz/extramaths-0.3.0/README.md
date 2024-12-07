@@ -1,0 +1,86 @@
+# extramaths
+
+A Python package that simplifies calculations.
+
+Go to [https://pypi.org/project/extramaths/](https://pypi.org/project/extramaths/ "Download page") to install the package.
+
+[![Upload Python Package](https://github.com/WhenLifeHandsYouLemons/extramaths/actions/workflows/python-publish.yml/badge.svg)](https://github.com/WhenLifeHandsYouLemons/extramaths/actions/workflows/python-publish.yml)
+
+## Help Page
+
+This help page shows examples of how all the functions work, for a more in-depth help page, please refer to [https://github.com/WhenLifeHandsYouLemons/extramaths/wiki/Help](https://github.com/WhenLifeHandsYouLemons/extramaths/wiki/Help "Help page").
+
+### For Quadratics
+
+```python
+from extramaths import others
+```
+
+```python
+value1, value2 = other.quadratic(a, b, c)
+
+print(value1)
+print(value2)
+```
+
+### For Areas of 2D Shapes
+
+```python
+from extramaths import area
+```
+
+#### Square
+
+```python
+area_of_square = area.square(length)
+
+print(area_of_square)
+```
+
+#### Rectangle
+
+```python
+area_of_rectangle = area.rectangle(height, width)
+
+print(area_of_rectangle)
+```
+
+#### Right-Angled Triangle
+
+```python
+area_of_right_angled_triangle = area.right_angle_triangle(base, height)
+
+print(area_of_right_angled_triangle)
+```
+
+#### Non Right-Angled Triangle
+
+```python
+area_of_non_right_angled_triangle = area.triangle(a, b, C)
+
+print(area_of_non_right_angled_triangle)
+```
+
+#### Rhombus
+
+```python
+area_of_rhombus = area.rhombus(D, d)
+
+print(area_of_rhombus)
+```
+
+#### Trapezoid
+
+```python
+area_of_trapezoid = area.trapezoid(a, b, height)
+
+print(area_of_trapezoid)
+```
+
+#### Circle
+
+```python
+area_of_circle = area.circle(r)
+
+print(area_of_circle)
+```
