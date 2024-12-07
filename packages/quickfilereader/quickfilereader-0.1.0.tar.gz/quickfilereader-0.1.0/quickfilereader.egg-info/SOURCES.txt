@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+quickfilereader/__init__.py
+quickfilereader.egg-info/PKG-INFO
+quickfilereader.egg-info/SOURCES.txt
+quickfilereader.egg-info/dependency_links.txt
+quickfilereader.egg-info/requires.txt
+quickfilereader.egg-info/top_level.txt
+tests/test_quickfilereader.py
