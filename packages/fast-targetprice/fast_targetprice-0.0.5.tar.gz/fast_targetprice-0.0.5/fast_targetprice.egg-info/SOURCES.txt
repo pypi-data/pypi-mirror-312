@@ -1,0 +1,12 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+fast_targetprice/__init__.c
+fast_targetprice/client.c
+fast_targetprice/idToItemName.pkl
+fast_targetprice/itemNameToId.pkl
+fast_targetprice.egg-info/PKG-INFO
+fast_targetprice.egg-info/SOURCES.txt
+fast_targetprice.egg-info/dependency_links.txt
+fast_targetprice.egg-info/requires.txt
+fast_targetprice.egg-info/top_level.txt
