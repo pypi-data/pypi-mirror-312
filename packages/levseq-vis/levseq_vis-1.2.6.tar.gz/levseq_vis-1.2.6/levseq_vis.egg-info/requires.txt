@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pandas
+sciutil
+seaborn
+holoviews
+ninetysix
+scikit-learn
+statsmodels
+tqdm
