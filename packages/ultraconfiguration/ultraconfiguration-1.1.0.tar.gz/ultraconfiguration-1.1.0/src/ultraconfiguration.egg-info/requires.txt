@@ -1,0 +1,18 @@
+pyyaml>=6.0
+jsonschema>=4.0.0
+aiofiles>=23.1.0
+asyncio>=3.4.3
+
+[:python_version < "3.8"]
+typing-extensions
+
+[dev]
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=22.0.0
+mypy>=0.900
+flake8>=4.0.0
+
+[docs]
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0

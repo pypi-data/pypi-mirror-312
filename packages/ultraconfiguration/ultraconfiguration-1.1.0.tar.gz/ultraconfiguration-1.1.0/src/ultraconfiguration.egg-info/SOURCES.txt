@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+README.rst
+setup.cfg
+setup.py
+src/ultraconfiguration/__init__.py
+src/ultraconfiguration/manager.py
+src/ultraconfiguration.egg-info/PKG-INFO
+src/ultraconfiguration.egg-info/SOURCES.txt
+src/ultraconfiguration.egg-info/dependency_links.txt
+src/ultraconfiguration.egg-info/requires.txt
+src/ultraconfiguration.egg-info/top_level.txt

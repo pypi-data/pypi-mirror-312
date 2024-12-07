@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ultraconfiguration
+Version: 1.1.0
+Summary: UltraConfiguration is a fast and efficient Python library for loading and managing configuration files with ease.
+Home-page: https://github.com/Kawai-Senpai/UltraConfiguration
+Download-URL: https://github.com/Kawai-Senpai/UltraConfiguration
+Author: Ranit Bhowmick
+Author-email: bhowmickranitking@duck.com
+License: MIT License with attribution requirement
+Keywords: Config,Configuration,JSON,YAML,Settings
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
+License-File: LICENSE.rst
+
+# UltraConfiguration
+
+A high-performance, thread-safe configuration management library for Python with async support.
+
+## Features
+
+- Thread-safe singleton configuration manager
+- Support for JSON and YAML formats
+- Nested configuration access using dot notation
+- LRU caching for fast repeated access
+- Comprehensive error handling and logging
+- Type hints for better IDE support
+- Optional schema validation
+- Pretty-printing support
+- Async/Background operations support
+- Memory-efficient caching
+- Context manager support
