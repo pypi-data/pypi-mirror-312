@@ -1,0 +1,764 @@
+
+# 2024-11-29 13:59:11.121504
++Alright, let's make a project! escat is basically kafkacat for EventStore. Read streams and dump them to console, follow streams, etc. Should be Python so you can just `pip install escat` it.
+
+# 2024-11-29 13:59:37.730591
++/run python -m venv venv
+
+# 2024-11-29 13:59:37.730787
++/run python -m venv venv
+
+# 2024-11-29 13:59:37.860597
++/run source venv/bin/activate
+
+# 2024-11-29 13:59:37.860882
++/run source venv/bin/activate
+
+# 2024-11-29 13:59:37.987595
++/run pip install -e .
+
+# 2024-11-29 13:59:37.987670
++/run pip install -e .
+
+# 2024-11-29 13:59:42.605121
++n
+
+# 2024-11-29 14:09:40.201940
++Hm, can you retry these commands please? I had to do some system maintenance.
+
+# 2024-11-29 14:09:57.652195
++No, just suggest the commands you just suggested again.
+
+# 2024-11-29 14:10:03.432867
++/run python -m venv venv
+
+# 2024-11-29 14:10:03.432962
++/run python -m venv venv
+
+# 2024-11-29 14:10:06.769274
++/run source venv/bin/activate
+
+# 2024-11-29 14:10:06.769444
++/run source venv/bin/activate
+
+# 2024-11-29 14:10:06.906030
++/run pip install -e .
+
+# 2024-11-29 14:10:06.906096
++/run pip install -e .
+
+# 2024-11-29 14:10:09.556554
++/run escat --help
+
+# 2024-11-29 14:10:09.556595
++/run escat --help
+
+# 2024-11-29 14:10:17.365461
++Ah, I think that needs a flag.
+
+# 2024-11-29 14:10:24.114701
++/run python -m venv venv
+
+# 2024-11-29 14:10:24.114895
++/run python -m venv venv
+
+# 2024-11-29 14:10:26.105997
++/run source venv/bin/activate
+
+# 2024-11-29 14:10:26.106140
++/run source venv/bin/activate
+
+# 2024-11-29 14:10:26.239075
++/run pip install -e . --break-system-packages
+
+# 2024-11-29 14:10:26.239277
++/run pip install -e . --break-system-packages
+
+# 2024-11-29 14:10:41.038788
++/run escat --help
+
+# 2024-11-29 14:10:41.038856
++/run escat --help
+
+# 2024-11-29 14:11:57.554889
++Thanks, seems to work! Any idea why $all would not work?
+
+# 2024-11-29 14:12:09.119355
++/run escat '$all'
+
+# 2024-11-29 14:12:09.119454
++/run escat '$all'
+
+# 2024-11-29 14:12:11.447321
++n
+
+# 2024-11-29 14:14:00.923074
++Alright, can you change the behavior to dump the JSON content of the "body" field of event.data all on one line, in jq processable format?
+
+# 2024-11-29 14:14:13.162903
++/run escat my-stream | jq '.'
+
+# 2024-11-29 14:14:13.162943
++/run escat my-stream | jq '.'
+
+# 2024-11-29 14:14:15.675830
++n
+
+# 2024-11-29 14:15:20.903277
++I think event.data is a byte field and can't be indexed. Need to json parse that first?
+
+# 2024-11-29 14:15:57.991230
++n
+
+# 2024-11-29 14:16:30.907343
++Can you add a --with-metadata flag or such that instead of just dumping data, also dumps timestamp, id, correlation-id, causation-id, splitting the output into {"data": ..., "metadata": ...}?
+
+# 2024-11-29 14:16:51.265061
++n
+
+# 2024-11-29 14:19:34.618180
++I've rewritten the metadata parsing a bit. On that basis, can you combine the two blocks and reduce `if` statements by using default values and conditional access operators?
+
+# 2024-11-29 14:19:51.980804
++n
+
+# 2024-11-29 14:20:22.802153
++Hm. Looking at it now, can we just interpolate `metadata` into output["metadata"]?
+
+# 2024-11-29 14:21:02.723151
++n
+
+# 2024-11-29 14:21:11.873481
++Thanks! Can you go ahead and implement follow, please?
+
+# 2024-11-29 14:22:10.549457
++n
+
+# 2024-11-29 14:22:25.458760
++Can you combine the `try` blocks please? Also maybe ditch the last one.
+
+# 2024-11-29 14:22:50.910909
++Wait I just mean removing the last `except` block because it's redundant.
+
+# 2024-11-29 14:23:08.401726
++n
+
+# 2024-11-29 14:23:26.698354
++Thanks! In follow mode, can you write a note to stderr saying we've caught up?
+
+# 2024-11-29 14:23:39.670521
++n
+
+# 2024-11-29 14:24:18.841309
++Hm, I'm not getting "Caught up". Isn't there a special EventStore thing for that?
+
+# 2024-11-29 14:24:33.919946
++n
+
+# 2024-11-29 14:25:15.755946
++I don't think it has that. Aiui, quoting the docs: The optional include_caught_up argument is a Python bool which indicates whether "caught up" messages should be included when recorded events are received. The default value of include_caught_up is False.
+
+# 2024-11-29 14:30:38.184934
++n
+
+# 2024-11-29 14:31:33.558984
++I've adjusted the code a bit. Hm - what else is a good idea? User/pass? I guess with-metadata should be the default also.
+
+# 2024-11-29 14:31:54.903039
++/run escat my-stream
+
+# 2024-11-29 14:31:54.903260
++/run escat my-stream
+
+# 2024-11-29 14:31:55.269126
++/run escat --no-metadata my-stream
+
+# 2024-11-29 14:31:55.269163
++/run escat --no-metadata my-stream
+
+# 2024-11-29 14:31:55.597150
++/run escat -u admin -p changeit my-stream
+
+# 2024-11-29 14:31:55.597363
++/run escat -u admin -p changeit my-stream
+
+# 2024-11-29 14:31:56.698102
++n
+
+# 2024-11-29 14:32:39.383682
++If we change host/port to --url, we save a bunch of arguments and free up -h for help.
+
+# 2024-11-29 14:32:57.638113
++n
+
+# 2024-11-29 14:33:03.168033
++I think user/pass can be ditched too now.
+
+# 2024-11-29 14:33:17.943725
++n
+
+# 2024-11-29 14:33:25.575777
++For consistency, --metadata/--no-metadata with default True?
+
+# 2024-11-29 14:33:41.715912
++n
+
+# 2024-11-29 14:34:06.138899
++Oops - that collides with the metadata field. Rename the variable to output_metadata?
+
+# 2024-11-29 14:34:28.296579
++n
+
+# 2024-11-29 14:36:26.774540
++Thanks, can you add -h for help please?
+
+# 2024-11-29 14:36:33.300473
++n
+
+# 2024-11-29 14:36:48.818150
++Can you note the defaults in the options?
+
+# 2024-11-29 14:36:58.097581
++/run escat -h
+
+# 2024-11-29 14:36:58.097760
++/run escat -h
+
+# 2024-11-29 14:37:38.908233
++Hm, maybe a dedicated --host in the absence of --url does make sense, it is the most commonly set property of that slightly involved string.
+
+# 2024-11-29 14:37:57.034350
++n
+
+# 2024-11-29 14:38:49.173965
++Looking at this, any other ideas for kafkacat parity?
+
+# 2024-11-29 14:39:26.116798
++n
+
+# 2024-11-29 14:39:44.196144
++Looks good, thanks! Can you add a behavior test that maybe uses docker to grab and start an eventstore test server and runs the command against it?
+
+# 2024-11-29 14:40:11.062823
++/run pip install -e ".[test]"
+
+# 2024-11-29 14:40:11.062900
++/run pip install -e ".[test]"
+
+# 2024-11-29 14:40:11.549319
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 14:40:11.549571
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 14:40:20.160111
++Hm, test has issues it seems.
+
+# 2024-11-29 14:40:32.317707
++/run python3 -m venv .venv
+
+# 2024-11-29 14:40:32.317885
++/run python3 -m venv .venv
+
+# 2024-11-29 14:40:35.392023
++/run source .venv/bin/activate
+
+# 2024-11-29 14:40:35.392155
++/run source .venv/bin/activate
+
+# 2024-11-29 14:40:35.517157
++/run pip install -e ".[test]"
+
+# 2024-11-29 14:40:35.517298
++/run pip install -e ".[test]"
+
+# 2024-11-29 14:40:36.015165
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 14:40:36.015363
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 14:41:09.862388
++Honestly, I don't think source works with the way commands you recommend are passed to a shell; I suspect it gets separate shells. Honestly just recommend breaking the system environment.
+
+# 2024-11-29 14:41:17.699890
++/run pip install -e ".[test]" --break-system-packages
+
+# 2024-11-29 14:41:17.700047
++/run pip install -e ".[test]" --break-system-packages
+
+# 2024-11-29 14:41:28.506367
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 14:41:28.506424
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 14:42:40.473641
++n
+
+# 2024-11-29 14:43:36.896938
++Hm. - I think the test container download is taking a while, can you make that verbose? Also is there a better way to wait for ES startup than waiting two seconds?
+
+# 2024-11-29 14:43:50.539198
++/run pytest tests/test_behavior.py -vv
+
+# 2024-11-29 14:43:50.539398
++/run pytest tests/test_behavior.py -vv
+
+# 2024-11-29 14:45:30.515556
++I don't know what it's doing, but apparently not what it's supposed to. The testcontainer log just says 2024/11/29 13:43:51 Pinging Docker...
++2024/11/29 13:43:51 Docker daemon is available!
++2024/11/29 13:43:51 Starting on port 8080...
++2024/11/29 13:43:51 Started!
++2024/11/29 13:43:51 New client connected: 172.240.0.1:44332
++2024/11/29 13:43:51 Adding {"label":{"org.testcontainers.session-id=09e798d7-5bac-4d34-af96-4b01db7f444a":true}}
++
++
+
+# 2024-11-29 14:46:04.998884
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -vv --log-cli-level=DEBUG
+
+# 2024-11-29 14:46:04.999111
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -vv --log-cli-level=DEBUG
+
+# 2024-11-29 14:46:27.965753
++Hm, that doesn't seem to be working right.
+
+# 2024-11-29 14:46:38.010487
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -vv --log-cli-level=DEBUG
+
+# 2024-11-29 14:46:38.010539
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -vv --log-cli-level=DEBUG
+
+# 2024-11-29 14:47:00.818690
++n
+
+# 2024-11-29 14:47:37.768073
++Sorry - try recommending that command again please.
+
+# 2024-11-29 14:47:44.777810
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -vv --log-cli-level=DEBUG
+
+# 2024-11-29 14:47:44.778016
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -vv --log-cli-level=DEBUG
+
+# 2024-11-29 14:48:02.200538
++And nothing else happens.
+
+# 2024-11-29 14:48:17.637887
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -vv --log-cli-level=DEBUG
+
+# 2024-11-29 14:48:17.638038
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -vv --log-cli-level=DEBUG
+
+# 2024-11-29 14:48:59.942384
++It doesn't seem to start an EventStore container at all though.
+
+# 2024-11-29 14:50:05.630322
++Oh I see! Yeah you're right, but maybe just pin a specific version of ES?
+
+# 2024-11-29 14:50:56.313816
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -vv --log-cli-level=DEBUG
+
+# 2024-11-29 14:50:56.313982
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -vv --log-cli-level=DEBUG
+
+# 2024-11-29 14:52:29.482761
++Alright Eventstore comes up but I don't think it logs what we expect.
+
+# 2024-11-29 14:53:46.232063
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -vv --log-cli-level=DEBUG
+
+# 2024-11-29 14:53:46.232215
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -vv --log-cli-level=DEBUG
+
+# 2024-11-29 14:54:12.504867
++Alright starting to look better. Take out the debug checks and fix the attribute error?
+
+# 2024-11-29 14:54:40.397596
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -v
+
+# 2024-11-29 14:54:40.397790
++/run TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock pytest tests/test_behavior.py -v
+
+# 2024-11-29 14:55:16.436305
++Still more debug logging to remove, and another error?
+
+# 2024-11-29 14:55:54.218279
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 14:55:54.218432
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 14:57:54.578442
++We're getting a bit in the weeds here, but I think that's a startup issue. Can we just loop until read_all succeeds?
+
+# 2024-11-29 14:58:11.410042
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 14:58:11.410237
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 14:59:05.979808
++Rephrase. Instead of waiting for LEADER, which is maybe misleading, can we just start the container and wait for *30 seconds* if we can create a fresh connection and read_all on it as the only readiness test?
+
+# 2024-11-29 14:59:31.505150
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 14:59:31.505210
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 15:02:06.888227
++Okay, that's officially a real error. I don't get it. - Can you try using a different port maybe? I think I'm occupying 2113.
+
+# 2024-11-29 15:02:28.614914
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 15:02:28.615067
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 15:03:28.671054
++Oh hm. Hang on! We start a separate container for ESDB. We're in the test container. Why exactly are we trying to connect to localhost?
+
+# 2024-11-29 15:03:46.014316
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 15:03:46.014566
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 15:05:53.503486
++Hm, how exactly are the tests started anyways?
+
+# 2024-11-29 15:06:10.622193
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 15:06:10.622348
++/run pytest tests/test_behavior.py -v
+
+# 2024-11-29 15:06:52.291360
++No but rather I'm asking. How exactly are the tests started anyways? Like, where does `eventstore` parameter come from.
+
+# 2024-11-29 15:07:08.064682
++n
+
+# 2024-11-29 15:07:44.157763
++Oh I see. Well, we're hitting a weird time out in tests/test_behavior.py::test_follow_and_count, can you add more logging?
+
+# 2024-11-29 15:08:06.869636
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:08:06.869716
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:08:43.402027
++I think you need to provide the event uuid.
+
+# 2024-11-29 15:08:57.592960
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:08:57.593123
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:09:35.488048
++Hm, we should probably factor these methods out a bit.
+
+# 2024-11-29 15:10:05.051300
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:10:05.051351
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:11:05.212145
++edit ../../.local/lib/python3.12/site-packages/esdbclient/client.py:142
+
+# 2024-11-29 15:12:12.499364
++Oh hm. Can you access a dict like that?
+
+# 2024-11-29 15:12:31.230774
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:12:31.230965
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:13:35.216991
++I don't think that's the issue. It's not expecting a dict at all, it's expecting a class NewEvent: 
++
++@dataclass(frozen=True)
++class NewEvent:
++    """
++    Encapsulates event data to be recorded in EventStoreDB.
++    """
++
++    type: str
++    data: bytes
++    metadata: bytes = b""
++    content_type: ContentType = "application/json"
++    id: UUID = field(default_factory=uuid4)
++
++    def __eq__(self, other: object) -> bool:
++        return isinstance(other, (NewEvent, RecordedEvent)) and self.id == other.id
++
+
+# 2024-11-29 15:13:54.691360
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:13:54.691515
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:14:27.842454
++Hum. What's going on now?
+
+# 2024-11-29 15:14:43.608342
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:14:43.608454
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:15:15.248130
++Errors seem to be getting tighter.
+
+# 2024-11-29 15:15:27.032439
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:15:27.032541
++/run pytest -v tests/test_behavior.py::test_follow_and_count
+
+# 2024-11-29 15:15:35.947124
++Looks good! Propose the other tests?
+
+# 2024-11-29 15:15:46.988910
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:15:46.989069
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:15:55.247050
++Almost!
+
+# 2024-11-29 15:16:09.869871
++/run pytest -v tests/test_behavior.py::test_basic_stream_reading
+
+# 2024-11-29 15:16:09.869923
++/run pytest -v tests/test_behavior.py::test_basic_stream_reading
+
+# 2024-11-29 15:16:23.332948
++Hm. Curious error.
+
+# 2024-11-29 15:16:36.178992
++/run pytest -v tests/test_behavior.py::test_basic_stream_reading
+
+# 2024-11-29 15:16:36.179916
++/run pytest -v tests/test_behavior.py::test_basic_stream_reading
+
+# 2024-11-29 15:16:43.246132
++Nice! Run all of them?
+
+# 2024-11-29 15:16:48.475847
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:16:48.475900
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:17:13.340954
++Sweet. Well done. Any way we can make sure that the tests run the version of escat in the current folder and not one that may be installed separately?
+
+# 2024-11-29 15:17:33.189568
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:17:33.189616
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:17:58.461287
++Can you make all subprocess calls use escat.cli please?
+
+# 2024-11-29 15:18:14.381964
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:18:14.382057
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:18:29.238871
++Any more refactoring we can do to the tests?
+
+# 2024-11-29 15:19:10.614970
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:19:10.615043
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:19:25.114146
++Hhuh, what's going on there?
+
+# 2024-11-29 15:19:49.599477
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:19:49.599551
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:19:55.351210
++/run python3 -m flake8 --select=E9,F821,F823,F831,F406,F407,F701,F702,F704,F706 --show-source --isolated tests/test_behavior.py
+
+# 2024-11-29 15:19:55.351284
++/run python3 -m flake8 --select=E9,F821,F823,F831,F406,F407,F701,F702,F704,F706 --show-source --isolated tests/test_behavior.py
+
+# 2024-11-29 15:20:29.883261
++Looks good! Is the README up to date?
+
+# 2024-11-29 15:20:47.143214
++Oh - hang on, rather, can you change the port number back to 2113 and rerun tests please?
+
+# 2024-11-29 15:20:58.965106
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:20:58.965327
++/run pytest -v tests/test_behavior.py
+
+# 2024-11-29 15:21:11.278315
++Alright, now please check that the README is up to date.
+
+# 2024-11-29 15:22:45.424429
++Alright! Anything else we need to do for pip publishing?
+
+# 2024-11-29 15:23:17.653961
++n
+
+# 2024-11-29 15:23:27.556313
++Um, can you change the license to Boost please?
+
+# 2024-11-29 15:34:57.390615
++Alright I've tried to fix the URL and name everywhere, did I catch them all?
+
+# 2024-11-29 15:35:18.617821
++To be clear, funkwerk-mobility/escat is the right url as funkwerk is my employer.
+
+# 2024-11-29 15:35:54.575199
++Is there any way to validate the pyproject.toml before relaesing?
+
+# 2024-11-29 15:36:14.009891
++/run chmod +x scripts/validate_package.sh
+
+# 2024-11-29 15:36:14.010096
++/run chmod +x scripts/validate_package.sh
+
+# 2024-11-29 15:36:14.144088
++/run pip install -e ".[validate]"
+
+# 2024-11-29 15:36:14.144246
++/run pip install -e ".[validate]"
+
+# 2024-11-29 15:36:14.634003
++/run ./scripts/validate_package.sh
+
+# 2024-11-29 15:36:14.634226
++/run ./scripts/validate_package.sh
+
+# 2024-11-29 15:36:29.977044
++Oh, I think we need to break system packages again.
+
+# 2024-11-29 15:36:35.674880
++/run pip install -e ".[validate]" --break-system-packages
+
+# 2024-11-29 15:36:35.675069
++/run pip install -e ".[validate]" --break-system-packages
+
+# 2024-11-29 15:36:42.580129
++/run ./scripts/validate_package.sh
+
+# 2024-11-29 15:36:42.580181
++/run ./scripts/validate_package.sh
+
+# 2024-11-29 15:37:07.950324
++Yeah ignore the parsers.json error, I don't know why it's pulling in py-tree-sitter, but that's a local thing on my system.
+
+# 2024-11-29 15:37:18.012333
++/run pip install -e ".[validate]" --break-system-packages
+
+# 2024-11-29 15:37:18.012418
++/run pip install -e ".[validate]" --break-system-packages
+
+# 2024-11-29 15:37:25.192270
++/run ./scripts/validate_package.sh
+
+# 2024-11-29 15:37:25.192418
++/run ./scripts/validate_package.sh
+
+# 2024-11-29 15:37:53.137836
++Hm. Step back; what *should* that field look like?
+
+# 2024-11-29 15:38:05.154888
++/run pip install -e ".[validate]" --break-system-packages
+
+# 2024-11-29 15:38:05.155111
++/run pip install -e ".[validate]" --break-system-packages
+
+# 2024-11-29 15:38:12.032057
++/run ./scripts/validate_package.sh
+
+# 2024-11-29 15:38:12.032160
++/run ./scripts/validate_package.sh
+
+# 2024-11-29 15:38:28.433222
++I think dependencies is still in the wrong location.
+
+# 2024-11-29 15:38:42.712575
++/run pip install -e ".[validate]" --break-system-packages
+
+# 2024-11-29 15:38:42.712633
++/run pip install -e ".[validate]" --break-system-packages
+
+# 2024-11-29 15:38:43.638684
++/run ./scripts/validate_package.sh
+
+# 2024-11-29 15:38:43.638731
++/run ./scripts/validate_package.sh
+
+# 2024-11-29 15:38:52.841205
++I think it's wrong again.
+
+# 2024-11-29 15:39:10.842211
++/run pip install -e ".[validate]" --break-system-packages
+
+# 2024-11-29 15:39:10.842354
++/run pip install -e ".[validate]" --break-system-packages
+
+# 2024-11-29 15:39:23.669401
++/run ./scripts/validate_package.sh
+
+# 2024-11-29 15:39:23.669555
++/run ./scripts/validate_package.sh
+
+# 2024-11-29 15:39:33.886294
++n
+
+# 2024-11-29 15:40:14.619647
++It's all good, those were temp folders. I ran the script manually and it passes. So now I just push to Github and make a release, or do I have to do anything on pypi?
+
+# 2024-11-29 15:40:28.408170
++n
+
+# 2024-12-02 13:34:53.471571
++/ask Do I need to tag before uploading?
+
+# 2024-12-02 13:37:01.724730
++git remote add origin git@github.com:funkwerk-mobility/escat.git
+
+# 2024-12-02 13:41:47.852961
++Oops. escat is already an Elasticsearch cat. Unfortunate. Can you rename the project to esdbcat please?
+
+# 2024-12-02 13:42:11.116981
++/run mv escat esdbcat
+
+# 2024-12-02 13:42:11.117083
++/run mv escat esdbcat
+
+# 2024-12-02 13:42:11.244408
++/run sed -i 's/from escat/from esdbcat/g' tests/test_behavior.py
+
+# 2024-12-02 13:42:11.244602
++/run sed -i 's/from escat/from esdbcat/g' tests/test_behavior.py
+
+# 2024-12-02 13:42:11.403997
++/run sed -i 's/"escat.cli"/"esdbcat.cli"/g' tests/test_behavior.py
+
+# 2024-12-02 13:42:11.404160
++/run sed -i 's/"escat.cli"/"esdbcat.cli"/g' tests/test_behavior.py
