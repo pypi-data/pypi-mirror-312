@@ -1,0 +1,7 @@
+[project]
+name = "tinyppl"
+authors = [
+	{name = "Sam Duffield", email ="s@mduffield.com"},
+]
+version = "0.0.0"
+description = "Coming soon"

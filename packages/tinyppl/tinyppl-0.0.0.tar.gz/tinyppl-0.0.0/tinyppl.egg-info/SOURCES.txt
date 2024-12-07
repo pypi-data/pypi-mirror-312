@@ -1,0 +1,6 @@
+pyproject.toml
+tinyppl/__init__.py
+tinyppl.egg-info/PKG-INFO
+tinyppl.egg-info/SOURCES.txt
+tinyppl.egg-info/dependency_links.txt
+tinyppl.egg-info/top_level.txt
