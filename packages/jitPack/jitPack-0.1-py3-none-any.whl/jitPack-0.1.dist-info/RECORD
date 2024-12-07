@@ -1,0 +1,10 @@
+jit_pack/__init__.py,sha256=O51rt4XY6BFiXEl3B-lcB1NjobBi_jolI674g_WmrPM,91
+jit_pack/jit_auth.py,sha256=kRfXEnK1wB7sLid0G08ZYk3mAKuvo2vOcqLgtLSiQq4,8912
+jit_pack/jit_client.py,sha256=G4iL7L0ZViuN4iWOz84jzamwk3hDtcCTWFR2OwqRx2U,1797
+jit_pack/jit_message.py,sha256=YZT_W49-SFkXGIn-Q5hP83Lzb_-8_O10cAVGI5JViFo,2700
+jit_pack/jit_orders.py,sha256=jsNwOmikLqJI1j4byOIj09qANyapp07PHpQRc1xB44o,4659
+jitPack-0.1.dist-info/LICENSE,sha256=gUSgGJiaUREWHWPsOT_pdZBHw61hA0MI9aYfU45SJ8U,1088
+jitPack-0.1.dist-info/METADATA,sha256=sAE-tLhmSYKqOuPPksZgG6_ND9BXA4wbzX80aY7wcoE,563
+jitPack-0.1.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+jitPack-0.1.dist-info/top_level.txt,sha256=IadcsxGh4OLLRtrowxkMfa0ZGDYxcNshOllcFimyXLM,9
+jitPack-0.1.dist-info/RECORD,,
