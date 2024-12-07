@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dstructslib.egg-info/PKG-INFO
+dstructslib.egg-info/SOURCES.txt
+dstructslib.egg-info/dependency_links.txt
+dstructslib.egg-info/top_level.txt
