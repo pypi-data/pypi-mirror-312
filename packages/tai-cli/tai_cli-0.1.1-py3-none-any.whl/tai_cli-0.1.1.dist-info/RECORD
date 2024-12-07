@@ -1,0 +1,9 @@
+tai_cli/__init__.py,sha256=JfHkS1X-HiiM6mfIxvwAJqqQr2j6Y8sVBy3jkKLy70g,2116
+tai_cli/azure/__init__.py,sha256=5kXG99nK70kQs1M3Hil7MH3cAousrOmdn4Wo_PxZ2sI,1122
+tai_cli/azure/psql.py,sha256=Mj3ttYU4wkbN3GVlIB5FTKfZxyFgyFXby9wAJCkJ6wk,2146
+tai_cli/utils/loader.py,sha256=sluvDRcemT4zpaxBmbNoxIGYws0WMb_FMoeLHQKD5VQ,1638
+tai_cli/workflows/dbrestore.py,sha256=hiNi89erXnmy7WuCvEbflqQHiv4iaD93rIuQPQ6sQh0,3637
+tai_cli-0.1.1.dist-info/METADATA,sha256=NhXlUcCsgiPVRlcfxvl0m2qynQ73NoX6x7Q_1Q7R3Xc,1035
+tai_cli-0.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+tai_cli-0.1.1.dist-info/entry_points.txt,sha256=bXsEPrP6o1K10cs5WRUH9pqWBuOAjCvu1uUsbxxetvY,36
+tai_cli-0.1.1.dist-info/RECORD,,
