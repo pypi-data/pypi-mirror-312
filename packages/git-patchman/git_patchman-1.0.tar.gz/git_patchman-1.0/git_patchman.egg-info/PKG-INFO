@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: git-patchman
+Version: 1.0
+Home-page: https://github.com/byter11/git-patchman
+Author: Mohsin Shaikh
+Author-email: mohsinshk4026@gmail.com
+License: MIT
+Keywords: patch manager
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyTermGUI==7.7.2
+Requires-Dist: typing_extensions==4.12.2
+Requires-Dist: wcwidth==0.2.13
+
+# 🔍 git-patchman
+
+A patch/diff management cli + tui plugin for git.
+
+## 📦 Installation
+
+```
+pip install git-patchman
+```
+```
+
+> git patchman -h
+usage: cli.py [-h] [-V] {add,delete,apply,show} ...
+
+Manage Git patches with commands to add, delete, and apply patches.
+
+positional arguments:
+  {add,delete,apply,show}
+                        Available commands
+    add                 Add a patch
+    delete              Delete a patch
+    apply               Apply or revert a patch
+    show                View a patch diff
+
+options:
+  -h, --help            show this help message and exit
+  -V, --version         show program's version number and exit
+```
+
+## 🌟 Features
+- 🛠️ Add/Remove/Apply/Revert patches using either CLI commands or a TUI
+- 📤 Create patches from a commit, a range of commits or uncommitted changes
+  - `git patchman add [name] [commit_id] [--from-changes]`
+- 🔍 Omit the patch name to enter TUI mode with search
+  - `git patchman show`
+
+
+## 🧩 Dependencies
+- [pytermgui](https://github.com/bczsalba/pytermgui) for the TUI.

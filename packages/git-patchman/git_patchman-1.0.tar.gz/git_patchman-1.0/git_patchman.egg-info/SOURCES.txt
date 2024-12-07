@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+git_patchman.egg-info/PKG-INFO
+git_patchman.egg-info/SOURCES.txt
+git_patchman.egg-info/dependency_links.txt
+git_patchman.egg-info/entry_points.txt
+git_patchman.egg-info/requires.txt
+git_patchman.egg-info/top_level.txt
+patchman/__init__.py
+patchman/cli.py
+patchman/manager.py
+patchman/tui.py
