@@ -1,0 +1,15 @@
+fftvis/__init__.py,sha256=8tSRabRYy3YZ8Oiu0yP-KhV2Pti6CNumjqrs4Qll6tw,37
+fftvis/beams.py,sha256=cO-g9yK3HMdThRthUS4iSyZ274Tn6ZUfWL1QSxPaI8U,3258
+fftvis/cli.py,sha256=KX539xsKWrBEiifqPS2DvXE8CO53LPW50U673MTuV_M,3975
+fftvis/logutils.py,sha256=fR-lUtiCRuplUy4LQNSqwsihfC-FzmIftCiwMfIm4rg,2564
+fftvis/simulate.py,sha256=4L-EOCTm7WaWRTfHsGsepFUtKu2Qzk4S5fmLBsTzPn0,21676
+fftvis/utils.py,sha256=d7Mi39k56qtjMlocg3CYAB-mp9z5_dcQEKUfWw3XsCo,6634
+fftvis/tests/test_beams.py,sha256=YOzMQIr1ZAxbosYGPIl0ApIqT2N-DiAuNwGOvb8918U,2030
+fftvis/tests/test_compare_matvis.py,sha256=pukQFu7HBmGPElT5BUWxS0el8v3W3sY3-T3bWNGK9gk,2798
+fftvis/tests/test_utils.py,sha256=cGBXAuU-_fOdrqaV3vgdsdfhMbntLg0dmtDrxoddeDc,3179
+fftvis-0.1.0.dist-info/LICENSE,sha256=4C7Dh5Ttj52GYDA_gI_2pSGLmz1vR8_FnfuMjVXcc8Q,1066
+fftvis-0.1.0.dist-info/METADATA,sha256=ypbk77rrMbiSRrt-yvx27y-Z5qr9lwyPUgjJ1JlEytk,3245
+fftvis-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+fftvis-0.1.0.dist-info/entry_points.txt,sha256=N-CS4OUvkK4PozqM41vAt6AA7J-EuN6yolqDh6PwoMQ,42
+fftvis-0.1.0.dist-info/top_level.txt,sha256=p91SGcGpU_MXL32mier1gBGXt2_nxk5H8hn1MwNki2I,7
+fftvis-0.1.0.dist-info/RECORD,,
