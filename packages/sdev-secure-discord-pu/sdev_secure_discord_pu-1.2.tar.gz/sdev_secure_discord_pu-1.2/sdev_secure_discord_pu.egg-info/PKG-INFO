@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sdev_secure_discord_pu
+Version: 1.2
+Summary: Simple Discord userbot library
+Author: SDev Team
+Author-email: admin@anycorp.dev
+Requires-Dist: websocket-client
+Requires-Dist: requests

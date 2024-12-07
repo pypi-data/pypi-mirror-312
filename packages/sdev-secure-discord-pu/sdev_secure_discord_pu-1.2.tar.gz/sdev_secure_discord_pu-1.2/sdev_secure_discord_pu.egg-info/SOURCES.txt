@@ -1,0 +1,7 @@
+sdev_secure_discord_pu.py
+setup.py
+sdev_secure_discord_pu.egg-info/PKG-INFO
+sdev_secure_discord_pu.egg-info/SOURCES.txt
+sdev_secure_discord_pu.egg-info/dependency_links.txt
+sdev_secure_discord_pu.egg-info/requires.txt
+sdev_secure_discord_pu.egg-info/top_level.txt
