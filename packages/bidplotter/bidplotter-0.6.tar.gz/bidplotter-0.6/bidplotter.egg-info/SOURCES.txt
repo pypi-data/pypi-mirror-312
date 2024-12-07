@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bidplotter/__init__.py
+bidplotter/calculator.py
+bidplotter.egg-info/PKG-INFO
+bidplotter.egg-info/SOURCES.txt
+bidplotter.egg-info/dependency_links.txt
+bidplotter.egg-info/requires.txt
+bidplotter.egg-info/top_level.txt
