@@ -1,0 +1,11 @@
+numpy
+numba
+networkx
+scikit-image
+torchmetrics
+gdown
+
+[dev]
+torch
+torch_geometric
+tensorflow
