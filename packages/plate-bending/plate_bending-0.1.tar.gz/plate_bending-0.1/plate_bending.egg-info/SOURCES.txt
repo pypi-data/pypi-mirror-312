@@ -1,0 +1,8 @@
+Functions.cpp
+NumericalIntegration.cpp
+plate_bending.cpp
+setup.py
+plate_bending.egg-info/PKG-INFO
+plate_bending.egg-info/SOURCES.txt
+plate_bending.egg-info/dependency_links.txt
+plate_bending.egg-info/top_level.txt
