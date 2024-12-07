@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "benchmarkthing"
+version = "0.0.1"
+description = "Evals as an API - The easiest way to evaluate and benchmark AI models and systems"
+readme = "README.md"
+authors = [{ name = "Benchmarkthing Inc.", email = "hello@benchmarkthing.com" }]
+license = { text = "MIT" }
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8"
+keywords = ["ai", "ml", "evaluation", "benchmark", "evals", "testing"]
+
+[project.urls]
+Homepage = "https://benchmarkthing.com"
+Repository = "https://github.com/benchmarkthing/benchmarkthing-python"
+"Bug Tracker" = "https://github.com/benchmarkthing/benchmarkthing-python/issues"
+
+[tool.setuptools]
+packages = ["benchmarkthing"]
