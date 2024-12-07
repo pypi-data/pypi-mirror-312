@@ -1,0 +1,11 @@
+http_request/__init__.py,sha256=T-leVr9RKbYJ1IIq1Cg953HsBjkaNnFnwezUWWuWWMA,1101
+http_request/proxy.py,sha256=gR9S8l5MuUR7jso-2vie3D5LRuciLLBO0woYcTvaa3Y,500
+syntax/__init__.py,sha256=gdw1truBtcXXC9s-VoelLSJpqbyQX2qtACpQ4h7EdhY,468
+syntax/format.py,sha256=1UgfmyJv3HDbwxGDeh_howAFjISWOzphDoGQJegxB4A,450
+syntax/fs.py,sha256=MfNNFCqDX5woZi1WgMBO1tFByntXM3KtLLsIirWDKDs,585
+syntax/js.py,sha256=9FV7XyA01zlDPAXIgSyhu3jZV1qTJK9CWXhjJEysIXg,404
+syntax/path.py,sha256=jHaCwOSwdZqb3hmEZs0tTNgG2bA8TwWHJ6lL2tNPL40,386
+davidkhala_utils-0.0.8.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+davidkhala_utils-0.0.8.dist-info/METADATA,sha256=3EoFjzk1Gmrr4OFepuwwdL6NaKWgRzcK_q83GP-bkcw,539
+davidkhala_utils-0.0.8.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+davidkhala_utils-0.0.8.dist-info/RECORD,,
