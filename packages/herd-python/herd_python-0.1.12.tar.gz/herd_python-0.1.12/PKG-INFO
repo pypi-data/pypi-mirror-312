@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: herd-python
+Version: 0.1.12
+Summary: gRPC client library for Herd service
+Author-email: Anthony DeFoe <defoe.am@gmail.com>
+Project-URL: Homepage, https://github.com/defoeam/Herd-Python
+Requires-Python: >=3.7
+Requires-Dist: grpcio>=1.51.1
+Requires-Dist: grpcio-tools>=1.51.1

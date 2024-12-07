@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "herd-python"
+version = "0.1.12"
+description = "gRPC client library for Herd service"
+authors = [{name = "Anthony DeFoe", email = "defoe.am@gmail.com"}]
+requires-python = ">=3.7"
+dependencies = [
+    "grpcio>=1.51.1",
+    "grpcio-tools>=1.51.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/defoeam/Herd-Python"
