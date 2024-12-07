@@ -1,0 +1,3 @@
+[console_scripts]
+entropypass = entropypass.cli:main
+
