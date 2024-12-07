@@ -1,0 +1,4 @@
+jpype1
+psutil
+requests
+lxml

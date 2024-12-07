@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+pyjmine/__init__.py
+pyjmine/mappings.py
+pyjmine/pyjmine.py
+pyjmine.egg-info/PKG-INFO
+pyjmine.egg-info/SOURCES.txt
+pyjmine.egg-info/dependency_links.txt
+pyjmine.egg-info/requires.txt
+pyjmine.egg-info/top_level.txt
