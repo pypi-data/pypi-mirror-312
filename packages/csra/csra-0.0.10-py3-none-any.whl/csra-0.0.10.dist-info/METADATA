@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: csra
+Version: 0.0.10
+Summary: Collect NIH NCBI SRA metadata of several GEO studies in one search.
+Author-email: Marta Arcones <marta.arcones@gmail.com>
+Description-Content-Type: text/markdown
+
+# sra-collector-cli
+
+Collect NIH NCBI SRA metadata of several GEO studies in one search.
