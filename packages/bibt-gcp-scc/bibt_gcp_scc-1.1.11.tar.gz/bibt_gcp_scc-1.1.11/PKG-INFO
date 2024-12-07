@@ -1,0 +1,65 @@
+Metadata-Version: 2.3
+Name: bibt-gcp-scc
+Version: 1.1.11
+Summary: Functionality often used by BITS Blue Team (GCP SCC Module).
+Project-URL: Bug Tracker, https://github.com/broadinstitute/bibt-gcp-scc/issues
+Project-URL: Documentation, https://bibt-gcp-scc.readthedocs.io/en/latest/
+Project-URL: Homepage, https://github.com/broadinstitute/bibt-gcp-scc
+Author-email: Matthew OBrien <mobrien@broadinstitute.org>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Requires-Dist: google-cloud-securitycenter==1.25.0
+Requires-Dist: googleapis-common-protos==1.62.0
+Requires-Dist: inflection==0.5.1
+Requires-Dist: protobuf==4.25.1
+Requires-Dist: pytz==2023.3
+Description-Content-Type: text/markdown
+
+# bibt-gcp-scc: BITS Blue Team Utilities: GCP Security Command Center Module
+
+- **Developer**: Matthew OBrien
+- **Email**: mobrien@broadinstitute.org
+- **Project URL**: https://pypi.org/project/bibt-gcp-scc/
+- **Project Repo**: https://github.com/broadinstitute/bibt-gcp-scc
+- **Project Documentation**: https://bibt-gcp-scc.readthedocs.io/en/latest/
+
+## Installing
+
+```bash
+$ pip install --upgrade bibt-gcp-scc
+```
+
+## Testing
+
+- Requires Docker to be installed on your system.
+- Clone this repo and create & run the test container:
+
+```
+$ docker build -f ./Dockerfile -t bibt-gcp-scc-test . && docker run bibt-gcp-scc-test
+```
+
+## Usage
+
+- See documentation here: https://bibt-gcp-scc.readthedocs.io/en/latest/
+
+## All BIBT Libraries
+
+- [bibt-gcp-asset](https://github.com/broadinstitute/bibt-gcp-asset)
+- [bibt-gcp-bq](https://github.com/broadinstitute/bibt-gcp-bq)
+- [bibt-gcp-iam](https://github.com/broadinstitute/bibt-gcp-iam)
+- [bibt-gcp-pubsub](https://github.com/broadinstitute/bibt-gcp-pubsub)
+- [bibt-gcp-scc](https://github.com/broadinstitute/bibt-gcp-scc)
+- [bibt-gcp-secrets](https://github.com/broadinstitute/bibt-gcp-secrets)
+- [bibt-gcp-storage](https://github.com/broadinstitute/bibt-gcp-storage)
+- [bibt-qualys](https://github.com/broadinstitute/bibt-qualys)
+- [bibt-sentinelone](https://github.com/broadinstitute/bibt-sentinelone)
+- [bibt-slack](https://github.com/broadinstitute/bibt-slack)
