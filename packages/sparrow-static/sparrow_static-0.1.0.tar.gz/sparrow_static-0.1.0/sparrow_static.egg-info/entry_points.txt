@@ -1,0 +1,2 @@
+[console_scripts]
+sparrow-static = sparrow_static.__main__:main

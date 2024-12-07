@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+sparrow_static/__init__.py
+sparrow_static/__main__.py
+sparrow_static/create_static_site.py
+sparrow_static.egg-info/PKG-INFO
+sparrow_static.egg-info/SOURCES.txt
+sparrow_static.egg-info/dependency_links.txt
+sparrow_static.egg-info/entry_points.txt
+sparrow_static.egg-info/requires.txt
+sparrow_static.egg-info/top_level.txt

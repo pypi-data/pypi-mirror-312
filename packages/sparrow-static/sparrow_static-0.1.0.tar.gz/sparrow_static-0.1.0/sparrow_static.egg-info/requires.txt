@@ -1,0 +1,8 @@
+boto3
+fire
+
+[dev]
+jupyter
+pytest
+pytest-cov
+uv
