@@ -1,0 +1,35 @@
+[project]
+name = "mdft"
+version = "0.1.6"
+readme = "README.md"
+requires-python = ">=3.9"
+description = "Package for generating file trees in Markdown"
+
+authors = [
+  { name="Rafael Copstein", email="rcopstein@gmail.com" },
+]
+
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+
+dependencies = [
+    "pathspec>=0.12.1",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "setuptools>=75.6.0",
+    "twine>=5.1.1",
+    "wheel>=0.45.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/rcopstein/mdft"
+Issues = "https://github.com/rcopstein/mdft/issues"
