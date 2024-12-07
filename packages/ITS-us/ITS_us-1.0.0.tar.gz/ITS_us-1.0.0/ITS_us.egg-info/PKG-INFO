@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ITS-us
+Version: 1.0.0
+Summary: ITS_us is a robust package for performing arbitrary single and two qubit quantum operations, structured to intuitively construct quantum circuits.
+Author: Sara Cender, Theo Iosif, Ivan Shalashilin
+Author-email: sara.cender.24@ucl.ac.uk, theodor.iosif.24@ucl.ac.uk, ivan.shalashilin.24@ucl.ac.uk
+License-File: LICENSE
+Requires-Dist: numpy
