@@ -1,0 +1,8 @@
+nomad_media_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nomad_media_cli/cli.py,sha256=FS-FRTZpzcY61wdUfK4_keh-vIWgouH_5_Xn_2-kOqw,1060
+nomad_media_cli/utils.py,sha256=j-t5TkPBY2g5GBwh6GehVIfrJbCnkvzHpKQ8GqjM6eo,1407
+nomad_media_cli-0.0.1a8.dist-info/METADATA,sha256=1eMP3ofzJBNTZ3FbV2l5yx80xbT4NBHXlRAu25mvT14,1951
+nomad_media_cli-0.0.1a8.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+nomad_media_cli-0.0.1a8.dist-info/entry_points.txt,sha256=fWfzQxvZnRFxJxRWYM-NQTCbwwxIvIb6rJIjqiW8420,60
+nomad_media_cli-0.0.1a8.dist-info/top_level.txt,sha256=pMsGfJFWGzNpuJg32v2qMhCumTm3xZcTKEARWvg2t8U,16
+nomad_media_cli-0.0.1a8.dist-info/RECORD,,
