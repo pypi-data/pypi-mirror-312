@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/funapi/__init__.py
+src/funapi.egg-info/PKG-INFO
+src/funapi.egg-info/SOURCES.txt
+src/funapi.egg-info/dependency_links.txt
+src/funapi.egg-info/requires.txt
+src/funapi.egg-info/top_level.txt
+src/funapi/convert/__init__.py
+src/funapi/generate/__init__.py
+src/funapi/generate/core.py
