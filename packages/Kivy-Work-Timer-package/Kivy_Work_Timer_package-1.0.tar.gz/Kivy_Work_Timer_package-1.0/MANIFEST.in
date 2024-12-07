@@ -1,0 +1,3 @@
+include Kivy_Work_Timer_package/main.py
+include Kivy_Work_Timer_package/work_timer.kv
+include Kivy_Work_Timer_package/notification.mp3

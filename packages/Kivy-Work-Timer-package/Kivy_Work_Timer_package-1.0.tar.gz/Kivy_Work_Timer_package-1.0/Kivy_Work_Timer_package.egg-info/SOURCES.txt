@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+Kivy_Work_Timer_package/main.py
+Kivy_Work_Timer_package/notification.mp3
+Kivy_Work_Timer_package/work_timer.kv
+Kivy_Work_Timer_package.egg-info/PKG-INFO
+Kivy_Work_Timer_package.egg-info/SOURCES.txt
+Kivy_Work_Timer_package.egg-info/dependency_links.txt
+Kivy_Work_Timer_package.egg-info/entry_points.txt
+Kivy_Work_Timer_package.egg-info/requires.txt
+Kivy_Work_Timer_package.egg-info/top_level.txt
