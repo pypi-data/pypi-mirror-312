@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+manim_neural_network/__init__.py
+manim_neural_network/neural_network.py
+manim_neural_network.egg-info/PKG-INFO
+manim_neural_network.egg-info/SOURCES.txt
+manim_neural_network.egg-info/dependency_links.txt
+manim_neural_network.egg-info/requires.txt
+manim_neural_network.egg-info/top_level.txt
