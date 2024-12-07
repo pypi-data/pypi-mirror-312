@@ -1,0 +1,6 @@
+requests
+transformers
+colorlog
+pyfiglet
+termcolor
+openai
