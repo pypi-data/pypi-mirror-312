@@ -1,0 +1,125 @@
+[project]
+name = "intent-service"
+version = "0.1.9"
+description = "Intent classification service"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Eliot Zubkoff", email = "eliot.i.zubkoff@gmail.com"}
+]
+license = {text = "MIT"}
+keywords = ["intent", "classification", "nlp", "machine-learning"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "fastapi>=0.68.0,<1.0.0",
+    "pydantic>=2.4.2,<3.0.0",
+    "mlflow>=2.18.0",
+    "polars>=0.20.0",
+    "uvicorn>=0.15.0",
+    "requests==2.31.0",
+    "python-multipart==0.0.6",
+    "httpx>=0.27.2",
+    "torch>=2.5.1",
+    "transformers>=4.46.3",
+    "typer>=0.9.0",
+    "rich>=13.7.0",
+    "jinja2>=3.1.4",
+]
+urls.homepage = "https://github.com/eliotdoesprogramming/intent-service"
+urls.repository = "https://github.com/eliotdoesprogramming/intent-service"
+
+
+[project.scripts]
+intent-service = "run_service:main"
+intent-cli = "cli:app"
+upload-model = "ml.scripts.upload_model:app"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.3",
+    "pytest-asyncio>=0.23.0",
+    "setuptools>=75.6.0",
+    "ruff>=0.3.0",
+    "pre-commit>=3.6.0",
+]
+huggingface = [
+    "huggingface-hub>=0.20.3",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+filterwarnings = [
+    "ignore::pydantic.PydanticDeprecatedSince20",
+    "ignore::FutureWarning:mlflow.*:",
+    "ignore::FutureWarning:torch.*:"
+]
+
+[tool.ruff]
+# Only keep base settings here
+line-length = 88
+target-version = "py310"
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+
+[tool.ruff.lint]
+# Move linting-specific configs here
+select = ["E", "F", "I"]
+ignore = []
+fixable = ["A", "B", "C", "D", "E", "F", "I"]
+unfixable = []
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+preview = true
+
+[tool.ruff.lint.per-file-ignores]
+"src/api/endpoints.py" = ["E501"]
+"src/test_endpoints.py" = ["E501"]
+"src/test_ml.py" = ["E501"]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.ruff.lint.isort]
+known-first-party = ["api", "ml", "schema"]
+
+[tool.uv]
+package = true
+
+[tool.ruff.format]
+# Enable line wrap fixing
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+preview = true
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 120
