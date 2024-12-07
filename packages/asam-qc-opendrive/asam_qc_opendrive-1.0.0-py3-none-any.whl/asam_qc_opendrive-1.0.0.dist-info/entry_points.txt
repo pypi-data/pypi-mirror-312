@@ -1,0 +1,3 @@
+[console_scripts]
+qc_opendrive=qc_opendrive.main:main
+
