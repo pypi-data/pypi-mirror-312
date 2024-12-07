@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "mrkwatkins-oakemuai"
+version = "0.0.1"
+authors = ["MrKWatkins <mrkwatkins@gmail.com>"]
+description = "AI extensions for mrkwatkins.oakemu."
+homepage = "https://www.mrkwatkins.co.uk"
+repository = "https://github.com/MrKWatkins/OakEmu-AI"
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "mrkwatkins/oakemuai", from = "src" }
+]
+classifiers = [
+    "Development Status :: 3 - Alpha"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+gymnasium = "1.0.0"
+mrkwatkins-oakemu = "^0.0.3"
+opencv-python = "^4.10.0.84"
+pandas = "^2.2.3"
+pyarrow = "^18.0.0"
+pygame = "^2.6.1"
+ray = {extras = ["default"], version = "^2.39.0"}
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.0.1"
+ruff = "^0.8.0"
+
+[tool.poetry.group.model.dependencies]
+dm-tree = "^0.1.8"
+lz4 = "^4.3.3"
+memray = "^1.14.0"
+scikit-image = "^0.24.0"
+tensorboardx = "^2.6.2.2"
+torch = "^2.5.1"
+typer = "^0.14.0"
+
+[tool.poetry.group.test.dependencies]
+coverage = "^7.6.8"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
