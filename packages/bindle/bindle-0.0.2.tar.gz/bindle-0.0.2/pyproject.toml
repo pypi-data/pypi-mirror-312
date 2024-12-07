@@ -1,0 +1,83 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bindle"
+dynamic = ["version"]
+description = 'My blanket stick.'
+readme = "README.md"
+requires-python = ">=3.8"
+# Note that there's been an issue with hatch defaulting
+# to Metadata = "2.3" in the output metadata in the tar
+# file in the dist after `hatch build`. I was able
+# to fix this manually. This should be fixed after an
+# update to hatch.
+# license = "MIT"
+keywords = []
+authors = [
+  { name = "John Fiocca", email = "fioccajohn@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "click",
+  "ipython",
+  "jupyterlab",
+  "keyring",
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "pandas-gbq",
+  "pyyaml",
+  "scipy",
+  "seaborn",
+  "scikit-learn",
+  "statsmodels",
+]
+
+[project.urls]
+Documentation = "https://github.com/fioccajohn/bindle#readme"
+Issues = "https://github.com/fioccajohn/bindle/issues"
+Source = "https://github.com/fioccajohn/bindle"
+
+[project.scripts]
+bindle = "bindle.cli:bindle"
+
+[tool.hatch.version]
+path = "src/bindle/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/bindle tests}"
+
+[tool.coverage.run]
+source_pkgs = ["bindle", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/bindle/__about__.py",
+]
+
+[tool.coverage.paths]
+bindle = ["src/bindle", "*/bindle/src/bindle"]
+tests = ["tests", "*/bindle/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
