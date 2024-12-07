@@ -1,0 +1,3 @@
+[pygments.lexers]
+resource_lexer=restrict.compiler.lexers.pygments_resource_lexer:ResourceLexer
+
