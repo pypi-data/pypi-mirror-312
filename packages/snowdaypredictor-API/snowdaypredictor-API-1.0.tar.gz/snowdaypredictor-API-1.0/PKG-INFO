@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: snowdaypredictor-API
+Version: 1.0
+Summary: A Python package to predict snow day chances using snowdaypredictor.com
+Home-page: https://github.com/Roreos/SnowDayPredictor-API
+Author: Rorello Development
+Author-email: rorellodevelopment@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Snow Day Predictor
+
+A Python package that predicts the chance of a snow day using snowdaypredictor.com.
+
+## Installation
+
+</file>

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+snowday_predictor/__init__.py
+snowday_predictor/predictor.py
+snowdaypredictor_API.egg-info/PKG-INFO
+snowdaypredictor_API.egg-info/SOURCES.txt
+snowdaypredictor_API.egg-info/dependency_links.txt
+snowdaypredictor_API.egg-info/requires.txt
+snowdaypredictor_API.egg-info/top_level.txt
