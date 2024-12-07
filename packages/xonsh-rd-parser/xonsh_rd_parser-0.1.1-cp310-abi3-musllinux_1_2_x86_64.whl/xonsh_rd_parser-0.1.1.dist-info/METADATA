@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: xonsh_rd_parser
+Version: 0.1.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Xonsh Recursive Descent Parser
+
+A Rust library that parses Xonsh syntax to Python's AST.
+
+# Credits
+
+This library is based on [ruff](https://github.com/charliermarsh/ruff)'s own [Python parser](https://github.com/astral-sh/ruff/tree/main/crates/ruff_python_parser).
+
