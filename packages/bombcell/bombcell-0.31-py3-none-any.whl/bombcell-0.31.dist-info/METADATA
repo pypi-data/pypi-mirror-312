@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: bombcell
+Version: 0.31
+Summary: Python port of BombCell. Automated quality control, curation and neuron classification of spike-sorted electrophysiology data.
+Home-page: https://github.com/BombCell/bombcell
+Author: Julie Fabre, Sam Dodgson
+Author-email: julie.m.fabre@gmail.com
+License: GPL-3.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: joblib
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: numba (>=0.58.1)
+Requires-Dist: matplotlib
+Requires-Dist: mtscomp
+Requires-Dist: tqdm
+Requires-Dist: pyarrow
+
+# BombCellPy
+Current WIP python version of BombCell.
+
+To install run `pip install bombcell`, there is a demo notebook available in demos/BC_demo.ipynb on the bombcell github
