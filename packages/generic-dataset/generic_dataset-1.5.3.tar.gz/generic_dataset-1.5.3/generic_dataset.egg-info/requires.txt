@@ -1,0 +1,15 @@
+numpy
+pandas
+termcolor
+stub-generator
+
+[:python_version == "3.6"]
+opencv-python<4.7
+
+[:python_version > "3.6"]
+opencv-python
+
+[test]
+pytest
+pytest-cov
+opencv-python
