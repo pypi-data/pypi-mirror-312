@@ -1,0 +1,14 @@
+matplotlib
+numpy
+pandas
+PySide6
+scipy
+rich
+pyqtgraph
+toml
+pyinstaller
+
+# my packages
+mpPy6
+confPy6
+PySide6WidgetCollection>=1.0.2 # important, otherwise AboutDialog is not available
