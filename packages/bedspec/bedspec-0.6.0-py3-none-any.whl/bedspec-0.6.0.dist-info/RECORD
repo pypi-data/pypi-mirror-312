@@ -1,0 +1,13 @@
+CONTRIBUTING.md,sha256=selnIsM_6KTwdFyc0B3u4n2bM_sBAeSbQV-Fd7mzHuE,1803
+LICENSE,sha256=nN9Rgc41QgFz1uJfX7AsXRQJxlcJotVEPTNPwUAqfys,1070
+bedspec/__init__.py,sha256=MWneXWftcndpg-cSUkbLwuPMty0klBf_SpaaRm0jgKM,907
+bedspec/_bedspec.py,sha256=5JypI3D9q1Jp326CHhU8v3hy9XONJv5Q79qc-2RRhzE,11721
+bedspec/_reader.py,sha256=y4MqHYHvNwE-vk5Kpx2KP6PXtjc00S_D0fgE9hejzYU,3265
+bedspec/_writer.py,sha256=KsF4A2q_fgCNFLnskEwyFW4NMwkF0JcXtrbvJ5UXbBI,1082
+bedspec/overlap/__init__.py,sha256=aArIVkYIMBBC7YZkPP7KPcy6FjPZdKVl0Yi2as4pWNQ,76
+bedspec/overlap/_overlap.py,sha256=s3yROqIs3AcJeCMdLWXBy4eoBz1aytGIwuQG33e-fcY,4153
+bedspec/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bedspec-0.6.0.dist-info/LICENSE,sha256=nN9Rgc41QgFz1uJfX7AsXRQJxlcJotVEPTNPwUAqfys,1070
+bedspec-0.6.0.dist-info/METADATA,sha256=5yEWscD0bkFQHxJ_5mWKfZQ9R29aVvKgtbXFn9ANdkg,4547
+bedspec-0.6.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+bedspec-0.6.0.dist-info/RECORD,,
