@@ -1,0 +1,2 @@
+[console_scripts]
+stakeout = stakeout:run
