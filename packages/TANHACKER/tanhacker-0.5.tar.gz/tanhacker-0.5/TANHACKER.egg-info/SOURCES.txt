@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+TAN/__init__.py
+TANHACKER.egg-info/PKG-INFO
+TANHACKER.egg-info/SOURCES.txt
+TANHACKER.egg-info/dependency_links.txt
+TANHACKER.egg-info/top_level.txt
