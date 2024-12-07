@@ -1,0 +1,2 @@
+[console_scripts]
+hasan = hasan.cli:main
