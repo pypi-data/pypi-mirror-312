@@ -1,0 +1,12 @@
+tikos/__init__.py,sha256=eqtujCoxKrx98Syy4OCSX84EzXKSRxV0UyqwW5fFVGU,993
+tikos/config.py,sha256=GTC4PWK95C79v1rloNFGOIctIOftgM2wQnq5ZBei7KE,50
+tikos/tikos.py,sha256=R4cRj4yPYJF48jj7qEUUk93Uk4DO_Tts1_U4w_vVTTk,11817
+tikos/client/TikosClient.py,sha256=F2sxUf2eJpGO5TC846OvSPjK31Oc2HIxgyEFGCUzBes,7997
+tikos/client/__init__.py,sha256=muysjovZFqAKeZLfIkaxNYix6n1qNbZpwH_YTcFAa_U,60
+tikos/client/client.py,sha256=NN6ABDDQiNPCd8Tbt9vQUb8Xnrp2MNIppxkieEFjMqw,203
+tikos-0.2.1.dist-info/LICENSE,sha256=5K8PFTuLePuVFXUQP4fMNi3yGNdL3cjLGDzaaHyIwcg,643
+tikos-0.2.1.dist-info/METADATA,sha256=9RmIUzxaOra2wEj6DTvHOFyfIXQQxZ5k3yfbj66SAiY,5667
+tikos-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tikos-0.2.1.dist-info/entry_points.txt,sha256=T8XfUmIihkYohhly4_3Fi4so6jGPONCaKiLcOC6qMLg,44
+tikos-0.2.1.dist-info/top_level.txt,sha256=_un-LL9ZVxddfRgMnFtvAVdQgUVY4HaVvI6wS0h1_Es,6
+tikos-0.2.1.dist-info/RECORD,,
