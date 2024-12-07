@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: swampyer
+Version: 3.0.20241129
+Summary: Simple WAMP library with minimal external dependencies
+Author-Email: Aki Mimoto <aki+swampyer@zaber.com>
+Requires-Python: >=3.8
+Requires-Dist: websocket-client>=0.59.0
+Requires-Dist: certifi>=2023.11.17
+Provides-Extra: cbor
+Requires-Dist: cbor; extra == "cbor"
+Provides-Extra: msgpack
+Requires-Dist: msgpack; extra == "msgpack"
+Provides-Extra: websockets
+Requires-Dist: websockets; extra == "websockets"
+Provides-Extra: all
+Requires-Dist: cbor; extra == "all"
+Requires-Dist: msgpack; extra == "all"
+Requires-Dist: websockets; extra == "all"
+
