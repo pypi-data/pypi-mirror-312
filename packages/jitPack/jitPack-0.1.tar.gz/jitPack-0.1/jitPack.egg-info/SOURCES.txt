@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+jitPack.egg-info/PKG-INFO
+jitPack.egg-info/SOURCES.txt
+jitPack.egg-info/dependency_links.txt
+jitPack.egg-info/requires.txt
+jitPack.egg-info/top_level.txt
+jit_pack/__init__.py
+jit_pack/jit_auth.py
+jit_pack/jit_client.py
+jit_pack/jit_message.py
+jit_pack/jit_orders.py
