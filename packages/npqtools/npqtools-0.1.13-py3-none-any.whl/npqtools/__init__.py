@@ -1,0 +1,1 @@
+from npqtools.qubo import QUBO
