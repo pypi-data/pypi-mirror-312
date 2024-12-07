@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+unique_code_snippets/__init__.py
+unique_code_snippets/code_snippets.py
+unique_code_snippets.egg-info/PKG-INFO
+unique_code_snippets.egg-info/SOURCES.txt
+unique_code_snippets.egg-info/dependency_links.txt
+unique_code_snippets.egg-info/top_level.txt
