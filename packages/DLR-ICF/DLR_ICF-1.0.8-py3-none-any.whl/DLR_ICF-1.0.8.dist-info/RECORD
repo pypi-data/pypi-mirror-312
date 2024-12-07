@@ -1,0 +1,14 @@
+DLR_ICF/DLR_ICF_comparison.py,sha256=oP7lQye_vdG9iUJElFYVx4sRxmF2-lwBtj6Yn7ymzBE,3025
+DLR_ICF/DLR_ICF_gene.py,sha256=iYxUmmRVEO22JDEDBvZHLVmkU3Dp7afOj5HfqOFE0kI,8521
+DLR_ICF/DLR_ICF_main.py,sha256=al4E_GJrsklLOf1mk9Q2SmoNwvXuiZwWeMtTZq6Z8Yk,7204
+DLR_ICF/DLR_ICF_separation.py,sha256=rXUcagANSy2Jn64zS3h6xh5cRij8g38P2BTyCeOqLwQ,11110
+DLR_ICF/ICF_chromatin.py,sha256=JA5N8TqRNFHUDbNDiKz5w_8EIQJJgjEV1FTdZnJd-Bk,5360
+DLR_ICF/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DLR_ICF/__main__.py,sha256=dJbCrqYXze6DrgYRTEubzV79I6_aNVCEi3m7s5xrfGM,168
+DLR_ICF/_version.py,sha256=u2dFzCeh4SZbqRUh8uT47W1KjNJpUrZnJtV8yyUJZ6k,19
+DLR_ICF-1.0.8.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+DLR_ICF-1.0.8.dist-info/METADATA,sha256=rV9WyqZ8nWmeE-I4RU9bKar25woSWb0qKG4bj6SUa2Y,456
+DLR_ICF-1.0.8.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+DLR_ICF-1.0.8.dist-info/entry_points.txt,sha256=_Ow3ToSMro8kQbH0M0I_w4IPcwxu_SIX5YHmVJzdHQI,249
+DLR_ICF-1.0.8.dist-info/top_level.txt,sha256=G7x-0ih1KH8bC415Ho0U5EP-lA_QlnBE2mxjOST4v-s,8
+DLR_ICF-1.0.8.dist-info/RECORD,,
