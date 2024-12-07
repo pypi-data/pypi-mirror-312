@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: visualization_lib
+Version: 0.1
+Summary: A library for data cleaning and visualization based on relationships in data.
+Home-page: https://github.com/AmmarJamshed/visualization_lib
+Author: Ammar Jamshed
+Author-email: ammarjamshed123@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: pytest
