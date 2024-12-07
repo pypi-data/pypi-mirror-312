@@ -1,0 +1,6 @@
+README.md
+setup.py
+seamoney_aimos.egg-info/PKG-INFO
+seamoney_aimos.egg-info/SOURCES.txt
+seamoney_aimos.egg-info/dependency_links.txt
+seamoney_aimos.egg-info/top_level.txt
