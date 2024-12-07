@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+zth-20241203/__init__.py
+zth-20241203/module.py
+zth_20241203.egg-info/PKG-INFO
+zth_20241203.egg-info/SOURCES.txt
+zth_20241203.egg-info/dependency_links.txt
+zth_20241203.egg-info/top_level.txt
