@@ -1,0 +1,2 @@
+[console_scripts]
+outlook_autoreply_helper = outlook_autoreply_helper:__main__.main

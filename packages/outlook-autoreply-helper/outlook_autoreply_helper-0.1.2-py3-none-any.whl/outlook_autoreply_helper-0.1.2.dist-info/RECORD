@@ -1,0 +1,11 @@
+outlook_autoreply_helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+outlook_autoreply_helper/__main__.py,sha256=JCoJPRZ4lHVDDtQ_YTb6KkagAlnrwwoM3cBdnUk6v74,2442
+outlook_autoreply_helper/auth.py,sha256=4IOxVdY1aDSCTrB8Td9J3oBatfTZwSS_Litc5l1Ei7M,3113
+outlook_autoreply_helper/command.py,sha256=npnj51o9-8dfBtOeyljBvw0Xkj_ZqUNsSF0euE5VaMc,14051
+outlook_autoreply_helper/settings.py,sha256=3bNO81_iScRCVCQ7QDR3o8wGBOGD2s10qZCitdjRcdQ,12925
+outlook_autoreply_helper/util.py,sha256=Tt0tznLWgsXijdXgsp47V9QgOJCTpZZ6MVc4i4Uig10,2978
+outlook_autoreply_helper-0.1.2.dist-info/METADATA,sha256=dU0UuaeNtVmV7ofGBhKi49ZKlwOqj4dHYeiS7Q6Dbcw,7225
+outlook_autoreply_helper-0.1.2.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+outlook_autoreply_helper-0.1.2.dist-info/entry_points.txt,sha256=aDYPMTgVIBTZsjQq_o0IE_RdqgfL31v57wFjs_HhoUM,84
+outlook_autoreply_helper-0.1.2.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+outlook_autoreply_helper-0.1.2.dist-info/RECORD,,
