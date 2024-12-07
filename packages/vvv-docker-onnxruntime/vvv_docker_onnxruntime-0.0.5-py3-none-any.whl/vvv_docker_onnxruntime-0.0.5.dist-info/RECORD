@@ -1,0 +1,6 @@
+vvv_docker_onnxruntime/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vvv_docker_onnxruntime/onnxruntime.tar.xz,sha256=QD3FqiYg1gy28I_TqQIbt1iRY1Cd6risNCYeJiw-VhU,100789804
+vvv_docker_onnxruntime-0.0.5.dist-info/METADATA,sha256=PgFUnDsKqeVIVCHyHvR88QF2XJXOi4qLTKAJBJ9JyZc,71
+vvv_docker_onnxruntime-0.0.5.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+vvv_docker_onnxruntime-0.0.5.dist-info/top_level.txt,sha256=xehA9eu2bgwdjxKvcSw5UERfp7QWTWluTaWIN7P-580,23
+vvv_docker_onnxruntime-0.0.5.dist-info/RECORD,,
