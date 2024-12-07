@@ -1,0 +1,151 @@
+Metadata-Version: 2.1
+Name: datatang-customer-service
+Version: 1.0.3
+Summary: This SDK aims to provide customers with a range of features to simplify order management, dataset processing, and data acceptance.
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: loguru >=0.7.2
+Requires-Dist: python-dateutil >=2.9.0.post0
+Requires-Dist: python-dotenv >=0.21.1
+Requires-Dist: requests >=2.31.0
+Requires-Dist: azure-core >=1.30.1
+Requires-Dist: azure-storage-blob >=12.19.1
+Requires-Dist: aliyun-python-sdk-core >=2.15.1
+Requires-Dist: aliyun-python-sdk-kms >=2.16.3
+Requires-Dist: oss2 >=2.18.6
+
+#### Order Services
+
+Our order management service offers a comprehensive set of APIs for querying orders and detailed information about the delivery batches under an order.
+
+#### Dataset Services
+
+Dataset services allow users to upload, download, and view datasets.
+
+#### Data Acceptance Services
+
+Data acceptance includes acceptance lists, details, and end-of-acceptance features, helping users ensure that their orders and datasets meet specific business standards and compliance requirements.
+
+### Prerequisites
+
+- Python 3.6+ (It is recommended to use Python 3.6 or higher)
+- pip (Python's package manager)
+
+### Installation
+
+Install the customerService Python SDK using pip:
+
+```
+    pip install datatang-customer-service-x.x.x
+```
+
+### Configuration
+
+Before using the SDK, some basic configurations are required, including obtaining AppKey and AppSecret, and binding callback links.
+
+#### Obtain AppKey and AppSecret
+
+1. Log in to the customer service system.
+2. Go to Personal Center - Application Credentials.
+3. Create a new key at "AppKey" and "AppSecret".
+
+#### Configure the SDK
+
+Configure the keys in the code:
+
+  ``` 
+  from customerService.auth import Auth
+  auth = Auth(app_key='your-app-key', app_secret='your-app-secret')
+  ```
+
+### Quick Start
+
+Here is an example of how to use the Customer Service Python SDK for basic operations.
+
+#### Initialize the Client
+
+  ```
+  from customerService.auth import Auth
+  auth = Auth(app_key='your-app-key', app_secret='your-app-secret')
+  ```
+
+#### Query Datasets
+
+  ```
+  from customerService.datasets import Datasets
+  from customerService.page_params import PageParams
+  
+  dataset = Datasets(auth)
+  page = PageParams()
+  json = dataset.dataset_list(dataset_state='state', page=page)
+  ```
+
+#### Create a Dataset
+
+  ```
+  from customerService.datasets import Datasets
+  
+  dataset = Datasets(auth)
+  dataset.create_dataset(dataset_name='name', order_ids='orderId', storage_area='area')
+  ```
+
+#### Get a Dataset
+
+  ```
+  from customerService.datasets import Datasets
+  
+  dataset = Datasets(auth)
+  json = dataset.dataset_info(dataset_id='dataset_id')
+  ```
+
+#### Update a Dataset
+
+  ```
+  from customerService.datasets import Datasets
+  
+  dataset = Datasets(auth)
+  json = dataset.update_dataset(dataset_id='dataset_id', dataset_name='dataset_name', 
+  add_order_ids='add_order_ids', remove_order_ids='remove_order_ids')
+  ```
+
+#### Delete a Dataset
+
+  ```
+  from customerService.datasets import Datasets
+  
+  dataset = Datasets(auth)
+  json = dataset.delete_dataset(dataset_id='dataset_id')
+  ```
+
+#### Pagination Handling
+
+  ```
+  from customerService.datasets import Datasets
+  from customerService.page_params import PageParams
+  
+  dataset = Datasets(auth)
+  page = PageParams()
+  page.page_size = 10
+  page.page = 1
+  json = dataset.dataset_list(dataset_state='dataset_state', page=page)
+  ```
+
+#### DataSet Upload
+
+  ```
+  from customerService.auth import Auth
+  from customerService.datasets import DatasetBatchs, Datasets
+  from customerService.upload import Upload
+  
+  dataset = Datasets(auth)
+  dataset_id = dataset.create_dataset(dataset_name='upload_name' + 'dataset_name', 
+  order_ids='order_id', storage_area='storage_area')['responseObject']
+  batchs = DatasetBatchs(auth)
+  batch_id = batchs.create_dataset_batch(dataset_id=dataset_id, batch_name=batch_name, comment='')['responseList'][0]['batchId']
+  upload = Upload(auth=auth, dataset_id=dataset_id, batch_id=batch_id, file_path='your_file_path' ,region='your_storage_area')
+  upload.execute()
+  ```
+

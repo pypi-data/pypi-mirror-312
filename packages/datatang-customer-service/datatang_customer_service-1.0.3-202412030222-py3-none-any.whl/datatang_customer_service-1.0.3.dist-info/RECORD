@@ -1,0 +1,15 @@
+customerService/__init__.py,sha256=gFmxZjV_yUiqJ5Be4dWu4-o0Mh8W0hGS1WsLRc5f_W0,105
+customerService/auth.py,sha256=wBs0oTl3B7cnWIu3dOkt_fzOxOLdvfSiED10a2aA0Rg,429
+customerService/base.py,sha256=jTJnMpUpPLOyU5pJ434m3V97_TQ9sJYc4nAz6wf7MSw,1846
+customerService/constants.py,sha256=CT6XQwCfeZhDKMCY7g3I3I3-GVrWzjEqyYZ684DVItA,3309
+customerService/datasets.py,sha256=essfccvakuFM_DhuhAPruuTeboV9nSxMWUqXJVZuFas,13929
+customerService/demo.py,sha256=wZnV_R64JUYHuRkE_hpUwTQDX-ZOf4EFVru0Fl7o2kk,1736
+customerService/env.py,sha256=VhJgQzfQ2NlDtTXyN__4pMgwYjw84botsfLGXBGC1NQ,57
+customerService/inspection.py,sha256=o0YDIXFfGboaa80cHOIL58qWZhAwxHViShDZvTZS0oA,7551
+customerService/order.py,sha256=rcvFxvPnmyVCcZ2GOlCOk5zJdOEmJYXF-_LdihO_RIw,6857
+customerService/page_params.py,sha256=q4Z1j4a0K52XpUa6OMp6bZHwZGyJfUlLQ9rZwbcluz8,107
+customerService/upload.py,sha256=cZtQ61qsOogPflVTcxn58gtRtmdg1CRFiPXe_M8fxaU,18144
+datatang_customer_service-1.0.3.dist-info/METADATA,sha256=aEd7tfLlsT_V6HYCULpLKCeuHUUmlpQ9ZdOC1BVTEPM,4210
+datatang_customer_service-1.0.3.dist-info/WHEEL,sha256=yr63O-mF6_uteyU00UO7phI9uA6bYgLQfRJ5Qvyj9jk,112
+datatang_customer_service-1.0.3.dist-info/top_level.txt,sha256=eM2CwSoiVjPstMA7GbZ7v0ANIOxdmiSUfyQ8WlJMAU0,16
+datatang_customer_service-1.0.3.dist-info/RECORD,,
