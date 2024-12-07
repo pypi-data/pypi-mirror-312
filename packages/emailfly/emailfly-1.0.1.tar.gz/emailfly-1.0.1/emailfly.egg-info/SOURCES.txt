@@ -1,0 +1,10 @@
+setup.py
+emailfly/__init__.py
+emailfly/mailer.py
+emailfly.egg-info/PKG-INFO
+emailfly.egg-info/SOURCES.txt
+emailfly.egg-info/dependency_links.txt
+emailfly.egg-info/requires.txt
+emailfly.egg-info/top_level.txt
+emailfly/utils/__init__.py
+emailfly/utils/utils.py
