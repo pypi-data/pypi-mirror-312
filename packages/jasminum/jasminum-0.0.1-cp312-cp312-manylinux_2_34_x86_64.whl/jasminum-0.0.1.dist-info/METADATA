@@ -1,0 +1,35 @@
+Metadata-Version: 2.3
+Name: jasminum
+Version: 0.0.1
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Rust
+Requires-Dist: polars >=1.16.0
+Requires-Dist: pyarrow >=7.0.0
+License-File: LICENSE
+Summary: an implementation of the data analytics programming language jasmine
+Keywords: q,kdb,polars,dataframe,arrow
+Author-email: Jo Shinonome <jo.shinonome@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Repository, https://github.com/jshinonome/kola
+
+# jasminum
+
+an implementation of the data analytics programming language jasmine
+
+## Installation
+
+```
+pip install jasminum
+```
+
+## Start
+
+jasminum
+
