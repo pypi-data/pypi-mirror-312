@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+python/culting/__init__.py
+python/culting/__main__.py
+python/culting/cli.py
+python/culting/py.typed
+python/culting/sh.py
+python/culting.egg-info/PKG-INFO
+python/culting.egg-info/SOURCES.txt
+python/culting.egg-info/dependency_links.txt
+python/culting.egg-info/entry_points.txt
+python/culting.egg-info/requires.txt
+python/culting.egg-info/top_level.txt
+requirements/requirements-dev.txt
+requirements/requirements-tests.txt
+requirements/requirements.txt
