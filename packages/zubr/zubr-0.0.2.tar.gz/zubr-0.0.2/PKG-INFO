@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: zubr
+Version: 0.0.2
+Summary: This lib can help you in cases, that i have gone through
+Home-page: https://github.com/pypa/sampleproject
+Author: Georgy Barashkov
+Author-email: gbarashkov2001@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# zubr
+My own lib with most frequent or stealth program solutions
