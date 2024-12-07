@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: easy-http-requests
+Version: 0.5.1
+Summary: 
+Author: UltraViolet33
+Author-email: 93035200+UltraViolet33@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+## Easy HTTP Requests
+
+### usage
+```python
+from easy_http_requests.easy_http_request import EasyHttpRequest
+
+# Create an instance of EasyHttpRequests
+easy_http_requests = EasyHttpRequest()
+
+# GET request
+response = easy_http_requests.get('https://jsonplaceholder.typicode.com/posts')
+
+print(response.status_code)
+
+# POST request
+response = easy_http_requests.post('https://jsonplaceholder.typicode.com/posts', data={'title': 'foo', 'body': 'bar', 'userId': 1})
+
+# PUT request
+response = easy_http_requests.put('https://jsonplaceholder.typicode.com/posts/1', data={'title': 'foo', 'body': 'bar', 'userId': 1})
+
+# DELETE request
+response = easy_http_requests.delete('https://jsonplaceholder.typicode.com/posts/1')
+
+print(response.status_code)
+```
