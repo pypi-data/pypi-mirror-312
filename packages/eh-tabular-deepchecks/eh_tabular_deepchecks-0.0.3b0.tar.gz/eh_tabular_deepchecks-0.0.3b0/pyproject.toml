@@ -1,0 +1,72 @@
+[tool.poetry]
+name = "eh-tabular-deepchecks"
+version = "v0.0.3-beta"
+authors = ["deepchecks", "DanielAvdar <66269169+DanielAvdar@users.noreply.github.com>"]
+license = "AGPL-3.0"
+readme = "README.md"
+homepage = "https://github.com/DanielAvdar/deepchecks"
+description = "mantained deepchecks tabular module"
+
+
+
+packages = [{ include = "deepchecks", from = "." }]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pandas = ">=1.1.5,<2.3.0"
+scikit-learn = "*"
+jsonpickle = ">=2"
+PyNomaly = ">=0.3.3"
+tqdm = ">=4.62.3"
+category-encoders = ">=2.3.0"
+matplotlib = ">=3.0.1"
+beautifulsoup4 = ">=4.11.1"
+
+plotly = ">=5.0.1"
+
+jinja2 = ">=3.0.1"
+
+ipykernel = ">=5.3.0"
+ipywidgets = ">=8"
+[tool.poetry.dev-dependencies]
+pytest = ">=8.0.0"
+pytest-cov = "*"
+pyhamcrest = "*"
+tox = "*"
+gower = "*"
+deepdiff = "*"
+catboost = "*"
+lightgbm = "*"
+xgboost = "*"
+
+setuptools = "*"
+pyarrow = ">=14.0.1"
+pre-commit = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+include = ["deepchecks/**"]
+
+[tool.ruff.lint]
+select = ["F", "B", "I", "W", "E", "A", "N"]
+fixable = ["ALL"]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+section-order = ["future", "standard-library", "first-party", "local-folder", "third-party", ]
+
+[tool.mypy]
+python_version = "3.11"
+disallow_untyped_defs = true
+check_untyped_defs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+strict_optional = false
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+ignore_errors = true

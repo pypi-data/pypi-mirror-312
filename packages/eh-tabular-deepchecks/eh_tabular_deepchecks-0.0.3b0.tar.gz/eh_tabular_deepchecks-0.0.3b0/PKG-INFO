@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: eh-tabular-deepchecks
+Version: 0.0.3b0
+Summary: mantained deepchecks tabular module
+Home-page: https://github.com/DanielAvdar/deepchecks
+License: AGPL-3.0
+Author: deepchecks
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyNomaly (>=0.3.3)
+Requires-Dist: beautifulsoup4 (>=4.11.1)
+Requires-Dist: category-encoders (>=2.3.0)
+Requires-Dist: ipykernel (>=5.3.0)
+Requires-Dist: ipywidgets (>=8)
+Requires-Dist: jinja2 (>=3.0.1)
+Requires-Dist: jsonpickle (>=2)
+Requires-Dist: matplotlib (>=3.0.1)
+Requires-Dist: pandas (>=1.1.5,<2.3.0)
+Requires-Dist: plotly (>=5.0.1)
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm (>=4.62.3)
+Description-Content-Type: text/markdown
+
+<!--
+   ~ ----------------------------------------------------------------------------
+   ~ Copyright (C) 2021-2023 Deepchecks (https://www.deepchecks.com)
+   ~
+   ~ This file is part of Deepchecks.
+   ~ Deepchecks is distributed under the terms of the GNU Affero General
+   ~ Public License (version 3 or later).
+   ~ You should have received a copy of the GNU Affero General Public License
+   ~ along with Deepchecks.  If not, see <http://www.gnu.org/licenses/>.
+   ~ ----------------------------------------------------------------------------
+   ~
+-->
+this is modified version of deepchecks.
+the purpose of this version is to maintain & distribute limited version of deepchecks for tabular data.
+(https://www.deepchecks.com)
+
