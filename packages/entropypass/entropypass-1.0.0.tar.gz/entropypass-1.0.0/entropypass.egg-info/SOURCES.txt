@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+entropypass/__init__.py
+entropypass/cli.py
+entropypass/password_gen.py
+entropypass.egg-info/PKG-INFO
+entropypass.egg-info/SOURCES.txt
+entropypass.egg-info/dependency_links.txt
+entropypass.egg-info/entry_points.txt
+entropypass.egg-info/top_level.txt
