@@ -1,0 +1,13 @@
+lazyopenai/__init__.py,sha256=ImbbzmPppdzcTqrc-K28elThjEHBZ3VOlCU49Rj0-x4,27
+lazyopenai/chat.py,sha256=_8sk7UGSFJqr1X1ab-CJ1bGAhZzy3T3ZvODv-miQAKU,5535
+lazyopenai/lazy.py,sha256=YazpHy013i3P952veoO5Ge7pHq2fFuBOCXhB0pTokO0,462
+lazyopenai/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+lazyopenai/settings.py,sha256=dYgYFuyb19eRZ99qNdTgZE3buN8IhKLp3bHAExEVpFA,825
+lazyopenai/types.py,sha256=OUvRbhsVofgZNqUP3f4OIx3nZBt8sAlPuk4Uj09fB6M,473
+lazyopenai/simple/__init__.py,sha256=ii3VqnyrejscJg3ltsBuEDEhEO-CesbAqicSpLSYDdw,105
+lazyopenai/simple/completions.py,sha256=QE4edJV2jkUfnWAIcK7-WfL7Eq3rQQC3QwuDibRjECw,3605
+lazyopenai/simple/embeddings.py,sha256=nFJCw2l5gxhycnhTP8Dt8U2hYrZyejUynV6WqbBDF2M,392
+lazyopenai-0.1.4.dist-info/METADATA,sha256=o-Vkm_f9ipthGGNPcfn9SeDOsg3-bUeqOTtnaQWDhwo,1585
+lazyopenai-0.1.4.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+lazyopenai-0.1.4.dist-info/licenses/LICENSE,sha256=H2T3_RTgmcngMeC7p_SXT3GwBLkd2DaNgAZuxulcfiA,1066
+lazyopenai-0.1.4.dist-info/RECORD,,
