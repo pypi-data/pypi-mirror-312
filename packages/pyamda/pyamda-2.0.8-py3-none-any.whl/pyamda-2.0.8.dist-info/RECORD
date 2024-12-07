@@ -1,0 +1,16 @@
+pyamda/__init__.py,sha256=LEUf3lg39W6Sjju03j50w2DDB4GtFUfxdRaPM1wtWDc,166
+pyamda/__main__.py,sha256=Esh_DNGnXZLqBOY27lZ5UD01xu2d7KxYK5TY0VVjy0c,826
+pyamda/bools.py,sha256=RBLPohPlmUkQWdg4bMtMoNGZ68UBJkjoBaYo5Bx92Ow,3411
+pyamda/clss.py,sha256=8MB5Xv8-YAWnGIEfSbU3hXn3UH1LQ8t_ZectqAmY66c,1687
+pyamda/core.py,sha256=mfrX5A9tKpXvOe-TGg1HPAE6pxlhCOsBNUbB4Ce_3do,13879
+pyamda/dicts.py,sha256=kL6p4n4NNA73Pt4RMBLUx0phC5e7XEFalYPNx2wRefY,2921
+pyamda/iters.py,sha256=erkH4-_SViwkUAGvmwpMTYWYhQEmucjohc10ZfHV1oA,2669
+pyamda/lists.py,sha256=VaaONvKzWqz-Ve-JDK97iRKhRrwcEWPNdnLPGRGXUQU,2827
+pyamda/maths.py,sha256=Mj2pxAqUFskLOTbgXWfFYAcNfkft2__9BDby0Z2Vut0,2333
+pyamda/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyamda/strs.py,sha256=PiCA8_rW9LvPBvtPWyUXMXNk9IYv_izTvfFCYjb9i2o,1382
+pyamda-2.0.8.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pyamda-2.0.8.dist-info/METADATA,sha256=kdqpowgUTe1HLXOWMLo1AwSXJl7e8WVm-FkJLzM290w,42340
+pyamda-2.0.8.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pyamda-2.0.8.dist-info/top_level.txt,sha256=OowqsOkMqayCRkEvSO6WhPsIe2GSPoo1FB46YVOoj3M,7
+pyamda-2.0.8.dist-info/RECORD,,
