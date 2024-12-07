@@ -1,0 +1,10 @@
+google-auth
+google-auth-oauthlib
+google-api-python-client
+PyPDF2
+pytesseract
+opencv-python
+PyMuPDF
+pandas
+Pillow
+tqdm
