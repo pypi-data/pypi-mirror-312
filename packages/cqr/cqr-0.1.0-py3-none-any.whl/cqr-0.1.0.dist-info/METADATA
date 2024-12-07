@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: cqr
+Version: 0.1.0
+Author-email: Enzo Busseti <enzo.busseti@gmail.com>
+License: GPLv3
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: COPYING
+Requires-Dist: numpy
+Requires-Dist: scipy>=1.12
+Requires-Dist: pyspqr
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: autopep8; extra == "dev"
+Requires-Dist: docformatter; extra == "dev"
+Requires-Dist: diff_cover; extra == "dev"
+Provides-Extra: test
+Requires-Dist: cvxpy-base; extra == "test"
+Requires-Dist: coverage[toml]; extra == "test"
+Requires-Dist: ecos; extra == "test"
+Requires-Dist: scs; extra == "test"
+
+CQR: Conic QR Solver
+====================
+
+Experimental solver for convex conic programs based on the QR decomposition.
+
+Installation
+------------
+
+.. code-block::
+
+	pip install cqr
+
+Usage
+-----
+
+From CVXPY:
+
+.. code-block:: python
+	
+	from cqr import CQR
+	import cvxpy
+	
+	cvxpy.Problem(...).solve(solver=CQR())
+
