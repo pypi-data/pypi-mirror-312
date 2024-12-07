@@ -1,0 +1,3 @@
+[console_scripts]
+poetry-drill-demo=poetry_drill_demo.main:app
+
