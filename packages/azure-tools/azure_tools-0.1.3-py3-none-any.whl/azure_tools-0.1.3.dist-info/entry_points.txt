@@ -1,0 +1,2 @@
+[console_scripts]
+aml = azure_tools.main:app
