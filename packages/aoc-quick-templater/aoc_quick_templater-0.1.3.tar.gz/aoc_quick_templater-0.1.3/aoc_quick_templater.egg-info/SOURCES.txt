@@ -1,0 +1,9 @@
+README.md
+main.py
+pyproject.toml
+aoc_quick_templater.egg-info/PKG-INFO
+aoc_quick_templater.egg-info/SOURCES.txt
+aoc_quick_templater.egg-info/dependency_links.txt
+aoc_quick_templater.egg-info/entry_points.txt
+aoc_quick_templater.egg-info/requires.txt
+aoc_quick_templater.egg-info/top_level.txt
