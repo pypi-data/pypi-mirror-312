@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: number-convert
+Version: 1.0.0
+Summary: Package for converting numbers between various number systems
+Author: Mitron
+License: MIT License
+Keywords: convert,converting,num,number,numbers,numeric,system,systems,float,int,integer,custom,alphabet
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+License-File: LICENSE
