@@ -1,0 +1,2 @@
+[console_scripts]
+temmies = temmies_cli.cli:cli
