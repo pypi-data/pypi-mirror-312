@@ -1,0 +1,8 @@
+alibabacloud_milvus20231012/__init__.py,sha256=zrUEHc9dmvLJ5ka5maZk9TTHoZ21dwKsENXeOSwXM3o,21
+alibabacloud_milvus20231012/client.py,sha256=UlLZS19zHXVbWk6FA_oxA7LQ7lWHMfC9Bw_qkQS852c,35098
+alibabacloud_milvus20231012/models.py,sha256=pXyJp-HUOgfu5_oLfPNWmRXYeD0ZfMP6CVczsL2PDDo,63068
+alibabacloud_milvus20231012-1.0.6.dist-info/LICENSE,sha256=0CFItL6bHvxqS44T6vlLoW2R4Zaic304OO3WxN0oXF0,600
+alibabacloud_milvus20231012-1.0.6.dist-info/METADATA,sha256=A4NnhjbR3j1-R7KgNIGme8SxJ1tSFF_vfS90nPAOX3U,2333
+alibabacloud_milvus20231012-1.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+alibabacloud_milvus20231012-1.0.6.dist-info/top_level.txt,sha256=S1_7dAnbuDKxO1d3QeWjmfaThGn56TfkvWMKFn1x6zk,28
+alibabacloud_milvus20231012-1.0.6.dist-info/RECORD,,
