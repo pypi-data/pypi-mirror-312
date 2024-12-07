@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pythonPrintAnimals/__init__.py
+pythonPrintAnimals/printAnimals.py
+pythonPrintAnimals/tools.py
+pythonPrintAnimals.egg-info/PKG-INFO
+pythonPrintAnimals.egg-info/SOURCES.txt
+pythonPrintAnimals.egg-info/dependency_links.txt
+pythonPrintAnimals.egg-info/requires.txt
+pythonPrintAnimals.egg-info/top_level.txt
