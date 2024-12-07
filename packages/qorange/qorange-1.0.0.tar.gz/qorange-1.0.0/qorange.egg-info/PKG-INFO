@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: qorange
+Version: 1.0.0
+Summary: A package for performing quantum gate operations on two qubits
+Home-page: https://github.com/QC2-python-SE/QORANGE
+Author: Srinjoy, Vamsi, Mate and Cathy
+Author-email: 
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy
