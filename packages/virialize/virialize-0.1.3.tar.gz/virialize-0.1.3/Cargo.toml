@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["interatomic", "faunus", "virialize", "coulomb"]
+
+[profile.release]
+opt-level = 3
+lto = true
