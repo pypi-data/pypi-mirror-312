@@ -1,0 +1,17 @@
+relaxit/__init__.py,sha256=WjDmvecyDIyJLYp4rCV9vsSYbQDc4L1EpYqORvEXliI,33
+relaxit/_version.py,sha256=x7SWnx8ho-VaDHLtK75ItIuboJ9SpcR_vy2GvXNmU4A,21
+relaxit/distributions/CorrelatedRelaxedBernoulli.py,sha256=SbtjJqOIbxGWF7y0AljIuyh0IMFMwBbQ1wjjFcTeGR8,5446
+relaxit/distributions/GaussianRelaxedBernoulli.py,sha256=8HetNgpCh77racrK-ru6Ly8VTcntFH8qFouoN9Q7AxE,4580
+relaxit/distributions/GumbelSoftmaxTopK.py,sha256=8wRmcnwAgMYItd8i-EFOfY890ACRTotjc32GiHREP9Q,4556
+relaxit/distributions/HardConcrete.py,sha256=yRu5P0bxajVeXI5BLuehe1BmGKvYae-v5ehOQ7k9DlI,5503
+relaxit/distributions/InvertibleGaussian.py,sha256=rI5K3pTmp4uFYplDvIJ59F7dzx9fw-ip-LtkvBwo2cs,4743
+relaxit/distributions/LogisticNormalSoftmax.py,sha256=_U7mtfD-7Ate1Ir35sMPYAIAu0c1jlcUm54OC-5Qxjw,1601
+relaxit/distributions/StraightThroughBernoulli.py,sha256=Y_QDSqF6EGtBEX2Env5wnNz0LBEBHCgtHztxcoh9LhI,3230
+relaxit/distributions/__init__.py,sha256=SMq-duL9J26qIPFXRmV_GwKdj8XrHfV221SkPsdUYXc,602
+relaxit/distributions/approx.py,sha256=-WLWXoB70INWhgts6K4BwMKw_jyj4hl_cBhftxYw4RE,2024
+relaxit/distributions/kl.py,sha256=UNUNrtLAGAOCDgfptU-gf4EfTJ2av4hgBBJ1Do0hAYo,318
+relaxit-1.0.1.dist-info/LICENSE,sha256=BTX4KoTItbamW-5re87J3Xe3seqF_OWsyaPPq_Yp0hc,1076
+relaxit-1.0.1.dist-info/METADATA,sha256=gRrkgIP9B8ZVF-aVvcIk0uX27nlCwnD31SySkIZdmTw,10366
+relaxit-1.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+relaxit-1.0.1.dist-info/top_level.txt,sha256=4UMaullAc57Q-TkMRMgeo3ZODWvKWp6cBbg8ngTSzA4,8
+relaxit-1.0.1.dist-info/RECORD,,
