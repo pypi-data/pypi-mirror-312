@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: commitcrafter
+Version: 0.2.0
+Summary: 
+Author: mpruvot
+Author-email: marius.pruvot@outlook.fr
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: anthropic (>=0.40.0,<0.41.0)
+Requires-Dist: gitpython (>=3.1.43,<4.0.0)
+Requires-Dist: openai (>=1.23.1,<2.0.0)
+Requires-Dist: pyperclip (>=1.9.0,<2.0.0)
+Requires-Dist: pytest (>=8.1.1,<9.0.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: ruff (>=0.4.0,<0.5.0)
+Requires-Dist: typer (>=0.12.3,<0.13.0)
+Description-Content-Type: text/markdown
+
+![ezgif-4-30ae1a8a0a](https://github.com/mpruvot/CommitCrafter/assets/132161864/ced77a15-5f3b-4e31-9011-26fcbcdfc0ad)
+
+
+# CommitCrafter
+
+**CommitCrafter** is an AI-powered tool designed to enhance Git workflows by generating descriptive commit messages
+based on changes made within the repository. Utilizing the OpenAI API, it provides a seamless way to create meaningful
+commit names that accurately reflect the content of your updates.
+
+## Features
+
+- **AI-Generated Commit Messages**: Automatically generates descriptive commit messages using the power of GPT models.
+- **Easy Integration**: Directly integrates with your Git repositories to analyze recent diffs.
+- **Customization Options**: Modify the AI prompts to better match your project’s context and coding conventions.
+
+## Installation
+
+CommitCrafter requires Python 3.12 or newer. Install CommitCrafter globally with pipx to ensure it is available in any
+of your projects:
+
+```bash
+pipx install commitcrafter
+```
+
+## Usage
+
+To use CommitCrafter, navigate to your project directory and execute:
+
+```bash
+commitcraft
+```
+
+#### Make sure to export your OpenAI API key in your environment variables:
+
+```bash
+export COMMITCRAFT_OPENAI_API_KEY='your-api-key'
+```
+
+## Dependencies
+
+- Python (>=3.12)
+- GitPython
+- Typer for command-line interfaces
+- Rich for formatting terminal outputs
+
