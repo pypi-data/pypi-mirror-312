@@ -1,0 +1,2 @@
+[console_scripts]
+send-whatsapp = send_whatsapp_package.main:send_whatsapp_instant_message
