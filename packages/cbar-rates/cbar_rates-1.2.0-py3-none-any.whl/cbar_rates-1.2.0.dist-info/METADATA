@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: cbar-rates
+Version: 1.2.0
+Summary: Python library to work with AZN (Azerbaijani manat) official rates
+Author-email: Tahir Jalilov <tahir.jalilov@gmail.com>
+Project-URL: Homepage, https://github.com/TahirJalilov/cbar-rates/
+Project-URL: Repository, https://github.com/TahirJalilov/cbar-rates/
+Project-URL: Issues, https://github.com/TahirJalilov/cbar-rates/issues
+Project-URL: Changelog, https://github.com/TahirJalilov/cbar-rates/blob/main/CHANGES.md
+Keywords: cbar-rates,AZN,Azerbaijan,AZN-Rates,CBAR,Manat,Mezenne
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: typing_extensions>=4.7.0; python_version < "3.9"
+Requires-Dist: requests>=2.20.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.4; extra == "dev"
+
+# CBAR Rates
+
+A Python library to work with Azerbaijani manat (AZN) official exchange rates based on [CBAR](https://cbar.az/currency/rates?language=en) (The Central Bank of the Republic of Azerbaijan).
+
+## Features
+- Retrieve official CBAR exchange rates for the Azerbaijani manat (AZN).
+- Compare exchange rates between two dates and calculate differences.
+- Filter results by specific currency codes (e.g., USD, EUR).
+
+## Requirements
+- Python 3.7 or higher
+- `requests` library
+
+## Installation
+
+Install the library using pip:
+
+```bash
+pip install cbar-rates --upgrade
+```
+
+For isolated installations, use a virtual environment:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install cbar-rates
+```
+
+## Examples
+
+### Usage of `get_rates()`
+```python
+from datetime import date
+import cbar
+
+rates_date = date.today()
+currencies = ["USD", "EUR"]
+
+rates = cbar.get_rates(rates_date, currencies)
+
+print(rates)
+# Output:
+{
+    "date": "18.11.2024",
+    "currencies": {
+        "USD": {
+            "nominal": "1",
+            "rate": 1.7
+        },
+        "EUR": {
+            "nominal": "1",
+            "rate": 1.7919
+        },
+    }
+}
+```
+
+### Usage of `get_rates_with_diff()`
+```python
+from datetime import date
+import cbar
+
+previous_date = date(2024, 11, 25)
+date_ = date(2024, 11, 26)
+currencies = ["USD", "EUR"]
+
+rates = cbar.get_rates_with_diff(previous_date, date_, currencies)
+
+print(rates)
+# Output:
+{
+    "previous_date": "25.11.2024",
+    "date": "26.11.2024",
+    "currencies": {
+        "USD": {
+            "nominal": "1",
+            "previous_rate": 1.7,
+            "rate": 1.7,
+            "difference": 0.0,
+        },
+        "EUR": {
+            "nominal": "1",
+            "previous_rate": 1.7814,
+            "rate": 1.7815,
+            "difference": 0.0001,
+        },
+    }
+}
+```
+
+You can find all available currency codes on the [CBAR website](https://www.cbar.az/currency/rates?language=en)
+
+## License
+This project is licensed under the [MIT License](https://github.com/TahirJalilov/cbar-rates?tab=MIT-1-ov-file#MIT-1-ov-file).
