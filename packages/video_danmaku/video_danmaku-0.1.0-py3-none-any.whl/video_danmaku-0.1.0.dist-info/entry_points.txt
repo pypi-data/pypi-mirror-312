@@ -1,0 +1,3 @@
+[console_scripts]
+video-danmaku=video_danmaku.command:app
+
