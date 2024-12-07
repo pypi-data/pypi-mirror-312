@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: tai-cli
+Version: 0.1.1
+Summary: 
+Author: MateoSaezMata
+Author-email: msaez@triplealpha.in
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: azure-identity (>=1.19.0,<2.0.0)
+Requires-Dist: azure-mgmt-rdbms (>=10.1.0,<11.0.0)
+Requires-Dist: azure-mgmt-subscription (>=3.1.1,<4.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pydantic (>=2.10.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Triple Alpha Innovation - Command Line Interface
+*Whatever*
+
+## Instalación
+> [!NOTE]
+> Es necesario tener python instalado  
+> Se recomienda instalar en el intérprete global
+
+> [!WARNING]
+> En Windows es necesario tener añadido el directorio de python al `$PATH`
+```
+pip install tai-cli
+```
+
+
+## Modo de uso
+```
+tai --help
+```
+
+## Features
+*Coming soon*
