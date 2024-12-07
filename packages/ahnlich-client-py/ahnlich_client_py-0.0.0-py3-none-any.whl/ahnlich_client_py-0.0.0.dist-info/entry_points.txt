@@ -1,0 +1,4 @@
+[console_scripts]
+bumpversion=bumpversion:main
+change_poetry_version=poetry_versioning:main
+
