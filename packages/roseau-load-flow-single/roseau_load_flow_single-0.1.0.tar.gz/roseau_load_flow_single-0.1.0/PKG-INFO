@@ -1,0 +1,71 @@
+Metadata-Version: 2.3
+Name: roseau-load-flow-single
+Version: 0.1.0
+Summary: Highly capable single-phase load flow solver
+Project-URL: repository, https://github.com/RoseauTechnologies/Roseau_Load_Flow_Single/
+Project-URL: issues, https://github.com/RoseauTechnologies/Roseau_Load_Flow_Single/issues/
+Project-URL: documentation, https://roseau-load-flow.roseautechnologies.com/
+Author-email: Ali Hamdan <ali.hamdan@roseautechnologies.com>, Sébastien Vallet <sebastien.vallet@roseautechnologies.com>, Benoît Vinot <benoit.vinot@roseautechnologies.com>, Florent Cadoux <florent.cadoux@roseautechnologies.com>
+Maintainer-email: Ali Hamdan <ali.hamdan@roseautechnologies.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2018, Roseau Technologies
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.10
+Requires-Dist: certifi>=2023.5.7
+Requires-Dist: geopandas>=1.0.0
+Requires-Dist: numpy>=1.21.5
+Requires-Dist: pandas>=1.4.0
+Requires-Dist: pint>=0.21.0
+Requires-Dist: platformdirs>=4.0.0
+Requires-Dist: pyproj>=3.3.0
+Requires-Dist: roseau-load-flow-engine==0.16.0
+Requires-Dist: roseau-load-flow==0.11.0
+Requires-Dist: shapely>=2.0.0
+Requires-Dist: typing-extensions>=4.6.2
+Provides-Extra: graph
+Requires-Dist: networkx>=3.0.0; extra == 'graph'
+Provides-Extra: plot
+Requires-Dist: matplotlib>=3.7.2; extra == 'plot'
+Description-Content-Type: text/markdown
+
+# Roseau Load Flow Single
+
+_Roseau Load Flow Single_ is a single-phase version of the load flow solver
+[Roseau_Load_Flow](https://github.com/RoseauTechnologies/Roseau_Load_Flow_Engine/).
+It comes with an ergonomic Python API, and can be used for balanced power flow analysis.
+
+Note that this solver is still in alpha development, and is likely to change a lot.
