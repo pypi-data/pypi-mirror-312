@@ -1,0 +1,9 @@
+scud/__pycache__/*
+scud/data/__pycache__/*
+build/*
+dist/*
+*.egg-info*
+doc/build/
+tests/__pycache__
+tests/readme_examples
+test.py
