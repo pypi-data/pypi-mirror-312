@@ -1,0 +1,2 @@
+[pdm]
+pdm-packer = pdm_audit_plugin:register_commands
