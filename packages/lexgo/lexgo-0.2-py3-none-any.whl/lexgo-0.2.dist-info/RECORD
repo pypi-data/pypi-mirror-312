@@ -1,0 +1,12 @@
+lexgo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lexgo/__main__.py,sha256=ktOyzG2TyhQihvh9aIgzS_yvmJOT-YTTlM3HoroSnW8,68
+lexgo/cli.py,sha256=jvB3hLH-0Wwgw1MC8xFCt149s8rd-XjCwNZSFG1yq7g,1818
+lexgo/config.py,sha256=6pCU7xGiRnJV80-E0irc025KjGk6oVQDjFvKsw0cT88,461
+lexgo/trie.py,sha256=m3zdWXuCq66KgJVZq799UiXWPstnAO2zAEEyrVP05m0,2109
+lexgo/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lexgo-0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lexgo-0.2.dist-info/METADATA,sha256=gpj7iitB0fhaFKpO8GcLIvb_xbmwk8PZUGYs7gQMuA0,1829
+lexgo-0.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+lexgo-0.2.dist-info/entry_points.txt,sha256=AZooWA_YP-MwittdyfTUaL18tACgqQXPUw2d0lQzRnI,42
+lexgo-0.2.dist-info/top_level.txt,sha256=88DuapTa41zNfYiflCL2zlI6boaE0SA-eBsd28UkjP4,6
+lexgo-0.2.dist-info/RECORD,,
