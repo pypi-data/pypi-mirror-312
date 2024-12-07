@@ -1,0 +1,7 @@
+requests==2.32.3
+websocket-client>=1.8.0
+
+[dev]
+black
+flake8
+python-dotenv
