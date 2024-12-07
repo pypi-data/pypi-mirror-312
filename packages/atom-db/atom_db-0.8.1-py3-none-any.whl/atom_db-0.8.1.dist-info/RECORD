@@ -1,0 +1,10 @@
+atomdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atomdb/base.py,sha256=0lHtR_xMAUMLE51D49FqTsVGOyLvjGwvQZXvN17cs7k,28041
+atomdb/nosql.py,sha256=DI2-zVC0nV04FvrxOizqlcmJjubBIqQauTa-UWmMKcM,5343
+atomdb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atomdb/sql.py,sha256=xcNRg2Sl6oOkPw-FszpNzJ848kEMKRwgYl3yfF7feaU,84795
+atom_db-0.8.1.dist-info/LICENSE,sha256=2oK_z8yiNN2ZSydUei1zfsEScZOGOPThn_sM4yQ_CFI,1063
+atom_db-0.8.1.dist-info/METADATA,sha256=ulXl8xwNBP2F5PnpR2CVPcjuOfA-19T0ei7nnKXXbmg,15288
+atom_db-0.8.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+atom_db-0.8.1.dist-info/top_level.txt,sha256=KMQWNVSTIgSqyviS0eCKdPdFemxQGloRqdPH86dBzv8,7
+atom_db-0.8.1.dist-info/RECORD,,
