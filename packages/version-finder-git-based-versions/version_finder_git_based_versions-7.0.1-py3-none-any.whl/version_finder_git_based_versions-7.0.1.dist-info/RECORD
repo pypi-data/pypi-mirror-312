@@ -1,0 +1,17 @@
+version_finder/__cli__.py,sha256=newbhaWA0bOrYGThUBHaPft7vSMxCTG09_skVlfhcpQ,15231
+version_finder/__common__.py,sha256=YkFFgL88xwVXbonfac9vTdCpKArcIv9mbR4LcjaF2x4,2756
+version_finder/__gui__.py,sha256=g4MzkYSL_GfOQlLJiawP-u9vHNOcyOi-66AUK3sFrWI,23673
+version_finder/__init__.py,sha256=CiDr-g_pIbfnwIXG21Kx63Y5Zgfaj-oA_pavAPgOglA,998
+version_finder/__main__.py,sha256=FdS6452RqB8F8JyrmB-seI0GqG1nJpJFXISOUI2PEAU,1224
+version_finder/core.py,sha256=HhUa1lkuIgycXKlWwJqDCfAGHf75HmtBnkBisPaDg60,33529
+version_finder/git_executer.py,sha256=fO-PlJEdqw0vw6k1YCJVAXAopKWDCYQHdtYY83jCAmg,2708
+version_finder/protocols.py,sha256=ZfysxjnhGCsH4dE9F16fKk1IGse7_J5ouGUlWrri5cg,2140
+version_finder/assets/icon.png,sha256=4YTIYY84FhcLjEnhVuUBxdu2VQYuj-3eNJQZ3mE8R4E,855407
+version_finder/logger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+version_finder/logger/logger.py,sha256=Anh1OcGhjZNxr_z6d6X5Qvmn9Y_lTAOpKxk5C1akh8A,1059
+version_finder_git_based_versions-7.0.1.dist-info/LICENSE,sha256=8J3oL2svttWqRV0LCXWx0V4gSs7CxlT2qcYmGbLpiyo,1091
+version_finder_git_based_versions-7.0.1.dist-info/METADATA,sha256=UVOQoGDerPz4TWL9NXEFzx27r4-VsO3gWjy-ISgJryg,7679
+version_finder_git_based_versions-7.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+version_finder_git_based_versions-7.0.1.dist-info/entry_points.txt,sha256=fE9As5Wa1T_hoPpbRPZCUspyYl7MexdllRcfaE9ffcc,162
+version_finder_git_based_versions-7.0.1.dist-info/top_level.txt,sha256=6wZej44RZoimtB5LWGjpJXVjbVevgC0ENzSZXWRcmtg,15
+version_finder_git_based_versions-7.0.1.dist-info/RECORD,,
