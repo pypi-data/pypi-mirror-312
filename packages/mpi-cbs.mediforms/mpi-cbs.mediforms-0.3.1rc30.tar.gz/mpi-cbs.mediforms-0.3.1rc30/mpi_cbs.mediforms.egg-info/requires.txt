@@ -1,0 +1,9 @@
+Django>=4.2
+weasyprint
+
+[development]
+psycopg2-binary
+
+[testing]
+tox
+watchdog==0.9

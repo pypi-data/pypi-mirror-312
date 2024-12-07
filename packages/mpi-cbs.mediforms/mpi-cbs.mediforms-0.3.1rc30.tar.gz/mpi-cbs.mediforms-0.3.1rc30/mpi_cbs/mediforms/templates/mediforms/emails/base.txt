@@ -1,0 +1,16 @@
+Sehr geehrte/r {{ first_name }} {{ last_name }},
+
+vielen Dank, dass Sie sich die Zeit genommen haben, unseren Fragebogen auszufüllen.
+
+{% block video %}{% endblock %}
+
+Alle weiteren relevanten Informationen finden Sie noch einmal unter den folgenden Links:
+
+{% block links %}{% endblock %}
+
+Wenn Sie persönlich in unser Institut zur Messung kommen, erhalten Sie alle relevanten Informationen sowie den Fragebogen in gedruckter Form zur Unterschrift vorgelegt. Gerne überreichen wir Ihnen auf Anfrage eine Kopie des unterzeichneten Exemplars für Ihre eigenen Unterlagen.
+
+Für Rückfragen stehen Ihnen unsere Ärzte/Ärztinnen gerne zur Verfügung: studienaerzte@cbs.mpg.de
+
+Mit freundlichen Grüßen
+Ihr Max-Planck-Institut für Kognitions- und Neurowissenschaften in Leipzig (MPI-CBS)
