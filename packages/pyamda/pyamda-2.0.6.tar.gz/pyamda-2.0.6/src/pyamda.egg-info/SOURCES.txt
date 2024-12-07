@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyamda.egg-info/PKG-INFO
+src/pyamda.egg-info/SOURCES.txt
+src/pyamda.egg-info/dependency_links.txt
+src/pyamda.egg-info/top_level.txt
