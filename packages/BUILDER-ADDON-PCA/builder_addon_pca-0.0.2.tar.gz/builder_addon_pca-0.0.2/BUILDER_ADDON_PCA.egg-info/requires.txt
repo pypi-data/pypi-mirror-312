@@ -1,0 +1,7 @@
+seeq
+seeq-spy
+requests
+watchfiles
+beautifulsoup4
+lxml
+SEEQ_EMATICA_ADDON_PCA
