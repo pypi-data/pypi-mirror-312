@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "muclic"
+version = "0.9.0"
+description = "A cli for downloading music from Youtube Music"
+authors = ["Cyliann <maksymilian@cych.eu>"]
+license = "GPL v3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+yt-dlp = "^2024.11.18"
+requests = "^2.32.3"
+mutagen = "^1.47.0"
+ytmusicapi = "^1.8.2"
+
+[tool.poetry.scripts]
+muclic = "muclic:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
