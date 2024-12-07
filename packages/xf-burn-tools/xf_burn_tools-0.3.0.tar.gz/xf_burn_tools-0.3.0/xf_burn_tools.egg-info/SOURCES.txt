@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+xf_burn_tools/CRC.py
+xf_burn_tools/__init__.py
+xf_burn_tools/burn_tools.py
+xf_burn_tools/fwpkg.py
+xf_burn_tools/pymodem.py
+xf_burn_tools/ws63flash.py
+xf_burn_tools.egg-info/PKG-INFO
+xf_burn_tools.egg-info/SOURCES.txt
+xf_burn_tools.egg-info/dependency_links.txt
+xf_burn_tools.egg-info/entry_points.txt
+xf_burn_tools.egg-info/requires.txt
+xf_burn_tools.egg-info/top_level.txt

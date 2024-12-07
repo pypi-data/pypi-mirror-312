@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        burn=xf_burn_tools.burn_tools:FlashFirmware
+    
