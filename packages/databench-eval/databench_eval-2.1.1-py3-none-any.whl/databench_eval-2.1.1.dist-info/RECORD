@@ -1,0 +1,9 @@
+databench_eval/__init__.py,sha256=rII7li1DXi9_dIkRwmalEAqdi22lBsaB2nRUFuNzr9o,116
+databench_eval/eval.py,sha256=D684QQEwawwfCu9cKVZdD54NiZvwotJaQ2Ixw7XWXL4,4215
+databench_eval/run.py,sha256=eH8XRW6mflciCBuFMhBmnW9zOTX321VCbZKnQUpgM7A,2609
+databench_eval/utils.py,sha256=3_btcNGS3JJqWwQEeH6YKNbfhkKSddXxMrHjAYiMRPE,1334
+databench_eval-2.1.1.dist-info/LICENSE,sha256=-_5MmXtyfBiViIJNDaZToC4A-y8Ne6aqclqHFMMKwCY,1064
+databench_eval-2.1.1.dist-info/METADATA,sha256=2SCz9kwHj2ncyqZUYJkc5N-MmTPOM2jQn8RRoGs29aI,6988
+databench_eval-2.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+databench_eval-2.1.1.dist-info/top_level.txt,sha256=oFJJEB3kjGW4ybxHwnkoBxcUHNUAOfv7mcbqlbxHQko,15
+databench_eval-2.1.1.dist-info/RECORD,,
