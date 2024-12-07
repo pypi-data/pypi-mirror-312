@@ -1,0 +1,11 @@
+parse_me/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parse_me/name_parsing_agent.py,sha256=D6WFv0b5o4srTj9j9c7CWZ7OG-IuL--0tfPZBW07W-0,1523
+parse_me/name_parsing_prompts.py,sha256=2aW2ew2nl0Pe9JdP9eOGqhzoE7xlyqKK5IdT7d0j7ns,14155
+parse_me/parse.py,sha256=PFDZlFaH3tpS2CQ0Gp9Y7PpjleUde8eJOp0jvddzRXs,8012
+parse_me/test_package.py,sha256=UoW-vexxPQZZkt-CTH-dNDdhaHwpvJui91qGaooXxoU,1635
+test/convert_tsv.py,sha256=VCwikJFP_zGaOGQzrmVPBD6aRESOizKW-KCeclXoZwg,995
+test/test_parser.py,sha256=9AvkrE9AUIVFbNTccMaUV3am_AoLx_EVsSMM11-r-ek,1225
+parse_me-0.2.0.dist-info/METADATA,sha256=MqnOdBvH27i4t7-NuEv93dcCvVTW9jZ1GeSejgxEX8M,3577
+parse_me-0.2.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+parse_me-0.2.0.dist-info/top_level.txt,sha256=jecMILWVdqo8W6PHv0n_py0IkNasKp9eJ27FM6o6vVs,14
+parse_me-0.2.0.dist-info/RECORD,,
