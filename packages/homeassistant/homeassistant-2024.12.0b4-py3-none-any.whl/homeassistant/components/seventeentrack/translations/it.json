@@ -1,0 +1,18 @@
+{
+    "config": {
+        "abort": {
+            "cannot_connect": "Impossibile connettersi",
+            "invalid_auth": "Autenticazione non valida"
+        }
+    },
+    "services": {
+        "get_packages": {
+            "fields": {
+                "package_state": {
+                    "name": "Stati del pacco"
+                }
+            },
+            "name": "Ottieni pacchi"
+        }
+    }
+}
