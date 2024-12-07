@@ -1,0 +1,6 @@
+airflow_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_module/my_test.py,sha256=VkQes8_6Vh2r0sW74ePCR9rQ10WeebNzyACvXGUZlQw,51
+airflow_module-0.1.2.dist-info/METADATA,sha256=yr8v3jChYjBJ1Eju3-x7-e9t9pufNVM9u6cXzJT-v60,245
+airflow_module-0.1.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+airflow_module-0.1.2.dist-info/top_level.txt,sha256=0VbuzVLVuAwg8YwVHwlDcOZDQl3R0paTGXITupykCFg,15
+airflow_module-0.1.2.dist-info/RECORD,,
