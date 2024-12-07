@@ -1,0 +1,53 @@
+2024-10-01T08:32:28+01:00 debian_pc anacron[2173208]: Anacron 2.3 started on 2024-10-01
+2024-10-01T10:22:30+01:00 debian_pc apt.systemd.daily[2179593]: verbose level 1
+2024-10-02T04:49:39+01:00 debian_pc avahi-daemon[1892615]: Got SIGTERM, quitting.
+2024-10-02T04:50:59+01:00 debian_pc collectd[678]: plugin_load: plugin "cpu" successfully loaded.
+2024-10-03T04:51:10+01:00 debian_pc containerd[633]: time="2024-10-03T04:51:10.641041568-07:00" level=info msg="loading plugin \"io.containerd.event.v1.exchange\"..." type=io.containerd.event.v1
+2024-10-03T08:00:11+01:00 debian_pc CRON[2170586]: pam_unix(cron:session): session closed for user root
+2024-10-03T08:17:02+01:00 debian_pc cron[2172334]: postdrop: warning: unable to look up public/pickup: No such file or directory
+2024-10-04T01:25:06+01:00 debian_pc DietPi-PreBoot[249]:  Mode: Applying CPU governor settings: ondemand
+2024-10-04T04:51:27+01:00 debian_pc dockerd[714]: time="2024-10-04T04:51:27.207101478-07:00" level=info msg="Starting up"
+2024-10-04T04:54:52+01:00 debian_pc kernel: [    0.000000] BIOS-provided physical RAM map:
+2024-10-04T16:31:24+01:00 debian_pc monit[595]: 'random-service' restart on user request
+2024-10-05T06:23:30+01:00 debian_pc php8.2-common: php_invoke calendar: already enabled for PHP 8.2 cli sapi
+2024-10-05T08:17:02+01:00 debian_pc postfix/postsuper[2172332]: Deleted: 1 message
+2024-10-05T09:39:37+01:00 debian_pc postfix[2467434]: Postfix is using backwards-compatible default settings
+2024-10-07T04:50:55+01:00 debian_pc chronyd[638]: Loaded seccomp filter (level 1)
+2024-10-07T04:50:52+01:00 debian_pc rsyslogd: imuxsock: Acquired UNIX socket '/run/fake_path/fake_folder/syslog' (fd 3) from systemd.  [v8.2302.0]
+2024-10-07T04:50:53+01:00 debian_pc quotarpc.sh[527]: Starting : rpc.rquotad.
+2024-10-07T04:50:56+01:00 debian_pc dbus-daemon[521]: [system] Successfully activated service 'some.random.service'
+2024-10-07T05:01:29+01:00 debian_pc rsyncd[2233829]: connect from UNKNOWN (11.18.30.82)
+2024-10-07T06:00:06+01:00 debian_pc rsync-7c9f1f57-d1ce-8711-129d The synchronisation has completed successfully.
+2024-10-07T16:41:01+01:00 debian_pc samba-dcerpcd[2398428]:   Failed to fetch domain sid for WORKGROUP
+2024-10-08T06:07:17+01:00 debian_pc wsdd[100437]: WARNING: no interface given, using all interfaces
+2024-10-08T10:52:19+01:00 debian_pc smbd[1892743]:   Could not find child 11 -- ignoring
+2024-10-08T11:50:56+01:00 debian_pc sshd[655]: Server listening on :: port 22.
+2024-10-08T12:50:55+01:00 debian_pc systemd[1]: Started logrotate.timer - Daily rotation of log files.
+2024-10-08T13:49:36+01:00 debian_pc systemd-logind[553]: The system will reboot now!
+2024-10-08T19:10:28+01:00 debian_pc rpc.idmapd[503]: exiting on signal 15
+2024-10-08T19:19:25+01:00 debian_pc sudo: pam_unix(sudo:session): session closed for user root
+2024-10-09T05:31:49+01:00 debian_pc chpasswd[192955]: pam_unix(chpasswd:chauthtok): password changed for system_admin
+2024-10-09T05:50:53+01:00 debian_pc loadcpufreq[523]: Loading cpufreq kernel modules...done (acpi-cpufreq).
+2024-10-09T06:50:53+01:00 debian_pc cpufrequtils[596]: CPUFreq Utilities: Setting conservative CPUFreq governor...CPU0...CPU1...done.
+2024-10-09T06:52:53+01:00 debian_pc wpa_supplicant[592]: Successfully initialized wpa_supplicant
+2024-10-09T06:54:56+01:00 debian_pc sm-notify[664]: Version 2.6.2 starting
+2024-10-09T06:57:58+01:00 debian_pc rrdcached[650]: rrdcached started.
+2024-10-09T07:27:34+01:00 debian_pc runuser: pam_unix(runuser:session): session opened for user generic_user(uid=65) by (uid=100)
+2024-10-10T05:45:23+01:00 debian_pc rtkit-daemon[1627]: Successfully called chroot.
+2024-10-10T05:45:24+01:00 debian_pc gnome-shell[1676]: Made thread 'KMS thread' realtime scheduled
+2024-10-10T05:45:43+01:00 debian_pc gvfsd-network[4090]: GFileInfo created without standard::content-type
+2024-10-10T05:46:56+01:00 debian_pc update-notifier.desktop[5492]: WARNING:root:timeout reached, exiting
+2024-10-11T05:14:10+01:00 debian_pc NetworkManager[995]: <info>  [1728303250.5768] modem-manager: ModemManager no longer available
+2024-10-12T04:11:29+01:00 debian_pc crontab[4826]: (user) END EDIT (user)
+2024-10-12T04:14:07+01:00 debian_pc dropbear[4803]: [4803] Oct 12 04:14:07 Child connection from 10.78.12.123:41914
+2024-10-14T00:54:50+01:00 debian_pc fstrim[26217]: /: 489.6 MiB (513335296 bytes) trimmed on /dev/fake_path
+2024-10-18T01:25:07+01:00 debian_pc dhclient[328]: Copyright 2004-2022 Internet Systems Consortium.
+2024-10-18T01:25:04+01:00 debian_pc fake-hwclock[94]: Thu Oct  3 11:05:49 UTC 2024
+2024-10-18T01:25:07+01:00 debian_pc ifup[328]: Copyright 2004-2022 Internet Systems Consortium.
+2024-11-13T20:55:36+01:00 debian_pc run-parts[115922]: Write cache enabled
+2024-11-13T20:56:41+01:00 debian_pc blkdeactivate[116247]: Deactivating block devices:
+2024-11-14T06:15:22-07:00 debian_pc groupadd[90397]: group added to /etc/path: name=fake_something_group
+2024-11-14T09:25:36+01:00 debian_pc usermod[111794]: add 'user_x' to shadow group 'disk'
+2024-11-14T10:15:33+01:00 debian_pc useradd[131345]: new group: name=some_group, GID=1011
+2024-11-17T00:00:01+01:00 debian_pc logrotate[495105]: some fake message
+2024-12-01T07:06:18+01:00 debian_pc dbus-send[116463]: generic message
