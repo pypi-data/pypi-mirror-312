@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=65.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cbar-rates"
+description = "Python library to work with AZN (Azerbaijani manat) official rates"
+authors = [
+    { name = "Tahir Jalilov", email = "tahir.jalilov@gmail.com" },
+]
+
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.7"
+keywords = ["cbar-rates", "AZN", "Azerbaijan", "AZN-Rates", "CBAR", "Manat", "Mezenne"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+dependencies = [
+    "typing_extensions >= 4.7.0; python_version < '3.9'",
+    "requests >= 2.20.0"
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/TahirJalilov/cbar-rates/"
+Repository = "https://github.com/TahirJalilov/cbar-rates/"
+Issues = "https://github.com/TahirJalilov/cbar-rates/issues"
+Changelog = "https://github.com/TahirJalilov/cbar-rates/blob/main/CHANGES.md"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4.4"]
+
+[tool.setuptools.packages.find]
+include = ["cbar*"]
+
+[tool.setuptools.dynamic]
+version = { attr = "cbar.__version__" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.tox]
+legacy_tox_ini = """
+    [tox]
+    minversion = 4.15.0
+
+    [testenv]
+    description = Run the tests with pytest
+    package = wheel
+    wheel_build_env = .pkg
+    changedir = tests
+    deps =
+        pytest>=6
+    commands =
+        pytest {tty:--color=yes} --basetemp="{envtmpdir}" {posargs}
+"""
