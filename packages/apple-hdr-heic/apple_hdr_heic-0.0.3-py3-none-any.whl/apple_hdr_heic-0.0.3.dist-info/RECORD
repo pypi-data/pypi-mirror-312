@@ -1,0 +1,10 @@
+apple_hdr_heic/__init__.py,sha256=TR_tC9aR4snPcy7c-PbvGzQfMGGGYvCHBO0f4M2GcmQ,357
+apple_hdr_heic/decoder.py,sha256=btAWvr67bjt7gBLq_CarGIRtg3WF5meXsJ5UNiHb1BA,3212
+apple_hdr_heic/lib.py,sha256=WkuMdeJAKQ0XwJoYYnkI2KjnLorRCP9CJCskcoOEPpE,5281
+apple_hdr_heic/metadata.py,sha256=o3Hh5KweI7MhDOO0QRbIefRTDIvQuOaJpQQ6e-f_KeU,2092
+apple_hdr_heic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apple_hdr_heic-0.0.3.dist-info/entry_points.txt,sha256=Trqx8J6nSK2_VIxndXMITPyJsS3Adqxh394_Ug6QtUM,70
+apple_hdr_heic-0.0.3.dist-info/LICENSE,sha256=T-wh5nabWgsyfFGfcbfBH6uT5_8lhDvLi1wJiP2LW2g,1073
+apple_hdr_heic-0.0.3.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+apple_hdr_heic-0.0.3.dist-info/METADATA,sha256=6UKqFo9QKuG0GRa0bYgVcrT5zLN0uaqv6Ok2FWEcGag,3838
+apple_hdr_heic-0.0.3.dist-info/RECORD,,
