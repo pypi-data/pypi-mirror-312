@@ -1,0 +1,11 @@
+pycomfort/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycomfort/comfort.py,sha256=Dqx92wYacydi3Zpks-axwE08-hgxHVRWrBguppCO94k,1652
+pycomfort/config.py,sha256=6yIAgsz8_mtYuKrYFcwTq3rcVxRrXk-Do_AvL9RAtRU,1127
+pycomfort/files.py,sha256=XW8nPm4BJmVGe3BFh8JEaw2kn8dKXP_pWTPUgZRN7c4,6483
+pycomfort/logging.py,sha256=KJhuwNO6dOG5tgU_mFa3GQtDN_6zfmwdP3d4GHEyRAo,888
+pycomfort-0.0.16.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pycomfort-0.0.16.dist-info/METADATA,sha256=LAaVZD77Uqh7RCNIECAbiwkW6tMzbOr06BVIv0zpxZI,2885
+pycomfort-0.0.16.dist-info/WHEEL,sha256=pxeNX5JdtCe58PUSYP9upmc7jdRPgvT0Gm9kb1SHlVw,109
+pycomfort-0.0.16.dist-info/entry_points.txt,sha256=qghVSMeknCBZGm5KyOxdaoyLMKxHB5X31Dc_Q4W9Vck,100
+pycomfort-0.0.16.dist-info/top_level.txt,sha256=A5Ho-aXxVBXQu4ddOAr3wYhS9pRzLrNNH_KNssU5SAg,10
+pycomfort-0.0.16.dist-info/RECORD,,
