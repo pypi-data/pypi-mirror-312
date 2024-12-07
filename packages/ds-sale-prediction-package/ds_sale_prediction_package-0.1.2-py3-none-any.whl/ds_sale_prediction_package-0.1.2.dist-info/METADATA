@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ds-sale-prediction-package
+Version: 0.1.2
+Summary: A package for data preparation, feature extraction    model training, and making prediction
+Author: Aliona Hrynkevich
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn>=1.5
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: lightgbm
+Requires-Dist: hyperopt
+Requires-Dist: shap
+
