@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+dynamic = ["version"]
+
+name = "autocombobox"
+description = "Insert a Combobox into your GUI that allows suggestions based on what the user writes in"
+authors = [
+    {name="Matteo Chiesa", email="matteo.chiesa.mc@gmail.com"}
+]
+maintainers = [
+    {name="Matteo Chiesa", email="matteo.chiesa.mc@gmail.com"}
+]
+
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {file = "LICENSE"}
+
+requires-python = ">=3.10"
+dependencies = []
+
+keywords = ["autocompleting", "autocomplete", "suggestion", "tkinter", "tk", "ttk", "combobox"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/Church-17/autocombobox"
+
+[tool.hatch.version]
+path = "src/autocombobox/__init__.py"
