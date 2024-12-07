@@ -1,0 +1,9 @@
+numpy
+joblib
+scipy
+pandas
+numba>=0.58.1
+matplotlib
+mtscomp
+tqdm
+pyarrow
