@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: opxrd
+Version: 0.1.0
+Summary: Python API for opXRD database. See more at https://xrd.aimat.science/
+Author-email: Daniel Hollarek <daniel.hollarek@googlemail.com>
+Requires-Dist: holytools
+Requires-Dist: xrdpattern
