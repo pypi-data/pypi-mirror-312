@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+auto_code_review/__init__.py
+auto_code_review/ai_analyzer.py
+auto_code_review/cli.py
+auto_code_review/core.py
+auto_code_review/github_client.py
+auto_code_review/utils.py
+auto_code_review.egg-info/PKG-INFO
+auto_code_review.egg-info/SOURCES.txt
+auto_code_review.egg-info/dependency_links.txt
+auto_code_review.egg-info/entry_points.txt
+auto_code_review.egg-info/requires.txt
+auto_code_review.egg-info/top_level.txt
