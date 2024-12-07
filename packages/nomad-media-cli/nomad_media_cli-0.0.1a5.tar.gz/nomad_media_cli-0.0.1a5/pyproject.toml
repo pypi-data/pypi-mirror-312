@@ -1,0 +1,21 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "nomad_media_cli"
+version = "0.0.1a5"
+authors = ["Nomad Media"]
+description = "Nomad Media Cli"
+readme = "README.md"
+classifiers = ["Programming Language :: Python :: 3.12"]
+include = ["nomad_media_cli/**"]
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+click = "^8.0"
+nomad-media-pip = "^0.1.1"
+platformdirs = "^4.0.0"
+
+[tool.poetry.scripts]
+nomad-media-cli = "nomad_media_cli.cli:cli"
