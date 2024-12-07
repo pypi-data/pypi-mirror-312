@@ -1,0 +1,15 @@
+from setuptools import setup, find_packages
+
+if __name__ == "__main__":
+    setup(
+        name="mathwork",
+        version="0.8",
+        description="The great package.",
+        author="unknown",
+        packages=["mathwork"],
+        install_requires=['tensorflow', 'pandas', 'scikit-learn', 'torch', 'opencv-python',
+                          'pillow', 'scikit-image', 'numpy', 'scipy', 
+                          'matplotlib', 'pywavelets', 'seaborn', 'torchvision', 'torchaudio',
+                          'keras' 'detectron2', 'transformers', 'tqdm', 'shutil'],
+        zip_safe=False,
+    )
