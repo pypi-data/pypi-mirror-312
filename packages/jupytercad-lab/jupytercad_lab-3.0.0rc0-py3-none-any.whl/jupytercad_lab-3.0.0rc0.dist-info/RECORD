@@ -1,0 +1,17 @@
+jupytercad_lab/__init__.py,sha256=95cMTTlI1m19VuhjjEtYwk0qCLkO6QatVlwZDT1tIrY,620
+jupytercad_lab/_version.py,sha256=RiXjVpG5WZxGhqi1Dvl8YBhxXok092upqcCzceGXolg,174
+jupytercad_lab/notebook/__init__.py,sha256=FoWO6cRNbaiHaXNCd24pcvhv9H3PztSK3OhluOOaL1k,46
+jupytercad_lab/notebook/cad_document.py,sha256=3RIEJJZ1-O0ysCbsHD4uiU7kMcdPQD2xHyF83wDik8Q,31488
+jupytercad_lab/notebook/utils.py,sha256=kZmTmKYajxsTRr-EFGqNw8Px_jLMN1-gSq6kftBCp30,504
+jupytercad_lab/notebook/y_connector.py,sha256=dF-YTsDgYx21OoI4ZcAjbHUljJOUW8vYKKqS5Olg_so,1061
+jupytercad_lab-3.0.0rc0.data/data/share/jupyter/labextensions/@jupytercad/jupytercad-lab/package.json,sha256=vVx-XrY6l4xSqptssb8_mP0VisdDPR11-QrapaoVoB0,4224
+jupytercad_lab-3.0.0rc0.data/data/share/jupyter/labextensions/@jupytercad/jupytercad-lab/static/432.b5d3e926d832c6a99a6a.js,sha256=tdPpJtgyxqmaajdDMJ_La9cYxfWPh6EQ0tF6oQRgfN0,23251
+jupytercad_lab-3.0.0rc0.data/data/share/jupyter/labextensions/@jupytercad/jupytercad-lab/static/484.ef6af32ca843b313875f.js,sha256=72rzLKhDsxOHX0pOitnmOawP-oYLWv1Quu-kOVZWbfA,2827
+jupytercad_lab-3.0.0rc0.data/data/share/jupyter/labextensions/@jupytercad/jupytercad-lab/static/remoteEntry.00f20f12557421d6b557.js,sha256=APIPElV0Ida1V2mvNqpi-yeySyRd8-ee9IYR9AyM5a4,7522
+jupytercad_lab-3.0.0rc0.data/data/share/jupyter/labextensions/@jupytercad/jupytercad-lab/static/style.js,sha256=6TrzSgibSj2ITQ4bkR4V6F-9AdlY7ZF5NXmMEgU1H-w,169
+jupytercad_lab-3.0.0rc0.data/data/share/jupyter/labextensions/@jupytercad/jupytercad-lab/static/third-party-licenses.json,sha256=zrEu4f428_2jrlBDJR5M4xH7op3MWfQkzFiFIU68qVQ,4301
+jupytercad_lab-3.0.0rc0.data/data/share/jupyter/labextensions/@jupytercad/jupytercad-lab/install.json,sha256=cDj6Cwci1YFBXUwzaTAa_ACDHk_Sm_wLwkxPba9hO2Y,189
+jupytercad_lab-3.0.0rc0.dist-info/METADATA,sha256=SLuRWfZkkhG61RmvSJdDAz6D0cRILfzOZmJOTvWH0VQ,3069
+jupytercad_lab-3.0.0rc0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+jupytercad_lab-3.0.0rc0.dist-info/licenses/LICENSE,sha256=P8sYK0uqDrnl9NILJCP7rRj3CPpAFJJeAalr9tM0Y4Q,1531
+jupytercad_lab-3.0.0rc0.dist-info/RECORD,,
