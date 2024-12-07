@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "tamasfe.even-better-toml",
+    "ms-python.python",
+    "ms-python.debugpy",
+    "ms-python.black-formatter",
+    "ms-toolsai.jupyter",
+    "ms-python.pylint",
+    "esbenp.prettier-vscode"
+  ]
+}
