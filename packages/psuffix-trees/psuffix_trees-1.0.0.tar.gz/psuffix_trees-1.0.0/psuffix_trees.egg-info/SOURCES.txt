@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+psuffix_trees.egg-info/PKG-INFO
+psuffix_trees.egg-info/SOURCES.txt
+psuffix_trees.egg-info/dependency_links.txt
+psuffix_trees.egg-info/requires.txt
+psuffix_trees.egg-info/top_level.txt
+pypst/__init__.py
+pypst/pst_learn.py
+pypst/pst_to_pfa.py
+pypst/test_example_trees.py
+pypst/test_pst_learn.py
+pypst/test_transition_mat.py
+pypst/transition_mat.py
+pypst/wrapper.py
