@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: TezzCrawler
+Version: 0.2.0
+Summary: A web crawler that converts web pages to markdown and prepares them for LLM consumption
+Home-page: https://github.com/TezzLabs/TezzCrawler
+Author: Japkeerat Singh (TezzLabs)
+Author-email: japkeerat@tezzlabs.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests==2.32.3
+Requires-Dist: typer==0.13.0
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: markdownify==0.13.1
+Requires-Dist: lxml==5.3.0
+
+# TezzCrawler
+
+TezzCrawler is a command-line tool for crawling entire websites and converting HTML files to Markdown. It’s designed for developers who need to feed structured content from a website into a language model or process it for other analytical tasks.
+
+## Features
+- **Site-wide Crawling**: Crawl all pages listed in a sitemap.
+- **Single-page Scraping**: Scrape and convert individual pages.
+- **Markdown Conversion**: Convert HTML pages to Markdown for easy ingestion by LLMs.
+- **Proxy Support**: Crawl sites using a proxy for added flexibility and access.
+

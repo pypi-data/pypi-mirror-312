@@ -1,0 +1,10 @@
+README.md
+setup.py
+TezzCrawler.egg-info/PKG-INFO
+TezzCrawler.egg-info/SOURCES.txt
+TezzCrawler.egg-info/dependency_links.txt
+TezzCrawler.egg-info/entry_points.txt
+TezzCrawler.egg-info/requires.txt
+TezzCrawler.egg-info/top_level.txt
+tezzcrawler/__init__.py
+tezzcrawler/main.py
