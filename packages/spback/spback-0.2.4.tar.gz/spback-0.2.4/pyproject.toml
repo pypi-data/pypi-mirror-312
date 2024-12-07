@@ -1,0 +1,64 @@
+[project]
+name = "spback"
+dynamic = []
+description = "Sun praise internal backend package."
+authors = [
+    { name = "svtter", email = "svtter@qq.com" },
+]
+dependencies = [
+    "django<6.0,>3.2",
+    "colorlog>=6.8.2",
+    "django-ninja",
+    "gevent",
+    "gunicorn",
+    "celery",
+    "django-celery-beat",
+    "django-celery-results",
+    "django-cors-headers",
+    "dj-database-url",
+    "python-dotenv",
+    "django-ninja-extra",
+    "psycopg2-binary",
+    "django-ninja-jwt>=5.3.4",
+]
+requires-python = "<3.12,>=3.11"
+readme = "README.md"
+version = "0.2.4"
+
+[project.license]
+text = "NOT OPEN SOURCE"
+
+[tool.pdm]
+distribution = true
+source = [
+    { url = "https://mirrors.aliyun.com/pypi/simple", verify_ssl = false, name = "pypi" },
+]
+
+[tool.pdm.version]
+source = "file"
+path = "src/spback/__init__.py"
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "conf.settings"
+python_files = [
+    "test_*.py",
+    "*_test.py",
+]
+addopts = "-v"
+markers = [
+    "countless_page: mark test to apply countless page.",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[dependency-groups]
+dev = [
+    "twine>=5.1.1",
+    "pytest",
+    "ruff",
+    "pip>=24.3.1",
+]
