@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "auction_manager_x23420855"
+version = "0.0.3"
+authors = [
+  { name="x23420855", email="x23420855@student.ncirl.ie" },
+]
+description = "A package to manage bids on an Auction site"
+readme = "README.md"
+# Boto 1.35 requires Python 3.8 - 3.12
+requires-python = ">=3.8,<3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "boto3>=1.35",
+    "phonenumbers>=8.13"
+]
