@@ -1,0 +1,11 @@
+intel_cmplr_lib_ur-2025.0.3.data/data/Library/bin/ur_adapter_level_zero.dll,sha256=twbfKt8-9p3AUpATrkaYhWvyenvyQwL_f8HxTi1Vj7I,1436552
+intel_cmplr_lib_ur-2025.0.3.data/data/Library/bin/ur_adapter_opencl.dll,sha256=gZw75wEssWGCXpvgqK3Em0xZLTBboHvyLtxsWJG4p5Y,436104
+intel_cmplr_lib_ur-2025.0.3.data/data/Library/bin/ur_loader.dll,sha256=ZriRkxnPKyUoGyzqrixsMB1DBPtw-q4ILdMBywK1zv0,1368968
+intel_cmplr_lib_ur-2025.0.3.data/data/Library/bin/ur_win_proxy_loader.dll,sha256=PWhaafdhFb90Jfl5QKe8Sy4sGpPsQB1Ezcr6f-d5FJc,90504
+intel_cmplr_lib_ur-2025.0.3.data/data/Library/bin/ur_win_proxy_loaderd.dll,sha256=LTIjAMAVZFRn9ofa46XeCj6PuHMS1QvWS6I22VY36Zg,114056
+intel_cmplr_lib_ur-2025.0.3.data/data/Library/lib/ur_loader.lib,sha256=mQi9ZR_k8uVRWsUQBa2JZmIhQTgIjUiknjyiYDTylpU,161814
+intel_cmplr_lib_ur-2025.0.3.dist-info/LICENSE.txt,sha256=_r-2mlsFj1WJLcfzQRCKnKKdUOn-hXI6V-67uCZDaVg,25224
+intel_cmplr_lib_ur-2025.0.3.dist-info/METADATA,sha256=Bkcdk4XJ9fQE5Jhyzi96GOru4POg0IUn7NR-VahdCPA,1295
+intel_cmplr_lib_ur-2025.0.3.dist-info/WHEEL,sha256=AicHu81jYIhU5ObukFKUZOOinzdgDNwF05fPW9oDLwY,122
+intel_cmplr_lib_ur-2025.0.3.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+intel_cmplr_lib_ur-2025.0.3.dist-info/RECORD,,
