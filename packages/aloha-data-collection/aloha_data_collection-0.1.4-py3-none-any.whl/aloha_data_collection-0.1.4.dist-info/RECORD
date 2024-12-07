@@ -1,0 +1,15 @@
+aloha_data_collection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aloha_data_collection/__main__.py,sha256=wO1xzUgbiaI0g_pReNVVeXSMNDm7FHGWsXdepIWAeQ0,22111
+aloha_data_collection/configs/calibration/aloha_default/left_follower.json,sha256=fhJGiUS3Vs4dbYKrEyQkLfzAqyHhrmCROhGCRtO6D10,1001
+aloha_data_collection/configs/calibration/aloha_default/left_leader.json,sha256=gt_gkw0RA-UDyPVHMBlKDadWcZKI2M_HSXs7K6lGqpo,999
+aloha_data_collection/configs/calibration/aloha_default/right_follower.json,sha256=A9MOfiuaX8jaFJ_pzpFkhF9TOAccVdh-q5mLTKLWU3Q,1002
+aloha_data_collection/configs/calibration/aloha_default/right_leader.json,sha256=uwJSdPh0YT8E-Wp6VASkpe9ycHZvDtBTN9UOW6_Kg2M,1000
+aloha_data_collection/configs/robot/aloha.yaml,sha256=0zZmiNvH3an3B-ldKZ3Qo8siFYhoPMKiUk-YiJcd6Y0,3202
+aloha_data_collection/configs/tasks.yaml,sha256=DkCQIp8oxrZE2XtJBaJf_jwDNKpOWLmmk_GHv85us8c,839
+aloha_data_collection/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aloha_data_collection/resources/app.py,sha256=W463VlBPnZxEzL1ECa1YQtuRgyCODnDcshqRaIl8C3E,33489
+aloha_data_collection/resources/app.ui,sha256=o-8MfV8A9FAzLg3LoCT0LivhdIUNFcifZApW4uoN0co,67984
+aloha_data_collection-0.1.4.dist-info/METADATA,sha256=3m7hBSdouI_LCLmdmuXHmi2VWdjmYKF063eQN6M7MCs,2752
+aloha_data_collection-0.1.4.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+aloha_data_collection-0.1.4.dist-info/entry_points.txt,sha256=csl_sKXGcU4z4BD39hmLcWfRltgJWJjmbPbn_XyjDBQ,77
+aloha_data_collection-0.1.4.dist-info/RECORD,,
