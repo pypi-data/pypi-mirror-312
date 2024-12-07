@@ -1,0 +1,4 @@
+beautifulsoup4>=4.9.3
+Django>=5.1.2
+mkdocs==1.6.1
+setuptools==75.6.0
