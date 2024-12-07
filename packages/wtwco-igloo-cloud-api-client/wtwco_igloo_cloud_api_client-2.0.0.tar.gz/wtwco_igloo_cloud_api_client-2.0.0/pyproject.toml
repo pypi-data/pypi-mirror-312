@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "wtwco-igloo-cloud-api-client"
+version = "2.0.0"
+description = "A client library for accessing Igloo Cloud API"
+authors = ["WTW <software.support@wtwco.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    {include = "wtwco_igloo_cloud_api_client"},
+    {include = "wtwco_igloo_cloud_api_client/py.typed"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+httpx = ">=0.20.0,<0.28.0"
+attrs = ">=21.3.0"
+python-dateutil = "^2.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["F", "I", "UP"]
