@@ -1,0 +1,2 @@
+kfp_server_api~=2.3.0
+kfp[kubernetes]~=2.10.1
