@@ -1,0 +1,8 @@
+README.md
+setup.py
+json_category_counter/__init__.py
+json_category_counter/counter.py
+json_category_counter.egg-info/PKG-INFO
+json_category_counter.egg-info/SOURCES.txt
+json_category_counter.egg-info/dependency_links.txt
+json_category_counter.egg-info/top_level.txt
