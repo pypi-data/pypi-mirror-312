@@ -1,0 +1,17 @@
+lazyopenai/__init__.py,sha256=vcIFS38bNuE2TYTnSbUaqjj8HleHYUpIR46f08N4e9w,57
+lazyopenai/chat.py,sha256=ZqPW6HaM4J2ozWGOqz8vDdyQcDthMMk8CANopAhaUGQ,5309
+lazyopenai/lazy.py,sha256=nDxWqObNOqlS5YY1RtvotEmqzQYMEmgaukwhVprOPbg,560
+lazyopenai/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+lazyopenai/settings.py,sha256=dYgYFuyb19eRZ99qNdTgZE3buN8IhKLp3bHAExEVpFA,825
+lazyopenai/simple/__init__.py,sha256=ii3VqnyrejscJg3ltsBuEDEhEO-CesbAqicSpLSYDdw,105
+lazyopenai/simple/completions.py,sha256=QE4edJV2jkUfnWAIcK7-WfL7Eq3rQQC3QwuDibRjECw,3605
+lazyopenai/simple/embeddings.py,sha256=nFJCw2l5gxhycnhTP8Dt8U2hYrZyejUynV6WqbBDF2M,392
+lazyopenai/types/__init__.py,sha256=sIJAf3ppRceN7Ib6KwpCTvFYzL8m8ol3ORwoQ675kR8,122
+lazyopenai/types/basetool.py,sha256=OUvRbhsVofgZNqUP3f4OIx3nZBt8sAlPuk4Uj09fB6M,473
+lazyopenai/types/function.py,sha256=pZFen2jvZkBJw2pNYmEsEk-wqHsYYUxlirlz_5MSCi4,93
+lazyopenai/types/message.py,sha256=nyjH_7zeUeL03tRKDnR55PFq9KSGbpX5blSDM1iYfC0,288
+lazyopenai/types/toolcall.py,sha256=mjtnyBqAcfUeYl0HDr5PIANuSzByTjmYHC3lKunrzQc,141
+lazyopenai-0.2.0.dist-info/METADATA,sha256=RIkxfto0BddZD8M6uoLmNqI9H6SlJsj-1d_d-upibBg,1585
+lazyopenai-0.2.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+lazyopenai-0.2.0.dist-info/licenses/LICENSE,sha256=H2T3_RTgmcngMeC7p_SXT3GwBLkd2DaNgAZuxulcfiA,1066
+lazyopenai-0.2.0.dist-info/RECORD,,
