@@ -1,0 +1,1 @@
+from .practice_total_game import total_game
