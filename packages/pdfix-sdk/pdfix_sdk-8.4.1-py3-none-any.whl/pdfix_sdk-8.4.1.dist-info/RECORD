@@ -1,0 +1,12 @@
+pdfixsdk/Pdfix.py,sha256=HKiRYnsNU-RT9f1g3iLY91tpPEub2lI_mISKe3Nep0w,353991
+pdfixsdk/__init__.py,sha256=7Caixn5hOWskoHL5pks5bo_XfnUJ7_NmntGbE9mZkso,972
+pdfixsdk/bin/aarch64/libpdf.so,sha256=tu7b-Of9kIe4V5YCjXJd4roqEe2BOVZ0SqkoHg21hB0,24690768
+pdfixsdk/bin/arm64/libpdf.dylib,sha256=qq8LYokGWOpxu79dXGVofQ86nc5JAvSpI-4lGaNlCic,19418480
+pdfixsdk/bin/x86_64/LicenseSpringVMD.dll,sha256=uuDwUyEELnp0IyD2F0oLuoIED1wmNXV43Ino-SVSk5A,730608
+pdfixsdk/bin/x86_64/libpdf.dylib,sha256=J8NVt6UxO-uBB5F-RwYfOX-zXRkVF-k7GWYhWTisidU,21734048
+pdfixsdk/bin/x86_64/libpdf.so,sha256=c8sFRBwZhspsfjGDm8uQjXfnzWzlR2Sw4V0Kk9DRjLA,25206592
+pdfixsdk/bin/x86_64/pdf.dll,sha256=HcZ8BhuerZiyuvxsdHS1udGy9NzoP6-NZnsmu5AD_4k,16017408
+pdfix_sdk-8.4.1.dist-info/METADATA,sha256=H-mlYmxmc4NEmGZAQxGitIVZXtD7_lZTdZhBWvlVsfo,2575
+pdfix_sdk-8.4.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pdfix_sdk-8.4.1.dist-info/top_level.txt,sha256=wQE0572VNT9a6xmxK041dt16c6GcKDhD0wGJ5dE1GI4,9
+pdfix_sdk-8.4.1.dist-info/RECORD,,
