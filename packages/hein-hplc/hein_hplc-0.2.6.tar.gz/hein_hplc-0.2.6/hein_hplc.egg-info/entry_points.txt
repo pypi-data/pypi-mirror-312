@@ -1,0 +1,3 @@
+[console_scripts]
+hein-hplc = hein_hplc.app:main
+hein_hplc = hein_hplc.app:main
