@@ -1,0 +1,3 @@
+[console_scripts]
+tap-moosend=tap_moosend.tap:TapMoosend.cli
+

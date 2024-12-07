@@ -1,0 +1,10 @@
+tap_moosend/__init__.py,sha256=Su3LD0hZ7s52Tgtb328nckIwblzIEYMjDo_4uFtHskI,23
+tap_moosend/__main__.py,sha256=REWDZamzIuft4qUVmhauDIM1_AtRWQ9LITuQp7X0wYY,121
+tap_moosend/client.py,sha256=P2ztU7dyKUE4i8p08vgfkyaTS0jxsgf6WI4cY9l314o,2094
+tap_moosend/schemas/__init__.py,sha256=4L_j2w9G0RLeNu1IvmrlYD685cMULZhpvOezBL0leR8,42
+tap_moosend/streams.py,sha256=N5zTJ810hQbA0MJuBpjR-GgxlRnNTnj67DfMj3dMTyA,4667
+tap_moosend/tap.py,sha256=iP4dgMyr6T1O4XMOrYAkPtgwZBw6keLixzxlD1vSOK0,1024
+oviond_tap_moosend-0.0.2.dist-info/METADATA,sha256=j1k9C3pBhrMJ78zu6wfOCoHAgH_N6QGwVcDX4BkxbuY,3979
+oviond_tap_moosend-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+oviond_tap_moosend-0.0.2.dist-info/entry_points.txt,sha256=dv4bnaL7e6Dhrb940CiLa_6iAH-pzN-zld5X6R69PjY,62
+oviond_tap_moosend-0.0.2.dist-info/RECORD,,
