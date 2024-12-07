@@ -1,0 +1,3 @@
+[console_scripts]
+netclop=netclop.cli.__main__:netclop
+
