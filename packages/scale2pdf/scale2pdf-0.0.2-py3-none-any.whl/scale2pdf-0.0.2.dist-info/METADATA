@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: scale2pdf
+Version: 0.0.2
+Author: ammar
+Author-email: sleeping4cat@outlook.com
+Description-Content-Type: text/markdown
+Requires-Dist: PyMuPDF
+Requires-Dist: Pillow
+Requires-Dist: papermage[dev,predictors,visualizers]
+
+LAION made scale possible and we made CPU scale possible. A library to scale pdf parsing on CPU. 
+
+```Python
+from scale2pdf import scalablepdf 
+from scale2pdf import extractimages
+
+scalablepdf("/content/2408.06257v3.pdf", "example-pdf.json")
+extract_images_from_pdf("2408.06257v3.pdf", "/path/to/output/folder")
+```
+
+#### CRAP CPU (NO GPU): 3 min 42 seconds to finish parsing and saving it to JSON. 
