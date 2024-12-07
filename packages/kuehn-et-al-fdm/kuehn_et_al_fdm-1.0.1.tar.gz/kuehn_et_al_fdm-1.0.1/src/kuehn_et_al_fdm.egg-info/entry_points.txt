@@ -1,0 +1,8 @@
+[console_scripts]
+kea = kuehn_et_al_fdm._help:main
+kea-displ_avg = kuehn_et_al_fdm.calc_displ_avg:main
+kea-displ_profile = kuehn_et_al_fdm.calc_displ_profile:main
+kea-displ_site = kuehn_et_al_fdm.calc_displ_site:main
+kea-prob_exceed = kuehn_et_al_fdm.calc_prob_exceed:main
+kea-prob_occur = kuehn_et_al_fdm.calc_prob_occur:main
+kea-stat_params = kuehn_et_al_fdm.calc_params:main
