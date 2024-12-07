@@ -1,0 +1,26 @@
+image: python:latest
+stages:
+  - build
+
+before_script:
+  - python -V
+  - echo "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi"
+  - apt-get update && apt-get install -y git
+
+build-upload:
+  stage: build
+  script:
+    - pip install build twine flit
+    - FLIT_INDEX_URL=${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi flit build
+    - TWINE_PASSWORD=${CI_JOB_TOKEN} TWINE_USERNAME=gitlab-ci-token python -m twine upload --repository-url ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi dist/*
+  only:
+    - tags
+
+build-upload-pypi:
+  stage: build
+  script:
+    - pip install build twine flit
+    - flit build
+    - python -m twine upload dist/*
+  only:
+    - tags
