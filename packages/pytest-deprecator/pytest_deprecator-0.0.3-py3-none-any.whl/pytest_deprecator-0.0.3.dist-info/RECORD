@@ -1,0 +1,7 @@
+pytest_deprecator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_deprecator/plugin.py,sha256=IGhlY6nT47SLeu3-rTZMNnDTjE77gqxnMsmVO25nEGI,5489
+pytest_deprecator-0.0.3.dist-info/METADATA,sha256=vvUzD0VE29-2bHn6wj4EXJXAXMKytE9ombnz_OOVEe8,999
+pytest_deprecator-0.0.3.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pytest_deprecator-0.0.3.dist-info/entry_points.txt,sha256=w-77N_sfaWJX3xMWP_e5odSBgX_BVIZ1T_ETfAffxXU,56
+pytest_deprecator-0.0.3.dist-info/top_level.txt,sha256=DYltHMfqatQn-K3XztXxDI0qDtHo7zEELHQGfYbv3wY,18
+pytest_deprecator-0.0.3.dist-info/RECORD,,
