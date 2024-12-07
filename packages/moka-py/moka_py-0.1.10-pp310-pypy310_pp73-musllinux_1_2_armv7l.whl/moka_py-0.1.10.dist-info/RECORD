@@ -1,0 +1,9 @@
+moka_py-0.1.10.dist-info/METADATA,sha256=NBkNZtQEp4hTpRDKhNHElUn6gIGZxYr8OynEKRqcqVY,3796
+moka_py-0.1.10.dist-info/WHEEL,sha256=MqhOo7bnf7f6iD2q48whAEDBXgfc8UWtgiGzKCkxhCI,114
+moka_py-0.1.10.dist-info/licenses/LICENSE,sha256=CUj5ca53JXgIACVKNEOFOlbMWtxY4RXXj9cELIv2R04,1069
+moka_py.libs/libgcc_s-5b5488a6.so.1,sha256=HGKUsVmTeNAxEdSy7Ua5Vh_I9FN3RCbPWzvZ7H_TrwE,2749061
+moka_py/__init__.py,sha256=oVW-iQAS2zedqoN_A9dRdrAeoUa1Zwb-avTFJUXehs8,1488
+moka_py/__init__.pyi,sha256=62Pp_4kQEDEXT3oWgDNelYFKrto56VxWPt9RfV7jEI0,1387
+moka_py/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moka_py/moka_py.pypy310-pp73-arm-linux-gnu.so,sha256=PYv1XCNyMX_dkpPLJDNZ6KRS03ILCpyGkvkmob08Jh8,797177
+moka_py-0.1.10.dist-info/RECORD,,
