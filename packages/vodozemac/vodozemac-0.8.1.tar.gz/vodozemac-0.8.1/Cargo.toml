@@ -1,0 +1,25 @@
+[package]
+name = "vodozemac-python"
+version = "0.8.1"
+edition = "2021"
+repository = "https://github.com/matrix-nio/vodozemac-python"
+homepage = "https://github.com/matrix-nio/vodozemac-python"
+readme = "README.md"
+
+[lib]
+name = "vodozemac"
+crate-type = ["cdylib"]
+
+[dependencies]
+paste = "1.0.15"
+thiserror = "2.0.3"
+[dependencies.vodozemac]
+version = "0.8.1"
+features = ["insecure-pk-encryption"]
+
+[package.metadata.maturin]
+name = "vodozemac"
+
+[dependencies.pyo3]
+version = "0.23.2"
+features = ["extension-module"]

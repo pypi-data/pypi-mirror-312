@@ -1,0 +1,16 @@
+[build-system]
+requires = ["maturin>=1.7.0,<1.8.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+name = "vodozemac"
+bindings = "pyo3"
+
+[project]
+name = "vodozemac"
+description = "Python bindings for vodozemac"
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.urls]
+repository = "https://github.com/matrix-nio/vodozemac-python"
