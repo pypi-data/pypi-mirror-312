@@ -1,0 +1,11 @@
+extramaths/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+extramaths/area.py,sha256=y5H34oVLU0akl3LKY8mCtj8MVlgPjvx7quSEyWD883o,2733
+extramaths/matrix.py,sha256=zNWIRBZs0IJMvLeyFdC_l_juBmDX9XpWSV3OQO7My1E,7014
+extramaths/others.py,sha256=vEFY5ZzJbmmebELIjzT_46skg4To_bycmjSsOBx5OK4,1635
+extramaths/vector.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+extramaths/volume.py,sha256=gpAZLCXLk21_e5CwFEYYIWiX1w14pLQNsK-dW30pgnw,1570
+extramaths-0.3.0.dist-info/LICENSE.TXT,sha256=V7i0JhuWeCRPkdw8p9LcqAUoo0dCfb9PzrdO68qG0GE,1075
+extramaths-0.3.0.dist-info/METADATA,sha256=fBzjU7Zq17_IfwhxzcqwBMC2qzn01njdjGmL6iJ9vpE,2238
+extramaths-0.3.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+extramaths-0.3.0.dist-info/top_level.txt,sha256=UYPk__0urujVHBVG3SgfH5nAXKMpjEGmp25WI-dNegM,11
+extramaths-0.3.0.dist-info/RECORD,,
