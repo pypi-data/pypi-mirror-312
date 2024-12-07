@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+astrogator/__init__.py
+astrogator/astrogator.py
+astrogator.egg-info/PKG-INFO
+astrogator.egg-info/SOURCES.txt
+astrogator.egg-info/dependency_links.txt
+astrogator.egg-info/requires.txt
+astrogator.egg-info/top_level.txt
