@@ -1,0 +1,2 @@
+funutil>=1.0.33
+openapi-python-client>=0.21.0
