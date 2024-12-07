@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: houseplant
+Version: 0.1.0
+Summary: Database Migrations for ClickHouse.
+Home-page: https://github.com/juneHQ/houseplant
+Author: June
+Author-email: eng@june.so
+License: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.14
+Description-Content-Type: text/markdown
+Requires-Dist: Click>=7.0
+Provides-Extra: dev
+Requires-Dist: Sphinx>=2.2.1; extra == "dev"
+Requires-Dist: Click>=7.0; extra == "dev"
+
+# Houseplant
+
+## Usage
+
+```
+$ houseplant --help
+```
