@@ -1,0 +1,29 @@
+FROM selenoid/vnc_{browser}:{version}.0
+
+ENV ID_GROUP=1005
+ENV ID_USER=1005
+ENV GROUP=app
+ENV USER={browser}_{version}
+ENV USER_DIR=/usr
+ENV SRC_DIR="$USER_DIR/src"
+ENV DATA_DIR="$USER_DIR/data"
+
+USER root
+
+RUN mkdir -p "$USER_DIR/home"
+RUN mkdir -p "$SRC_DIR/data/localstorage"
+
+RUN addgroup --gid $ID_GROUP $GROUP \
+    && adduser --uid $ID_USER --gid $ID_GROUP --home "$USER_DIR/home" --disabled-password $USER
+
+COPY {localstorage} "$DATA_DIR/localstorage"
+COPY {entrypoint} "$SRC_DIR"
+RUN chown -R $ID_USER:$ID_GROUP "$USER_DIR" \
+    && chown -R $ID_USER:$ID_GROUP "$DATA_DIR" \
+    && chmod 755 "$SRC_DIR/{browser}-entrypoint.sh"
+
+RUN apt-get update && apt-get install -y xxd sed
+
+USER $USER
+WORKDIR "$SRC_DIR"
+ENTRYPOINT ["./{browser}-entrypoint.sh" ]
