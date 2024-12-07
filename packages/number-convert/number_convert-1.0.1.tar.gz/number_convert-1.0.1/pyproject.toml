@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "number-convert"
+version = "1.0.1"
+requires-python = ">= 3.8"
+authors = [
+  {name = "Mitron"},
+]
+license = {text = "MIT License"}
+description = "Package for converting numbers between various number systems"
+keywords = [
+	"convert", 
+	"converting", 
+	"num", 
+	"number", 
+	"numbers", 
+	"numeric", 
+	"system", 
+	"systems", 
+	"float", 
+	"int", 
+	"integer", 
+	"custom", 
+	"alphabet"
+]
+classifiers = [
+	"Development Status :: 5 - Production/Stable",
+	"Intended Audience :: Developers",
+	"Intended Audience :: Education",
+	"Intended Audience :: Science/Research",
+	"License :: OSI Approved :: MIT License",
+	"Natural Language :: English",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: Implementation :: CPython",
+	"Programming Language :: Python :: 3",
+	"Typing :: Typed",
+]

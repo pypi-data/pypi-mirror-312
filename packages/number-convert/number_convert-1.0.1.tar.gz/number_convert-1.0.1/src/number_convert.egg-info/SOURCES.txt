@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+src/number_convert/__init__.py
+src/number_convert.egg-info/PKG-INFO
+src/number_convert.egg-info/SOURCES.txt
+src/number_convert.egg-info/dependency_links.txt
+src/number_convert.egg-info/top_level.txt
