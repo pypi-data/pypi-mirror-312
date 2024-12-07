@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+secfi.egg-info/PKG-INFO
+secfi.egg-info/SOURCES.txt
+secfi.egg-info/dependency_links.txt
+secfi.egg-info/top_level.txt
