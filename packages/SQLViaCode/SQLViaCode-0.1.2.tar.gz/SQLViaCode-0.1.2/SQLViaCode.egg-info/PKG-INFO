@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: SQLViaCode
+Version: 0.1.2
+Summary: A Python package to query SQL databases and manage backups.
+Author: Afik Ratzon
+Author-email: afik.ratzon@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: greenlet==3.1.1
+Requires-Dist: numpy==2.1.3
+Requires-Dist: pandas==2.2.3
+Requires-Dist: pyodbc==5.2.0
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: pytz==2024.2
+Requires-Dist: six==1.16.0
+Requires-Dist: SQLAlchemy==2.0.36
+Requires-Dist: tabulate==0.9.0
+Requires-Dist: typing_extensions==4.12.2
+Requires-Dist: tzdata==2024.2
+
+### Database Query and Backup Script - Summary
+
+This script provides the `get_query_from_db` function, designed to connect to a SQL Server database, execute a specified query, and optionally create a backup of a table as a CSV file.
+
+#### Function Usage
+
+- The `get_query_from_db(query, table_to_backup)` function accepts two parameters:
+  - `query`: A SQL query string to execute on the database.
+  - `table_to_backup`: The name of a table to back up to a CSV file. If you don't want to create a backup, set this parameter to `None`.
+
+#### Setup Instructions
+
+1. **Environment Variables**:
+   - The script requires a `.env` file to load database credentials and connection details.
+   - Required variables:
+     ```plaintext
+     USER=
+     PASSWORD=
+     HOST=
+     NAME=
+     DRIVER=ODBC+Driver+17+for+SQL+Server
+     ```
+     Leave `DB_DRIVER` unchanged, and fill in the other variables with your database details.
+
+2. **Install Dependencies**:
+   - Run the following command to install all required dependencies listed in `requirements.txt`:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+#### Example:
+   ```python
+   query = "SELECT * FROM your_table"
+   result_df = get_query_from_db(query, "your_table_to_backup")
