@@ -1,0 +1,8 @@
+iso_container/__init__.py,sha256=ScOflNyPF3ZQPlEvm2w1aGNK1RKMSk-MU_0NWYwdNn4,210
+iso_container/datasets.json,sha256=FE_yM3AldanQazD_a7B1SNSP86AWIFEQIAVzk5KhmC0,105320
+iso_container/iso_container.py,sha256=Bsymk7cRbRK8bllYTI8aj-k6hXAPmdD_ohbOnGGbmp8,2119
+iso_container-1.0.3.dist-info/LICENSE,sha256=goYDI_c02qPFlFWdaCYbrWZpt9F04SoxjmwqmstWdiw,1089
+iso_container-1.0.3.dist-info/METADATA,sha256=nBwMIZNezcG-_DsJdEMvgVDb-fQhati5jDNUeQqcqDk,1840
+iso_container-1.0.3.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+iso_container-1.0.3.dist-info/top_level.txt,sha256=SI02duHlvHDNpTtm1EL_gQv6DI8eYevNPh-yBXF4OSM,14
+iso_container-1.0.3.dist-info/RECORD,,
