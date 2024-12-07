@@ -1,0 +1,14 @@
+{
+    "center_lat": 0,
+    "center_lon": 0,
+    "hc": 300.0,
+    "hmin": 5.0,
+    "roms_tools_version": "0.1.dev239+dirty",
+    "rot": 20,
+    "size_x": 100,
+    "size_y": 100,
+    "theta_b": 2.0,
+    "theta_s": 5.0,
+    "title": "ROMS grid created by ROMS-Tools",
+    "topography_source": "ETOPO5"
+}

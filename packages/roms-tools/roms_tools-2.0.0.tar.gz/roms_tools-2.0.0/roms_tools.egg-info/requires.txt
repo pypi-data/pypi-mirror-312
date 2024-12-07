@@ -1,0 +1,16 @@
+xarray>=2022.6.0
+numpy
+pooch
+matplotlib
+cartopy
+packaging
+scipy
+gcm_filters
+netcdf4
+PyYAML
+pyamg
+bottleneck
+regionmask
+
+[dask]
+dask[diagnostics]
