@@ -1,0 +1,8 @@
+qorange/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qorange/circuits.py,sha256=BXqjzuUmA25gEdktNUGQnz-zDc9eQnQCD0zc25vkUZ0,12095
+qorange/gates.py,sha256=-RbFFeACZB01touHTOFNflME0W1BbVbCBED2RUmY_ps,35031
+qorange-1.0.0.dist-info/LICENSE,sha256=UwqRJI460mzBQ7BP7AsjG2bYevPbhnICs8Yy6c_9LCk,1070
+qorange-1.0.0.dist-info/METADATA,sha256=DCzStr5wClNDSoZP2IFUsFrj-117bDFoI5vBfyQvdiw,286
+qorange-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+qorange-1.0.0.dist-info/top_level.txt,sha256=FmFbHCjB4NAYS3qIsKOBMUHy78RoTKSG55v7N4Ak-4A,8
+qorange-1.0.0.dist-info/RECORD,,
