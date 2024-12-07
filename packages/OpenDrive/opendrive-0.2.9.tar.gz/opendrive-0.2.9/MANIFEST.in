@@ -1,0 +1,2 @@
+recursive-include OpenDrive/modules/perception/trained_models/objects_detection *.pt
+recursive-include OpenDrive/modules/perception/trained_models/traffic_sign_detection *.pt
