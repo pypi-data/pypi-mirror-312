@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: my-code-display
+Version: 2.0.0
+Summary: A simple package that displays code when asked.
+Home-page: https://github.com/yourusername/my_code_display
+Author: Mmm
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# My Code Display
+
+A Python package that displays code snippets when asked.
+
+## Installation
+
+```bash
+pip install my_code_display
+
+
