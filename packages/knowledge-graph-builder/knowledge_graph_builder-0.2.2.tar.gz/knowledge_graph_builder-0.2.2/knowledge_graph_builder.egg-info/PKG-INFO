@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: knowledge_graph_builder
+Version: 0.2.2
+Summary: Constructing Knowledge Graph Based on Given Entity Relation Ontology and Entity Attribute Ontology
+Author: Cuibinge
+Author-email: cuibinge@sdust.edu.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.11,<4.0
+License-File: LICENSE
+Requires-Dist: groq<0.7.0,>=0.6.0
+Requires-Dist: jupyterlab<5.0.0,>=4.0.8
+Requires-Dist: neo4j==5.19.0
+Requires-Dist: neomodel<6.0.0,>=5.3.0
+Requires-Dist: numpy<2.0.0,>=1.26.2
+Requires-Dist: openai<2.0.0,>=1.28.0
+Requires-Dist: pathlib<2.0.0,>=1.0.1
+Requires-Dist: python-dotenv<2.0.0,>=1.0.1
+Requires-Dist: uuid<2.0,>=1.30
+Requires-Dist: yachalk<0.2.0,>=0.1.5
