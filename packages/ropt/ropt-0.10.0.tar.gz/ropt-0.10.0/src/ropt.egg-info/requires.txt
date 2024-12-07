@@ -1,0 +1,14 @@
+numpy
+pydantic
+scipy
+
+[pandas]
+pandas
+tabulate
+
+[parsl]
+parsl
+
+[xarray]
+xarray
+netcdf4
