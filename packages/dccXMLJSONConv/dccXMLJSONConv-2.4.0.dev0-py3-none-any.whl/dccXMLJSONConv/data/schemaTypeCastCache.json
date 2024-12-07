@@ -1,0 +1,2043 @@
+{
+  "[\"https://ptb.de/dcc/dcc.xsd\", \"default_version\"]": {
+    "non_list_typecast_dict": {
+      "ds:HMACOutputLength": "int",
+      "ds:XPath": "str",
+      "ds:DigestValue": "bytes",
+      "ds:KeyName": "str",
+      "ds:MgmtData": "str",
+      "ds:X509SKI": "bytes",
+      "ds:X509SubjectName": "str",
+      "ds:X509Certificate": "bytes",
+      "ds:X509CRL": "bytes",
+      "ds:X509IssuerName": "str",
+      "ds:X509SerialNumber": "int",
+      "ds:PGPKeyID": "bytes",
+      "ds:PGPKeyPacket": "bytes",
+      "ds:SPKISexp": "bytes",
+      "ds:P": "bytes",
+      "ds:Q": "bytes",
+      "ds:G": "bytes",
+      "ds:Y": "bytes",
+      "ds:J": "bytes",
+      "ds:Seed": "bytes",
+      "ds:PgenCounter": "bytes",
+      "ds:Modulus": "bytes",
+      "ds:Exponent": "bytes",
+      "si:label": "str",
+      "si:value": "float",
+      "si:unit": "str",
+      "si:significantDigit": "int",
+      "si:dateTime": "datetime.datetime",
+      "si:valueStandardMU": "float",
+      "si:distribution": "str",
+      "si:valueExpandedMU": "float",
+      "si:coverageFactor": "float",
+      "si:coverageProbability": "float",
+      "si:intervalMin": "float",
+      "si:intervalMax": "float",
+      "si:uncertainty": "float",
+      "si:standardUnc": "float",
+      "si:valueReal": "float",
+      "si:valueImag": "float",
+      "si:valueMagnitude": "float",
+      "si:valuePhase": "float",
+      "si:unitPhase": "str",
+      "si:listUnit": "str",
+      "si:listsignificantDigit": "int",
+      "si:listUnitPhase": "str",
+      "si:quantityType": "str",
+      "si:quantityTypeQUDT": "str",
+      "si:listQuantityType": "str",
+      "si:listQuantityTypeQUDT": "str",
+      "si:quantityTypeXMLList": "str",
+      "si:quantityTypeQUDTXMLList": "str",
+      "dcc:release": "str",
+      "dcc:namespace": "str",
+      "dcc:link": "str",
+      "dcc:value": "str",
+      "dcc:procedure": "str",
+      "dcc:model": "str",
+      "dcc:countryCodeISO3166_1": "str",
+      "dcc:usedLangCodeISO639_1": "str",
+      "dcc:mandatoryLangCodeISO639_1": "str",
+      "dcc:uniqueIdentifier": "str",
+      "dcc:receiptDate": "datetime.date",
+      "dcc:beginPerformanceDate": "datetime.date",
+      "dcc:endPerformanceDate": "datetime.date",
+      "dcc:issueDate": "datetime.date",
+      "dcc:replacedUniqueIdentifier": "str",
+      "dcc:reference": "str",
+      "dcc:classID": "str",
+      "dcc:calibrationLaboratoryCode": "str",
+      "dcc:cryptElectronicSeal": "bool",
+      "dcc:cryptElectronicSignature": "bool",
+      "dcc:cryptElectronicTimeStamp": "bool",
+      "dcc:role": "str",
+      "dcc:mainSigner": "bool",
+      "dcc:norm": "str",
+      "dcc:dateTime": "datetime.datetime",
+      "dcc:convention": "str",
+      "dcc:traceable": "bool",
+      "dcc:valid": "bool",
+      "dcc:date": "datetime.date",
+      "dcc:period": "datetime.timedelta",
+      "dcc:conformity": "str",
+      "dcc:nonSIDefinition": "str",
+      "dcc:nonSIUnit": "str",
+      "dcc:city": "str",
+      "dcc:countryCode": "str",
+      "dcc:postCode": "str",
+      "dcc:postOfficeBox": "str",
+      "dcc:state": "str",
+      "dcc:street": "str",
+      "dcc:streetNo": "str",
+      "dcc:positionCoordinateSystem": "str",
+      "dcc:eMail": "str",
+      "dcc:phone": "str",
+      "dcc:fax": "str",
+      "dcc:referralID": "str",
+      "dcc:inValidityRange": "bool",
+      "dcc:fileName": "str",
+      "dcc:mimeType": "str",
+      "dcc:dataBase64": "bytes",
+      "dcc:latex": "str"
+    },
+    "list_typecast_dict": {
+      "si:labelXMLList": "str",
+      "si:valueXMLList": "float",
+      "si:unitXMLList": "str",
+      "si:significantDigitXMLList": "int",
+      "si:dateTimeXMLList": "datetime.datetime",
+      "si:valueStandardMUXMLList": "float",
+      "si:distributionXMLList": "str",
+      "si:valueExpandedMUXMLList": "float",
+      "si:coverageFactorXMLList": "float",
+      "si:coverageProbabilityXMLList": "float",
+      "si:intervalMinXMLList": "float",
+      "si:intervalMaxXMLList": "float",
+      "si:uncertaintyXMLList": "float",
+      "si:standardUncXMLList": "float",
+      "si:valueRealXMLList": "float",
+      "si:valueImagXMLList": "float",
+      "si:valueMagnitudeXMLList": "float",
+      "si:valuePhaseXMLList": "float",
+      "si:unitPhaseXMLList": "str",
+      "dcc:charsXMLList": "str",
+      "dcc:dateTimeXMLList": "datetime.datetime",
+      "dcc:validXMLList": "bool",
+      "dcc:conformityXMLList": "str"
+    },
+    "repeated_elements": {
+      "si:covariance": [
+        "si:covariance_complex",
+        [
+          "si:column"
+        ]
+      ],
+      "si:column": [
+        "si:column_complex",
+        [
+          "si:covarianceMatrix",
+          "si:complex"
+        ]
+      ],
+      "si:real": [
+        "si:realInListType",
+        [
+          "si:realList",
+          "si:hybrid"
+        ]
+      ],
+      "si:covarianceXMLList": [
+        "si:covarianceXMLListType",
+        [
+          "si:columnXMLList"
+        ]
+      ],
+      "si:columnXMLList": [
+        "si:columnXMLList_complex",
+        [
+          "si:covarianceMatrixXMLList",
+          "si:realListXMLList"
+        ]
+      ],
+      "si:complex": [
+        "si:complexInListType",
+        [
+          "si:complexList",
+          "si:hybrid"
+        ]
+      ],
+      "si:list": [
+        "si:listType",
+        [
+          "si:hybrid"
+        ]
+      ],
+      "si:realList": [
+        "si:realListType",
+        [
+          "si:hybrid"
+        ]
+      ],
+      "si:realListXMLList": [
+        "si:realListXMLListType",
+        [
+          "si:hybrid"
+        ]
+      ],
+      "si:complexList": [
+        "si:complexListType",
+        [
+          "si:hybrid"
+        ]
+      ],
+      "si:complexListXMLList": [
+        "si:complexListXMLListType",
+        [
+          "si:hybrid"
+        ]
+      ],
+      "si:constant": [
+        "si:constantQuantityType",
+        [
+          "si:hybrid"
+        ]
+      ],
+      "dcc:software": [
+        "dcc:softwareType",
+        [
+          "dcc:installedSoftwares",
+          "dcc:usedSoftware",
+          "dcc:installedSoftware",
+          "dcc:digitalCalibrationCertificate",
+          "dcc:dccSoftware"
+        ]
+      ],
+      "dcc:refTypeDefinition": [
+        "dcc:refTypeDefinitionType",
+        [
+          "dcc:refTypeDefinitions",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:equipmentClass": [
+        "dcc:equipmentClassType",
+        [
+          "dcc:measuringEquipment",
+          "dcc:items",
+          "dcc:digitalCalibrationCertificate",
+          "dcc:item",
+          "dcc:subItems",
+          "dcc:measuringEquipments"
+        ]
+      ],
+      "dcc:measuringEquipment": [
+        "dcc:measuringEquipmentType",
+        [
+          "dcc:measuringEquipments",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:measuringEquipmentQuantity": [
+        "dcc:primitiveQuantityType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:measuringEquipmentQuantities"
+        ]
+      ],
+      "dcc:usedLangCodeISO639_1": [
+        "dcc:stringISO639Type",
+        [
+          "dcc:coreData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:mandatoryLangCodeISO639_1": [
+        "dcc:stringISO639Type",
+        [
+          "dcc:coreData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:item": [
+        "dcc:itemType",
+        [
+          "dcc:items",
+          "dcc:subItems",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:itemQuantity": [
+        "dcc:primitiveQuantityType",
+        [
+          "dcc:itemQuantities",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:identification": [
+        "dcc:identificationType",
+        [
+          "dcc:identifications",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:respPerson": [
+        "dcc:respPersonType",
+        [
+          "dcc:respPersons",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:statement": [
+        "dcc:statementMetaDataType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:statements"
+        ]
+      ],
+      "dcc:measurementResult": [
+        "dcc:measurementResultType",
+        [
+          "dcc:measurementResults",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:usedMethod": [
+        "dcc:usedMethodType",
+        [
+          "dcc:usedMethods",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:norm": [
+        "dcc:notEmptyStringType",
+        [
+          "dcc:metaData",
+          "dcc:usedMethod",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:reference": [
+        "dcc:notEmptyStringType",
+        [
+          "dcc:metaData",
+          "dcc:usedMethod",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:link": [
+        "xs:anyURI",
+        [
+          "dcc:metaData",
+          "dcc:usedMethod",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:usedMethodQuantity": [
+        "dcc:primitiveQuantityType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:usedMethodQuantities"
+        ]
+      ],
+      "dcc:influenceCondition": [
+        "dcc:conditionType",
+        [
+          "dcc:influenceConditions",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:result": [
+        "dcc:resultType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:results"
+        ]
+      ],
+      "dcc:metaData": [
+        "dcc:statementMetaDataType",
+        [
+          "dcc:measurementMetaData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:countryCodeISO3166_1": [
+        "dcc:stringISO3166Type",
+        [
+          "dcc:metaData",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:content": [
+        "dcc:stringWithLangType",
+        [
+          "dcc:noQuantity",
+          "dcc:referral",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:text",
+          "dcc:further",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:file": [
+        "dcc:byteDataType",
+        [
+          "dcc:noQuantity",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:text",
+          "dcc:further"
+        ]
+      ],
+      "dcc:formula": [
+        "dcc:formulaType",
+        [
+          "dcc:noQuantity",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:text",
+          "dcc:further"
+        ]
+      ]
+    }
+  },
+  "[\"https://ptb.de/dcc/dcc.xsd\", \"3.3.0\"]": {
+    "non_list_typecast_dict": {
+      "ds:HMACOutputLength": "int",
+      "ds:XPath": "str",
+      "ds:DigestValue": "bytes",
+      "ds:KeyName": "str",
+      "ds:MgmtData": "str",
+      "ds:X509SKI": "bytes",
+      "ds:X509SubjectName": "str",
+      "ds:X509Certificate": "bytes",
+      "ds:X509CRL": "bytes",
+      "ds:X509IssuerName": "str",
+      "ds:X509SerialNumber": "int",
+      "ds:PGPKeyID": "bytes",
+      "ds:PGPKeyPacket": "bytes",
+      "ds:SPKISexp": "bytes",
+      "ds:P": "bytes",
+      "ds:Q": "bytes",
+      "ds:G": "bytes",
+      "ds:Y": "bytes",
+      "ds:J": "bytes",
+      "ds:Seed": "bytes",
+      "ds:PgenCounter": "bytes",
+      "ds:Modulus": "bytes",
+      "ds:Exponent": "bytes",
+      "si:label": "str",
+      "si:value": "float",
+      "si:unit": "str",
+      "si:significantDigit": "int",
+      "si:dateTime": "datetime.datetime",
+      "si:valueStandardMU": "float",
+      "si:distribution": "str",
+      "si:valueExpandedMU": "float",
+      "si:coverageFactor": "float",
+      "si:coverageProbability": "float",
+      "si:intervalMin": "float",
+      "si:intervalMax": "float",
+      "si:uncertainty": "float",
+      "si:standardUnc": "float",
+      "si:valueReal": "float",
+      "si:valueImag": "float",
+      "si:valueMagnitude": "float",
+      "si:valuePhase": "float",
+      "si:unitPhase": "str",
+      "si:listUnit": "str",
+      "si:listsignificantDigit": "int",
+      "si:listUnitPhase": "str",
+      "si:quantityType": "str",
+      "si:quantityTypeQUDT": "str",
+      "si:listQuantityType": "str",
+      "si:listQuantityTypeQUDT": "str",
+      "si:quantityTypeXMLList": "str",
+      "si:quantityTypeQUDTXMLList": "str",
+      "dcc:release": "str",
+      "dcc:namespace": "str",
+      "dcc:link": "str",
+      "dcc:value": "str",
+      "dcc:procedure": "str",
+      "dcc:model": "str",
+      "dcc:countryCodeISO3166_1": "str",
+      "dcc:usedLangCodeISO639_1": "str",
+      "dcc:mandatoryLangCodeISO639_1": "str",
+      "dcc:uniqueIdentifier": "str",
+      "dcc:receiptDate": "datetime.date",
+      "dcc:beginPerformanceDate": "datetime.date",
+      "dcc:endPerformanceDate": "datetime.date",
+      "dcc:issueDate": "datetime.date",
+      "dcc:replacedUniqueIdentifier": "str",
+      "dcc:reference": "str",
+      "dcc:classID": "str",
+      "dcc:calibrationLaboratoryCode": "str",
+      "dcc:cryptElectronicSeal": "bool",
+      "dcc:cryptElectronicSignature": "bool",
+      "dcc:cryptElectronicTimeStamp": "bool",
+      "dcc:role": "str",
+      "dcc:mainSigner": "bool",
+      "dcc:norm": "str",
+      "dcc:dateTime": "datetime.datetime",
+      "dcc:convention": "str",
+      "dcc:traceable": "bool",
+      "dcc:valid": "bool",
+      "dcc:date": "datetime.date",
+      "dcc:period": "datetime.timedelta",
+      "dcc:conformity": "str",
+      "dcc:nonSIDefinition": "str",
+      "dcc:nonSIUnit": "str",
+      "dcc:city": "str",
+      "dcc:countryCode": "str",
+      "dcc:postCode": "str",
+      "dcc:postOfficeBox": "str",
+      "dcc:state": "str",
+      "dcc:street": "str",
+      "dcc:streetNo": "str",
+      "dcc:positionCoordinateSystem": "str",
+      "dcc:eMail": "str",
+      "dcc:phone": "str",
+      "dcc:fax": "str",
+      "dcc:referralID": "str",
+      "dcc:inValidityRange": "bool",
+      "dcc:fileName": "str",
+      "dcc:mimeType": "str",
+      "dcc:dataBase64": "bytes",
+      "dcc:latex": "str"
+    },
+    "list_typecast_dict": {
+      "si:labelXMLList": "str",
+      "si:valueXMLList": "float",
+      "si:unitXMLList": "str",
+      "si:significantDigitXMLList": "int",
+      "si:dateTimeXMLList": "datetime.datetime",
+      "si:valueStandardMUXMLList": "float",
+      "si:distributionXMLList": "str",
+      "si:valueExpandedMUXMLList": "float",
+      "si:coverageFactorXMLList": "float",
+      "si:coverageProbabilityXMLList": "float",
+      "si:intervalMinXMLList": "float",
+      "si:intervalMaxXMLList": "float",
+      "si:uncertaintyXMLList": "float",
+      "si:standardUncXMLList": "float",
+      "si:valueRealXMLList": "float",
+      "si:valueImagXMLList": "float",
+      "si:valueMagnitudeXMLList": "float",
+      "si:valuePhaseXMLList": "float",
+      "si:unitPhaseXMLList": "str",
+      "dcc:charsXMLList": "str",
+      "dcc:dateTimeXMLList": "datetime.datetime",
+      "dcc:validXMLList": "bool",
+      "dcc:conformityXMLList": "str"
+    },
+    "repeated_elements": {
+      "si:covariance": [
+        "si:covariance_complex",
+        [
+          "si:column"
+        ]
+      ],
+      "si:column": [
+        "si:column_complex",
+        [
+          "si:covarianceMatrix",
+          "si:complex"
+        ]
+      ],
+      "si:real": [
+        "si:realInListType",
+        [
+          "si:realList",
+          "si:hybrid"
+        ]
+      ],
+      "si:covarianceXMLList": [
+        "si:covarianceXMLListType",
+        [
+          "si:columnXMLList"
+        ]
+      ],
+      "si:columnXMLList": [
+        "si:columnXMLList_complex",
+        [
+          "si:covarianceMatrixXMLList",
+          "si:realListXMLList"
+        ]
+      ],
+      "si:complex": [
+        "si:complexInListType",
+        [
+          "si:complexList",
+          "si:hybrid"
+        ]
+      ],
+      "si:list": [
+        "si:listType",
+        [
+          "si:hybrid"
+        ]
+      ],
+      "si:realList": [
+        "si:realListType",
+        [
+          "si:hybrid"
+        ]
+      ],
+      "si:realListXMLList": [
+        "si:realListXMLListType",
+        [
+          "si:hybrid"
+        ]
+      ],
+      "si:complexList": [
+        "si:complexListType",
+        [
+          "si:hybrid"
+        ]
+      ],
+      "si:complexListXMLList": [
+        "si:complexListXMLListType",
+        [
+          "si:hybrid"
+        ]
+      ],
+      "si:constant": [
+        "si:constantQuantityType",
+        [
+          "si:hybrid"
+        ]
+      ],
+      "dcc:software": [
+        "dcc:softwareType",
+        [
+          "dcc:installedSoftwares",
+          "dcc:usedSoftware",
+          "dcc:installedSoftware",
+          "dcc:digitalCalibrationCertificate",
+          "dcc:dccSoftware"
+        ]
+      ],
+      "dcc:refTypeDefinition": [
+        "dcc:refTypeDefinitionType",
+        [
+          "dcc:refTypeDefinitions",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:equipmentClass": [
+        "dcc:equipmentClassType",
+        [
+          "dcc:measuringEquipment",
+          "dcc:items",
+          "dcc:digitalCalibrationCertificate",
+          "dcc:item",
+          "dcc:subItems",
+          "dcc:measuringEquipments"
+        ]
+      ],
+      "dcc:measuringEquipment": [
+        "dcc:measuringEquipmentType",
+        [
+          "dcc:measuringEquipments",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:measuringEquipmentQuantity": [
+        "dcc:primitiveQuantityType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:measuringEquipmentQuantities"
+        ]
+      ],
+      "dcc:usedLangCodeISO639_1": [
+        "dcc:stringISO639Type",
+        [
+          "dcc:coreData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:mandatoryLangCodeISO639_1": [
+        "dcc:stringISO639Type",
+        [
+          "dcc:coreData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:item": [
+        "dcc:itemType",
+        [
+          "dcc:items",
+          "dcc:subItems",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:itemQuantity": [
+        "dcc:primitiveQuantityType",
+        [
+          "dcc:itemQuantities",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:identification": [
+        "dcc:identificationType",
+        [
+          "dcc:identifications",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:respPerson": [
+        "dcc:respPersonType",
+        [
+          "dcc:respPersons",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:statement": [
+        "dcc:statementMetaDataType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:statements"
+        ]
+      ],
+      "dcc:measurementResult": [
+        "dcc:measurementResultType",
+        [
+          "dcc:measurementResults",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:usedMethod": [
+        "dcc:usedMethodType",
+        [
+          "dcc:usedMethods",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:norm": [
+        "dcc:notEmptyStringType",
+        [
+          "dcc:metaData",
+          "dcc:usedMethod",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:reference": [
+        "dcc:notEmptyStringType",
+        [
+          "dcc:metaData",
+          "dcc:usedMethod",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:link": [
+        "xs:anyURI",
+        [
+          "dcc:metaData",
+          "dcc:usedMethod",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:usedMethodQuantity": [
+        "dcc:primitiveQuantityType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:usedMethodQuantities"
+        ]
+      ],
+      "dcc:influenceCondition": [
+        "dcc:conditionType",
+        [
+          "dcc:influenceConditions",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:result": [
+        "dcc:resultType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:results"
+        ]
+      ],
+      "dcc:metaData": [
+        "dcc:statementMetaDataType",
+        [
+          "dcc:measurementMetaData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:countryCodeISO3166_1": [
+        "dcc:stringISO3166Type",
+        [
+          "dcc:metaData",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:content": [
+        "dcc:stringWithLangType",
+        [
+          "dcc:noQuantity",
+          "dcc:referral",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:text",
+          "dcc:further",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:file": [
+        "dcc:byteDataType",
+        [
+          "dcc:noQuantity",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:text",
+          "dcc:further"
+        ]
+      ],
+      "dcc:formula": [
+        "dcc:formulaType",
+        [
+          "dcc:noQuantity",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:text",
+          "dcc:further"
+        ]
+      ]
+    }
+  },
+  "[\"https://ptb.de/dcc/dcc.xsd\", \"3.0.0-rc.2\"]": {
+    "non_list_typecast_dict": {
+      "si:label": "str",
+      "si:value": "float",
+      "si:unit": "str",
+      "si:dateTime": "datetime.datetime",
+      "si:uncertainty": "float",
+      "si:distribution": "str",
+      "si:valueReal": "float",
+      "si:valueImag": "float",
+      "si:valueMagnitude": "float",
+      "si:valuePhase": "float",
+      "si:unitPhase": "str",
+      "si:listUnit": "str",
+      "si:listUnitPhase": "str",
+      "si:coverageFactor": "float",
+      "si:coverageProbability": "float",
+      "si:standardUnc": "float",
+      "si:intervalMin": "float",
+      "si:intervalMax": "float",
+      "dcc:release": "str",
+      "dcc:model": "str",
+      "dcc:countryCodeISO3166_1": "str",
+      "dcc:usedLangCodeISO639_1": "str",
+      "dcc:mandatoryLangCodeISO639_1": "str",
+      "dcc:uniqueIdentifier": "str",
+      "dcc:receiptDate": "datetime.date",
+      "dcc:beginPerformanceDate": "datetime.date",
+      "dcc:endPerformanceDate": "datetime.date",
+      "dcc:reference": "str",
+      "dcc:classID": "str",
+      "dcc:value": "str",
+      "dcc:calibrationLaboratoryCode": "str",
+      "dcc:role": "str",
+      "dcc:mainSigner": "bool",
+      "dcc:cryptElectronicSeal": "bool",
+      "dcc:cryptElectronicSignature": "bool",
+      "dcc:cryptElectronicTimeStamp": "bool",
+      "dcc:norm": "str",
+      "dcc:dateTime": "datetime.datetime",
+      "dcc:convention": "str",
+      "dcc:traceable": "bool",
+      "dcc:valid": "bool",
+      "dcc:date": "datetime.date",
+      "dcc:period": "datetime.timedelta",
+      "dcc:conformity": "str",
+      "dcc:city": "str",
+      "dcc:countryCode": "str",
+      "dcc:postCode": "str",
+      "dcc:postOfficeBox": "str",
+      "dcc:state": "str",
+      "dcc:street": "str",
+      "dcc:streetNo": "str",
+      "dcc:eMail": "str",
+      "dcc:phone": "str",
+      "dcc:fax": "str",
+      "dcc:referralID": "str",
+      "dcc:procedure": "str",
+      "dcc:fileName": "str",
+      "dcc:mimeType": "str",
+      "dcc:dataBase64": "bytes",
+      "dcc:latex": "str"
+    },
+    "list_typecast_dict": {},
+    "repeated_elements": {
+      "si:real": [
+        "si:realInListType",
+        [
+          "si:realList",
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:complex": [
+        "si:complexInListType",
+        [
+          "si:complexList",
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:list": [
+        "si:listType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:realList": [
+        "si:realListType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:complexList": [
+        "si:complexListType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:constant": [
+        "si:constantQuantityType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:covariance": [
+        "si:covariance_complex",
+        [
+          "si:column"
+        ]
+      ],
+      "si:column": [
+        "si:column_complex",
+        [
+          "si:covarianceMatrix",
+          "si:rectangularRegion"
+        ]
+      ],
+      "dcc:software": [
+        "dcc:softwareType",
+        [
+          "dcc:usedSoftware",
+          "dcc:digitalCalibrationCertificate",
+          "dcc:dccSoftware"
+        ]
+      ],
+      "dcc:measuringEquipment": [
+        "dcc:measuringEquipmentType",
+        [
+          "dcc:measuringEquipments",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:descriptionData": [
+        "dcc:byteDataType",
+        [
+          "dcc:item",
+          "dcc:measuringEquipment",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:usedLangCodeISO639_1": [
+        "dcc:stringISO639Type",
+        [
+          "dcc:coreData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:mandatoryLangCodeISO639_1": [
+        "dcc:stringISO639Type",
+        [
+          "dcc:coreData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:item": [
+        "dcc:itemType",
+        [
+          "dcc:items",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:identification": [
+        "dcc:identificationType",
+        [
+          "dcc:identifications",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:contact": [
+        "dcc:contactType",
+        [
+          "dcc:calibrationLaboratory",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:respPerson": [
+        "dcc:respPersonType",
+        [
+          "dcc:respPersons",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:statement": [
+        "dcc:statementMetaDataType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:statements"
+        ]
+      ],
+      "dcc:measurementResult": [
+        "dcc:measurementResultType",
+        [
+          "dcc:measurementResults",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:usedMethod": [
+        "dcc:usedMethodType",
+        [
+          "dcc:usedMethods",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:norm": [
+        "xs:string",
+        [
+          "dcc:usedMethod",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:influenceCondition": [
+        "dcc:conditionType",
+        [
+          "dcc:influenceConditions",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:result": [
+        "dcc:resultType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:results"
+        ]
+      ],
+      "dcc:list": [
+        "dcc:listType",
+        [
+          "dcc:list",
+          "dcc:dateTime"
+        ]
+      ],
+      "dcc:quantity": [
+        "dcc:quantityType",
+        [
+          "dcc:list",
+          "dcc:dateTime"
+        ]
+      ],
+      "dcc:metaData": [
+        "dcc:statementMetaDataType",
+        [
+          "dcc:measurementMetaData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:countryCodeISO3166_1": [
+        "dcc:stringISO3166Type",
+        [
+          "dcc:metaData",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:content": [
+        "dcc:stringWithLangType",
+        [
+          "dcc:noQuantity",
+          "dcc:referral",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:text",
+          "dcc:further",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ]
+    }
+  },
+  "[\"https://ptb.de/dcc/dcc.xsd\", \"3.2.1\"]": {
+    "non_list_typecast_dict": {
+      "si:label": "str",
+      "si:value": "float",
+      "si:unit": "str",
+      "si:dateTime": "datetime.datetime",
+      "si:uncertainty": "float",
+      "si:distribution": "str",
+      "si:valueReal": "float",
+      "si:valueImag": "float",
+      "si:valueMagnitude": "float",
+      "si:valuePhase": "float",
+      "si:unitPhase": "str",
+      "si:listUnit": "str",
+      "si:listUnitPhase": "str",
+      "si:coverageFactor": "float",
+      "si:coverageProbability": "float",
+      "si:standardUnc": "float",
+      "si:intervalMin": "float",
+      "si:intervalMax": "float",
+      "ds:HMACOutputLength": "int",
+      "ds:XPath": "str",
+      "ds:DigestValue": "bytes",
+      "ds:KeyName": "str",
+      "ds:MgmtData": "str",
+      "ds:X509SKI": "bytes",
+      "ds:X509SubjectName": "str",
+      "ds:X509Certificate": "bytes",
+      "ds:X509CRL": "bytes",
+      "ds:X509IssuerName": "str",
+      "ds:X509SerialNumber": "int",
+      "ds:PGPKeyID": "bytes",
+      "ds:PGPKeyPacket": "bytes",
+      "ds:SPKISexp": "bytes",
+      "ds:P": "bytes",
+      "ds:Q": "bytes",
+      "ds:G": "bytes",
+      "ds:Y": "bytes",
+      "ds:J": "bytes",
+      "ds:Seed": "bytes",
+      "ds:PgenCounter": "bytes",
+      "ds:Modulus": "bytes",
+      "ds:Exponent": "bytes",
+      "dcc:release": "str",
+      "dcc:namespace": "str",
+      "dcc:link": "str",
+      "dcc:value": "str",
+      "dcc:procedure": "str",
+      "dcc:model": "str",
+      "dcc:countryCodeISO3166_1": "str",
+      "dcc:usedLangCodeISO639_1": "str",
+      "dcc:mandatoryLangCodeISO639_1": "str",
+      "dcc:uniqueIdentifier": "str",
+      "dcc:receiptDate": "datetime.date",
+      "dcc:beginPerformanceDate": "datetime.date",
+      "dcc:endPerformanceDate": "datetime.date",
+      "dcc:issueDate": "datetime.date",
+      "dcc:replacedUniqueIdentifier": "str",
+      "dcc:reference": "str",
+      "dcc:classID": "str",
+      "dcc:calibrationLaboratoryCode": "str",
+      "dcc:cryptElectronicSeal": "bool",
+      "dcc:cryptElectronicSignature": "bool",
+      "dcc:cryptElectronicTimeStamp": "bool",
+      "dcc:role": "str",
+      "dcc:mainSigner": "bool",
+      "dcc:norm": "str",
+      "dcc:dateTime": "datetime.datetime",
+      "dcc:convention": "str",
+      "dcc:traceable": "bool",
+      "dcc:valid": "bool",
+      "dcc:date": "datetime.date",
+      "dcc:period": "datetime.timedelta",
+      "dcc:conformity": "str",
+      "dcc:nonSIDefinition": "str",
+      "dcc:nonSIUnit": "str",
+      "dcc:city": "str",
+      "dcc:countryCode": "str",
+      "dcc:postCode": "str",
+      "dcc:postOfficeBox": "str",
+      "dcc:state": "str",
+      "dcc:street": "str",
+      "dcc:streetNo": "str",
+      "dcc:positionCoordinateSystem": "str",
+      "dcc:eMail": "str",
+      "dcc:phone": "str",
+      "dcc:fax": "str",
+      "dcc:referralID": "str",
+      "dcc:inValidityRange": "bool",
+      "dcc:fileName": "str",
+      "dcc:mimeType": "str",
+      "dcc:dataBase64": "bytes",
+      "dcc:latex": "str"
+    },
+    "list_typecast_dict": {
+      "si:labelXMLList": "str",
+      "si:valueXMLList": "float",
+      "si:unitXMLList": "str",
+      "si:dateTimeXMLList": "datetime.datetime",
+      "si:uncertaintyXMLList": "float",
+      "si:coverageFactorXMLList": "float",
+      "si:coverageProbabilityXMLList": "float",
+      "si:distributionXMLList": "str",
+      "si:standardUncXMLList": "float",
+      "si:intervalMinXMLList": "float",
+      "si:intervalMaxXMLList": "float",
+      "dcc:charsXMLList": "str",
+      "dcc:dateTimeXMLList": "datetime.datetime",
+      "dcc:validXMLList": "bool",
+      "dcc:conformityXMLList": "str"
+    },
+    "repeated_elements": {
+      "si:real": [
+        "si:realInListType",
+        [
+          "si:realList",
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:complex": [
+        "si:complexInListType",
+        [
+          "si:complexList",
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:list": [
+        "si:listType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:realList": [
+        "si:realListType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:realListXMLList": [
+        "si:realListXMLListType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:complexList": [
+        "si:complexListType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:constant": [
+        "si:constantQuantityType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:covariance": [
+        "si:covariance_complex",
+        [
+          "si:column"
+        ]
+      ],
+      "si:column": [
+        "si:column_complex",
+        [
+          "si:covarianceMatrix",
+          "si:rectangularRegion"
+        ]
+      ],
+      "dcc:software": [
+        "dcc:softwareType",
+        [
+          "dcc:installedSoftwares",
+          "dcc:usedSoftware",
+          "dcc:digitalCalibrationCertificate",
+          "dcc:dccSoftware"
+        ]
+      ],
+      "dcc:refTypeDefinition": [
+        "dcc:refTypeDefinitionType",
+        [
+          "dcc:refTypeDefinitions",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:equipmentClass": [
+        "dcc:equipmentClassType",
+        [
+          "dcc:measuringEquipment",
+          "dcc:items",
+          "dcc:digitalCalibrationCertificate",
+          "dcc:item",
+          "dcc:measuringEquipments"
+        ]
+      ],
+      "dcc:measuringEquipment": [
+        "dcc:measuringEquipmentType",
+        [
+          "dcc:measuringEquipments",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:measuringEquipmentQuantity": [
+        "dcc:primitiveQuantityType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:measuringEquipmentQuantities"
+        ]
+      ],
+      "dcc:usedLangCodeISO639_1": [
+        "dcc:stringISO639Type",
+        [
+          "dcc:coreData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:mandatoryLangCodeISO639_1": [
+        "dcc:stringISO639Type",
+        [
+          "dcc:coreData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:item": [
+        "dcc:itemType",
+        [
+          "dcc:items",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:itemQuantity": [
+        "dcc:primitiveQuantityType",
+        [
+          "dcc:itemQuantities",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:identification": [
+        "dcc:identificationType",
+        [
+          "dcc:identifications",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:respPerson": [
+        "dcc:respPersonType",
+        [
+          "dcc:respPersons",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:statement": [
+        "dcc:statementMetaDataType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:statements"
+        ]
+      ],
+      "dcc:measurementResult": [
+        "dcc:measurementResultType",
+        [
+          "dcc:measurementResults",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:usedMethod": [
+        "dcc:usedMethodType",
+        [
+          "dcc:usedMethods",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:norm": [
+        "dcc:notEmptyStringType",
+        [
+          "dcc:metaData",
+          "dcc:usedMethod",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:reference": [
+        "dcc:notEmptyStringType",
+        [
+          "dcc:metaData",
+          "dcc:usedMethod",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:influenceCondition": [
+        "dcc:conditionType",
+        [
+          "dcc:influenceConditions",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:result": [
+        "dcc:resultType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:results"
+        ]
+      ],
+      "dcc:metaData": [
+        "dcc:statementMetaDataType",
+        [
+          "dcc:measurementMetaData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:countryCodeISO3166_1": [
+        "dcc:stringISO3166Type",
+        [
+          "dcc:metaData",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:content": [
+        "dcc:stringWithLangType",
+        [
+          "dcc:noQuantity",
+          "dcc:referral",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:text",
+          "dcc:further",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:file": [
+        "dcc:byteDataType",
+        [
+          "dcc:noQuantity",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:text",
+          "dcc:further"
+        ]
+      ],
+      "dcc:formula": [
+        "dcc:formulaType",
+        [
+          "dcc:noQuantity",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:text",
+          "dcc:further"
+        ]
+      ]
+    }
+  },
+  "[\"https://ptb.de/dcc/dcc.xsd\", \"3.1.0\"]": {
+    "non_list_typecast_dict": {
+      "si:label": "str",
+      "si:value": "float",
+      "si:unit": "str",
+      "si:dateTime": "datetime.datetime",
+      "si:uncertainty": "float",
+      "si:distribution": "str",
+      "si:valueReal": "float",
+      "si:valueImag": "float",
+      "si:valueMagnitude": "float",
+      "si:valuePhase": "float",
+      "si:unitPhase": "str",
+      "si:listUnit": "str",
+      "si:listUnitPhase": "str",
+      "si:coverageFactor": "float",
+      "si:coverageProbability": "float",
+      "si:standardUnc": "float",
+      "si:intervalMin": "float",
+      "si:intervalMax": "float",
+      "dcc:release": "str",
+      "dcc:model": "str",
+      "dcc:countryCodeISO3166_1": "str",
+      "dcc:usedLangCodeISO639_1": "str",
+      "dcc:mandatoryLangCodeISO639_1": "str",
+      "dcc:uniqueIdentifier": "str",
+      "dcc:receiptDate": "datetime.date",
+      "dcc:beginPerformanceDate": "datetime.date",
+      "dcc:endPerformanceDate": "datetime.date",
+      "dcc:reference": "str",
+      "dcc:classID": "str",
+      "dcc:value": "str",
+      "dcc:calibrationLaboratoryCode": "str",
+      "dcc:role": "str",
+      "dcc:mainSigner": "bool",
+      "dcc:cryptElectronicSeal": "bool",
+      "dcc:cryptElectronicSignature": "bool",
+      "dcc:cryptElectronicTimeStamp": "bool",
+      "dcc:norm": "str",
+      "dcc:dateTime": "datetime.datetime",
+      "dcc:convention": "str",
+      "dcc:traceable": "bool",
+      "dcc:valid": "bool",
+      "dcc:date": "datetime.date",
+      "dcc:period": "datetime.timedelta",
+      "dcc:conformity": "str",
+      "dcc:nonSIDefinition": "str",
+      "dcc:nonSIUnit": "str",
+      "dcc:city": "str",
+      "dcc:countryCode": "str",
+      "dcc:postCode": "str",
+      "dcc:postOfficeBox": "str",
+      "dcc:state": "str",
+      "dcc:street": "str",
+      "dcc:streetNo": "str",
+      "dcc:positionCoordinateSystem": "str",
+      "dcc:eMail": "str",
+      "dcc:phone": "str",
+      "dcc:fax": "str",
+      "dcc:referralID": "str",
+      "dcc:procedure": "str",
+      "dcc:fileName": "str",
+      "dcc:mimeType": "str",
+      "dcc:dataBase64": "bytes",
+      "dcc:latex": "str"
+    },
+    "list_typecast_dict": {
+      "si:labelXMLList": "str",
+      "si:valueXMLList": "float",
+      "si:unitXMLList": "str",
+      "si:dateTimeXMLList": "datetime.datetime",
+      "si:uncertaintyXMLList": "float",
+      "si:coverageFactorXMLList": "float",
+      "si:coverageProbabilityXMLList": "float",
+      "si:distributionXMLList": "str",
+      "si:standardUncXMLList": "float",
+      "si:intervalMinXMLList": "float",
+      "si:intervalMaxXMLList": "float",
+      "dcc:dateTimeXMLList": "datetime.datetime",
+      "dcc:conformityXMLList": "str"
+    },
+    "repeated_elements": {
+      "si:real": [
+        "si:realInListType",
+        [
+          "si:realList",
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:complex": [
+        "si:complexInListType",
+        [
+          "si:complexList",
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:list": [
+        "si:listType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:realList": [
+        "si:realListType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:realListXMLList": [
+        "si:realListXMLListType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:complexList": [
+        "si:complexListType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:constant": [
+        "si:constantQuantityType",
+        [
+          "si:rectangularRegion",
+          "si:hybrid"
+        ]
+      ],
+      "si:covariance": [
+        "si:covariance_complex",
+        [
+          "si:column"
+        ]
+      ],
+      "si:column": [
+        "si:column_complex",
+        [
+          "si:covarianceMatrix",
+          "si:rectangularRegion"
+        ]
+      ],
+      "dcc:software": [
+        "dcc:softwareType",
+        [
+          "dcc:installedSoftwares",
+          "dcc:usedSoftware",
+          "dcc:digitalCalibrationCertificate",
+          "dcc:dccSoftware"
+        ]
+      ],
+      "dcc:measuringEquipment": [
+        "dcc:measuringEquipmentType",
+        [
+          "dcc:measuringEquipments",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:measuringEquipmentQuantity": [
+        "dcc:measuringEquipmentQuantityType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:measuringEquipmentQuantities"
+        ]
+      ],
+      "dcc:usedLangCodeISO639_1": [
+        "dcc:stringISO639Type",
+        [
+          "dcc:coreData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:mandatoryLangCodeISO639_1": [
+        "dcc:stringISO639Type",
+        [
+          "dcc:coreData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:item": [
+        "dcc:itemType",
+        [
+          "dcc:items",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:identification": [
+        "dcc:identificationType",
+        [
+          "dcc:identifications",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:respPerson": [
+        "dcc:respPersonType",
+        [
+          "dcc:respPersons",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:statement": [
+        "dcc:statementMetaDataType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:statements"
+        ]
+      ],
+      "dcc:measurementResult": [
+        "dcc:measurementResultType",
+        [
+          "dcc:measurementResults",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:usedMethod": [
+        "dcc:usedMethodType",
+        [
+          "dcc:usedMethods",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:norm": [
+        "xs:string",
+        [
+          "dcc:metaData",
+          "dcc:usedMethod",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:reference": [
+        "xs:string",
+        [
+          "dcc:metaData",
+          "dcc:usedMethod",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:influenceCondition": [
+        "dcc:conditionType",
+        [
+          "dcc:influenceConditions",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:result": [
+        "dcc:resultType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:results"
+        ]
+      ],
+      "dcc:list": [
+        "dcc:listType",
+        [
+          "dcc:list",
+          "dcc:description"
+        ]
+      ],
+      "dcc:quantity": [
+        "dcc:quantityType",
+        [
+          "dcc:list",
+          "dcc:description"
+        ]
+      ],
+      "dcc:metaData": [
+        "dcc:statementMetaDataType",
+        [
+          "dcc:measurementMetaData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:countryCodeISO3166_1": [
+        "dcc:stringISO3166Type",
+        [
+          "dcc:metaData",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:content": [
+        "dcc:stringWithLangType",
+        [
+          "dcc:noQuantity",
+          "dcc:referral",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:text",
+          "dcc:further",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:file": [
+        "dcc:byteDataType",
+        [
+          "dcc:noQuantity",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:text",
+          "dcc:further"
+        ]
+      ],
+      "dcc:formula": [
+        "dcc:formulaType",
+        [
+          "dcc:noQuantity",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:text",
+          "dcc:further"
+        ]
+      ]
+    }
+  },
+  "[\"https://ptb.de/dcc/dcc.xsd\", \"2.4.0\"]": {
+    "non_list_typecast_dict": {
+      "si:label": "str",
+      "si:value": "float",
+      "si:unit": "str",
+      "si:dateTime": "datetime.datetime",
+      "si:uncertainty": "float",
+      "si:coverageFactor": "float",
+      "si:coverageProbability": "float",
+      "si:distribution": "str",
+      "si:standardUnc": "float",
+      "si:intervalMin": "float",
+      "si:intervalMax": "float",
+      "si:valueReal": "float",
+      "si:valueImag": "float",
+      "si:valueMagnitude": "float",
+      "si:valuePhase": "float",
+      "si:unitPhase": "str",
+      "si:listUnit": "str",
+      "si:listUnitPhase": "str",
+      "dcc:release": "str",
+      "dcc:model": "str",
+      "dcc:countryCodeISO3166_1": "str",
+      "dcc:usedLangCodeISO639_1": "str",
+      "dcc:mandatoryLangCodeISO639_1": "str",
+      "dcc:uniqueIdentifier": "str",
+      "dcc:receiptDate": "datetime.date",
+      "dcc:beginPerformanceDate": "datetime.date",
+      "dcc:endPerformanceDate": "datetime.date",
+      "dcc:reference": "str",
+      "dcc:classID": "str",
+      "dcc:value": "str",
+      "dcc:calibrationLaboratoryCode": "str",
+      "dcc:mainSigner": "bool",
+      "dcc:cryptElectronicSeal": "bool",
+      "dcc:cryptElectronicSignature": "bool",
+      "dcc:cryptElectronicTimeStamp": "bool",
+      "dcc:norm": "str",
+      "dcc:beginLocationCalDateTime": "datetime.datetime",
+      "dcc:endLocationCalDateTime": "datetime.datetime",
+      "dcc:dateTime": "datetime.datetime",
+      "dcc:convention": "str",
+      "dcc:traceable": "bool",
+      "dcc:valid": "bool",
+      "dcc:refId": "str",
+      "dcc:date": "datetime.date",
+      "dcc:period": "datetime.timedelta",
+      "dcc:city": "str",
+      "dcc:countryCode": "str",
+      "dcc:postCode": "str",
+      "dcc:postOfficeBox": "str",
+      "dcc:state": "str",
+      "dcc:street": "str",
+      "dcc:streetNo": "str",
+      "dcc:eMail": "str",
+      "dcc:phone": "str",
+      "dcc:fax": "str",
+      "dcc:referenceID": "str",
+      "dcc:procedure": "str",
+      "dcc:fileName": "str",
+      "dcc:mimeType": "str",
+      "dcc:data": "bytes",
+      "dcc:siunitx": "str"
+    },
+    "list_typecast_dict": {},
+    "repeated_elements": {
+      "si:covariance": [
+        "si:covariance_complex",
+        [
+          "si:column"
+        ]
+      ],
+      "si:column": [
+        "si:column_complex",
+        [
+          "si:covarianceMatrix"
+        ]
+      ],
+      "si:real": [
+        "si:real_complex",
+        [
+          "si:listUnit"
+        ]
+      ],
+      "si:complex": [
+        "si:complex_complex",
+        [
+          "si:listUnit"
+        ]
+      ],
+      "dcc:software": [
+        "dcc:softwareType",
+        [
+          "dcc:usedSoftware",
+          "dcc:digitalCalibrationCertificate",
+          "dcc:dccSoftware"
+        ]
+      ],
+      "dcc:description": [
+        "dcc:textType",
+        [
+          "dcc:measuringEquipment",
+          "dcc:digitalCalibrationCertificate",
+          "dcc:item",
+          "dcc:usedMethod",
+          "dcc:software"
+        ]
+      ],
+      "dcc:measuringEquipment": [
+        "dcc:measuringEquipmentType",
+        [
+          "dcc:measuringEquipments",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:descriptionData": [
+        "dcc:byteDataType",
+        [
+          "dcc:item",
+          "dcc:measuringEquipment",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:usedLangCodeISO639_1": [
+        "dcc:stringISO639Type",
+        [
+          "dcc:coreData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:mandatoryLangCodeISO639_1": [
+        "dcc:stringISO639Type",
+        [
+          "dcc:coreData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:item": [
+        "dcc:itemType",
+        [
+          "dcc:items",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:identification": [
+        "dcc:identificationType",
+        [
+          "dcc:identifications",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:contact": [
+        "dcc:contactType",
+        [
+          "dcc:calibrationLaboratory",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:respPerson": [
+        "dcc:respPersonType",
+        [
+          "dcc:respPersons",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:statement": [
+        "dcc:statementMetaDataType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:statements"
+        ]
+      ],
+      "dcc:measurementResult": [
+        "dcc:measurementResultType",
+        [
+          "dcc:measurementResults",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:usedMethod": [
+        "dcc:usedMethodType",
+        [
+          "dcc:usedMethods",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:norm": [
+        "xs:string",
+        [
+          "dcc:usedMethod",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:influenceCondition": [
+        "dcc:conditionType",
+        [
+          "dcc:influenceConditions",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:calibrationLocation": [
+        "dcc:calibrationLocationType",
+        [
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:result": [
+        "dcc:resultType",
+        [
+          "dcc:digitalCalibrationCertificate",
+          "dcc:results"
+        ]
+      ],
+      "dcc:list": [
+        "dcc:listType",
+        [
+          "dcc:list",
+          "dcc:dateTime"
+        ]
+      ],
+      "dcc:quantity": [
+        "dcc:quantityType",
+        [
+          "dcc:list",
+          "dcc:dateTime"
+        ]
+      ],
+      "dcc:metaData": [
+        "dcc:statementMetaDataType",
+        [
+          "dcc:measurementMetaData",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:countryCodeISO3166_1": [
+        "dcc:stringISO3166Type",
+        [
+          "dcc:metaData",
+          "dcc:statement",
+          "dcc:digitalCalibrationCertificate"
+        ]
+      ],
+      "dcc:content": [
+        "dcc:stringWithLangType",
+        [
+          "dcc:noQuantity",
+          "dcc:name",
+          "dcc:declaration",
+          "dcc:description",
+          "dcc:reference",
+          "dcc:text",
+          "dcc:further",
+          "dcc:digitalCalibrationCertificate",
+          "dcc:calibrationLocationSite"
+        ]
+      ]
+    }
+  }
+}
