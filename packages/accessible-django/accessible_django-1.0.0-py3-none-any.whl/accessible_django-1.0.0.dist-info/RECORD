@@ -1,0 +1,17 @@
+accessible_django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+accessible_django/apps.py,sha256=f85C4uHhm4wpaDCa27TyoId6PfzCW-QyoKtIF465ip0,224
+accessible_django/checks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+accessible_django/checks/img.py,sha256=_SkuBLk5Brg_IJNyDbvWE95RXRFSZSLNwQ1xKnXHUJE,468
+accessible_django/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+accessible_django/utils/get_template_dirs.py,sha256=eXDML9FCM7JdwgkQcadL0moyIi13Qo4rIbWEM0OxQMI,1041
+accessible_django/validators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+accessible_django/validators/base.py,sha256=rYMOdayMkdTU5kF0WMcjK9qcez4bmzuz_GJah6NoPv8,308
+accessible_django/validators/img_tag.py,sha256=crFkAR6BbmNMjnXw8u-P2jFIS0jhiOcEnaYnhE17z_Y,1408
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/settings.py,sha256=K87sCT4qgSvZr1IFpHY9uU294e_sVv-TnLSCGar4W-o,1300
+tests/test_img.py,sha256=HDpzBAjMTnhJ68lw5RO_d8Z0ryT35GhHnF49Ty1CG7Q,5558
+accessible_django-1.0.0.dist-info/LICENSE,sha256=V49S5fMgxD1c28eJ0yomLLygv-qRn8RRzMHMkXlwzKQ,1101
+accessible_django-1.0.0.dist-info/METADATA,sha256=D_jPm3m7c5CPkZer5dOj2qQ4bQqLISXZEwi6-r2wewg,4600
+accessible_django-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+accessible_django-1.0.0.dist-info/top_level.txt,sha256=Qh-zeHEGLAVHWaa7HVsRztDCWwfkfFx20zANyhsNZ0w,24
+accessible_django-1.0.0.dist-info/RECORD,,
