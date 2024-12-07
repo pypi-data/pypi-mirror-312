@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: circt
+Version: 1.95.2.dev48
+Summary: CIRCT Python Bindings
+Author: Mike Urbach
+Author-email: mikeurbach@gmail.com
