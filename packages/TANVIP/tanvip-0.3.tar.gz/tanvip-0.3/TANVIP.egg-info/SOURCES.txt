@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+TANVIP.egg-info/PKG-INFO
+TANVIP.egg-info/SOURCES.txt
+TANVIP.egg-info/dependency_links.txt
+TANVIP.egg-info/top_level.txt
