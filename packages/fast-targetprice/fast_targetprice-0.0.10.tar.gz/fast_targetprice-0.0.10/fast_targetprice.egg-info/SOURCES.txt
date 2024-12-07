@@ -1,0 +1,11 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+fast_targetprice/client.cp310-win_amd64.pyd
+fast_targetprice/idToItemName.pkl
+fast_targetprice/itemNameToId.pkl
+fast_targetprice.egg-info/PKG-INFO
+fast_targetprice.egg-info/SOURCES.txt
+fast_targetprice.egg-info/dependency_links.txt
+fast_targetprice.egg-info/not-zip-safe
+fast_targetprice.egg-info/top_level.txt
