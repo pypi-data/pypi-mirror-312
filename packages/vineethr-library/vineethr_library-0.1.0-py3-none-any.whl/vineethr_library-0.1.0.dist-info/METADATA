@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: vineethr-library
+Version: 0.1.0
+Summary: Vehicle Insurance Application
+Home-page: https://github.com/vineethram10/Car-Insurance
+Author: Vineeth
+Author-email: vinethrmkr@gmail.com
+License: MIT
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Django>=3.2
+Requires-Dist: Pymongo>=4.10.1
+Requires-Dist: Djangorestframework>=3.15.2
+Requires-Dist: Boto3>=1.35.71
+
+djangorestframework /
+
+
+boto3 /
+
+
+pymongo/
