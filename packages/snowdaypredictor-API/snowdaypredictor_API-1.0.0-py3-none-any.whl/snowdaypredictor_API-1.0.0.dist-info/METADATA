@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: snowdaypredictor-API
+Version: 1.0.0
+Summary: A Python package to predict snow day chances using snowdaypredictor.com
+Home-page: https://github.com/Roreos/SnowDayPredictor-API
+Author: Rorello Development
+Author-email: rorellodevelopment@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi>=0.104.1
+Requires-Dist: uvicorn>=0.24.0
+Requires-Dist: selenium>=4.15.2
+Requires-Dist: pydantic>=2.5.1
+Requires-Dist: pydantic-settings>=2.1.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: httpx>=0.25.2
+
+# Snow Day Predictor API
+
+A simple Python package that tells you if you're gonna get a snow day tomorrow by checking snowdaypredictor.com
+
+## Getting Started
+
+### What You Need
+1. Windows computer (that's all we support right now, sorry Mac/Linux folks!)
+2. Python 3.8 or newer
+3. Google Chrome browser
+4. Chrome WebDriver (don't worry, instructions below)
+
+### Setting Up Chrome WebDriver (it's easier than it sounds)
+
+1. First, check what version of Chrome you have:
+   - Open Chrome
+   - Click the three dots in the top-right corner
+   - Click Help, then About Google Chrome
+   - You'll see a number like "120.0.6099.130" - just remember the first part (like "120")
+
+2. Get the right WebDriver:
+   - Go to https://sites.google.com/chromium.org/driver/
+   - Download the version that matches your Chrome version
+   - Unzip the file somewhere on your computer
+   - Add that folder to your PATH (Google "add folder to PATH Windows" if you need help)
+
+### Installing the Package
+
+Just run this in your command prompt:
+
+```
+pip install snow
