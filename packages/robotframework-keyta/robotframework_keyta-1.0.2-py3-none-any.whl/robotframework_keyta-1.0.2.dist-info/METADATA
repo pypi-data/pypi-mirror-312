@@ -1,0 +1,38 @@
+Metadata-Version: 2.3
+Name: robotframework-keyta
+Version: 1.0.2
+Summary: A web UI for Robot Framework
+Author-email: "Marduk Bolanos, imbus Rheinland" <testautomatisierung@imbus.de>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: django~=4.2
+Requires-Dist: django-admin-sortable2==2.2.3
+Requires-Dist: django-jazzmin~=3.0
+Requires-Dist: django-select2~=8.2
+Requires-Dist: django-tinymce~=4.1
+Requires-Dist: Jinja2~=3.1
+Requires-Dist: pystray~=0.19
+Requires-Dist: robotframework
+
+# KeyTA
+
+(English translation will be available presumably in Q1 2025)
+
+KeyTA ist eine Web-UI für Robot Framework, die für Fachexperten gedacht ist.
+
+## Einrichtung
+
+Das Python-Paket lässt sich wie gewohnt mit pip installieren:
+
+```powershell
+pip install robotframework-keyta
+```
+
+Nach der Ausführung des Befehls `keyta` (bzw. `python -m keyta`) erscheint das KeyTA-Logo in der Taskleiste. Mit einem Klick auf das Symbol wird KeyTA im Webbrowser geöffnet.
+
+Die Verwendung der Webanwendung wird im [Tutorial](https://github.com/RF-KeyTA/KeyTA/blob/main/Tutorial.md) erklärt.
+
+## Weiterentwicklung
+
+KeyTA wurde von imbus für einen Kunden entwickelt. Neue Features können bei imbus via E-Mail (testautomatisierung at imbus de) bestellt werden.
+
