@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: practice_total_game
+Version: 0.1.0
+Summary: A collection of mini-games and utilities.
+Home-page: https://github.com/HongKiBum/practice_total_game
+Author: HongKiBum
+Author-email: hgb9720@hanyang.ac.kr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame
+Requires-Dist: kivy
+Requires-Dist: ultralytics
+Requires-Dist: mediapipe
+Requires-Dist: opencv-python-headless
+Requires-Dist: pytesseract
+Requires-Dist: Pillow
+Requires-Dist: SpeechRecognition
+
+# Practice Total Game
+
+This is a collection of games and utilities written in Python.

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+practice_total_game/__init__.py
+practice_total_game/practice_total_game.py
+practice_total_game.egg-info/PKG-INFO
+practice_total_game.egg-info/SOURCES.txt
+practice_total_game.egg-info/dependency_links.txt
+practice_total_game.egg-info/requires.txt
+practice_total_game.egg-info/top_level.txt
