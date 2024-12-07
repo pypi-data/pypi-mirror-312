@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: torchcolor
+Version: 0.0.1
+Summary: A lightweight Python package for PyTorch that enhances readability by color-coding module prints based on their trainable status.
+Author-email: Antoine Debouchage <antoine311200@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Provides-Extra: torch
+Requires-Dist: torch; extra == "torch"
