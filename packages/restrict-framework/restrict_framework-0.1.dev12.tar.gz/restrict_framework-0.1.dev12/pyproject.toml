@@ -1,0 +1,99 @@
+[tool.poetry]
+name = "restrict-framework"
+version = "0.1.dev12"
+description = "A functional resource-oriented Web framework"
+authors = ["Curtis Schlak"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://restrictframework.io"
+repository = "https://gitlab.com/restrict-framework/restrict.py"
+documentation = "https://restrictframework.io"
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Environment :: Web Environment",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+]
+packages = [{ include = "restrict" }]
+
+[tool.poetry.urls]
+"Issues" = "https://gitlab.com/restrict-framework/restrict.py/-/issues"
+
+[tool.poetry.plugins.'pygments.lexers']
+resource_lexer = 'restrict.compiler.lexers.pygments_resource_lexer:ResourceLexer'
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+starlette = { version = "^0.37.2", optional = true }
+python-multipart = { version = "^0.0.17", optional = true }
+itsdangerous = { version = "^2.2.0", optional = true }
+pynvim = "^0.5.2"
+
+
+[tool.poetry.extras]
+starlette = ["starlette", "python-multipart", "itsdangerous"]
+
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+pyclean = "^3.0.0"
+pytest-watcher = "^0.4.3"
+uvicorn = { extras = ["standard"], version = "^0.32.1" }
+
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+jupyter-book = "^1.0.0"
+
+
+[tool.poetry.group.coloring]
+optional = true
+
+[tool.poetry.group.coloring.dependencies]
+pygments = "^2.18.0"
+
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+pytest-cov = "^6.0.0"
+
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "--cov --cov-report html --cov-report term --cov-report xml:coverage.xml"
+
+[tool.coverage.run]
+omit = [
+  "./restrict/compiler/ply/*",
+  "./tests/*",
+  "./restrict/__init__.py",
+  "./*.out",
+  "./htmlcov/*",
+]
+
+[tool.black]
+line-length = 80
+
+[tool.pyright]
+include = [
+  "./restrict/resources",
+  "./restrict/compiler/parsers/",
+  "./restrict/compiler/lexers/",
+  "./restrict/types/",
+]
+
+[tool.ruff]
+target-version = "py312"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

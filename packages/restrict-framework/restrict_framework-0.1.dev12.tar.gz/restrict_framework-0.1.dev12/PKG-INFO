@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: restrict-framework
+Version: 0.1.dev12
+Summary: A functional resource-oriented Web framework
+Home-page: https://restrictframework.io
+License: MIT
+Author: Curtis Schlak
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: starlette
+Requires-Dist: itsdangerous (>=2.2.0,<3.0.0) ; extra == "starlette"
+Requires-Dist: pynvim (>=0.5.2,<0.6.0)
+Requires-Dist: python-multipart (>=0.0.17,<0.0.18) ; extra == "starlette"
+Requires-Dist: starlette (>=0.37.2,<0.38.0) ; extra == "starlette"
+Project-URL: Documentation, https://restrictframework.io
+Project-URL: Issues, https://gitlab.com/restrict-framework/restrict.py/-/issues
+Project-URL: Repository, https://gitlab.com/restrict-framework/restrict.py
+Description-Content-Type: text/markdown
+
+# RESTrict Framework
+
+Please see <https://restrictframework.io> for the most up-to-date documentation.
+
