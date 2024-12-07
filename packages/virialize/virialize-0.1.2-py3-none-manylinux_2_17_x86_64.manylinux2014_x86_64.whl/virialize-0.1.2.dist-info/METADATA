@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: virialize
+Version: 0.1.2
+License-File: LICENSE
+Summary: Calculates the osmotic second virial coefficient (B2), and dissociation constant (Kd), for two rigid (macro)molecules, e.g. globular proteins. Done by explicit summation of the partition function in six dimensions (angular space and rigid-body separation). Calvados 3 parameters for use with coarsed grained amino acids are provided, but any pair-wise additivie potential can be used.
+Keywords: pairwise_interaction,bioinformatics,virial_coefficient,dissociation_constant
+Author: Mikael Lund <lyssky@icloud.com>
+Author-email: Mikael Lund <lyssky@icloud.com>
+License: Apache-2.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Angular Scan
+
+This iterates over all intermolecular poses between two rigid molecules.
+For each pose, defined by two quaternions and a mass center separation, the
+intermolecular interaction energy is calculated.
+
+For each mass center separation, _r_, the partition function,
+$Q(r) = \sum e^{-\beta u(r)}$, is explicitly
+evaluated, whereby we can obtain the free energy, $w(r) = -kT \ln \langle e^{-\beta u(r)} \rangle$ and
+the thermally averaged energy, $u(r) = \sum u(r)e^{-\beta u(r)} / Q$.
+
+![Angular Scan](assets/illustration.png)
+
+## Usage
+
+The command-line tool `virialize` does the 6D scanning and calculates the potential of mean force, w(r) which
+is used to derive the 2nd virial coefficient and twobody dissociation constant.
+Two input structures are requires (`.xyz` format) and all particle types must be defined in the topology file.
+The topology files also defines the particular pair-potential to use. Note that currently, a coulomb potential
+is automatically added and should hence not be specified in the topology.
+
+```console
+virialize scan --icotable -1 cppm-p18.xyz -2 cppm-p00.xyz --rmin 40.5 --rmax 60 --dr 1.0 --top topology.yaml --resolution 0.6 --molarity 0.05
+```
+
+
