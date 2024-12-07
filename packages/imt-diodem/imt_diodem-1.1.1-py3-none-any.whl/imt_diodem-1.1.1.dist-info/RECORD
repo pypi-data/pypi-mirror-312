@@ -1,0 +1,16 @@
+diodem/__init__.py,sha256=wHb64Be0VhTXp6pxQoewyUPkRO-wHlxEfJrEn1SU6Wk,79
+diodem/_src.py,sha256=KED3Py1gn2FtndyivBdCkBRL8Bsj2o_DzQ03k7HZs1g,4709
+diodem/dataverse_github.py,sha256=ltEmkQhKC2Fyp4tJtgIadjEaBhAsYYiEOSMmEWPovFg,3891
+diodem/dataverse_response.json,sha256=EjpL5Q7tPbeS2_7z9bxzFo-8V9Lu4tAsh3JoWNIJnLE,434509
+diodem/test_dataverse_github.py,sha256=Oxa_qUVhXSPZVqHjNITtjNVhemjzYwy84kOP4IysUCI,810
+diodem/test_src.py,sha256=uPOj0UBx0IqfXWbpGnFbmRN1Cba9Obe2I93OY_3QhrU,563
+diodem/test_utils.py,sha256=-2JIhme690V_hZrXiI6SEdEkekdGAWXWejaDJ-FG0NE,2788
+diodem/utils.py,sha256=bLSuLkQE6Mi8oi4JiXfjloqai1BcPpiYgUaS7jbN8yk,4683
+diodem/benchmark/__init__.py,sha256=g6nyzgeCe5_21U3nCyNAZ4VueB01rx1awgQ6NwKlmkw,63
+diodem/benchmark/_benchmark.py,sha256=ogjQV1iUC4xS7_pKjrV7F9xEZofeUIPGqfsyQlsu_fE,6598
+diodem/benchmark/xmls/arm.xml,sha256=U8hsEhJ9gn0lRX5CAF9wTg0VQr_KEeMebnc92N8jpNQ,4466
+diodem/benchmark/xmls/gait.xml,sha256=_m_keCl3lrzf4IyqKCoLAiZwRRQKoMEoJUdN0-RagOc,4484
+imt_diodem-1.1.1.dist-info/METADATA,sha256=v8TUWklPi-TL1k7mHQQjcszEPrPTdI1rCHkMEV5TAeo,1912
+imt_diodem-1.1.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+imt_diodem-1.1.1.dist-info/top_level.txt,sha256=mSokHUwZZTwRCf_aECue0kXlSP6SZo0GjSKTo5qph5U,7
+imt_diodem-1.1.1.dist-info/RECORD,,
