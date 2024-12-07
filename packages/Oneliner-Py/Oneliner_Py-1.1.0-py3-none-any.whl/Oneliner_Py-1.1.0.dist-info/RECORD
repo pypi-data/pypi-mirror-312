@@ -1,0 +1,17 @@
+oneliner/__init__.py,sha256=va45MKLBCfk9kixRMF7aqi6b3AaMILZ8AGpn56CMuO0,539
+oneliner/__main__.py,sha256=ZEt-iDK5Pene0Y-oSRu2icsl2WXflD3mImhETaz1mh4,1278
+oneliner/convert.py,sha256=EVQwSDoXpYRVc-FAgbWfEH-4qZANKYuUaop_b8VDAhA,3040
+oneliner/expr_transform.py,sha256=yp6wehPPm9ENCFdcXEcBBSAnKbffid9GhG0GWDbchQ8,4558
+oneliner/expr_unparse.py,sha256=qw-qspVSQX6fC0DkbEasD5gK3LRq4tISgYjVAhhhGbY,13801
+oneliner/namespaces.py,sha256=ak4EUrj0_oyS-VEkQqIVfhluFbH_fTDG3qmefxvsRw4,13837
+oneliner/pending_nodes.py,sha256=VGuqlOcZmiZOWu4Cka0smSBby7yoyE7CbWajp4Py-aE,41702
+oneliner/reserved_identifiers.py,sha256=ImXyT-fjmAmCJXqobGUCH4u4vba_Jm0W6d02U2caOtk,893
+oneliner/utils.py,sha256=9r1BnBZUdcsvsbtTds1SVOqrsdKsDicqon0CeSweUq0,1143
+oneliner/version.py,sha256=11rNs3rcDfNxysFUqocWs7kdcz74OJ7K0Tcb3MiMWpc,41
+oneliner/presets/__init__.py,sha256=93cveCKA4gIKk2TCWqUGSlMjBnf_J98QD74IMvyRSbc,128
+oneliner/presets/iter_wrapper.py,sha256=mIgvjyiZoierMurfTMdvV4Dy2iuabGonoWYhS0MbZ-0,5767
+Oneliner_Py-1.1.0.dist-info/LICENSE,sha256=-qn-VnMA8MU6-WS9DCa83FsoIVXQaYLAOmfPnMlAEEE,1064
+Oneliner_Py-1.1.0.dist-info/METADATA,sha256=PR4urrMuQ00522w9B3V085G4kiQny-WVoISS5pQaVhs,3357
+Oneliner_Py-1.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+Oneliner_Py-1.1.0.dist-info/top_level.txt,sha256=Nj2T02H35J8pGA5HKSY8djhh5SZp9n7MWUJ_xVqpbGU,9
+Oneliner_Py-1.1.0.dist-info/RECORD,,
