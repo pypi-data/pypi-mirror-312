@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+examples/example.py
+examples/optimise_edges.ipynb
+src/selanneal/__init__.py
+src/selanneal/annealing.py
+src/selanneal/optimise.py
+src/selanneal/utils.py
+src/selanneal.egg-info/PKG-INFO
+src/selanneal.egg-info/SOURCES.txt
+src/selanneal.egg-info/dependency_links.txt
+src/selanneal.egg-info/requires.txt
+src/selanneal.egg-info/top_level.txt
