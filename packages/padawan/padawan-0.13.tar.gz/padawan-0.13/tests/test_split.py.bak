@@ -1,0 +1,63 @@
+import pytest
+import padawan
+import polars as pl
+import datetime
+
+from fixtures import (
+    datetime_sample,
+    output_dirs,
+)
+from utils import dataframe_from_schema, dataframe_eq
+
+
+def in_memory_split(ds, split_func):
+    df1 = []
+    df2 = []
+    for part in ds:
+        part1, part2 = split_func(part)
+        df1.append(part1.collect())
+        df2.append(part2.collect())
+    df1 = pl.concat(df1)
+    df2 = pl.concat(df2)
+    return df1, df2
+
+
+def test__split_write_parquet__sequential(datetime_sample, output_dirs):
+    def split_func(part):
+        return (
+            part.group_by('date').agg(count=pl.len()),
+            part.group_by('hour').agg(count=pl.len()),
+        )
+
+#     ds = padawan.scan_parquet(datetime_sample['path'])
+#     expected_df1, expected_df2 = in_memory_split(ds, split_func)
+#     ds.split_write_parquet(split_func, output_dirs)
+#     df1 = padawan.scan_parquet(output_dirs[0]).collect()
+#     df2 = padawan.scan_parquet(output_dirs[1]).collect()
+#     assert df1.equals(expected_df1)
+#     assert df2.equals(expected_df2)
+
+
+# def test__split_write_parquet__parallel(datetime_sample, output_dir):
+#     ds = (
+#         padawan.scan_parquet(datetime_sample['path'])
+#         .reindex(['date', 'hour', 't'], collect_stats=False)
+#         .write_parquet(output_dir, parallel=2)
+#     )
+#     assert ds.index_columns == ('date', 'hour', 't')
+#     assert ds.known_sizes is True
+#     assert ds.sizes == datetime_sample['sizes']
+#     assert ds.known_bounds is True
+#     assert ds.lower_bounds == datetime_sample['lower_bounds']
+#     assert ds.upper_bounds == datetime_sample['upper_bounds']
+# 
+#     ds = padawan.scan_parquet(output_dir)
+#     assert ds.index_columns == ('date', 'hour', 't')
+#     assert ds.known_sizes is True
+#     assert ds.sizes == datetime_sample['sizes']
+#     assert ds.known_bounds is True
+#     assert ds.lower_bounds == datetime_sample['lower_bounds']
+#     assert ds.upper_bounds == datetime_sample['upper_bounds']
+
+
+
