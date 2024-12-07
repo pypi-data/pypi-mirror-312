@@ -1,0 +1,8 @@
+usrnamegen/__init__.py,sha256=lWCZWJK0KHVWdBo1tiWpw17yLQV0UIEigQhA4SFkyVk,933
+usrnamegen/words/adjectives.txt,sha256=B4etQitdGjOaf4g8HKbDPkz7u3kjiSFDCm6gYoGulxU,10305
+usrnamegen/words/blacklist.txt,sha256=anrfKG6hiZ1Xun5fTZv4KJ-kTQMixAaixR_Ll2g-Fkg,52
+usrnamegen/words/nouns.txt,sha256=zG7BSvo98RW22Qq_lbNzqZp3D-rIQZzat4zP7WCGZt8,54668
+usrnamegen-0.5.0.dist-info/METADATA,sha256=ZhQ8YaraTD8kLRcTbldtIzgyXw6kx8REHqHPIgxf0AE,2057
+usrnamegen-0.5.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+usrnamegen-0.5.0.dist-info/licenses/LICENSE,sha256=PP5KI6Zssl7OC5KJRHJVFm4xDmImBIDA6X0SGywJKhU,1071
+usrnamegen-0.5.0.dist-info/RECORD,,
