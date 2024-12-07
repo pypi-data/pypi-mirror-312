@@ -1,0 +1,14 @@
+xf_burn_tools/CRC.py,sha256=3hku6ZE4mlAvjPaabJdeK20fyQSFvPB9ZXwizfvHwiw,6049
+xf_burn_tools/__init__.py,sha256=vB-FBZL1_7QWXKN2-UYoE6bTAGTthJ4QaSwWP5w7ScM,23
+xf_burn_tools/autoBurn.py,sha256=l5AN6HSWkdvmCs7ZymIQ6gh7T2aa3oE8GD8afK6lDow,1182
+xf_burn_tools/burn_tools.py,sha256=l5AN6HSWkdvmCs7ZymIQ6gh7T2aa3oE8GD8afK6lDow,1182
+xf_burn_tools/fwpkg.py,sha256=i2ZynSekmfrdvR8R1a1xCd04Zmpmw6sb6AHKUb-hgFo,2824
+xf_burn_tools/pymodem.py,sha256=eXvPmxKmXIH7FuPYxWRqWdb-eFgtaloXIIBQslC6hKw,3293
+xf_burn_tools/ws63flash.py,sha256=8mpGO5xA89kX-pyT6s2F-SoPjsfVAZ_SvlbkD4QR_vU,6827
+xf_burn_tools-0.3.0.data/data/LICENSE,sha256=z5DWWd5cHmQYJnq4BDt1bmVQjuXY1Qsp6y0v5ETCw-s,11360
+xf_burn_tools-0.3.0.dist-info/LICENSE,sha256=z5DWWd5cHmQYJnq4BDt1bmVQjuXY1Qsp6y0v5ETCw-s,11360
+xf_burn_tools-0.3.0.dist-info/METADATA,sha256=0Ledo3u6SxHgdesg8EGh7CWhgoSZI-uOUPF1Jw6XR58,1609
+xf_burn_tools-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xf_burn_tools-0.3.0.dist-info/entry_points.txt,sha256=x7J6mvbx8q-rZC6pyPO5LNeWdDqnbMRYU4neL-SMTlA,83
+xf_burn_tools-0.3.0.dist-info/top_level.txt,sha256=FDEQvd1PS4vTkwbzRGraeFPBP5lTSefW4-cWtzGD4mY,14
+xf_burn_tools-0.3.0.dist-info/RECORD,,
