@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/tp_package.egg-info/PKG-INFO
+src/tp_package.egg-info/SOURCES.txt
+src/tp_package.egg-info/dependency_links.txt
+src/tp_package.egg-info/requires.txt
+src/tp_package.egg-info/top_level.txt
