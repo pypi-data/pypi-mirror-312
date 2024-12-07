@@ -1,0 +1,2 @@
+[console_scripts]
+tinybird-mcp-claude = tinybird_mcp_claude:main
