@@ -1,0 +1,13 @@
+torchcolor/__init__.py,sha256=Fj0WZ5NcQvxRycEne65NsVHARAC-Gmtvox6DLpjh1rA,68
+torchcolor/color.py,sha256=SMfzsABrkUiv2pHzoYT7ecYV4uva2cWsU3D_M9FE634,3312
+torchcolor/gradient.py,sha256=eYhGIE6z_dJsp3XsStq8wNzgiqHqnOuUB46uwPatelA,2540
+torchcolor/palette.py,sha256=tzKmgoQ2Q1FVloRJPYyR1HxI5VF9vQp7Tiq4hr1OBK4,5376
+torchcolor/print.py,sha256=MY0hhwgSTJhZi4XJZQfnW-jBMQLFiEuvOwJM08nWdQE,822
+torchcolor/printer.py,sha256=_DnmE9rSZrlN5RwsPrJpEjfkn8WUke7HbIPOZbabAG4,4828
+torchcolor/strategy.py,sha256=LhDx0W32PjTR_EvX-TOjU71ZPUlolDzyG8gvFo2kKKs,3880
+torchcolor/style.py,sha256=UmUX8XUQUnqCHnUA6ujUmMVCWbHEfkm0GgdSrohm_CA,6670
+torchcolor-0.1.0.dist-info/LICENSE,sha256=hxSAIsI5mas2s0wN3PdfHWK2PQebBjMMZfuZJdBq0H0,1096
+torchcolor-0.1.0.dist-info/METADATA,sha256=h_FtinCl5ZZ1g8h2l6E3kj2MXhEZT0NaQelr_x1QlDQ,11708
+torchcolor-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+torchcolor-0.1.0.dist-info/top_level.txt,sha256=9jJ8AoGqaCG45-ZSMeI7lmJQj0xxas8RYUPRprmdBfQ,11
+torchcolor-0.1.0.dist-info/RECORD,,
