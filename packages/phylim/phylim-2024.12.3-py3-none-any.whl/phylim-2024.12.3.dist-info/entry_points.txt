@@ -1,0 +1,5 @@
+[cogent3.app]
+phylim=phylim.apps:phylim
+phylim_colour_edges=phylim.apps:phylim_colour_edges
+phylim_tree_to_likelihoodfunction=phylim.apps:phylim_tree_to_likelihoodfunction
+
