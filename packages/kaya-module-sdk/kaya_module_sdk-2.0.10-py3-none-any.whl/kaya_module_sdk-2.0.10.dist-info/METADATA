@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kaya_module_sdk
+Version: 2.0.10
+Summary: Kaya Module SDK.
+Home-page: https://wanolabs.com
+Author: WanoLabs
+Author-email: contact@wanolabs.com
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+# KayaModuleSDK
+
+Empty
