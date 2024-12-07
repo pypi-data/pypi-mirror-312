@@ -1,0 +1,10 @@
+patchman/__init__.py,sha256=rMAfsP6Hb75p993EYq2Er99BwmStgG2VR2FptTsBTiY,20
+patchman/cli.py,sha256=-Au_hKVg3My8NNvUFSZY-t-1GZJR1y2Zt1oCW4Iq9sc,2742
+patchman/manager.py,sha256=JsKokdS075zIsgpaL8j2iXR0sGVC9tdNrAX9wQ-TRF8,4279
+patchman/tui.py,sha256=OgqvKQi9GrlmSdCqOJAku6wWGyOS91qtO6be1P2ac7Q,1865
+git_patchman-1.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+git_patchman-1.0.dist-info/METADATA,sha256=hbc3LCRBrd4VVxGQFuxSbE_wUCdRgOZDQWCun0rRrYg,1602
+git_patchman-1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+git_patchman-1.0.dist-info/entry_points.txt,sha256=6oVitpXnw-WeYRx1DdrOBqCQTs1oCG_UaQrCO3R1s0Q,51
+git_patchman-1.0.dist-info/top_level.txt,sha256=exEE2j7GX0CIiiZ6h0yVrr3PQWCU_OK88DUU-ft5Cd8,9
+git_patchman-1.0.dist-info/RECORD,,
