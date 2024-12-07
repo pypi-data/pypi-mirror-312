@@ -1,0 +1,16 @@
+odoo/addons/mgmtsystem_info_security_manual/README.rst,sha256=lbHl_O70hgGK-qdWyzn59gUESlhvlmeADwCXzk-vKLw,3384
+odoo/addons/mgmtsystem_info_security_manual/__init__.py,sha256=7IBF3oB-qsWAnjCg67bdxEuofCoY8mIwQnpgyOpgtpk,975
+odoo/addons/mgmtsystem_info_security_manual/__manifest__.py,sha256=NU_kmcKNWKqY8jlp2Rshuh1nY3ld-mDXWTj69r_QwM8,1398
+odoo/addons/mgmtsystem_info_security_manual/data/information_security_manual.xml,sha256=vunsIuVP0yZtUtyFF4IXhjybgAcXAa9weE3H_vJjJ0s,1328
+odoo/addons/mgmtsystem_info_security_manual/i18n/it.po,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/mgmtsystem_info_security_manual/i18n/mgmtsystem_info_security_manual.pot,sha256=MSiEHPDUKhvGZ0dHQExrrZDUtp-bjziejrPpkzYMeWg,341
+odoo/addons/mgmtsystem_info_security_manual/i18n/sv.po,sha256=QNwqtJ03L7L3zc2_h0NR1jOSlPk1zDNzagMLFWVgtrw,411
+odoo/addons/mgmtsystem_info_security_manual/readme/CONTRIBUTORS.md,sha256=yrrtAVhlx04XfO-taQAS18fEsDgent9ajq6syPcyvfg,216
+odoo/addons/mgmtsystem_info_security_manual/readme/DESCRIPTION.md,sha256=aMkHbAai7g4tP0BRo0vlQUcVetw45l3AXTcPeLEwO8M,62
+odoo/addons/mgmtsystem_info_security_manual/readme/USAGE.md,sha256=PqhXEPydtXyFyKmehCn3F-JLDB74y-uG8GIOOupLeCQ,177
+odoo/addons/mgmtsystem_info_security_manual/static/description/icon.png,sha256=1xiufEjkQfoKXPitFY7FJq4rbmAX-qSAdAE-n9dEN40,2397
+odoo/addons/mgmtsystem_info_security_manual/static/description/index.html,sha256=9jaEkoAYa-nRI5XOODHuiUj8YEz9uAin4pYcoUgeWqw,13176
+odoo_addon_mgmtsystem_info_security_manual-17.0.1.0.0.2.dist-info/METADATA,sha256=59PU_zMRApVbcNEwGtIchr1IP-SmZwpAAlk9nGMkRt0,4012
+odoo_addon_mgmtsystem_info_security_manual-17.0.1.0.0.2.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_mgmtsystem_info_security_manual-17.0.1.0.0.2.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_mgmtsystem_info_security_manual-17.0.1.0.0.2.dist-info/RECORD,,
