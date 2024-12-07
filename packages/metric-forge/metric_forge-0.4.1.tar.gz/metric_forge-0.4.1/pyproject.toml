@@ -1,0 +1,29 @@
+[project]
+name = "metric-forge"
+version = "0.4.1"
+description = "The Ultimate Metric Library"
+readme = "README.md"
+authors = [
+    {name = "Jayden Rasband", email = "jayden.rasband@gmail.com"}
+]
+license = {text = "MIT"}
+classifiers = []
+dependencies = [
+    "polars",
+    "yfinance"
+]
+
+[project.urls]
+"Documentation" = "https://docs.metric-forge.com"
+"Source" = "https://github.com/jrasband-dev/metric-forge"
+"Changelog" = "https://github.com/jrasband-dev/metric-forge/releases"
+"Tracker" = "https://github.com/jrasband-dev/metric-forge/issues"
+
+"Contributors" = "https://github.com/jrasband-dev/metric-forge/graphs/contributors"
+"Repository Stats" = "https://github.com/jrasband-dev/metric-forge/pulse"
+"Download Stats" = "https://pypistats.org/packages/metric-forge"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
