@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+spdconv/SPDConv.py
+spdconv/__init__.py
+spdconv.egg-info/PKG-INFO
+spdconv.egg-info/SOURCES.txt
+spdconv.egg-info/dependency_links.txt
+spdconv.egg-info/requires.txt
+spdconv.egg-info/top_level.txt

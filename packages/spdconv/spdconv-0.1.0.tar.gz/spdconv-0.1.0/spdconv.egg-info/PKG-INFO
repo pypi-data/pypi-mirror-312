@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: spdconv
+Version: 0.1.0
+Summary: A custom SPDConv module for YOLO models
+Home-page: https://github.com/zhangxl2129/ultralytics-main
+Author: Zhang XiaoLong
+Author-email: zhangxl2129@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+
+# SPDConv
+
+This is a custom SPDConv module for YOLO models, designed to improve performance on specific tasks.
+
+## Installation
+
+You can install the SPDConv module via pip:
+
+```bash
+pip install spdconv
