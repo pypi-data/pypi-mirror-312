@@ -1,0 +1,298 @@
+Metadata-Version: 2.1
+Name: nodanapy
+Version: 1.0.1
+Summary: Package for determinig the Gas or Oil Wells' Nodal Analysis
+Author: Ever J. Ramos I.
+License:                    GNU LESSER GENERAL PUBLIC LICENSE
+                               Version 3, 29 June 2007
+        
+         Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+         Everyone is permitted to copy and distribute verbatim copies
+         of this license document, but changing it is not allowed.
+        
+        
+          This version of the GNU Lesser General Public License incorporates
+        the terms and conditions of version 3 of the GNU General Public
+        License, supplemented by the additional permissions listed below.
+        
+          0. Additional Definitions.
+        
+          As used herein, "this License" refers to version 3 of the GNU Lesser
+        General Public License, and the "GNU GPL" refers to version 3 of the GNU
+        General Public License.
+        
+          "The Library" refers to a covered work governed by this License,
+        other than an Application or a Combined Work as defined below.
+        
+          An "Application" is any work that makes use of an interface provided
+        by the Library, but which is not otherwise based on the Library.
+        Defining a subclass of a class defined by the Library is deemed a mode
+        of using an interface provided by the Library.
+        
+          A "Combined Work" is a work produced by combining or linking an
+        Application with the Library.  The particular version of the Library
+        with which the Combined Work was made is also called the "Linked
+        Version".
+        
+          The "Minimal Corresponding Source" for a Combined Work means the
+        Corresponding Source for the Combined Work, excluding any source code
+        for portions of the Combined Work that, considered in isolation, are
+        based on the Application, and not on the Linked Version.
+        
+          The "Corresponding Application Code" for a Combined Work means the
+        object code and/or source code for the Application, including any data
+        and utility programs needed for reproducing the Combined Work from the
+        Application, but excluding the System Libraries of the Combined Work.
+        
+          1. Exception to Section 3 of the GNU GPL.
+        
+          You may convey a covered work under sections 3 and 4 of this License
+        without being bound by section 3 of the GNU GPL.
+        
+          2. Conveying Modified Versions.
+        
+          If you modify a copy of the Library, and, in your modifications, a
+        facility refers to a function or data to be supplied by an Application
+        that uses the facility (other than as an argument passed when the
+        facility is invoked), then you may convey a copy of the modified
+        version:
+        
+           a) under this License, provided that you make a good faith effort to
+           ensure that, in the event an Application does not supply the
+           function or data, the facility still operates, and performs
+           whatever part of its purpose remains meaningful, or
+        
+           b) under the GNU GPL, with none of the additional permissions of
+           this License applicable to that copy.
+        
+          3. Object Code Incorporating Material from Library Header Files.
+        
+          The object code form of an Application may incorporate material from
+        a header file that is part of the Library.  You may convey such object
+        code under terms of your choice, provided that, if the incorporated
+        material is not limited to numerical parameters, data structure
+        layouts and accessors, or small macros, inline functions and templates
+        (ten or fewer lines in length), you do both of the following:
+        
+           a) Give prominent notice with each copy of the object code that the
+           Library is used in it and that the Library and its use are
+           covered by this License.
+        
+           b) Accompany the object code with a copy of the GNU GPL and this license
+           document.
+        
+          4. Combined Works.
+        
+          You may convey a Combined Work under terms of your choice that,
+        taken together, effectively do not restrict modification of the
+        portions of the Library contained in the Combined Work and reverse
+        engineering for debugging such modifications, if you also do each of
+        the following:
+        
+           a) Give prominent notice with each copy of the Combined Work that
+           the Library is used in it and that the Library and its use are
+           covered by this License.
+        
+           b) Accompany the Combined Work with a copy of the GNU GPL and this license
+           document.
+        
+           c) For a Combined Work that displays copyright notices during
+           execution, include the copyright notice for the Library among
+           these notices, as well as a reference directing the user to the
+           copies of the GNU GPL and this license document.
+        
+           d) Do one of the following:
+        
+               0) Convey the Minimal Corresponding Source under the terms of this
+               License, and the Corresponding Application Code in a form
+               suitable for, and under terms that permit, the user to
+               recombine or relink the Application with a modified version of
+               the Linked Version to produce a modified Combined Work, in the
+               manner specified by section 6 of the GNU GPL for conveying
+               Corresponding Source.
+        
+               1) Use a suitable shared library mechanism for linking with the
+               Library.  A suitable mechanism is one that (a) uses at run time
+               a copy of the Library already present on the user's computer
+               system, and (b) will operate properly with a modified version
+               of the Library that is interface-compatible with the Linked
+               Version.
+        
+           e) Provide Installation Information, but only if you would otherwise
+           be required to provide such information under section 6 of the
+           GNU GPL, and only to the extent that such information is
+           necessary to install and execute a modified version of the
+           Combined Work produced by recombining or relinking the
+           Application with a modified version of the Linked Version. (If
+           you use option 4d0, the Installation Information must accompany
+           the Minimal Corresponding Source and Corresponding Application
+           Code. If you use option 4d1, you must provide the Installation
+           Information in the manner specified by section 6 of the GNU GPL
+           for conveying Corresponding Source.)
+        
+          5. Combined Libraries.
+        
+          You may place library facilities that are a work based on the
+        Library side by side in a single library together with other library
+        facilities that are not Applications and are not covered by this
+        License, and convey such a combined library under terms of your
+        choice, if you do both of the following:
+        
+           a) Accompany the combined library with a copy of the same work based
+           on the Library, uncombined with any other library facilities,
+           conveyed under the terms of this License.
+        
+           b) Give prominent notice with the combined library that part of it
+           is a work based on the Library, and explaining where to find the
+           accompanying uncombined form of the same work.
+        
+          6. Revised Versions of the GNU Lesser General Public License.
+        
+          The Free Software Foundation may publish revised and/or new versions
+        of the GNU Lesser General Public License from time to time. Such new
+        versions will be similar in spirit to the present version, but may
+        differ in detail to address new problems or concerns.
+        
+          Each version is given a distinguishing version number. If the
+        Library as you received it specifies that a certain numbered version
+        of the GNU Lesser General Public License "or any later version"
+        applies to it, you have the option of following the terms and
+        conditions either of that published version or of any later version
+        published by the Free Software Foundation. If the Library as you
+        received it does not specify a version number of the GNU Lesser
+        General Public License, you may choose any version of the GNU Lesser
+        General Public License ever published by the Free Software Foundation.
+        
+          If the Library as you received it specifies that a proxy can decide
+        whether future versions of the GNU Lesser General Public License shall
+        apply, that proxy's public statement of acceptance of any version is
+        permanent authorization for you to choose that version for the
+        Library.
+Project-URL: Homepage, https://github.com/EverJRamosI
+Project-URL: Contact, https://www.linkedin.com/in/everjramosi/
+Project-URL: Source Code, https://github.com/EverJRamosI/nodanapy
+Project-URL: Bug Reports, https://github.com/EverJRamosI/nodanapy/issues
+Keywords: petroleum,petroleum-engineering,oil-and-gas,nodal-analysis,reservoir
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: petpropy
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+<div align="center" rol="img">
+<img src="https://raw.githubusercontent.com/EverJRamosI/nodanapy/main/docs/images/NODANAPY.png" width="250">
+</div>
+<br>
+
+![stars](https://img.shields.io/github/stars/EverJRamosI/nodanapy)
+![forks](https://img.shields.io/github/forks/EverJRamosI/nodanapy)
+![watchers](https://img.shields.io/github/watchers/EverJRamosI/nodanapy)
+![issues](https://img.shields.io/github/issues/EverJRamosI/nodanapy)
+![license](https://img.shields.io/github/license/EverJRamosI/nodanapy)
+
+# NodAnaPy
+
+NodAnaPy is the fundamental package petroleum, in this package you will find to determine the Well Nodal Analysis for oil and gas.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Theory](#theory)
+- [Dependencies](#dependencies)
+- [License](#license)
+
+## Installation
+You can install [NodAnaPy](https://github.com/EverJRamosI/nodanapy/tree/main/nodanapy) using pip:
+```bash
+pip install nodanapy
+```
+
+## Usage
+Here is a quick example of how to use NodAnaPy to calculate the optimal rate of an oil well.
+
+**INPUT**
+```python
+import matplotlib.pyplot as plt
+from nodanapy import WellNAOilR
+
+pr = 4500 # reservoir pressure
+tr = 140 + 460 # reservoir temperature
+ph = 140 # wellhead pressure
+th = 84 + 460 # wellhead temperature
+pb = 1500 # bubble pressure
+
+well = WellNAOilR(ph, th, pr, tr, pb)
+
+ipr_well = well.ipr
+vlp_well = well.vlp
+
+fig, (ax_ql, ax_qg, ax_qo) = plt.subplots(3, 1)
+
+ax_ql.set_xlabel('Ql(bbl/d)')
+ax_ql.set_ylabel('Pwf(psia)')
+ax_ql.plot(ipr_well.Ql, ipr_well.Pwf)
+ax_ql.plot(vlp_well.Ql, vlp_well.Pwf)
+    
+ax_qg.set_xlabel('Qg(Mscf/d)')
+ax_qg.set_ylabel('Pwf(psia)')
+ax_qg.plot(ipr_well.Qg, ipr_well.Pwf)
+ax_qg.plot(vlp_well.Qg, vlp_well.Pwf)
+    
+ax_qo.set_xlabel('Qo(bbl/d)')
+ax_qo.set_ylabel('Pwf(psia)')
+ax_qo.plot(ipr_well.Qo, ipr_well.Pwf)
+ax_qo.plot(vlp_well.Qo, vlp_well.Pwf)
+```
+**OUTPUT**
+
+![Well Nodal Analysis](https://raw.githubusercontent.com/EverJRamosI/nodanapy/main/docs/images/Figure.png)
+
+> Ql(bbl/d) vs Pwf(psia); Qg(Mscf/d) vs Pwf(psia); Qo(bbl/d) vs Pwf(psia)
+
+## Theory
+it will be to calculate inflow performance relationship (IPR) and vertical lift performance (VLP) curves for oil and gas wells. In addition, it will be to determine the holdup liquid well.
+
+<details>
+<summary>Click to expand the theory section.</summary>
+
+### Inflow Performance Relationship (IPR)
+The curve is calculated using the different correlations, for example:
+- Oil
+  - Vogel
+  - Fetkovich
+- Gas
+  - LIT
+  - Darcy
+
+### Vertical Lift Performance (VLP)
+The curve is calculated using the different correlations, for example:
+- Oil
+  - Hagedorn Brown
+  - Beggs and Brill
+- Gas
+  - Gray
+
+</details>
+
+## Dependencies
+NodAnaPy requires the following Python (=>3.12) libraries:
+1. PetProPy
+2. Numpy
+3. Scipy
+4. Pandas
+
+```bash
+pip install -r requirements.txt
+```
+
+## License
+This project is licensed under the GNU Lesser General Public License v3.0 - see the [LICENSE](https://github.com/EverJRamosI/nodanapy/blob/main/LICENSE) file for details.
+
+## API Documentation
+For detailed API documentation, please refer to the [official documentation](https://github.com/EverJRamosI/nodanapy)
