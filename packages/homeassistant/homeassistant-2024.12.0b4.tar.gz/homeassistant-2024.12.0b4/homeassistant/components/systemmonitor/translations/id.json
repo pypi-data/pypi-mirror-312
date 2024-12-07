@@ -1,0 +1,14 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Layanan sudah dikonfigurasi"
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "process": {
+                "name": "Proses {process}"
+            }
+        }
+    }
+}

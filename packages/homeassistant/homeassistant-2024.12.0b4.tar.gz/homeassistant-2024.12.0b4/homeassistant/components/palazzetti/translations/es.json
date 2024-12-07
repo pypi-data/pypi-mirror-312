@@ -1,0 +1,49 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "El dispositivo ya est\u00e1 configurado"
+        },
+        "error": {
+            "cannot_connect": "No se pudo conectar"
+        },
+        "step": {
+            "discovery_confirm": {
+                "description": "\u00bfQuieres a\u00f1adir {name} ({host}) a Home Assistant?"
+            },
+            "user": {
+                "data": {
+                    "host": "Host"
+                },
+                "data_description": {
+                    "host": "El nombre de host o la direcci\u00f3n IP de Palazzetti CBox"
+                }
+            }
+        }
+    },
+    "entity": {
+        "climate": {
+            "palazzetti": {
+                "state_attributes": {
+                    "fan_mode": {
+                        "state": {
+                            "auto": "Auto",
+                            "high": "Alto",
+                            "silent": "Silencioso"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "cannot_connect": {
+            "message": "No se pudo conectar al dispositivo."
+        },
+        "invalid_fan_mode": {
+            "message": "El modo de ventilador {value} no es v\u00e1lido."
+        },
+        "on_off_not_available": {
+            "message": "El aparato no se puede encender ni apagar."
+        }
+    }
+}
