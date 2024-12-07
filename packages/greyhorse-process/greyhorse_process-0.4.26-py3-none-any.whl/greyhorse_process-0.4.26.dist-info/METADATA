@@ -1,0 +1,48 @@
+Metadata-Version: 2.3
+Name: greyhorse-process
+Version: 0.4.26
+Summary: Greyhorse Process library
+Project-URL: Homepage, https://gitlab.com/max-plutonium/greyhorse
+Project-URL: Repository, https://gitlab.com/max-plutonium/greyhorse
+Author-email: Max Plutonium <plutonium.max@gmail.com>
+Maintainer-email: Max Plutonium <plutonium.max@gmail.com>
+License: MIT License
+Keywords: process,ssh
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Python: >=3.12
+Requires-Dist: asyncssh~=2.18.0
+Requires-Dist: greyhorse~=0.4.25
+Description-Content-Type: text/markdown
+
+Greyhorse process library
+=========================
+
+Greyhorse framework library for launch processes support
+
+
+How to build
+------------
+
+
+- Install the project
+
+    ``uv python pin 3.12.1``
+
+    ``uv venv``
+
+    ``uv sync``
+
+    ``source .venv/bin/activate``
+
+
+
+- Format code commands
+
+    ``ruff check --unsafe-fixes --fix``
+
+    ``ruff format``
