@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ovos-skill-iss-location
+Version: 0.2.10
+Summary: info about where is the space station and astronauts on board
+Home-page: https://github.com/OpenVoiceOS/ovos-skill-iss-location
+Author: OpenVoiceOS
+Author-email: jarbasai@mailfence.com
+License: Apache2.0
+Description: UNKNOWN
+Keywords: ovos skill plugin
+Platform: UNKNOWN
+Provides-Extra: gui
