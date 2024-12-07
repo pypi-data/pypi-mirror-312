@@ -1,0 +1,11 @@
+logic_superfence/__init__.py,sha256=DUf7dPSMEShtSbCwColOsVATHMtylzcBz3eoe1xeu_Y,103
+logic_superfence/formatter.py,sha256=KcEb9WfTCBb4JN4xSBflNlLz7mRxRlyELwHW2_RTtuw,623
+logic_superfence/plugin.py,sha256=FaVbM1qArXfPVRU6uTimWtgFKGJRaShE1rg_yVGMYqU,808
+logic_superfence/lib/bundle.js,sha256=wr_Kz7rowLRd2jUyddvp71q13_GW4KCpVWwnp7Kbrbo,687413
+logic_superfence/lib/bundle.js.map,sha256=5EKf1r7wW4zPKftstfw_J0gl5US4IFT62ZyX8uLLjAY,2182658
+logic_superfence-1.0.5.dist-info/COPYING,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+logic_superfence-1.0.5.dist-info/METADATA,sha256=Kr70xiNVu7Xb0K3twcMaTbExlrqIbVunNC9Zu1Gh54E,464
+logic_superfence-1.0.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+logic_superfence-1.0.5.dist-info/entry_points.txt,sha256=FXrm74OVdsZSGgsVd6Mzv6niZkDkF132mXVPlfm7KrI,60
+logic_superfence-1.0.5.dist-info/top_level.txt,sha256=vLlLaqDopbNdFiAiWBv6fbBg2Ged38dE8J5R5nfbEq0,17
+logic_superfence-1.0.5.dist-info/RECORD,,
