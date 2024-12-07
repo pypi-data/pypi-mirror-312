@@ -1,0 +1,199 @@
+Metadata-Version: 2.1
+Name: sql-helper
+Version: 0.0.21
+Summary: Helper funcs and tools for working with SQL in mysql, postgresql, and more
+Home-page: https://github.com/kenjyco/sql-helper
+Download-URL: https://github.com/kenjyco/sql-helper/tarball/v0.0.21
+Author: Ken
+Author-email: kenjyco@gmail.com
+License: MIT
+Keywords: sql,data,database,cli,command-line,sqlalchemy,mysql,postgresql,sqlite,helper,kenjyco
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: SQL
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+License-File: LICENSE.txt
+Requires-Dist: bg-helper
+Requires-Dist: click (>=6.0)
+Requires-Dist: cryptography
+Requires-Dist: psycopg2-binary (<3,>=2.8)
+Requires-Dist: settings-helper
+Requires-Dist: sqlalchemy (>=1.3)
+Requires-Dist: sqlalchemy (!=2.0.0,!=2.0.1,!=2.0.10,!=2.0.11,!=2.0.12,!=2.0.13,!=2.0.14,!=2.0.15,!=2.0.16,!=2.0.17,!=2.0.18,!=2.0.19,!=2.0.2,!=2.0.20,!=2.0.21,!=2.0.22,!=2.0.23,!=2.0.24,!=2.0.25,!=2.0.26,!=2.0.27,!=2.0.28,!=2.0.29,!=2.0.3,!=2.0.30,!=2.0.4,!=2.0.5.post1,!=2.0.6,!=2.0.7,!=2.0.8,!=2.0.9,>=1.3) ; python_version == "3.13"
+Requires-Dist: pymysql (!=1.0.0,>=0.9.3) ; python_version == "3.5"
+Requires-Dist: pymysql (>=0.9.3) ; python_version == "3.6"
+Requires-Dist: pymysql (>=1.1.1) ; python_version >= "3.7"
+
+About
+-----
+
+This is meant to be a simple way to explore a postgresql/mysql/sqlite
+database and get data out (super light wrapper to SQLAlchemy).
+
+Connect with DB url in the following formats:
+
+-  ``postgresql://someuser:somepassword@somehost[:someport]/somedatabase``
+-  ``mysql://someuser:somepassword@somehost[:someport]/somedatabase``
+-  ``sqlite:///somedb.db``
+
+..
+
+   Note: This package uses ``pymysql`` driver for connecting to mysql.
+   Urls that start with ``mysql://`` will automatically be changed to
+   use ``mysql+pymysql://``.
+
+Dependencies
+------------
+
+pg_config for postgresql
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+   Ensure the ``pg_config`` executable is on the system
+
+::
+
+   sudo apt-get install -y libpq-dev
+
+or
+
+::
+
+   brew install postgresql
+
+cryptography package
+^^^^^^^^^^^^^^^^^^^^
+
+If using Python 3.6, be sure to update pip to **at least version 19.3**
+(default pip is 18.1) so that the pre-compiled wheel for
+``cryptography`` can be used. Otherwise, you will need to install the
+`rust compiler <https://www.rust-lang.org>`__ so that the
+``cryptography`` dependency can be built
+(``curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y``)
+
+pymysql package
+^^^^^^^^^^^^^^^
+
+According to https://nvd.nist.gov/vuln/detail/CVE-2024-36039, pymysql
+versions below 1.1.1 are vulnerable to SQL injection. Version 1.1.1 is
+only available for Python 3.7+ (final version for Python 3.6 is 1.0.2;
+final working version for Python 3.5 is 0.9.3).
+
+Install
+-------
+
+::
+
+   pip3 install sql-helper
+
+Usage
+-----
+
+::
+
+   In [1]: from sql_helper import SQL
+
+   In [2]: sql = SQL('postgresql://someuser:somepassword@somehost/somedatabase')
+
+   In [3]: table_names = sql.get_tables()
+
+   In [4]: results = sql.execute('SELECT ...')
+
+Extra
+-----
+
+`Redshift <https://aws.amazon.com/redshift/>`__
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Install ``sqlalchemy-redshift`` wherever you installed ``sql-helper``
+
+::
+
+   venv/bin/pip3 install sqlalchemy-redshift
+
+Connect with DB url in the following format:
+
+-  ``redshift+psycopg2://someuser:somepassword@somehost/somedatabase``
+
+Test matrix
+-----------
+
+   Tested with the following python versions and dependency combinations
+   against postgres 13 and mysql 8.0 docker containers.
+
+::
+
+   venv_py3.5.10_psycopg2-binary2.8.6_pymysql0.10.1_sqlalchemy1.3.1
+   venv_py3.5.10_psycopg2-binary2.8.6_pymysql0.10.1_sqlalchemy1.3.24
+   venv_py3.5.10_psycopg2-binary2.8.6_pymysql0.9.3_sqlalchemy1.3.1
+   venv_py3.5.10_psycopg2-binary2.8.6_pymysql0.9.3_sqlalchemy1.3.24
+   venv_py3.5.10_psycopg2-binary2.8_pymysql0.10.1_sqlalchemy1.3.1
+   venv_py3.5.10_psycopg2-binary2.8_pymysql0.10.1_sqlalchemy1.3.24
+   venv_py3.5.10_psycopg2-binary2.8_pymysql0.9.3_sqlalchemy1.3.1
+   venv_py3.5.10_psycopg2-binary2.8_pymysql0.9.3_sqlalchemy1.3.24
+
+   venv_py3.6.15_psycopg2-binary2.8.6_pymysql0.10.1_sqlalchemy1.3.24
+   venv_py3.6.15_psycopg2-binary2.8.6_pymysql0.10.1_sqlalchemy1.4.54
+   venv_py3.6.15_psycopg2-binary2.8.6_pymysql0.9.3_sqlalchemy1.3.24
+   venv_py3.6.15_psycopg2-binary2.8.6_pymysql0.9.3_sqlalchemy1.4.54
+   venv_py3.6.15_psycopg2-binary2.8.6_pymysql1.0.2_sqlalchemy1.3.24
+   venv_py3.6.15_psycopg2-binary2.8.6_pymysql1.0.2_sqlalchemy1.4.54
+   venv_py3.6.15_psycopg2-binary2.9.8_pymysql0.10.1_sqlalchemy1.3.24
+   venv_py3.6.15_psycopg2-binary2.9.8_pymysql0.10.1_sqlalchemy1.4.54
+   venv_py3.6.15_psycopg2-binary2.9.8_pymysql0.9.3_sqlalchemy1.3.24
+   venv_py3.6.15_psycopg2-binary2.9.8_pymysql0.9.3_sqlalchemy1.4.54
+   venv_py3.6.15_psycopg2-binary2.9.8_pymysql1.0.2_sqlalchemy1.3.24
+   venv_py3.6.15_psycopg2-binary2.9.8_pymysql1.0.2_sqlalchemy1.4.54
+
+   venv_py3.7.17_psycopg2-binary2.9.9_pymysql1.1.1_sqlalchemy1.3.24
+   venv_py3.7.17_psycopg2-binary2.9.9_pymysql1.1.1_sqlalchemy1.4.54
+   venv_py3.7.17_psycopg2-binary2.9.9_pymysql1.1.1_sqlalchemy2.0.2
+   venv_py3.7.17_psycopg2-binary2.9.9_pymysql1.1.1_sqlalchemy2.0.36
+
+   venv_py3.8.20_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy1.3.24
+   venv_py3.8.20_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy1.4.54
+   venv_py3.8.20_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy2.0.2
+   venv_py3.8.20_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy2.0.36
+
+   venv_py3.9.20_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy1.3.24
+   venv_py3.9.20_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy1.4.54
+   venv_py3.9.20_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy2.0.2
+   venv_py3.9.20_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy2.0.36
+
+   venv_py3.10.15_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy1.3.24
+   venv_py3.10.15_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy1.4.54
+   venv_py3.10.15_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy2.0.2
+   venv_py3.10.15_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy2.0.36
+
+   venv_py3.11.10_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy1.3.24
+   venv_py3.11.10_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy1.4.54
+   venv_py3.11.10_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy2.0.2
+   venv_py3.11.10_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy2.0.36
+
+   venv_py3.12.7_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy1.3.24
+   venv_py3.12.7_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy1.4.54
+   venv_py3.12.7_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy2.0.2
+   venv_py3.12.7_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy2.0.36
+
+   venv_py3.13.0_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy1.3.24
+   venv_py3.13.0_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy1.4.54
+   venv_py3.13.0_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy2.0.31
+   venv_py3.13.0_psycopg2-binary2.9.10_pymysql1.1.1_sqlalchemy2.0.36
+
+
