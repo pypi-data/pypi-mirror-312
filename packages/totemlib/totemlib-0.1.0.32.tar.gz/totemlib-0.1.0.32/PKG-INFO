@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: totemlib
+Version: 0.1.0.32
+Summary: Base library for general uses
+Author: Totem Bear
+Author-email: info@totembear.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Requires-Dist: jproperties==2.1.2
+Requires-Dist: setuptools==75.6.0
+Requires-Dist: six==1.16.0
+Requires-Dist: wheel==0.45.1
