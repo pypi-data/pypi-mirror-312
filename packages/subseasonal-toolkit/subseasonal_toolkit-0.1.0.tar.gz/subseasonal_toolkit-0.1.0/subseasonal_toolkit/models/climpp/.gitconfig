@@ -1,0 +1,24 @@
+[core]
+attributesfile = ~/.gitattributes_global
+
+[filter "clean_ipynb3"]
+clean = "jq --indent 1 \
+        '(.cells[] | select(has(\"outputs\")) | .outputs) = []  \
+        | (.cells[] | select(has(\"execution_count\")) | .execution_count) = null  \
+        | .metadata = {\"language_info\": {\"name\": \"python\", \"nbconvert_exporter\": \"python\", \"pygments_lexer\": \"ipython3\"}} \
+        | .cells[].metadata = {} \
+        '"
+smudge = cat
+required = true
+
+[filter "clean_ipynb2"]
+clean = "jq --indent 1 \
+        '(.cells[] | select(has(\"outputs\")) | .outputs) = []  \
+        | (.cells[] | select(has(\"execution_count\")) | .execution_count) = null  \
+        | .metadata = {\"language_info\": {\"name\": \"python\", \"nbconvert_exporter\": \"python\", \"pygments_lexer\": \"ipython2\"}} \
+         | .cells[].metadata = {} \
+        '"
+smudge = cat
+required = true
+[credential]
+	helper = osxkeychain
