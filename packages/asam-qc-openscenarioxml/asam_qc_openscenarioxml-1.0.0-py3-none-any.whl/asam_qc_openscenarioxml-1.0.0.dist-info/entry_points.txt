@@ -1,0 +1,3 @@
+[console_scripts]
+qc_openscenario=qc_openscenario.main:main
+
