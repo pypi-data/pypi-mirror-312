@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+send_whatsapp_package/__init__.py
+send_whatsapp_package/send_whatsapp.py
+send_whatsapp_package.egg-info/PKG-INFO
+send_whatsapp_package.egg-info/SOURCES.txt
+send_whatsapp_package.egg-info/dependency_links.txt
+send_whatsapp_package.egg-info/entry_points.txt
+send_whatsapp_package.egg-info/requires.txt
+send_whatsapp_package.egg-info/top_level.txt
