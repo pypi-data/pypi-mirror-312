@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: millenniumdb_driver
+Version: 1.0.0
+Summary: The official MillenniumDB driver for Python
+Home-page: https://github.com/MillenniumDB/MillenniumDB-driver-python
+Author: Vicente Calisto, Matías Maldonado
+Author-email: Vicente Calisto <vecalisto@uc.cl>, Matías Maldonado <matiasmaldonado@uc.cl>
+Project-URL: Bug Tracker, https://github.com/MillenniumDB/MillenniumDB-driver-python/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: pandas
