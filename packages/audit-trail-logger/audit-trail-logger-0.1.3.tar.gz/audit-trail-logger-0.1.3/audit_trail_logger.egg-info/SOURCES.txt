@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+audit_trail_logger.egg-info/PKG-INFO
+audit_trail_logger.egg-info/SOURCES.txt
+audit_trail_logger.egg-info/dependency_links.txt
+audit_trail_logger.egg-info/requires.txt
+audit_trail_logger.egg-info/top_level.txt
+auditlog/__init__.py
+auditlog/decorators.py
+auditlog/models.py
+migrations/__init__.py
+test/test_decorator.py
+test/test_models.py
