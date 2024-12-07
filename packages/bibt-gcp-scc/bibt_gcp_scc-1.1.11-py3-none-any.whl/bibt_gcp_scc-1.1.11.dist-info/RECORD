@@ -1,0 +1,8 @@
+bibt/gcp/scc/__init__.py,sha256=sqJJX4hkV_X5-SE8Aoz3XPsvdN1GAYejFakT1oU_6dQ,884
+bibt/gcp/scc/classes.py,sha256=pHCYqe_vaH9WG3V1JlgH-5GhvFeUhGVylCpxYyNTLAE,2882
+bibt/gcp/scc/methods.py,sha256=pfz1pfKyvFDE62NRg1HPJrelLfYnozArGCy9JXZvVPQ,19893
+bibt/gcp/scc/version.py,sha256=onvMxIPKVCA4yl5UqyZ5erfVCfX2V2Tl84vB4lkYg0M,23
+bibt_gcp_scc-1.1.11.dist-info/METADATA,sha256=35S5myuuxJ9R112uth4hZ9lyP5YyTeIs4jo_w6PZXmA,2544
+bibt_gcp_scc-1.1.11.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+bibt_gcp_scc-1.1.11.dist-info/licenses/LICENSE,sha256=epnB9a7mCEhC0EaX3ub51YmLFi_lWd6lhQ5Upted0NE,1054
+bibt_gcp_scc-1.1.11.dist-info/RECORD,,
