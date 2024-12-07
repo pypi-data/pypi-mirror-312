@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+unlimited_message.egg-info/PKG-INFO
+unlimited_message.egg-info/SOURCES.txt
+unlimited_message.egg-info/dependency_links.txt
+unlimited_message.egg-info/requires.txt
+unlimited_message.egg-info/top_level.txt
+watsappmod/__init__.py
+watsappmod/send_whats_app.py
