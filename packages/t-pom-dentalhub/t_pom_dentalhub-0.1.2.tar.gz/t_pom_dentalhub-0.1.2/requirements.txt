@@ -1,0 +1,2 @@
+rpaframework==28.6.3
+t-page-object==0.1.8
