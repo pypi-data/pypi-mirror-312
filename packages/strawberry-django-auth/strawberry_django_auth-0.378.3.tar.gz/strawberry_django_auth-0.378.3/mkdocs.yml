@@ -1,0 +1,79 @@
+site_name: Strawberry Django Auth
+site_description: GraphQL authentication for Django
+site_url: https://nrbnlulu.github.io/strawberry-django-auth/
+site_author: nir benlulu
+repo_name: nrbnlulu/strawberry-django-auth
+repo_url: https://github.com/nrbnlulu/strawberry-django-auth
+
+theme:
+  name: material
+  language: en
+  palette:
+  - scheme: default
+    primary: red
+    accent: green
+    toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+  - scheme: slate
+    primary: green
+    accent: red
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to dark mode
+
+  logo: images/logo.png
+  favicon: images/logo.png
+  features:
+    - content.code.annotate
+    -
+extra:
+  analytics:
+    provider: google
+    property: G-XYFSBNLH00
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - toc:
+      permalink: true
+  - pymdownx.caret
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - markdownextradata:
+        data: docs/data
+
+dev_addr: 127.0.0.1:7000
+
+nav:
+  - Start here: index.md
+  - Tutorial: tutorial.md
+  - directives: directives.md
+  - Overriding email templates: overriding-email-templates.md
+  - Relay: relay.md
+  - Captcha: captcha.md
+  - Settings: settings.md
+  - API: api.md
+  - Contributing: contributing.md
+  - Changelog: changelog.md
+  - Contributors: contributors.md
