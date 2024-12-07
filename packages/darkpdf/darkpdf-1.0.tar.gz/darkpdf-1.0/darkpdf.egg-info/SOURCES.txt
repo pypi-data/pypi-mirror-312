@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+darkpdf/__init__.py
+darkpdf/pdf2json.py
+darkpdf/pdf2txt.py
+darkpdf.egg-info/PKG-INFO
+darkpdf.egg-info/SOURCES.txt
+darkpdf.egg-info/dependency_links.txt
+darkpdf.egg-info/top_level.txt
