@@ -1,0 +1,14 @@
+Jinja2
+PyYAML>=3.13
+fasteners
+packaging
+pbr>=1.8
+python-jenkins>=1.8.2
+setuptools
+six>=1.9.0
+
+[:(python_version < '3.0')]
+stevedore<2,>=1.17.1
+
+[:(python_version >= '3.0')]
+stevedore>=1.17.1
