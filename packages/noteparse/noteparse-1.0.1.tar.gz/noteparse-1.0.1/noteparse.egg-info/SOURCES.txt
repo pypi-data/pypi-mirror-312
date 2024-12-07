@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+noteparse.egg-info/PKG-INFO
+noteparse.egg-info/SOURCES.txt
+noteparse.egg-info/dependency_links.txt
+noteparse.egg-info/entry_points.txt
+noteparse.egg-info/requires.txt
+noteparse.egg-info/top_level.txt
+src/__init__.py
+src/dataHelper.py
+src/dbHelper.py
+src/parse.py
+src/parseService.py
