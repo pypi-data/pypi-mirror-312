@@ -1,0 +1,18 @@
+name: Black Formatting
+
+on:
+  push:
+
+jobs:
+  black:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+
+      - name: Install Dependencies
+        run: make install
+
+      - name: Test Formatting
+        run: make black_check

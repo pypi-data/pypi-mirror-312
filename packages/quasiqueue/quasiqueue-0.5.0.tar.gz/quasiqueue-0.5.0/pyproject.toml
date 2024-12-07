@@ -1,0 +1,68 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=67.0", "setuptools_scm[toml]>=7.1"]
+
+[project]
+authors = [{"name" = "Robert Hafner"}]
+dependencies = [
+  "psutil",
+  "pydantic~=2.0",
+  "pydantic-settings",
+  "typer>=0.9.0",
+]
+description = "A Simple High Performance Multiprocess Queue"
+dynamic = ["version"]
+license = {"file" = "LICENSE"}
+name = "quasiqueue"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = [
+  "build",
+  "dapperdata",
+  "glom",
+  "mypy",
+  "pytest",
+  "pytest-asyncio",
+  "pytest-cov",
+  "pytest-pretty",
+  "ruamel.yaml",
+  "ruff",
+  "toml-sort",
+  "types-psutil",
+]
+
+[project.scripts]
+quasiqueue = "quasiqueue.cli:app"
+
+[tool.ruff]
+exclude = [".venv", "./quasiqueue/_version.py"]
+line-length = 120
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"]}
+
+[tool.setuptools.package-data]
+quasiqueue = ["py.typed"]
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.setuptools_scm]
+fallback_version = "0.0.0-dev"
+write_to = "quasiqueue/_version.py"
+
+[tool.coverage.run]
+concurrency = ["multiprocessing"]
+omit = [
+  "quasiqueue/__init__.py",
+  "quasiqueue/_version.py",
+  "quasiqueue/cli.py",
+  "tests/*",
+]
+parallel = true
+sigterm = true
+
+[tool.pytest.ini_options]
+asyncio_default_fixture_loop_scope = "function"
