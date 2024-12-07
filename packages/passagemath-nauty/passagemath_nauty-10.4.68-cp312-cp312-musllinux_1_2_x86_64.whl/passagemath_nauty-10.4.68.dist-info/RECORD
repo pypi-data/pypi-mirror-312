@@ -1,0 +1,7 @@
+passagemath_nauty-10.4.68.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+passagemath_nauty-10.4.68.dist-info/RECORD,,
+passagemath_nauty-10.4.68.dist-info/METADATA,sha256=mXx-6rF5b9-6qAcFup9jzzwRKMEzMx59X8AsLcCSU8c,4751
+passagemath_nauty-10.4.68.dist-info/WHEEL,sha256=0YqoKpIYqm37NqpTXnSSuBR8luVWM2UMssZySUeF554,112
+sage/all__sagemath_nauty.py,sha256=SLTdQ24FkWpV82IEqM0hPJE-qTz4lYWJ5750LbKvaDg,85
+sage/libs/all__sagemath_nauty.py,sha256=TJUnD4qkguVZddTyDamYirCycFUhTTMnCvB-55py53Q,44
+sage/libs/nauty.cpython-312-x86_64-linux-musl.so,sha256=ZbCQHI5SVADzDUYqnKdwvl2wb-Iz1qkAD1VL9wgrjOA,67200
