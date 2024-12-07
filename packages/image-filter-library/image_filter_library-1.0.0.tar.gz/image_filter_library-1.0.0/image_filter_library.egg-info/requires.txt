@@ -1,0 +1,5 @@
+Pillow
+fer
+opencv-python-headless
+tensorflow
+moviepy>=1.0.3
