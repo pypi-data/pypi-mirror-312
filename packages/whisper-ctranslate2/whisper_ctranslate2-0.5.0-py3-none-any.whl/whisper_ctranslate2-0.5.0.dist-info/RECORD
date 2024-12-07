@@ -1,0 +1,17 @@
+src/whisper_ctranslate2/audio.py,sha256=CLDWSAiOTDFy8Wr5FE8AjRb-PDUKldzuNoh-4hX6cNw,4936
+src/whisper_ctranslate2/commandline.py,sha256=r9eV_h6gehgePILJd7F7P9j3JixN8Wlu58-JNmBI-18,15767
+src/whisper_ctranslate2/diarization.py,sha256=x0SnlJLQNYSj4lxvs1Ch08Ew-p0gKr4xuw86dJmq-SE,3569
+src/whisper_ctranslate2/languages.py,sha256=0OZGH6YMv6LPvjq7V_YNpt9XmK3Hu_XGUdRJ3IuhsXA,2892
+src/whisper_ctranslate2/live.py,sha256=WgQvKoU5CLdf-WyP816y1kZX805GORyaFWXB11oajpw,5406
+src/whisper_ctranslate2/live_old.py,sha256=AEi45mbTycUqw5oQY_HFtoJgj8tP7YA7TX5nYIjmDPw,5343
+src/whisper_ctranslate2/livetest.py,sha256=wkDlP1qp41VyJnYAv01LLlhbYYUNfq8AOwOZi1ZFYGk,7153
+src/whisper_ctranslate2/transcribe.py,sha256=NqESZvq8bqE6g15CrKi1qzT19eEMhmV-Xfemn4PqpYQ,7409
+src/whisper_ctranslate2/version.py,sha256=LBK46heutvn3KmsCrKIYu8RQikbfnjZaj2xFrXaeCzQ,22
+src/whisper_ctranslate2/whisper_ctranslate2.py,sha256=rNVlDPojzSgoeknDW01pTEwNjatpOoiTiNGTDE6eWOM,9870
+src/whisper_ctranslate2/writers.py,sha256=z4-ZCS1hZ8qhDphVbQLgdBIc3CaKWpINgavTFsl_qCE,10211
+whisper_ctranslate2-0.5.0.dist-info/LICENSE,sha256=fgVgP4GS9lRk3cMciqIJSbjN3bHVBUZ13SrozrlRe0E,1066
+whisper_ctranslate2-0.5.0.dist-info/METADATA,sha256=jHSWYocYYLp-6dW9b1ddojIsyzfgH1C9JX4HwTYUN9s,8113
+whisper_ctranslate2-0.5.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+whisper_ctranslate2-0.5.0.dist-info/entry_points.txt,sha256=54ubaob2QkaIDOqdY7TUxqf7c-aKv0Yg9RakPSbEdbo,89
+whisper_ctranslate2-0.5.0.dist-info/top_level.txt,sha256=rEH14k9I2CCSx_FJpijDQa-2locJSGhaCDV0g62ro5w,24
+whisper_ctranslate2-0.5.0.dist-info/RECORD,,
