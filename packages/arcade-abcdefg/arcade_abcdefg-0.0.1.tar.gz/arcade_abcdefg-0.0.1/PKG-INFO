@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: arcade_abcdefg
+Version: 0.0.1
+Summary: LLM tools for saying hello
+Author: EricGustin
+Author-email: eric@arcade-ai.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: arcade-ai (==0.1.*)
