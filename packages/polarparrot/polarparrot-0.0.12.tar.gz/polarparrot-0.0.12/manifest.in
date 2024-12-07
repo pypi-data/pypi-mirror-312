@@ -1,0 +1,2 @@
+include README.md
+recursive-include polarparrot *.yaml *.sql *.json *.txt *.py
