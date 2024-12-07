@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+better_test_preview.egg-info/PKG-INFO
+better_test_preview.egg-info/SOURCES.txt
+better_test_preview.egg-info/dependency_links.txt
+better_test_preview.egg-info/top_level.txt
+src/__init__.py
+src/better-test-preview/__init__.py
+src/better-test-preview/main.py
