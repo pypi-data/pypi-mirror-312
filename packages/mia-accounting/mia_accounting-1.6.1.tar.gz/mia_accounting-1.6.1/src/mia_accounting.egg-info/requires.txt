@@ -1,0 +1,10 @@
+Flask
+SQLAlchemy>=2
+Flask-SQLAlchemy
+Flask-WTF
+Flask-Babel>=3
+Flask-Babel-JS
+
+[devel]
+httpx>=0.20.0
+OpenCC
