@@ -1,0 +1,8 @@
+bibt/gcp/iam/__init__.py,sha256=oHT9F2HcRRf1wjon1KUDF_rTyPcoDFJDpxOwzs1HguQ,98
+bibt/gcp/iam/classes.py,sha256=cf4AaH4xSNFXw1Gx5KVU9aAkI6uScxszuDgvOmsfYlg,6847
+bibt/gcp/iam/params.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bibt/gcp/iam/version.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+bibt_gcp_iam-0.1.4.dist-info/METADATA,sha256=XK2XBw7K58u5MsLHieHHYNf0hnPN4i5FXY4subI7Xjo,2150
+bibt_gcp_iam-0.1.4.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+bibt_gcp_iam-0.1.4.dist-info/licenses/LICENSE,sha256=TDV6yQwODf_uwPkwskEh6wKRZ1gN2dzn22Dv6Gl0VsE,1054
+bibt_gcp_iam-0.1.4.dist-info/RECORD,,
