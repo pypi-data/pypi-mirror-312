@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: quickfilereader
+Version: 0.1.0
+Summary: A library for reading files in one line.
+Home-page: https://github.com/Manu-world/quickfilereader.git
+Author: Manu Adam Akimidis
+Author-email: manu.softwareengineer@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyPDF2>=3.0.1
+Requires-Dist: Spire.Doc>=12.7.1
+Requires-Dist: pandas>=2.2.3
+
+# quickfilereader
+A library for quick file reading. 
