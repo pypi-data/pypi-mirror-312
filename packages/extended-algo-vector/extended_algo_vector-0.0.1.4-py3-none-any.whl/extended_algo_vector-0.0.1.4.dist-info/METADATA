@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: extended-algo-vector
+Version: 0.0.1.4
+Summary: wrapper for vector algo that supports the extended-chart and strategy discovery
+Home-page: https://github.com/karunkrishna/extended_algo_vector
+Author: Karun Krishna
+Author-email: karun.krishna@gmail.com
+License: MIT
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: python-dotenv
+Requires-Dist: extended-chart
+Requires-Dist: tqdm
+Requires-Dist: pyarrow
+Requires-Dist: SQLAlchemy
+Requires-Dist: mysqlclient
+Requires-Dist: setuptools
+Requires-Dist: ib-async
+
