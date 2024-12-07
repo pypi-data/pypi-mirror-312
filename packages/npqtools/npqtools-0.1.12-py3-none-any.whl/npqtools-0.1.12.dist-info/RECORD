@@ -1,0 +1,13 @@
+npqtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npqtools/problems/PrintGraph.py,sha256=Hr0WeL1GsQO9GbwGUO1Xmv3-4HW4P-MlyGdsZ0ZYHjQ,4581
+npqtools/problems/QuboClique.py,sha256=0GaMQJouCj_eYcu-zJpRpg6FfXvDurU2JLl721SqTDE,1391
+npqtools/problems/QuboHam.py,sha256=zm8qnkSCA7Hgxb_H8AhmZY1DlMwZXcCF95TE_o43hMc,1692
+npqtools/problems/QuboKnapsack.py,sha256=VifjRruPdj7KmRhEFWRqXX2RzWLIcxa8rHFWs1rdp6U,1871
+npqtools/problems/QuboMaxWeightClique.py,sha256=bhSvJWYv_TZR7-0qlQVjs2EWeGsrbzT3dl-06JiE5LQ,1321
+npqtools/problems/QuboSalesman.py,sha256=GlyI7O2BppOQSDC5SjQpAaZKzbR33FSX_d40OFv7ajA,2220
+npqtools/problems/__init__.py,sha256=c50A_ZIpaa5dWfX-iBSvv9gQKkd9x1Tp2fk5CMPJrAk,371
+npqtools-0.1.12.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npqtools-0.1.12.dist-info/METADATA,sha256=g4HqMfrIaGocWrCYPCKVrBha7DrQz0WQy7k2wIRXgFA,1227
+npqtools-0.1.12.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+npqtools-0.1.12.dist-info/top_level.txt,sha256=SGyPeOfjaHkUQMwMvDcOaxogW4u4Ky5J_Y5GnkC7JEY,9
+npqtools-0.1.12.dist-info/RECORD,,
