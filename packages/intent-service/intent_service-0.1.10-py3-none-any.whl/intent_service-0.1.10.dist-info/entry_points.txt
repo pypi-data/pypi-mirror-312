@@ -1,0 +1,4 @@
+[console_scripts]
+intent-cli = cli:app
+intent-service = run_service:main
+upload-model = ml.scripts.upload_model:app
