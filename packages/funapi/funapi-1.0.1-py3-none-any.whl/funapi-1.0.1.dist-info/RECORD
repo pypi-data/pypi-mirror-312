@@ -1,0 +1,9 @@
+funapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funapi/convert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funapi/generate/__init__.py,sha256=qfs2XTb8viAK4A1gsEUas90e-TOXjmAi_wpXZvQ8_Lo,59
+funapi/generate/core.py,sha256=E-8Fr8zda-RN_yydVSUuYBjJL7fIqlMFEPkJUrqFgH0,2057
+funapi-1.0.1.dist-info/LICENSE,sha256=kFhh2Ic-COMui7QuYjzcmt7EtGdwmfJv310FysTA1xs,1066
+funapi-1.0.1.dist-info/METADATA,sha256=U_-QQ963_VyyaRDLQhqPxXsVw6foVkoi-euZXJXzcyA,256
+funapi-1.0.1.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+funapi-1.0.1.dist-info/top_level.txt,sha256=5GsLOgr-KMGvuYSbCpDSKIxiWamutxpinFbVIzdKulM,7
+funapi-1.0.1.dist-info/RECORD,,
