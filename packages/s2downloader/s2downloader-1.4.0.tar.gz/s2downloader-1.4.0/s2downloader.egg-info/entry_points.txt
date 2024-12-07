@@ -1,0 +1,2 @@
+[console_scripts]
+s2downloader = s2downloader.s2downloader_cli:main
