@@ -1,0 +1,13 @@
+bbo/__init__.py,sha256=dJ9JJzdoVUTcJz1y50wwUUr7jyJQzmARrz1aJYD7Yl4,72
+bbo/dicts.py,sha256=TeJHBW1OJFTOID7n2yb2W7-FX0WAYawaivEK7k80fkY,384
+bbo/exceptions.py,sha256=3r0OYYqMfKq7P8DFKeIfRcGtlEncQ9be-XAEiGRW37U,43
+bbo/geometry.py,sha256=_phh6KEKNsmgi6v7vLjBoh7-AiIs7wLWtN2EgW7ZU3E,30472
+bbo/header.py,sha256=yMIK-6KA6FK8ku72ejzoYvZT0-lDBsUvFfng-hHUVek,3553
+bbo/label_lib.py,sha256=o63kRuEUe356hB-jS7HAC81lfK4J8yyR84Ng0EQSAkQ,26230
+bbo/path_management.py,sha256=rAgOsvWBd31RP1R12cuSMem0ZSjOqT_wHZY1Ny82wsU,5925
+bbo/test_geometry.py,sha256=diA6B8QMHd5VwzVU3YRnxbzXTOXEIg4e9RC6N6YrnNs,9360
+bbo/yaml.py,sha256=rOoK8-sDV0NnRhrC7DKpzskc_FaMVtfe6sSF63Pq3qE,3856
+bbo_bbo-0.3.15.dist-info/METADATA,sha256=d4ePkOGIcKEIGMyDwtvPYMmrvngwKn8PLQHD64rCF2Y,446
+bbo_bbo-0.3.15.dist-info/WHEEL,sha256=aO3RJuuiFXItVSnAUEmQ0yRBvv9e1sbJh68PtuQkyAE,105
+bbo_bbo-0.3.15.dist-info/licenses/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+bbo_bbo-0.3.15.dist-info/RECORD,,
