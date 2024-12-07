@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: usfmtc
+Version: 0.2.3
+Summary: USFM reference parser
+Author-email: USFM Technical Committee <fonts@sil.org>
+License: Copyright © 2022-2023 by the members of the USFM/USX technical committee, listed below:
+        
+        - Martin Hosken, SIL International
+        - Jeff Klassen, United Bible Societies
+        - Joel Mathew, Bridge Connectivity Solutions
+        - John Wickberg, SIL International, Paratext
+        - Jonathan Robie, Clear Bible
+        - Kent Spielmann, Biblica
+        
+        All specifications, documentation, schemas, and data are licensed under Creative Commons Attribution 4.0:
+        
+        https://creativecommons.org/licenses/by/4.0/
+        
+        All code in this project is licensed under the MIT license:
+        
+        https://opensource.org/license/mit/
+        
+        This code can be found in the following directories:
+        
+        - python
+        
+Project-URL: Home-Page, https://github.com/usfm-bible/tcdocs
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing :: Markup
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: lxml
+Requires-Dist: rply
+Requires-Dist: regex
+Provides-Extra: git
+
+# usfmtc
+
+Unified Standard Format Markup is the primary file format for the source of
+bible translations. It is available in 3 serializations: USFM which is a simple
+text markup using TeX style backslash codes to mark the various elements; USX
+which is an XML serialization and USJ which is a JSON serialization.
+
+The usfmtc package contains parsers and generators for USFM, USX and USJ. There
+are two parsers and generators for USFM: validating and non validating.
+
+The package comes with a script: usfmconv that can read any of the 3 file
+formats and output to any of the 3 file formats.
+
+The primary entry point for python is the usfmtc module:
+
+```
+from usfmtc import readFile
+
+usfmdoc = readFile(infile)
+usfmdoc.saveAs(outfile)
+```
+
