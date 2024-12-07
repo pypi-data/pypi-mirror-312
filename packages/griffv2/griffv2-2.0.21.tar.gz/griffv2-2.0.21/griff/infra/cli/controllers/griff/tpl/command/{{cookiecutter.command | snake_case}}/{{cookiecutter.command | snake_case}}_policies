@@ -1,0 +1,10 @@
+from griff.appli.policies.policy import Policy
+from griff.utils.errors import ConflictError
+
+class {{cookiecutter.aggregate | pascal_case}}VerifieUnTrucError(ConflictError):
+    ...
+
+# à renommer
+class {{cookiecutter.aggregate | pascal_case}}VerifieUnTrucPolicy(Policy):
+    async def check(self, **kwargs) -> None:
+        pass
