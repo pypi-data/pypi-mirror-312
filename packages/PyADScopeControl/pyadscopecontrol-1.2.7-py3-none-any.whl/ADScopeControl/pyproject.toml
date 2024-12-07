@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ADScopeControl"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"./pyproject.toml" = "./ADScopeControl/pyproject.toml"
+
+[project]
+name = "PyADScopeControl"
+version = "1.2.7"
+authors = [
+  { name="Christoph Schmidt", email="cschmidt.fs@gmail.com" },
+]
+description = "A UI for controlling the Analog Discovery Series"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    'matplotlib',
+    'numpy',
+    'pandas',
+    'PySide6',
+    'scipy',
+    'rich',
+    'pyqtgraph',
+    'toml',
+    'PySide6WidgetCollection>=1.0.2', # important, otherwise AboutDialog is not available
+    'confPy6',
+    'mpPy6'
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/agentsmith29/PyADScopeControl"
