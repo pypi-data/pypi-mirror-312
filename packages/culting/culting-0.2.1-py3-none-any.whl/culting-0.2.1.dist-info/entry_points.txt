@@ -1,0 +1,2 @@
+[console_scripts]
+culting = culting:__main__.main
