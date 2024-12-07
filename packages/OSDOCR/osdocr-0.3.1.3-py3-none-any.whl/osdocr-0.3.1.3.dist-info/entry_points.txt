@@ -1,0 +1,8 @@
+[console_scripts]
+clean_ocr=OSDOCR.commands.posprocessing.clean_ocr:main
+ocr_editor=OSDOCR.commands.gui.ocr_editor:main
+ocr_to_article=OSDOCR.commands.output.articles:main
+ocr_to_simple=OSDOCR.commands.output.simple:main
+osdocr=OSDOCR:main
+validate_ocr=OSDOCR.commands.validation:main
+
